@@ -7,7 +7,8 @@
 Затем:
   python -I tools/extract/code_strings.py <decomp>
 
-Ищутся строки, которые попадают на экран: присваивания .text, UseText.ChangeUseText, уведомления,
+Ищутся строки, которые попадают на экран: присваивания .text и локальных title/details/text,
+подписи строки управления ("C)DRAG & DROP"), UseText.ChangeUseText, уведомления,
 предупреждения строительного меню, useMessage/title, [Description] у перечислений, подсказки карточных игр,
 return в методах вида Get...Text/Title/Name/Message. Склейки "A: " + x и $"...{x}..." превращаются
 в шаблоны "A: {0}". Это кандидаты: что из них реально видно игроку, решается при переводе.
@@ -33,7 +34,14 @@ SINKS = [
     re.compile(r"ShowNotification\((?P<e>.+)\);\s*$"),
     re.compile(r"\b(?:useMessage|UseMessage|title|objectName|noRequiredItemsText|cantUseText)\s*=\s*(?P<e>.+);\s*$"),
     re.compile(r"\b(?:AddText|AddList|HintContent|ShowLine|ShowHint|SetHint)\((?P<e>.+)\)"),
+    # Локальные переменные, из которых потом собирается текст окна или подсказки (PlayerStatsToolTipInfo и т.п.).
+    re.compile(r"^\s*(?:string\s+)?(?:title|details|description|message|msg|info|label|tooltip|header|"
+               r"unlockedMsg|lockedMsg|warning|hint|text\d*)\s*\+?=\s*(?P<e>.+);\s*$"),
+    # Подписи строки управления: KeyCodeInfoToString(text, "DRAG & DROP", ...).
+    re.compile(r"KeyCodeInfoToString\(\s*\w+\s*,\s*(?P<e>\"[^\"]*\")"),
 ]
+# '... + ")EXIT"': подпись после клавиши; сама строка управления переводится по частям (TextTranslator).
+KEY_LABEL = re.compile(r'"\)([A-Z][A-Za-z0-9 /&:.+\-]*?)\s*"')
 DESCRIPTION = re.compile(r'\[Description\("(?P<s>(?:[^"\\]|\\.)*)"\)\]')
 METHOD = re.compile(r"^\s*(?:public|private|protected|internal)\s+(?:static\s+|override\s+|virtual\s+)*string\s+(?P<n>\w+)\s*\(")
 UI_METHOD = re.compile(r"(Text|Title|Name|Message|Description|String|Label|Info|Status|Reason|Response|Tooltip|ToolTip|Hint|Unit)", re.I)
@@ -180,6 +188,8 @@ def scan(decomp):
                 if '"' not in line or BAD_CONTEXT.search(line):
                     continue
                 exprs = []
+                for label in KEY_LABEL.findall(line):
+                    add(label.strip(), where, line.strip())
                 for rx in SINKS:
                     m = rx.search(line)
                     if m:

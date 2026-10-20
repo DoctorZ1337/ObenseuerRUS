@@ -15,6 +15,12 @@ namespace ObenseuerRUS.Core
         private const int CacheLimit = 8192;
         private const int MaxDepth = 3;
         private static readonly Regex Tag = new Regex(@"<[^<>\n]{1,96}>", RegexOptions.CultureInvariant);
+        // Строка управления: "C)DRAG & DROP   R)DROP   Tab)EXIT" — подсказки разделены несколькими пробелами.
+        private static readonly Regex Gap = new Regex("( {2,})", RegexOptions.CultureInvariant);
+        private static readonly Regex KeyHint = new Regex(@"^([^()\s]{1,16})\)(\S.*)$", RegexOptions.CultureInvariant);
+        private const string TrailingPunctuation = "!?.:…";
+        // Сколько частей с латиницей осталось без перевода — по нему видно, полный ли вышел перевод по шаблону.
+        private int untranslatedParts, templateUses;
         private readonly Catalog catalog;
         private readonly List<Template> templates;
         private readonly Dictionary<string, string> cache = new Dictionary<string, string>(StringComparer.Ordinal);
@@ -52,6 +58,36 @@ namespace ObenseuerRUS.Core
             if (hit != null || depth >= MaxDepth) return hit;
             if (text.IndexOf('\n') >= 0) return Join(text.Split('\n'), "\n", depth);
             if (text.IndexOf('<') >= 0 && Tag.IsMatch(text)) return Runs(text, depth);
+            int start = 0, end = text.Length;
+            while (start < end && char.IsWhiteSpace(text[start])) start++;
+            while (end > start && char.IsWhiteSpace(text[end - 1])) end--;
+            if (start == end) return null;
+            if (start > 0 || end < text.Length)
+            {
+                string inner = Core(text.Substring(start, end - start), depth + 1);
+                return inner == null ? null : text.Substring(0, start) + inner + text.Substring(end);
+            }
+            if (text.IndexOf("  ", StringComparison.Ordinal) > 0) return Join(Gap.Split(text), "", depth);
+            Match key = KeyHint.Match(text);
+            if (key.Success)
+            {
+                string label = Core(key.Groups[2].Value, depth + 1);
+                if (label != null) return (Whole(key.Groups[1].Value, MaxDepth) ?? key.Groups[1].Value) + ")" + label;
+            }
+            // "(Steal)" — UseText сам добавляет скобки вокруг подписи из таблицы.
+            if (text.Length > 2 && text[0] == '(' && text[text.Length - 1] == ')')
+            {
+                string inner = Core(text.Substring(1, text.Length - 2), depth + 1);
+                if (inner != null) return "(" + inner + ")";
+            }
+            // "Thirst!" — PlayerStatUI дописывает знак к названию показателя.
+            int stem = text.Length;
+            while (stem > 0 && TrailingPunctuation.IndexOf(text[stem - 1]) >= 0) stem--;
+            if (stem > 0 && stem < text.Length)
+            {
+                string inner = Core(text.Substring(0, stem), depth + 1);
+                if (inner != null) return inner + text.Substring(stem);
+            }
             int colon = text.IndexOf(": ", StringComparison.Ordinal);
             if (colon > 0 && colon <= 48)
             {
@@ -75,15 +111,36 @@ namespace ObenseuerRUS.Core
             string lead = text.Substring(0, start), trail = text.Substring(end);
             if (core.Length != text.Length && catalog.Exact.TryGetValue(core, out t)) return lead + t + trail;
             if (catalog.ExactIgnoreCase.TryGetValue(core, out t)) return lead + MatchCase(core, t) + trail;
-            if (depth < MaxDepth)
+            if (depth >= MaxDepth) return null;
+            // Подходящих шаблонов бывает несколько ("Tenement {0}" и "{0} (Empty)" для "Tenement resources (Empty)").
+            // Лучший — без непереведённых частей и с наименьшим числом вложенных шаблонов: его части нашлись в каталоге целиком.
+            int startMisses = untranslatedParts, startUses = templateUses;
+            string best = null;
+            int bestMisses = int.MaxValue, bestUses = int.MaxValue;
+            foreach (Template template in templates)
             {
-                foreach (Template template in templates)
+                untranslatedParts = startMisses;
+                templateUses = startUses;
+                string r = template.TryApply(core, part =>
                 {
-                    string r = template.TryApply(core, part => HasLatinLetter(part) ? (Core(part, depth + 1) ?? part) : part);
-                    if (r != null) return lead + r + trail;
+                    if (!HasLatinLetter(part)) return part;
+                    string tp = Core(part, depth + 1);
+                    if (tp == null) untranslatedParts++;
+                    return tp ?? part;
+                });
+                if (r == null) continue;
+                int misses = untranslatedParts - startMisses, uses = templateUses - startUses;
+                if (misses < bestMisses || (misses == bestMisses && uses < bestUses))
+                {
+                    best = r;
+                    bestMisses = misses;
+                    bestUses = uses;
+                    if (misses == 0 && uses == 0) break;
                 }
             }
-            return null;
+            untranslatedParts = startMisses + (best == null ? 0 : bestMisses);
+            templateUses = startUses + (best == null ? 0 : bestUses + 1);
+            return best == null ? null : lead + best + trail;
         }
 
         private string Join(string[] parts, string separator, int depth)
@@ -93,7 +150,11 @@ namespace ObenseuerRUS.Core
             {
                 if (!HasLatinLetter(parts[i])) continue;
                 string t = Core(parts[i], depth + 1);
-                if (t == null) continue;
+                if (t == null)
+                {
+                    untranslatedParts++;
+                    continue;
+                }
                 parts[i] = t;
                 changed = true;
             }
@@ -118,6 +179,7 @@ namespace ObenseuerRUS.Core
         private bool AppendRun(StringBuilder sb, string run, int depth)
         {
             string t = HasLatinLetter(run) ? Core(run, depth + 1) : null;
+            if (t == null && HasLatinLetter(run)) untranslatedParts++;
             sb.Append(t ?? run);
             return t != null;
         }

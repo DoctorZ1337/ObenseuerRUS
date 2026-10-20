@@ -54,6 +54,14 @@
     {"id": "manual/time/clock", "kind": "template", "source": "Clock is {0}", "target": "На часах {0}", "status": "translated", "context": "Lua TellTimeResponse (варианты 4–5)"},
     {"id": "manual/time/now", "kind": "template", "source": "Now it's {0}", "target": "Сейчас {0}", "status": "translated", "context": "Lua TellTimeResponse (варианты 6–7)"},
     {"id": "manual/crime/hours", "kind": "template", "source": "{0}h", "target": "{0} ч", "status": "translated", "context": "Lua GetSentenceLengthPreArrest"},
-    {"id": "manual/bank/loan", "kind": "template", "source": "{0} with a payment time of {1} months and an interest of {2}%", "target": "{0} со сроком выплаты {1} мес. и ставкой {2}%", "status": "translated", "context": "Lua GetLoanDetailsDialogue"}
+    {"id": "manual/bank/loan", "kind": "template", "source": "{0} with a payment time of {1} months and an interest of {2}%", "target": "{0} со сроком выплаты {1} мес. и ставкой {2}%", "status": "translated", "context": "Lua GetLoanDetailsDialogue"},
+    {"id": "manual/addiction/withdrawal", "kind": "template", "source": "Your {0} addiction widthdrawal symptoms are about to start soon", "target": "Скоро начнётся ломка: {0}", "status": "translated", "context": "TreatmentAddictions"},
+    {"id": "manual/addiction/high", "kind": "template", "source": "You're very addicted to {0}", "target": "Сильная зависимость: {0}", "status": "translated", "context": "TreatmentAddictions"},
+    {"id": "manual/addiction/moderate", "kind": "template", "source": "You have a moderate {0} addiction", "target": "Умеренная зависимость: {0}", "status": "translated", "context": "TreatmentAddictions"},
+    {"id": "manual/addiction/normal", "kind": "template", "source": "You have {0}", "target": "У вас {0}", "status": "translated", "context": "TreatmentAddictions"},
+    {"id": "manual/list/and", "kind": "template", "source": "{0} and {1}", "target": "{0} и {1}", "status": "translated", "context": "перечисление из двух частей (TreatmentAddictions и др.)"},
+    {"id": "manual/save/slot", "kind": "template", "source": "Slot {0}", "target": "Слот {0}", "status": "translated", "context": "LoadMenu: название слота"},
+    {"id": "manual/save/autosave", "kind": "template", "source": "Autosave {0}", "target": "Автосохр. {0}", "status": "translated", "context": "LoadMenu: название слота автосохранения"},
+    {"id": "manual/save/corrupted", "kind": "template", "source": "Corrupted: {0}", "target": "Повреждено: {0}", "status": "translated", "context": "LoadMenu: панель сведений о слоте"}
   ]
 }

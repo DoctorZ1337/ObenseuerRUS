@@ -73,6 +73,25 @@ namespace ObenseuerRUS.Tests
         }
 
         [Fact]
+        public void Composed_ui_strings_are_translated_by_parts()
+        {
+            var tr = Make(Text("Steal", "Украсть"), Text("Thirst", "Жажда"), Text("DRAG & DROP", "ПЕРЕТАЩИТЬ"),
+                          Text("DROP", "ВЫБРОСИТЬ"), Text("EXIT", "ВЫХОД"));
+            Assert.Equal("(Украсть)", tr.Translate("(Steal)"));
+            Assert.Equal("Жажда!", tr.Translate("Thirst!"));
+            Assert.Equal("C)ПЕРЕТАЩИТЬ   R)ВЫБРОСИТЬ   Tab)ВЫХОД", tr.Translate("C)DRAG & DROP   R)DROP   Tab)EXIT"));
+        }
+
+        [Fact]
+        public void Template_that_translates_everything_wins()
+        {
+            var tr = Make(Tpl("Tenement {0}", "Доходный дом {0}"), Tpl("{0} (Empty)", "{0} (пусто)"),
+                          Text("Tenement resources", "Ресурсы доходного дома"));
+            Assert.Equal("Ресурсы доходного дома (пусто)", tr.Translate("Tenement resources (Empty)"));
+            Assert.Equal("Доходный дом B", tr.Translate("Tenement B"));
+        }
+
+        [Fact]
         public void Template_rejects_unknown_slot_in_target()
         {
             Assert.Throws<System.IO.InvalidDataException>(() => new Template("Buy {0}", "Купить {1}"));

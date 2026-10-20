@@ -54,6 +54,16 @@ def entries():
     tpl("crime/hours", "{0}h", "{0} ч", "Lua GetSentenceLengthPreArrest", "lua")
     tpl("bank/loan", "{0} with a payment time of {1} months and an interest of {2}%",
         "{0} со сроком выплаты {1} мес. и ставкой {2}%", "Lua GetLoanDetailsDialogue", "lua")
+    # Заключение врача о зависимостях (TreatmentAddictions.cs) собирается из этих частей; списки — через " and ".
+    tpl("addiction/withdrawal", "Your {0} addiction widthdrawal symptoms are about to start soon", "Скоро начнётся ломка: {0}", "TreatmentAddictions")
+    tpl("addiction/high", "You're very addicted to {0}", "Сильная зависимость: {0}", "TreatmentAddictions")
+    tpl("addiction/moderate", "You have a moderate {0} addiction", "Умеренная зависимость: {0}", "TreatmentAddictions")
+    tpl("addiction/normal", "You have {0}", "У вас {0}", "TreatmentAddictions")
+    tpl("list/and", "{0} and {1}", "{0} и {1}", "перечисление из двух частей (TreatmentAddictions и др.)")
+    # Слоты сохранений (LoadMenu.GetSlotDisplayName): между словом и номером неразрывный пробел, как в игре.
+    tpl("save/slot", "Slot {0}", "Слот {0}", "LoadMenu: название слота")
+    tpl("save/autosave", "Autosave {0}", "Автосохр. {0}", "LoadMenu: название слота автосохранения")
+    tpl("save/corrupted", "Corrupted: {0}", "Повреждено: {0}", "LoadMenu: панель сведений о слоте")
     return out
 
 

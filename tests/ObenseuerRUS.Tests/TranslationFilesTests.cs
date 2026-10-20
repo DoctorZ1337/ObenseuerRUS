@@ -28,6 +28,11 @@ namespace ObenseuerRUS.Tests
         [InlineData("Account: 250 OC", "Счёт: 250 OC")]
         [InlineData("BRICK", "КИРПИЧ")]
         [InlineData("Pod 18", "Капсула 18")]
+        [InlineData("Tenement resources (Empty)", "Ресурсы доходного дома (пусто)")]
+        [InlineData("(Steal)", "(Украсть)")]
+        [InlineData("Thirst!", "Жажда!")]
+        [InlineData("C)DRAG & DROP   R)DROP   Q)SWITCH TAB   X)USE ITEM   Tab)EXIT", "C)ПЕРЕТАЩИТЬ   R)ВЫБРОСИТЬ   Q)СМЕНИТЬ ВКЛАДКУ   X)ИСПОЛЬЗОВАТЬ   Tab)ВЫХОД")]
+        [InlineData("You're very addicted to alcohol and nicotine.", "Сильная зависимость: алкоголь и никотин.")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));
