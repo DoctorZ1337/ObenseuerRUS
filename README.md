@@ -5,6 +5,8 @@
 > который никак не может погрузиться в эту замечательную игру без русского языка.
 > Привет, Никита!
 > Буду обновлять и изменять по возможности (возможно даже ручками), поэтому не стесняйтесь [скидывать огрехи перевода](https://github.com/DoctorZ1337/ObenseuerRUS/issues)
+>
+> *This translation was made with the help of AI and a huge love for Loiste's work <3*
 
 Неофициальный перевод Obenseuer на русский язык: интерфейс, предметы, задания, записки и диалоги.
 Мод сделан на [Obenseuer Modding Framework](https://github.com/NomadsReach/Obenseuer-Modding-Framework) и не изменяет файлы игры:
