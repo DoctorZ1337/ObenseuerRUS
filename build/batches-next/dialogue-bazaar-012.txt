@@ -1,0 +1,216 @@
+# conv 435: Bazaar/Casino/Casper Colikke Mailanen Back
+1|Casper Colikke|Well?\,\, I don't see any\, money in your\, hands.
+2|P|I have the money
+3|Casper Colikke|Hmh?\,\, Like\, at least 100000 RM?
+4|P|Right here (100000 RM)
+5|Casper Colikke|Oh...\,\, you really got the money from that\, idiot?
+6|Casper Colikke|That's…
+7|Casper Colikke|... excellent.
+8|Casper Colikke|I didn't think you'd be\, more efficient than my\, own security.
+9|Casper Colikke|Here\,\,, you can keep this for\, an absolutely efficient job.
+10|Casper Colikke|And\, because of\, how well you handled this…
+11|Casper Colikke|I want to\, offer you a job\, as my\, security\,\,, alongside the useless\, Raimo.
+12|Casper Colikke|And\, take this.\,\, It's...\,\, uh...\,\, exclusive VIP gift.
+13|Casper Colikke|If you're\, interested\,, of course.
+14|P|Yeah, I'm in
+15|P|Depends on the pay. What's the offer?
+16|Casper Colikke|Excellent choice.
+17|Casper Colikke|Raimo!\,\, I hired you a\, partner to cover for your\, incompetence!
+18|Casper Colikke|Unlock the door!
+19|Casper Colikke|Anyway\,\,, talk to Raimo about the details of\, your job.
+20|Casper Colikke|Well\,\,, I let Raimo handle those\, things.
+21|Casper Colikke|Oh\,\,, well…
+22|Casper Colikke|And\, again\,\,, thank you for your\, service.
+23|Casper Colikke|He'll tell you\, the details...
+24|Casper Colikke|... then\, I suppose I need to\, have a serious talk with Raimo\, about his\, 'security etiquette' or\, whatever.
+25|P|Actually, I don't have the money
+26|P|Well, you might need a drink for this
+27|Casper Colikke|A drink?\,\,\, What are you\, talking about?
+28|P|Mailanen doesn't have the money
+29|Casper Colikke|Doesn't have\, the money?\,\, I'm not sure\, what you're trying to\, say.\,\, Why wouldn't he\, have it?
+30|P|Here (Give Poisoned Socca Junior)
+31|P|Here (Show Red Mushroom Extract)
+32|P|I'll explain later (Leave)
+33|P|The bank manager took the rest of the money
+34|Casper Colikke|Oh\,\,, so\, Mailanen expects me to\, believe\, a bank manager\, robbed him?
+35|Casper Colikke|Does he think\, I'm a complete idiot?
+36|Casper Colikke|What makes you\, think\, he's telling the\, truth?
+37|P|I cut off his fingers (Show Jar of Dirt)
+38|Casper Colikke|Huh...
+39|Casper Colikke|... that's\, brutal\,\,, but\, efficient!\,\, Excellent job!
+40|Casper Colikke|But\, honestly...\,\, cowards will spin\, any lie\, to make the pain stop.
+41|Casper Colikke|I need\, actual\,, solid\, proof of\, why a manager\, would pull a\, stunt like that.
+42|Casper Colikke|... or\,\, you can just\, drag the manager\, in here\,\, so I can ask him\, myself.
+43|Casper Colikke|Socca Junior?\,\, Really?
+44|P|I took a piece of him (Show Mystery Meat)
+45|Casper Colikke|Ugh\,\,, what is that?
+46|Casper Colikke|You really expect me to\, believe you cut this off\, Mailanen?\,\, Do you think\, I'm stupid?
+47|Casper Colikke|Anyone can buy\, a slab of\, spoiled pork!
+48|P|Well, he looked like a homeless bum
+49|P|Because he was crying and begging for his life
+50|P|Your own security guard already shook him down for his cut
+51|P|He got stabbed in the back by his partner
+52|Casper Colikke|That idiot is\, just lying to\, save his\, own skin.
+53|Casper Colikke|Go back there\,\,, and\, don't come back\, until you have the money!
+54|Casper Colikke|Of course\, he did.
+55|Casper Colikke|By who?\,\,\, Passmore?
+56|P|Yeah, it was Passmore
+57|Casper Colikke|My guard?\,\, You mean that\, simpleton\, Raimo?
+58|Casper Colikke|Raimo!\,\, Did you\, took the money\, from Mailanen?
+59|Casper Colikke|If that\, idiot had actually stolen\, like a million coins\,\,, do you really think\, he'd still be\, sitting in security room right now?
+60|Casper Colikke|He would have been\, on the first train\, out of Obenseuer!
+61|Casper Colikke|That idiot\, Mailanen\, is just lying to\, save his own skin!
+62|P|I mean myself
+63|Casper Colikke|Well\,\,, go squeeze it out of him, then!
+64|Casper Colikke|And\, don't come back here\, until you have the\, money!
+65|Casper Colikke|Oh\,\,, really?\,\, Is that\, right?
+66|Casper Colikke|Raimo!\,\, Come here!
+67|Casper Colikke|I need you to\, check our guest's\, pockets!
+68|P|I don't know, and I don't care
+69|Casper Colikke|You don't\, care?!
+70|Casper Colikke|I don't pay you to\, shrug at me!
+71|Casper Colikke|Go back out there\, and figure out\, where the money is!
+72|Casper Colikke|Are you trying to be\, funny?
+73|Casper Colikke|Don't waste my time\, and tell me\, where\, the money\, is!
+74|P|I don't have that much on me right now
+75|P|Will you take a partial payment?
+76|Casper Colikke|What the hell is that?
+77|Casper Colikke|You couldn't afford\, anything better?
+78|Casper Colikke|Fine\,\,, this will have to\, do.
+79|Casper Colikke|Actually...\,\, that tastes better than I\, remembered.
+80|Casper Colikke|Now\,\,, do you have\, a lead on the money\,\,, or\, are you just\, wasting my time?
+81|Casper Colikke|I'm a\, very busy man\,\,, and...\,\, ugh.
+82|Casper Colikke|Wait right there.\,\, I have to\, use the toilet.
+83|Casper Colikke [ответ]|TOILET
+84|Casper Colikke|I'm not going to drink\, some glowing\, garbage!
+85|Casper Colikke|So\,\,, don't waste my time\, and tell me\, where\, the money\, is!
+86|Casper Colikke|Well\,\,, thank you for your\, service.
+87|Casper Colikke|So?
+# conv 436: Bazaar/Casino/Casper Colikke Mailanen Back Pocket Check
+88|Casper Colikke|That's\, all you have?
+89|Casper Colikke|Well\,\,, you'd better get the rest of my money\, before I\, tell Raimo to\, demonstrate his\, 'security etiquette' on you.
+90|Casper Colikke|Now\, get out there\, and find the rest!
+# conv 437: Bazaar/Casino/Casper Colikke Mailanen Back After Toilet
+91|Casper Colikke|Uhh...\,\,\, my stomach has been\, very tricky\, lately...
+92|Casper Colikke|Let's get back to\, business.\,\, Where is the money?
+# conv 438: Bazaar/Casino/Raimo Räyhä Comment 3
+93|Raimo Räyhä|Whatever you say boss...
+# conv 440: Bazaar/Casino/Raimo Räyhä Comment 4
+94|Raimo Räyhä|What the wall that sound?
+# conv 441: Bazaar/Casino/Raimo Räyhä Comment 5
+95|Raimo Räyhä|Uh...
+# conv 442: Bazaar/Casino/Raimo Räyhä Comment 6
+96|Raimo Räyhä|Of course not.
+# conv 443: Bazaar/Restaurant/Sigvard Caune
+97|Sigvard Caune|I come here for\, the quiet...
+98|Sigvard Caune|Hmph...\,\, I’ve seen\, better presentation in\, a prison cafeteria.
+99|Sigvard Caune|I don't want to\, hear peasant gossip...
+100|Sigvard Caune|Hmph...
+# conv 444: Bazaar/Casino/Seamus Liepa
+101|Casper Colikke|Seamus\, Liepa?\,\, Why did my\, security let you in here?\,\, I...\,\, I thought\, you were\, dead.
+102|Seamus Liepa|Not dead\,\,, Casper.\,\,\, Just\, farming.
+103|Casper Colikke|Look\,\,, Seamus\,, whatever this\, [lua(Actor["Player"].AgeName)] paid you\,\,, I can\, pay double.
+104|Seamus Liepa|Potatoes\,, mostly.\,\, It's\, honest work.\,\, Unlike what you're doing here.
+105|Seamus Liepa|But...\,\, my friend\, here hired me to\, do a job.
+106|Seamus Liepa|No deals\,\,, Casper.\,\, My friend\, already paid for my\, new fertilizer.
+107|Seamus Liepa|So\,\, here is\, what's gonna happen...
+108|Seamus Liepa|... you are going to\, sign this\, casino over\,\,, pack your\, things\,\,, and\, leave Obenseuer...
+109|Seamus Liepa|... or\, I'm going to\, show you how\, the Angels used to\, plant people in the dirt\, just to\, feed the mushrooms.
+110|Casper Colikke|Fine...\,\, I get it.\,\, I'm leaving...\,\, take the casino\,\,, take the safe\,\,, take everything.
+111|Casper Colikke|I'm\, gone...
+112|Seamus Liepa|Casper...
+# conv 445: Bazaar/Casino/Seamus Liepa 2
+113|Seamus Liepa|Maybe\, I should have\, killed him\, just in case...\,\, so\, he isn't going to cause\, any problems\, in the future.
+114|Seamus Liepa|But...\,\, whatever.
+115|Seamus Liepa|It's\, your problem now\,, [lua(Actor["Player"].AgeName)].
+116|Seamus Liepa|I'm going back to my\, farm.\,\, Good luck with\, the casino.
+# conv 446: Bazaar/Casino/Heikki Mailanen
+117|Heikki Mailanen|Time is\, money\,\,, and\, I have\, a lot of it now.
+118|Heikki Mailanen|Welcome to my...\,\, empire!
+119|Heikki Mailanen|I get\, so much respect now.\,\,\, They call me\, 'Mr. Mailanen'.
+120|Heikki Mailanen|Welcome to\, my casino!\,\,\, Beautiful\,\,, isn't it?
+121|P|I'm here to collect my reward
+122|Heikki Mailanen|Ah...\,\, right...\,\, the\, reward\, I promised you.\,\, I suppose\, a deal is a deal.
+123|Heikki Mailanen|Here\,\,, take it.\,\, I\, certainly hope\, this is enough for you.
+124|Heikki Mailanen|And take this too.
+125|Heikki Mailanen|It's...\,\, uh...\,\, a giant coin.\,\,\, It's...\,\, the\, new casino mascot.\,\, The current one is...\,\, way too creepy.
+126|Heikki Mailanen|Now\,, if you'll excuse me\,, my time is...\,\, uh...\,\, expensive.\,\,\, Run along.
+# conv 447: Bazaar/Murju/Miina-Ansa Virtanen
+127|Miina-Ansa Virtanen|How did you\, get past the\, tripwire!?\,\, Did you\, step over it\,\,, or\, is the\, detonator broken again?!
+128|Miina-Ansa Virtanen|Who\, are\, you?!
+129|Miina-Ansa Virtanen|What are you\, doing in my\, apartment?!\,\,\, Take your\, shoes off at\, least...\,\, and\, don't touch anything!
+130|Miina-Ansa Virtanen|Just...\,\, get the hell out of my apartment!"
+# conv 448: Bazaar/Murju/Miina-Ansa Virtanen Door
+131|???|Food?
+132|P|Yeah, kebab
+133|???|Yes...\,\, yes...\,\,\, leave it on\, the floor.
+134|???|Here is\, something for you.
+135|???|You bring\, food!?
+136|P|Nope
+# conv 449: Bazaar/Jail/Lätty
+137|Lätty|Prison food sucks...\,\, I should\, order another pizza.
+138|Lätty|It's nice here\, if you ignore the\, food.\,\,\, It makes me\, really gassy.
+139|Lätty|I'm waiting for my\, pizza.\,\, Usually\,, it\, doesn't take this long.
+140|Lätty|I'm hungry.
+141|P|Your pizza is here
+142|Lätty|You actually brought it all the way to the cell! \,\, Usually the prison staff handles me the pizza, sometimes with couple of slices missing.
+143|Lätty|I...\,\, I would give you money, but my wallet is confiscated...\,\, If you ever run into trouble, my lawyer will help!\ Just give him a call.
+# conv 450: Bazaar/Slum/Eetu Rymy
+144|Eetu Rymy|Shh!
+# conv 453: Bazaar/Chamber of Commerce/Jussi Pöhinä
+145|Jussi Pöhinä|Please\,\,, sit down.
+146|Jussi Pöhinä|Vanja has\, several expansion plans\,\,, but\, we have to be careful\, with the government…\,\, they\, wouldn't like us\, expanding.
+147|Jussi Pöhinä|They're\, pushing too many\, people into\, Obenseuer.\,\,\, We already have\, enough problems with th\,e current population.
+148|Jussi Pöhinä|We have\, big plans\,\,, but\, we need things to\, calm down first.
+149|Jussi Pöhinä|Do you\, need something?
+150|P|I'm here about the shop
+151|Jussi Pöhinä|I'm sorry\, but…
+152|Jussi Pöhinä|The developers haven't\, released the shop yet.
+153|Jussi Pöhinä|Come back later.
+# conv 454: Bazaar/Chamber of Commerce/Katriina Vermund
+154|Katriina Vermund|[lua(Variable["PlayerFirstName"])]\, [lua(Variable["PlayerLastName"])]\,\,, right?
+155|Katriina Vermund|You're expected in\, the conference room.\,\, I’ll\, unlock the\, door for\, you.
+156|Katriina Vermund [ответ]|UNLOCK
+157|Katriina Vermund|Do you need something\,\,, [lua(Variable["PlayerLastName"])]?
+158|Katriina Vermund|Is there\, something I can help you with\,\,, [lua(Variable["PlayerLastName"])]?
+159|Katriina Vermund|How can I\, help you\,\,, [lua(Variable["PlayerLastName"])]?
+160|Katriina Vermund|Yes?
+161|P|Can you unlock the conference room door?
+# conv 455: Bazaar/Chamber of Commerce/Jussi Pöhinä Bark Sit
+162|Jussi Pöhinä|Ah, [lua(Variable["PlayerLastName"])], please sit down.
+# conv 456: Bazaar/Chamber of Commerce/Jussi Pöhinä Tenement
+163|Jussi Pöhinä|So...\,\, word has reached us\, that you're\, the\, newest owner of\, that\, little tenement\, right next to the\, Bazaar.\,\, And...
+164|Vanja Bjorkman|... and that\, property is\, something\, we’ve had our eyes on\, for\, quite some time.
+165|Vanja Bjorkman|You see\,\,, the previous owner…\,\, if he\, ever truly was\, the owner…\,\, was\, completely uncooperative.
+166|Vanja Bjorkman|But you...\,\, you look like\, a reasonable [lua(Actor["Player"].AgeNameFormalShort)].
+167|Jussi Pöhinä|Vanja\,, please!\,\,\, I'm the\, chairman here\,\,, so\, do\, not\, interrupt me!
+168|Vanja Bjorkman|Fine...
+169|Jussi Pöhinä|Anyway...\,\, the building is\, a complete\, eyesore\, in its current state\,\,, and\, we would like you to\, do something about it.
+170|Jussi Pöhinä|Anyway...\,\, we would like you\, to do something to\, your building.
+171|P|Uh, I'm actually here to meet Karl Hagen
+172|Vanja Bjorkman|I\, assure you\,\,, whatever business you have with\, Hagen\, can\, wait.
+173|Vanja Bjorkman|This is\, far more\, important.
+174|Vanja Bjorkman|First off\,\,, the facade needs\, serious work...\,\, it should\, at least look\, decent.
+175|Vanja Bjorkman|And\, the courtyard is in\, absolute shambles.\,\, It needs\, a proper fence\,\,, the stairs\, need fixing\,\,, and\, throw down some\, gravel or\, something.
+176|Jussi Pöhinä|And\, furthermore...
+177|Jussi Pöhinä|The commercial space\, on the ground floor.\,\, We want you to\, renovate it\, and\, open a business.
+178|Vanja Bjorkman|The courtyard is in\, absolute shambles.\,\,\, It needs\, a proper fence\,, the stairs need\, fixing\,\,, and\, throw down some\, gravel\, or something.
+179|P|What do you want me to do with it?
+180|P|Business? You want me to open a store or something?
+181|P|Why do you want me to do that?
+182|Vanja Bjorkman|Exactly!
+183|Vanja Bjorkman|Eventually\,\,, we want that\, entire strip\, integrated into the\, Bazaar\,\,, so\, it needs to be\, top-notch!
+184|Jussi Pöhinä|Keep your\, pants on\,\,, Vanja.
+185|Jussi Pöhinä|We can't\, officially merge his\, tenement into\, the Bazaar\,\,, but\, in the future\,\,, it could become a\, prime destination for\, tourists.
+186|P|What if I say no?
+187|Vanja Bjorkman|Then you can\, kiss your\, meeting with\, Karl\, goodbye!
+188|Jussi Pöhinä|Vanja\,\,, please!\,\, Don't be so\, aggressive with our\, guest...
+189|Jussi Pöhinä|... though\, he isn't\, entirely wrong.\,\, We strongly\, advise you to\, at least complete\, the renovations\, so\, the property is ready for\, business.
+190|Jussi Pöhinä|Now\,\,, first things\, first...
+191|Jussi Pöhinä|Anyway\,\,, first things first...
+192|Jussi Pöhinä|... we heard\, the commercial space requires\, cleaning from...\,\, hrm...\,\, fungal matter.
+193|Jussi Pöhinä|Take this\, card.\,\, It has the\, contact number for\, the...\,\, Fungal\, Eradication Unit\, or whatever.\,\,\, They handle\, heavy cleanups.
+194|Vanja Bjorkman|And\, here’s a flyer\, from a local\, contractor\, who does structural renovations.\,\,\, Go visit their\, workshop\, if you haven't already.
+195|Vanja Bjorkman|Now\,\,, go get your property in order\,\,, [lua(Variable["PlayerLastName"])].
+196|Jussi Pöhinä|And\, don't keep us...\,\, or\, Karl Hagen...\,\, waiting.
+197|Svein Regnell|So...\,\, shiny...

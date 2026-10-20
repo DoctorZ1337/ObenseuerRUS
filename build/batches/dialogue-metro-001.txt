@@ -1,0 +1,48 @@
+# conv 182: Metro/Mason Jokinen
+1|P|Why are you sitting here?
+2|Mason Jokinen|Just\, chilling.
+3|Mason Jokinen|Actually...
+4|P|What can you tell me about these metro tunnels?
+5|Mason Jokinen|Well\,\,, it's built in old tunnels.
+6|Mason Jokinen|And these old tunnels were part of\,\, S.N.W program.
+7|Mason Jokinen|You know about\, S.N.W\,\,, right?
+8|P|S.N.W?
+9|Mason Jokinen|S.N.W\,\, or Stolland Nuclear Weapons\, was a military organization\,\, whose purpose was to produce nuclear weapons\, for defense.
+10|P|Yeah, I know about that
+11|Mason Jokinen|They moved stuff\, around down here.\,\,\, You know\,\,, nuclear materials\,\, and whatnot.
+12|Mason Jokinen|There's a lot of history down here.
+13|P|(Leave)
+14|Mason Jokinen|I just...\,\, love metros.
+15|P|I also love metros
+16|P|I have to go (Leave)
+17|Mason Jokinen|Really?
+18|Mason Jokinen|Do you know what year the first line of\, the Stalburg metro was opened?
+19|P|I don't know
+20|Mason Jokinen|Nope\,\,, the first line opened in\, 1953.
+21|Mason Jokinen|Correct!
+22|Mason Jokinen|It was opened at\,\, 1962.
+23|Mason Jokinen|I don't know the exact year\,\,, but\, these tunnels were built in the\, 70s.
+24|Mason Jokinen|Anyway\,\,, I'm trying to find my old friend\,\,, The Stig.
+25|Mason Jokinen|He lived on\,\, Steinburg Island before he moved\, here.
+26|Mason Jokinen|I mean\,\, Castle Rock Island.
+27|Mason Jokinen|He used to tell this weird story about\, a guy named\,\, Mark\, who was desperate to get to the other side of the drawbridge.
+28|P|Drawbridge?
+29|Mason Jokinen|Yeah\,\,, there's drawbridge connecting Castle Rock Island to\,\, the mainland.
+30|Mason Jokinen|Mark\,\, supposedly needed to get to the other side\, in a hurry\,\,, and The Stig told him\, he'd lower the drawbridge\, for a bottle of\, vodka.
+31|Mason Jokinen|But that never actually\, happened.
+32|Mason Jokinen|Weird guy...
+33|Mason Jokinen|At some point\, one Obenseuer gang started using the tunnels to smuggle\, mushrooms\,\, and moonshine.
+34|Mason Jokinen|Close\,\,, the first line opened in\, 1953.
+35|Mason Jokinen|One of them\, got the idea to start taking people for a ride.
+36|Mason Jokinen|First it was just for fun\,\, until people started using it for\, travel.
+37|Mason Jokinen|It was founded after World War II\,\, but it was discontinued\, shortly after the metro accident in 1986\,\,, I think.
+38|P|Metro accident?
+39|Mason Jokinen|Anyway...
+40|Mason Jokinen|Yeah\,\,, some signal error caused the metro train to end up in the\, S.N.W bunker.
+41|Mason Jokinen|I\, don't know the details\,\,, but\, all the surviving passengers were\,\, executed\,\, because they wanted to keep their\, project hidden.
+42|Mason Jokinen|You know\,\,, developing a nuclear weapon secretly from\, other countries\, was\,\, a big risk.
+43|Mason Jokinen|He\, never even saw Mark\,\,, but always claimed it was planned to happen.
+44|Mason Jokinen|Oh hey\,, [lua(Actor["Player"].AgeName)].
+45|Mason Jokinen|Do you need something?
+46|Mason Jokinen|What's up with the [lua(Actor["Player"].AgeName)]?
+47|Mason Jokinen|Yeah?

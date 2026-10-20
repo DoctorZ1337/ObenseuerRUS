@@ -1,0 +1,619 @@
+# conv 215: Mines/Other/Ivar Pihl Cave
+1|Ivar Pihl|Don't go there!
+2|Ivar Pihl|I didn't give you permission to go there!
+3|Ivar Pihl|Access there is prohibited!
+4|Ivar Pihl|You are not allowed to go there!
+# conv 216: Mines/Canteen/Einar Kaivuri
+5|Einar Kaivuri|I wish my\, crew and\, I had\, an apartment on\, the surface...
+6|Einar Kaivuri|Another day\,\,, another coffee...
+7|Einar Kaivuri|We mine\,\,, we drink\,\,, we sleep.\,\,\, Ain't much else to it\,, is there?
+8|Einar Kaivuri|This place...\,\, it wears on you\,, bit\, by\, bit.
+9|Einar Kaivuri|Sometimes...\,\, I miss sunlight.
+10|P|Can I rent you an apartment?
+11|Einar Kaivuri|Been years\, since\, I had a window\, with a view.
+12|Einar Kaivuri|I\, hope these walls don't collapse\, like tunnels did in the mines.
+13|Einar Kaivuri|Living on the surface...\,\, it's great.
+14|Einar Kaivuri|My crew seems\, to be\, happy.
+15|P|Who are your crew members?
+16|Einar Kaivuri|Well\,\,, we’re a small bunch...
+17|Einar Kaivuri|Veikko is the newest\,\,, still\, getting his bearings\,\,, but\, he’s tough.
+18|Einar Kaivuri|Then there’s\, Kalle\,\,, the old-timer.\,\,\, He’s been in the mines\, very\, very\, long time.
+19|Einar Kaivuri|And\, then there's...\,\, Olavi.\,\,\, He's\, a bit of an odd one.
+20|Einar Kaivuri|And\, then there’s me.\,\,\, I'm the captain\, who keeps this\, crew together.
+21|Einar Kaivuri|Silver ring?
+22|Einar Kaivuri|But\,\, I\, have seen Seamus\, wearing a silver ring\, when he has been with us in\, the Sauna Club.
+23|Einar Kaivuri|I\,\, wouldn't be surprised\, if he\, would have\, snorted it\, from the body.
+24|Einar Kaivuri|I'll\, mark it for you\, on the map\, where he lives.
+25|Einar Kaivuri|Luckily for me\,\,, he\, doesn't go to the\, Sauna Club often.
+26|Einar Kaivuri|Be\, careful with him...\,\, he is\, very\, quick-tempered\, sometimes.
+# conv 217: Mines/Canteen/Einar Kaivuri Cup
+27|Einar Kaivuri|I was drinking that!
+# conv 218: Mines/Other/Kalle Suutari
+28|Kalle Suutari|Oh\,\,, hey there.
+29|Kalle Suutari|Even\, an old mole\, like me\,\, can appreciate\, a roof\, that ain’t made of\,\, collapsing\, rocks\,\, or\, asbestos...\,\, is this\, made of\, asbestos?
+30|Kalle Suutari|Erkki may\, lead the crew\,\, but I'll\, keep them\,\, alive.
+31|Kalle Suutari|These old\, bones\,\, are still\, adjusting\, to...\,\, well...\,\, to all\, this.
+32|Kalle Suutari|Feels like\, I’m\, dreaming...
+33|Kalle Suutari|Fresh faces don’t\, last long\,\, if they’re not\, careful.\,\,\, So...\,\, watch yourself down here.
+34|Kalle Suutari|If\, you're lookin' for\, work\,\,, Antero\, Erikson’s the guy\, you wanna talk to.
+35|Kalle Suutari|I’ve\, seen a lot down here\,\,, but...\,\, there’s\, one accident\,\, I’ll never shake off.
+36|P|Who are you?
+37|Kalle Suutari|Me?\,\,\, Just\, an old-timer who's been here\, longer\, than...\,\, anyone else here.
+38|Kalle Suutari|Einar is my\, current leader...\,\, he’s\, likely enjoying\, a coffee at\, the canteen.
+39|Kalle Suutari|Not many\, stick around like\, I have...\,\, some\, got that nasty\, fungal disease\,\, and some...\,\, well...\,\, they just\, couldn't bear\, to be here.
+40|Kalle Suutari|A corpse with\, a silver ring...
+41|Kalle Suutari|... unfortunately\, I have not seen it.
+42|Kalle Suutari|… but\, now that you mention it\,\,, that one\, potato farmer does have\, a silver ring.
+43|Kalle Suutari|Knowing him\,\,, I\, wouldn’t be surprised\, if he got it\, from\, a dead man.
+44|Kalle Suutari|Here\,\,, I’ll\, mark his\, place on\, the map for ya.
+45|P|Have you seen a woman with blonde hair?
+46|Kalle Suutari|A\, blonde woman?\,\,\, That’ll\, be Anna Markkanen.\,\,\, She’s works at\, the canteen.\,\,\, It’s\, right next to the\, Mine Market.
+# conv 219: Mines/Other/Olavi Hyypiö
+47|Olavi Hyypiö|You know\,\,, I still\, hear\, things...\,\, even\, up\, here.\,\,\, They’re not\, done with\, us.
+48|Olavi Hyypiö|Living up here\, doesn’t mean\,\, they can’t\, find us...
+49|Olavi Hyypiö|Einar says we’re safe now\,\,, but\, I\, know better...
+50|Olavi Hyypiö|I wonder\,\, if they’ll\, follow\, us\,\, up here...
+51|Olavi Hyypiö|Oh...\,\, h-\,hey\, there.
+52|Olavi Hyypiö|The air’s heavier today.\,\,\, Don’t you\, feel it?
+53|Olavi Hyypiö|I\, heard some\, strange noises\, from the lower tunnels...
+54|Olavi Hyypiö|You seen\, those\, old wooden statues\, around?\,\,\, Creepy things…\,\, miners used to\, worship 'em\,\,, or\, so they say.
+55|Olavi Hyypiö|H-\,have you\, seen...\,\, things?
+56|P|Things? What do you mean?
+57|Olavi Hyypiö|I've\, seen things that\, would make you\, rethink everything.
+58|Olavi Hyypiö|I\, thought working\, underground\, would keep me\, safe...\,\, but\, we're not\, alone here.
+59|P|What do you mean?
+60|Olavi Hyypiö|Aliens!
+61|Olavi Hyypiö|Have you\, heard those weird sounds?
+62|Olavi Hyypiö|Low\,\,, humming noises...\,\, coming from\, nowhere.
+63|Olavi Hyypiö|Machines\, breaking down for\, no reason\,\,, shadows\, where there\, shouldn't be any.
+64|Olavi Hyypiö|I swear\,\,, someone is\, watching us...
+65|P|Yeah I have seen things... like weird shadows
+66|Olavi Hyypiö|You’ve seen them too?
+67|Olavi Hyypiö|This\, proves it...\,\, this\, has to be them!
+68|Olavi Hyypiö|I’ve been\, saying\, it for years...\,\, they’re here\,\,, underground!
+69|Olavi Hyypiö|They\, don’t want us digging\,\,, disturbing them.
+70|P|No, and I don’t care
+71|Olavi Hyypiö|Oh...\,\, okay...
+# conv 221: Mines/Other/Laura Markkanen
+72|Laura Markkanen|Uh…\,\, hi?
+73|Laura Markkanen|I\,\, wasn’t expecting anyone else...
+74|P|What is this place anyway?
+75|Laura Markkanen|Oh\,\,, this?
+76|Laura Markkanen|Do you\, need something? 
+77|Laura Markkanen|What are you\, looking at?
+78|Laura Markkanen|Yeah?
+79|Laura Markkanen|Do you need\, something? 
+80|Laura Markkanen|Well\,\,, I\,\, don't know who\, built this...
+81|Laura Markkanen|Me?
+82|Laura Markkanen|Uh...\,\, I’m\, Laura.
+83|Laura Markkanen|You’ve probably heard of my sister\,\,, Anna.
+84|Laura Markkanen|But\, I come down here to get away from\, all the noise.
+85|Laura Markkanen|It’s\, quiet\,\,, peaceful here...\,\,\, except when\, the Sauna Club\, members\, gather here.
+86|Laura Markkanen|She’s the one\, who runs the\, canteen and\,\, I...\,\, uh...\,\, help her with various\, chores.
+87|Laura Markkanen|Are you\, a member of\, the Sauna Club?
+88|P|Yeah I'm a new member of the Sauna Club
+89|P|Are you a member of the Sauna Club?
+90|Laura Markkanen|Me?\,\, Of course\, not.
+91|Laura Markkanen|I\, mean...\,\,\, the Sauna Club\, is only full of\, men.
+92|Laura Markkanen|But\,\, I have permission to use this place\, when they are at work\,\, or\, whatever they are doing.
+93|P|No, I'm not a member of the Sauna Club
+94|Laura Markkanen|Oh...
+95|Laura Markkanen|So\,\,, you don't have\, permission\, to be here?
+96|Laura Markkanen|But\, I\,\, don't really mind it\,\, so...\,\, feel free to\, hang around\,\, for a bit.
+97|Laura Markkanen|But\,\, are you\, a member of the\, Club?
+98|P|Sorry!\,\, I\, didn’t mean to intrude
+99|Laura Markkanen|That's\,\, okay. 
+100|Laura Markkanen|It’s not like I\, own the place.
+101|Laura Markkanen|Usually\, no one goes here\,\, except when\, the Club members\, gather here.
+102|Laura Markkanen|Uh...
+103|P|Do you know where Ines Hietala is?
+104|P|You have blonde hair
+105|Laura Markkanen|Ines?
+106|Laura Markkanen|UNDER 40
+107|Laura Markkanen|UNDER 65
+108|Laura Markkanen|OVER 65
+109|Laura Markkanen|You must be\, her\, sister...\,\, or did she\, just have a\, brother...
+110|Laura Markkanen|You must be\, her\,\, brother...
+111|Laura Markkanen|You must be\, her\, mother...
+112|Laura Markkanen|You must be\, her\,\, father...
+113|Laura Markkanen|You must be\, her\, grandmother
+114|Laura Markkanen|You must be\, her\, grandfather
+115|P|Yeah, I'm her sister
+116|P|Actually, I'm her girlfriend
+117|P|Yeah, I'm her brother
+118|P|Actually, I'm her boyfriend
+119|P|Yeah, I'm her grandmother
+120|P|Yeah, I'm her grandfather
+121|P|Yeah, I'm her mother
+122|P|Yeah, I'm her father
+123|Laura Markkanen|Oh...\,\, I\, didn’t know she\, liked\, older men.
+124|Laura Markkanen|I mean\,\,, no offense\,\,, but\, I definitely\, pictured\, someone…\,\, you know\,\,, closer to\, her age.
+125|Laura Markkanen|Anyway...
+126|Laura Markkanen|Oh...\,\, wow...\,\, I\, didn’t know she was\, into\, older women.
+127|Laura Markkanen|I mean...\,\,  I just\, assumed...\,\,\, well\,, never mind.
+128|Laura Markkanen|Good for her\,\,, I\, guess.
+129|Laura Markkanen|I\, knew she had...\,\, unique\, taste.
+130|Laura Markkanen|Well.\,\,\, That’s…\,\, unexpected.
+131|Laura Markkanen|Oh...\,\, well\,\,, that’s\, unexpected.
+132|Laura Markkanen|I\, didn't know she was\, dating\, a girl...
+133|Laura Markkanen|Huh...\,\, I\, didn't know she was\, dating...
+134|Laura Markkanen|I knew it!\,\,\, Guess I’m getting good at this...
+135|Laura Markkanen|I haven’t seen her\, in a while.
+136|Laura Markkanen|But…\,\, a while back\,\,, some miners\, were\, pissed\, at her.
+137|Laura Markkanen|Said she was trying to\, get into\, some building\,\, in the Kauha's claim.
+138|Laura Markkanen|... like\, she was looking for\,\, something.
+139|Laura Markkanen|Sorry\,\,, I\, don’t know where she is\, now\,\,, but maybe there is something in that building?
+140|Laura Markkanen|Are\, you looking for\,\, Ines?\,\, Ines...\, Hietala?
+141|P|No, I'm just looking for answers
+142|Laura Markkanen|You\, a cop\, or something?
+143|Laura Markkanen|I mean...\,\, she was...\,\, weird.
+144|P|I suspect she’s involved in a series of murders.
+145|Laura Markkanen|She didn’t talk much\,\,, always had\, this...\,\, vacant look\, in her\, eyes.
+146|Laura Markkanen|So...\,\, I wouldn't be\, surprised\, if she's\, involved in\, something.
+147|Laura Markkanen|A murder?\,\,\, Ines?
+148|Laura Markkanen|She was\,\, always odd\,, you know?\,\,\, But I\, never thought\, it was anything\, dangerous...\,\, just\, her way of\, being.
+149|Laura Markkanen|Did you\, find\,\, Ines?
+150|P|Yeah, I found her
+151|Laura Markkanen|And?
+152|P|She’s... at the prison now
+153|Laura Markkanen|At\, the prison?\,\,\, You mean\, she was\, arrested?
+154|P|She's... dead
+155|P|She's fine
+156|P|I couldn't find her
+157|Laura Markkanen|I\, know that\, Ines was so\,\, different\,, but\,\, I\, never thought…\,\, I\, never thought\, she’d\, end up there.
+158|Laura Markkanen|I...\,\,\, I\, just\, hope...\,\,\, she finds\, peace\, in\, all of this.
+159|Laura Markkanen|I...\,\, I\, should’ve known\, something was\, wrong.
+160|Laura Markkanen|I\, can’t help\, feeling like\, I...\,\, I\, should have\, done\, something...
+161|Laura Markkanen|Like\,\, if\, I’d just\, paid more\, attention\,\,, maybe\, things\, would’ve been\, different...
+162|Laura Markkanen|I...\,\, I\, need to be\, alone\, right now...
+163|Laura Markkanen|Well\,\,, I’m\, glad to\, hear that.
+164|Laura Markkanen|I was\, a little worried about\, her.
+165|Laura Markkanen|I...\,\, I\, don’t know what to\, think.
+166|Laura Markkanen|I\, mean...\,\, I\, didn’t know\, her that\, well\,\,, but I\, still...\,\, I still care.
+167|Laura Markkanen|Well\,\,, thanks for\, letting me know.
+168|Laura Markkanen|I mean\,\,, you said\, she was\, involved in\, murders.
+169|Laura Markkanen|I\, just...\,\, I hope\, she\, gets the help\, she needs.
+170|Laura Markkanen|I\, wonder where could she have gone...
+171|Laura Markkanen|Maybe she has\, left\, Obenseuer?
+172|Laura Markkanen|I mean...\,\, she\, once told me\, about\, a guy\, who lives in\,\, Bearhain.
+173|Laura Markkanen|Maybe\, she is\, there...
+# conv 222: Mines/Other/Seamus Liepa Doorphone
+174|???|Who\, the\, hell\, are\, you?
+175|P|I’m looking for a body with a silver ring
+176|???|A body\,\, with\,\, a silver ring?\,\,\, Why the hell are you asking me\, about dead body?
+177|P|A guy named Malone wants to find Seamus Liepa's body
+178|???|Malone\,\,, huh?
+179|???|And\, he wants to find my\, body?
+180|Seamus Liepa|Just...\,\, come in\,\,, but\, don’t waste my time.
+181|Seamus Liepa|That bastard’s got some nerve...
+182|P|Is that how you treat a guest?
+183|???|I\, don’t get guests\,\,, and\, I\, sure as hell\,\, didn’t invite one.\,\,\, Now\,\,, answer the damn\, question.
+184|P|I’ll just leave you be
+185|???|You don’t need my name.\,\,\, You need to tell me\,\, why the hell\, you're at my door.
+186|P|What’s your name?
+187|P|Well, I’ll just assume I’ve got the wrong place
+188|???|Yeah\,\,, get outta here\,\, before I have to show you\,\, what happens\, to\, uninvited guests.
+189|P|Can I just come in?
+190|???|And why the hell would\, I\, let you in?
+191|???|I\, don’t know you\,\,, and\,\, I sure as\, hell don’t trust you.
+192|???|Just...\,\, get lost\,\, before I\, lose my\, patience.
+193|???|Good idea.\,\,\, Stay out of my business\,\, and\, don’t come back.
+194|???|You’ve\, got\, some\, nerve coming back.\,\,\, What now?
+195|???|What\,\,, you forget\, something?
+196|???|You\, better have\, a damn good reason\,\, for pressing that\,\, button.
+197|???|Didn't I\, tell you\, to get\, lost?
+198|Seamus Liepa|I'll open the door...
+199|Seamus Liepa|Get inside...
+200|Seamus Liepa|You again?\,\,\, Come in...
+201|Seamus Liepa|Alright\,\,, you can come in...
+202|P|Are you Seamus Liepa?
+203|Seamus Liepa|Well\, yeah.\,\,\, Who’s asking?
+204|Seamus Liepa|Just\,\, don't tell me it's...\,\, Malone.
+205|Seamus Liepa|I\, knew\, that bastard’s still around...
+206|Seamus Liepa|I\, hope he has\, a good reason\, to bother\, me.
+207|P|What is this place, anyway?
+208|Seamus Liepa|This\, is a\, potato mine...
+209|P|I didn’t know you could mine potatoes
+210|Seamus Liepa|What?\,\, No one’s swinging\, a pickaxe at potatoes\,\,, genius.
+211|P|Why grow potatoes in a mine?
+212|Seamus Liepa|Because they\, thrive in the dark\, and damp.
+213|Seamus Liepa|And\, the weather\,\, up there is\,\, unpredictable...\,\, too much\, rain\,, not enough\, sun.\,\,\, Down here\,\,, I\, control the environment.
+214|Seamus Liepa|I\, grow them\, here.
+215|Seamus Liepa|But\, enough questions now!
+216|Seamus Liepa|What do you want?
+217|Seamus Liepa|So...
+# conv 223: Mines/Mining Services/Ken Nakahara
+218|Ken Nakahara|Nice to\, meet you.\,\,\, How can I\, help you?
+219|P|You know about the tunnel under my tenement?
+220|Ken Nakahara|Ah\,\,, yes.\,\,\, That\, tunnel.
+221|Ken Nakahara|It is\, in bad condition\,\,, very\, unstable.
+222|Ken Nakahara|We can\, fix it\,\,, yes\,\,, but\, there is\, one\, problem...
+223|Ken Nakahara|Too much\, debris\,\,, too\, dangerous\, for our\, equipment\, to reach\, the tunnel safely.
+224|Ken Nakahara|You must\, clear\, the path\, first.
+225|P|Wait what? Why me?
+226|Ken Nakahara|You know\,\,, my team...
+227|Ken Nakahara|... we don’t\, want to\, risk our\, men\,\, or\, our\, machines\, until the path is\, safe.
+228|Ken Nakahara|And\, it’s\, your tenement\,\,, your\, responsibility.
+229|Ken Nakahara|If you\, clear the tracks\,\,, we can\, come in\,\, and\, make that\, tunnel\, strong\, again.
+230|Ken Nakahara|Safer\, for\, everyone\,\,, yes.
+231|Ken Nakahara|Once\, you take\, care of that\,\,, we can\, begin\, the real\, work.\,\,\, Deal?
+232|P|But you are professionals! Not me!
+233|Ken Nakahara|But\, my\, team...
+234|P|What if I pay for clearing that tunnel?
+235|Ken Nakahara|Hmm...
+236|Ken Nakahara|It\, is\, not easy\,\,, you\, know.
+237|Ken Nakahara|But\,\, if\, you’re sure...\,\, it\, won’t be cheap.
+238|Ken Nakahara|For\, something like this...\,\, it will\, cost you...\,\, let's say\, 10000 RM\,\,, at least.
+239|P|Deal (Pay 10000 RM)
+240|P|I don't have that much money
+241|P|I need to think about it (Leave)
+242|Ken Nakahara|Then\, you’ll need to\, clear\, that path\, yourself\,\, or find\, a way to get\, the money.
+243|Ken Nakahara|Well\,\,, alright.\,\,\, We’ll\, clear the path.
+244|P|How did you end up in Obenseuer?
+245|Ken Nakahara|Come back\, when the\, job\, is done.
+246|Ken Nakahara|How I\, got here?\,\,\, Hmm...\,\, it’s\, a\, strange story.
+247|Ken Nakahara|I \,wasn’t supposed to stay\, long...\,\, came to see\, the country\,\,, relax.
+248|Ken Nakahara|My plan was\, simple...\,\, one week\,\,, enjoy the\, sights\,\,, like\, that\, pooping good boy statue\, and\, Hammer Valley,\, then back\,\, home\, to\, Japan.
+249|Ken Nakahara|But\, when I\, was at\, the airport\,\,, about to fly back\,\,, they\, did\, a health...\,\, screening.
+250|Ken Nakahara|Routine\,\,, I thought.
+251|Ken Nakahara|And\, they\, told me\,\,, ‘You can’t leave.’
+252|Ken Nakahara|They said\, I had\, some kind of\, fungal\, infection.\,\, It was\, in my blood\,\,, they said.
+253|Ken Nakahara|But\, then\, the officials came\, and...\,\, they had\, a very\, serious\, look\, on their\, faces.
+254|Ken Nakahara|I\, tried to explain...\,\, no symptoms\,\,, nothing.
+255|Ken Nakahara|But...\,\, they\, didn’t care.
+256|Ken Nakahara|And\, to make it worse\,\,, there was\, some\, issue\, with my\, passport.
+257|Ken Nakahara|Some...\,\, bureaucratic\, mistake.
+258|Ken Nakahara|I\, realized that\, I...\,\, I\, wasn’t going\, anywhere.
+259|Ken Nakahara|And\,\, they locked me\, right\, here...\,\, in\, Obenseuer.
+260|Ken Nakahara|A simple trip\,\, that turned\, into...\,\, this.\,\,\, Funny\,\,, right?
+261|Ken Nakahara|It\, will take\,\,, two\, days\, for the job to be\, done.
+262|P|The tunnel has been cleared open
+263|Ken Nakahara|That’s...\,\, very good.\,\,\, Not many\, can\, handle that\, kind of work\, so\,\, quickly.
+264|Ken Nakahara|Now\, that the path is\, clear\,\,, we can\, start\, reinforcing\, the tunnel.
+265|Ken Nakahara|But\, first\,\,, of course\,\,, you have to\, pay...
+266|P|I need a renovation
+267|Ken Nakahara|Ah\,\,, it’s you.\,\,\, What\, brings you here this\, time?
+268|Ken Nakahara|What do you\, need assistance\, with?
+269|Ken Nakahara|Good\, to see you\, again.\,\,\, What\, can I\, help you with\, today?
+270|Ken Nakahara|Ah...\,\, yes\,, you.\,\,\, What’s on your mind?
+271|Ken Nakahara|Ah\,\,, you’re\, back.
+272|Ken Nakahara|We\, cleared\, the path\, and...\,\, it was\,\, not easy\,\,, but\, we got it\, done.
+273|Ken Nakahara|Now\,\,, to begin\, reinforcing\, the tunnel\, under your\, tenement\,\,, we need to move\, forward.
+274|Ken Nakahara|But...\,\, before we\, start\,\,, there is\, the matter of\,\, payment.
+275|P|I have already done it
+276|Ken Nakahara|Really?\,\,\, You\, cleared it\,\, already?
+277|Ken Nakahara|That is...\,\, incredible.
+278|Ken Nakahara|And...\,\, this changes\,\, everything.
+279|Ken Nakahara|With the path\, clear\,\,, we can\, begin the work\, right away.
+280|Ken Nakahara|Great!\,\,\, I'll\, mark it on\, your map.
+281|Ken Nakahara|You can\, reach it through Erikson’s claim.\,\,\, There’s\, also a tunnel\, at the service area\,\,, but\, it’s completely collapsed\,\,, so\, don’t bother\, trying to go\, that way.
+# conv 224: Mines/Mining Services/Toivo Malmijoki
+282|Toivo Malmijoki|Would you like to\, buy...\,\, uhm...\,\,\, mining\, machinery\,\, or equipment?
+283|Toivo Malmijoki|I...\,\,\, don't\, remember seeing\, you here\, before...
+284|Toivo Malmijoki|... because\, we also\, build all kinds of structures here...\,\, like\, tunnel supports\,\,, conveyor systems\,\,, and\, custom\, frameworks\,\,, but surely\, you don't have\, a need for\,\, such things?
+285|Toivo Malmijoki|What is your name anyway?
+286|Toivo Malmijoki|Kuka\, helv...\,\, I mean...\,\, welcome to\, OS Mining Services!
+287|Toivo Malmijoki|<color="red"><size=80%>... what devil's\, gnome has\, snuck in here...
+288|Toivo Malmijoki|I\, mean...
+289|P|[lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])]
+290|P|I want you to build me something
+291|Toivo Malmijoki|Just tell me your name first.
+292|Toivo Malmijoki|<color="red"><size=80%>... damn\,\,, [lua(Actor["Player"].Pronoun)]'s\, probably completely\, imbecile...
+293|P|What did you say?
+294|P|I heard that
+295|Toivo Malmijoki|I\, asked\, what\, your\, name\, is.
+296|Toivo Malmijoki|<color="red"><size=80%>... [lua(Actor["Player"].Pronoun)] is also\, completely\, deaf...
+297|P|I mean after that
+298|Toivo Malmijoki|I\, just asked your name\,\,, goddamn.
+299|Toivo Malmijoki|Yeah\,, I asked your name...\,\, so...\,\, can you\, tell\, your\, name?
+300|P|I'm not going to tell you my name
+301|Toivo Malmijoki|Well\,\,, then you won't get service from\, here.
+302|Toivo Malmijoki|<color="red"><size=80%>... fucking\, jerk...
+303|Toivo Malmijoki|[lua(Variable["PlayerFirstName"])]\, [lua(Variable["PlayerLastName"])]...
+304|Toivo Malmijoki|<color="red"><size=80%>... what a fucking name is that...
+305|Toivo Malmijoki|Wait\, a minute...
+306|Toivo Malmijoki|<color="red"><size=80%>... can that devil\, stick be...
+307|Toivo Malmijoki|... you are\, the new\, owner\, of that damn\, tenement!
+308|Toivo Malmijoki|Y-\,you...\,\, you are in trouble\,, [lua(Actor["Player"].AgeName)]!
+309|P|In trouble? What do you mean?
+310|P|No, it's you in trouble if I don't get service!
+311|P|You are mistaken, I don't own the tenement
+312|Toivo Malmijoki|What?\,\,\, No\,, you clearly don't understand!
+313|Toivo Malmijoki|Your tenement's ownership includes\,\, a tunnel\, in the mine...
+314|Toivo Malmijoki|... and\, that\, tunnel is\, in very bad\, shape\,\,, which is in danger of\, collapsing!
+315|Toivo Malmijoki|It must be fixed\,\, before the whole building collapses!
+316|P|What I should do then?
+317|Toivo Malmijoki|Go talk to Ken\,\, Nakkiha...\, I mean...\, Nakahara.\,\,\, He's usually upstairs\, at the computer.
+318|Toivo Malmijoki|He\, can tell you\, what needs to be\, done.
+319|P|You have got to be kidding me...
+320|Toivo Malmijoki|I'm\, very\, serious!
+321|Toivo Malmijoki|<color="red"><size=80%>... that fucking landlord\, is in\, big\, trouble...
+322|Toivo Malmijoki|Yeah\,\,, I don't think so.
+323|Toivo Malmijoki|I'm pretty sure that\, no one else\, lives here\, whose name\, is\, [lua(Variable["PlayerFirstName"])]\, [lua(Variable["PlayerLastName"])].
+324|Toivo Malmijoki|And\, [lua(Variable["PlayerFirstName"])]\,, you must listen to me\,\, because it is...\,\, very\, important.
+325|Toivo Malmijoki|<color="red"><size=80%>... I\, really hope that\, damn...\,\, asbestos rock\, understands\, what I'm saying...
+326|P|I said that it is not MY tenement!
+327|Toivo Malmijoki|But...
+328|Toivo Malmijoki|<color="red"><size=80%>... of course that damn\, dumbbell doesn't own\, the tenement...
+329|Toivo Malmijoki|... what\, do you\, want\, then?
+330|Toivo Malmijoki|How\, can I\, help?
+331|Toivo Malmijoki|Would you like to buy...\,\,\, mining\, machinery\,\, or equipment?
+332|Toivo Malmijoki|From OS Mining Service\,\,, you get\, quality\, goods for\, cheap!
+333|Toivo Malmijoki|Saatanan\, tont...\,\, I mean...\,\, what would you like to buy today?
+334|P|I want to buy some machinery
+335|P|I want to trade a few things
+336|Toivo Malmijoki|Are you ready to tell me your name?
+337|Toivo Malmijoki|Yeah?
+338|Toivo Malmijoki|Those damn gnomes from hell...\,\, uhm...\,\,\, yes?
+339|Toivo Malmijoki|<color="red"><size=80%>... and\, everyone\, in that\, cursed\, tenement is going to\, die...
+340|Toivo Malmijoki|I'll be happy to\, buy\, hardware\, and\, other stuff from you\, that you don't\, need.
+341|Toivo Malmijoki|Especially\, coffee\,\, and\, tobacco...\,\, as well as wood.
+342|Toivo Malmijoki|<color="red"><size=80%>... I need wood\, and\, lots of it...
+343|P|I want to get inside the radioactive waste repository
+344|Toivo Malmijoki|Siis mit...\,\, I mean...\,\, why the hell would you want to get inside\, there?
+345|Toivo Malmijoki|<color="red"><size=80%>... and\, now [lua(Actor["Player"].Pronoun)] wants to\, die\,\,, great...
+346|P|Someone I'm looking for may have gone there
+347|P|Maybe I'll find some shimmering treasures there
+348|P|I just want to die there
+349|Toivo Malmijoki|None of my\, business\,\,, huh?
+350|Toivo Malmijoki|Who\, would want to\, go\, there...
+351|Toivo Malmijoki|Shimmering\, treasures?\,\,\, In\, a radioactive\, dump?\,\, Sure...
+352|Toivo Malmijoki|Well...\,\, that\, makes sense.
+353|Toivo Malmijoki|Anyway...
+354|Toivo Malmijoki|I\, want you to have taken care of your\, business\, with your\, tenement first\,\,, before I\, give you\, permission to\, go there.
+355|Toivo Malmijoki|<color="red"><size=80%>... I\, don't want that\, fucking\, cardboard head to\, die\,\, before it's\, taken care of...
+356|Toivo Malmijoki|<color="red"><size=80%>... should have\, guessed\, that this\, cursed bastard has\, like-minded friends...
+357|Toivo Malmijoki|<color="red"><size=80%>... that\, empty-headed bastard\, probably doesn't even\, have\, a good reason\, to go there...
+358|Toivo Malmijoki|<color="red"><size=80%>... I\, hope that bastard doesn't mean\, some...\,\, glowing\, nuclear waste...
+359|Toivo Malmijoki|<color="red"><size=80%>... I\, really hope that\, idiot isn't\, serious...
+360|P|That business with my tenement has been taken care of
+361|Toivo Malmijoki|Yeah\,, I heard about that.
+362|Toivo Malmijoki|<color="red"><size=80%>... how did\, that\, empty-headed\, stick managed to\, do that...
+363|Toivo Malmijoki|So...\,\, you\, wanted\, access to that\, radioactive waste repository?
+364|Toivo Malmijoki|<color="red"><size=80%>... that\, imbecile\, dwarf\, really wants to\,\, die there... 
+365|Toivo Malmijoki|Well\,\,, take this.
+366|Toivo Malmijoki|Give it to\, the lady at the management office.\,\,\, She’s\, the one\, who handles\, all the paperwork\, for this sort of\, thing.
+367|Toivo Malmijoki|<color="red"><size=80%>... what is\, going to happen\, when\, two idiots meet each other...
+368|P|Where is that management office?
+369|P|Thanks! (Leave)
+370|P|Thanks asshole!
+371|Toivo Malmijoki|What?\,\,\, What\, did I\, do now?
+372|Toivo Malmijoki|<color="red"><size=80%>... [lua(Actor["Player"].Pronoun)]'s a complete\, idiot\, and also\, an asshole...
+373|Toivo Malmijoki|Um...
+374|Toivo Malmijoki|It's\, at the center of the\, service area\,\,, right above the two main tracks.
+375|Toivo Malmijoki|I mean that\,\, tunnel of your tenement.\,\,\, When you're\, finished with it\,\,, come back.
+376|P|Can I get permission for the radioactive waste repository?
+377|Toivo Malmijoki|You need to\, take care of\, your\, tenement business\, with\, Ken first.\,\,\, Handle that\,\,, and then\, we’ll\, discuss this again.
+378|P|What business?
+379|P|Oh, okay (Leave)
+380|Toivo Malmijoki|<color="red"><size=80%>... how\, could that\, devil gnome have\, forgotten that...
+381|Toivo Malmijoki|Did you\, talk to Ken\,\, Nakkihaara...\,\,\, he is usually\, upstairs...\,\, in this building.
+382|Toivo Malmijoki|I mean...\,\,\, you have to\, get that damn tunnel fixed\,\, before\, your damn building collapses!
+383|P|So, my tenement is going to collapse?
+384|Toivo Malmijoki|Wait\, a minute…
+385|Toivo Malmijoki|<color="red"><size=80%>... that\, lying\, bastard…
+386|Toivo Malmijoki|... I thought\, you said it\, wasn't your\, tenement?
+387|Toivo Malmijoki|Well…\,\, anyway…
+# conv 225: Mines/Other/Heska Pavonen
+388|Heska Pavonen|You...\,\, you\, didn't happen to\, open the\, collapsed\, tunnel\,\,, did\, ya?
+389|Heska Pavonen|I\, heard a\, blast\,\, but...\,\, I\, thought\, it might’ve been\, my\, imagination.
+390|P|Yeah, I cleared it out
+391|P|How long have you been stuck in here?
+392|Heska Pavonen|Not...\,\, terribly long\, I\, think.
+393|Heska Pavonen|But\, was it\,\, you\,\, who opened\, the tunnel?
+394|Heska Pavonen|Ha!\,\,\, I\, knew\, it!
+395|Heska Pavonen|I\, owe you\, big time!
+396|Heska Pavonen|Here's something\, for you!
+397|P|No, it wasn't me
+398|Heska Pavonen|Oh\,\, well...
+399|Heska Pavonen|I\, owe\, a debt of\, gratitude\,\, to\, whoever did it.
+400|Heska Pavonen|So\,\,, what\, are\, you\, doing\, here?
+401|Heska Pavonen|Many people\, don't want to\, come\, here\,\, because\, there is\, radioactive waste\, behind that\, big gate.
+402|P|Has anyone been here lately?
+403|P|Why there is radioactive waste behind that gate?
+404|Heska Pavonen|Nasty stuff\,\,, ain't it?
+405|Heska Pavonen|To tell you\,\, the truth\,\,, it’s\, not\, supposed to be there...\,\, none of it is.
+406|Heska Pavonen|But\,\, there it is...\,\, because of\, corruption\,, greed\, or\, whatever.
+407|Heska Pavonen|I\, think\, they wanted to\, save money\,\,, and\, this place?\,\,\, This old mine...\,\, was just\, too\, convenient for them.
+408|P|But there's a whole residential area above!
+409|Heska Pavonen|Exactly!
+410|Heska Pavonen|People living their lives\,\,, none the wiser...
+411|Heska Pavonen|From\, what I’ve heard\,\,, there was\, supposed\, to be\, a larger\,\,, proper\, tunnel\,\, built for\, storing that\,\, stuff...\,\, far away\, from anyone.
+412|Heska Pavonen|But this was\,\, the cheaper\, option...
+413|P|Where does that nuclear waste come from?
+414|Heska Pavonen|It\,\, could be\, from\, Black Rock nuclear power plant...
+415|Heska Pavonen|Obenseuer's...\,\, uhm...\,\, metro tunnels lead there\,\,, but...
+416|Heska Pavonen|...\,\, I think they...\,\, S.N.W...\,\, took\, enriched\, uranium\,\, from\, a nuclear power plant\,\, and\, they used it\,\, elsewhere to make\, a\,\, nuclear bomb.
+417|Heska Pavonen|And\,\, an old army truck\, can be found\, in the tunnel\,\, so maybe\, they just...\,\, decided to\, hide the\, waste here.
+418|Heska Pavonen|Ah\,\,, yeah\,\,, there was\, one guy\, not\, too long ago\,\, who left those\, glow sticks\, all over.
+419|Heska Pavonen|Must’ve been using ‘em to mark his path\,\, for some reason.
+420|Heska Pavonen|I\,\, asked him\, what he was doing\, there\,\,, because you don’t just\, try get into a\, mine\,\, full of radioactive waste\,\, without a\, damn\, good\, reason.
+421|Heska Pavonen|And\, he\, said\,\, he was\, tryin’ to get to\, the other side\,\, of that\, radioactive waste repository.
+422|P|Did you let him in?
+423|P|Why did he want to go there?
+424|Heska Pavonen|He\, said\, someone’s\, living down there\,\,, on\, the other side.
+425|Heska Pavonen|I told him\, there was no way in hell I\, was letting him\, through.
+426|Heska Pavonen|I\, didn't believe him\,\, because I\, haven't seen anyone\, go\, there.
+427|Heska Pavonen|But\,\, he told me that\, there was\, another route\, there\,\,, but it has\, collapsed.
+428|Heska Pavonen|So\,\,, that’s\, why\, he was so\, keen on\, going through\, the waste tunnel...\,\, it’s\, the only way\, left\,\, to get\, there.
+429|P|Can you let me in?
+430|Heska Pavonen|Through there?\,\,\, Into the\, waste storage?\,\,\, You’re serious?
+431|Heska Pavonen|You don't\, even seem to have\, the right\, equipment\,\, with you!
+432|Heska Pavonen|You\, at least need\,\, a dosimeter\,\, before you try to go there!
+433|Heska Pavonen|And even\, if you have\, everything\, you need\,\,, I\, can’t just let\, anyone\,\, waltz into that kind of\,\, danger!
+434|Heska Pavonen|I’d be\,\, responsible\,\, if something happened\, to you!
+435|Heska Pavonen|I\,\, might\, let you in.\,\,\, On\, one\, condition.
+436|P|But I need to find that guy!
+437|Heska Pavonen|I\, don't think he's\, even there!
+438|Heska Pavonen|I\,\, didn't open the gate...
+439|Heska Pavonen|But...
+440|Heska Pavonen|If \,you’ve got the required\, papers\, for access\,\,, official-like\,\,, then\, I’ll\, let you\, through.
+441|Heska Pavonen|The guys\, at\, Os Mining Services\, can help you\, with that.
+442|Heska Pavonen|Come back\,\, when you have\, the papers\,\, and at least\, the dosimeter\, with you.
+443|P|I'm aready prepared to go there
+444|Heska Pavonen|Even\, if that's true\,\,, I\, can't just...\,\, let you in.
+445|Heska Pavonen|You can't\, go into\, the mineshaft\, anymore...
+446|Heska Pavonen|I\, can smell\, asbestos in the\, air...
+447|Heska Pavonen|I\,\, still\, remember\, when\,\, my friends\, visited here often...
+448|Heska Pavonen|There have been\,\, a lot of...\,\, earthquakes\, lately.
+449|Heska Pavonen|Well...\,\, name’s Heska.
+450|Heska Pavonen|I\, used to be\, a miner\,\,, but\, it wasn’t really\, my thing.\,\,\, Breaking\, rocks all day?\,\,\, Not for me.
+451|Heska Pavonen|I was going to\, move back\, to the surface\,\,, but\, then I\, stumbled on this...\,\, place.
+452|P|I now have permission to go there
+453|Heska Pavonen|You\, really got it...
+454|Heska Pavonen|Look\,\,, I\, don’t like this.\,\,\, Even with\, permission.
+455|Heska Pavonen|I\, hope that\, you have at least\, the dosimeter.\,\,\, And if you have it...\,\,\, keep your eye on\, the lower number\,, if that thing ever reaches\, 1 Sv.\,.\,.\,\,\, Get the hell out of there!
+456|Heska Pavonen|You know what\, radiation does to people\,\,, don’t you?
+457|Heska Pavonen|You should see\, a doctor after this\, to avoid any\, unpleasant surprises.
+458|Heska Pavonen|Just...\,\, don’t make me\, regret\, letting you in.
+459|Heska Pavonen|The code for the gate is\,\, 1\,2\,3\,4.
+460|Heska Pavonen|Someone had been\, living down here\, before\, and the\,y left behind\, this...\,\, little place.
+461|Heska Pavonen|And well...\,\, there are miners\,\, who come through to\, work shifts down here\,\,, and\, I\, offer them a place to\, rest.
+462|Heska Pavonen|I mean...\,\,\, radioactivity is\, a slow\, and silent killer\,\,, you\, don't feel it\, until you're basically\, a dead man walking.
+463|P|What was the code for the gate?
+464|Heska Pavonen|Really?\,\,\, You can’t\, remember it?
+465|Heska Pavonen|It's\, 1234.
+466|Heska Pavonen|Did you\,\, visit at the\, radioactive repository?
+467|P|Yeah, it was not that bad
+468|Heska Pavonen|Just...\,\,\, stay away from me!
+469|Heska Pavonen|You might\, still be carrying\, radioactivity\,\,, and\, I’m not looking to\, glow in the dark\,\, like those\, green mushrooms!
+470|P|I was careful there
+471|P|No and I'm not going there
+472|P|Not yet
+473|Heska Pavonen|Good.\,\,\, Stay that way.
+474|Heska Pavonen|That place is\, nothing but\, trouble,
+475|Heska Pavonen|Not yet?
+476|Heska Pavonen|Well\,\,, that place is\, dangerous\,\,, and\, if you do go\,\,, don’t\, come\, near me afterward.
+477|Heska Pavonen|Careful?\,\,\, Well\,\,, you better\, hope so.
+478|Heska Pavonen|But\,\, you might’ve brought\, something back\,\, without even knowing.
+479|Heska Pavonen [ответ]|Scared
+480|Heska Pavonen|Please...\,\,\, keep your distance.
+481|Heska Pavonen|Just stay away.
+482|Heska Pavonen|Keep your distance.
+483|Heska Pavonen|Just...\,\, stay back.
+# conv 227: Mines/Other/Antero Erikson
+484|Antero Erikson|You're not\, a miner\,\,, are you?
+485|Antero Erikson|Plenty of folks come looking for\, easy money.
+486|Antero Erikson|Don’t forget...\,\, the crushers\, don’t care\, if it’s ore\, or fingers\, going through them.\,\,\, So\, be careful.
+487|Antero Erikson|Don’t let\, greed be\, the thing\, that gets you buried in here.
+488|Antero Erikson|Remember...\,\, work’s\, simple...\,\, dig\,, haul\,, drop.
+489|Antero Erikson|Don’t matter\,, I suppose.
+490|Antero Erikson|Plenty of\, folks around here\, didn’t start out as\, miners.
+491|Antero Erikson|So\,\,, what\, brings you\, down here?
+492|P|What job do you have available?
+493|Antero Erikson|Well...\,\, let me\, make it simple\, for ya.
+494|Antero Erikson|Name’s\, Antero\, and\, this place\, here...\,\, is my\, claim.
+495|Antero Erikson|So...\,\, I’m always\, on the\, lookout\, for hands\, willing to\, swing\, a pick\, and haul some ore.
+496|Antero Erikson|You just...\,\, have to\, mine ore\, here\, on my\, claim\,\, and\, take it to\, the service area.
+497|Antero Erikson|There is\, an ore drop-off point\, next to the\, elevators\, in the service area.
+498|Antero Erikson|Just\, load the ore into\, the crushers\,\,, get your\, receipt\,\,, and\, then bring it to me.
+499|Antero Erikson|Easy\,\,, right?
+500|Antero Erikson|Also\,\,, I’d\, recommend using\, the minitrains.
+501|Antero Erikson|Those little beauties.
+502|Antero Erikson|Just\, get a tipping wagon\, and it will make\, hauling ore\, as easy as\, pie.
+503|Antero Erikson|So...\,\, you can\, start work whenever you\, want.
+504|P|I have a receipt for you
+505|Antero Erikson|Yeah?
+506|P|Can you tell me the instructions for the job again?
+507|P|Can you give me directions?
+508|P|Actually, nothing (Leave)
+509|Antero Erikson|Fine...\,\, mine ore\, here\, on my\, claim.
+510|Antero Erikson|And\, then haul the ores\, to the\, service area. 
+511|Antero Erikson|There is\, an ore drop-off point\, next to the\, elevators.
+512|Antero Erikson|Just\, load the ore into\, the crushers\,\,, get your\, receipt.
+513|Antero Erikson|And\, then bring\, that\, receipt to me.
+514|Antero Erikson|Simple enough for ya?
+515|P|Sure, thanks (Leave)
+516|P|Yeah, maybe (Leave)
+517|P|Not really...
+518|Antero Erikson|Yeah...\,\, I'm\, not going to\, explain it again.
+519|Antero Erikson|Sure...\,\, I'll\, mark\, a few locations\, on your map.
+520|Antero Erikson|Here is\, my claim...
+521|Antero Erikson|Service area\, should be...\,\, somewhere...\,\, here.
+522|Antero Erikson|... and\,\, there is\, the Kauha's claim.
+523|Antero Erikson|Anything else?
+524|Antero Erikson|No\,\,, I\, haven’t seen any\, corpses\,\, lately\,\,, let alone one\, wearing\, fancy jewelry.
+525|Antero Erikson|And\,\,, to be clear\,\,, I’d\, prefer to keep it that way.
+526|Antero Erikson|Well\,\,, there’s\, Anna Markkanen.\,\,\, She\, runs the canteen\, in the service area.\,\,\, She’s blonde.
+527|Antero Erikson|You can also load ore from those \,\,wooden loaders,\, straight to the tipping wagons
+528|Antero Erikson|Then\,\,, also take the ore others have mined\,\, from those...\,\, wooden loaders\, to your train.
+529|Antero Erikson|Do you have a mining permit?
+530|P|Yeah, here
+531|P|No, I don't have it
+532|P|No, where can I get it?
+533|Antero Erikson|Hmm\,\,, no mining permit\,\,, huh?
+534|Antero Erikson|Talk to\, Reiska.\,\,\, He can help you out.
+535|Antero Erikson|He\, works at a small office\, near\, the large elevator to the surface...\,\, or the ore drop-off point...\,\, in the service area.
+536|P|I have that mining permit now
+537|Antero Erikson|I pay\,\, 20% of the receipt value to you.
+538|P|Do you have the keys to the gates?
+539|Antero Erikson|Well\,\,, keys to the\, tenement access tunnel\, should be in\, the break room...\,\, if\, no one\, walked off\, with them.
+540|Antero Erikson|And\,\, the other\, tunnel...
+541|Antero Erikson|Well\,\,, I\, lost those keys\, and I\, have no idea\, where they\, ended up.
+542|Antero Erikson|But…\,\, if\, you’re desperate\,\,, there’s\, always\, the other way\, in.
+543|Antero Erikson|I mean...\,\, you could\, accidentally\, ram\, minitrain\, into that\, gate…
+544|Antero Erikson|Just\, saying\,\,, if\, the keys ain’t\, an option\,\,, brute force\, might be.
+# conv 228: Mines/Other/Emil Kauha
+545|Emil Kauha|You’re\, new\,\,, aren’t you?
+546|Emil Kauha|Never seen your face around here before.
+547|P|Yeah you're right, I just got here
+548|P|Actually, I've been here for a while
+549|Emil Kauha|So\,\,, what’s your business at my claim?
+550|P|Do you have work?
+551|Emil Kauha|Good\,\,, I could\, use\, an extra pair of\, hands around here.
+552|Emil Kauha|Well\,\,, I’m\, Emil Kauha.
+553|Emil Kauha|And\, this place... 
+554|Emil Kauha|... my\, father\,\,, Henry Kauha\,\,, built this place with his\, bare hands!
+555|Emil Kauha|Worked harder\, than\, any man\, I’ve ever seen!
+556|Emil Kauha|I\, mean...\,\, you ever see someone\, chew orange mushrooms\, like they’re candy?
+557|Emil Kauha|It kept him\, going\,\,, but...\,\, well\,\,, it caught up to him\, in the end.
+558|Emil Kauha|It was...\,\, unfortunate\,\,, but\, now\, this place is\, mine\, and I'm\, the boss here!
+559|Emil Kauha|You\, just have to...\,\, start\, digging out the ore.
+560|Emil Kauha|Plenty of\, veins around here...\,\, so...\,\, you\, won’t have trouble\, finding them\,\, if you’ve got\, half a clue.
+561|Emil Kauha|And\, once\, you’ve got a load\,\,, take it to\, the service area.
+562|Emil Kauha|There’s\, a drop-off point\, right next to the elevators.\,\,\, Can’t miss it.
+563|Emil Kauha|Dump the ore into\, the crushers\,\, and make sure it all goes in...\,\, no slacking\, or\, leaving\, messes.
+564|Emil Kauha|The machine\, will spit out\, a receipt\, when it’s done.
+565|Emil Kauha|Bring that receipt back to me.\,\,\, That’s\, how we keep\, track of your work\,\, and make sure you get paid.\,\, Your cut is 20%.
+566|Emil Kauha|Clear enough?
+567|Emil Kauha|Oh\,\,, and one more thing...\,\, use the minitrains.
+568|Emil Kauha|Just\, grab a tipping wagon\,\,, load it up\,\,, and\, let it do the hard hauling for you.
+569|Emil Kauha|Just follow that\,\,, and\, you’ll do fine.
+570|Emil Kauha|Alright\,\,, listen close this time.\,\,\, I’ll\, make it\, simple for you\,\,, step\, by\, step...
+571|Emil Kauha|First\,\,, mine\, the ore here\, on my claim...\,\, just\, find a good vein\, and start digging.
+572|Emil Kauha|Next\,\,, haul the ore to the\, service area.\,\,\, There’s\, a drop-off point\, near the elevators.
+573|Emil Kauha|Then\,\,, load the ore into\, the crushers\,\, and\, it’ll spit out a receipt for you\, when it's done.
+574|Emil Kauha|After that\,\,, bring the receipt\, back to me.\,\,\, That’s\, how I\, track your work\,\, and make sure you get paid.
+575|Emil Kauha|Lastly\,\,, use\, the minitrains\, to haul the ore.\,\,\, Grab yourself\, a tipping wagon.\,\,\, It’ll\, save you time\, and effort.
+576|Emil Kauha|Clear enough now?\,\,\, Don’t\, make me explain it again.
+577|Emil Kauha|Got\, a receipt to turn in\,\,, or\, do you\, need something else?
+578|Emil Kauha|Sometimes\, I can still\, hear my dad barking orders out here...
+579|Emil Kauha|Remember...\,\, mine\, the ore\,\,, drop it off\, at the crushers\,\,, and\, bring me\, the receipt.
+580|Emil Kauha|I’ve got no\, problem\, if you use\, the mushrooms\,\,, but\, don’t get carried away.
+581|Emil Kauha|Huh?\,\,\, Funny\,, I’d think\, I’d remember\, someone like you.
+582|Emil Kauha|If\, you’ve got something to\, say\,\,, say it.
+583|Emil Kauha|What\, do you need this time?
+584|Emil Kauha|I\, hope\, you’re not\, wasting my time.
+585|Emil Kauha|What do you need?
+586|Emil Kauha|One time\,, I\, tried planting\, watermelons\, near the claim.
+587|Emil Kauha|It’s\, funny...\,\, when my\, dad was around\,\,, I\, thought\, I’d hate being in charge.
+588|Emil Kauha|Every time I\, look around here\,\,, I\, remember\, how much\, sweat\, and blood\, my dad poured into this\, place.
+589|Emil Kauha|Yeah?
+590|Emil Kauha|A corpse?\,\,\, With\, a silver ring?\,\, No\,\,, I haven’t seen anything like that.
+591|Emil Kauha|If you mean\, Anna Markkanen\,\,, she runs\, the canteen up at the service area.\,\,\, She's\, blonde\, and always busy.
+592|Emil Kauha|Well maybe...\,\,\, but do you have a mining permit?
+593|P|No, where can I get one?
+594|P|No, I don't have one
+595|Emil Kauha|Well\,\,, you need to fix that.
+596|Emil Kauha|Talk to\, Reiska.
+597|Emil Kauha|He’s\, usually in the small office\, at the ore drop-off\, in the service area.
+598|Emil Kauha|He’ll\, point you in the right direction.
+599|P|I need the keys to the electrical building. Do you have them?
+600|Emil Kauha|Eh...\,\, that damn\, woman\, already took them.
+601|Emil Kauha|She’s\, inside there\, right now\,\, and I\, have no idea\, who she\, is.
+602|Emil Kauha|But\,\, there\, was\, a second key.
+603|Emil Kauha|Pertti had it…\,\, but\, he lost it\, near the\, break room.\,\,\, He\, already tried\, looking\,\,, but\, no luck.
+604|Emil Kauha|So\,\,, I’m\, letting Pertti\, handle her\,\, when he\, gets back\, from his\, holiday.\,\,\, Until\, then\,\,, you’ll\, have to\, find that\, second key\, yourself.\,\,\, Good\, luck.
+605|Emil Kauha|She just\,\, showed up\, asking\, weird\, questions\,\,, then\, swiped the key.
+606|Emil Kauha|Also...\,\, you can\, haul ore others have mined.\,\ Just pull tipping wagon under those wooden loaders\,, and pull the lever on the side.
+607|Emil Kauha|Then,\, drop the ore into those wooden chutes\,\,, park a tipping wagon under them\, and pull the lever on the side\, to load the wagon.

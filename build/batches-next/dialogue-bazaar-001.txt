@@ -1,0 +1,182 @@
+# conv 57: Bazaar/Pontikka/Arvo Kirkastaja
+1|Arvo Kirkastaja|Please\,\,, have a\, seat.\,\,\, We're\, about to begin.
+2|Arvo Kirkastaja|Congratulations\,\,, you\, now know\, the basics\, of the\, art of\, moonshining.\,\,\, Here\,\,, take this\, diploma.
+3|Arvo Kirkastaja|Are you\, ready for\, the exam?
+4|Arvo Kirkastaja|Good\,, let's begin.\,\,\, The task is\, simple: produce\, moonshine\, from the ingredients\, set on\, the table.
+5|Arvo Kirkastaja|The\, exam setup is\,\, not ready yet.\,\, Please\, come back later.
+6|Arvo Kirkastaja|Excellent.\,\,\, Now\, that\, you are\, qualified to\, apply for\, membership\,\,, you'll\, need to\, collect\, recommendations\,\, from our\, current members.\,\,\, Usually\,\,, three is\, enough.
+7|Arvo Kirkastaja|Once\, you have\, collected\, the recommendations\,\,, you'll\, need to\, pay\, a co-op fee\, of\, 1300 RM\, to become\, a full member.
+8|Arvo Kirkastaja|Membership gives you\,\, access to\, state-of-the-art\, mashing\,\,, brewing\,, and\, distilling equipment.\,\, We\, even have\, a modern\, hydroponic\, greenhouse.
+9|Arvo Kirkastaja|Are you here to\, apply\, to our\, cooperative?
+10|Arvo Kirkastaja|If\, you do not succeed\,\,, you may\, retry at a later date.
+11|Arvo Kirkastaja|You may\, start\, now.
+12|Arvo Kirkastaja|I\, cannot\, disclose\, the identities of\, our members\,\,, but\, I\, can tell you\, that many\, bar owners\, around here\, belong\, to the cooperative.
+13|Arvo Kirkastaja|Thank you.\,\,\, Give me\, a moment\,\,, I'll\, look them over.
+14|Arvo Kirkastaja|Yes\,\,, everything seems\, to\, be in\, order.\,\, Are you\, ready to\, pay the fee\,\, and join\, the cooperative?\,\, It's...\,\, 1300 RM.
+15|Arvo Kirkastaja|The equipment was very expensive\, and took ages to arrive\,\,, but they're worth every penny.
+16|Arvo Kirkastaja|If you're interested\,\,, I could order some for you.\,\,\, The more advanced hydroponics shelves were north of 10K RM.\,\,\, Vertical farms are cheaper.\,\, Around 2K to 3K.
+17|Arvo Kirkastaja|I'll get the exact quote,\, if you're interested.
+18|Arvo Kirkastaja|Okay.\,\,\n Hydroponic Farm: 13 000 RM, 1 month delivery.\,\,\,\n Hydroponic Farm With Supports: 10 000 RM, 1 month delivery.\,\,\,\n Vertical Farm: 2500 RM, 2 week delivery.\,\,\,\n Vertical Farm Box: 60RM, 1 week delivery.
+19|Arvo Kirkastaja|Oh\, well\,\,, come back\, when you do.
+# conv 52: Bazaar/Trader/Astrid Vinsjö
+20|Astrid Vinsjö[ж]|Oh.\,\,\, Yet another\, turniphead\, who wants to\, distribute their\, homemade crap.
+21|Astrid Vinsjö[ж]|Fine...\,\, I can buy your\, alcohol\,\, if you have\, solid proof that\, it's high-quality\,\, and\, safe. Like\,\,, if you're\, a member of the\, Moonshining\, Co-op.
+22|Astrid Vinsjö[ж]|Go and\, figure that out.\,\,\, They have\, their base\, nearby.
+23|Astrid Vinsjö[ж]|Sure...\,\, you got your\, Co-op membership\, sorted out?
+24|Astrid Vinsjö[ж]|I told you\,\,, they have their\, base nearby...\,\, they even have\, a big red sign\, on the building\, they're in.
+# conv 51: Bazaar/Trader/Gustav Sågspånberg
+25|Gustav Sågspånberg[ж]|Hejsan!\,\,\, Looking to\, buy some\, soft\, and tasty\, artisan bread?\,\,\, Finest in\, Obenseuer!
+26|Gustav Sågspånberg[ж]|Oi!\,\,\, Did you\, know that\, Mesoamerican people\, used to\, boil corn in\, cement to\, improve its\, nutritional value\,\,, taste\,\,, and to\, enable making\, corn dough?\,\,\, They call it\, 'nixtamalization'.
+27|Gustav Sågspånberg[ж]|.\,.\,.\, Or was it\, lime\, that they used?\,\,\, But\, anyway\,\,, not that I'm\, boiling my\, flour in\, cement or\, lime!\,\,\, That\, interesting fact just\, came to my mind\, from your comment.
+28|Gustav Sågspånberg[ж]|You should\, really try it!\,\,\, I mean...\,\, my\, bread\,\,, not\, boiling in\, cement.\,\,\, But\, of course\,\,, you can\, try that too.
+29|Gustav Sågspånberg[ж]|Yes!\,\,\, Did you know\, that you can\, substitute\, a small amount of\, finely ground sawdust\,\, into\, dough\, before people can even noti\,ce?
+30|Gustav Sågspånberg[ж]|Umm...\,\,\, not that my\, bread has\, any sawdust.\,\,\, You should\, really just\, taste it.
+31|Gustav Sågspånberg[ж]|God dag\,, my friend!\,\,\, Looking to\, buy some\, soft\, and tasty\, artisan bread?\,\,\, Would you\, like to buy some?
+32|Gustav Sågspånberg[ж]|Hejsan!\,\,\, We have\, the finest bread\, in Obenseuer\,\,, packed\, with...\,\, uh\,\,, natural\, fiber!
+33|Gustav Sågspånberg[ж]|God dag!\,\,\, Looking for\, some\, hearty\,\,, filling\, artisan bread?
+34|Gustav Sågspånberg[ж]|Oi!\, Ja!\,\, She had to leave early...\,\, Asked me to\, tell you\, she'll be sending you\, something in the mail soon.
+35|Gustav Sågspånberg[ж]|Didn't say what it was\,, though.\,\, She seemed to be\, in quite a hurry.
+36|Gustav Sågspånberg[ж]|Anyway\,, can I\, get you anything?\,\,\, We've got some\, freshly baked bread!
+# conv 25: Bazaar/Trader/Jens Brom
+37|Jens Brom|Stuff for coins\,\,\,, and coins for stuff!
+38|Jens Brom|Got stuff?\,\, I got!
+# conv 35: Bazaar/Rob Madsen
+39|Rob Madsen[м]|Eh...\,\, hello!\,\,\, Welcome\, to Rob-in build and repair!
+40|Rob Madsen[м]|We\, build\, and repair everything\, you need!
+41|Rob Madsen[м]|You just have to pay\,\, and bring everything\, we need to get the job done!
+42|Rob Madsen[м]|Apartments\,\,, tenements\,, toilets\,, flood doors\,\,, coffeemakers...\,\, you name it!\,\, We will get it done\,\, at an affordable price!
+43|Rob Madsen[м]|Uh…\,\, yeah\,, sure.\,\, You\, look like you need it.
+44|Rob Madsen[м]|Here...\,\, it’s\, just on\, the left\,\,, inside\, the small office.
+45|Rob Madsen[м]|Huh?\,\,\, You…\,\, don’t look like\, you need\, to.
+46|Rob Madsen[м]|Uh…\,\, well…\,\, I think there’s\, a public\, one outside\, and...
+47|Rob Madsen[м]|... uh…\,\, ours\, hasn’t been\, cleaned\, in a while.\,\,\, Trust me\,\,, you don’t\, wanna go in there.
+48|P|Can I ask something?
+49|Rob Madsen[м]|Sure.
+50|P|Where does the name Rob-In come from?
+51|P|Do you know Samuel Jonasson?
+52|P|Where can I get an elevator installed?
+53|P|Actually nothing
+54|Rob Madsen[м]|Uh...\,\, yeah...
+55|Rob Madsen[м]|Yeah...\,\, uh…\,\, my\, good friend\, Robin...
+56|Rob Madsen[м]|Uh…\,\, you know what\,\,, I\, don’t really\, wanna talk about him.
+57|Rob Madsen[м]|He’s\,\, just…\,\, not around here\, anymore.
+58|P|That's all
+59|Rob Madsen[м]|Yeah...
+60|P|Oh, what happened?
+61|P|Oh okay...
+62|Rob Madsen[м]|Robin\, was just…\,\, being\, his own\, stupid self.
+63|Rob Madsen[м]|He...\,\, always\, thought he\, could\, handle everything\, on his own.
+64|Rob Madsen[м]|... ugh...
+65|Rob Madsen[м]|... I\,\, just...\,\, miss him...
+66|Rob Madsen[м]|In the end... his reckless behavior got him...
+67|P|I'm so sorry...
+68|Rob Madsen[м]|Anything else?
+69|Rob Madsen[м]|So...
+70|P|Oh...
+71|P|Sounds like he deserved it
+72|Rob Madsen[м]|…you\, don’t know\, what you’re\, talking about.
+73|Rob Madsen[м]|It was\, not\, his fault...
+74|Rob Madsen[м]|... not\, who he was.
+75|Rob Madsen[м]|He\, just…\,\, didn’t\, get the treatment\, he should\, have...
+76|Rob Madsen[м]|Oh yeah.
+77|Rob Madsen[м]|He was\, my\,\, apprentice.
+78|Rob Madsen[м]|Worked for me\, for\, quite\, a long time\,\,, but\, he\, left recently\, and\, started his own\, company.
+79|Rob Madsen[м]|I\, told him...\,\, Obenseuer is\, too small\, for his\, company to\, thrive\,\,, but\, he didn’t\, listen.
+80|Rob Madsen[м]|I\, heard he\, almost went\, bankrupt…
+81|Rob Madsen[м]|... but\, then he\, got some\, customer...
+82|Rob Madsen[м]|... someone...\,\, who\, wanted him to\, start\, renovating\, a tenement…
+83|Rob Madsen[м]|... someone...
+84|Rob Madsen[м]|... like\, you...
+85|Rob Madsen[м]|Wait...\,\, was that\, you?
+86|P|Yeah, it was me!
+87|P|Nope, it was someone else
+88|P|Uh... maybe?
+89|Rob Madsen[м]|Of course\, it was\, you…\,\, and\, now you’re\, here\,, huh?
+90|Rob Madsen[м]|Looking\, for the better\, service\,\,, I see.
+91|Rob Madsen[м]|Oh...
+92|Rob Madsen[м]|You're\, in the right place!
+93|Rob Madsen[м]|I\, offer higher quality\, services\,\,, no cutting corners!
+94|Rob Madsen[м]|Well...\,\, whoever it\, was\,, I\, hope they got\, what they were looking for.
+95|Rob Madsen[м]|Ah\,, I\, thought so.
+96|Rob Madsen[м]|And\, now you're here.
+97|Rob Madsen[м]|Why you're here?
+98|P|My tenement needs some renovation
+99|Rob Madsen[м]|Yeah…\,\, so\, your\, apartment needs…\,\, I\, mean...
+100|Rob Madsen[м]|... you said\, tenement?\,\, Like…\,\, the whole building?
+101|Rob Madsen[м]|Oh\,\,, now we’re talking!\,\,\, That’s\, exactly\, my kind of\, project!
+102|Rob Madsen[м]|I\, offer the\, best services in\, Obenseuer!
+103|P|Just looking around
+104|Rob Madsen[м]|Well\,\,, we’re not\, some\, showroom\, or tourist\, attraction\,\,, you know.
+105|Rob Madsen[м]|But\, if you\, need something\, renovated\,\,, talk to me.
+106|Rob Madsen[м]|Ah\,\,, right\,, about that…\,\, there's\, an engineer named\, Urho Siltanen.
+107|Rob Madsen[м]|He can\, handle major electrical work\,\,, plumbing\,\,, and\, heating for\, tenements like yours.
+108|Rob Madsen[м]|I'll\, mark his place\, on your map.
+109|P|Is there any funding option available?
+110|Rob Madsen[м]|Uh...\,\,\, There is...\,\, a loan guy\, in Mentti B.\,\, It's just across the the alley.
+111|Rob Madsen[м]|I'm sure\, he can help you\, with financing.
+# conv 23: Bazaar/Mallment/Tim Nickelson_Door
+112|Tim Nickelson|Hello?\,\, You have an reservation?
+113|P|No
+114|Tim Nickelson|Sorry,\,\, you need reservation and doctor's referal to have therapy.
+# conv 47: Bazaar/Outside/Hugo Björnson
+115|Hugo Björnson|Looking for\, your daily quota\, of salt\, and grease?
+116|P|I could use a burger! (Buy)
+117|P|Not now (Leave)
+118|P|Would you want to purchase some ingredients from me?
+119|Hugo Björnson|Aye!\,\,\, I\, could purchase some\,\, cooking oil…\,\, if\, it’s cheap\,\,, of course.
+120|P|Sure (Trade)
+121|Hugo Björnson|People say\, this is\, the best grill\, in Obenseuer.
+122|Hugo Björnson|What’ll it be?\,\,\, Something\, greasy\,\,, or\, something\, really\, greasy?
+123|Hugo Björnson|I\, don’t serve\, anything\,\, I wouldn’t\, eat myself.
+124|Hugo Björnson|Sounds like\, something\, my regular\,\,, Mikael\,, would know.\,\, He's been\, really into that\, whole Welho thing lately.
+125|Hugo Björnson|Just\, turn around\, and you'll see\, his hut\, and outdoor shower.
+# conv 53: Bazaar/Trader/Omari Solheim
+126|Omari Solheim[м]|Welcome to\, Sewerview Inn.\,\, The coziest inn in Obenseuer!
+127|Omari Solheim[м]|Beer\, garlic bread\, or a room?
+128|Omari Solheim[м]|Ah\,\,, you again.
+129|P|I need a drink!
+130|P|I need a place to sleep
+131|P|Why this inn has so stupid name?
+132|Omari Solheim[м]|A-ha!\,\, You're not\, the first person to\, ask about it.
+133|Omari Solheim[м] [ответ]|Stalburgers\, and locals more generally\, tend to call\, Obenseuer\, "Open Sewer"\,\,, so\, I...
+134|Omari Solheim[м]|Anyway\,\,, this inn also stands\, right next to that\, old\, drainage canal\, coming from Black Swamp.\,\, And\, that canal\, has literally\, became\, an open sewer\, due\, to industrial dumping\, and overflowing\, sewers.\,\, So...\, Sewerview Inn.
+135|P|Who on earth would want to spend a night next to a smelly sewer?
+136|Omari Solheim[м]|A-ha!\,\, This\, side branch coming from\, the swamps\, is not nearly\, as bad\, as the main canal.\,\, The water is a bit\, murky\, and thats it.\,\, While\, the water in\, the main canal...\, can almost burn trough your skin.\,\, It's almost\, that some\, people want to\, intentionally stop\, people from\, going there!
+137|Omari Solheim[м]|Also there are\,\,, at least there used to be\,\,, tourists\, who wanted to\, visit weird\, and\, extreme places.\,\, Unregulated\, gambling\,, banking\, and\, mushrooms have\, attracted\, a lot of tourists.
+138|Omari Solheim[м]|The quarantine regime has\, made it\, a bit harder to\, come here\,\,, but\, Karl did manage to\, negotiate an agreement\, with authorities\,\,, so that tourists can still come.
+139|Omari Solheim[м]|In exchange\, we had to\, impose\, strict controls\, on green mushrooms usage.
+140|Omari Solheim[м]|Like that weird\, freetown place\, in Copenhagen.
+141|Omari Solheim[м]|Welcome...\,\, welcome...
+142|Omari Solheim[м]|Yes?
+143|Omari Solheim[м]|... I\, decided to\, build on that joke.
+144|Omari Solheim[м]|Funny\,\,, right?
+145|P|Yeah, okay
+146|Omari Solheim[м]|So\,, do you\, need something?
+147|P|What was my room?
+148|Omari Solheim[м]|[lua(CheckPlayerRoomStatus())] nights at [lua(GetPlayerRoomName())].
+149|Omari Solheim[м]|Sorry...\,\, We're fully booked out tonight.
+# conv 24: Bazaar/Mentti/Penni-Pena
+150|Penni-Pena|What are you doing back here?!\,\,\, Get\, out!
+151|Penni-Pena|Hey!\,\, Step away from me!
+152|Penni-Pena|Please\,\,, don't hurt me!
+153|Penni-Pena|Ölkö sötökkäty!
+# conv 48: Bazaar/Trader/Sofija Pisula
+154|Sofija Pisula[ж]|My wares are something...\,\,\, special!\, Um...\,\,\, you couldn't\, survive without them!
+155|P|Okay... What do you sell? (Buy)
+156|P|Sorry, not now (Leave)
+157|Sofija Pisula[ж]|One person's trash is...\,\, well\,\,, my inventory!\,\, And soon...\,\, your treasure!
+158|Sofija Pisula[ж]|Looking for...\,\, valuables?\,\,\, You just have to...\,\, um...\,\, look past the smell!
+159|Sofija Pisula[ж]|Welcome to my...\,\, shop!\,\, Everything here is...\,\, gently used.
+# conv 241: Bazaar/Caroline
+160|???|Placeholder text here.
+# conv 254: Bazaar/Trader/Rob Rosso
+161|Rob Rosso|Well\,\,, hey there\,, friend!
+162|Rob Rosso|Why would\, anyone\, paint\, when you\, can print?\,\,\, No smudges\,\,, no mistakes...\,\, just\, perfect\,\,, every time.
+163|Rob Rosso|Landscapes\,, portraits\,, animals...\,\, whatever pleases\, the eye\,\,, I can print it!
+164|Rob Rosso|I just\, let the magic of\, printing\, do the work\,\,, and\, everyone gets\, a masterpiece.
+165|Rob Rosso|So\, what’s\, the mission today...\,\, new\, print\,, custom order\,, or\, just here to\, admire\, the collection?
+166|P|Let's see what you have
+167|Rob Rosso|Name’s\, Rob.\,\,\, I\, deal in\, images...\,\, printed ones\,\,, the best kind.
+168|Rob Rosso|And\, if\, you\, got your own\, image...\,\, maybe something\, close to your\, heart...\,\, I\, can make it\, real nice!
+169|Rob Rosso|Frame it up\,\,, put it on\, a flag\,\,, whatever you need!
+170|Rob Rosso|So\,\,, what do you say?\,\,\, Got any\, blank walls\, callin’ out\, for\, some beauty?

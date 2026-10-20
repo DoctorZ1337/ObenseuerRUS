@@ -1,0 +1,4964 @@
+# TextMeshProUGUI:m_text
+1||¶SPECIAL THANKS¶¶Pam Davols¶¶Antero Ganto¶¶Jimmy Hammer¶¶Ranpo Kovaleuka¶¶Bob Marmers¶¶Bob Newmum¶¶Yrjö Perämuta¶¶Osmo Rantuvaara¶¶Ornald Schwarzenjärvi¶¶Tim Urslålund¶¶Marlun Östurs¶¶The City of Stalburg
+# TextMeshProUGUI:m_text
+2|| Player Name
+# Usable:m_overrideUseMessage
+3||(Bake)
+# TextMeshProUGUI:m_text
+4||(Cannot be completed in the current version)
+# Usable:m_overrideUseMessage
+5||(Catch)
+# Usable:m_overrideUseMessage
+6||(Distil)
+# manufacturingProcess:UseMessage
+7||(Distill)
+# Usable:m_overrideUseMessage
+8||(Grind)
+# Usable:m_overrideUseMessage
+9||(Harvest)
+# Usable:m_overrideUseMessage
+10||(Knock)
+# manufacturingProcess:UseMessage
+11||(Mash)
+# Usable:m_overrideUseMessage
+12||(Refill)
+# ToiletBucket:m_useMessage; Usable:m_overrideUseMessage
+13||(Relief)
+# Usable:m_overrideUseMessage
+14||(Search)
+# Usable:m_overrideUseMessage
+15||(Sleep)
+# Usable:m_overrideUseMessage
+16||(Take)
+# InteractableWait:m_useMessage
+17||(skip 2 hours)
+# TextMeshProUGUI:m_text
+18||-40 dB
+# TextMeshProUGUI:m_text
+19||-Building-
+# TextMeshProUGUI:m_text
+20||-Menu-
+# TextMeshProUGUI:m_text
+21||-Movement-
+# TextMeshProUGUI:m_text
+22||-Navigation-
+# TextMeshProUGUI:m_text
+23||-Wieldables-
+# NoteInfo:content
+24||...Every step felt heavier and heavier, and that bright light at the end of the tunnel did not seem to get any closer. ¶¶It was almost impossible to avoid those glowing red trees that felt like they were made of electricity...
+# NoteInfo:content
+25||...He possessed such a charming and intelligent mind, paired with a remarkably kind heart. It made me sick to see someone like him end up this way, and the fact that I left so much unsaid between us just made the pain worse. After all the suffering we had endured, I refused to accept this.¶¶I was the only one left who could finish what he started. There was no way I was backing down now...¶
+# NoteInfo:content
+26||...I felt deeply sorry about what had happened to his daughter.¶¶I could still see the sorrow lurking behind Lloyd's eyes, even if the rest of his mind was completely gone. I simply could not do it. I felt so powerless at that moment.¶¶I could not bring myself to end his misery. I only stood and watched as he hobbled away, clutching a single teddy bear in his hand.¶¶I knew that despite losing his sanity, he would probably survive and wander in this city for years, leaving those bears behind...
+# NoteInfo:content
+27||...I knew I could never speak a word of this to anyone, yet I felt a desperate need for the world to know about him, about what we were.¶¶Perhaps one day I will finally tell our story.¶¶Maybe I should, even if no one is going to believe me.¶¶Then again, maybe it is safer if no one believes a single word...
+# NoteInfo:content
+28||...I knew we had only scratched the surface, yet I felt we finally had a grasp on the reality of it.¶¶From what I understood from his description, it has several layers, or maybe it is more like a gradient. It could even be a tunnel. You cannot walk it from end to end, but you can reach the center.¶¶Theoretically, that means something else could walk from the far side to meet us in the middle, but nothing has shown up yet. We have attempted to transmit messages, receiving nothing but harsh noise in return.¶¶I cannot help but wonder why they would engineer such a massive creation if they never intended to use it...
+# NoteInfo:content
+29||...It seems to have affected him in exactly the same way it did Lloyd, though he does not seem to be fixated on teddy bears.¶¶Lloyd loved buying teddy bears for his daughter so much that he started collecting them himself, and now that entire collection is gone. I wonder if Lloyd is hiding in a hole somewhere with his giant stash of stuffed animals, or if he is already dead.¶¶It is hard to imagine how a man driven to such madness could survive alone in a world like this...
+# NoteInfo:content
+30||...One of the sources was supposed to be out here in the middle of nowhere, but the meters showed nothing. It felt exhausting to come such a long way without finding anything. ¶¶I wrote the coordinates down with a red pencil and drew a fish next to them. A red herring, after all. Or was it?¶¶Looking back on it now, the source might have been buried so deep underground that the meters simply couldn't detect it, or maybe it was somewhere up in the sky...
+# NoteInfo:content
+31||...The situation is becoming deeply problematic.¶¶Alvar warned me it would come to this. We simply cannot know how many individuals the other side has influenced, particularly when they are all so careful to conceal their violent and cult-like behavior. To guarantee the safety of the Project, we may have no other option left but to initiate a purge...
+# TextMeshProUGUI:m_text
+32||0Hz
+# TextMeshProUGUI:m_text
+33||1 OC = 0 RM
+# TextMeshProUGUI:m_text
+34||1 RM = 10 OC
+# TextMeshProUGUI:m_text
+35||100 OC
+# TextMeshProUGUI:m_text
+36||100/100 XP
+# TextMeshProUGUI:m_text
+37||1000-2000 OC
+# TextMeshProUGUI:m_text
+38||1000-2000 RM
+# TextMeshProUGUI:m_text
+39||10000 OC
+# TextMeshProUGUI:m_text
+40||10000 RM
+# TextMeshProUGUI:m_text
+41||100000 RM
+# Furniture:title
+42||23 Inch Computer Monitor
+# Furniture:title
+43||27 Inch Computer Monitor
+# TextMeshPro:m_text
+44||< Obenseuer Station
+# TextMeshPro:m_text
+45||< Vilppu
+# TextMeshPro:m_text
+46||<align=center>Menu:</align>¶¶<align=center>Coffee</align>¶Filter Coffee 		4.5¶Mushroom Coffee 	6.5¶Cafe Latte 			6¶Coffee Speciale 		9.5¶Spiked Coffee 		8¶¶¶<align=center>Tea</align>¶Tea 				4¶Mushroom Tea 		6¶
+# TextMeshPro:m_text
+47||<align=center>Open</align>¶¶<align=center>Mon-Fri</align>¶<align=center>8-18</align>¶¶<align=center>Sat</align>¶<align=center>10-18</align>¶¶<align=center>Sun</align>¶<align=center>12-18</align>¶
+# TextMeshPro:m_text
+48||<align=center>V</align>¶   Tax Free Shop¶   Aziz's Hamburger & Kebab¶   Toilets¶   Therapy¶¶<align=center>IV</align>¶   Crypto Bros Games¶   Coin Wizards Accounting¶   Laundromat¶¶<align=center>III</align>¶   Open Homes Company¶   Beauty Salon  ¶   Karaoke¶¶<align=center>II</align>¶   Barber Shop ¶   Veterinary Clinic¶   Commercial Furniture Shop¶   Market Hall¶	Fishmonger¶	Cafe¶	Fruit & Berries ¶	Bicycle Shop¶¶<align=center>I</align>¶Gym
+# TextMeshPro:m_text
+49||<align=center>VI</align>¶17   Empty Apartment¶15   Empty Apartment¶14   Empty Apartment¶¶<align=center>V</align>¶14   Empty Apartment¶13   Empty Apartment¶12   Empty Apartment¶¶<align=center>IV</align>¶11   Empty Apartment¶10   Empty Apartment¶9     Empty Apartment¶¶<align=center>III</align>¶8   Empty Apartment¶7   Empty Apartment¶6   Empty Apartment¶¶<align=center>II</align>¶5   Empty Apartment¶4   Empty Apartment¶3   Empty Apartment¶¶<align=center>II</align>¶1  Empty Apartment
+# TextMeshPro:m_text
+50||<rotate=90>BAZAAR
+# TextMeshPro:m_text
+51||<u>                          <align=center>VII</align>                         <size=%>0<size=100%></u>¶A12  Ylitalo     	A13¶A14 Söderström¶¶<u>                          <align=center>VI</align>                          <size=%>0<size=100%></u>¶A9  Grachyov 	A10  Walker ¶A11 Kuosta¶¶<u>                           <align=center>V</align>                          <size=%>0<size=100%></u>¶A7  Taylor       	A8  Eki¶¶<u>                          <align=center>IV</align>                          <size=%>0<size=100%></u>¶A5  Green        	A6  Eskola¶¶<u>                          <align=center>III</align>                           <size=%>0<size=100%></u>¶A3  Kyntiö      	A4  Rummo¶¶<u>                          <align=center>II</align>                            <size=%>0<size=100%></u>¶A1  Hietala    	A2  Huang
+# TextMeshProUGUI:m_text
+52||A character with this name already exists.¶¶Delete all saves for this character and start a new game?¶¶This action cannot be undone!¶
+# NoteInfo:title
+53||A friendly reminder, my dear neighbor
+# Furniture:title
+54||A picture of your boyfriend
+# Furniture:title
+55||A picture of your family
+# Furniture:title
+56||A picture of your girlfriend
+# TaskInfo:description
+57||A woman named Jane Miller at the Bazaar Bakery has tasked you with delivering supplies to the quarantine area using an autonomous delivery drone.
+# TextMeshProUGUI:m_text
+58||A)DISMANTLE/CRAFT   X)AUTO CONSUME   K)HINTS   LB/RB)SWITCH CATEGORY   LT/RT)ROTATE OBJECT   B)EXIT
+# Furniture:title
+59||A-Board Sign
+# SelectionButton:Options[].Name
+60||A1 - Hietala
+# SelectionButton:Options[].Name
+61||A10 - Walker
+# SelectionButton:Options[].Name
+62||A11 - Illegible
+# SelectionButton:Options[].Name
+63||A12 - Ylitalo
+# SelectionButton:Options[].Name
+64||A13 - Empty
+# SelectionButton:Options[].Name
+65||A14 - Illegible
+# SelectionButton:Options[].Name
+66||A2 - Huang
+# SelectionButton:Options[].Name
+67||A3 - Illegible
+# SelectionButton:Options[].Name
+68||A4 - Rummo
+# SelectionButton:Options[].Name
+69||A5 - Green
+# SelectionButton:Options[].Name
+70||A6 - Eskola
+# SelectionButton:Options[].Name
+71||A7 - Taylor
+# SelectionButton:Options[].Name
+72||A8 - Illegible
+# SelectionButton:Options[].Name
+73||A9 - Grachyov
+# TextMeshPro:m_text
+74||ALARM
+# InteractableRelay:title; Landmark:title
+75||ATM
+# ConversationTrigger:conversation; Usable:m_overrideName
+76||Aava Kauppila
+# NoteInfo:title
+77||About your credit card, my dear neighbor
+# TextMeshProUGUI:m_text
+78||Account: 0
+# TreatmentFungalDisease:StatusActive.title
+79||Active
+# TextMeshProUGUI:m_text
+80||Active Renovation Tasks
+# TextMeshProUGUI:m_text
+81||Active tasks
+# TreatmentAddictions:title
+82||Addictions
+# TextMeshProUGUI:m_text
+83||Additional information
+# TextMeshProUGUI:m_text
+84||Adjust screen brightness
+# TextMeshProUGUI:m_text
+85||Advanced
+# TextMeshProUGUI:m_text
+86||Affect to some stuff like how fast uou can craft stuff like that.
+# TaskObjective:description
+87||After calling Open Homes Company, they asked you to visit their Mallment office on the third floor to go over the details of selling the tenement apartments.
+# TaskObjective:description
+88||After staring into the well, something weird happened to you. A memory, perhaps?
+# Achievements:achievements[].rewards[].rewardName
+89||Agricultural Union
+# Furniture:title
+90||Agricultural Union Flag
+# VendingMachine:title
+91||Ahmed's Hotdog Cart
+# TaskObjective:description
+92||Akim claims that the competition is hurting his business, so he ordered you to sabotage a competing restaurant by replacing their pizzas waiting to be delivered with something gross.
+# CollectibleRecipeBook:title
+93||Alan Bacon Cookbook 2
+# DoorChangelevel:title; Landmark:title; Storage:title
+94||Alco
+# TextMeshProUGUI:m_text
+95||Alcohol addiction: +20¶Mushroom addiction: +20
+# PlayerStatUI:statName
+96||Alcohol need
+# TreatmentAddictions:StatusAlcoholAddiction.title
+97||Alcoholism
+# Furniture:title
+98||All-in-One PC
+# StartSelection:selections[].title
+99||Almost every day
+# TreatmentPhysicalHealth:StatusAlmostHealthy.title
+100||Almost healthy
+# TextMeshPro:m_text
+101||Alveberg
+# TextMeshProUGUI:m_text
+102||Amount: 0 OC
+# TextMeshProUGUI:m_text
+103||Amount: 1
+# Furniture:title
+104||Angle Grinder
+# DoorChangelevel:title; FurnitureShop:title; Landmark:title; MarketShop:marketName
+105||Ankea
+# MarketShop:marketName; Storage:title
+106||Anna's Canteen
+# TextMeshProUGUI:m_text
+107||Antialiasing
+# Furniture:title; TaskItemBlueprint:itemName; manufacturing:ManuName
+108||Anvil
+# TaskInfo:description
+109||Anya asked you to find a person named Hanss who went to the Obenseuer mines. She told that Hanss took orange glowsticks with him and you should try follow them if you see them.
+# SoundscapeArea:id; TextMeshProUGUI:m_text
+110||Apartment 1
+# TextMeshProUGUI:m_text
+111||Apartment 2 - Shop
+# LoadingScreen:hintList[].title
+112||Apartment doors
+# TextMeshProUGUI:m_text
+113||Apartment: 15
+# Furniture:title; Growing:ManuName
+114||Aquarium
+# TaskItemBlueprint:itemName
+115||Aquarium Blueprint
+# FurnitureGroup:title
+116||Aquarium/Terrarium
+# Growing:ManuName
+117||Aquatic Farm
+# Furniture:title
+118||Arc Floor Lamp
+# TextMeshProUGUI:m_text
+119||Are you sure you want to remove this image?
+# Character:LastName; TextMeshPro:m_text
+120||Arnaldur
+# Autofarm:ownerId.name; Character:Name; CollectibleItem:owner.name; CollectibleItemSpawner:owner.name
+121||Arvo Kirkastaja
+# TaskObjective:description
+122||Arvo made it clear that classes are held every Tuesday and Thursday at exactly 14:00. Make sure to arrive early, as latecomers will be locked out.
+# TaskObjective:description
+123||Arvo told you that you need three recommendations to join the cooperative. You might already know a few people in the Bazaar or on Market Road who could provide them.
+# Furniture:title
+124||Ashtray
+# Furniture:title
+125||Ashtray Stand
+# TaskObjective:title
+126||Ask Arvo about Suurwelho
+# TaskObjective:title
+127||Ask Laura about Ines
+# TaskObjective:title
+128||Ask Mikael about Suurwelho
+# TaskObjective:title
+129||Ask Seamus what happened to Malone
+# TaskObjective:title
+130||Ask Welhö about the book
+# TaskObjective:title
+131||Ask if someone in the Casino knows about Heikki
+# TaskObjective:title
+132||Ask if someone in the Internet Cafe knows about Heikki
+# TaskObjective:title
+133||Ask if the Crazy Neighbor could help
+# Achievements:achievements[].rewards[].rewardName
+134||Association of Chemists and Chemical Workers
+# Furniture:title
+135||Association of Chemists and Chemical Workers Flag
+# Furniture:title
+136||Association of Engineers Flag
+# Achievements:achievements[].rewards[].rewardName
+137||Association of Malters
+# Furniture:title
+138||Association of Maltsters Flag
+# Achievements:achievements[].rewards[].rewardName
+139||Association of Traditional Blacksmiths
+# Furniture:title
+140||Association of Traditional Blacksmiths Flag
+# Achievements:achievements[].rewards[].rewardName
+141||Association of engineers
+# CollectibleItem:owner.name; CollectibleItemSpawner:owner.name; ConversationTrigger:conversation; InteractableItemGiver:owner.name
+142||Astrid Vinsjö
+# TaskObjective:title
+143||Attend Five Lectures
+# TextMeshProUGUI:m_text
+144||Aug 15
+# TextMeshProUGUI:m_text
+145||Auto-consume
+# Furniture:title
+146||Autographed Poster: The Engineer
+# TextMeshProUGUI:m_text
+147||Auxiliary Reload
+# TextMeshProUGUI:m_text
+148||Auxiliary Use
+# LoadingScreen:hintList[].title
+149||Axe: Break things
+# TaskObjective:description
+150||Axel gave you blank forms to fill out. Fill them and bring them for Axel at the gatehouse.
+# TaskInfo:title
+151||Aziz the Kebab Maker
+# VendingMachine:title
+152||Aziz's Hamburger & Kebab
+# Landmark:title
+153||Aziz's Kebab and Burger
+# SelectionButton:Options[].Name
+154||B1 - Piggyhill
+# TextMeshPro:m_text
+155||B1 Johnson
+# TextMeshPro:m_text
+156||B1 Piggyhill
+# SelectionButton:Options[].Name
+157||B10 - Savisaar
+# TextMeshPro:m_text
+158||B10 Savisaar
+# TextMeshPro:m_text
+159||B10 Ölsund
+# SelectionButton:Options[].Name
+160||B11 - Peterson
+# TextMeshPro:m_text
+161||B11 Petersson
+# TextMeshPro:m_text
+162||B11 Veturinen
+# SelectionButton:Options[].Name
+163||B12 - Svamp Project LTD
+# TextMeshPro:m_text
+164||B12 Svamp Project LTD
+# TextMeshPro:m_text
+165||B12 Vaddafak
+# SelectionButton:Options[].Name
+166||B14 - Stenbeck
+# TextMeshPro:m_text
+167||B14 Stenbeck
+# SelectionButton:Options[].Name
+168||B15 - Smith
+# TextMeshPro:m_text
+169||B15 Smith
+# SelectionButton:Options[].Name
+170||B16 - Pesusieni
+# TextMeshPro:m_text
+171||B16 Pesusieni
+# SelectionButton:Options[].Name
+172||B17 - Empty
+# SelectionButton:Options[].Name
+173||B18 - Waering
+# TextMeshPro:m_text
+174||B18 Waering
+# SelectionButton:Options[].Name
+175||B19 - Torsk
+# TextMeshPro:m_text
+176||B19 Torsk
+# SelectionButton:Options[].Name
+177||B2 - Dator
+# TextMeshPro:m_text
+178||B2 Dator
+# TextMeshPro:m_text
+179||B2 Mörssäri
+# SelectionButton:Options[].Name
+180||B20 - Henriksen
+# TextMeshPro:m_text
+181||B20 Henriksen
+# SelectionButton:Options[].Name
+182||B21 - Vinkommun
+# TextMeshPro:m_text
+183||B21 Vinkommun
+# SelectionButton:Options[].Name
+184||B22 - Kunneli
+# TextMeshPro:m_text
+185||B22 Kunneli
+# SelectionButton:Options[].Name
+186||B23 - Lagerfeld
+# TextMeshPro:m_text
+187||B23 Lagerfeld
+# SelectionButton:Options[].Name
+188||B24 - Kukko
+# TextMeshPro:m_text
+189||B24 Kukko
+# SelectionButton:Options[].Name
+190||B25 - Fistqvist
+# TextMeshPro:m_text
+191||B25 Fistqvist
+# SelectionButton:Options[].Name
+192||B3 - Illegible
+# TextMeshPro:m_text
+193||B3 Skogström
+# TextMeshPro:m_text
+194||B3 Sörsserström
+# SelectionButton:Options[].Name
+195||B4 - Toukari
+# TextMeshPro:m_text
+196||B4 Toukari¶
+# SelectionButton:Options[].Name
+197||B5 - Blue
+# TextMeshPro:m_text
+198||B5 Blue
+# SelectionButton:Options[].Name
+199||B6 - Empty
+# TextMeshPro:m_text
+200||B6 Sepposson
+# SelectionButton:Options[].Name
+201||B7 - Cederblom
+# TextMeshPro:m_text
+202||B7 Cederblom
+# TextMeshPro:m_text
+203||B7 Lund
+# SelectionButton:Options[].Name
+204||B8 - Sursqvist
+# TextMeshPro:m_text
+205||B8 Sursqvist
+# SelectionButton:Options[].Name
+206||B9 - Illegible
+# TextMeshPro:m_text
+207||B9 Tjöck
+# TextMeshPro:m_text
+208||B9 Virtanen
+# TextMeshProUGUI:m_text
+209||BACKSPACE
+# TextMeshPro:m_text
+210||BEER
+# TextMeshProUGUI:m_text
+211||BSpace¶
+# TextMeshPro:m_text
+212||BUILDING MATERIALS
+# TextMeshProUGUI:m_text
+213||Backward
+# LoadingScreen:hintList[].hintText
+214||Bad food makes you depressed
+# TaskItem:itemName
+215||Bag of Red Mushrooms
+# Furniture:title
+216||Bag of Soil
+# TaskItemBlueprint:itemName
+217||Bag of Soil Blueprint
+# Growing:ManuName
+218||Bag of soil
+# manufacturing:UseMessage
+219||Bake
+# DoorChangelevel:title; Landmark:title
+220||Bakery
+# DoorChangelevel:title; FakeDoor:title
+221||Balcony
+# Furniture:title
+222||Ball Grill
+# manufacturing:ManuName
+223||Ball grill
+# Furniture:title; manufacturing:ManuName
+224||Bandsaw
+# Character:Job; Character:LastName; DoorChangelevel:title; Landmark:title
+225||Bank
+# NoteInfo:title
+226||Bank Account Frozen
+# TextMeshProUGUI:m_text
+227||Bank name
+# Furniture:title
+228||Banker's Lamp
+# DoorChangelevel:title; OnScheduleChange:onChangeSchedules[].scheduleName
+229||Bar
+# DoorChangelevel:title; VendingMachine:title
+230||Bar Bizarre
+# TextMeshPro:m_text
+231||Barber
+# TextMeshProUGUI:m_text
+232||Barely Visible
+# DoorChangelevel:title
+233||Barrack
+# FurnitureGroup:title; Growing:ManuName
+234||Barrel
+# Furniture:title
+235||Barrel Planter
+# TaskItemBlueprint:itemName
+236||Barrel Planter Blueprint
+# Furniture:title
+237||Barrel Planter With Support
+# TaskItemBlueprint:itemName
+238||Barrel With Support Blueprint
+# manufacturing:ManuName
+239||Barrel stove
+# TextMeshProUGUI:m_text
+240||Base income
+# Furniture:title; TaskItemBlueprint:itemName
+241||Basement Floor
+# Furniture:title; TaskItemBlueprint:itemName
+242||Basement Grate Floor
+# Furniture:title; TaskItemBlueprint:itemName
+243||Basement Grate Floor Handrail
+# Furniture:title
+244||Bathroom Cabinet
+# Furniture:title
+245||Bathroom Cup
+# Furniture:title
+246||Bathroom Glass
+# Growing:ManuName
+247||Bathtub
+# ChangeDialogueVariableValue:varriableName; Character:Name; Door:title; DoorChangelevel:title
+248||Bazaar
+# NoteInfo:title
+249||Bazaar Bank: Temporarily Closed
+# DoorChangelevel:title
+250||Bazaar Chamber of Commerce
+# DoorChangelevel:title
+251||Bazaar Slum
+# DoorChangelevel:title
+252||Bazaar Tunnels
+# TaskItem:itemName
+253||Bazaar house keys
+# TaskObjective:description
+254||Bazaar management told that registrations are handled in gatehouse building near clocktower.
+# Furniture:title; FurnitureCollectable:title
+255||Beach Calendar
+# Furniture:title
+256||Beach Chair
+# TextMeshProUGUI:m_text
+257||Beard
+# WaitingController:passoutEvents[].title
+258||Beat
+# TaskObjective:title
+259||Beat Matti in the sauna competition
+# DoorChangelevel:title; Landmark:title
+260||Beauty Salon
+# TextMeshProUGUI:m_text
+261||Because of SMV, shit seizure or something else
+# TextMeshPro:m_text
+262||Bedroom
+# Furniture:title; TextMeshProUGUI:m_text
+263||Beer Lamp
+# Furniture:title; FurnitureCollectable:title
+264||Beer Painting
+# LiquidStorage:title
+265||Beer tap
+# Furniture:skins[].title
+266||Beige Hammock
+# InteractableChair:title
+267||Bench
+# InteractableChair:title
+268||Bench (Left)
+# InteractableChair:title
+269||Bench (Middle)
+# InteractableChair:title
+270||Bench (Right)
+# TaskItem:itemName
+271||Bergmann tunnel entrance keys
+# DoorChangelevel:title
+272||Bergmann tunnels
+# Furniture:title
+273||Beryllium Reflector
+# LoadingScreen:hintList[].hintText
+274||Better quality machines work faster and produce better goods
+# Furniture:title
+275||Bicycle
+# Furniture:title
+276||Big Coin
+# Furniture:title
+277||Big Gear
+# TaskItemBlueprint:itemName
+278||Big Gear Blueprint
+# Furniture:title
+279||Big Landscape Custom Picture
+# Furniture:title
+280||Big Portrait Custom Picture
+# Furniture:title; FurnitureCollectable:title
+281||Big Quack!
+# Furniture:title; FurnitureCollectable:title
+282||Big Television
+# Furniture:title
+283||Binder
+# Furniture:title; manufacturing:ManuName; manufacturing:title
+284||Biogas Reactor
+# Furniture:title
+285||Biohazard Sign
+# VendingMachine:sellableItems[].customTitle
+286||Biowaste
+# Furniture:title; FurnitureCollectable:title
+287||Bird Calendar
+# Storage:title
+288||Birdhouse
+# Landmark:title
+289||Bizarre
+# TextMeshPro:m_text
+290||Björklund
+# VendingMachine:title
+291||Björn's Grill
+# TaskItem:itemName
+292||Black Amulet
+# Furniture:title
+293||Black Cat Painting
+# Furniture:skins[].title
+294||Black Plastic Chair
+# StartSelection:selections[].title
+295||Black hallucinations
+# InteractableDynamiteCone:title
+296||Blasting cap
+# PlayerStatUI:statName; TreatmentPhysicalHealth:StatusBleeding.title
+297||Bleeding
+# Furniture:title
+298||Block of Graphite
+# Furniture:title; FurnitureCollectable:title
+299||Blue Bench
+# Furniture:title
+300||Blue Mushroom Lamp
+# Furniture:skins[].title
+301||Blue Pappa-Tunturi Moped
+# Furniture:title; FurnitureCollectable:title
+302||Blue Plastic Barrel
+# Furniture:title
+303||Blue Plastic Barrel Sink
+# Furniture:skins[].title
+304||Blue Plastic Chair
+# TaskItem:itemName
+305||Blue Rubber Duck
+# TaskItem:itemName
+306||Blue Rubber Duck Head
+# Furniture:title; FurnitureCollectable:title
+307||Blue Shroomekko Wall Cloth
+# Furniture:title; FurnitureCollectable:title
+308||Blue Sofa
+# Furniture:title; FurnitureCollectable:title
+309||Blue Vase
+# DoorChangelevel:m_useMessage
+310||Board
+# TextMeshProUGUI:m_text
+311||Body
+# DoorChangelevel:title; Landmark:title; Storage:itemSpawnCategory
+312||Bookstore
+# TaskItem:itemName
+313||Bookstore basement keys
+# Furniture:title
+314||Boot Left
+# Furniture:title
+315||Boot Right
+# FakeDoor:title
+316||Booth
+# DoorChangelevel:title
+317||Border Checkpoint
+# TextMeshProUGUI:m_text
+318||Bottle Sum:
+# TextMeshProUGUI:m_text
+319||Bottle Type :)
+# TextMeshProUGUI:m_text
+320||Bottle Type:
+# TextMeshProUGUI:m_text
+321||Bottle Worth:
+# InteractableWait:title
+322||Bounce the ball off the cell wall
+# PlayerStatUI:statName
+323||Bowel and bladder
+# StartSelection:selections[].id; StartSelection:selections[].title
+324||Boyfriend
+# Furniture:skins[].title
+325||Boys Painting
+# Furniture:title
+326||Braided Laundry Basket
+# DoorChangelevel:title
+327||Break Room
+# TextMeshProUGUI:m_text
+328||Breast Size
+# Growing:UseMessage
+329||Breed
+# Achievements:achievements[].rewards[].rewardName
+330||Brewery Worker's Union
+# Furniture:title
+331||Brewery Workers Union Flag
+# Furniture:title; manufacturing:ManuName
+332||Brick Furnace
+# TaskItemBlueprint:itemName
+333||Brick Furnace Blueprint
+# Furniture:skins[].title
+334||Bridge Painting
+# StartSelection:selections[].title
+335||Bright colors
+# TextMeshProUGUI:m_text
+336||Brightness
+# TaskObjective:title
+337||Bring 24 bottles of Osmo Olut to Erto
+# TaskObjective:title
+338||Bring Erto something
+# TaskObjective:title
+339||Bring Max his phone
+# TaskObjective:title
+340||Bring Welhö at least fine-quality Mushroom Moonshine
+# TaskObjective:title
+341||Bring Welhö the Sacred Seal
+# TaskObjective:title
+342||Bring the döner to Akim
+# Furniture:title
+343||Broken Brown Refrigerator
+# Furniture:title
+344||Broken Mirror
+# Furniture:title
+345||Broken Payphone
+# DoorChangelevel:title
+346||Bromshop
+# Furniture:title
+347||Broom
+# Furniture:skins[].title
+348||Brown Plastic Chair
+# Furniture:title
+349||Brown Refrigerator
+# CollectibleRecipe:recipe.name; InteractableRelay:title; Storage:title
+350||Bucket
+# ToiletBucket:title
+351||Bucket Potty
+# Furniture:title
+352||Bucket Toilet
+# TaskItemBlueprint:itemName
+353||Bucket Toilet Blueprint
+# ToiletBucket:title
+354||Bucket potty
+# TextMeshProUGUI:m_text
+355||Building
+# TextMeshProUGUI:m_text
+356||Building Menu
+# Furniture:skins[].title
+357||Burger Painting
+# ConversationTrigger:conversation; Usable:m_overrideName
+358||Burt O. Kraut
+# DoorChangelevel:title
+359||Bus
+# MarketShop:marketName; logic_receipt_maker:receiptName
+360||Butcherer Irma Kött
+# DoorChangelevel:title; VendingMachine:title
+361||Butchershop
+# TextMeshProUGUI:m_text
+362||Buy/Sell
+# TaskInfo:title
+363||Buying a house
+# TextMeshPro:m_text
+364||CANTEEN
+# TextMeshProUGUI:m_text
+365||CASUAL
+# TextMeshPro:m_text
+366||CELL 1
+# TextMeshPro:m_text
+367||CELL 2
+# TextMeshProUGUI:m_text
+368||CHECK¶AH
+# TextMeshProUGUI:m_text
+369||CLIENT
+# TextMeshPro:m_text
+370||CONSTRUCTION MATERIALS
+# TextMeshProUGUI:m_text
+371||CREDITS
+# TextMeshProUGUI:m_text
+372||CUSTOM
+# Storage:StorageSettings; Storage:title
+373||Cabinet
+# Storage:title
+374||Cabinet (Bottom)
+# Storage:title
+375||Cabinet (Lower)
+# Storage:title
+376||Cabinet (Top)
+# Storage:title
+377||Cabinet (Upper)
+# Furniture:title; FurnitureCollectable:title
+378||Cactus
+# FurnitureCollectable:title
+379||Cactus (100)
+# VendingMachine:sellableItems[].customTitle
+380||Cafe Latte
+# Furniture:title
+381||Cafeteria Bucket
+# Furniture:title
+382||Cafeteria Table
+# Furniture:title
+383||Cage Trolley
+# TaskObjective:title
+384||Call Fungal Disease Treatment Unit
+# Growing:ManuName
+385||Can
+# StandaloneInputModule:m_CancelButton; TextMeshProUGUI:m_text
+386||Cancel
+# TextMeshProUGUI:m_text
+387||Cancel¶
+# Furniture:title
+388||Candle Bowl
+# Furniture:title
+389||Candle Cluster
+# Furniture:title
+390||Candle Cluster 2
+# TaskItemBlueprint:itemName
+391||Candle Cluster 2 Blueprint
+# TaskItemBlueprint:itemName
+392||Candle Cluster Blueprint
+# Furniture:title
+393||Candle Large
+# TaskItemBlueprint:itemName
+394||Candle Large Blueprint
+# Furniture:title
+395||Candle Medium
+# TaskItemBlueprint:itemName
+396||Candle Medium Blueprint
+# Furniture:title
+397||Candle Small
+# TaskItemBlueprint:itemName
+398||Candle Small Blueprint
+# TextMeshProUGUI:m_text
+399||Cannot be rented
+# DoorChangelevel:title
+400||Canteen
+# Furniture:title
+401||Car Wheel
+# DoorChangelevel:title
+402||Caravan
+# Furniture:title
+403||Cardboard Boxes
+# Usable:m_overrideName
+404||Carrot plant
+# Furniture:title
+405||Cartoon Calendar
+# Storage:title
+406||Cash register
+# InteractableMoney:title
+407||Cashbox
+# Bank:BankName; DoorChangelevel:title; Landmark:title
+408||Casino
+# VendingMachine:title
+409||Casino Bar
+# TaskObjective:description
+410||Casper told you that Heikki is currently hiding somewhere in the slums in a block called Mentti B. Casper asked you to find him and find out by any means necessary where the rest of the money is.
+# Furniture:title
+411||Cat Calendar
+# Furniture:title
+412||Cat Ear Headset
+# Furniture:title
+413||Cat Tree
+# DoorChangelevel:title; RelayDialogue:relayName
+414||Cave
+# Landmark:title
+415||Cave Island
+# Furniture:title
+416||Ceiling Lamp Chain
+# TaskItemBlueprint:itemName
+417||Ceiling Lamp Chain Blueprint
+# Furniture:title
+418||Ceiling Light
+# Door:title
+419||Cell Door
+# Furniture:title
+420||Chainsaw
+# DoorChangelevel:title
+421||Chamber of Commerce Basement
+# TextMeshProUGUI:m_text
+422||Change/Snap Object
+# TextMeshPro:m_text
+423||Changing Rooms
+# TextMeshProUGUI:m_text; UIPageButtons:MenuPages[].Key
+424||Character
+# Furniture:title; Generator:ManuName; Storage:title
+425||Charger
+# Furniture:title
+426||Cheap Radio
+# TaskObjective:title
+427||Check the buildings at the Kauha's claim
+# MarketShop:title
+428||Checkout
+# DoorChangelevel:title
+429||Checkpoint
+# Furniture:title; FurnitureCollectable:title
+430||Chemical Lab
+# TaskItemBlueprint:itemName
+431||Chemical Lab Blueprint
+# Furniture:title; manufacturingProcess:ManuName
+432||Chemical Reactor
+# manufacturing:ManuName
+433||Chemical lab
+# Furniture:skins[].title
+434||Chess Painting
+# Storage:StorageSettings; Storage:title; Usable:m_overrideName
+435||Chest
+# Furniture:title; FurnitureCollectable:title
+436||Chest Freezer
+# Storage:StorageSettings; Storage:title
+437||Chest freezer
+# TextMeshProUGUI:m_text
+438||Chin Position
+# Achievements:achievements[].rewards[].rewardName
+439||Cigars
+# Furniture:title
+440||City Painting
+# TextMeshPro:m_text
+441||Classroom
+# TreatmentFungalDisease:StatusNone.title; TreatmentRadiation:StatusNone.title
+442||Clean
+# Achievements:achievements[].rewards[].rewardName
+443||Cleaners Union
+# Furniture:title
+444||Cleaners Union Flag
+# Furniture:title
+445||Cleaning Cart
+# TaskObjective:title
+446||Clear the tracks of the tenement tunnel
+# TextMeshProUGUI:m_text
+447||Clearly Visible
+# DoorChangelevel:title; FakeDoor:title
+448||Clock Tower
+# TaskItem:itemName
+449||Clocktower keys
+# TextMeshProUGUI:m_text
+450||Clothes
+# Furniture:title
+451||Clothes Rack
+# DoorChangelevel:title; Landmark:title
+452||Club Bassment
+# Furniture:title
+453||Coaster Square
+# Furniture:title; FurnitureCollectable:title
+454||Coat Rack
+# Furniture:title; FurnitureCollectable:title
+455||Coat Rack Large
+# Furniture:title; FurnitureCollectable:title
+456||Coat Rack Small
+# Furniture:title; VendingMachine:title
+457||Coffee Machine
+# VendingMachine:sellableItems[].customTitle
+458||Coffee Speciale
+# Furniture:title
+459||Coffee Table
+# manufacturing:ManuName
+460||Coffee maker
+# InteractablePay:title
+461||Coinbox
+# Furniture:title
+462||Coinman
+# TaskInfo:title
+463||Collapse hazard
+# TaskObjective:title
+464||Collect three recommendations
+# Text:m_Text
+465||Color¶
+# Furniture:skins[].title
+466||Colorful Waves Painting
+# Furniture:title
+467||Colorful Woman Painting
+# Furniture:title
+468||Comfy Office Chair
+# Usable:m_overrideName
+469||Comfy bed
+# Furniture:title
+470||Commercial Dishwasher
+# FurnitureShop:title; Landmark:title; TextMeshPro:m_text
+471||Commercial Furniture Shop
+# Furniture:title
+472||Commercial Kitchen Table
+# Furniture:title
+473||Commercial Kitchen Table With Sink
+# Furniture:title
+474||Commercial Refrigerator
+# Furniture:title
+475||Commercial Stove
+# TaskObjective:title
+476||Complete makeshift mines upgrade
+# TaskItemBlueprint:itemName
+477||Compost Blueprint
+# Furniture:title; Generator:ManuName
+478||Compressor
+# Furniture:title
+479||Computer Keyboard
+# Furniture:title
+480||Computer Mouse
+# Furniture:title
+481||Concrete Mixer
+# InteractableWaitWork:title
+482||Console
+# DoorChangelevel:title
+483||Container shack
+# DoorChangelevel:title
+484||Control Room
+# TextMeshPro:m_text
+485||Control Room, Workroom
+# Furniture:title; FurnitureCollectable:title
+486||Cooking Pot
+# Furniture:title; TaskItemBlueprint:itemName
+487||Copper Moonshine Still
+# manufacturingProcess:ManuName; manufacturingProcess:title
+488||Copper Still
+# Furniture:title
+489||Copy Machine
+# manufacturing:ManuName
+490||Copy machine
+# Furniture:title
+491||Corner Desk
+# Furniture:title; FurnitureCollectable:title
+492||Corner Table
+# Furniture:title
+493||Corrugated Metal Sheet
+# Furniture:title
+494||Corrugated Metal Sheet Half
+# TextMeshProUGUI:m_text
+495||Cost: 100 OC
+# Furniture:title
+496||Cottage Bench
+# TaskItemBlueprint:itemName
+497||Cottage Bench Blueprint
+# Furniture:title
+498||Cottage Table
+# TaskItemBlueprint:itemName
+499||Cottage Table Blueprint
+# TrackTrainInteractableCoupler:title
+500||Coupler
+# WaitingController:passoutEvents[].title
+501||Covered With Junk
+# TextMeshProUGUI:m_text
+502||Cram bottles ¶and ¶cans here
+# Furniture:title
+503||Crazy Coinman
+# BookInfo:title; CollectibleItem:owner.name; CollectibleItemSpawner:owner.name; InteractableTalk:title
+504||Crazy Neighbor
+# StartSelection:selections[].title
+505||Crazy neighbor
+# TextMeshProUGUI:m_text
+506||Crosseven or Ristiseiska like the Finnish version of the card game Sevens where you have to get rid of all your cards.
+# TextMeshProUGUI:m_text
+507||Crouch
+# Storage:StorageSettings; Storage:itemSpawnCategory; Storage:title; Usable:m_overrideName
+508||Cupboard
+# Storage:title
+509||Cupboard (Bottom)
+# Storage:title
+510||Cupboard (Top)
+# TextMeshProUGUI:m_text
+511||Current Selection
+# Furniture:title
+512||Curved Gaming Monitor
+# Furniture:title
+513||Custom Body Pillow
+# Furniture:title
+514||Custom Calendar
+# Furniture:title
+515||Custom Desk Mat
+# Furniture:title
+516||Custom Flag
+# Furniture:title
+517||Custom Mousepad
+# Furniture:title
+518||Custom Picture
+# Furniture:title
+519||Custom Poster
+# Furniture:title
+520||Custom Wall Cloth
+# TextMeshPro:m_text
+521||Customer service & telemarketing
+# TextMeshProUGUI:m_text
+522||DATE¶3/5/1973
+# TextMeshProUGUI:m_text
+523||DEAD
+# TextMeshProUGUI:m_text
+524||DEFAULT
+# TextMeshProUGUI:m_text
+525||DEFAULT DIFFICULTY:¶¶The most balanced difficulty, which is recommended to be tried first.
+# CollectibleItem:owner.name; CollectibleItemSpawner:owner.name; Landmark:title; LiquidStorage:StorageOwner.name
+526||DR. Pena MD
+# TreatmentFungalDisease:DangerousExperimentalTreatment.title
+527||Dangerous experimental treatment
+# Furniture:title; FurnitureCollectable:title
+528||Darts
+# Furniture:title
+529||Deactivated Assault Rifle
+# Storage:title
+530||Dead Mike
+# CollectibleItem:title
+531||Dead Rat
+# TaskObjective:title
+532||Deal with the guy blocking Raimo's locke
+# NoteInfo:title
+533||Dear neighbor, don’t forget your pills today!
+# NoteInfo:content
+534||Dear recipient,¶¶We have detected suspicious transactions at your account at Stalburg Bank, and in accordance with banking regulation we have frozen your account for investigation. No funds may be deposited to or widthdrawn from the account.¶¶To have your account unfrozen, we kindly ask you, or your lawyer, to send us full documentation proving the nature of the transactions.¶¶- Stalburg Bank, Compliance Unit
+# TaskItem:itemName
+535||Debit Card
+# Furniture:title; FurnitureCollectable:title
+536||Decent Bed
+# Furniture:title
+537||Decoration Lights Large
+# Furniture:title
+538||Decoration Lights Medium
+# Furniture:title
+539||Decoration Lights Small
+# DoorChangelevel:title
+540||Deekula
+# Usable:m_overrideName
+541||Deekula 4B
+# Usable:m_overrideName
+542||Deekula 4C
+# DoorChangelevel:title; Landmark:title
+543||Deekula A
+# DoorChangelevel:title
+544||Deekula A Basement
+# DoorChangelevel:title; Landmark:title
+545||Deekula B
+# TaskItemGroup:itemName
+546||Deekula B storage keys
+# DoorChangelevel:title
+547||Deekula Basement
+# DoorChangelevel:title; Landmark:title
+548||Deekula C
+# TaskItem:itemName
+549||Deekula C storage 8 keys
+# TaskItem:itemName
+550||Deekula apartment A8 keys
+# TaskItem:itemName
+551||Deekula apartment B1 keys
+# TaskItem:itemName
+552||Deekula apartment B10 keys
+# TaskItem:itemName
+553||Deekula apartment B3 keys
+# TaskItem:itemName
+554||Deekula apartment B4 keys
+# TaskItem:itemName
+555||Deekula apartment B8 keys
+# TaskInfo:title
+556||Deeply insane
+# TaskObjective:title
+557||Deliver kebab for Virtanen
+# TaskObjective:title
+558||Deliver kebab to casino security
+# TaskObjective:title
+559||Deliver pizza to jail
+# TaskItem:itemName
+560||Delivery Drone
+# TextMeshPro:m_text
+561||Dentist
+# TextMeshProUGUI:m_text
+562||Deposit
+# TextMeshProUGUI:m_text
+563||Deposit | Withdraw
+# LoadingScreen:hintList[].title
+564||Depression: Bad food
+# Storage:title
+565||Desk
+# Furniture:title
+566||Desk Mat
+# TextMeshProUGUI:m_text
+567||Details
+# StartSelection:selections[].title
+568||Devil's Angels
+# Furniture:title
+569||Devil's Angels Wall Flag 
+# LoadingScreen:hintList[].title
+570||Difficulty settings
+# Landmark:title
+571||Diplom-Ingengjör
+# LoadingScreen:hintList[].hintText
+572||Disassemble furniture to harvest materials for tenement renovations or crafting
+# TextMeshProUGUI:m_text
+573||Discard changes
+# Storage:title
+574||Discount baskets
+# TaskObjective:title
+575||Discover the source of the noise
+# TextMeshProUGUI:m_text
+576||Display 0
+# TextMeshProUGUI:m_text
+577||Display Number
+# CraftingUpgrade:title; Furniture:title; manufacturingProcess:ManuName; manufacturingProcess:title
+578||Distillation Kit
+# ConversationTrigger:conversation; Usable:m_overrideName
+579||Doctor
+# TextMeshProUGUI:m_text
+580||Doctor checks your mental health status and tells you if you need stronger medication. 
+# LoadingScreen:hintList[].title
+581||Doctor: Prescriptions
+# Furniture:skins[].title; Furniture:title
+582||Dog Painting
+# LoadingScreen:hintList[].hintText
+583||Don't forget to pay your invoices before they expire
+# LoadingScreen:hintList[].hintText
+584||Don't forget to take the mail
+# Furniture:title
+585||Double Bed
+# Furniture:title
+586||Down Exit Sign
+# TextMeshProUGUI:m_text
+587||Drag And Drop
+# TextMeshProUGUI:m_text
+588||Drag and Drop
+# Soundscape:loopSounds[].title; Soundscape:randomSounds[].title; Storage:StorageSettings; Storage:itemSpawnCategory
+589||Drain
+# TextMeshProUGUI:m_text
+590||Draw¶EL
+# Storage:StorageSettings; Storage:title
+591||Drawer
+# Usable:m_overrideName
+592||Drawers
+# TextMeshProUGUI:m_text
+593||Drawing No¶E/154
+# Furniture:title
+594||Dressing Room Bench
+# TaskItemBlueprint:itemName
+595||Dressing Room Bench Blueprint
+# manufacturing:ManuName
+596||Drill
+# TextMeshPro:m_text
+597||Drink Bar
+# TextMeshProUGUI:m_text
+598||Drink beer to feel better.
+# TextMeshProUGUI:m_text
+599||Drop (Item)
+# TreatmentFungalDisease:StatusDrunk.title
+600||Drunk
+# Furniture:title
+601||Drying Rack
+# TextMeshPro:m_text
+602||Duck
+# TreatmentMentalHealth:StatusDuck.title
+603||Duck addiction
+# PlayerStatUI:statName
+604||Ducks need
+# NoteInfo:content
+605||Due to a sudden sewage water leak in the building, Bazaar Bank closed until further notice to ensure the health and safety of our customers.¶¶We apologize for any inconvenience this may cause.
+# CollectibleItemSpawner:itemSpawnCategory; InteractableRelay:title; Storage:StorageSettings; Storage:itemSpawnCategory
+606||Dumpster
+# TextMeshProUGUI:m_text
+607||ELECTRONICS
+# TextMeshPro:m_text; TextMeshProUGUI:m_text
+608||ELEVATOR
+# TextMeshPro:m_text
+609||ELEVATOR DOWN
+# TextMeshPro:m_text
+610||ELEVATOR TO SURFACE
+# TextMeshProUGUI:m_text
+611||ENABLED
+# TextMeshProUGUI:m_text
+612||Ear Rotation
+# TextMeshProUGUI:m_text
+613||Ear Size
+# EditableSign:text; TextMeshProUGUI:m_text
+614||Editable
+# TextMeshProUGUI:m_text
+615||Editable¶¶¶¶
+# Furniture:title
+616||Egg Timer
+# TextMeshPro:m_text
+617||Eki
+# Furniture:title; FurnitureCollectable:title; manufacturing:ManuName
+618||Electric Kiln
+# Furniture:title
+619||Electric Meat Grinder
+# DoorChangelevel:title
+620||Electrical Room
+# Achievements:achievements[].rewards[].rewardName
+621||Electrical Workers Union
+# Furniture:title
+622||Electrical Workers Union Flag
+# TextMeshProUGUI:m_text
+623||Electricity
+# DoorChangelevel:title
+624||Electronics Shop
+# Furniture:title; manufacturing:ManuName
+625||Electronics Workbench
+# FurnitureShop:title; Landmark:title
+626||Elektroniks
+# Landmark:title
+627||Elevator to Exit
+# MarketShop:marketName
+628||Elström Electronics
+# NoteInfo:content
+629||Emergency Number: 112¶¶Aziz's Kebab and Burger: 062 792 005¶¶Osmo Olut Customer Service: 010 138 2044¶¶Stalburg Bank: 010 242 4096¶¶Swamp Publishing LCC: 010 689 0002¶¶Hobbyprof Publishing House: 010 512 2561
+# TaskObjective:description
+630||Emil Kauha told you that someone named Pertti lost the keys to the building where Ines probably is. Pertti lost the keys near the break room.
+# Furniture:title
+631||Empty Case of Osmo Olut
+# TextMeshProUGUI:m_text
+632||Empty note
+# TaskObjective:description
+633||Energy classification is required for selling the apartments.
+# DoorChangelevel:title
+634||Engineer Office
+# Achievements:achievements[].rewards[].rewardName
+635||Engineer poster
+# TextMeshProUGUI:m_text
+636||English
+# InteractableMoney:title
+637||Enter Money
+# TaskObjective:title
+638||Enter Welhö's secret lair
+# InteractableMoney:title
+639||Enter money
+# TextMeshProUGUI:m_text
+640||Enter text...
+# Text:m_Text
+641||Enum
+# Landmark:title
+642||Erikson's Claim
+# TaskInfo:description
+643||Erkki Kianen and his friends have asked you to locate their missing friend Raimo, who left in anger. They told you he wears a white headband with a red circle in the middle.
+# TaskObjective:title
+644||Errors in my forms
+# TaskObjective:description
+645||Erto didn't like the rubber duck you gave him, so now he wants you to bring him 24 bottles of Osmo Olut instead.
+# TaskItem:itemName
+646||Erto's brown jacket
+# TaskItem:itemName
+647||Erto's red jacket
+# TextMeshProUGUI:m_text; TriggerMultiple:outputs[].OnTrigger.m_PersistentCalls.m_Calls[].m_MethodName
+648||Escape
+# TextMeshProUGUI:m_text
+649||Esko Virtanen
+# TextMeshProUGUI:m_text
+650||Estimated value: 10 OC
+# InteractableItemGiver:title
+651||Evening Tidings
+# Furniture:title
+652||Examination Table
+# InteractableChair:title
+653||Examination bed
+# RelayDialogue:relayName; TextMeshProUGUI:m_text
+654||Exchange
+# TextMeshProUGUI:m_text
+655||Exit/Cancel
+# TextMeshProUGUI:m_text
+656||External liquid source
+# TextMeshProUGUI:m_text
+657||External liquid source¶¶Water¶0/1000L¶¶Integrity: 100%
+# TextMeshProUGUI:m_text
+658||Eye Depth
+# TextMeshProUGUI:m_text
+659||Eye Distance
+# TextMeshProUGUI:m_text
+660||Eye Position
+# TextMeshProUGUI:m_text
+661||Eye Size
+# TextMeshProUGUI:m_text
+662||FINAL: 100000 RM
+# TextMeshProUGUI:m_text
+663||FIRST: 10000 OC
+# TextMeshProUGUI:m_text
+664||FOV
+# TextMeshProUGUI:m_text
+665||Face Size
+# DoorChangelevel:title
+666||Factory Tenement
+# DoorChangelevel:title
+667||Factoryment
+# LoadingScreen:hintList[].title
+668||Familiarize with the locations 
+# Furniture:title
+669||Family Painting
+# Soundscape:loopSounds[].title; TelevisionNoise:title
+670||Fan
+# Furniture:title
+671||Fancy Armchair
+# Furniture:title
+672||Fancy Bench
+# Furniture:title
+673||Fancy Large Wooden Cabinet
+# Furniture:title
+674||Fancy Leather Chair
+# Furniture:title
+675||Fancy Leather Office Chair
+# Furniture:title
+676||Fancy Room Painting
+# FurnitureCollectable:title
+677||Fancy Sofa
+# TaskItemBlueprint:itemName
+678||Fancy Square Wooden Table Blueprint
+# Furniture:title
+679||Fancy Wooden Box
+# Furniture:title
+680||Fancy Wooden Chair
+# FurnitureCollectable:title
+681||Fancy Wooden Chair (5)
+# Furniture:title
+682||Fancy Wooden Desk
+# Furniture:title
+683||Fancy Wooden Square Table
+# FurnitureCollectable:title
+684||Fancy leather Chair
+# TreatmentRadiation:StatusFatal.title
+685||Fatal
+# WorkableResourceSource:title
+686||Fatberg
+# LoadingScreen:hintList[].hintText
+687||Feels too grindy or getting hungry too fast? Try switching to Casual or Custom difficulty
+# Furniture:title
+688||Fermenting Barrel
+# TaskItemBlueprint:itemName
+689||Fermenting Barrel Blueprint
+# Furniture:title
+690||Fermenting Bucket
+# TaskItemBlueprint:itemName
+691||Fermenting Bucket Blueprint
+# Furniture:title
+692||Fermenting Container
+# TaskItemBlueprint:itemName
+693||Fermenting Container Blueprint
+# manufacturingProcess:ManuName; manufacturingProcess:title
+694||Fermenting barrel
+# TaskObjective:title
+695||Fetch raw döner from the meat shop
+# TextMeshProUGUI:m_text
+696||File Edit Format View Help
+# TextMeshProUGUI:m_text
+697||File Name
+# TextMeshProUGUI:m_text
+698||Filename.txt
+# Storage:StorageSettings; Storage:title
+699||Filing Cabinet
+# Furniture:title
+700||Filing cabinet
+# TextMeshProUGUI:m_text
+701||Fill Item
+# TextMeshProUGUI:m_text
+702||Fill Item¶
+# TaskObjective:title
+703||Fill out the form and bring it to Axel Nordberg
+# VendingMachine:sellableItems[].customTitle
+704||Filter Coffee
+# StartSelection:selections[].title
+705||Filthy poor
+# TextMeshProUGUI:m_text
+706||Final Payment
+# TaskObjective:title
+707||Finalize Transaction
+# TaskObjective:title
+708||Find Erto's storage cage
+# TaskObjective:title
+709||Find Heikki in Mentti B
+# TaskObjective:title
+710||Find Max's phone
+# TaskObjective:title
+711||Find Mikael
+# TaskObjective:title
+712||Find Raimo
+# TaskObjective:title
+713||Find a way to clear the tunnel
+# TaskObjective:title
+714||Find a way to get rid of Casper Colikke
+# TaskObjective:title
+715||Find a way to get the gate open
+# TaskObjective:title
+716||Find all remaining pages
+# TaskObjective:title
+717||Find out what happened to Erto's storage cage
+# TaskObjective:title
+718||Find out where Jane went
+# TaskObjective:title
+719||Find out where Suurwelho lives
+# TaskObjective:title
+720||Find proof for Casper
+# TaskObjective:title
+721||Find the Bazaar Bookstore and ask about Tunnel of Water Trees
+# TaskObjective:title
+722||Find the Osmo Olut minitrain miniature
+# TaskObjective:title
+723||Find the bank manager
+# TaskObjective:title
+724||Find the keys to the building
+# TextMeshProUGUI:m_text
+725||Finished Tasks
+# Furniture:title
+726||Fire Extinguisher
+# Furniture:title
+727||Fire Painting
+# Generator:ManuName
+728||Fireplace
+# Furniture:title
+729||Firewood Basket
+# Furniture:title
+730||Firewood Pile
+# TaskItemBlueprint:itemName
+731||Firewood Pile Blueprint
+# TextMeshProUGUI:m_text
+732||First Name
+# TextMeshProUGUI:m_text
+733||First name...
+# VendingMachine:title
+734||Fisk og Torsk
+# Furniture:title
+735||Flag of Denmark
+# Furniture:title
+736||Flag of Estonia
+# Furniture:title
+737||Flag of Finland
+# FurnitureCollectable:title
+738||Flag of Finland (5)
+# Furniture:title
+739||Flag of Iceland
+# Furniture:title
+740||Flag of Japan
+# Furniture:title
+741||Flag of Norway
+# Furniture:title
+742||Flag of Poland
+# Furniture:title
+743||Flag of Stolland
+# FurnitureCollectable:title
+744||Flag of Stolland (5)
+# Furniture:title
+745||Flag of Sweden
+# Furniture:title
+746||Flag of Ukraine
+# Furniture:title
+747||Flag of the Livonians
+# Furniture:title
+748||Flag of the United States
+# Furniture:title
+749||Flat Screen Television
+# Train:title
+750||Flat Wagon
+# FurnitureShop:title
+751||Flea Market
+# SelectionButton:Options[].Name
+752||Floor  8
+# SelectionButton:Options[].Name
+753||Floor -1
+# SelectionButton:Options[].Name; TextMeshPro:m_text; TextMeshProUGUI:m_text
+754||Floor 1
+# SelectionButton:Options[].Name; TextMeshPro:m_text; TextMeshProUGUI:m_text
+755||Floor 2
+# SelectionButton:Options[].Name; TextMeshPro:m_text; TextMeshProUGUI:m_text
+756||Floor 3
+# SelectionButton:Options[].Name; TextMeshProUGUI:m_text
+757||Floor 4
+# TextMeshPro:m_text
+758||Floor 4¶
+# SelectionButton:Options[].Name; TextMeshProUGUI:m_text
+759||Floor 5
+# SelectionButton:Options[].Name; TextMeshProUGUI:m_text
+760||Floor 6
+# SelectionButton:Options[].Name
+761||Floor 7
+# SelectionButton:Options[].Name
+762||Floor 8
+# Furniture:title
+763||Floor Bed
+# TaskItemBlueprint:itemName
+764||Floor Bed Blueprint
+# Furniture:title
+765||Floor Lamp
+# TaskItemBlueprint:itemName
+766||Flower Box Blueprint
+# TaskItemBlueprint:itemName
+767||Flower Box With Lamp Blueprint
+# TaskItemBlueprint:itemName
+768||Flower Box With Supports Blueprint
+# Furniture:title
+769||Flower Mirror
+# Furniture:title
+770||Flowerbox
+# FurnitureCollectable:title
+771||Flowerbox (2)
+# Furniture:title
+772||Flowerbox With Lamp
+# FurnitureCollectable:title
+773||Flowerbox With Lamp (2)
+# Furniture:title
+774||Flowerbox With Supports
+# Furniture:title
+775||Flowerpot
+# FurnitureCollectable:title
+776||Flowerpot (5)
+# TaskItemBlueprint:itemName
+777||Flowerpot Blueprint
+# Furniture:title
+778||Fluffy Small Rug
+# Furniture:title
+779||Flying Island Painting
+# Furniture:title
+780||Foggy Mirror
+# Text:m_Text
+781||Foldout
+# Text:m_Text
+782||Foldout¶
+# LoadingScreen:hintList[].title
+783||Food: Mushrooms
+# TextMeshProUGUI:m_text
+784||Foot Size
+# TaskObjective:description
+785||For your first mission, Erto has tasked you with silencing the noisy neighbor living directly below his apartment.
+# TaskObjective:description
+786||For your next mission, Erto wants you to bring his jacket.
+# TaskObjective:description
+787||For your second mission, Erto has tasked you with finding his storage cage on the ground floor and retrieving an item from it.
+# TaskItem:itemName; logic_mail_sender:_taskItemMail.mailName
+788||Forged Passport
+# TextMeshProUGUI:m_text
+789||Forward
+# TextMeshProUGUI:m_text
+790||Fov
+# Furniture:title
+791||Fox Painting
+# TaskItem:itemName
+792||Fredrik's Medicine
+# Soundscape:loopSounds[].title; Storage:StorageSettings; Storage:itemSpawnCategory; Storage:title
+793||Freezer
+# Character:LastName; TextMeshPro:m_text
+794||Freighter
+# Soundscape:loopSounds[].title; Storage:StorageSettings; Storage:itemSpawnCategory; Storage:title
+795||Fridge
+# TaskObjective:description
+796||From Anna, you learned that another woman named Ines Hietala once worked at the canteen. Anna suggested that her sister, Laura, might know where Ines is now. She also mentioned that Laura could be at the Sauna Club at the moment.
+# FuelPump:title
+797||Fuel Pump
+# MinitrainFuelTank:title
+798||Fuel Tank
+# Furniture:title; Storage:itemSpawnCategory
+799||Fume Cabinet
+# Growing:ManuName
+800||Fume cabinet
+# TaskItem:itemName
+801||Fungal Disease Treatment Unit Card
+# TreatmentFungalDisease:title
+802||Fungal disease
+# LoadingScreen:hintList[].hintText
+803||Fungal disease can be transmitted when you are near fungi or those affected
+# LoadingScreen:hintList[].hintText
+804||Fungal disease limits how much health you can have
+# LoadingScreen:hintList[].title
+805||Fungal disease: Eating habits
+# LoadingScreen:hintList[].title
+806||Fungal disease: Health
+# LoadingScreen:hintList[].title
+807||Fungal disease: Transmit
+# DoorChangelevel:title; Landmark:title
+808||Fungi Boutique
+# NoteInfo:title
+809||Fungispring Contact
+# NoteInfo:content
+810||Fungispring LTD service hotline:¶030 892 951
+# MarketShop:marketName
+811||Funqi Boutique
+# TextMeshProUGUI:m_text
+812||Furniture Crafting
+# TextMeshProUGUI:m_text
+813||Furniture crafting speed
+# TextMeshProUGUI:m_text
+814||Furniture description¶Furniture description
+# LoadingScreen:hintList[].title
+815||Furniture disassemble
+# TextMeshProUGUI:m_text
+816||Furniture name
+# LoadingScreen:hintList[].title
+817||Furniture: Buy Or Craft
+# Usable:m_overrideName
+818||Fusebox
+# LoadingScreen:hintList[].title; PlayerStatUI:statName
+819||Gambling
+# TreatmentAddictions:StatusGamblingAddiction.title
+820||Gambling addiction
+# Furniture:title
+821||Game Console
+# Furniture:title; InteractableChair:title
+822||Gaming Chair
+# FurnitureCollectable:title
+823||Gaming Chair (5)
+# Furniture:title
+824||Gaming Controller
+# Furniture:title
+825||Gaming PC
+# HotelRoom:roomName
+826||Gaming Station 1
+# HotelRoom:roomName
+827||Gaming Station 2
+# HotelRoom:roomName
+828||Gaming Station 4
+# Furniture:title
+829||Gas Bottle
+# Furniture:title; manufacturing:ManuName
+830||Gas Furnace
+# FurnitureCollectable:title
+831||Gas Furnace (5)
+# GasStation:gastationName; VendingMachine:title
+832||Gas Station
+# Storage:title
+833||Gas bottle holder
+# Door:title; DoorChangelevel:title
+834||Gate
+# DoorChangelevel:title; Landmark:id; Landmark:title
+835||Gatehouse
+# Furniture:title
+836||Gear Clock
+# Furniture:title
+837||Geared Head Drill
+# TextMeshProUGUI:m_text
+838||Gender
+# Character:Job; DoorChangelevel:title; Landmark:title
+839||General Trader
+# DoorChangelevel:title
+840||Generator Hall
+# TextMeshProUGUI:m_text
+841||Generator output:¶500 W¶TODO
+# TaskObjective:title
+842||Get 10000 RM for Seamus Liepa
+# WaitingController:passoutEvents[].title
+843||Get Caught From Crime
+# TaskObjective:title
+844||Get Heska Pavonen to open the gate
+# TaskObjective:title
+845||Get Jooseppi's recommendation
+# TaskObjective:title
+846||Get Malone's recommendation
+# TaskObjective:title
+847||Get Pentti's recommendation
+# TaskObjective:title
+848||Get Seamus' ring from the island
+# TaskObjective:title
+849||Get Welhö's recommendation
+# TextMeshProUGUI:m_text
+850||Get coins
+# TaskObjective:title
+851||Get radioactive repository entry permit
+# TaskObjective:title
+852||Get some hot pea soup
+# TaskObjective:title
+853||Get the Crazy Neighbor to arrange a recommendation
+# Furniture:title
+854||Gift Box
+# StartSelection:selections[].id; StartSelection:selections[].title
+855||Girlfriend
+# Furniture:title
+856||Glass Coffee Table
+# FurnitureCollectable:title
+857||Glass Coffee Table (5)
+# TextMeshProUGUI:m_text
+858||Glasses
+# LoadingScreen:hintList[].hintText
+859||Glowing things can protect you from fungal disease
+# TaskObjective:title
+860||Go back to the Casino
+# TaskObjective:title
+861||Go collect reward from Mailanen
+# TaskObjective:title
+862||Go to talk to Ken Nakahara
+# TextMeshProUGUI:m_text
+863||Goal ¶Get rid of all your cards first.¶¶Playing¶-The 7 of Clubs starts the game. If you have it, you must play it.¶-Play one card per turn.¶-Any 7 starts a new suit.¶-After a suit's 7, play its 6 and then its 8.¶-Build down from 6 to Ace and up from 8 to King.¶-Cards below 6 can't be played until that suit's 8 is down.¶-An Ace or King flips its pile and lets you play again.¶¶Can't play?¶-On your first turn, pass if you don't have the 7 of Clubs.¶-Otherwise request a card from the previous player.¶¶Can't play?¶-On your first turn, pass if you don't have the 7 of Clubs.¶-Otherwise request a card from the previous player.¶¶Can't play?¶-On your first turn, pass if you don't have the 7 of Clubs.¶-Otherwise request a card from the previous player.¶¶Can't play?¶-On your first turn, pass if you don't have the 7 of Clubs.¶-Otherwise request a card from the previous player.¶¶¶¶¶¶
+# LoadingScreen:hintList[].hintText
+864||Going to the sauna can help with mental health and addictions
+# Landmark:title
+865||Gold and Jewellery Store
+# NoteInfo:content
+866||Good news!¶¶I've managed to make a contact with group of people who maybe able to help you to get in and out the quarantine zone to search your brother.¶¶Await for further instructions.¶-T
+# TextMeshPro:m_text
+867||Grachyov
+# Furniture:title
+868||Gradient Paper Ceiling Light
+# Furniture:title; manufacturing:ManuName
+869||Grain Mill
+# Furniture:title
+870||Grandmothers Painting
+# Furniture:title
+871||Grater
+# FurnitureCollectable:title
+872||Gray Fancy Wooden Chair (5)
+# Character:LastName; Furniture:skins[].id; RatFightArena:combatants[].name; RelayDialogue:relayName
+873||Green
+# Furniture:title
+874||Green Dumpster
+# Furniture:title
+875||Green Hammock
+# Furniture:title
+876||Green Mushroom Lamp
+# FurnitureCollectable:title
+877||Green Mushroom Lamp (5)
+# Furniture:skins[].title
+878||Green Mushrooms Painting
+# Furniture:title
+879||Green Pappa-Tunturi Moped
+# Furniture:title
+880||Green Placemat
+# Furniture:skins[].title
+881||Green Plastic Chair
+# Furniture:title
+882||Green Shroomekko Wall Cloth
+# Furniture:title; FurnitureCollectable:title
+883||Green Vase
+# DoorChangelevel:title
+884||Greenhouse
+# DoorChangelevel:title
+885||Greenhouse Storage
+# Furniture:title
+886||Grey Cardboard Box
+# Furniture:title
+887||Grey Cat Painting
+# Furniture:title
+888||Grey Fancy Wooden Chair
+# Furniture:title
+889||Grey Lantern
+# FurnitureCollectable:title
+890||Grey Lantern (5)
+# TextMeshProUGUI:m_text
+891||Grid net balance:¶0 W¶TODO
+# Landmark:title
+892||Grill
+# manufacturing:UseMessage
+893||Grind
+# Growing:ManuName
+894||Growing Cabinet
+# Growing:ManuName
+895||Growing box
+# Growing:title
+896||Growing cabinet
+# LoadingScreen:hintList[].title
+897||Growing from produce
+# TreatmentFungalDisease:GrowthsRemovalBasic.title
+898||Growths removal
+# Achievements:achievements[].rewards[].rewardName
+899||Guild of Master Negotiators
+# Furniture:title
+900||Guild of Master Negotiators Flag
+# Achievements:achievements[].rewards[].rewardName
+901||Guild of Musicians
+# Furniture:title
+902||Guild of Musicians Flag
+# TextMeshPro:m_text
+903||Guldskjöld
+# CollectibleItem:owner.name; ConversationTrigger:conversation; InteractableItemRemover:itemsToRemove[].byowner.name; Logic_Thief:owner.name
+904||Gustav Sågspånberg
+# TaskObjective:description
+905||Gustav Sågspånberg told you that Jane is going to send you something in the mail. Hopefully, it's your payment.
+# VendingMachine:title
+906||Gustav's Bakery
+# Furniture:title
+907||Guy Rug
+# DoorChangelevel:title; Landmark:title
+908||Gym
+# TaskObjective:description
+909||Gérard Dujardin told you that his boss is waiting for you in his office. His office is the second door down the hall, right next to security on the second floor.
+# TextMeshProUGUI:m_text
+910||Hair
+# Character:LastName; TextMeshPro:m_text
+911||Haka
+# Furniture:title
+912||Half Pallet
+# Furniture:title
+913||Half Wooden Pillar
+# TaskItemBlueprint:itemName
+914||Half Wooden Pillar Blueprint
+# InteractableWait:title
+915||Hand Console
+# TaskItem:itemName
+916||Hand Drawn Passport
+# TextMeshProUGUI:m_text
+917||Hand Size
+# TextMeshPro:m_text
+918||Hannula
+# TaskItem:itemName
+919||Hanss' hideout keys
+# Storage:title
+920||Hardware Stall
+# TextMeshProUGUI:m_text
+921||Hat
+# Door:title; DoorChangelevel:title; Storage:StorageSettings
+922||Hatch
+# NoteInfo:content
+923||Have have some bad news for you my dear neighbor!¶¶I found a dead cat!¶¶I was like "Oh no, this must be my neighbor’s cat!"¶¶But I can't remember if you still have a cat! I think you had one?¶¶I mean, it looked familiar. Maybe it was someone else’s. Or no one’s at all.¶¶Your best neighbor
+# NoteInfo:title
+924||Have you seen your cat lately, my lovely neighbor
+# Furniture:title; InteractableChair:title
+925||Hay Bale
+# TaskItemBlueprint:itemName
+926||Hay Bale Blueprint
+# TextMeshProUGUI:m_text
+927||Head Lamp Use
+# TextMeshProUGUI:m_text
+928||Head Size
+# Furniture:title
+929||Headset
+# TreatmentPhysicalHealth:HealWounds.title
+930||Heal Wounds
+# PlayerStatUI:statName
+931||Health
+# TreatmentPhysicalHealth:StatusNone.title
+932||Healthy
+# manufacturing:UseMessage
+933||Heat food
+# TextMeshProUGUI:m_text
+934||Heating Room
+# TextMeshProUGUI:m_text
+935||Height
+# TaskInfo:description
+936||Heikki Mailanen asked you to handle the casino owner, Casper Colikke, and also suggested that maybe he could start running the casino himself.
+# TaskObjective:description
+937||Heikki Mailanen suggested getting rid of the casino owner some way, like giving him a poisoned Socca Junior, or maybe even talking with the king of the Bazaar.
+# Furniture:title
+938||Helm
+# Furniture:title
+939||Helm Clock
+# NoteInfo:content
+940||Help Wanted!¶¶- Dishwasher¶- Skilled chef¶¶Decent pay!
+# Furniture:skins[].title
+941||Helsinki Cathedral Painting
+# TaskObjective:description
+942||Heska Pavonen powered up the gate and gave you the keypad code, 1234.
+# Furniture:title; TaskItemBlueprint:itemName
+943||Hexagonal Modular Shelf
+# NoteInfo:content
+944||Hey,¶¶I told Hans about the new tunnel I managed to clear open. We're gearing up and planning to check it out together today.¶¶I warned him that the entrance is a bit tight, and several caves have collapsed in a short time, but there's something about this one that feels different. Hans sensed it too, and he wants to check it out as soon as possible.¶¶Maybe this is finally the route to the other side of the gate we've been searching for all this time? If you're up for it, join us.¶¶Stay sharp.
+# TextMeshProUGUI:m_text
+945||Hide Hud
+# TextMeshProUGUI:m_text
+946||Hide hints
+# Character:LastName; TextMeshPro:m_text
+947||Hietala
+# ConversationTrigger:conversation; Usable:m_overrideName
+948||Hilla Palo
+# TextMeshProUGUI:m_text
+949||Hints
+# TextMeshProUGUI:m_text
+950||Hip Width
+# TaskObjective:description
+951||His name was Matti Kiehinen and you managed to successfully deal with him.
+# TextMeshProUGUI:m_text
+952||Hold to skip
+# Furniture:skins[].title
+953||Horses Painting
+# LiquidStorage:title; Usable:m_overrideName
+954||Hose
+# Furniture:title
+955||Hospital Bed
+# Furniture:title; Storage:title
+956||Hospital Table
+# Landmark:title
+957||Hostel
+# Landmark:title
+958||Hostel Warehom
+# DoorChangelevel:title; Email:from; Landmark:title
+959||Hotel Korso
+# DoorChangelevel:title
+960||House
+# TreatmentRadiation:StatusFatal.description
+961||How are you still alive?
+# TreatmentRadiation:StatusNone.description
+962||How is this possible? The device shows zero millisieverts.
+# TextMeshPro:m_text
+963||Huang
+# ConversationTrigger:conversation; InteractableTalk:title; Usable:m_overrideName; VendingMachine:Trader.name
+964||Hugo Björnson
+# PlayerStatUI:statName
+965||Hunger
+# StartSelection:selections[].id; StartSelection:selections[].title
+966||Husband
+# StartSelection:selections[].title
+967||Husband and kids
+# Furniture:title; manufacturing:ManuName
+968||Hydraulic Press
+# Furniture:title
+969||Hydroponic Farm
+# Furniture:title
+970||Hydroponic Farm With Support
+# Growing:ManuName
+971||Hydroponics farm
+# StartSelection:selections[].title
+972||I have a family
+# NoteInfo:content
+973||I have been thinking about this place and I realised that I really hate the noisy neighbors. The neighbors who don’t say hello. ¶¶They don’t belong here, do they?¶¶I think this place should be for us! Just you, and me, and the quiet walls. Maybe I should make sure that no one else comes or stays here!¶¶But, enough about them.¶¶More importantly, have you, been eating? Properly?¶You look a little pale… I was going to make turnip soup for you! ¶¶But I didn't find you and there was someone in your apartment!¶¶But don't worry! I took care of him!¶¶I’m always here. Watching. Listening.¶¶Your devoted neighbor
+# StartSelection:selections[].title
+974||I have someone
+# NoteInfo:title
+975||I have to warn you, my dear neighbor!
+# NoteInfo:content
+976||I hope you’re, doing well, my lovely neighbor!¶¶I'm little worried about you, but not too much! Just enough to write this lovely letter for you!¶¶I mean maybe I should visit more often, you know! It's just so fun to visit there while you're sleeping! Haha!¶¶So many memories, waiting to happen… again!¶¶I really want to see your charming face, my lovely neighbor!
+# NoteInfo:content
+977||I might stop by soon, but only while you’re sleeping.¶You won’t even notice, I’m sure.¶Just a quick check-in, nothing too strange, I promise.¶¶Your caring neighbor
+# NoteInfo:title
+978||I miss you my dear neighbor!
+# StartSelection:selections[].title
+979||I shouldn't be here
+# NoteInfo:content
+980||I was going to invite you over for a tea party!¶¶A real one! With cups! And maybe even cookies!¶¶I brewed something special... picked the ingredients myself.¶But then... I tasted it.¶And it was… terrible.¶No, worse than terrible.¶It tasted like boiled rat and wet carpet!¶¶So, I changed my mind.¶¶I think you deserve better tea.¶¶Next time, maybe.¶¶Your greatest neighbor!
+# StartSelection:selections[].title
+981||I'm alone
+# NoteInfo:title
+982||I've been thinking, lately, my dear neighbor
+# LoadingScreen:hintList[].title
+983||Improve your skill
+# TextMeshProUGUI:m_text
+984||Income
+# Furniture:title
+985||Industrial Sign
+# TaskItemBlueprint:itemName
+986||Industrial Sign Blueprint
+# manufacturing:ManuName
+987||Industrial stove
+# InteractableTalk:title; WorkableResourceSource:title
+988||Ines Hietala
+# TaskObjective:description
+989||Ines Hietala said that there’s a church in the swamps and someone there might know how to contact the cultists. She told you that you can reach the swamp by passing through the Bazaar.
+# WaitingController:passoutEvents[].title
+990||Infect SMV
+# Furniture:title
+991||Inflatable Pool
+# TextMeshProUGUI:m_text
+992||Info
+# TextMeshProUGUI:m_text
+993||Info Details
+# TextMeshProUGUI:m_text
+994||Info Text
+# TextMeshProUGUI:m_text
+995||Info Title
+# DoorChangelevel:title
+996||Inn
+# TextMeshProUGUI:m_text
+997||Insufficient Text
+# DialogueSystemSceneEvents:dialogueEntrySceneEvents[].onExecute.m_PersistentCalls.m_Calls[].m_MethodName; InputUI:keyCode; InteractablePay:onPaid[].OnTrigger.m_P
+998||Interact
+# TextMeshProUGUI:m_text
+999||Interact¶
+# TextMeshProUGUI:m_text
+1000||Interactable Title
+# TextMeshProUGUI:m_text
+1001||Interest: 0.015
+# Changelevel:OtherLevel; DoorChangelevel:OtherLevel; DoorChangelevel:title; InterScenePathfindingGraph:graph[].SceneName
+1002||Interior Player Tenement
+# DoorChangelevel:title; Landmark:title; MarketShop:marketName
+1003||Internet Cafe
+# TextMeshProUGUI:m_text
+1004||Interview Question Placeholder?
+# TextMeshProUGUI:m_text; UIPageButtons:MenuPages[].Key
+1005||Inventory
+# LoadingScreen:hintList[].title
+1006||Invoices
+# NoteInfo:title
+1007||Is everything okay, my dear neighbor?
+# Furniture:title
+1008||Island Painting
+# TaskObjective:description
+1009||It is done! You should return to Ville Sköldgangster and claim your reward.
+# NoteInfo:content
+1010||It still breaks sometimes! ¶¶It started to move on its own yesterday and I have no idea why. I feel like it's cursed or something. ¶¶Maybe I'll use something else than mannequins! Also that hallway isn't even long enough. B2 was at least three times longer. ¶¶Maybe change door code to 4027?¶
+# LoadingScreen:hintList[].hintText
+1011||It's possible to win big money by gambling, but be careful, it's addictive!
+# TreatmentRadiation:StatusBad.description
+1012||It's really high.
+# LoadingScreen:hintList[].hintText
+1013||It's worth to get yourself familiarized with the locations inside the districts
+# TextMeshProUGUI:m_text
+1014||Item name
+# TextMeshProUGUI:m_text
+1015||Item name¶x5
+# TextMeshProUGUI:m_text
+1016||Item name here
+# TextMeshProUGUI:m_text
+1017||Item name here¶Item type
+# TextMeshProUGUI:m_text
+1018||Item type
+# DoorChangelevel:title; Landmark:title
+1019||J Kiosk
+# VendingMachine:sellableItems[].customTitle
+1020||J-Dog
+# VendingMachine:title
+1021||J-Kiosk
+# MarketShop:marketName
+1022||J-Kiosk Obenseuer Road
+# TextMeshPro:m_text
+1023||JANITOR SERVICES
+# Furniture:title
+1024||Jack O Turnip
+# TextMeshProUGUI:m_text
+1025||Jacket
+# TaskObjective:description
+1026||Jane is gone from her usual spot. You should find out where she went. She owes you money.
+# manufacturing:ManuName
+1027||Jaw Crusher
+# TextMeshProUGUI:m_text
+1028||Jaw Position
+# LoadingScreen:hintList[].title
+1029||Jaw crushers
+# LoadingScreen:hintList[].hintText
+1030||Jaw crushers process raw rocks into ore and grind gravel into sand
+# VendingMachine:title
+1031||Jeppe's Mycolab
+# Furniture:title
+1032||Jesus Painting
+# DoorChangelevel:title
+1033||Jewellery Shop
+# FurnitureShop:title
+1034||Jonasson's Shop
+# Achievements:achievements[].rewards[].rewardName; AnimalSpawner:owner.name; CollectibleCoin:owner.name; CollectibleItem:owner.name
+1035||Jooseppi Tuoppi
+# TaskObjective:description
+1036||Jooseppi Tuoppi agreed to write a recommendation if you beat him in a drinking competition.
+# Furniture:title
+1037||Jug
+# TextMeshProUGUI:m_text
+1038||Jump
+# TaskInfo:description
+1039||Jussi and the other Bazaar Council members want you to clean up the commercial space on the ground floor of your tenement.¶¶They gave you a Fungal Disease Treatment Unit card with the phone number 035426695. You can call it to have the fungal matter removed. The space needs to be cleaned before you can start renovating the shop.
+# TaskObjective:description
+1040||Jussi and the others demanded that you renovate your tenement before they will cooperate. Talk to Jussi after you have fulfilled their demands.
+# StartSelection:selections[].title
+1041||Just a cat
+# NoteInfo:title
+1042||Just a little reminder, my sleepy neighbor
+# TreatmentMentalHealth:StatusPassable.description
+1043||Just some mild mental health problems right now
+# TextMeshProUGUI:m_text
+1044||Just some mild mental health problems. A rare condition in a depressive place like Obenseuer. Sleep in a comfy bed, eat a fine meal and definitely not turnips.
+# InteractableTalk:title; Storage:itemSpawnCategory; TenementResident:otherResidents[].name; Trade:owner.name
+1045||Kalle Ketku
+# Landmark:id; Landmark:title
+1046||Karaoke
+# Furniture:title
+1047||Katana Stand
+# FurnitureCollectable:title
+1048||Katana Stand (5)
+# Landmark:title
+1049||Kauha's Claim
+# TaskItem:itemName
+1050||Kauha's claim building keys
+# Trade:title
+1051||Keke's Hoard
+# TaskObjective:description
+1052||Ken also gave you another option where his team would clear the path to under your tenementt if you pay them 10000 RM.
+# TaskObjective:description
+1053||Ken told you that he wants you to clear the tracks to the tenement tunnel before they agree to start reinforcing it. He mentioned that to reach the tenement tunnel, you will first have to go through Erikson's Claim and then report back to him once the task is done.
+# Furniture:title
+1054||Kettle
+# TextMeshProUGUI:m_text
+1055||Key bindings
+# TaskItem:itemName
+1056||Keys to small mines
+# DoorChangelevel:title; Landmark:title; VendingMachine:title
+1057||Kino
+# DoorChangelevel:title
+1058||Kino Exit
+# Furniture:title; InteractableRelay:title
+1059||Kitchen Cart
+# Furniture:title
+1060||Kitchen Drawer
+# Furniture:title
+1061||Kitchen Tools
+# TextMeshPro:m_text
+1062||Klockar
+# Furniture:skins[].title
+1063||Koda Painting
+# DoorChangelevel:title; Landmark:id; Landmark:title
+1064||Kolhola
+# Furniture:skins[].title
+1065||Kortemäki Painting
+# Furniture:skins[].title
+1066||Kouvola Painting
+# ConversationTrigger:conversation; Usable:m_overrideName
+1067||Krista Annina
+# Character:LastName; DoorChangelevel:title
+1068||Kurahaara
+# Landmark:title
+1069||Kurahaara Brothers
+# Character:LastName; DoorChangelevel:title
+1070||Kurju
+# TextMeshPro:m_text
+1071||Kyntiö
+# TextMeshProUGUI:m_text
+1072||L)BUILDING MENU
+# TextMeshPro:m_text
+1073||LEVEL -45
+# TextMeshPro:m_text
+1074||LEVEL -5
+# TextMeshPro:m_text
+1075||LEVEL 0
+# TextMeshProUGUI:m_text
+1076||LIGHTS
+# TextMeshPro:m_text
+1077||LIQUEURS & SPIRITS
+# TextMeshProUGUI:m_text
+1078||LMB)REMOVE OBJECT
+# TextMeshProUGUI:m_text
+1079||LMB)USE SLOT   Q/E)CHANGE SLOT   RMB)HOLD AND MOVE TO ROTATE  X)ROTATION MODE:90°   Tab)EXIT
+# TextMeshProUGUI:m_text
+1080||LOAD
+# TextMeshProUGUI:m_text
+1081||LOADING
+# TextMeshProUGUI:m_text
+1082||LVL 10
+# Furniture:title
+1083||Lab Table
+# TextMeshProUGUI:m_text
+1084||Language
+# Furniture:title; InteractableComputer:title; Soundscape:loopSounds[].title
+1085||Laptop
+# Furniture:title; FurnitureCollectable:title
+1086||Large Birch Shelf
+# Furniture:title; FurnitureCollectable:title
+1087||Large Blue Vase
+# Furniture:title
+1088||Large Cat Cage
+# TaskItemBlueprint:itemName
+1089||Large Cat Cage Blueprint
+# Furniture:title
+1090||Large Chicken Coop
+# TaskItemBlueprint:itemName
+1091||Large Chicken Coop Blueprint
+# Furniture:title
+1092||Large Coffee Table
+# Furniture:title
+1093||Large Dressing Room Bench
+# TaskItemBlueprint:itemName
+1094||Large Dressing Room Bench Blueprint
+# Furniture:title
+1095||Large Flowerpot
+# Furniture:title
+1096||Large Flowerpot With Support
+# TaskItemBlueprint:itemName
+1097||Large Flowerpot With Support Blueprint
+# Furniture:title
+1098||Large Metal Shelf 
+# Furniture:title
+1099||Large Old Folder
+# FurnitureCollectable:title
+1100||Large Old Folder (5)
+# Furniture:title
+1101||Large Old Folder Pile
+# FurnitureCollectable:title
+1102||Large Old Folder Pile (5)
+# Furniture:title
+1103||Large Plank Shelf 
+# TaskItemBlueprint:itemName
+1104||Large Plank Shelf Blueprint
+# Furniture:title
+1105||Large Plastic Table
+# Furniture:title
+1106||Large Rat Cage
+# TaskItemBlueprint:itemName
+1107||Large Rat Cage Blueprint
+# TaskItemBlueprint:itemName
+1108||Large White Coffee Table
+# Furniture:title
+1109||Large Wooden Chest
+# Furniture:title
+1110||Large Wooden Cupboard
+# TaskItemBlueprint:itemName
+1111||Large Wooden Cupboard Blueprint
+# Furniture:title
+1112||Large Wooden Table
+# TaskItemBlueprint:itemName
+1113||Large Wooden Table With Curtains Blueprint
+# Furniture:title
+1114||Large Wooden Table with Curtains
+# Furniture:title
+1115||Large Wooden Wine Rack
+# Growing:ManuName
+1116||Large cage
+# Growing:ManuName
+1117||Large cat cage
+# Storage:title
+1118||Large chest
+# Growing:ManuName
+1119||Large chicken coop
+# TextMeshProUGUI:m_text
+1120||Last Name
+# TextMeshPro:m_text
+1121||Last Nämä Here
+# TextMeshProUGUI:m_text
+1122||Last name...
+# manufacturing:ManuName
+1123||Lathe
+# Furniture:title
+1124||Lattemaster Coffeemaker
+# TaskObjective:title
+1125||Launch the drone
+# Landmark:id; Landmark:title
+1126||Laundromat
+# NoteInfo:title
+1127||Lawyer Contact
+# InteractableChair:m_useMessage
+1128||Lay down
+# Furniture:title
+1129||Leather Scrap Rug
+# TaskItemBlueprint:itemName
+1130||Leather Scrap Rug Blueprint
+# Furniture:title
+1131||Left Exit Sign
+# NoteInfo:content
+1132||Legal Help:¶030 112 112
+# DifficultyController:difficulties[].description
+1133||Less grinding and faster progression.¶Needs like hunger and thirst grow slower.¶Daily and higher rent income.
+# TaskObjective:title
+1134||Let Seamus handle the casino owner
+# TaskItem:itemName
+1135||Letter to Emilie Palmer
+# Usable:m_overrideName
+1136||Lever
+# Furniture:title
+1137||License Plate
+# Furniture:skins[].title
+1138||Light Green Plastic Chair
+# TextMeshProUGUI:m_text
+1139||Lip Thickness
+# TreatmentPhysicalHealth:StatusBleedingLittle.title
+1140||Little bleeding
+# TextMeshPro:m_text
+1141||Living Room
+# TextMeshProUGUI:m_text
+1142||Load
+# TextMeshProUGUI:m_text
+1143||Load Texture
+# TextMeshProUGUI:m_text
+1144||Loading
+# TextMeshProUGUI:m_text
+1145||Loading...
+# Landmark:title
+1146||Loan Office
+# TextMeshProUGUI:m_text
+1147||Locked Reason
+# LoadingScreen:hintList[].title
+1148||Lockpicked doors
+# Storage:title
+1149||Log storage
+# TextMeshProUGUI:m_text
+1150||Loiste Interactive is:¶¶¶Place Holder¶Place Holder¶Place Holder¶Place Holder¶Place Holder¶Place Holder¶Place Holder¶¶¶Thanks to the following contributors for participating in the development of this game:¶¶¶Place Holder¶Place Holder¶Place Holder¶Place Holder¶Place Holder¶Place Holder
+# TaskObjective:title
+1151||Look at the well
+# Furniture:title; manufacturing:ManuName
+1152||Loom
+# TaskItemBlueprint:itemName
+1153||Loom Blueprint
+# NoteInfo:content
+1154||Lund's Communal workhsop. 15Rm to Enter.
+# TextMeshPro:m_text
+1155||MANAGEMENT
+# TextMeshProUGUI:m_text
+1156||MAP NOT AVAILABLE
+# TextMeshProUGUI:m_text
+1157||MAX
+# TextMeshPro:m_text
+1158||MEN
+# TextMeshProUGUI:m_text
+1159||MIKE STALHUT¶EMILIE GARN¶JIM MANSION
+# TextMeshPro:m_text
+1160||MON-FRI¶8-16
+# TextMeshProUGUI:m_text
+1161||MOVE
+# InteractableWait:title
+1162||Maahis Mättö II
+# InteractableRelay:title; Soundscape:loopSounds[].title; manufacturing:UseMessage
+1163||Machine
+# LoadingScreen:hintList[].title
+1164||Machine: Quality
+# Furniture:title
+1165||Magazine: House
+# Furniture:title
+1166||Magazine: IC
+# Furniture:title
+1167||Magazine: Open Sewer
+# Furniture:title
+1168||Magazine: Osmo Olut
+# Furniture:title
+1169||Magazine: Stalburg Trains
+# Furniture:title
+1170||Magazine: Stalburg Women
+# Furniture:title
+1171||Magazine: The Doctor
+# TaskObjective:description
+1172||Mailanen figured out a way to put the casino entirely in his name. He asked you to go to the casino after him to get your reward.
+# Furniture:title
+1173||Mailbox Blue
+# Furniture:title
+1174||Mailbox Grey
+# Furniture:title
+1175||Mailbox Red
+# DoorChangelevel:title; FakeDoor:title
+1176||Maintenance Tunnel
+# DoorChangelevel:title
+1177||Maintenance Tunnels
+# TextMeshPro:m_text
+1178||Maisema
+# TaskItemBlueprint:itemName
+1179||Makeshift Barrel Faucet Blueprint
+# Furniture:title
+1180||Makeshift Barrel Sink
+# TaskItemBlueprint:itemName
+1181||Makeshift Barrel Sink Blueprint
+# Furniture:title; TaskItemBlueprint:itemName
+1182||Makeshift Chemical Reactor
+# DoorChangelevel:title
+1183||Makeshift House
+# Furniture:title
+1184||Makeshift IBC Sink
+# TaskItemBlueprint:itemName
+1185||Makeshift IBC Sink Blueprint
+# Furniture:title
+1186||Makeshift Shower
+# TaskItemBlueprint:itemName
+1187||Makeshift Shower Blueprint
+# Furniture:title
+1188||Makeshift Toilet
+# Toilet:title
+1189||Makeshift toilet
+# DoorChangelevel:title
+1190||Mall
+# DoorChangelevel:title; Landmark:title
+1191||Mallment
+# Landmark:title
+1192||Mallment Barber
+# TaskInfo:description
+1193||Malone Petronis wants you to go find the body of his friend named Seamus Liepa. Malone believes that his body is somewhere in Obenseuer's old mine.¶¶He said that there should be access to the mines in basement of Deekula building, but someone may live in the basement which can be problematic.
+# TaskObjective:description
+1194||Malone will write you a recommendation if you just bring him a pack of Norts.
+# Furniture:title
+1195||Malone's Plastic Chair
+# TaskItemBlueprint:itemName
+1196||Malter Blueprint
+# DoorChangelevel:title
+1197||Management
+# DoorChangelevel:title
+1198||Manhole
+# TextMeshProUGUI:m_text
+1199||Manufacturing¶increased to¶level 10!
+# LoadingScreen:hintList[].hintText
+1200||Many of the apartment doors can be lockpicked
+# LoadingScreen:hintList[].hintText
+1201||Many recipes have a mushroom version
+# TextMeshProUGUI:m_text; UIPageButtons:MenuPages[].Key
+1202||Map
+# Furniture:skins[].title
+1203||Maria Painting
+# ConversationTrigger:conversation; Usable:m_overrideName
+1204||Marjukka Sieni
+# Landmark:title
+1205||Market Hall
+# TextMeshProUGUI:m_text
+1206||Markku Siltanen
+# Achievements:achievements[].rewards[].rewardName
+1207||Masher's Guild
+# Furniture:title
+1208||Mashers Guild Flag
+# Furniture:title
+1209||Mashing Barrel
+# FurnitureCollectable:title
+1210||Mashing Barrel (10)
+# FurnitureCollectable:title
+1211||Mashing Barrel (5)
+# TaskItemBlueprint:itemName
+1212||Mashing Barrel Blueprint
+# Furniture:title
+1213||Mashing Kettle
+# TaskItemBlueprint:itemName
+1214||Mashing Kettle Blueprint
+# manufacturingProcess:ManuName; manufacturingProcess:title
+1215||Mashing tun
+# TextMeshProUGUI:m_text
+1216||Master
+# Usable:m_overrideName
+1217||Matress
+# Furniture:title; Sleep:title; Usable:m_overrideName
+1218||Mattress
+# TrainShop:title
+1219||Maunu's Trains and Wagons
+# TaskObjective:description
+1220||Max agreed to write a recommendation, but he had great difficulty producing legible text. He will call Arvo once you bring him his phone.
+# TaskItem:itemName
+1221||Max's Mobile Phone
+# TaskObjective:description
+1222||Maybe you should steal the Socca Junior bottle they're planning to give to their boss.
+# Furniture:title
+1223||Meadow Girls
+# Furniture:title; manufacturing:ManuName
+1224||Meat Grinder
+# Usable:m_overrideName; manufacturing:ManuName
+1225||Meat grinder
+# InteractableItemGiver:title
+1226||Meatballs with smashed potatoes
+# Landmark:title
+1227||Meatshop
+# CollectibleRecipes:title
+1228||Mechanical Watch
+# TreatmentMentalHealth:StatusMediocre.title; TreatmentMentalHealth:TargetMediocre.title
+1229||Mediocre
+# Furniture:title
+1230||Medium Cat Cage
+# TaskItemBlueprint:itemName
+1231||Medium Cat Cage Blueprint
+# Furniture:title
+1232||Medium Custom Picture
+# Furniture:title
+1233||Medium Moonshine Distillery
+# FurnitureCollectable:title
+1234||Medium Moonshine Distillery (5)
+# TaskItemBlueprint:itemName
+1235||Medium Moonshine Distillery Blueprint
+# Furniture:title
+1236||Medium Rat Cage
+# TaskItemBlueprint:itemName
+1237||Medium Rat Cage Blueprint
+# TaskItemBlueprint:itemName
+1238||Medium White Coffee Table
+# Furniture:title
+1239||Medium Wooden Wine Rack
+# Growing:ManuName
+1240||Medium cage
+# Growing:ManuName
+1241||Medium cat cage
+# TaskObjective:title
+1242||Meet the casino owner
+# Furniture:title
+1243||Meeting Chair
+# DoorChangelevel:title
+1244||Meeting Room
+# TextMeshPro:m_text
+1245||Meeting Room 1
+# TextMeshPro:m_text
+1246||Meeting Room 2
+# TextMeshPro:m_text
+1247||Mehmula
+# Furniture:title; Lantern:title
+1248||Memorial Candle
+# PlayerStatUI:statName; TextMeshProUGUI:m_text; TreatmentMentalHealth:title
+1249||Mental health
+# DoorChangelevel:title; Landmark:title
+1250||Mentti A
+# DoorChangelevel:title; Landmark:title
+1251||Mentti B
+# TextMeshProUGUI:m_text
+1252||Menu Left
+# TextMeshProUGUI:m_text
+1253||Menu Right
+# Furniture:title
+1254||Mesh Wall
+# TaskItemBlueprint:itemName
+1255||Mesh Wall Blueprint
+# Text:m_Text
+1256||Message text¶
+# LiquidStorage:title
+1257||Metal Barrel
+# Furniture:title
+1258||Metal Bucket
+# Furniture:title
+1259||Metal Chain
+# TaskItemBlueprint:itemName
+1260||Metal Chain Blueprint
+# Furniture:title
+1261||Metal Crate
+# Furniture:title
+1262||Metal Desk
+# Furniture:title
+1263||Metal Locker
+# TaskItemBlueprint:itemName
+1264||Metal Locker Blueprint
+# DoorChangelevel:title; Landmark:title
+1265||Metal Shop
+# Furniture:title
+1266||Metal Stool
+# Furniture:title
+1267||Metal Stove
+# Furniture:title
+1268||Metal Table
+# Furniture:title
+1269||Metal Table With White Tablecloth
+# TaskItemBlueprint:itemName
+1270||Metal Table With White Tablecloth Blueprint
+# VendingMachine:sellableItems[].customTitle
+1271||Metal Trash
+# Generator:ManuName
+1272||Metalstove
+# Furniture:title
+1273||Metalworking Lathe
+# manufacturing:ManuName
+1274||Metalworking Workbench
+# DoorChangelevel:title
+1275||Metro
+# TaskItem:itemName
+1276||Metro Backroom Key
+# Furniture:skins[].title
+1277||Metro Guy Painting
+# InteractableFastTravel:title
+1278||Metro Line Map
+# DoorChangelevel:title
+1279||Metro Security Room
+# Furniture:title
+1280||Microscope
+# FurnitureCollectable:title
+1281||Microscope (5)
+# Furniture:title
+1282||Microwave
+# manufacturing:ManuName; manufacturing:title
+1283||Microwave oven
+# TextMeshProUGUI:m_text
+1284||Migrating Globals: 0
+# InteractableTalk:title; Storage:StorageOwner.name; Storage:itemSpawnCategory; Trade:owner.name
+1285||Mikael Arnaldur
+# TaskObjective:description
+1286||Mikael burned the last two copies, but there are still some loose pages left in his hut.
+# TaskInfo:description
+1287||Mike in the Bergmann Tunnels told you about a book called Tunnel of Water Trees. He said you should ask about it at the Bazaar Bookstore.
+# TaskInfo:description
+1288||Mikkel wants the rare Osmo Olut minitrain miniature before he’ll do anything about the speed cameras. He doesn’t know where to find one, but an Osmo Olut collector might.
+# TaskInfo:title
+1289||Mikkel’s Minitrain Madness
+# manufacturing:UseMessage
+1290||Mill
+# MarketShop:marketName
+1291||Mine Market
+# DoorChangelevel:title
+1292||Mine Office
+# TaskItem:itemName
+1293||Miner Registration
+# DoorChangelevel:title
+1294||Mines
+# DoorChangelevel:title
+1295||Mines Market
+# TaskItem:itemName
+1296||Mineshaft Pass
+# Furniture:title
+1297||Mini Generator
+# TaskItem:itemName
+1298||Mining Permit
+# InteractableChair:title; InteractableRelay:title; Train:title
+1299||Minitrain
+# Furniture:title
+1300||Modern Chair
+# FurnitureCollectable:title
+1301||Modern Chair (5)
+# Furniture:title
+1302||Modern Refrigerator
+# FurnitureCollectable:title
+1303||Modular Shelf (5)
+# FurnitureCollectable:title
+1304||Modular Shelf Rec (5)
+# Furniture:title
+1305||Money Double Bed
+# InteractableRelay:title; Landmark:title
+1306||Money Exchange
+# Furniture:title
+1307||Money Painting
+# DoorChangelevel:title
+1308||Monitoring Room
+# Furniture:skins[].title
+1309||Monstera Cats Painting
+# Furniture:skins[].title
+1310||Monstera Painting
+# Furniture:skins[].title
+1311||Moon Painting
+# TaskItem:itemName
+1312||Moonshine Co-Op Membership Card
+# Furniture:title
+1313||Moonshine Distillery
+# TaskItemBlueprint:itemName
+1314||Moonshine Distillery Blueprint
+# TextMeshProUGUI:m_text
+1315||Moonshine Placeholder
+# Usable:m_overrideName
+1316||Moonshine distillery
+# Landmark:title
+1317||Moonshining Cooperative
+# Furniture:title
+1318||Moonshining Diploma
+# Character:LastName; TextMeshPro:m_text
+1319||Morton
+# Storage:itemSpawnCategory; Storage:title
+1320||Mortuary
+# Furniture:title
+1321||Mountain Forest Painting
+# Furniture:title
+1322||Mountains Painting
+# Furniture:title
+1323||Mousepad
+# TextMeshProUGUI:m_text
+1324||Move¶
+# TextMeshProUGUI:m_text
+1325||Move (Item)
+# TextMeshProUGUI:m_text
+1326||Move Left
+# TextMeshProUGUI:m_text
+1327||Move Right
+# TextMeshProUGUI:m_text
+1328||Move some items above to start growing
+# TextMeshProUGUI:m_text
+1329||Movement
+# DoorChangelevel:title
+1330||Mr. Duck's Home
+# TaskItem:itemName
+1331||Mr. Duck's upstairs keys
+# Train:title
+1332||Mucker
+# TreatmentAddictions:StatusMultipleAddictions.title
+1333||Multiple addictions
+# DoorChangelevel:title; Landmark:title
+1334||Murju A
+# DoorChangelevel:title; Landmark:title
+1335||Murju B
+# Growing:ManuName
+1336||Mushroom Farm
+# Furniture:title
+1337||Mushroom Growing Cabinet
+# Furniture:title
+1338||Mushroom Growing Rack
+# TaskItemBlueprint:itemName
+1339||Mushroom Growing Rack Blueprint
+# Furniture:title
+1340||Mushroom Lantern
+# TaskItemBlueprint:itemName
+1341||Mushroom Lantern Blueprint
+# VendingMachine:sellableItems[].customTitle
+1342||Mushroom Tea
+# StartSelection:selections[].title
+1343||Mushroom addict
+# TreatmentAddictions:StatusShroomAddiction.title
+1344||Mushroom addiction
+# PlayerStatUI:statName
+1345||Mushroom need
+# grow:title
+1346||Mussels
+# Furniture:skins[].title
+1347||Mustache Man Painting
+# Character:LastName; TextMeshPro:m_text
+1348||Mustaruoho
+# NoteInfo:content
+1349||My diving suit grew heavier with every passing second, the abyssal pressure threatening to crush me in the pitch black.¶¶Suddenly, a single, blinding flash seared my eyes.¶¶When my vision cleared, I found myself adrift inside a submerged concrete tunnel. The walls of the tunnel were covered in a brown, slimy matter that looked like it was leaking from cracks in the concrete ceiling. Sprouting from the muck on the floor were pulsing red anomalies.¶¶They were like red, luminous trees under the water...
+# NoteInfo:title
+1350||My sweetest neighbor
+# FurnitureShop:title; Landmark:title
+1351||Möbelmann Furnitures
+# Landmark:title
+1352||N-O Company
+# TextMeshProUGUI:m_text
+1353||NEW
+# TextMeshProUGUI:m_text
+1354||NEXT
+# Furniture:title
+1355||Napkin Dispenser
+# TextMeshProUGUI:m_text
+1356||Navigation
+# TextMeshProUGUI:m_text
+1357||Neck Lenght
+# StartSelection:selections[].title
+1358||Never, I feel healthy
+# TaskInfo:title
+1359||New Business
+# TextMeshProUGUI:m_text
+1360||New Game
+# TextMeshProUGUI:m_text
+1361||Next
+# Furniture:title
+1362||Night Stand
+# Storage:title
+1363||Night stand
+# WaitingController:passoutEvents[].title
+1364||Nightmare
+# TextMeshProUGUI:m_text
+1365||No characters saved
+# StartSelection:selections[].title
+1366||No one
+# TreatmentRadiation:StatusOkay.description
+1367||No reason to worry!
+# DoorChangelevel:title
+1368||Noodle Shop
+# TextMeshProUGUI:m_text
+1369||Nose Root
+# TextMeshProUGUI:m_text
+1370||Nose Tip
+# TextMeshProUGUI:m_text
+1371||Nose Width
+# TextMeshProUGUI:m_text
+1372||Not Visible
+# NoteInfo:content
+1373||Not everyone is as nice as they seem.¶People wear masks. You can’t trust them all.¶¶But you can always trust me, neighbor.¶I’m always here for you. Always.¶¶Your loyal neighbor
+# Achievements:achievements[].rewards[].rewardName
+1374||Not-homemade-explosive
+# TextMeshProUGUI:m_text
+1375||Note title here Note title here Note title here Note title here Note title here Note title here Note title here
+# TextMeshProUGUI:m_text; UIPageButtons:MenuPages[].Key
+1376||Notes
+# StartSelection:selections[].id; StartSelection:selections[].title
+1377||Nothing
+# NoteInfo:content
+1378||Notice Miners!¶¶- A valid mining permit is required for dropping off ore.¶¶- If you don't have a mining permit, speak to Reijo at the office building.¶¶- Receipts can be cashed at the office building.
+# NoteInfo:content
+1379||Notice!¶¶1: Call Buttons ¶2: Engine¶3: Controls¶4: Lights¶¶P.S. If you need help you can find me on the top floor.
+# NoteInfo:content
+1380||Notice!¶¶This door is wired to radiation measurement devices.¶The door cannot be opened if radiation exceeds 50 millisieverts per hour.¶The radiation measurement devices must be powered for the door to function properly. Ensure they are operational before attempting access.
+# NoteInfo:title
+1381||Nuclear Fuel Wagon
+# NoteInfo:content
+1382||Nuclear Fuel Wagon – Overview¶¶A nuclear fuel wagon is designed to safely transport nuclear fuel, featuring multiple layers of shielding to prevent radiation exposure. It is equipped with a heavy-duty, radiation-shielded container, typically made of steel and lead, to block radiation.¶¶These wagons are essential for transporting fuel between nuclear power plants, reprocessing facilities, and storage sites. Proper handling and monitoring ensure minimal risk to workers, the public, and the environment.
+# DoorChangelevel:title; FurnitureShop:title; Landmark:title; MarketShop:marketName
+1383||O-Iron
+# DoorChangelevel:title; Landmark:title; LoadingScreen:hintList[].title
+1384||O-Market
+# MarketShop:marketName
+1385||O-Market Trade Road
+# LoadingScreen:hintList[].hintText
+1386||O-Market has many useful items and utility, such as flashlights and can openers
+# TextMeshProUGUI:m_text
+1387||OC
+# TextMeshProUGUI:m_text
+1388||OC Available
+# TextMeshPro:m_text
+1389||OFFICE
+# TextMeshProUGUI:m_text
+1390||OK
+# TextMeshProUGUI:m_text
+1391||OPEN
+# TextMeshProUGUI:m_text
+1392||OPEN SEWER
+# DoorChangelevel:title; Landmark:title
+1393||OS Clothing
+# DoorChangelevel:title; FurnitureShop:title; Storage:itemSpawnCategory; Storage:title
+1394||OS Mining Services
+# TextMeshPro:m_text
+1395||OS Telemarket
+# TextMeshPro:m_text
+1396||OS Telemarketing Company
+# Furniture:title; LiquidStorage:title
+1397||Oak Barrel
+# TaskItemBlueprint:itemName
+1398||Oak Barrel Blueprint
+# LiquidStorage:title
+1399||Oak Barrel with a Tap
+# DoorChangelevel:OtherLevel; DoorChangelevel:title
+1400||Obenseuer
+# TextMeshProUGUI:m_text
+1401||Obenseuer ROAD 2¶Stalburg¶05500
+# VendingMachine:title
+1402||Obenseuer Recycling
+# LoadingScreen:hintList[].hintText
+1403||Obenseuer is home to many weird people
+# DoorChangelevel:title
+1404||Obenseuer mines
+# TaskItem:itemName
+1405||Obenseuer mines keys
+# TextMeshProUGUI:m_text
+1406||Object name
+# TextMeshProUGUI:m_text
+1407||Objective title
+# TextMeshProUGUI:m_text
+1408||Objectives
+# TaskObjective:title
+1409||Obtain Mining Permit
+# TaskObjective:title
+1410||Obtain energy classification certificate
+# TaskObjective:title
+1411||Obtain gross pizzas from slum pizza hatch
+# TaskObjective:title
+1412||Obtain ownership records from property register
+# DoorChangelevel:title; TextMeshPro:m_text
+1413||Office
+# Furniture:title
+1414||Office Armchair
+# Furniture:title
+1415||Office Chair
+# Furniture:title
+1416||Office Partition
+# InteractableChair:title
+1417||Office chair
+# TextMeshPro:m_text
+1418||Offices, Meeting Room 2
+# Furniture:title; FurnitureCollectable:title
+1419||Oil Lamp
+# Furniture:title
+1420||Old Bathtub
+# Furniture:title
+1421||Old Bathtub With Soil
+# TaskItemBlueprint:itemName
+1422||Old Bathtub With Soil Blueprint
+# Furniture:title
+1423||Old Bathtub With Soil and Support
+# TaskItemBlueprint:itemName
+1424||Old Bathtub With Soil and Support Blueprint
+# Furniture:title
+1425||Old Coffeemaker
+# Furniture:title
+1426||Old Computer
+# Furniture:title
+1427||Old Computer 2
+# Furniture:title
+1428||Old Computer Keyboard
+# Furniture:title
+1429||Old Computer Monitor
+# Furniture:title
+1430||Old Computer Mouse
+# Furniture:title
+1431||Old Cottage Table
+# Furniture:title
+1432||Old Folder Piles
+# FurnitureCollectable:title
+1433||Old Folder Piles (5)
+# Furniture:title
+1434||Old Microwave
+# Furniture:title
+1435||Old Poster: Interne.ts
+# Furniture:title
+1436||Old Projector
+# Furniture:title
+1437||Old Rug
+# Furniture:title
+1438||Old Sofa
+# Furniture:title
+1439||Old Stove
+# Furniture:title
+1440||Old Suitcase
+# Furniture:title
+1441||Old Telephone
+# Furniture:title
+1442||Old Television
+# InteractableTalk:title; TelevisionNoise:title
+1443||Old computer
+# LoadingScreen:hintList[].hintText
+1444||Once lockpicked locks will eventually get replaced by new ones, usually more difficult to pick
+# DoorChangelevel:title; Landmark:title
+1445||One Stop Shop
+# TaskObjective:description
+1446||One of Heikki's ideas was sending your neighbor or someone after him. Maybe the Crazy Neighbor could help.
+# Furniture:skins[].title
+1447||Onions Painting
+# Landmark:title
+1448||Open Homes Company
+# TextMeshProUGUI:m_text
+1449||Open Menu
+# DoorChangelevel:title
+1450||Open Sewer
+# DoorChangelevel:OtherLevel; DoorChangelevel:title; InterScenePathfindingGraph:graph[].SceneName; InterScenePathfindingGraph:graph[].connections[].otherScene
+1451||Open Sewer Tenement
+# Furniture:title
+1452||Open Toolbox
+# TextMeshProUGUI:m_text
+1453||Open bank account
+# TaskObjective:title
+1454||Open the radioactive repository gate
+# TextMeshProUGUI:m_text
+1455||Operations
+# Furniture:title
+1456||Orange Forest Painting
+# Furniture:title; FurnitureCollectable:title
+1457||Orange Lava Lamp
+# Furniture:title
+1458||Orange Mushroom Lamp
+# Furniture:title; TaskItemBlueprint:itemName
+1459||Orange Mushroom Lantern
+# Furniture:skins[].title
+1460||Orange Plastic Chair
+# Furniture:title
+1461||Orange Shroomekko Wall Cloth
+# Landmark:title
+1462||Ore Drop Off
+# DoorChangelevel:title
+1463||Ore Refinery
+# NoteInfo:title
+1464||Ore drop-off note
+# Furniture:title
+1465||Osmo Girl
+# FurnitureCollectable:title
+1466||Osmo Girl Painting
+# Achievements:achievements[].rewards[].rewardName; Furniture:skins[].id
+1467||Osmo Olut
+# TextMeshProUGUI:m_text
+1468||Osmo Olut¶(Very High)
+# LiquidStorage:title
+1469||Osmo Olut Barrel
+# Furniture:title
+1470||Osmo Olut Flag
+# InteractableWait:title
+1471||Osmo Olut Magazine
+# Usable:m_overrideName
+1472||Outhouse
+# Soundscape:loopSounds[].title; Usable:m_overrideName; manufacturing:ManuName; manufacturing:title
+1473||Oven
+# TextMeshProUGUI:m_text
+1474||Overview
+# TextMeshPro:m_text
+1475||PASSPORT INSPECTION
+# Furniture:title; Soundscape:loopSounds[].title
+1476||PC
+# TextMeshProUGUI:m_text
+1477||PLAY (SPACE)
+# Furniture:title
+1478||Pallet
+# FurnitureCollectable:title
+1479||Pallet (5)
+# TextMeshProUGUI:m_text
+1480||Pallet Tank¶
+# Furniture:title
+1481||Pan
+# Text:m_Text
+1482||Panel Title
+# TextMeshProUGUI:m_text
+1483||Pants
+# Furniture:title
+1484||Paper Stack
+# Furniture:title
+1485||Paper Towel Holder
+# InteractableChair:title
+1486||Pappa-Tunturi Moped
+# Furniture:title
+1487||Park Table
+# TextMeshPro:m_text
+1488||Pasila
+# TaskObjective:title
+1489||Pass the Final Exam
+# Character:LastName; TextMeshPro:m_text
+1490||Passmore
+# Storage:title
+1491||Passmore's Contrabands
+# DoorChangelevel:title
+1492||Passport Control
+# TextMeshProUGUI:m_text
+1493||Pause Menu
+# DoorChangelevel:title; Landmark:title
+1494||Pawn Shop
+# TaskObjective:title
+1495||Pay Ken to have his team clear the tunnel
+# TaskObjective:title
+1496||Pay membership fee of 1300RM to Arvo
+# InteractablePay:title
+1497||Payphone
+# grow:title
+1498||Pea Plant
+# Storage:m_useMessage
+1499||Peek
+# Furniture:title
+1500||Pen Holder
+# Furniture:title
+1501||Pencil
+# Bank:BankName; Character:Name; ConversationTrigger:conversation; InteractableRelay:title
+1502||Penni-Pena
+# CollectibleItem:owner.name; InteractableRelay:requiredItems[].owner.name; LiquidStorage:StorageOwner.name; Logic_Thief:owner.name
+1503||Pentti Penttilä
+# TaskObjective:description
+1504||Pentti agreed to write a recommendation once you deliver enough mash to him, worth about 1000 RM.
+# LoadingScreen:hintList[].title
+1505||People tend to provide helpful tips
+# LoadingScreen:hintList[].hintText
+1506||People tend to provide helpful tips and directions, so don't ignore them!
+# LoadingScreen:hintList[].hintText
+1507||Performing specific crafts will improve your skill in it
+# Furniture:title; FurnitureCollectable:title
+1508||Persian Rug
+# LoadingScreen:hintList[].title
+1509||Personal storage
+# Furniture:title; Storage:title
+1510||Pet Carrier
+# Landmark:id; Landmark:title
+1511||Pharmacy
+# Landmark:title
+1512||Phone Booth
+# TreatmentPhysicalHealth:title
+1513||Physical health
+# Furniture:title
+1514||Pia's Head Lantern
+# TaskItemMail:itemName
+1515||Pia's Letter
+# TaskItem:itemName
+1516||Pia's keys
+# Furniture:title
+1517||Picture of Motorcycle Gang Member
+# TaskItem:itemName
+1518||Picture of Pia
+# Mailbox:title
+1519||Pile of Mail
+# FurnitureGroup:title
+1520||Pillow
+# Furniture:skins[].title
+1521||Pink Plastic Chair
+# Furniture:title
+1522||Pink Rug
+# InteractableItemRemover:title
+1523||Pizza Boxes
+# TextMeshProUGUI:m_text
+1524||Place holder text
+# TextMeshProUGUI:m_text
+1525||Place name Place name Place namePlace name
+# TextMeshProUGUI:m_text
+1526||Place/Take
+# TextMeshProUGUI:m_text
+1527||Placeholder item info text here. Some placeholder info about this item. More Placeholder info about this item. Placeholder item info text here. Some placeholder info about this item. More Placeholder info about this item.
+# TextMeshProUGUI:m_text
+1528||Placeholder item name¶x5
+# TextMeshProUGUI:m_text
+1529||Placeholder text
+# TextMeshProUGUI:m_text
+1530||Placeholder text Placeholder text Placeholder text
+# Furniture:title
+1531||Plank Armchair
+# TaskItemBlueprint:itemName
+1532||Plank Armchair Blueprint
+# Furniture:title
+1533||Plank Bed
+# TaskItemBlueprint:itemName
+1534||Plank Bed Blueprint
+# Furniture:title
+1535||Plank Ceiling Light
+# TaskItemBlueprint:itemName
+1536||Plank Ceiling Light Blueprint
+# Furniture:title
+1537||Plank Chair
+# TaskItemBlueprint:itemName
+1538||Plank Chair Blueprint
+# Furniture:title
+1539||Plank Side Table
+# TaskItemBlueprint:itemName
+1540||Plank Side Table Blueprint
+# Furniture:title
+1541||Plank Stool
+# TaskItemBlueprint:itemName
+1542||Plank Stool Blueprint
+# Furniture:title
+1543||Plank Table
+# TaskItemBlueprint:itemName
+1544||Plank Table Blueprint
+# LoadingScreen:hintList[].title
+1545||Plants: Age die
+# InteractableItemGiver:title
+1546||Plastic Bags
+# LiquidStorage:title
+1547||Plastic Barrel
+# Furniture:title
+1548||Plastic Barrel Shower
+# Storage:StorageSettings; Storage:itemSpawnCategory; Storage:title
+1549||Plastic Box
+# LiquidStorage:title
+1550||Plastic Canisters
+# Furniture:title
+1551||Plastic Chair
+# Furniture:title
+1552||Plastic Storage Crate
+# InteractableItemGiver:title
+1553||Plastic cup dispenser
+# TaskObjective:title
+1554||Play Shittypants with Welhö
+# TextMeshProUGUI:m_text
+1555||Playtime: ¶Money collected: 
+# TextMeshProUGUI:m_text
+1556||Plumbing
+# Furniture:title
+1557||Plunger
+# Furniture:title
+1558||Plutonium Core
+# Furniture:title
+1559||Plywood Shelf
+# Door:title; Sleep:title
+1560||Pod
+# HotelRoom:roomName
+1561||Pod 1
+# HotelRoom:roomName
+1562||Pod 10
+# HotelRoom:roomName
+1563||Pod 11
+# HotelRoom:roomName
+1564||Pod 13
+# HotelRoom:roomName
+1565||Pod 14
+# HotelRoom:roomName
+1566||Pod 15
+# HotelRoom:roomName
+1567||Pod 16
+# HotelRoom:roomName
+1568||Pod 17
+# HotelRoom:roomName
+1569||Pod 18
+# HotelRoom:roomName
+1570||Pod 19
+# HotelRoom:roomName
+1571||Pod 2
+# HotelRoom:roomName
+1572||Pod 20
+# HotelRoom:roomName
+1573||Pod 21
+# HotelRoom:roomName
+1574||Pod 22
+# HotelRoom:roomName
+1575||Pod 23
+# HotelRoom:roomName
+1576||Pod 24
+# HotelRoom:roomName
+1577||Pod 3
+# HotelRoom:roomName
+1578||Pod 4
+# HotelRoom:roomName
+1579||Pod 5
+# HotelRoom:roomName
+1580||Pod 6
+# HotelRoom:roomName
+1581||Pod 8
+# HotelRoom:roomName
+1582||Pod 9
+# Character:Job; InteractableTalk:title; StartSelection:selections[].id; StartSelection:selections[].title
+1583||Police
+# Growing:ManuName
+1584||Pool
+# Furniture:title
+1585||Portable Ladder
+# Generator:ManuName
+1586||Portable generator
+# Landmark:title
+1587||Portapotty
+# TextMeshProUGUI:m_text
+1588||Post FX
+# Furniture:title
+1589||Poster: Eiffel Tower
+# Furniture:title
+1590||Poster: Maahis Mättö
+# Furniture:title
+1591||Poster: Motorbike
+# Furniture:title
+1592||Poster: Open Sewer
+# Furniture:title
+1593||Poster: Osmo Olut
+# Furniture:title
+1594||Poster: Periodic Table
+# Furniture:title
+1595||Poster: Stalburg Steel
+# Furniture:title
+1596||Poster: The Engineer
+# Furniture:title
+1597||Poster: They Poison Your Mind
+# Landmark:title
+1598||Potato Mine
+# Furniture:title
+1599||Potato Sack
+# TaskItemBlueprint:itemName
+1600||Potato Sack Blueprint
+# Storage:title
+1601||Potato sack
+# DoorChangelevel:title
+1602||Power Company
+# Furniture:title; manufacturing:ManuName
+1603||Power Hammer
+# TaskObjective:title
+1604||Present the fingers to Casper
+# TaskObjective:title
+1605||Present the recommendations to Arvo
+# TaskObjective:title
+1606||Present the registration to Tor
+# TextMeshProUGUI:m_text
+1607||Preset
+# TextMeshProUGUI:m_text
+1608||Press any key to continue
+# TextMeshProUGUI:m_text
+1609||Price: 100 OC
+# TextMeshProUGUI:m_text
+1610||Price: 200 OC
+# TextMeshProUGUI:m_text
+1611||Price: 20000 OC
+# TextMeshProUGUI:m_text
+1612||Primary Reload
+# TextMeshProUGUI:m_text
+1613||Primary Use
+# manufacturing:UseMessage
+1614||Print
+# Furniture:title; manufacturing:ManuName
+1615||Printer
+# CollectibleRecipe:title
+1616||Printing Plates
+# Furniture:title; TaskItemBlueprint:itemName
+1617||Printing Press
+# manufacturing:ManuName
+1618||Printing press
+# Character:Name; TextMeshPro:m_text
+1619||Private
+# Furniture:title
+1620||Private Property Sign
+# TaskItem:itemName
+1621||Probation Papers
+# TextMeshProUGUI:m_text
+1622||Progress
+# LoadingScreen:hintList[].hintText
+1623||Progressing fungal disease changes eating habits
+# TextMeshProUGUI:m_text
+1624||Project No¶2598
+# Furniture:title
+1625||Projector
+# Landmark:title
+1626||Public Toilets
+# Furniture:skins[].title
+1627||Puppy Painting
+# Furniture:title
+1628||Purple Sofa
+# TextMeshProUGUI:m_text
+1629||Quantity
+# Furniture:title
+1630||Quater Pallet
+# TextMeshProUGUI:m_text
+1631||Quest Items
+# TextMeshProUGUI:m_text
+1632||Quit
+# TextMeshProUGUI:m_text
+1633||Quit?
+# TextMeshProUGUI:m_text
+1634||R)DROP   F)TAKE ALL   Tab)EXIT
+# TextMeshProUGUI:m_text
+1635||REMOVE SLOT 1?
+# TextMeshProUGUI:m_text
+1636||REVISION¶D
+# TextMeshProUGUI:m_text
+1637||RM
+# TextMeshProUGUI:m_text
+1638||RM Available
+# TextMeshProUGUI:m_text
+1639||RMB) Use
+# TreatmentRadiation:title
+1640||Radiation
+# TaskItem:itemName
+1641||Radioactive Repository Access Authorization Form
+# TaskItem:itemName
+1642||Radioactive Repository Entry Permit
+# Landmark:title
+1643||Radioactive Waste Repository
+# Furniture:title
+1644||Rag Rug
+# TaskItemBlueprint:itemName
+1645||Rag Rug Blueprint
+# TaskObjective:description
+1646||Raimo has retrieved his clothes and is headed back to his friends. He asked you to meet up with his friends at their usual spot outside.
+# TextMeshProUGUI:m_text
+1647||Randomize All
+# Achievements:achievements[].rewards[].rewardName
+1648||Rat Champion
+# Landmark:title
+1649||Rat Fights
+# TaskItem:itemName
+1650||Raw Döner Kebab
+# InteractableWait:title
+1651||Read the most boring book
+# TaskObjective:title
+1652||Receive the delivery drone
+# TextMeshPro:m_text
+1653||Reception, Meeting Room 1, Kitchen
+# Radio:title
+1654||Record Player
+# Furniture:title; TaskItemBlueprint:itemName
+1655||Rectangular Modular Shelf
+# Furniture:title
+1656||Red Barn Calendar
+# Furniture:title
+1657||Red Barrel
+# Furniture:title
+1658||Red Barrel with Fire
+# Furniture:title
+1659||Red Bucket
+# Furniture:title; FurnitureCollectable:title
+1660||Red Desk Lamp
+# TaskItem:itemName
+1661||Red Hat
+# Furniture:title
+1662||Red Lady Painting
+# Furniture:title
+1663||Red Lantern
+# Furniture:title
+1664||Red Metal Chair
+# Furniture:title
+1665||Red Mushroom Lamp
+# CollectibleTaskItem:title
+1666||Red Mushrooms
+# Furniture:skins[].title
+1667||Red Pappa-Tunturi Moped
+# Furniture:skins[].title
+1668||Red Plastic Chair
+# Furniture:title
+1669||Red Shroomekko Wall Cloth
+# Furniture:title
+1670||Red Sofa
+# Furniture:title
+1671||Red Wall Mounted Bicycle
+# DoorChangelevel:title; Landmark:title
+1672||Redemption Militia
+# TaskItem:itemName
+1673||Redemption Militia Keys
+# TextMeshProUGUI:m_text
+1674||Refresh Rate
+# Furniture:title; FurnitureCollectable:title; Storage:title
+1675||Refrigerator
+# Storage:title
+1676||Refrigerator (Left)
+# Storage:title
+1677||Refrigerator (Right)
+# TaskObjective:title
+1678||Register at the Bazaar gatehouse
+# TaskObjective:title
+1679||Register at the Bazaar management
+# TextMeshProUGUI:m_text
+1680||Reload
+# NoteInfo:content
+1681||Remember the painkillers and the ones that make you happy!¶¶With care,¶Your ever-watchful neighbor
+# TextMeshProUGUI:m_text
+1682||Remove
+# TextMeshProUGUI:m_text
+1683||Remove ALL SLOTS
+# TextMeshProUGUI:m_text
+1684||Remove all saves for this character?
+# TextMeshProUGUI:m_text
+1685||Remove image
+# TextMeshProUGUI:m_text
+1686||Remove this character?
+# TextMeshProUGUI:m_text
+1687||Renovation Resource Cost
+# RelayDialogue:relayName; TextMeshProUGUI:m_text
+1688||Rent
+# DoorChangelevel:title
+1689||Repair Shop
+# InteractableItemRemover:m_useMessage
+1690||Replace
+# TaskObjective:title
+1691||Report back to Erto
+# TaskObjective:title
+1692||Report back to Heikki Mailanen
+# TaskObjective:title
+1693||Report back to Ken Nakahara
+# TaskObjective:title
+1694||Report back to Passmore
+# TaskObjective:title
+1695||Report back to Raimo
+# TextMeshProUGUI:m_text
+1696||Required items
+# TextMeshProUGUI:m_text
+1697||Required modifiers:¶Sun, large.
+# TextMeshProUGUI:m_text
+1698||Requirements
+# DoorChangelevel:title
+1699||Rescue Barrack
+# Text:m_Text
+1700||Reset
+# TextMeshProUGUI:m_text
+1701||Reset To Defaults
+# LoadingScreen:hintList[].title
+1702||Resident needs
+# LoadingScreen:hintList[].title
+1703||Resident rent
+# LoadingScreen:hintList[].hintText
+1704||Residents bring their own furniture
+# LoadingScreen:hintList[].title
+1705||Residents: Furnitures
+# TextMeshProUGUI:m_text
+1706||Resolution
+# TextMeshProUGUI:m_text
+1707||Resource Slots
+# TextMeshProUGUI:m_text
+1708||Response
+# TextMeshProUGUI:m_text
+1709||Results
+# TaskObjective:title
+1710||Retrieve Erto's Jacket
+# InteractableItemRemover:m_useMessage
+1711||Return
+# InteractableItemRemover:title
+1712||Return Cart
+# InteractableItemRemover:m_useMessage; InteractableRelay:m_useMessage
+1713||Return Dishes
+# InteractableItemRemover:title
+1714||Return Rack
+# TaskObjective:title
+1715||Return to Akim
+# TaskObjective:title
+1716||Return to Raimo's friends
+# Furniture:title
+1717||Right Exit Sign
+# Furniture:title
+1718||Road Sign Crosswalk
+# Furniture:title
+1719||Road Sign Keep Right
+# Furniture:title
+1720||Road Sign No Parking
+# Furniture:title
+1721||Road Sign No Pooping
+# Furniture:title
+1722||Road Sign No Shrooms
+# Furniture:title
+1723||Road Sign No Stopping
+# Furniture:title
+1724||Road Sign Parking
+# Furniture:title
+1725||Road Sign Speed Limit
+# Landmark:title; Usable:m_overrideName
+1726||Rob-In Build and Repair
+# TaskItem:itemName
+1727||Rob-In office keys
+# DoorChangelevel:title
+1728||Rob-in
+# Furniture:title
+1729||Robin Painting
+# WorkableResourceSource:title
+1730||Rock Pile
+# VendingMachine:title
+1731||Rocket Ramen
+# Furniture:title
+1732||Rocking Chair
+# InteractableChair:title
+1733||Rocking chair
+# Furniture:title; manufacturing:ManuName
+1734||Rolling Machine
+# DoorChangelevel:title; TextMeshProUGUI:m_text
+1735||Roof
+# DoorChangelevel:title
+1736||Rooftop
+# Door:title; HotelRoom:roomName
+1737||Room 1
+# Door:title; HotelRoom:roomName
+1738||Room 2
+# HotelRoom:roomName
+1739||Room 2 bed 1
+# HotelRoom:roomName
+1740||Room 2 bed 10
+# HotelRoom:roomName
+1741||Room 2 bed 11
+# HotelRoom:roomName
+1742||Room 2 bed 12
+# HotelRoom:roomName
+1743||Room 2 bed 13
+# HotelRoom:roomName
+1744||Room 2 bed 14
+# HotelRoom:roomName
+1745||Room 2 bed 15
+# HotelRoom:roomName
+1746||Room 2 bed 16
+# HotelRoom:roomName
+1747||Room 2 bed 17
+# HotelRoom:roomName
+1748||Room 2 bed 18
+# HotelRoom:roomName
+1749||Room 2 bed 2
+# HotelRoom:roomName
+1750||Room 2 bed 3
+# HotelRoom:roomName
+1751||Room 2 bed 4
+# HotelRoom:roomName
+1752||Room 2 bed 5
+# HotelRoom:roomName
+1753||Room 2 bed 6
+# HotelRoom:roomName
+1754||Room 2 bed 7
+# HotelRoom:roomName
+1755||Room 2 bed 8
+# HotelRoom:roomName
+1756||Room 2 bed 9
+# Door:title; HotelRoom:roomName
+1757||Room 3
+# Door:title; HotelRoom:roomName
+1758||Room 4
+# HotelRoom:roomName
+1759||Room 4 (Console Room)
+# Door:title; HotelRoom:roomName
+1760||Room 5
+# HotelRoom:roomName
+1761||Room 5 bed at window
+# HotelRoom:roomName
+1762||Room 5 bed by the door
+# HotelRoom:roomName
+1763||Room 5 bed in the middle
+# Door:title; HotelRoom:roomName
+1764||Room 6
+# Furniture:title
+1765||Rose Vase Glass
+# Furniture:title
+1766||Rose Vase Green
+# Furniture:title
+1767||Rose Vase White
+# DoorChangelevel:title
+1768||Rosso Instant Art
+# TextMeshProUGUI:m_text
+1769||Rotate Object
+# TextMeshProUGUI:m_text
+1770||Rotation Mode
+# Furniture:title; FurnitureCollectable:title
+1771||Round Cafeteria Table
+# Furniture:title
+1772||Round Coaster
+# Furniture:title
+1773||Round Rolling Stool
+# Furniture:title
+1774||Round Wooden Coffee Table
+# Achievements:achievements[].rewards[].rewardName; CollectibleRecipe:recipe.name
+1775||Rubber duck
+# TreatmentMentalHealth:Rubberduck.title
+1776||Rubberduck
+# Character:LastName; TextMeshPro:m_text
+1777||Rummo
+# LoadingScreen:hintList[].title
+1778||Rumors
+# TextMeshProUGUI:m_text
+1779||Run In Background
+# Furniture:title
+1780||Rusty Barrel
+# TextMeshProUGUI:m_text
+1781||SAVING
+# TextMeshPro:m_text
+1782||SEEDS
+# TextMeshProUGUI:m_text
+1783||SENSORS
+# TextMeshProUGUI:m_text
+1784||SEWER
+# TextMeshProUGUI:m_text
+1785||SKILL NAME HERE
+# TextMeshProUGUI:m_text
+1786||SKIP TUTORIAL
+# TextMeshProUGUI:m_text
+1787||SMV Progression Rate
+# Furniture:title
+1788||SMV Victim Painting
+# TextMeshPro:m_text
+1789||SPIRITS
+# TextMeshProUGUI:m_text
+1790||SSAO
+# TextMeshPro:m_text
+1791||STAFF¶ONLY
+# TextMeshProUGUI:m_text
+1792||STAIRWELL
+# TextMeshProUGUI:m_text
+1793||STALBURG CITY
+# TaskObjective:title
+1794||Sabotage Scatola di Maccheroni's pizzas
+# Storage:title
+1795||Sack
+# Furniture:title; InteractableChair:title
+1796||Saddle Stool
+# Furniture:title; Storage:StorageSettings; Storage:itemSpawnCategory; Storage:title
+1797||Safe
+# DoorChangelevel:title
+1798||Safe House
+# NoteInfo:title
+1799||Safety Concerns Escalate Over SOMC Mining in Obenseuer 
+# CraftingUpgrade:title; Furniture:title
+1800||Sample Analyzer
+# DoorChangelevel:title; Landmark:title; LoadingScreen:hintList[].title
+1801||Sauna
+# DoorChangelevel:title
+1802||Sauna & Spa
+# DoorChangelevel:title
+1803||Sauna Basement
+# Landmark:title
+1804||Sauna and Spa
+# TextMeshProUGUI:m_text
+1805||Save
+# TextMeshProUGUI:m_text
+1806||Save changes
+# TextMeshProUGUI:m_text
+1807||Saving...
+# Text:m_Text
+1808||Saving...¶
+# Furniture:title
+1809||Saw
+# Furniture:title; manufacturing:ManuName
+1810||Sawbuck
+# TaskItemBlueprint:itemName
+1811||Sawbuck Blueprint
+# Furniture:title
+1812||Sawbuck With Chainsaw
+# TaskItemBlueprint:itemName
+1813||Sawbuck With Chainsaw Blueprint
+# DoorChangelevel:title
+1814||Scatola Di Maccheroni
+# NoteInfo:title
+1815||Scatola Di Maccheroni - Help Wanted!
+# Furniture:title
+1816||School Chair
+# Furniture:title; Storage:StorageSettings
+1817||School Desk
+# Furniture:title
+1818||Scissors
+# TextMeshProUGUI:m_text
+1819||Screen Mode
+# TaskObjective:description
+1820||Seamus Liepa told you that he's ready to deal with Casper if you pay him 10000 RM.
+# TaskObjective:description
+1821||Seamus is alive and he grows potatoes on a farm in the mine.¶¶Seamus decided to take revenge on Malone when he found out that the other gang members have died.
+# TaskItem:itemName
+1822||Seamus' Silver Ring
+# DoorChangelevel:title; Landmark:title
+1823||Security
+# TaskObjective:title
+1824||See what happens
+# TextMeshProUGUI:m_text
+1825||Select
+# TextMeshProUGUI:m_text
+1826||Select a container or other item you want to use in your inventory
+# TaskInfo:title
+1827||Sell the apartments
+# TextMeshProUGUI:m_text
+1828||Sender Name <color=#6b6b6b><sender.name@stalburg.ts>
+# TextMeshProUGUI:m_text
+1829||Sender name<color=#6b6b6b> - Very Long Email Title With Stuff That Is Not Good For
+# Storage:title
+1830||Septic Tank
+# Landmark:title
+1831||Service Area
+# TreatmentMentalHealth:StatusSevere.title; TreatmentMentalHealth:TargetSevere.title; TreatmentPhysicalHealth:StatusBleedingSevere.title; TreatmentPhysicalHealth:
+1832||Severe
+# LiquidStorage:title
+1833||Sewage Tank
+# TextMeshProUGUI:m_text
+1834||Sewer Coins
+# Door:title
+1835||Sewer Pipe Gate
+# DoorChangelevel:title; Landmark:title
+1836||Sewerview Inn
+# Furniture:title; manufacturing:ManuName
+1837||Sewing Machine
+# Furniture:title
+1838||Shabby Bed
+# TaskItemBlueprint:itemName
+1839||Shabby Bed Blueprint
+# Furniture:title
+1840||Shabby Bed Frame
+# TaskItemBlueprint:itemName
+1841||Shabby Bed Frame Blueprint
+# DoorChangelevel:title
+1842||Shack
+# TextMeshProUGUI:m_text
+1843||Shadow Quality
+# TextMeshProUGUI:m_text
+1844||Shadow Resolution
+# TextMeshProUGUI:m_text
+1845||Shadow quality
+# TextMeshProUGUI:m_text
+1846||Shadow resolution
+# TextMeshProUGUI:m_text
+1847||Shape
+# DoorChangelevel:title
+1848||Shed
+# TextMeshProUGUI:m_text
+1849||Shift
+# TextMeshProUGUI:m_text
+1850||Shirt
+# Furniture:title
+1851||Shoe Rack
+# TextMeshProUGUI:m_text
+1852||Shoes
+# Furniture:title
+1853||Shopping Basket
+# Furniture:title
+1854||Shopping Cart
+# LoadingScreen:hintList[].title
+1855||Shops: Prices
+# LoadingScreen:hintList[].title
+1856||Shops: Spawns
+# Furniture:title
+1857||Short Curtains
+# TextMeshProUGUI:m_text
+1858||Shoulder Width
+# TreatmentRadiation:description
+1859||Shows how many milliverts of radiation you have.
+# TreatmentFungalDisease:description
+1860||Shows the stage of the fungal disease and if there is any treatment available.
+# TreatmentMentalHealth:description
+1861||Shows the state of mental health and tells you whether you need stronger medication or other treatments.
+# TreatmentPhysicalHealth:description
+1862||Shows the state of physical health and tells you whether you need stronger medication or other treatments.
+# TreatmentAddictions:description
+1863||Shows the status of your addictions and if there is any treatment available.
+# Furniture:title
+1864||Shroom Bottle Wall Cloth
+# Landmark:title
+1865||Shroom Farm
+# DoorChangelevel:title
+1866||Shroom Farm Apartment
+# Furniture:title
+1867||Shroom Girl Body Pillow
+# Achievements:achievements[].rewards[].rewardName
+1868||Shrooms
+# TextMeshProUGUI:m_text
+1869||Shroomshine Enjoyer
+# StartSelection:selections[].title
+1870||Shroomshine enjoyer
+# EditableSign:title
+1871||Sign
+# Furniture:title
+1872||Silver Screen
+# TextMeshProUGUI:m_text
+1873||Site
+# DoorChangelevel:title
+1874||Skeida Pharmacy
+# MarketShop:marketName
+1875||Skeida Trade Road
+# TextMeshProUGUI:m_text
+1876||Skill: Manufacturing
+# TextMeshProUGUI:m_text
+1877||Skill: Skill Name¶Process time: 10 h¶Fail change: 100%¶Quality chance: ++
+# LoadingScreen:hintList[].title
+1878||Skills: Quality
+# TextMeshProUGUI:m_text
+1879||Skin
+# TextMeshProUGUI:m_text
+1880||Skip Intro
+# InteractableWait:m_useMessage
+1881||Skip four hours
+# InteractableWait:m_useMessage
+1882||Skip two hours
+# TextMeshProUGUI:m_text
+1883||Sleep: 12:07
+# Furniture:title; Sleep:title
+1884||Sleeping bag
+# CharacterItemManager:giveItems[].title; CollectibleItem:Item.name; CollectibleItemSpawner:customItemsToSpawn[].name
+1885||Sleeping pills
+# Usable:m_overrideName
+1886||Sleepingbag
+# Furniture:title
+1887||Slippers
+# NoteInfo:title
+1888||Slum Workshop Note
+# Furniture:title
+1889||Small Birch Shelf
+# Furniture:title
+1890||Small Black Rug
+# Furniture:title
+1891||Small Broken Mirror
+# Furniture:title
+1892||Small Cardboard Box
+# Furniture:title
+1893||Small Cat Cage
+# TaskItemBlueprint:itemName
+1894||Small Cat Cage Blueprint
+# Furniture:title
+1895||Small Chicken Coop
+# TaskItemBlueprint:itemName
+1896||Small Chicken Coop Blueprint
+# Furniture:title
+1897||Small Coffee Table
+# Furniture:title
+1898||Small Custom Picture
+# Furniture:title
+1899||Small Dark Shelf
+# Furniture:title
+1900||Small Dash
+# Furniture:title
+1901||Small Dot
+# Furniture:title; Storage:title
+1902||Small Drawer
+# Furniture:title
+1903||Small Exclamation Mark
+# Furniture:title
+1904||Small Fancy Wooden Box
+# Furniture:title
+1905||Small Glass Coffee Table
+# Furniture:title; FurnitureCollectable:title
+1906||Small Grey Rug
+# Furniture:title
+1907||Small Grey Welcome Rug
+# Furniture:title
+1908||Small Jaw Crusher
+# Furniture:title
+1909||Small Label
+# TaskItemBlueprint:itemName
+1910||Small Label Blueprint
+# Furniture:title
+1911||Small Letter A
+# Furniture:title
+1912||Small Letter B
+# Furniture:title
+1913||Small Letter C
+# Furniture:title
+1914||Small Letter D
+# Furniture:title
+1915||Small Letter E
+# Furniture:title
+1916||Small Letter F
+# Furniture:title
+1917||Small Letter G
+# Furniture:title
+1918||Small Letter H
+# Furniture:title
+1919||Small Letter I
+# Furniture:title
+1920||Small Letter J
+# Furniture:title
+1921||Small Letter K
+# Furniture:title
+1922||Small Letter L
+# Furniture:title
+1923||Small Letter M
+# Furniture:title
+1924||Small Letter N
+# Furniture:title
+1925||Small Letter O
+# Furniture:title
+1926||Small Letter P
+# Furniture:title
+1927||Small Letter Q
+# Furniture:title
+1928||Small Letter R
+# Furniture:title
+1929||Small Letter S
+# Furniture:title
+1930||Small Letter T
+# Furniture:title
+1931||Small Letter U
+# Furniture:title
+1932||Small Letter V
+# Furniture:title
+1933||Small Letter W
+# Furniture:title
+1934||Small Letter X
+# Furniture:title
+1935||Small Letter Y
+# Furniture:title
+1936||Small Letter Z
+# Furniture:title
+1937||Small Letter Ä
+# Furniture:title
+1938||Small Letter Ö
+# Furniture:title
+1939||Small Mirror
+# Furniture:title
+1940||Small Moonshine Distillery
+# TaskItemBlueprint:itemName
+1941||Small Moonshine Distillery Blueprint
+# Furniture:title
+1942||Small Night Stand
+# Furniture:title
+1943||Small Old Folder
+# Furniture:title
+1944||Small Old Folder Pile
+# FurnitureCollectable:title
+1945||Small Old Folder Pile (5)
+# Furniture:title
+1946||Small Old Rug
+# Furniture:title
+1947||Small Persian Rug
+# Furniture:title
+1948||Small Plank Shelf
+# TaskItemBlueprint:itemName
+1949||Small Plank Shelf Blueprint
+# Furniture:title
+1950||Small Plastic Table
+# Furniture:title
+1951||Small Plywood Shelf
+# Furniture:title
+1952||Small Potted Plant
+# Furniture:title
+1953||Small Question Mark
+# Furniture:title; FurnitureCollectable:title
+1954||Small Radio
+# Furniture:title
+1955||Small Rat Cage
+# TaskItemBlueprint:itemName
+1956||Small Rat Cage Blueprint
+# FurnitureCollectable:title
+1957||Small Red Letter E (5)
+# FurnitureCollectable:title
+1958||Small Red Letter I (5)
+# FurnitureCollectable:title
+1959||Small Red Letter K (5)
+# FurnitureCollectable:title
+1960||Small Red Letter M (5)
+# Furniture:title
+1961||Small Red Rug
+# Furniture:title
+1962||Small Round Coffee Table
+# Furniture:title
+1963||Small Simple Rug
+# DoorChangelevel:title
+1964||Small Storage
+# Furniture:title
+1965||Small Striped Rug
+# TaskItemBlueprint:itemName
+1966||Small White Coffee Table
+# Furniture:title
+1967||Small White Rug
+# Furniture:title
+1968||Small White Shelf
+# TaskItemBlueprint:itemName
+1969||Small White Shelf Blueprint
+# Furniture:title
+1970||Small White Welcome Rug
+# Furniture:title
+1971||Small Wood Shelf
+# FurnitureCollectable:title
+1972||Small Wood Shelf (5)
+# TaskItemBlueprint:itemName
+1973||Small Wood Shelf Blueprint
+# Furniture:title
+1974||Small Wooden Cupboard
+# TaskItemBlueprint:itemName
+1975||Small Wooden Cupboard Blueprint
+# Furniture:title
+1976||Small Wooden Night Stand
+# Furniture:title
+1977||Small Wooden Step Stool
+# TaskItemBlueprint:itemName
+1978||Small Wooden Stool Blueprint
+# Furniture:title; FurnitureCollectable:title
+1979||Small Wooden Table
+# Furniture:title
+1980||Small Wooden Wine Rack
+# Furniture:title
+1981||Small Worn Rug
+# Growing:ManuName
+1982||Small cage
+# Growing:ManuName
+1983||Small cat cage
+# Growing:ManuName
+1984||Small chicken coop
+# TaskItem:itemName
+1985||Small storage keys
+# Storage:title
+1986||Small wooden box
+# DoorChangelevel:title
+1987||Smelter
+# Furniture:title; manufacturing:ManuName
+1988||Smoker
+# PlayerStatUI:statName
+1989||Smokes need
+# TreatmentAddictions:StatusSmokingAddiction.title
+1990||Smoking addiction
+# Furniture:title
+1991||Smooth Half Wooden Pillar
+# TaskItemBlueprint:itemName
+1992||Smooth Half Wooden Pillar Blueprint
+# Furniture:title
+1993||Smooth Wooden Pillar
+# TaskItemBlueprint:itemName
+1994||Smooth Wooden Pillar Blueprint
+# TextMeshProUGUI:m_text
+1995||Socks
+# VendingMachine:title
+1996||Soda Fountain
+# InteractableChair:title
+1997||Sofa
+# InteractableChair:title
+1998||Sofa (Left)
+# InteractableChair:title
+1999||Sofa (Right)
+# CollectibleItem:owner.name; CollectibleItemSpawner:owner.name; ConversationTrigger:conversation; InteractableShower:owner.name
+2000||Sofija Pisula
+# LoadingScreen:hintList[].hintText
+2001||Some people are desperate enough for the most basic apartments 
+# LoadingScreen:hintList[].hintText
+2002||Some plants, like tomatoes and peppers, need support to grow
+# StartSelection:selections[].title
+2003||Someone who lives here
+# TextMeshPro:m_text
+2004||Somewhere >
+# TextMeshProUGUI:m_text
+2005||Sort
+# TextMeshProUGUI:m_text
+2006||Space
+# TaskObjective:title
+2007||Speak with Jussi after fulfilling their demands
+# Landmark:id; Landmark:title
+2008||Speakeasy
+# Furniture:title
+2009||Speaker Large
+# Furniture:title
+2010||Speaker Medium
+# TextMeshProUGUI:m_text
+2011||Speaker Mode
+# Furniture:title
+2012||Speaker Small
+# TaskInfo:title
+2013||Special Delivery
+# CraftingUpgrade:title; Furniture:title
+2014||Spices
+# VendingMachine:sellableItems[].customTitle
+2015||Spiked Coffee
+# Usable:m_overrideName
+2016||Spurgu Street 4A
+# Furniture:title; TaskItemBlueprint:itemName
+2017||Square Modular Shelf
+# TextMeshProUGUI:m_text
+2018||Stack Sizes
+# Furniture:title; FurnitureCollectable:title
+2019||Stalburg Map
+# InteractableItemGiver:title
+2020||Stalburg Times
+# NoteInfo:content
+2021||Stalburg Times¶Monday, February 13th, 2017¶¶¶Government Announces New Quarantine Zone in Obenseuer¶¶The government has announced plans to establish a quarantine zone in Obenseuer as the situation with a spreading fungal infection worsens. Officials have faced criticism for their handling of the outbreak, with accusations of creating a public safety hazard by failing to respond swiftly and transparently.¶¶¶Over the weekend, 72 new cases were reported, and health experts expect the number of infections to rise exponentially in the coming weeks. Although scientists remain divided on how the fungus spreads, evidence suggests it may be more contagious than previously disclosed by the government.¶¶¶Jean Wallin, the mayor of Stalburg, has urged residents to avoid travel in high-risk areas, particularly Obenseuer and Uhlu. While the exact boundaries of the quarantine zone have not yet been outlined, the mayor confirmed that healthy residents would be evacuated from the area before quarantine measures are enforced.¶¶¶Local residents are concerned about the implications of a quarantine in Obenseuer. Mirjam Freighter, a shopkeeper in O Market, fears that increased tension in the region could disrupt her business if her shop falls within the quarantine zone.¶¶¶"Why here? They should move all sick people outside the city. We already have enough problems as it is. I just hope this doesn't affect my Sossu subsidies," said David Lund, an unemployed resident.¶¶¶Additionally, the government is considering a second quarantine zone on Whiprock Island. However, details on the timeline and criteria for placement there remain undisclosed.
+# NoteInfo:content
+2022||Stalburg Times¶Sunday, November 9th, 2014¶¶Legend of the Underground City¶¶Stalburg has one of the most extensive underground systems in the World. There’s everything from parking garages and metro tunnels to waterworks and even grain silos. The nether world of the city is also subject to many mysteries.¶¶Extensive old urban networks like the Stalburg’s underground are bound to have countless stories linked to them, whether those stories are actually real or not. One of the biggest urban legends related to Stalburg’s underground infrastructure is the existence of the so called Underground City of Stalburg.¶¶According to the legend, the Underground City is a safe haven for the many homeless people of Stalburg. Many different versions of the story circulate the public. Some say the Underground City is built into a huge cave, others say it’s located in an abandoned mineshaft. Sometimes it’s said to be in a disused metro tunnel.¶¶More often than not, the Underground City is described as the most beautiful place in the world. A place full of waterfalls, brightly colored buildings, friendly people and overall happiness. A place where everything’s well maintained and everyone has their own home.¶¶Then there’s also a darker version of the story. Instead of all the happy things the Underground City is full of dark, wet tunnels and infested with drug users and sick people. Some even say there’s a strange cult present where people worship a savage underground deity.¶¶The wildest theory suggests that the Underground City is actually a secret community run by the aforementioned cult. In this version of the story the place is actually a huge psychoactive mushroom farm, where captured homeless people are forced to work in subhuman conditions.¶¶There’s no real proof that the Underground City of Stalburg actually exists, or if it does, where it’s located. The legend says that only the homeless people can enter the Underground City. Some homeless people we interviewed said the entrance to this place might be located in Obenseuer, others said it’s actually located right under the Stalburg Central Railway Station’s lower platform. One man even suggested that it’s in fact located in the underground holding cell block of the Firplas police station. No definite consensus of the location could be achieved.¶¶All in all, the Underground City of Stalburg remains as one of the biggest mysteries of the city. Maybe the Underground City is just some abandoned mining shaft where a couple of homeless people live, or maybe it’s a beautiful secret bunker built by rich people. No one really seems to know.¶
+# NoteInfo:content
+2023||Stalburg Times¶Sunday, September 21th, 2014¶¶Obenseuer, or More Like Open Sewer¶¶The most infamous place in the Stalburg region is mostly known for its alcoholics, poor social status and bad city planning. But is it really as bad as its reputation suggests?¶¶Nicknamed Open Sewer by Stalburgers because of the often stinking canals crossing the area, Obenseuer was a dying small town in the 1960’s. The town was once home to the successful Obenseuer ore mine which was closed down in 1958 when the lodes ran dry. After the mine was closed, most of the workforce moved to Stalburg and the once busy main street quieted down. The Municipality of Obenseuer was merged to the City of Stalburg in 1973 as the capital city was quickly running out of developable land.¶¶Obenseuer’s new leaf was turned in the late 1970’s when Walter Co. started building tenements on the old mine grounds. These buildings were part of Stalburg’s huge public housing projects as the city was growing rapidly and the new workforce needed cheap housing. Like most of the similar projects of the era, the tenements of Obenseuer were built as cheaply as possible because the original plan was to replace them with new ones in 25 years.¶¶The new beginning for Obenseuer looked bright. The former town square was busy once again and the newly opened extension of the East Port metro line connected Obenseuer directly to the heart of Stalburg. Obenseuer soon succumbed to segregation however, as middle-class families abandoned the neighborhood. In 1981, following the collapse of Stalburg Steel and the companies linked to it, most of the tenants were left unemployed.¶¶Multiple social problems like prostitution and misuse of drugs took over Obenseuer and the crime rate soon went through the roof. Coming to the 1990’s the neighbourhood had turned into an epitome of public housing development gone wrong. On top of all the usual problems, the past mining activity had weakened the bedrock, which culminated in 1993 when one of the tenements collapsed partially. The famous smell of the canals also worsened as ground water contaminated by mining slag started leaking out increasingly. This was caused by the construction work of the new local railway line from Orefell to Cellecter in late 1990’s.¶¶Not all the stories related to Obenseuer are sad however. In 1988 a man named Osmo Saarinen, an Obenseuer local, decided to do something about the crippling unemployment of the neighbourhood and set up a small brewery near the main canal. In just under a decade, the brewery producing Stalburg’s most famous export lager Osmo Olut had grown to be one of biggest successes in Stalburg’s history since Stalburg Steel. Osmo Olut had made Osmo Saarinen one of the richest individuals in Stalburg and blown the city’s alcoholism problem to a whole new level.¶¶Saarinen, who is a member of the municipality council, has said that he wants to make Obenseuer a better place in the future. He has been active on matters touching the neighbourhood and some progress has already been made. City of Stalburg already started a project to clean the canals to get rid of the stink a few years ago. Who knows, maybe one day Obenseuer will once again be more than just an Open Sewer.¶
+# NoteInfo:content
+2024||Stalburg Times¶Tuesday, October 15th, 2019¶¶Safety Concerns Escalate Over SOMC Mining in Obenseuer¶¶Residents of Obenseuer, a district in Stalburg already grappling with a well-known quarantine zone due to a persistent fungal disease, are now raising alarms over active mining operations by the Stalburg-Obenseuer Mining Company (SOMC). After mining the primary vein to exhaustion, SOMC has moved its activity farther from central Obenseuer. However, the company’s interest in side veins beneath the settlement has raised fears of dangerous collapses similar to those seen in the area’s older, abandoned mines.¶¶Adding to residents' unease, an independent mining venture started by a local resident has been rapidly expanding. Originally a small operation, this project has grown in size, raising questions about safety and the potential structural risks to surrounding areas.¶¶In response to community concerns, SOMC’s project director, Karl Hentzel, has attempted to reassure the public. “SOMC is committed to safe and responsible mining practices,” Hentzel stated. “We’ve conducted thorough studies and applied advanced engineering measures to ensure the stability of our tunnels. Our team has carefully considered past mining issues and put in place modern safeguards to prevent similar incidents.”¶¶However, local trust in SOMC has been further strained by a recent, mysterious accident involving company miners. SOMC has released few details about the incident, fueling public suspicion. Chief Inspector Jorma Kaisto of the Stalburg Police has publicly accused SOMC of obstructing the investigation, alleging that the company may be attempting to withhold evidence.¶¶“Our focus is the safety of Obenseuer residents, and we expect SOMC to fully cooperate,” Kaisto stated. “Any attempt to obstruct this investigation will be met with serious consequences.”¶¶With concerns mounting over both SOMC’s operations and the expanding independent mining project, Obenseuer’s residents face a growing sense of uncertainty and frustration in a district already under strain.
+# TaskInfo:title
+2025||Stalburg Underground
+# Achievements:achievements[].rewards[].rewardName
+2026||Stalburg Workers Union
+# Furniture:title
+2027||Stalburg Workers Union Flag
+# InteractableWait:title
+2028||Stare at the wall and think about your mistakes
+# TaskObjective:title
+2029||Start makeshift mines upgrade
+# TextMeshProUGUI:m_text
+2030||Stat name
+# TextMeshProUGUI:m_text
+2031||Statistics
+# TextMeshProUGUI:m_text
+2032||Status: Fine
+# WaitingController:passoutEvents[].title
+2033||Steal Money
+# WaitingController:passoutEvents[].title
+2034||Steal Most Valuable Item
+# WaitingController:passoutEvents[].title
+2035||Steal OS
+# WaitingController:passoutEvents[].title
+2036||Steal RM
+# WaitingController:passoutEvents[].title
+2037||Steal Random Items
+# Storage:title
+2038||Steel cabinet (Left)
+# Storage:title
+2039||Steel cabinet (Right)
+# InteractableChair:title
+2040||Step Stool
+# CraftingUpgrade:title; Furniture:title; Soundscape:loopSounds[].title
+2041||Sterilizer
+# Furniture:title
+2042||Stolland Clock
+# TaskItemBlueprint:itemName
+2043||Stolland Clock Blueprint
+# Furniture:title; FurnitureCollectable:title
+2044||Stolland Osmo Flag Wall Cloth
+# Achievements:achievements[].rewards[].rewardName
+2045||Stolland Railways
+# Achievements:achievements[].rewards[].rewardName
+2046||Stolland Sauna Association
+# Furniture:title
+2047||Stolland Sauna Association Flag
+# Achievements:achievements[].rewards[].rewardName
+2048||Stollandia vodka
+# TaskItem:id; TaskItem:itemName
+2049||Stollandium-327
+# Furniture:title; TaskItemBlueprint:itemName
+2050||Stone Fireplace
+# InteractableChair:title
+2051||Stool
+# TreatmentFungalDisease:StatusStopped.title
+2052||Stopped
+# Door:title
+2053||Storage B1
+# Door:title
+2054||Storage B3
+# Door:title
+2055||Storage B4
+# Door:title
+2056||Storage B5
+# DoorChangelevel:title
+2057||Storage Building Basement
+# DoorChangelevel:title
+2058||Storage Yard
+# TextMeshProUGUI:m_text
+2059||Storage name
+# Usable:m_overrideName
+2060||Storage shack
+# Furniture:title; Soundscape:loopSounds[].title
+2061||Stove
+# manufacturing:ManuName; manufacturing:title
+2062||Stovetop
+# Furniture:title; Storage:title
+2063||Styrofoam Cooler
+# LoadingScreen:hintList[].title
+2064||Subscribe to magazines
+# LoadingScreen:hintList[].hintText
+2065||Subscribe to magazines to learn new recipes and blueprints
+# Storage:StorageSettings; Storage:itemSpawnCategory; Storage:title
+2066||Suitcase
+# DoorChangelevel:title
+2067||Surface
+# Storage:title
+2068||Suspicious Rock
+# FakeDoor:title
+2069||Swamp Gatehouse
+# Usable:m_overrideName
+2070||Switch
+# FurnitureShop:title
+2071||Sykkel Cyckel
+# TextMeshProUGUI:m_text
+2072||TAKE
+# TextMeshProUGUI:m_text
+2073||TEST) PLACEHOLDER¶TEST) PLACEHOLDER¶Leave (ESC)
+# TextMeshPro:m_text
+2074||TOILET¶SHOWER
+# TextMeshPro:m_text
+2075||TURN OFF ALARM
+# TextMeshProUGUI:m_text
+2076||Tab
+# Storage:title
+2077||Table
+# Furniture:title
+2078||Table Fan
+# Furniture:title
+2079||Table Lamp
+# Furniture:title
+2080||Table Saw
+# manufacturing:ManuName
+2081||Table saw
+# Character:LastName; TextMeshPro:m_text
+2082||Taisto
+# InteractableItemGiver:m_useMessage
+2083||Take Magazine
+# InteractableItemGiver:m_useMessage
+2084||Take Newspaper
+# TextMeshProUGUI:m_text
+2085||Take all
+# TextMeshPro:m_text
+2086||Takemura
+# NoteInfo:title
+2087||Taking care of things for you, my lovely neighbor!
+# TaskObjective:title
+2088||Talk about setting up the shop after fulfilling their demands
+# TaskObjective:title
+2089||Talk to Anna Markkanen
+# TaskObjective:title
+2090||Talk to Arvo
+# TaskObjective:title
+2091||Talk to Casper
+# TaskObjective:title
+2092||Talk to Heikki
+# TaskObjective:title
+2093||Talk to Ines
+# TaskObjective:title
+2094||Talk to Jane
+# TaskObjective:title
+2095||Talk to Mikael
+# TaskObjective:title
+2096||Talk to Reiska about mining permit
+# TaskObjective:title
+2097||Talk to Seamus Liepa
+# TaskObjective:title
+2098||Talk to Welhö
+# TaskObjective:title
+2099||Talk to the Crazy Neighbor after he has a balcony
+# Furniture:title
+2100||Tape Recorder
+# Furniture:title
+2101||Tarp Wall
+# TaskItemBlueprint:itemName
+2102||Tarp Wall Blueprint
+# TextMeshProUGUI:m_text
+2103||Task title
+# TextMeshProUGUI:m_text
+2104||Task title here
+# TextMeshProUGUI:m_text; UIPageButtons:MenuPages[].Key
+2105||Tasks
+# TaskObjective:description
+2106||Tatyana told you that there's a soup kitchen run by some aid organization called Redemption something near the Bazaar gatehouse. You should get some hot pea soup there.
+# MarketShop:marketName
+2107||Tax free
+# Landmark:id; Landmark:title
+2108||Taxfree
+# TextMeshPro:m_text
+2109||Taylor
+# TaskObjective:title
+2110||Tell Seamus what happened
+# NoteInfo:content
+2111||Tell me, do you ever feel like things are going just a little too well?¶Like everything is smooth, almost too smooth?¶It’s a funny thing, isn’t it? When everything just falls into place.¶¶But don’t worry.¶I’ll make sure you remember what it’s like when things aren’t so perfect.¶I’ll remind you.¶I’ll remind you well.¶¶Your dearest neighbor
+# LoadingScreen:hintList[].hintText
+2112||Tenants living in better conditions pay higher rent
+# DoorChangelevel:title; Landmark:title; TextMeshProUGUI:m_text; UIPageButtons:MenuPages[].Key
+2113||Tenement
+# DoorChangelevel:OtherEntrypoint; DoorChangelevel:ThisEntrypoint.Name; DoorChangelevel:title; InterScenePathfindingGraph:graph[].connections[].otherEntrypoint
+2114||Tenement A
+# TaskItem:itemName
+2115||Tenement A A1 keys
+# TaskItem:itemName
+2116||Tenement A A2 keys
+# TaskItem:itemName
+2117||Tenement A A9 keys
+# DoorChangelevel:title
+2118||Tenement A Basement
+# TaskItem:itemName
+2119||Tenement A basement keys
+# DoorChangelevel:title
+2120||Tenement Access
+# DoorChangelevel:title; Landmark:title
+2121||Tenement B
+# DoorChangelevel:title
+2122||Tenement B Basement
+# TaskItem:itemName
+2123||Tenement B basement keys
+# TaskItemMap:itemName
+2124||Tenement Blueprint
+# Landmark:title
+2125||Tenement Contract Work
+# TaskItemMap:itemName
+2126||Tenement Map
+# TaskItem:itemName
+2127||Tenement access keys
+# LoadingScreen:hintList[].title; Storage:title
+2128||Tenement resources
+# DoorChangelevel:title
+2129||Terrace
+# Furniture:title; Growing:ManuName
+2130||Terrarium
+# TaskItemBlueprint:itemName
+2131||Terrarium Blueprint
+# TaskObjective:title
+2132||Test Objective 1
+# TextMeshProUGUI:m_text
+2133||Test content
+# TextMeshProUGUI:m_text
+2134||Test text
+# DoorChangelevel:title; Landmark:title
+2135||Textile Mill
+# Achievements:achievements[].rewards[].rewardName
+2136||Textile Workers Union
+# Furniture:title
+2137||Textile Workers Union Flag
+# TextMeshProUGUI:m_text
+2138||Texture Resolution
+# TextMeshProUGUI:m_text
+2139||Texture resolution
+# TextMeshPro:m_text
+2140||The Black Rock Nuclear Powerplant? >
+# TaskInfo:title
+2141||The Casino Coup
+# TaskObjective:description
+2142||The Crazy Neighbor is going to have a little chat with the casino owner. He asked you to come after him.
+# TaskObjective:description
+2143||The Crazy Neighbor is not a member of the cooperative, but he agreed to help get a recommendation. You should check back with him in a couple of days to see if he has arranged something.
+# TaskObjective:description
+2144||The Crazy Neighbor is ready to help you deal with Casper, but he wants you to build him a balcony first.
+# VendingMachine:title
+2145||The Garden Bar
+# TaskInfo:title
+2146||The Guild
+# TaskInfo:title
+2147||The Lost Angry Samurai
+# DoorChangelevel:title
+2148||The Pickaxe Motel
+# TaskItem:itemName
+2149||The Sacred Seal of Welhous
+# TaskObjective:title
+2150||The Suurwelho's Trial
+# TaskInfo:title
+2151||The True Welho
+# LoadingScreen:hintList[].hintText
+2152||The buying and selling prices of shops vary
+# TaskObjective:description
+2153||The drone has hit something and exploded. You should talk to Jane, maybe you can lie and still receive your payment. Jane should be waiting for you at the Bazaar Bakery.
+# TaskObjective:description
+2154||The drone is making its way to the quarantine zone. You should wait for it to return.
+# TaskObjective:description
+2155||The first "special client" ordered a Full Combat Fighter Combo Meal. The customer is Virtanen, whose address is Murju B 9.
+# TaskObjective:description
+2156||The glow stick trail led you to the locked gate where are signs warning of radioactivity.
+# DifficultyController:difficulties[].description
+2157||The most balanced difficulty, which is recommended to be tried first.
+# TaskObjective:description
+2158||The next "special client" ordered a pizza. It's for the security guy at the casino.
+# TextMeshPro:m_text
+2159||The only bad workout¶ is the one you didn't do.
+# LoadingScreen:hintList[].hintText
+2160||The plants may die if not harvested in time
+# LoadingScreen:hintList[].hintText
+2161||The resources needed for renovation can be kept in the tenement resources chest
+# LoadingScreen:hintList[].hintText
+2162||The selection of shops changes daily
+# TextMeshProUGUI:m_text
+2163||The tenant does not want an apartment of this size!
+# TaskObjective:description
+2164||The third delivery is a pizza for a frequent customer who's currently in the Bazaar jail.
+# NoteInfo:content
+2165||The toll bridge owner. He wasn’t exactly nice to you, was he? But don’t worry. I took care of it. He won’t be a problem for you anymore.¶¶Sometimes, people just need a little reminder of who they’re dealing with.¶I’m always here to help.¶¶Your thoughtful neighbor
+# Furniture:title
+2166||Theater Chair
+# Landmark:id; Landmark:title
+2167||Therapy
+# LoadingScreen:hintList[].hintText
+2168||There are rumors that people can see "the other side"
+# TaskObjective:description
+2169||There's a dubious pizza hatch in the Bazaar slums that sells equally dubious pizzas. You could buy some there to use as replacements.
+# NoteInfo:content
+2170||There's some noise coming from the area where the pipe goes. It's like an alarm or something.¶¶I tried squeezing through to get a closer look, but no luck. The cave narrows to a point where I would probably just get stuck. I'm not really keen on getting stuck underground like the guy whose body we found recently. It's like my worst nightmare.¶¶Hanss asked me to clear the tunnel that leads to the gate. I warned him that the tunnels have been collapsing more frequently recently. I'm probably going to go with him next time he comes here.
+# TaskObjective:description
+2171||They claim that the forms are incorrectly filled. You have to refill the forms. Good thing that you photocopied the base.
+# PlayerStatUI:statName
+2172||Thirst
+# TextMeshProUGUI:m_text
+2173||This action will delete the file from your computer and cannot be undone.
+# StartSelection:selections[].description
+2174||This choice may have consequences in the future
+# TreatmentFungalDisease:StatusNone.description
+2175||This is something extraordinary. You are clean.
+# TreatmentRadiation:StatusSevere.description
+2176||This looks bad! Unfortunately, I don't have a suitable treatment for you.
+# TextMeshProUGUI:m_text
+2177||This save was created on an older version of the game and might have outdated data.¶¶Do you want to load the save?
+# TextMeshProUGUI:m_text
+2178||This save was created on an older version of the game and might have outdated data. Do you want to load the save?
+# InteractableTicketMachine:title
+2179||Ticket Machine
+# TextMeshProUGUI:m_text
+2180||Time left
+# TextMeshProUGUI:m_text
+2181||Time: 1d 12h
+# TextMeshProUGUI:m_text
+2182||Time: 26h¶Cancel the eviction
+# InteractableTalk:title; TextMeshProUGUI:m_text
+2183||Timo Löyly
+# Furniture:title
+2184||Tincan
+# TaskItemBlueprint:itemName
+2185||Tincan Blueprint
+# Furniture:title
+2186||Tiny Rat Cage
+# TaskItemBlueprint:itemName
+2187||Tiny Rat Cage Blueprint
+# Growing:ManuName
+2188||Tiny cage
+# Storage:title; Train:title
+2189||Tipping Wagon
+# PlayerStatUI:statName
+2190||Tiredness
+# Furniture:title
+2191||Toilet Brush
+# Furniture:title
+2192||Toilet Paper Holder
+# Storage:title
+2193||Toilet paper holder
+# TaskObjective:description
+2194||Toivo handed you the Radioactive Repository Access Authorization Form, instructing you to deliver it to the lady at the management office.
+# ConversationTrigger:conversation; Usable:m_overrideName
+2195||Toni Mayer
+# Furniture:title
+2196||Tonni Painting
+# Furniture:title; Storage:StorageSettings
+2197||Tool Cart
+# Storage:title
+2198||Tool cart
+# CollectibleItemSpawner:itemSpawnCategory; Furniture:title; Storage:StorageSettings; Storage:itemSpawnCategory
+2199||Toolbox
+# TextMeshProUGUI:m_text
+2200||Tooltip
+# Furniture:title
+2201||Toothpick Holder
+# TaskObjective:description
+2202||Tor reguires you to obtain mining permit before giving out elevator access.
+# TaskObjective:description
+2203||Tor told you that Bazaar management requires every miner to register at the Bazaar management building for the mine access. Registrations are handled in 'N-O Company' building at the end of the street.
+# VendingMachine:title
+2204||Torget Café
+# NoteInfo:title
+2205||Torn Page 1
+# NoteInfo:title
+2206||Torn Page 2
+# NoteInfo:title
+2207||Torn Page 3
+# NoteInfo:title
+2208||Torn Page 4
+# NoteInfo:title
+2209||Torn Page 5
+# NoteInfo:title
+2210||Torn Page 6
+# NoteInfo:title
+2211||Torn Page 7
+# NoteInfo:title
+2212||Torn Page 8
+# NoteInfo:title
+2213||Torn Page 9
+# Furniture:title
+2214||Towel Stack
+# Furniture:title
+2215||Traffic Cone
+# Furniture:skins[].title
+2216||Train Painting
+# TrainShop:title
+2217||Train Shop Test
+# Furniture:title; FurnitureCollectable:title
+2218||Trash Bin
+# Storage:StorageSettings; Storage:title
+2219||Trash Collection Silo
+# DoorChangelevel:title
+2220||Trash House
+# Landmark:title
+2221||Trash Trader
+# CollectiblePackage:title
+2222||Trash bag
+# Storage:title
+2223||Trash bin
+# Storage:StorageSettings; Storage:itemSpawnCategory; Storage:title
+2224||Trashcan
+# WorkableResourceSource:title
+2225||Tree Debris
+# Furniture:title
+2226||Tripod Camera
+# TaskObjective:title
+2227||Try to find the cultists
+# Furniture:title; FurnitureCollectable:title; InteractableChair:title
+2228||Tuffet
+# DoorChangelevel:title
+2229||Tunnel
+# DoorChangelevel:title
+2230||Tunnel B2 Exit
+# TaskItem:itemName
+2231||Tunnel B2 keys
+# BookInfo:title; TaskInfo:title
+2232||Tunnel of Water Trees
+# Storage:title
+2233||Tv table
+# TextMeshProUGUI:m_text
+2234||Unfill Item
+# Achievements:achievements[].rewards[].rewardName
+2235||Union of Carpenters and Woodworkers
+# Furniture:title
+2236||Union of Carpenters and Woodworkers Flag
+# Achievements:achievements[].rewards[].rewardName
+2237||Union of Chefs and Cooks
+# Furniture:title
+2238||Union of Chefs and Cooks Flag
+# Achievements:achievements[].rewards[].rewardName
+2239||Union of Civil Servants
+# Furniture:title
+2240||Union of Civil Servants Flag
+# Achievements:achievements[].rewards[].rewardName
+2241||Union of Distillery Workers
+# Furniture:title
+2242||Union of Distillery Workers Flag
+# Achievements:achievements[].rewards[].rewardName
+2243||Union of Locksmiths
+# Furniture:title
+2244||Union of Locksmiths Flag
+# Achievements:achievements[].rewards[].rewardName
+2245||Union of Metal Workers
+# Furniture:title
+2246||Union of Metal Workers Flag
+# Furniture:title
+2247||Union of Mine Workers Flag
+# Achievements:achievements[].rewards[].rewardName
+2248||Union of Miners
+# NoteInfo:title
+2249||Unopened Letter
+# VendingMachine:sellableItems[].customTitle
+2250||Unsorted Trash
+# TextMeshProUGUI:m_text
+2251||Upgrade name
+# TextMeshProUGUI:m_text
+2252||Upgrade target name
+# TaskObjective:title
+2253||Upgrade the facade to at least Decent
+# TaskObjective:title
+2254||Upgrade the shop to at least Makeshift
+# TaskObjective:title
+2255||Upgrade the yard to at least Shabby
+# TextMeshProUGUI:m_text
+2256||Use (Item)
+# TextMeshProUGUI:m_text
+2257||V. PENTTI
+# Furniture:title
+2258||VCR
+# TextMeshProUGUI:m_text
+2259||Value: 100000 RM
+# DoorChangelevel:title
+2260||Van
+# CollectibleRecipes:title
+2261||Vape Liquids
+# Furniture:title; LiquidStorage:title
+2262||Vat
+# Text:m_Text
+2263||Vector2¶
+# Text:m_Text
+2264||Vector4¶
+# Furniture:title
+2265||Vegetable Crate
+# FurnitureCollectable:title
+2266||Vegetable Crate (10)
+# FurnitureCollectable:title
+2267||Vegetable Crate (3)
+# TaskItemBlueprint:itemName
+2268||Vegetable Crate Blueprint
+# Door:title; Soundscape:loopSounds[].title; Storage:title
+2269||Vent
+# Furniture:title
+2270||Vertical Farm
+# Furniture:title
+2271||Vertical Farm Box
+# TextMeshProUGUI:m_text
+2272||Vertical Sync
+# Growing:ManuName
+2273||Vertical farm
+# TextMeshProUGUI:m_text
+2274||Very Long Email Title With Stuff That Is Not Good For You Or Your Friend Who
+# StartSelection:selections[].title
+2275||Very good friend
+# Landmark:title
+2276||Veterinary Clinic
+# TaskInfo:description
+2277||Ville Sköldgangster has a beef with a gang residing on the top floor of the Deekula C building, and he wants you to scout out their premises and sabotage their operations.
+# TaskObjective:description
+2278||Ville said you should poison a bottle of Socca Junior that they're planning to give to their boss. He gave you a special recipe for poisoning the bottle. You'll need access to a chemical lab to prepare it. Then, you should switch the poisoned bottle with the one in the gift and leave the premises.
+# LoadingScreen:hintList[].title
+2279||Vine plants
+# Furniture:title; TaskItemBlueprint:itemName
+2280||Violet Pillow
+# TaskObjective:title
+2281||Visit Apartment 2 after the cleanup
+# TaskObjective:title
+2282||Visit Erto Lagerfeld
+# TaskObjective:description
+2283||Visit property and land register in office complex in Central district to obtain official records of ownership.
+# TaskObjective:title
+2284||Visit the downstairs neighbor
+# TaskObjective:title
+2285||Visit the mallment office
+# Furniture:title; Storage:title
+2286||Vitrine
+# TaskInfo:title
+2287||Vocational Education
+# TextMeshProUGUI:m_text
+2288||WALTER CORPORATION¶OBENSEUER HOUSING PROJECT
+# TextMeshPro:m_text
+2289||WINE
+# TextMeshPro:m_text
+2290||WOMEN
+# TaskObjective:title
+2291||Wait for Casper to return
+# TaskObjective:title
+2292||Wait for registration
+# TaskObjective:title
+2293||Wait for the Mail
+# TaskObjective:title
+2294||Wait for the drone to return
+# TaskObjective:title
+2295||Wait for the tunnel to be cleared
+# WaitingController:passoutEvents[].title
+2296||Wake Up
+# TextMeshProUGUI:m_text
+2297||Walk
+# TextMeshPro:m_text
+2298||Walker
+# Furniture:title
+2299||Wall Clock
+# FurnitureCollectable:title
+2300||Wall Clock (3)
+# Furniture:title
+2301||Wall Flag of Stalburg
+# Furniture:title
+2302||Wall Hook
+# TaskItemBlueprint:itemName
+2303||Wall Hook Blueprint
+# Furniture:title
+2304||Wall Light
+# Furniture:title
+2305||Wall Notes
+# TextMeshProUGUI:m_text
+2306||Wallet: 0
+# Furniture:title; Storage:StorageSettings; Storage:itemSpawnCategory; Storage:title
+2307||Wardrobe
+# DoorChangelevel:title
+2308||Warehouse
+# Furniture:title; Storage:title
+2309||Washing Machine
+# LoadingScreen:hintList[].title
+2310||Wasteland: Glowing things
+# InteractableWait:m_useMessage
+2311||Watch - 2 hours
+# InteractableWait:m_useMessage
+2312||Watch - 4 hours
+# TextMeshProUGUI:m_text
+2313||Water 0/1000L
+# Furniture:title
+2314||Water Cooler
+# Furniture:title
+2315||Water Cooler Bottle
+# LiquidStorage:title
+2316||Water cooler
+# Furniture:title
+2317||Watering Can
+# TextMeshProUGUI:m_text
+2318||Wealth of Merchants
+# TextMeshProUGUI:m_text
+2319||Wealth of merchants
+# TextMeshProUGUI:m_text
+2320||Wealth: Generous
+# manufacturing:UseMessage
+2321||Weave
+# TaskItem:itemName
+2322||Wedding ring
+# TextMeshProUGUI:m_text
+2323||Wednesday 18:20
+# TextMeshProUGUI:m_text
+2324||Weekly
+# LoadingScreen:hintList[].title
+2325||Weird people
+# TextMeshProUGUI:m_text
+2326||Welcome!¶¶Flea Market¶Open:¶Mon-Fri¶8am-4pm
+# TextMeshProUGUI:m_text
+2327||Welcome!¶¶Open:¶Mon-Fri¶8am-4pm
+# Achievements:achievements[].rewards[].rewardName; Character:Name; CollectibleItem:owner.name; DoorChangelevel:title
+2328||Welhö
+# TaskObjective:description
+2329||Welhö promised to give you a recommendation if you bring him one liter of Mushroom Moonshine of at least Fine quality.
+# TaskObjective:description
+2330||Welhö told you that he ordered his apprentice, Mikael Arnaldur, to burn the final two copies of the book. He said that Mikael lives in the middle of the slums, in a hut with a makeshift outdoor shower right next to the front door.
+# TaskInfo:description
+2331||Welhö told you that to prove you’re a true Welho, you must find the Suurwelho. Sadly, Welhö didn’t tell you where to find him.
+# TaskObjective:description
+2332||Welhö wants to play Shittypants with you in your hallucination. You should play one round with him.
+# LiquidStorage:title
+2333||Well
+# grow:title
+2334||Wheat Stalk
+# Furniture:title
+2335||Wheelbarrow
+# StartSelection:selections[].title
+2336||When drinking alcohol
+# StartSelection:selections[].title
+2337||When smoking mushrooms
+# Furniture:title
+2338||White Body Pillow
+# Furniture:title
+2339||White Cupboard
+# Furniture:title; TaskItemBlueprint:itemName
+2340||White Pillow
+# Furniture:title
+2341||White Placemat
+# Furniture:title; FurnitureCollectable:title
+2342||White Vase
+# Furniture:title
+2343||White and Green Rug
+# TextMeshProUGUI:m_text
+2344||Wieldables
+# StartSelection:selections[].id; StartSelection:selections[].title
+2345||Wife
+# StartSelection:selections[].title
+2346||Wife and kids
+# Furniture:skins[].title
+2347||Window Girl Painting
+# Storage:AllowedCategories[]; Storage:itemSpawnCategory; Storage:title
+2348||Wine rack
+# TextMeshProUGUI:m_text
+2349||Withdraw
+# Furniture:title
+2350||Woman Painting
+# manufacturing:ManuName
+2351||Wood stove
+# Furniture:title
+2352||Wooden Bench
+# FurnitureCollectable:title
+2353||Wooden Bench (3)
+# TaskItemBlueprint:itemName
+2354||Wooden Bench Blueprint
+# Furniture:title
+2355||Wooden Chair
+# TaskItemBlueprint:itemName
+2356||Wooden Chair Blueprint
+# Furniture:title
+2357||Wooden Chest
+# TaskItemBlueprint:itemName
+2358||Wooden Chest Blueprint
+# Furniture:title
+2359||Wooden Crate
+# FurnitureCollectable:title
+2360||Wooden Crate (10)
+# TaskItemBlueprint:itemName
+2361||Wooden Crate Blueprint
+# Furniture:title
+2362||Wooden Cross
+# Furniture:title
+2363||Wooden Desk
+# TaskItemBlueprint:itemName
+2364||Wooden Desk Blueprint
+# Furniture:title
+2365||Wooden Drawer
+# FurnitureCollectable:title
+2366||Wooden Drawer (3)
+# TaskItemBlueprint:itemName
+2367||Wooden Drawer Blueprint
+# TaskItemBlueprint:itemName
+2368||Wooden Half Pallet Blueprint
+# TaskItemBlueprint:itemName
+2369||Wooden Pallet Blueprint
+# Furniture:title
+2370||Wooden Partition
+# Furniture:title
+2371||Wooden Pillar
+# TaskItemBlueprint:itemName
+2372||Wooden Pillar Blueprint
+# TaskItemBlueprint:itemName
+2373||Wooden Quater Pallet Blueprint
+# Furniture:title; FurnitureCollectable:title
+2374||Wooden Shelf
+# TaskItemBlueprint:itemName
+2375||Wooden Shelf Blueprint
+# Furniture:title
+2376||Wooden Single Leg Table
+# Furniture:title
+2377||Wooden Stand
+# Furniture:title
+2378||Wooden Step Stool
+# TaskItemBlueprint:itemName
+2379||Wooden Step Stool Blueprint
+# Furniture:title
+2380||Wooden Table
+# FurnitureCollectable:title
+2381||Wooden Table (3)
+# TaskItemBlueprint:itemName
+2382||Wooden Table Blueprint
+# Furniture:title
+2383||Wooden Tv Table
+# FurnitureCollectable:title
+2384||Wooden Tv Table (3)
+# Furniture:title
+2385||Wooden Wardrobe
+# Door:title
+2386||Wooden pallet
+# DoorChangelevel:title
+2387||Wooden shack
+# Furniture:title
+2388||Work table
+# FurnitureCollectable:title
+2389||Work table (3)
+# FurnitureCrafting:title
+2390||Worktable
+# TextMeshProUGUI:m_text
+2391||Yard
+# Furniture:title
+2392||Yellow Lantern
+# TaskItemBlueprint:itemName
+2393||Yellow Lantern Blueprint
+# Furniture:skins[].title
+2394||Yellow Pappa-Tunturi Moped
+# Furniture:title
+2395||Yellow Sofa
+# Furniture:skins[].title
+2396||Yellow Star Flowers Painting
+# DoorChangelevel:title
+2397||Yellow shack
+# NoteInfo:content
+2398||Yes, I have something important to tell you!¶¶Do NOT eat those damn green mushrooms!¶Do NOT smoke anything! Especially not those green cigarettes!¶Do NOT drink alcohol! Well, sure, you can sell it to the others!¶¶They’re not good for you!¶¶Warmest warnings,¶Your lovely neighbor.¶
+# TreatmentMentalHealth:StatusDuck.description
+2399||You also seem to have an addiction to ducks, maybe that affects your mood.
+# TreatmentMentalHealth:StatusGood.description
+2400||You are fine now
+# TreatmentMentalHealth:StatusSevere.description
+2401||You are very unwell now
+# TaskInfo:description
+2402||You asked Akim Azizi in the Mallment for work, and he told you that he has several "special clients" to deliver kebabs to.¶¶For your first task, he told you to get a new döner from the meat shop.
+# LoadingScreen:hintList[].hintText
+2403||You can buy or craft furniture for your apartment
+# LoadingScreen:hintList[].hintText
+2404||You can buy or craft personal storages for your apartment
+# LoadingScreen:hintList[].hintText
+2405||You can get prescriptions for stronger medicines from the doctor
+# TextMeshProUGUI:m_text
+2406||You can minimize the game, while the save data ¶migration processes in the background.
+# LoadingScreen:hintList[].hintText
+2407||You can use an axe to break up boxes or boarded doorways
+# LoadingScreen:hintList[].hintText
+2408||You can use produce to plant more of it, instead of just seeds
+# TaskObjective:description
+2409||You chopped several fingers off Mailanen using an axe. You can try using those to prove to Casper that the bank manager took the rest of the money.
+# TaskObjective:description
+2410||You contacted the Fungal Disease Treatment Unit (FDTU) to decontaminate Apartment 2. Visit Apartment 2 after they have finished cleaning it.
+# TaskObjective:description
+2411||You dealt with Casper, and now the casino is free for Mailanen to take over.
+# TaskObjective:description
+2412||You decided to call the police, and Ines said she would wait for them.
+# TaskObjective:description
+2413||You decided to challenge Matti to a sauna competition to force him away from the lockers.
+# TaskObjective:description
+2414||You decided to pay them to do the work for you. Ken told you that it takes about two days to get it cleared from the debris.
+# TaskObjective:description
+2415||You discovered Erto's B23 storage sign tossed into a pigpen. Find out what happened.
+# TreatmentAddictions:StatusNone.title
+2416||You don't have addictions!
+# TextMeshProUGUI:m_text
+2417||You don't have money
+# TaskObjective:description
+2418||You found Raimo in the sauna & spa, but he refuses to leave the pool because a muscular guy is leaning against his locker.
+# TaskObjective:description
+2419||You found out that Erto's storage was replaced by a pigpen. You should bring him something to complete the second mission. Maybe a beer, a rubber duck, or something else?
+# TaskObjective:description
+2420||You found the place. You should search the premises and see if there's anything you can do to sabotage their operations.
+# TaskObjective:description
+2421||You found the remaining loose pages. Maybe Mikael or Welhö knows more about the book.
+# TaskObjective:description
+2422||You gave Casper a poisoned Socca Junior, which caused him to rush to a toilet.
+# TaskObjective:description
+2423||You got to the old mining tunnels through Deekula's basement.
+# TaskObjective:description
+2424||You have agreed to purchase house in the finer area of Bazaar for 220 000 RM. You should finish Open Homes Company office in the Mallment to finalize the deal.
+# TaskObjective:description
+2425||You have attended the required number of lectures. To finally earn your diploma, you must pass the final exam. Show up before 14:00 on an upcoming Tuesday or Thursday to put your knowledge to the test.
+# TreatmentFungalDisease:StatusDrunk.description
+2426||You have been drinking alcohol! I'm sorry but I can't do this when you've been drinking strong drinks. Come back when you are sober!
+# TaskObjective:description
+2427||You have collected enough recommendations; now you can bring them to Arvo.
+# TaskObjective:description
+2428||You have discovered that Suurwelho's true identity is Erto Lagerfeld. He lives in a tenement called Murju B in the slums.
+# TreatmentFungalDisease:StatusStopped.description
+2429||You have fungal disease but it's not active. It's spreading has stopped.
+# TaskInfo:description
+2430||You have officially enrolled in a moonshining course. It is time to study up and become a master moonshiner.
+# TaskObjective:description
+2431||You have submitted the forms, now you just need to wait for an answer
+# TaskObjective:description
+2432||You helped Max get his phone so he could call Arvo to recommend you.
+# TaskObjective:description
+2433||You later discovered that Anna Markkanen, who works at the canteen, has blonde hair.
+# TaskObjective:description
+2434||You learned from Aune Korsborg, the bookstore owner, that a man named Welhö bought the last two copies of the book.
+# TaskInfo:description
+2435||You learned from Fredrik that a woman who works in the mines was living with Joel. He didn’t know her name, but he mentioned that she had blonde hair. She could be the one responsible for the murders of Alice, Joel, and Pia.
+# TaskObjective:description
+2436||You learned from Laura that Ines was trying to get into a building in the Kauha's claim.
+# TaskObjective:description
+2437||You learned from Passmore that Heikki is currently hiding in a block called Mentti B.
+# TaskInfo:description
+2438||You learned from Toivo Malmijoki that the mining tunnel under your tenement is in danger of collapsing. Toivo told you that you should go talk to Ken Nakahara who is usually on the second floor of OS Mining Service.
+# TaskObjective:description
+2439||You learned that Heikki has a gambling addiction. There is probably someone at the Casino who knows about him.
+# TaskObjective:description
+2440||You learned that Heikki hung out with Jonas Elström at the Internet Cafe a few times. Maybe someone there knows more about him.
+# TaskObjective:description
+2441||You learned that a guy named Heska Pavonen can open the gate for you, but you need permission to go there. Heska said that someone at OS Mining Service can help you with that.
+# TaskObjective:description
+2442||You learned that a man named Reiska could help you obtain a mining permit. You can find him in a small office building at the ore drop-off point in the service area.
+# TaskObjective:description
+2443||You learned that the bank manager, Theo Tammi, left with his own bank's money to the central area of Obenseuer. But to get to the central area, you have to get an ID Card, International Passport, or Entry Permit, and also a negative test result.
+# TaskObjective:description
+2444||You learned that the casino owner, Casper Colikke, wants to get the money Heikki got from the bank heist, and you agreed to help him.
+# TaskObjective:description
+2445||You managed to get inside the downstairs apartment, but it is completely burned out and abandoned. There is no one here making noise.
+# TaskObjective:description
+2446||You managed to get into Welhö's lair, which has a well in the middle. Welhö asked you to look into it.
+# TaskObjective:description
+2447||You met a man named Erto who claims to be the Suurwelho. He demands you complete a trial to prove you are a real Welho.
+# TaskObjective:description
+2448||You paid 10000 RM to Seamus Liepa to have him handle the casino owner. He's going to have a little chat with him.
+# TaskObjective:description
+2449||You refused to help Casper Colikke track down Heikki's heist money. As a result, his guards beat you up and took everything in your pockets.
+# TreatmentAddictions:StatusDrunk.title
+2450||You seem to have alcohol in your blood now!
+# TaskObjective:description
+2451||You should be able to pick up the drone from a package automat after a couple of days.
+# TaskObjective:description
+2452||You should get to the Deekula B rooftop and launch the drone from there.
+# TaskObjective:description
+2453||You showed the fingers to Casper to prove that Heikki was telling the truth about the bank manager taking the rest of the money, but he didn't believe you. Casper asked you to bring proof that the bank manager really took the cash.
+# TaskObjective:description
+2454||You successfully completed the trial set by Erto, also known as Suurwelho. In return, he gave you a stickered bottle cap he calls the "Sacred Seal of Welhous". Maybe that will prove to Welhö that you're a real Welho.
+# TaskObjective:description
+2455||You successfully delivered the Sacred Seal. In response, Welhö has commanded you to seek out his secret lair, hidden somewhere within the bookstore. He gave you the access code: 4027.
+# TaskObjective:description
+2456||You successfully passed the exam. You should talk to Arvo.
+# TaskObjective:description
+2457||You told Malone that Seamus was coming and Malone decided to hide somewhere.
+# TaskObjective:description
+2458||You went to Malone's apartment and you didn't see Malone anywhere. However, Malone's belongings were still there.
+# NoteInfo:content
+2459||You wouldn’t happen to be missing your credit card, would you?¶¶Because funny thing just happened to me! I found your card in my pocket this morning, and I have no idea how it got there!¶¶But I think it was your old credit card anyway... so I just destroyed it!¶¶If you want a new one, just call the bank! I think the phone booth has their number!¶¶Your lovely neighbor!
+# TreatmentAddictions:StatusHigh.title
+2460||You're a bit high right now!
+# TreatmentPhysicalHealth:StatusBleedingLittle.description
+2461||You're bleeding a little. Adhesive bandages should do the trick.
+# TreatmentPhysicalHealth:StatusBleedingBad.description
+2462||You're bleeding badly. Immediate treatment is necessary.
+# TreatmentPhysicalHealth:StatusBleeding.description
+2463||You're bleeding. Apply get bandages to stop the bleeding.
+# TreatmentFungalDisease:StatusHigh.description
+2464||You're high! I'm sorry but I don't do this test when you're in the mushrooms! Come back when you're done with your shrooms!
+# TreatmentMentalHealth:StatusMediocre.description
+2465||You're not feeling very well now
+# Changelevel:title
+2466||Your Tenement
+# TreatmentPhysicalHealth:StatusAlmostHealthy.description
+2467||Your physical health is generally good, but you need some healing. I recommend painkillers to manage discomfort.
+# TreatmentPhysicalHealth:StatusNone.description
+2468||Your physical health is in good shape, no major concerns.
+# TreatmentPhysicalHealth:StatusBad.description
+2469||Your physical health is in very poor condition and requires healing. At the very least, I recommend prescription medications to help manage pain and discomfort during your recovery.
+# TreatmentPhysicalHealth:StatusOkay.description
+2470||Your physical health is okay, but healing is needed. I recommend painkillers to manage discomfort.
+# TreatmentPhysicalHealth:StatusSevere.description
+2471||Your physical health is severely compromised, and immediate healing is crucial. We must start treatment urgently to address the issues.
+# TreatmentPhysicalHealth:StatusBleedingSevere.description
+2472||Your severe bleeding requires immediate treatment. You need help right away.
+# LoadingScreen:hintList[].hintText
+2473||Your skills affect quality of produced items
+# ConversationTrigger:conversation; Usable:m_overrideName
+2474||Yuri Takahashi
+# Furniture:skins[].title
+2475||Ywlloe Plastic Chair
+# TextMeshProUGUI:m_text
+2476||architects
+# TreatmentMentalHealth:TargetMediocre.description
+2477||maybe you should buy antidepressants and stay away from turnips.
+# TreatmentMentalHealth:TargetGood.description
+2478||there are no signs of any mental issues that would require treatment.
+# Text:m_Text
+2479||wibble
+# TreatmentMentalHealth:TargetSevere.description
+2480||you have severe mental health problems! I recommend prescription medicine!
+# TreatmentMentalHealth:TargetPassable.description
+2481||you just have to sleep in a comfy bed, eat a fine meal and definitely not turnips.
+# TextMeshProUGUI:m_text
+2482||© 2026  Personal Pictures.¶All Rights Reserved.

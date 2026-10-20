@@ -1,0 +1,184 @@
+# conv 450: Bazaar/Slum/Eetu Rymy
+1|Eetu Rymy|Shh!
+# conv 453: Bazaar/Chamber of Commerce/Jussi Pöhinä
+2|Jussi Pöhinä|Please\,\,, sit down.
+3|Jussi Pöhinä|Vanja has\, several expansion plans\,\,, but\, we have to be careful\, with the government…\,\, they\, wouldn't like us\, expanding.
+4|Jussi Pöhinä|They're\, pushing too many\, people into\, Obenseuer.\,\,\, We already have\, enough problems with th\,e current population.
+5|Jussi Pöhinä|We have\, big plans\,\,, but\, we need things to\, calm down first.
+6|Jussi Pöhinä|Do you\, need something?
+7|P|I'm here about the shop
+8|Jussi Pöhinä|I'm sorry\, but…
+9|Jussi Pöhinä|The developers haven't\, released the shop yet.
+10|Jussi Pöhinä|Come back later.
+# conv 454: Bazaar/Chamber of Commerce/Katriina Vermund
+11|Katriina Vermund|[lua(Variable["PlayerFirstName"])]\, [lua(Variable["PlayerLastName"])]\,\,, right?
+12|Katriina Vermund|You're expected in\, the conference room.\,\, I’ll\, unlock the\, door for\, you.
+13|Katriina Vermund [ответ]|UNLOCK
+14|Katriina Vermund|Do you need something\,\,, [lua(Variable["PlayerLastName"])]?
+15|Katriina Vermund|Is there\, something I can help you with\,\,, [lua(Variable["PlayerLastName"])]?
+16|Katriina Vermund|How can I\, help you\,\,, [lua(Variable["PlayerLastName"])]?
+17|Katriina Vermund|Yes?
+18|P|Can you unlock the conference room door?
+# conv 455: Bazaar/Chamber of Commerce/Jussi Pöhinä Bark Sit
+19|Jussi Pöhinä|Ah, [lua(Variable["PlayerLastName"])], please sit down.
+# conv 456: Bazaar/Chamber of Commerce/Jussi Pöhinä Tenement
+20|Jussi Pöhinä|So...\,\, word has reached us\, that you're\, the\, newest owner of\, that\, little tenement\, right next to the\, Bazaar.\,\, And...
+21|Vanja Bjorkman|... and that\, property is\, something\, we’ve had our eyes on\, for\, quite some time.
+22|Vanja Bjorkman|You see\,\,, the previous owner…\,\, if he\, ever truly was\, the owner…\,\, was\, completely uncooperative.
+23|Vanja Bjorkman|But you...\,\, you look like\, a reasonable [lua(Actor["Player"].AgeNameFormalShort)].
+24|Jussi Pöhinä|Vanja\,, please!\,\,\, I'm the\, chairman here\,\,, so\, do\, not\, interrupt me!
+25|Vanja Bjorkman|Fine...
+26|Jussi Pöhinä|Anyway...\,\, the building is\, a complete\, eyesore\, in its current state\,\,, and\, we would like you to\, do something about it.
+27|Jussi Pöhinä|Anyway...\,\, we would like you\, to do something to\, your building.
+28|P|Uh, I'm actually here to meet Karl Hagen
+29|Vanja Bjorkman|I\, assure you\,\,, whatever business you have with\, Hagen\, can\, wait.
+30|Vanja Bjorkman|This is\, far more\, important.
+31|Vanja Bjorkman|First off\,\,, the facade needs\, serious work...\,\, it should\, at least look\, decent.
+32|Vanja Bjorkman|And\, the courtyard is in\, absolute shambles.\,\, It needs\, a proper fence\,\,, the stairs\, need fixing\,\,, and\, throw down some\, gravel or\, something.
+33|Jussi Pöhinä|And\, furthermore...
+34|Jussi Pöhinä|The commercial space\, on the ground floor.\,\, We want you to\, renovate it\, and\, open a business.
+35|Vanja Bjorkman|The courtyard is in\, absolute shambles.\,\,\, It needs\, a proper fence\,, the stairs need\, fixing\,\,, and\, throw down some\, gravel\, or something.
+36|P|What do you want me to do with it?
+37|P|Business? You want me to open a store or something?
+38|P|Why do you want me to do that?
+39|Vanja Bjorkman|Exactly!
+40|Vanja Bjorkman|Eventually\,\,, we want that\, entire strip\, integrated into the\, Bazaar\,\,, so\, it needs to be\, top-notch!
+41|Jussi Pöhinä|Keep your\, pants on\,\,, Vanja.
+42|Jussi Pöhinä|We can't\, officially merge his\, tenement into\, the Bazaar\,\,, but\, in the future\,\,, it could become a\, prime destination for\, tourists.
+43|P|What if I say no?
+44|Vanja Bjorkman|Then you can\, kiss your\, meeting with\, Karl\, goodbye!
+45|Jussi Pöhinä|Vanja\,\,, please!\,\, Don't be so\, aggressive with our\, guest...
+46|Jussi Pöhinä|... though\, he isn't\, entirely wrong.\,\, We strongly\, advise you to\, at least complete\, the renovations\, so\, the property is ready for\, business.
+47|Jussi Pöhinä|Now\,\,, first things\, first...
+48|Jussi Pöhinä|Anyway\,\,, first things first...
+49|Jussi Pöhinä|... we heard\, the commercial space requires\, cleaning from...\,\, hrm...\,\, fungal matter.
+50|Jussi Pöhinä|Take this\, card.\,\, It has the\, contact number for\, the...\,\, Fungal\, Eradication Unit\, or whatever.\,\,\, They handle\, heavy cleanups.
+51|Vanja Bjorkman|And\, here’s a flyer\, from a local\, contractor\, who does structural renovations.\,\,\, Go visit their\, workshop\, if you haven't already.
+52|Vanja Bjorkman|Now\,\,, go get your property in order\,\,, [lua(Variable["PlayerLastName"])].
+53|Jussi Pöhinä|And\, don't keep us...\,\, or\, Karl Hagen...\,\, waiting.
+54|Svein Regnell|So...\,\, shiny...
+# conv 457: Bazaar/Chamber of Commerce/Vanja Bjorkman
+55|Vanja Bjorkman|... hrm...
+56|Vanja Bjorkman|Have you\, visited the renovated spa yet?\,\, Isn't it\, magnificent?
+57|Vanja Bjorkman|Katriina brews\, great coffee.
+58|Vanja Bjorkman|Atle quit recently\,\,, so\, it's getting\, remarkably spacious\, in here.
+59|Vanja Bjorkman|... I've tried talking to\, Jussi\, and the others about\, expanding the Bazaar\,\,, but\, they're terrified of the\, Stolland government.
+60|Vanja Bjorkman|We could easily\, clear out the\, slums\, and move\, everyone down to\, the swamp…\,\,\, there's\, plenty of space.
+61|Vanja Bjorkman|And\, your tenement\, up on the hill?\,\, That would be\, a magnificent\, addition.
+62|Vanja Bjorkman|We could\, turn that bridge\, into a\, checkpoint\, and\, construct a new wall\,\,, and...\,\, maybe even\, run canal tours\, for\, the tourists.
+63|Vanja Bjorkman|… once this\, fungal plague is\, finally wiped out\,\,, tourists are going to\, pour into the Bazaar.
+64|Vanja Bjorkman|We have to\, be ready to profit\,\,, whether the locals like it\, or not.
+65|Vanja Bjorkman|I\, suggested redesigning\, the entire OC\, currency system\,\,, but\, it\, didn't get enough support\, from the idiots\, on the board.
+# conv 458: Bazaar/Chamber of Commerce/Svein Regnell
+66|Svein Regnell|It's\, so\, shiny…
+67|Svein Regnell|… I love\, shiny things…
+68|Svein Regnell|… hah...
+69|Svein Regnell|… why\, everything is\, so\, colorfull...
+# conv 461: Bazaar/Mallment/Anni Kiinteistö
+70|Anni Kiinteistö|How may I help?
+71|P|We discussed on a phone about buying a house
+72|P|We discussed on a phone about selling apartments
+73|P|I have funds ready (Pay 220 000 RM)
+74|Anni Kiinteistö|Oh.\, I do remember it\,, the luxury house next to the Chamber of Commerce.
+75|Anni Kiinteistö|The list price is 220 000 RM.\,\, Do you have funds ready\,, so we could finalize the transaction?
+76|P|Not yet
+77|Anni Kiinteistö|Excellent! \,\, The property is yours.
+78|Anni Kiinteistö|Here are\, the keys\,\, and\, paperwork.
+79|Anni Kiinteistö|Thanks for\,, uh \,\,, selecting\, Open Homes company!
+80|Anni Kiinteistö|I have everything ready,\,\, contract just needs your signature,\, and payment.
+81|Anni Kiinteistö|Oh\,, I do remember you.\,\, You're looking to sell multiple apartments?
+82|P|That's right
+83|Anni Kiinteistö|For making a listing,\, there's,\, uh,\, quite bit of an paperwork to do.
+84|Anni Kiinteistö|Property ownership can be a little\, murky here in Obenseuer,\, with all these abandoned\, and claimed buildings and unoffical constructions.
+85|Anni Kiinteistö|So offical deed proving the ownership of property is required.\,\, We don't want to end up in court\, and tarnish our reputation\, by brokering sale of a property with uncertainties.
+86|Anni Kiinteistö|Creating a listing also requires blueprints and technical documentation of the building.
+87|Anni Kiinteistö|Uh,\, and law also mandates an energy classification certificate.
+88|Anni Kiinteistö|Do you have the documents ready,\, so we can proceed?
+89|P|I need to get copy of the deed
+90|P|How do I obtain energy classification?
+91|Anni Kiinteistö|You're not the first one to ask.\,\, In fact almost every building here is missing one,\, as the law is quite recent.
+92|Anni Kiinteistö|Your would just need to hire an engineering company to take measurements and to do a review of the building.
+93|Anni Kiinteistö|There is big office complex in the Central district.\,\ There should be a branch of Land and Property Register.\,\ You could visit there, and ask for a notarized copy.
+94|P|Thank you (Leave)
+95|P|Alright (Leave)
+# conv 462: Bazaar/Industrial/Smuggler Doorphone
+96|Pertti Korhonen|State your business.
+97|P|Karl send me
+98|Pertti Korhonen|Very good yes\,\,, but developers haven't release this part yet.
+99|Pertti Korhonen|Come back later.
+# conv 464: Bazaar/Restaurant/Lotta Savisaar
+100|Lotta Savisaar|We’ve been\, waiting for our water for\, ten minutes...
+101|Lotta Savisaar|I hate garlic...\, \, and\, tomato sauce.
+102|Lotta Savisaar|Don't mind my\, husband...
+103|Lotta Savisaar|My\, pasta better actually be\, warm\, this time...
+# conv 465: Bazaar/Restaurant/Matias Savisaar
+104|Matias Savisaar|Look...\,\, pal\,, I'm just\, trying to survive.
+105|Matias Savisaar|Stock prices are\, crashing...
+106|Matias Savisaar|Unless you're selling\, discounted OS Power shares\,\,, I don't think\, we have much to\, talk about.
+107|Matias Savisaar|Not now\,, please...
+# conv 466: Bazaar/Restaurant/Tonie Savisaar
+108|Tonie Savisaar|My parents\, blamed me\, for eating the whole cake\,, and\, now\, I'm sitting here\, hungrily\,\,, waiting for them to\, finish eating.
+109|Tonie Savisaar|They won't even let me\, order the\, garlic bread...
+110|Tonie Savisaar|Do you have\, any snacks on you?\,\, I'll pay you!
+111|Tonie Savisaar|I only ate two slices...
+112|P|I can sell you candy (Trade)
+# conv 467: Bazaar/Restaurant/Ilona Rummo
+113|Ilona Rummo|This restaurant is\, almost perfect\,\,, but\, the drinks they sell here\, aren't\, nearly\, strong enough\, for\, my taste.
+114|Ilona Rummo|Honestly\,\,, I have to sneak my\, own drinks in here\, just to feel\, a buzz.
+115|Ilona Rummo|Have you\, ever tried rat meat?\,\, I can't believe it's\, considered some sort of\, fancy cuisine in\, France...\,\, or\, at least\,, that's what my\, husband claims.
+116|Ilona Rummo|Sometimes\, I wonder why we all just\, accept\, how terrible things\, have gotten...
+# conv 468: Bazaar/Gym/Rami Nousukainen
+117|Rami Nousukainen|I heard\, there's some\, creep\, harassing women\, around the gym.
+118|Rami Nousukainen|If I\, catch him...\,\, I'm gonna\, punch his gut so hard\, he'll be throwing up his\, teeth.
+119|Rami Nousukainen|Tsk...\,\, I'm busy right now.
+120|Rami Nousukainen|Keep grinding\,, bro.
+# conv 469: Bazaar/Gym/Otso Terästalia
+121|Otso Terästalia|Bro\,, you looking for\, a boxing match?\,\,\, Go talk to\, Muscle Max upstairs.
+122|Otso Terästalia|Matti\, spends way too much time\, relaxing at the\, spa...\,\, He belongs here\, in the gym\,, hitting the weights.
+123|Otso Terästalia|You here to\, lift\,, or just\, stand around\, taking up space?
+124|Otso Terästalia|You want arms like these\,, bro?\,\,\, You gotta eat\, protein\,\, and\, lift until your\, vision goes blurry.
+# conv 470: Bazaar/Gym/Eila Hellamäki
+125|Rami Nousukainen|I'm trying to\, finish my\, workout playlist...
+126|Rami Nousukainen|The music\, in this place is so\, horrible...
+127|Rami Nousukainen|Are you...\,\, staring at me?
+128|Rami Nousukainen|Uh...\,\, I'm\, really\, busy\, right now.
+# conv 471: Bazaar/Bar/Jarppi Puukko
+129|Jarppi Puukko|Don't get stabbed.
+130|Jarppi Puukko|My ancestors\, were\, famous\, knife fighters.
+131|Jarppi Puukko|My\, brothers\, and I\, inherited a farm\, in the\, swamp area.
+132|Jarppi Puukko|We\, run the biggest\, farm in the Obenseuer\, area.
+# conv 472: Bazaar/Mallment/Maximo Utedass Bark
+133|Maximo Utedass|Hey! Some privacy, please!
+134|Maximo Utedass|Close the door!
+135|Maximo Utedass|Occupied!
+136|Maximo Utedass|Hey!
+# conv 473: Bazaar/Bar/Julia Stensson
+137|Julia Stensson|I'm waiting for someone.
+# conv 474: Bazaar/Bar/Tina Myrtorp
+138|Tina Myrtorp|What?
+# conv 476: Bazaar/Mallment/Maximo Utedass
+139|Maximo Utedass|Do I look like\, I want to\, chat with you?!
+140|Maximo Utedass|Close\, the\, damn\, door!
+141|Maximo Utedass|What the hell\, do you want from me?
+142|Maximo Utedass|Hey!\, Get out of here\,\,, you pervert!
+143|P|I think you dropped this (Give shit)
+144|Maximo Utedass|Ah!\,\, What kind of\, sick freak carries that\, around in their\, pockets?!
+145|Maximo Utedass|Get\, out!\,\, GET OUT!
+# conv 481: Bazaar/Jail/Warden Call
+146|Warden|What?\,\,\, You're\,\, already free\,\,, the\, door's\, open. 
+147|P|When do I get out of here?
+148|P|I need something
+149|P|Can I pay to get out of here?
+150|P|I need a can opener¶
+151|Warden|What do you need?
+152|P|I'm desperate for a duck!
+153|P|I'm hurt. I need medicine
+154|P|I'm bleeding
+155|P|I really NEED some mushrooms!
+156|P|Nothing right now
+157|Warden|You're here for a reason.\,\,\, So.\,\, No.
+158|Warden|Let's see...\,\,\, [lua(GetSentenceLength())].
+159|Warden|Okay (Leave)
+160|Warden|Sure...\,\,\, do you want anything\, else?
+# conv 482: Bazaar/Jail/Warden Relase
+161|Warden|[lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])] you have been released. The door is open. You can claim your items from the storage room across the lobby.

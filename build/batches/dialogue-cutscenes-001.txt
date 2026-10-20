@@ -1,0 +1,79 @@
+# conv 84: CutScenes/Ending/SMV Ending
+1|???|Another victim...\,\,\,\, it doesn't seem to react\,\, to anything.\,\,\,\, What do we do with it?\,\,\, We can't save it\,\,\,, but there is something weird about this one.\,\,\, I need to\,\, examine it more closely.
+2|P|Help...
+3|P|What...
+4|???|An experimental drug has been administered.\,\,\, Left and right\, hands have been amputated\,\,\, and also part of the brain has been removed.\,\,\, It did not prevent the spread of fungal disease.\,\,\, The right eye is\,\, completely\,\, green.
+5|P|I...
+6|P|Help me...
+7|P|Hands...
+8|P|No...
+9|???|The whole body is full of mushrooms\,\,\,, but it is still alive.\,\,\,\, Weird...\,\,\, I have to take a sample.\,\,\, This fungus is red.\,\,\,\,\, There's\, more...\,\,\, maybe\, we shouldn’t\,\, dispose of it yet.
+10|P|Kill me...
+11|???|There is no space here\,\,\,\,, so we have to transfer it to the quarantine zone.\,\,\, We can\, get it from there later.\,\,\, I'm not sure\,\, if it can move yet\,\,\,, but those\, red mushrooms\, might affect it.
+# conv 83: CutScenes/Intro/Interviewer
+12|Interviewer [ответ]|Are you ready?
+13|P|I'm ready
+14|P|Personal? What do you mean?
+15|P|Why do you have these screens?
+16|P|I have no reason to be here! Let me out!
+17|Interviewer|You'll see.\,\,\, So\,\,\,, are you ready?
+18|Interviewer|This is for security reasons.\,\,\,\, Are you ready?
+19|Interviewer|[lua(Variable["PlayerLastName"])].\,\, Everyone is sent here\, for a reason.\,\,\, We cannot\, let you go.\,\,\, However\,\,, you can apply for permission to visit the outside at later time.\,\,\, So\,\,, are you ready?
+20|Interviewer|That's all.\,\,\, So...\,\,\, you're going to\, get\, this\,.\,.\,.\,\,\,\, unfinished\, block of flats.
+21|P|What am I supposed to do with that tenement?
+22|Interviewer|Maybe you should go there and investigate it first.\,\,\, It is not really our job to say what you should do with it.
+23|P|Why are you giving it to me?
+24|Interviewer|Because...\,\,\, there is currently\, a severe shortage\, of vacant apartments\,\,\, and there are many\,\, people without\, a home.
+25|P|Can you tell me something about Obenseuer?
+26|Interviewer|There are\,\, a few things that would be good to know.\,\,\,\, First of all\,\,\,, they have their own money called\,\,\, Open Sewer coins\,\,\, or simply OC.
+27|P|Can I go now?
+28|Interviewer|You can go...\,\,\, but before that...\,\,\, be sure to take your package with you.\,\,\, We'll send it to you in a moment.\,\,\, Wait at the vending machine.
+29|Interviewer|Whatever.\,\,\, You get\, the whole\, building.\,\,\, It's\, yours.\,\,\, Its location should be marked on the map in front of you.\,\,\,\, Do you have any\, questions?
+30|Interviewer|There has to be something wrong with this.
+31|Interviewer|Second, Obenseuer is full of\, sick and\,\, unique people...\,\,\, so be careful...\,\,\,\, and finally...\,\,\,\, stay away from green mushrooms.
+32|Interviewer|[lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])].\,\,\, We have to ask a few questions\,\, for your own safety.\,\,\, Some of these questions\, are\, personal.\,\, This information is important\, for finding a cure for\, fungal disease.
+33|Interviewer|We don't have an answer for that\,\,, because we don't decide these things...\,\,\, but I...\,\,\, we believe it's a mistake.
+# conv 17: CutScenes/Intro/Intro
+34|?|Hello\,?\,\,\,\, Am I in the right place?\,\,\,\, Why is it so\,\,\, dark in here?
+35|?|The city of Stalburg has made great progress\, in dealing with its\, homeless crisis...
+36|?|Unfortunately\,\,, the Obenseuer area has been ravaged\, by some kind of fungal disease.
+37|?|The disease\, is believed to be caused by\, green glowing mushrooms\, found all over the district.
+38|?|Now the government is planning to completely eradicate\, these mushrooms from the city.
+39|?|All individuals\, who have been diagnosed with the fungal disease\, have been evacuated to a quarantined area\, within Obenseuer...
+40|?|The massive influx\, of new residents\, has created a major housing shortage\, in Obenseuer.
+41|?|Reports of violence\,, famine\,, poor hygiene\,, alcohol related problems\, and various diseases\, from locals are surfacing frequently.
+42|?|Entering\, or leaving\, the quarantine area\, is strictly\, forbidden.
+43|?|I\,\,\, brought the red ones\,\,\, and...\,\,\, Hello?\,\,\, Anyone?
+44|?|due to recent efforts to relocate all\, homeless individuals to the district of\, Obenseuer\,\,, locally known as\,\, Open Sewer.
+45|?|as researchers are still trying to find a cure.
+# conv 415: CutScenes/Welho/Interviewer
+46|Interviewer|[lua(Variable["PlayerFirstName"])]\, [lua(Variable["PlayerLastName"])].\,\,\, We must\, conduct...\,\, a\, preliminary assessment\, before we\, authorize your\, deployment to\, the site.
+47|Interviewer|Are you\, ready?
+48|Interviewer|Good.
+49|Interviewer|First\,\,, we need\, confirmation\, that you understand\, exactly\, what happens to you\, if you\, breach your...\,\, non-disclosure agreement.
+50|P|Yes, I understand what will happen
+51|Interviewer|Excellent.
+52|Interviewer|You know the basics of\, the operation\,\,, and\, you know our\, operational window is...
+53|Interviewer|...\, extremely\,\, short.
+54|Interviewer|So\,\,, there is\, no time to\, freeze up.
+55|Interviewer|You\, get in\,\,, you\, finish the job\,\,, no matter\, what happens\, around you.
+56|Interviewer|Do you\, understand?
+57|P|Yes, no hesitation. I've got it
+58|Interviewer|Great.
+59|Interviewer|If\, everything goes well\,\,, your\, pending relocation to\, Obenseuer will be\, revoked entirely.
+60|Interviewer|Now\,\,, listen closely.
+61|Interviewer|Five others\, have gone ahead of you\, for this\, exact task.
+62|Interviewer|And\, you're\, the last one.
+63|Interviewer|When it's\, your turn\,\,, you will be\, instructed to\, stand on\, a designated marker.
+64|Interviewer|The transition is\, going to...\,\, hit you hard\, and you will\, experience\, severe dizziness.
+65|Interviewer|You must\, focus entirely on...\,\, remaining conscious...\,\, so\,, do not\, allow yourself to\, faint.
+66|Interviewer|Upon arrival\,, you will...\,\, materialize\, directly at\, the edge of the\, excavation hole.
+67|Interviewer|So...\,\, get down there\, as fast as you can\, and use\, the provided pickaxe\, to\, extract as many of the\, red rocks as\, possible.
+68|Interviewer|Next\,\,, we're...
+69|Welhö|Gah!
+70|Welhö|That was...\,\, exceedingly unpleasant!
+71|Welhö|Hmph!
+72|Welhö|What is\, this nonsense?
+73|Welhö|We're supposed to\, be starting\, the game!
+74|Welhö|Excellent…\,\, now\, we can\, finally begin\, playing...
+75|Welhö|The Shittypants!

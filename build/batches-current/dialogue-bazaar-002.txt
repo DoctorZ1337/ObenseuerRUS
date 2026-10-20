@@ -1,0 +1,87 @@
+# conv 446: Bazaar/Casino/Heikki Mailanen
+1|Heikki Mailanen|Welcome to\, my casino!\,\,\, Beautiful\,\,, isn't it?
+2|P|I'm here to collect my reward
+3|Heikki Mailanen|Ah...\,\, right...\,\, the\, reward\, I promised you.\,\, I suppose\, a deal is a deal.
+4|Heikki Mailanen|Here\,\,, take it.\,\, I\, certainly hope\, this is enough for you.
+5|Heikki Mailanen|And take this too.
+6|Heikki Mailanen|It's...\,\, uh...\,\, a giant coin.\,\,\, It's...\,\, the\, new casino mascot.\,\, The current one is...\,\, way too creepy.
+7|Heikki Mailanen|Now\,, if you'll excuse me\,, my time is...\,\, uh...\,\, expensive.\,\,\, Run along.
+# conv 447: Bazaar/Murju/Miina-Ansa Virtanen
+8|Miina-Ansa Virtanen|How did you\, get past the\, tripwire!?\,\, Did you\, step over it\,\,, or\, is the\, detonator broken again?!
+9|Miina-Ansa Virtanen|Who\, are\, you?!
+10|Miina-Ansa Virtanen|What are you\, doing in my\, apartment?!\,\,\, Take your\, shoes off at\, least...\,\, and\, don't touch anything!
+11|Miina-Ansa Virtanen|Just...\,\, get the hell out of my apartment!"
+# conv 448: Bazaar/Murju/Miina-Ansa Virtanen Door
+12|???|Food?
+13|P|Yeah, kebab
+14|???|Yes...\,\, yes...\,\,\, leave it on\, the floor.
+15|???|Here is\, something for you.
+16|???|You bring\, food!?
+17|P|Nope
+# conv 449: Bazaar/Jail/Lätty
+18|Lätty|Prison food sucks...\,\, I should\, order another pizza.
+19|Lätty|It's nice here\, if you ignore the\, food.\,\,\, It makes me\, really gassy.
+20|Lätty|I'm waiting for my\, pizza.\,\, Usually\,, it\, doesn't take this long.
+21|Lätty|I'm hungry.
+22|P|Your pizza is here
+23|Lätty|You actually brought it all the way to the cell! \,\, Usually the prison staff handles me the pizza, sometimes with couple of slices missing.
+24|Lätty|I...\,\, I would give you money, but my wallet is confiscated...\,\, If you ever run into trouble, my lawyer will help!\ Just give him a call.
+# conv 450: Bazaar/Slum/Eetu Rymy
+25|Eetu Rymy|Shh!
+# conv 453: Bazaar/Chamber of Commerce/Jussi Pöhinä
+26|Jussi Pöhinä|Please\,\,, sit down.
+27|Jussi Pöhinä|Vanja has\, several expansion plans\,\,, but\, we have to be careful\, with the government…\,\, they\, wouldn't like us\, expanding.
+28|Jussi Pöhinä|They're\, pushing too many\, people into\, Obenseuer.\,\,\, We already have\, enough problems with th\,e current population.
+29|Jussi Pöhinä|We have\, big plans\,\,, but\, we need things to\, calm down first.
+30|Jussi Pöhinä|Do you\, need something?
+31|P|I'm here about the shop
+32|Jussi Pöhinä|I'm sorry\, but…
+33|Jussi Pöhinä|The developers haven't\, released the shop yet.
+34|Jussi Pöhinä|Come back later.
+# conv 454: Bazaar/Chamber of Commerce/Katriina Vermund
+35|Katriina Vermund|[lua(Variable["PlayerFirstName"])]\, [lua(Variable["PlayerLastName"])]\,\,, right?
+36|Katriina Vermund|You're expected in\, the conference room.\,\, I’ll\, unlock the\, door for\, you.
+37|Katriina Vermund [ответ]|UNLOCK
+38|Katriina Vermund|Do you need something\,\,, [lua(Variable["PlayerLastName"])]?
+39|Katriina Vermund|Is there\, something I can help you with\,\,, [lua(Variable["PlayerLastName"])]?
+40|Katriina Vermund|How can I\, help you\,\,, [lua(Variable["PlayerLastName"])]?
+41|Katriina Vermund|Yes?
+42|P|Can you unlock the conference room door?
+# conv 455: Bazaar/Chamber of Commerce/Jussi Pöhinä Bark Sit
+43|Jussi Pöhinä|Ah, [lua(Variable["PlayerLastName"])], please sit down.
+# conv 456: Bazaar/Chamber of Commerce/Jussi Pöhinä Tenement
+44|Jussi Pöhinä|So...\,\, word has reached us\, that you're\, the\, newest owner of\, that\, little tenement\, right next to the\, Bazaar.\,\, And...
+45|Vanja Bjorkman|... and that\, property is\, something\, we’ve had our eyes on\, for\, quite some time.
+46|Vanja Bjorkman|You see\,\,, the previous owner…\,\, if he\, ever truly was\, the owner…\,\, was\, completely uncooperative.
+47|Vanja Bjorkman|But you...\,\, you look like\, a reasonable [lua(Actor["Player"].AgeNameFormalShort)].
+48|Jussi Pöhinä|Vanja\,, please!\,\,\, I'm the\, chairman here\,\,, so\, do\, not\, interrupt me!
+49|Vanja Bjorkman|Fine...
+50|Jussi Pöhinä|Anyway...\,\, the building is\, a complete\, eyesore\, in its current state\,\,, and\, we would like you to\, do something about it.
+51|Jussi Pöhinä|Anyway...\,\, we would like you\, to do something to\, your building.
+52|P|Uh, I'm actually here to meet Karl Hagen
+53|Vanja Bjorkman|I\, assure you\,\,, whatever business you have with\, Hagen\, can\, wait.
+54|Vanja Bjorkman|This is\, far more\, important.
+55|Vanja Bjorkman|First off\,\,, the facade needs\, serious work...\,\, it should\, at least look\, decent.
+56|Vanja Bjorkman|And\, the courtyard is in\, absolute shambles.\,\, It needs\, a proper fence\,\,, the stairs\, need fixing\,\,, and\, throw down some\, gravel or\, something.
+57|Jussi Pöhinä|And\, furthermore...
+58|Jussi Pöhinä|The commercial space\, on the ground floor.\,\, We want you to\, renovate it\, and\, open a business.
+59|Vanja Bjorkman|The courtyard is in\, absolute shambles.\,\,\, It needs\, a proper fence\,, the stairs need\, fixing\,\,, and\, throw down some\, gravel\, or something.
+60|P|What do you want me to do with it?
+61|P|Business? You want me to open a store or something?
+62|P|Why do you want me to do that?
+63|Vanja Bjorkman|Exactly!
+64|Vanja Bjorkman|Eventually\,\,, we want that\, entire strip\, integrated into the\, Bazaar\,\,, so\, it needs to be\, top-notch!
+65|Jussi Pöhinä|Keep your\, pants on\,\,, Vanja.
+66|Jussi Pöhinä|We can't\, officially merge his\, tenement into\, the Bazaar\,\,, but\, in the future\,\,, it could become a\, prime destination for\, tourists.
+67|P|What if I say no?
+68|Vanja Bjorkman|Then you can\, kiss your\, meeting with\, Karl\, goodbye!
+69|Jussi Pöhinä|Vanja\,\,, please!\,\, Don't be so\, aggressive with our\, guest...
+70|Jussi Pöhinä|... though\, he isn't\, entirely wrong.\,\, We strongly\, advise you to\, at least complete\, the renovations\, so\, the property is ready for\, business.
+71|Jussi Pöhinä|Now\,\,, first things\, first...
+72|Jussi Pöhinä|Anyway\,\,, first things first...
+73|Jussi Pöhinä|... we heard\, the commercial space requires\, cleaning from...\,\, hrm...\,\, fungal matter.
+74|Jussi Pöhinä|Take this\, card.\,\, It has the\, contact number for\, the...\,\, Fungal\, Eradication Unit\, or whatever.\,\,\, They handle\, heavy cleanups.
+75|Vanja Bjorkman|And\, here’s a flyer\, from a local\, contractor\, who does structural renovations.\,\,\, Go visit their\, workshop\, if you haven't already.
+76|Vanja Bjorkman|Now\,\,, go get your property in order\,\,, [lua(Variable["PlayerLastName"])].
+77|Jussi Pöhinä|And\, don't keep us...\,\, or\, Karl Hagen...\,\, waiting.
+78|Svein Regnell|So...\,\, shiny...

@@ -1,0 +1,150 @@
+# conv 186: Tenement/Tenement A/Johannes Eskola
+1|Johannes Eskola|Damn Jimi broke down\, the door\,\, and I\, don't know where the heck\, he\, is right now.
+2|Johannes Eskola|I hope you don't work at that\,\, mushroom lantern factory.\,\,\, I don't trust those\, guys\,\, and they make a lot of noise too!
+3|Johannes Eskola|Don't go to\, Jimi's room.\,\,\, It's\, dangerous there.
+4|Johannes Eskola|There is\, a duck vending machine upstairs.\,\,\, Feel free to use it.
+5|Johannes Eskola|Have you ever played darts?\,\,\, I'm\, quite good at it.
+6|Johannes Eskola|Yeah\,\,, I have seen that guy with some\, girl.
+7|Johannes Eskola|He lives on\, the second floor.
+8|Johannes Eskola|Sorry\,\,, but\,\, that doesn't\, ring a bell.
+9|Johannes Eskola|Because\, he had taken my\, remote control.
+10|Johannes Eskola|So\,\, I borrowed the keys\, from the manager of the building.
+11|Johannes Eskola|He will agree to anything\, as long as you give him\, Stollandia vodka.
+12|Johannes Eskola|However...\,\, I\, never found the remote.
+# conv 189: Tenement/Tenement A/Jonne Reis
+13|Jonne Reis|I'm Jonne.\,\,\, Obenseuer's only\, elevator expert.
+14|Jonne Reis|I promise\, the elevators here are in better condition\, than anywhere in\, Stalburg.
+15|Jonne Reis|You'll have to ask\,\, Urho Siltanen about that.\,\,\, I help him install\, the elevators.
+16|Jonne Reis|You shouldn't\, enter other people's homes\, without permission.
+17|Jonne Reis|Did you know that\, kebab is my favorite\, dish.
+18|Jonne Reis|Oh\,\,, hello.
+19|Jonne Reis|I can help\, if you need\, elevator installation\,\, or repair.
+20|Jonne Reis|Do you need\, anything?
+21|Jonne Reis|I like to read\, the Obenseuer magazine.\,\,\, People are so messed up here.
+22|Jonne Reis|His\, engineering workshop is\, located in\, the Bazaar.
+23|Jonne Reis|Let me mark the\, spot on your\, map.
+24|Jonne Reis|No\,\,, I don't know\, anyone named\, Alice.
+# conv 184: Tenement/Tenement A/Louie Green
+25|Louie Green|So\,\,, a [lua(Actor["Player"].AgeName)] like you wants to work here?
+26|Louie Green|Ready\,, huh?\,\,\, We'll see about that.
+27|Louie Green|Great!\,\,\, Now get to work.
+28|Louie Green|Excellent!\,\,\, Good news for me!
+29|Louie Green|Oh\,, it's you again.\,\,\, Ready to work again?
+30|Louie Green|I have to admit you were\,\, pretty good last time.\,\,\, Ready to work?
+31|Louie Green|Are you here to\, make some\, quality lanterns today?
+32|Louie Green|I'm glad to have you on the team.\,\,\, So\,, back to work?
+33|Louie Green|Before you start\,\, let me make a few things\, clear.
+34|Louie Green|Your shift\, lasts eight hours\,\, and the minimum wage is\, 65 OC per hour.
+35|Louie Green|You can also take\, the blueprints\,\, from the table\,\, if you don't already have them.
+36|Louie Green|So\,\,, are you ready?
+37|Louie Green|I\,\, think I have heard that name\, somewhere.
+38|Louie Green|I think\,\, Hietala knows her.
+39|Louie Green|He\, used to work here\,\, but quit a few days ago.
+# conv 212: Tenement/Crazy Neighbor/Crime
+40|Crazy Neighbor|I\, didn't give permission to do that\,\,, my\, dear neighbor.
+41|Crazy Neighbor|My sweet neighbor!\,\,\, Do you think that's\, funny?
+42|Crazy Neighbor|What do you think you are doing\,\,, my dear\, neighbor?
+43|Crazy Neighbor|You'd better go home\,\,, my dear little criminal!
+44|Crazy Neighbor|You\, did something\, you shouldn't have done\,\,, my\, criminal\, neighbor! 
+# conv 213: Tenement/Market/Lizzy Mopper
+45|Lizzy Mopper|Hello?\,\, In need of janitor services?
+46|Lizzy Mopper|Do you perhaps\, need the services of\, a janitor today?
+47|Lizzy Mopper|Do you need to\, empty your septic tank\, today?
+48|Lizzy Mopper|Maybe you need to fill your\, water tanks today?
+49|Lizzy Mopper|Hello?\,\,\, What do you need\, today?
+50|Lizzy Mopper|Do you perhaps need help\, filling the water tanks\,\, or emptying the septic tank?
+51|Lizzy Mopper|Sure\,\,, what do you want to know?
+52|Lizzy Mopper|It includes all the showers\, and\, water taps! 
+53|Lizzy Mopper|If you have\, a large septic tank installed\,\,, we will empty it!
+54|Lizzy Mopper|And\, we also empty all the sewage tanks\, that are in\, your sinks!
+# conv 251: Tenement/Crazy Neighbor/Hit
+55|Crazy Neighbor|What\, the hell?\,\,\, Why\, did you do\, that\,\,\,, my\, lovely neighbor?
+56|Crazy Neighbor|My\, dear neighbor!\,\,\, Are you\, trying to\, kill me?
+57|Crazy Neighbor|You just\, did something\, you\, absolutely\, shouldn't have\,\,, my\,\, murderous\, neighbor!
+58|Crazy Neighbor|I\, can’t believe this!\,\,\, My\, dear neighbor\, is\, trying to\, murder me?
+59|Crazy Neighbor|What did I\, ever do to\, deserve this?\,\,\, You’ve\, gone too far\, this time\,\,, my\, dear neighbor!
+# conv 255: Tenement/Crazy Neighbor/Crazy Neighbor Greeting
+60|Crazy Neighbor|I hope everything alright, my lovely neighbor!
+61|Crazy Neighbor|How are you, my dear neighbor?
+62|Crazy Neighbor|Ah, my dear neighbor...
+63|Crazy Neighbor|My dearest neighbor!
+64|Crazy Neighbor|Good to see you, neighbor.
+65|Crazy Neighbor|I was just thinking about you, my lovely neighbor!
+# conv 256: Tenement/Crazy Neighbor/Crazy Neighbor Default
+66|Crazy Neighbor|...\,\,\, well\,\,, well\,\,, my dear neighbor!
+67|Crazy Neighbor|Careful\, who you talk to\,\,, dear\, neighbor…\,\,\, not\, everyone’s as friendly as me!
+68|Crazy Neighbor|What’s on your\, lovely mind\,\,, dear neighbor?
+69|Crazy Neighbor|Here to\, chat\,\,, or just\, enjoy the smell of\, my\, freshly\, washed suit?
+70|Crazy Neighbor|Have you been\, sleeping\, well?\,\, You\, should.
+71|Crazy Neighbor|What\, can I\, do for my\, favorite neighbor today?
+72|Crazy Neighbor|You\, smell like\, secrets today…\,\, I\, like that.
+73|Crazy Neighbor|... was that\, rat I\, smelled on your\, breath?\,\,\, Or just\,\, ambition\,, my dear\, neighbor?
+74|Crazy Neighbor|Did you\, hear that?\,\, No?\,\, Good.
+75|Crazy Neighbor|I like the way your\, footsteps\, sound\,\,, my\, lovely\, neighbor.
+76|Crazy Neighbor [ответ]|LATE
+77|Crazy Neighbor|Three times\, a week\,\,, neighbor!\,\,\, That was\, the agreement!\,\,\, And\, you’re\, late!
+78|Crazy Neighbor|You’re\, late for\, our special little moment!\,\,\, You have to\, come with me\, now!
+79|Crazy Neighbor|My...\,\,\, lovely neighbor?\,\,\, Why\, have you been avoiding me?
+80|Crazy Neighbor|Neighbor!\,\,\, Let’s\, have fun like the old days!
+81|Crazy Neighbor|I...\,\, said three times a week!\,\,\, THREE!\,\,\, And\, this one’s mandatory\,, my\, dear neighbor!
+82|Crazy Neighbor|My\, dear neighbor.\,\,\, You have to\, come with me now!\,\,\, I\, even fluffed the pillows!
+83|Crazy Neighbor|I\, cleaned the\, whole apartment!\,\,\, You\, have to\, come see it!
+84|Crazy Neighbor|It’s\, fun time\,\,, my\, dear neighbor!\,\, Don’t run\, from joy!
+85|Crazy Neighbor|Where do you think you’re going?\,\,\, Our\, tea’s getting cold!
+86|Crazy Neighbor|Come with me\,\, before\, the tea gets cold!
+87|Crazy Neighbor|You're\, coming with me now!
+# conv 257: Tenement/Crazy Neighbor/Crazy Neighbor Shrooms
+88|Crazy Neighbor|Neighbor! I haven’t seen you visiting lately. Now come with me... we're long overdue for some fun!
+89|Crazy Neighbor|You’ve been avoiding my door, haven’t you, my dear neighbor.
+# conv 287: Tenement/Outside/Hazmat Guy
+90|???|Sorry\,\,, but\, access beyond this point is\, restricted by\, the Stalburg\, authorities.
+91|???|Stay back.
+92|???|The Fungal Disease\, Treatment Unit is\, still\, conducting\, decontamination inside.\,\, No one\, goes\, through\, until they’re done.
+93|???|We’re\, finalizing containment\, procedures.\,\, Come back later.
+# conv 409: Tenement/Crazy Neighbor/Crazy Neighbor Guitar Positive
+94|???|Your music reminds me of the old days.
+95|???|Oh, keep playing, my dear neighbor!
+96|???|You play so beautifully, my dear neighbor!
+97|???|What lovely music!
+98|???|Oh, my dear neighbor...
+# conv 410: Tenement/Crazy Neighbor/Crazy Neighbor Guitar Negative
+99|???|That wasn't quite it... but we're getting closer!
+100|???|I always enjoy hearing you play.
+101|???|You've got talent, neighbor.
+102|???|You always bring such lovely sounds wherever you go, dear neighbor.
+103|???|Not bad at all, neighbor!
+# conv 432: Tenement/Crazy Neighbor/Crazy Neighbor Sit
+104|Crazy Neighbor|Sit down, my dear neighbor.
+# conv 434: Tenement/Crazy Neighbor/Crazy Neighbor Casino Explain
+105|Crazy Neighbor|Well\,, well\,, well!
+106|Crazy Neighbor|My\, lovely neighbor has\, finally arrived\, at my\, brand-new\, casino!
+107|Crazy Neighbor|Go on\,, Casper...\,\, explain everything to\, our guest!
+108|Crazy Neighbor|Exactly!
+109|Crazy Neighbor|But\, I simply\, couldn't put\, poor Casper\, out of a job!
+110|Crazy Neighbor|So\, I graciously\, hired him as my\, little substitute\, manager!
+111|Crazy Neighbor|After all\,\,, running\, a business takes\, away precious time I could be\, spending with my\, lovely neighbor!
+112|Crazy Neighbor|And\, just look at him now!
+113|Crazy Neighbor|Doesn't he\, look\, absolutely beautiful?
+114|Crazy Neighbor|Don't you feel\, handsome?
+115|Crazy Neighbor|Casper?
+116|Crazy Neighbor|Dear\, neighbor!\,\, Don't forget\, 'dear'!
+117|Crazy Neighbor|Ah!\,\, Forgive him\,, my dear neighbor.
+118|Crazy Neighbor|He's still\, new to the role\, and a little stiff!
+119|Crazy Neighbor|Now, Casper... I believe you have a little gift for our lovely neighbor?
+120|Crazy Neighbor|…for wasting my\, busy neighbor's\, extremely\, valuable time!
+121|Crazy Neighbor|Well\,, I think that\, this is now\, handled!
+122|Crazy Neighbor|Now my\, lovely neighbor\, and I can finally\, go spend some\, quality time together\,\,, while\, Casper stays here and...
+123|Crazy Neighbor|... makes some\, adjustments to\, my new casino!
+# conv 439: Tenement/Crazy Neighbor/Crazy Neighbor Walk
+124|Crazy Neighbor|Oh, there you are...
+125|Crazy Neighbor|My lovely neighbor.
+126|Crazy Neighbor|There you are, my dear neighbor.
+127|Crazy Neighbor|Don't walk away, my dear neighbor.
+128|Crazy Neighbor|Ah! I can smell you, my dear neighbor!
+129|Crazy Neighbor|Well, well!
+# conv 460: Tenement/Hazmat Guy Player Tenement
+130|???|Cleaning is in progress.\,\,\, Please\, stay away.
+# conv 484: Tenement/Crazy Neighbor/Soiled Pants
+131|Crazy Neighbor|What a lovely smell, dear neighbor!
+132|Crazy Neighbor|Ah... it smells just like my neighbor!
+133|Crazy Neighbor|What a nice surprise, dear neighbor!

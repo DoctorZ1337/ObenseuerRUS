@@ -1,0 +1,1640 @@
+# RecipeIngredientUI.cs:41; RecipeIngredientUI.cs:58 | textMeshProUGUI.text = text + text2 + "\nAmount: " + itemAmount;
+1||¶Amount: 
+# RecipeIngredientUI.cs:48 | component.itemName.text = (exist ? ("<color=\"" + defaultColor + "\">") : "<#A8211F>") + item.Title + "\nAny amount";
+2||¶Any amount
+# ApartmentRentUI.cs:63 | cancelEvictButtonText.text += "\nCancel the eviction";
+3||¶Cancel the eviction
+# ApartmentRentUI.cs:71 | evictButtonText.text += "\nEvict the resident";
+4||¶Evict the resident
+# RecipeInfoUI.cs:264 | componentInChildren3.text = componentInChildren3.text + "\nFail chance: " + (int)(num * 100f) + "%";
+5||¶Fail chance: 
+# RecipeIngredientUI.cs:54 | component.itemName.text = (exist ? ("<color=\"" + defaultColor + "\">") : "<#A8211F>") + item.Title + "\nFull container";
+6||¶Full container
+# RecipeInfoUI.cs:253 | componentInChildren3.text = componentInChildren3.text + "\nGrow time: " + TimeOfDayAzure.GetCurrentTime((float)itemGrowdata.growtime * 1f 
+7||¶Grow time: 
+# RecipeInfoUI.cs:261 | componentInChildren3.text = componentInChildren3.text + "\nProcess time: " + TimeOfDayAzure.GetCurrentTime((float)recipe.GetProcessTime(1f
+8||¶Process time: 
+# RecipeInfoUI.cs:268 | componentInChildren3.text = componentInChildren3.text + "\nQuality: " + ToolTip.QualityDataToString(ItemQualityData.GetQuality(num2), qual
+9||¶Quality: 
+# TooltipUI.cs:145 | details.text += "\nRequired item(s)";
+10||¶Required item(s)
+# PlayerSkillIncreaseUI.cs:36 | ShowNotification("New skill\n" + skillType.ToString() + "\nlearned!");
+11||¶learned!
+# BuildingSystemMenu.cs:527 | currentSelectionText.text = slots[newSlot].SlotName() + " (Contains Items!)";
+12|| (Contains Items!)
+# LiquidStorage.cs:446; Storage.cs:520 | return title + " (Empty)";
+13|| (Empty)
+# ObjectiveUI.cs:41; TaskObjective.cs:62 | objectiveTitle.text += " (Optional)";
+14|| (Optional)
+# MarketShop.cs:226 | UseText.instance.ChangeUseText(title, "Total: " + text + " (Scanning)", showUseText: true, redColor: true);
+15|| (Scanning)
+# DifficultyUI.cs:189 | difficultyInfoText.text = currentDifficultyInfo.difficultyName.ToUpper() + " DIFFICULTY:";
+16|| DIFFICULTY:
+# BankUI.cs:273; BankUI.cs:274; BankUI.cs:297 (+16) | ocAccountText.text = "Account: " + BankPanel.instance.activeBank.OSAccountMoney() + " OC";
+17|| OC
+# ApartmentInfoUI.cs:127 | textMeshProUGUI.text = textMeshProUGUI.text + " OC/" + DifficultyController.instance.currentDifficultyInfo.GetRentPaymentTimeUnit();
+18|| OC/
+# ApartmentInfoUI.cs:94; BankUI.cs:354; BankUI.cs:355 (+23) | apartmentValue.text = "Value: " + apartment.GetValue() + " RM";
+19|| RM
+# ApartmentInfoUI.cs:129 | textMeshProUGUI2.text = textMeshProUGUI2.text + " RM/" + DifficultyController.instance.currentDifficultyInfo.GetRentPaymentTimeUnit();
+20|| RM/
+# SaveController.cs:1395; SaveController.cs:1414 | Notifications.instance?.CreateNotification("Save data corrupted", playerLevel + " could not be restored and was
+21|| could not be restored and was reset
+# OptionsMenu.cs:1101; OptionsMenu.cs:1110; OptionsMenu.cs:1119 (+1) | masterText.text = volume.ToString("F0") + " dB";
+22|| dB
+# MinitrainFuelTank.cs:90 | UseText.instance.ChangeUseText(title, "No " + acceptedFuels[0].Item.Title + " in Inventory", showUseText: true, redColor: true);
+23|| in Inventory
+# MailController.cs:639 | Notifications.instance.CreateNotification("Mail: " + mail.mailName, "Contents: Parcel with " + (parcelMail.itemswithmeta.Count + parcelM
+24|| items
+# ParticleMenu.cs:39 | navigationDetails.text = currentIndex + 1 + " out of " + particleSystems.Length;
+25|| out of 
+# ToolTip.cs:687 | return (mailableData.isPackage ? "Package" : "Mail") + " " + mailableData.mailName + " ready to be sent\n";
+26|| ready to be sent¶
+# TenementUpgradeProgress.cs:67 | objective.title = "Wait for the tenement " + upgrade.GetName(apartmentNumber, targetName: true, taskInfo: true).ToLower() + " up
+27|| upgrade to complete
+# PlayerLockpicking.cs:219 | return text + " — Challenging)";
+28|| — Challenging)
+# PlayerLockpicking.cs:223 | return text + " — Difficult)";
+29|| — Difficult)
+# PlayerLockpicking.cs:211 | return text + " — Easy)";
+30|| — Easy)
+# PlayerLockpicking.cs:207 | return text + " — Effortless)";
+31|| — Effortless)
+# PlayerLockpicking.cs:225 | return text + " — Impossible)";
+32|| — Impossible)
+# PlayerLockpicking.cs:215 | return text + " — Moderate)";
+33|| — Moderate)
+# LoadMenu.cs:630 | return "Can't load! Rename save folder \"" + fileName + "\" to \"" + characterFolderName + "\"";
+34||" to "
+# Lock.cs:226 | return "(Cannot be lockpicked)";
+35||(Cannot be lockpicked)
+# Door.cs:803 | return "(Close)";
+36||(Close)
+# Trade.cs:305 | return "(Closed)";
+37||(Closed)
+# Lock.cs:238 | return "(Locked)";
+38||(Locked)
+# PlayerLockpicking.cs:230 | return "(Lockpick broke!)";
+39||(Lockpick broke!)
+# PlayerLockpicking.cs:233 | return "(Lockpicking)";
+40||(Lockpicking)
+# Door.cs:805 | return "(Open)";
+41||(Open)
+# Trade.cs:302 | return "(Trade)";
+42||(Trade)
+# Lock.cs:220 | return "(Unlock)";
+43||(Unlock)
+# InteractObjects.cs:369 | UseText.instance.ChangeUseText("(Use)");
+44||(Use)
+# WorkableResourceSource.cs:376 | UseText.instance.ChangeUseText(title, toolname + ": " + actiontitle + ", Owned", showUseText: true, redColor: true, greenColor: 
+45||, Owned
+# CraftingUpgrade.cs:180 | UseText.instance.ChangeUseText(title, (Active ? "ON" : "OFF") + ", connected to " + Connected[0].title, showUseText: true, redColor: fa
+46||, connected to 
+# CraftingUpgrade.cs:188 | UseText.instance.ChangeUseText(title, (Active ? "ON" : "OFF") + ", not connected", showUseText: true, redColor: true, greenColor: false
+47||, not connected
+# InteractableFurnitureDisplay.cs:228 | 0 => "- Out of Stock",
+48||- Out of Stock
+# BankUI.cs:275 | ocVariableText.text = "0 OC";
+49||0 OC
+# BankUI.cs:356 | rmVariableText.text = "0 RM";
+50||0 RM
+# BankUI.cs:674 | exchangeRmRatio.text = "1 OC = " + num2 + " RM";
+51||1 OC = 
+# BankUI.cs:674 | exchangeRmRatio.text = "1 OC = " + num2 + " RM";
+52||1 OC = {0} RM
+# BankUI.cs:668 | exchangeOcRatio.text = "1 RM = " + num + " OC";
+53||1 RM = 
+# BankUI.cs:668 | exchangeOcRatio.text = "1 RM = " + num + " OC";
+54||1 RM = {0} OC
+# TaskItem.cs:49 | [Description("3D Printer")]
+55||3D Printer
+# RecipeController.cs:194 | return "3D Printer Model";
+56||3D Printer Model
+# ChinaHand.cs:257 | .AddList("Placing rules", "Place a card of the same or higher rank than the top card", "Aces are high", "Jack, Queen, King and Ace can only b
+57||A 2 or a 10 can be placed on any card
+# BankUI.cs:273; BankUI.cs:297; BankUI.cs:320 (+5) | ocAccountText.text = "Account: " + BankPanel.instance.activeBank.OSAccountMoney() + " OC";
+58||Account: 
+# BankUI.cs:273; BankUI.cs:297; BankUI.cs:320 (+1) | ocAccountText.text = "Account: " + BankPanel.instance.activeBank.OSAccountMoney() + " OC";
+59||Account: {0} OC
+# BankUI.cs:354; BankUI.cs:378; BankUI.cs:401 (+1) | rmAccountText.text = "Account: " + BankPanel.instance.activeBank.RMAccountMoney() + " RM";
+60||Account: {0} RM
+# ChinaHand.cs:257 | .AddList("Placing rules", "Place a card of the same or higher rank than the top card", "Aces are high", "Jack, Queen, King and Ace can only b
+61||Aces are high
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+62||Addiction needs speed: 
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+63||Addiction recovery speed: 
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+64||After a 7, place the 6 of that suit, then the 8
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+65||After a burn, you play again
+# ToolTip.cs:649 | return "Age: " + Mathf.RoundToInt(perishableData.integrity * 100f) + "%";
+66||Age: 
+# ToolTip.cs:649 | return "Age: " + Mathf.RoundToInt(perishableData.integrity * 100f) + "%";
+67||Age: {0}%
+# PlayerStatsToolTipInfo.cs:74 | title = "Alcohol need: ";
+68||Alcohol need: 
+# Furniture.cs:11 | [Description("All")]
+69||All
+# ApartmentRentUI.cs:141 | cantRentButtonText.text = "Already Occupied!";
+70||Already Occupied!
+# ItemInfoPanel.cs:292 | itemValue.text = $"Amount due: {metaOfType2.amount}";
+71||Amount due: {0}
+# AmountSliderUI.cs:203 | amountText.text = $"Amount: {currentValue}";
+72||Amount: {0}
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+73||An Ace or King flips the pile; play again or pass
+# Crime.cs:22 | [Description("Animal Cruelty")]
+74||Animal Cruelty
+# TaskItem.cs:71 | [Description("Anvil Recipes")]
+75||Anvil Recipes
+# FurnitureSurface.cs:9 | [Description("Any")]
+76||Any
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+77||Any 7 starts a new suit
+# ChinaHand.cs:257 | .AddList("Placing rules", "Place a card of the same or higher rank than the top card", "Aces are high", "Jack, Queen, King and Ace can only b
+78||Any card can be placed on a 2, and you play again
+# TenementUpgrade.cs:435; TenementUpgrade.cs:459 | return "Apartment balcony";
+79||Apartment balcony
+# TenementUpgrade.cs:395 | return "Apartment bathroom";
+80||Apartment bathroom
+# TenementUpgrade.cs:347 | return "Apartment electricity";
+81||Apartment electricity
+# TenementUpgrade.cs:431; TenementUpgrade.cs:455 | return "Apartment extension";
+82||Apartment extension
+# TenementUpgrade.cs:379 | return "Apartment heating";
+83||Apartment heating
+# TenementUpgrade.cs:475 | return "Apartment kitchen";
+84||Apartment kitchen
+# TenementUpgrade.cs:411 | return "Apartment walls";
+85||Apartment walls
+# TenementUpgrade.cs:363 | return "Apartment water";
+86||Apartment water
+# ApartmentInfoUI.cs:182 | apartmentName.text = "Apartment: " + apartment.apartmentNumber;
+87||Apartment: 
+# ApartmentInfoUI.cs:182 | apartmentName.text = "Apartment: " + apartment.apartmentNumber;
+88||Apartment: {0}
+# TimeAndDay.cs:177 | 4 => "Apr",
+89||Apr
+# TenementUpgradeProgress.cs:81 | taskInfo.title = "Apt " + text;
+90||Apt 
+# TenementUpgradeProgress.cs:81 | taskInfo.title = "Apt " + text;
+91||Apt {0}
+# WaitingUI.cs:173 | return "Arrest";
+92||Arrest
+# Ristiseiska.cs:237 | .AddList("Asked for a card", "Choose a card from your hand to give");
+93||Asked for a card
+# TaskItem.cs:63 | [Description("Assembly Recipes")]
+94||Assembly Recipes
+# FuelPump.cs:182 | UseText.instance.ChangeUseText(title, "Attach to train");
+95||Attach to train
+# DifficultySettingDescriptions.cs:8 | DifficultySetting.AutosaveMode => "Autosave Mode",
+96||Autosave Mode
+# UpgradeUI.cs:366 | status.text = "Available Upgrade";
+97||Available Upgrade
+# TenementUpgrade.cs:251 | return "Basement";
+98||Basement
+# TenementUpgrade.cs:267 | return "Basement mushroom farm";
+99||Basement mushroom farm
+# TenementUpgrade.cs:259 | return "Basement sauna";
+100||Basement sauna
+# Furniture.cs:49 | [Description("Bathroom")]
+101||Bathroom
+# Furniture.cs:33 | [Description("Beds")]
+102||Beds
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+103||Before play, swap cards between your hand and face-up cards
+# PlayerStatsToolTipInfo.cs:44 | title = "Bleeding: ";
+104||Bleeding: 
+# InteractableLadder.cs:150; Keypad.cs:94 | UseText.instance.ChangeUseText(title, "Blocked", showUseText: true, redColor: true);
+105||Blocked
+# TaskItem.cs:45 | [Description("Blueprints")]
+106||Blueprints
+# BottleRecycling.cs:27 | title = "Bottle Recycling";
+107||Bottle Recycling
+# PlayerStatsToolTipInfo.cs:68 | title = "Bowel and bladder: ";
+108||Bowel and bladder: 
+# ToolTip.cs:856 | return "Bricked";
+109||Bricked
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+110||Burn the pile
+# Button.cs:440 | title = "Button";
+111||Button
+# AmountSliderUI.cs:172; ItemInfoPanel.cs:265; ShopBaseUI.cs:492 (+3) | okButtonText.text = "Buy";
+112||Buy
+# InteractableTicketMachine.cs:303 | UseText.instance.ChangeUseText(title, $"Buy a ticket ({ticketPrice} {currency.ToString()})");
+113||Buy a ticket ({0} {1})
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+114||By placing a 10 of any suit
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+115||By placing the fourth card of the same rank in a row
+# CardGameUI.cs:207 | textMeshProUGUI5.text = textMeshProUGUI5.text + "Call Ready (" + CardInputHandler.PrimaryText + ")\n";
+116||Call Ready (
+# ShopBaseUI.cs:448 | disabledButtonText.text = "Can't Dismantle";
+117||Can't Dismantle
+# ObjectPreview.cs:155 | BuildingSystemMenu.instance.ShowWarningText("Can't be placed on this surface!");
+118||Can't be placed on this surface!
+# LoadMenu.cs:630 | return "Can't load! Rename save folder \"" + fileName + "\" to \"" + characterFolderName + "\"";
+119||Can't load! Rename save folder "
+# LoadMenu.cs:630 | return "Can't load! Rename save folder \"" + fileName + "\" to \"" + characterFolderName + "\"";
+120||Can't load! Rename save folder "{0}" to "{1}"
+# ChinaHand.cs:259; Ristiseiska.cs:236 | .AddList("Can't place a card", "Pick up the pile, which ends your turn", "Or risk a draw from the deck; if it doesn't fit
+121||Can't place a card
+# ObjectPreview.cs:163 | BuildingSystemMenu.instance.ShowWarningText("Can't put it here!");
+122||Can't put it here!
+# ObjectPreview.cs:147 | BuildingSystemMenu.instance.ShowWarningText("Can't put this way!");
+123||Can't put this way!
+# ShopBaseUI.cs:420 | disabledButtonText.text = "Can't sell";
+124||Can't sell
+# InteractableItemRemover.cs:136; InteractableRelay.cs:145 | UseText.instance.ChangeUseText(title, string.IsNullOrEmpty(cantUseText) ? "Can't use" : cantUseText, 
+125||Can't use
+# ObjectPreview.cs:143 | BuildingSystemMenu.instance.ShowWarningText("Cannot be placed in this area!");
+126||Cannot be placed in this area!
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+127||Cards below 6 need that suit's 8 placed first
+# SlotMachineGameplay.cs:666 | cashOutButton.useMessage = $"Cash out: {_moneyInMachine}";
+128||Cash out: {0}
+# BuildingSystemMenu.cs:521 | currentSelectionText.text = "Category";
+129||Category
+# FurnitureSurface.cs:15 | [Description("Ceiling")]
+130||Ceiling
+# ToolTip.cs:841 | return $"Certificate for item valued at {certificateData.targetValue} OC";
+131||Certificate for item valued at {0} OC
+# ToolTip.cs:843 | return $"Certificate for item valued between {Mathf.RoundToInt((float)certificateData.targetValue * certificateData.valuefactor.x)} and {Mathf.
+132||Certificate for item valued between {0} and {1} OC
+# InteractableChair.cs:200 | title = "Chair";
+133||Chair
+# Furniture.cs:13 | [Description("Chairs")]
+134||Chairs
+# DifficultySettingDescriptions.cs:45 | DifficultySetting.RentPayments => "Changes the schedule and size of rent payments and loan instalments, with more frequent
+135||Changes the schedule and size of rent payments and loan instalments, with more frequent payments splitting the total into smaller amounts.
+# TaskItem.cs:35 | [Description("Chemical Lab Recipes")]
+136||Chemical Lab Recipes
+# TaskItem.cs:73 | [Description("Chemical Refinery Recipes")]
+137||Chemical Refinery Recipes
+# Ristiseiska.cs:237 | .AddList("Asked for a card", "Choose a card from your hand to give");
+138||Choose a card from your hand to give
+# ParcelLocker.cs:214 | useMessage = "Claim a package";
+139||Claim a package
+# ParcelLocker.cs:210 | useMessage = $"Claim {packageAmount} packages";
+140||Claim {0} packages
+# ApartmentInfoUI.cs:273 | notAvailableInfoText.text += $"Cleared: {apartment.FurnitureClearPercent()}%";
+141||Cleared: {0}%
+# InteractableLadder.cs:134 | useMessage = "Climb";
+142||Climb
+# Furniture.cs:31 | [Description("Clutter")]
+143||Clutter
+# TaskItem.cs:39 | [Description("Coffee Maker Recipes")]
+144||Coffee Maker Recipes
+# TenementController.cs:796 | Notifications.instance.CreateNotification("Collateral paid", apartment.deposit.GetPricestring());
+145||Collateral paid
+# TenementController.cs:890 | Notifications.instance.CreateNotification("Collateral returned", deposit.GetPricestringNegative());
+146||Collateral returned
+# PajatsoGameplay.cs:176 | CollectWinsButton.useMessage = $"Collect {coinsWon} OC";
+147||Collect {0} OC
+# TenementUpgradeProgress.cs:118 | finalObjective.title = "Complete the final payment";
+148||Complete the final payment
+# InteractableComputer.cs:51 | title = "Computer";
+149||Computer
+# BaseHealthCondition.cs:76 | Notifications.instance.CreateNotification("Condition removed!", conditionName);
+150||Condition removed!
+# CraftingUpgrade.cs:193 | UseText.instance.ChangeUseText(title, "Connected to " + Connected[0].title, showUseText: true, redColor: false, greenColor: false, pass
+151||Connected to 
+# CraftingUpgrade.cs:193 | UseText.instance.ChangeUseText(title, "Connected to " + Connected[0].title, showUseText: true, redColor: false, greenColor: false, pass
+152||Connected to {0}
+# CraftingUpgrade.cs:197 | UseText.instance.ChangeUseText(title, $"Connected to {Connected.Count} workstations", showUseText: true, redColor: false, greenColor: f
+153||Connected to {0} workstations
+# ShopBaseUI.cs:425; ShopBaseUI.cs:453 | disabledButtonText.text = "Contains Items!";
+154||Contains Items!
+# ToolTip.cs:755 | return $"Contains {walletData.coins} OS Coins";
+155||Contains {0} OS Coins
+# ToolTip.cs:559; ToolTip.cs:701 | return "Contains: " + liquidData.liquidItem.Item.Title + " " + Math.Round(liquidData.GetLiquidAmount(stackSize), 2) + "L/" + Ma
+156||Contains: 
+# ToolTip.cs:701 | return "Contains: " + furnitureData.furnitureInfo.furniture.title + "\n";
+157||Contains: {0}¶
+# ToolTip.cs:559 | return "Contains: " + liquidData.liquidItem.Item.Title + " " + Math.Round(liquidData.GetLiquidAmount(stackSize), 2) + "L/" + Math.Round(liquidD
+158||Contains: {0} {1}L/{2}L
+# BundleMail.cs:166; MailController.cs:528; MailController.cs:543 (+4) | Notifications.instance.CreateNotification("Mail: " + mailName, "Contents: " + string.Join
+159||Contents: 
+# MailController.cs:639 | Notifications.instance.CreateNotification("Mail: " + mail.mailName, "Contents: Parcel with " + (parcelMail.itemswithmeta.Count + parcelM
+160||Contents: Parcel with 
+# MailController.cs:639 | Notifications.instance.CreateNotification("Mail: " + mail.mailName, "Contents: Parcel with " + (parcelMail.itemswithmeta.Count + parcelM
+161||Contents: Parcel with {0} items
+# BundleMail.cs:166; MailController.cs:528; MailController.cs:543 (+4) | Notifications.instance.CreateNotification("Mail: " + mailName, "Contents: " + string.Join
+162||Contents: {0}
+# ShopBaseUI.cs:403; ShopBaseUI.cs:404 | disabledButtonText.text = "Continue";
+163||Continue
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+164||Continue down to the Ace and up to the King
+# LoadMenu.cs:431; LoadMenu.cs:437 | InfoPanelNameText.text = "Corrupted: " + slotName;
+165||Corrupted: 
+# LoadMenu.cs:431; LoadMenu.cs:437 | InfoPanelNameText.text = "Corrupted: " + slotName;
+166||Corrupted: {0}
+# TenementUpgrade.cs:315 | return "Courtyard";
+167||Courtyard
+# ShopBaseUI.cs:522; ShopBaseUI.cs:523 | disabledButtonText.text = "Craft";
+168||Craft
+# manufacturing.cs:635 | return $"Craft {CraftingInProgress}/{AllowSimultaneous}";
+169||Craft {0}/{1}
+# BaseCrafting.cs:34 | useMessage = "Crafting";
+170||Crafting
+# manufacturing.cs:633 | return $"Crafting Full {CraftingInProgress}/{AllowSimultaneous}";
+171||Crafting Full {0}/{1}
+# FurnitureInfoUI.cs:123 | currentOC.text = "Crafting Time: " + TimeOfDayAzure.GetCurrentTime(Mathf.Max(0f, time) / 3600f, simple: false);
+172||Crafting Time: 
+# FurnitureInfoUI.cs:123 | currentOC.text = "Crafting Time: " + TimeOfDayAzure.GetCurrentTime(Mathf.Max(0f, time) / 3600f, simple: false);
+173||Crafting Time: {0}
+# Crime.cs:219 | Notifications.instance.CreateNotification("Crime committed:", text + " +" + pendingNotification[type]);
+174||Crime committed:
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+175||Crosseven (Ristiseiska)
+# TaskItem.cs:67 | [Description("Crusher Recipes")]
+176||Crusher Recipes
+# UpgradeUI.cs:344 | status.text = "Current Upgrade";
+177||Current Upgrade
+# Furniture.cs:57 | [Description("Curtains")]
+178||Curtains
+# DifficultyUI.cs:255; OptionsMenu.cs:371; OptionsMenu.cs:778 (+5) | difficultyText.text = "Custom";
+179||Custom
+# InventoryNavigationHandler.cs:1745 | return Input.GetAxis("DPadHorizontal") != 0f;
+180||DPadHorizontal
+# InventoryNavigationHandler.cs:1756 | return Input.GetAxis("DPadVertical") != 0f;
+181||DPadVertical
+# TenementResidentRentUI.cs:55 | string title = "Daily income";
+182||Daily income
+# TimeAndDay.cs:195 | return $"Day: {num} hour: {num2} minute: {num3}";
+183||Day: {0} hour: {1} minute: {2}
+# InteractableCalendar.cs:5 | UseText.instance.ChangeUseText($"Days in Obenseuer: {TimeOfDayAzure.instance.dayCounter}", TimeOfDayAzure.instance.GetDayOfWeekStrin
+184||Days in Obenseuer: {0}
+# TimeAndDay.cs:185 | 12 => "Dec",
+185||Dec
+# StoragePanelUI.cs:130 | return text + "<color=#" + ColorUtility.ToHtmlStringRGB(wealthDecent) + ">Decent";
+186||Decent
+# Furniture.cs:37 | [Description("Decoration")]
+187||Decoration
+# ShopBaseUI.cs:483 | redButtonText.text = "Delete Image";
+188||Delete Image
+# StoragePanelUI.cs:102 | return text + "<color=#" + ColorUtility.ToHtmlStringRGB(wealthDepleted) + ">Depleted";
+189||Depleted
+# LiquidStoragePanelUI.cs:497 | LiquidStorage.Result.DifferentLiquid => "Different Liquid!",
+190||Different Liquid!
+# DifficultySettingDescriptions.cs:36 | DifficultySetting.StartingAddictions => "Disabling mandatory starting addictions removes the addiction and disease penalti
+191||Disabling mandatory starting addictions removes the addiction and disease penalties from affected character creation choices.
+# DifficultySettingDescriptions.cs:40 | DifficultySetting.MentalHealth => "Disabling mental health stops depression from building up.",
+192||Disabling mental health stops depression from building up.
+# DifficultySettingDescriptions.cs:34 | DifficultySetting.UserSaves => "Disabling saves prevents you from saving from the pause menu.",
+193||Disabling saves prevents you from saving from the pause menu.
+# Map.cs:169 | Notifications.instance.CreateNotification("Discovered", landmark.landmark.title);
+194||Discovered
+# ShopBaseUI.cs:462; ShopBaseUI.cs:463 | disabledButtonText.text = "Dismantle";
+195||Dismantle
+# TaskItem.cs:27 | [Description("Distillery Recipes")]
+196||Distillery Recipes
+# LoadMenu.cs:588 | RemoveSlotWarningText.text = "Do you want to remove " + GetSlotDisplayName(currentSaveInfoToDelete.SaveName) + "?";
+197||Do you want to remove 
+# LoadMenu.cs:588 | RemoveSlotWarningText.text = "Do you want to remove " + GetSlotDisplayName(currentSaveInfoToDelete.SaveName) + "?";
+198||Do you want to remove {0}?
+# ItemInfoPanel.cs:255 | cantUseButtonText.text = "Doesn't buy";
+199||Doesn't buy
+# ManufacturingProcessInfo.cs:47 | processText.text = "Done";
+200||Done
+# Door.cs:842; DoorChangelevel.cs:123; FakeDoor.cs:14 | title = "Door";
+201||Door
+# InputManager.cs:271 | KeyCode.DownArrow => "Down",
+202||Down
+# ChinaHand.cs:258 | .AddList("Order of play", "Hand first, then face-up cards, then face-down cards", "Face-down cards are played blind; if one doesn't fit, you 
+203||Draw back up to 3 cards while the deck lasts
+# Mailbox.cs:49 | useMessage = "Drop mail";
+204||Drop mail
+# Mailbox.cs:98 | useMessage = $"Drop {num} mail";
+205||Drop {0} mail
+# PlayerStatsToolTipInfo.cs:98 | title = "Ducks need: ";
+206||Ducks need: 
+# ToolTip.cs:682 | return $"Due in {invoiceData.dueDate - TimeOfDayAzure.instance.currentTimeAndDay.currentDay} days\n";
+207||Due in {0} days¶
+# InputManager.cs:269 | KeyCode.Escape => "ESC",
+208||ESC
+# InventoryNavigationHandler.cs:407; ShopBaseUI.cs:1073 | return text + KeyCodeInfoToString(text, "EXIT", "Exit Cancel");
+209||EXIT
+# EditableSign.cs:77 | UseText.instance.ChangeUseText(string.IsNullOrEmpty(text) ? title : text, "Edit");
+210||Edit
+# TaskItem.cs:57 | [Description("Electronic Recipes")]
+211||Electronic Recipes
+# Furniture.cs:17 | [Description("Electronics")]
+212||Electronics
+# TenementUpgrade.cs:235 | return "Elevator";
+213||Elevator
+# TaskbarProgram.cs:33 | title.text = "Email";
+214||Email
+# ToolTip.cs:699 | return "Empty\n";
+215||Empty¶
+# NotesPanel.cs:411 | noteEditorTitle.text = (string.IsNullOrEmpty(editing.title) ? "Empty notebook" : editing.title);
+216||Empty notebook
+# LiquidStoragePanelUI.cs:493; LiquidStoragePanelUI.cs:495 | LiquidStorage.Result.Empty => "Empty!",
+217||Empty!
+# NotesPanel.cs:412 | noteEditorContent.text = (string.IsNullOrEmpty(editing.content) ? "Empty..." : editing.content);
+218||Empty...
+# LoadMenu.cs:444; LoadMenu.cs:450 | InfoPanelNameText.text = "Empty: " + slotName;
+219||Empty: 
+# LoadMenu.cs:444; LoadMenu.cs:450 | InfoPanelNameText.text = "Empty: " + slotName;
+220||Empty: {0}
+# DoorChangelevel.cs:127 | useMessage = "Enter";
+221||Enter
+# TimeAndDay.cs:186 | _ => "Err",
+222||Err
+# AutosaveMode.cs:6 | [Description("Every Day")]
+223||Every Day
+# AutosaveMode.cs:8 | [Description("Every Hour")]
+224||Every Hour
+# ApartmentRentUI.cs:77 | evictButtonText.text = "Evict the resident";
+225||Evict the resident
+# ApartmentInfoUI.cs:281 | notAvailableInfoText.text += $"Examined: {(int)((float)apartment.currentExamineCounter / (float)apartment.examineCounterMax * 100f)}%";
+226||Examined: {0}%
+# BankUI.cs:452; BankUI.cs:483 | exchangeVariable.text = "Exchange: " + num + " OC";
+227||Exchange: 
+# BankUI.cs:435; BankUI.cs:662 | exchangeVariable.text = "Exchange: 0";
+228||Exchange: 0
+# BankUI.cs:452 | exchangeVariable.text = "Exchange: " + num + " OC";
+229||Exchange: {0} OC
+# BankUI.cs:483 | exchangeVariable.text = "Exchange: " + num3 + " RM";
+230||Exchange: {0} RM
+# RecipeInfoUI.cs:189 | componentInChildren2.text = "Excluded modifiers:\n";
+231||Excluded modifiers:¶
+# InventoryNavigationHandler.cs:407 | return text + KeyCodeInfoToString(text, "EXIT", "Exit Cancel");
+232||Exit Cancel
+# LiquidStoragePanelUI.cs:369; LiquidStoragePanelUI.cs:373 | StatusTextInput.text = "External Unfill Storage";
+233||External Unfill Storage
+# LiquidStoragePanelUI.cs:391 | statusText.text = "External empty source";
+234||External empty source
+# CharacterEditor.cs:235 | genderText.text = "FEMALE";
+235||FEMALE
+# TimeAndDay.cs:163 | 4 => "FRI",
+236||FRI
+# OptionsMenu.cs:921 | antialiasing.text = "FXAA";
+237||FXAA
+# TenementUpgrade.cs:299 | return "Facade";
+238||Facade
+# ChinaHand.cs:258 | .AddList("Order of play", "Hand first, then face-up cards, then face-down cards", "Face-down cards are played blind; if one doesn't fit, you 
+239||Face-down cards are played blind; if one doesn't fit, you pick it up with the pile
+# ManufacturingProcessInfo.cs:53 | processText.text = "Failed";
+240||Failed
+# TimeAndDay.cs:175 | 2 => "Feb",
+241||Feb
+# CharacterEditor.cs:247 | genderText.text = "Female";
+242||Female
+# TenementUpgrade.cs:307 | return "Fence";
+243||Fence
+# TaskItem.cs:25 | [Description("Fermenter Recipes")]
+244||Fermenter Recipes
+# MinitrainFuelTank.cs:84 | UseText.instance.ChangeUseText(title, "Fill a Tank With " + acceptedFuel.Item.Title);
+245||Fill a Tank With 
+# MinitrainFuelTank.cs:84 | UseText.instance.ChangeUseText(title, "Fill a Tank With " + acceptedFuel.Item.Title);
+246||Fill a Tank With {0}
+# LiquidStoragePanelUI.cs:498 | LiquidStorage.Result.Filling => "Filling!",
+247||Filling!
+# UpgradeUI.cs:227 | finalPrice.text = "Final: " + upgrade.GetPriceFinalRM() + " RM";
+248||Final: 
+# UpgradeUI.cs:227 | finalPrice.text = "Final: " + upgrade.GetPriceFinalRM() + " RM";
+249||Final: {0} RM
+# Toilet.cs:120 | UseText.instance.ChangeUseText(title, urinal ? "Finish" : "Stand up");
+250||Finish
+# ToolTip.cs:422 | return "Fire Magic: " + Math.Round(consumable.GetHighOrange(), 2);
+251||Fire Magic: 
+# ToolTip.cs:422 | return "Fire Magic: " + Math.Round(consumable.GetHighOrange(), 2);
+252||Fire Magic: {0}
+# UpgradeUI.cs:226 | firstPrice.text = "First: " + upgrade.GetPriceStartOC() + " OC";
+253||First: 
+# UpgradeUI.cs:226 | firstPrice.text = "First: " + upgrade.GetPriceStartOC() + " OC";
+254||First: {0} OC
+# Furniture.cs:59 | [Description("Flags")]
+255||Flags
+# FurnitureSurface.cs:13 | [Description("Floor")]
+256||Floor
+# PajatsoGameplay.cs:93 | UseText.instance.ChangeUseText(title, $"Force {Mathf.RoundToInt(launchForce * 100f)}%");
+257||Force {0}%
+# VendingMachineItemUI.cs:52 | itemPrice.text = "Free";
+258||Free
+# TimeOfDayAzure.cs:639 | 4 => "Friday",
+259||Friday
+# ToolTip.cs:545 | return "Fuel for: " + Math.Round((float)fuelData.burntime / 3600f, 1) + "h";
+260||Fuel for: 
+# ToolTip.cs:545 | return "Fuel for: " + Math.Round((float)fuelData.burntime / 3600f, 1) + "h";
+261||Fuel for: {0}h
+# MinitrainFuelTank.cs:77 | UseText.instance.ChangeUseText(title, "Full Tank", showUseText: true, redColor: true);
+262||Full Tank
+# FuelPump.cs:150; FuelPump.cs:178 | UseText.instance.ChangeUseText(title, "Full tank", showUseText: true, redColor: true);
+263||Full tank
+# DifficultySettingDescriptions.cs:24 | DifficultySetting.SmvProgressionRateSpeed => "Fungal Disease (SMV) Speed",
+264||Fungal Disease (SMV) Speed
+# TaskItem.cs:59 | [Description("Furnace Recipes")]
+265||Furnace Recipes
+# DifficultySettingDescriptions.cs:19 | DifficultySetting.FurnitureCraftingSpeed => "Furniture Crafting Speed",
+266||Furniture Crafting Speed
+# FurnitureCrafting.cs:7 | useMessage = "Furniture crafting";
+267||Furniture crafting
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+268||Furniture crafting speed: 
+# TaskItem.cs:43 | [Description("Furnitures")]
+269||Furnitures
+# PlayerStatsToolTipInfo.cs:110 | title = "Gambling: ";
+270||Gambling: 
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+271||General needs speed: 
+# StoragePanelUI.cs:126 | return text + "<color=#" + ColorUtility.ToHtmlStringRGB(wealthGenerous) + ">Generous";
+272||Generous
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+273||Get rid of all your cards before the others.
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+274||Get rid of all your cards first.
+# ChinaHand.cs:256; Ristiseiska.cs:235 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting",
+275||Goal
+# TaskItem.cs:31 | [Description("Grinder Recipes")]
+276||Grinder Recipes
+# TaskItem.cs:41 | [Description("Grow Recipes")]
+277||Grow Recipes
+# ProgressSlot.cs:134 | return "Growing fruits";
+278||Growing fruits
+# ToolTip.cs:692 | return $"Growing: {Mathf.RoundToInt(animalData.currentAge / (float)animalData.fullGrownAge * 100f)}%\n";
+279||Growing: {0}%¶
+# ChinaHand.cs:258 | .AddList("Order of play", "Hand first, then face-up cards, then face-down cards", "Face-down cards are played blind; if one doesn't fit, you 
+280||Hand first, then face-up cards, then face-down cards
+# grow.cs:240 | useMessage = "Harvest all";
+281||Harvest all
+# DifficultyUI.cs:234 | return "Has mandatory starting addictions" + "Has mandatory starting addictions";
+282||Has mandatory starting addictions
+# DifficultyUI.cs:234 | return "Has mandatory starting addictions" + "Has mandatory starting addictions";
+283||Has mandatory starting addictionsHas mandatory starting addictions
+# WaitingUI.cs:165 | return "Having fun";
+284||Having fun
+# PlayerStatsToolTipInfo.cs:38 | title = "Health: ";
+285||Health: 
+# DifficultySettingDescriptions.cs:46 | DifficultySetting.FurnitureCraftingSpeed => "Higher values craft furniture faster. 4x speed takes one quarter of the usual
+286||Higher values craft furniture faster. 4x speed takes one quarter of the usual time. Instant removes the crafting time.
+# DifficultySettingDescriptions.cs:47 | DifficultySetting.ItemCraftingSpeed => "Higher values craft items faster. 4x speed takes one quarter of the usual time. In
+287||Higher values craft items faster. 4x speed takes one quarter of the usual time. Instant removes the crafting time.
+# DifficultySettingDescriptions.cs:43 | DifficultySetting.RenovationSpeed => "Higher values finish renovations faster. 4x speed takes one quarter of the usual tim
+288||Higher values finish renovations faster. 4x speed takes one quarter of the usual time.
+# DifficultySettingDescriptions.cs:49 | DifficultySetting.TraderWealth => "Higher values give traders more money to buy your goods. 4x means four times their norm
+289||Higher values give traders more money to buy your goods. 4x means four times their normal funds.
+# DifficultySettingDescriptions.cs:48 | DifficultySetting.Prices => "Higher values increase item and furniture prices for both buying and selling. 4x means four t
+290||Higher values increase item and furniture prices for both buying and selling. 4x means four times the normal value.
+# DifficultySettingDescriptions.cs:44 | DifficultySetting.RentIncome => "Higher values increase the rent you earn from tenants. 4x means four times the normal inc
+291||Higher values increase the rent you earn from tenants. 4x means four times the normal income.
+# DifficultySettingDescriptions.cs:52 | DifficultySetting.StackSize => "Higher values let stackable items share fewer inventory slots. 4x allows roughly four time
+292||Higher values let stackable items share fewer inventory slots. 4x allows roughly four times as many items per stack.
+# DifficultySettingDescriptions.cs:38 | DifficultySetting.AddictionNeedsSpeed => "Higher values make addiction cravings build up faster.",
+293||Higher values make addiction cravings build up faster.
+# DifficultySettingDescriptions.cs:39 | DifficultySetting.AddictionRecoverySpeed => "Higher values make addictions fade faster over time, making recovery easier."
+294||Higher values make addictions fade faster over time, making recovery easier.
+# DifficultySettingDescriptions.cs:37 | DifficultySetting.GeneralNeedsSpeed => "Higher values make hunger, thirst and dirt build up faster.",
+295||Higher values make hunger, thirst and dirt build up faster.
+# DifficultySettingDescriptions.cs:41 | DifficultySetting.RenovationCost => "Higher values make renovations cost more money. 4x means four times the normal price.
+296||Higher values make renovations cost more money. 4x means four times the normal price.
+# DifficultySettingDescriptions.cs:42 | DifficultySetting.RenovationResourceCosts => "Higher values make renovations require more materials. 4x means four times t
+297||Higher values make renovations require more materials. 4x means four times the normal amount.
+# DifficultySettingDescriptions.cs:50 | DifficultySetting.RespawningTime => "Higher values make spawned objects take longer to reappear. 4x means four times the w
+298||Higher values make spawned objects take longer to reappear. 4x means four times the wait, so resources return more slowly.
+# DifficultySettingDescriptions.cs:51 | DifficultySetting.SmvProgressionRateSpeed => "Higher values speed up changes in fungal disease (SMV), so both its progress
+299||Higher values speed up changes in fungal disease (SMV), so both its progression and recovery happen faster.
+# FuelPump.cs:165 | UseText.instance.ChangeUseText(title, $"Hold press to fill {GetPercent()} %");
+300||Hold press to fill {0} %
+# CardGameUI.cs:241 | textMeshProUGUI11.text = textMeshProUGUI11.text + "Hold to Leave (" + CardInputHandler.LeaveText + ")";
+301||Hold to Leave (
+# CardGameUI.cs:239 | textMeshProUGUI10.text = textMeshProUGUI10.text + "Hold to View Table (" + CardInputHandler.OverviewText + ")\n";
+302||Hold to View Table (
+# ContestController.cs:139 | UseText.instance.ChangeUseText(activeContest.contestName, "Hold to give up");
+303||Hold to give up
+# StoragePanelUI.cs:114 | return text + "<color=#" + ColorUtility.ToHtmlStringRGB(wealthHumble) + ">Humble";
+304||Humble
+# PlayerStatsToolTipInfo.cs:50 | title = "Hunger: ";
+305||Hunger: 
+# ToolTip.cs:389 | return "Hydration: " + Math.Round(consumable.GetDrink(), 2);
+306||Hydration: 
+# ToolTip.cs:389 | return "Hydration: " + Math.Round(consumable.GetDrink(), 2);
+307||Hydration: {0}
+# PlayerStatsToolTipInfo.cs:104 | title = "Hygiene: ";
+308||Hygiene: 
+# TreatmentAddictions.cs:226 | return text + "I don't know how it's possible but you don't seem to have any addictions!";
+309||I don't know how it's possible but you don't seem to have any addictions!
+# TenementResidentTextList.cs:44 | text.text += "\n<align=center>II</align>\n";
+310||II
+# TenementResidentTextList.cs:40 | text.text += "\n<align=center>III</align>\n";
+311||III
+# TenementResidentTextList.cs:36 | text.text += "\n<align=center>IV</align>\n";
+312||IV
+# DifficultyUI.cs:250 | return "Instant";
+313||Instant
+# ToolTip.cs:651 | return "Integrity: " + Mathf.RoundToInt(perishableData.integrity * 100f) + "%";
+314||Integrity: 
+# ToolTip.cs:651 | return "Integrity: " + Mathf.RoundToInt(perishableData.integrity * 100f) + "%";
+315||Integrity: {0}%
+# BankUI.cs:657 | interestText.text = "Interest: " + BankPanel.instance.activeBank.Interest;
+316||Interest: 
+# BankUI.cs:657 | interestText.text = "Interest: " + BankPanel.instance.activeBank.Interest;
+317||Interest: {0}
+# ShopBaseUI.cs:458 | disabledButtonText.text = "Inventory Full";
+318||Inventory Full
+# FurniturePlaceable.cs:537; InteractableDynamiteCone.cs:96 | BuildingSystemMenu.instance.ShowWarningText("Inventory full: " + trash.ItemsString());
+319||Inventory full: 
+# FurniturePlaceable.cs:537; InteractableDynamiteCone.cs:96 | BuildingSystemMenu.instance.ShowWarningText("Inventory full: " + trash.ItemsString());
+320||Inventory full: {0}
+# InvoiceController.cs:226 | Notifications.instance.CreateNotification("Invoice expired", $"{itemInvoiceData.debtor}: {itemInvoiceData.amount} {itemInvoiceData.cu
+321||Invoice expired
+# InvoiceController.cs:241 | Notifications.instance.CreateNotification("Invoice expires today", $"{itemInvoiceData.debtor}: {itemInvoiceData.amount} {itemInvoiceD
+322||Invoice expires today
+# ObjectPreview.cs:159 | BuildingSystemMenu.instance.ShowWarningText("Is inside an object!");
+323||Is inside an object!
+# TreatmentRadiation.cs:144 | return $"It's {num} millisieverts.";
+324||It's {0} millisieverts.
+# TreatmentRadiation.cs:142 | return $"It's {(double)num * 0.001} sieverts.";
+325||It's {0} sieverts.
+# DifficultySettingDescriptions.cs:20 | DifficultySetting.ItemCraftingSpeed => "Item Crafting Speed",
+326||Item Crafting Speed
+# Inventory.cs:695; Inventory.cs:713; Inventory.cs:721 (+3) | Notifications.instance.CreateNotification("Item added!", ItemDatabase.instance.FetchItemByID((int)id
+327||Item added!
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+328||Item crafting speed: 
+# Inventory.cs:725; Inventory.cs:739 | Notifications.instance.CreateNotification("Item dropped!", ItemDatabase.instance.FetchItemByID((int)id).Title);
+329||Item dropped!
+# TaskItem.cs:173 | Notifications.instance.CreateNotification("Item removed", itemName);
+330||Item removed
+# Inventory.cs:938; Inventory.cs:946 | Notifications.instance.CreateNotification("Item removed!", ItemDatabase.instance.FetchItemByID((int)id).Title);
+331||Item removed!
+# FurniturePlaceable.cs:556 | BuildingSystemMenu.instance.ShowWarningText("Item required: " + text);
+332||Item required: 
+# FurniturePlaceable.cs:556 | BuildingSystemMenu.instance.ShowWarningText("Item required: " + text);
+333||Item required: {0}
+# Furniture.cs:25 | [Description("Items")]
+334||Items
+# WorkableResourceSource.cs:249 | Notifications.instance.CreateNotification($"Items added ({num3})!", itemReference.Item.Title, silent: true);
+335||Items added ({0})!
+# Inventory.cs:713 | Notifications.instance.CreateNotification((amount > 1.0) ? "Items added!" : "Item added!", ItemDatabase.instance.FetchItemByID((int)id).Title
+336||Items added!
+# FurniturePlaceable.cs:552 | BuildingSystemMenu.instance.ShowWarningText("Items required: " + text);
+337||Items required: 
+# FurniturePlaceable.cs:552 | BuildingSystemMenu.instance.ShowWarningText("Items required: " + text);
+338||Items required: {0}
+# ChinaHand.cs:257 | .AddList("Placing rules", "Place a card of the same or higher rank than the top card", "Aces are high", "Jack, Queen, King and Ace can only b
+339||Jack, Queen, King and Ace can only be placed on a 7 or higher
+# TimeAndDay.cs:174 | 1 => "Jan",
+340||Jan
+# JsonData.cs:944 | return "JsonData array";
+341||JsonData array
+# JsonData.cs:946 | return "JsonData object";
+342||JsonData object
+# TimeAndDay.cs:180 | 7 => "Jul",
+343||Jul
+# TimeAndDay.cs:179 | 6 => "Jun",
+344||Jun
+# TaskItem.cs:15 | [Description("Keycards")]
+345||Keycards
+# TaskItem.cs:13 | [Description("Keys")]
+346||Keys
+# Furniture.cs:63 | [Description("Kitchen")]
+347||Kitchen
+# TaskItem.cs:53 | [Description("Kitchen Recipes")]
+348||Kitchen Recipes
+# InputManager.cs:280 | KeyCode.Joystick1Button4 => "LB",
+349||LB
+# InputManager.cs:262 | KeyCode.Mouse0 => "LMB",
+350||LMB
+# LockpickUI.cs:101 | controls.text = "LMB)Use";
+351||LMB)Use
+# IntroStart.cs:107 | textLoiste.text = "LOISTE INTERACTIVE";
+352||LOISTE INTERACTIVE
+# CharacterPanelSkill.cs:49 | level.text = $"LVL {skill.Level}";
+353||LVL {0}
+# InteractableLadder.cs:130 | title = "Ladder";
+354||Ladder
+# ResidentRequirementUI.cs:45 | title = "Large Apartment";
+355||Large Apartment
+# InputManager.cs:272; InventoryNavigationHandler.cs:397 | KeyCode.LeftArrow => "Left",
+356||Left
+# InputManager.cs:265 | KeyCode.LeftControl => "Left CTRL",
+357||Left CTRL
+# InputManager.cs:267 | KeyCode.LeftShift => "Left Shift",
+358||Left Shift
+# InputManager.cs:284 | KeyCode.Joystick1Button8 => "Left Stick",
+359||Left Stick
+# Furniture.cs:47 | [Description("Letters")]
+360||Letters
+# Furniture.cs:61 | [Description("License Plates")]
+361||License Plates
+# Furniture.cs:21 | [Description("Lights")]
+362||Lights
+# ShopBaseUI.cs:479 | infoButtonText.text = "Load Image";
+363||Load Image
+# Tutorial.cs:276 | TutorialText.text = "Look Around";
+364||Look Around
+# TaskItem.cs:69 | [Description("Loom Recipes")]
+365||Loom Recipes
+# OptionsMenu.cs:867 | SSAO.text = "Lowest";
+366||Lowest
+# CharacterEditor.cs:231 | genderText.text = "MALE";
+367||MALE
+# InputManager.cs:264 | KeyCode.Mouse3 => "MMB",
+368||MMB
+# TimeAndDay.cs:159 | 0 => "MON",
+369||MON
+# InventoryNavigationHandler.cs:395; InventoryNavigationHandler.cs:397 | return text + KeyCodeInfoToString(text, "MOVE SLIDER", "Switch Tab Left", "Switch Tab Rig
+370||MOVE SLIDER
+# Furniture.cs:27 | [Description("Machines")]
+371||Machines
+# TaskItem.cs:33 | [Description("Machining Recipes")]
+372||Machining Recipes
+# Furniture.cs:53 | [Description("Magazines")]
+373||Magazines
+# ToolTip.cs:417 | return "Magic: " + Math.Round(consumable.GetHigh(), 2);
+374||Magic: 
+# ToolTip.cs:417 | return "Magic: " + Math.Round(consumable.GetHigh(), 2);
+375||Magic: {0}
+# BundleMail.cs:166; MailController.cs:528; MailController.cs:543 (+5) | Notifications.instance.CreateNotification("Mail: " + mailName, "Contents: " + string.Join
+376||Mail: 
+# BundleMail.cs:166; MailController.cs:528; MailController.cs:543 (+5) | Notifications.instance.CreateNotification("Mail: " + mailName, "Contents: " + string.Join
+377||Mail: {0}
+# Mailbox.cs:39 | title = "Mailbox";
+378||Mailbox
+# CharacterEditor.cs:243 | genderText.text = "Male";
+379||Male
+# TaskItem.cs:65 | [Description("Malting Recipes")]
+380||Malting Recipes
+# DifficultySettingDescriptions.cs:7 | DifficultySetting.UserSaves => "Manual Saves",
+381||Manual Saves
+# Furniture.cs:43 | [Description("Manufacturing")]
+382||Manufacturing
+# TaskItem.cs:47 | [Description("Maps")]
+383||Maps
+# TimeAndDay.cs:176 | 3 => "Mar",
+384||Mar
+# TaskItem.cs:23 | [Description("Mashing Recipes")]
+385||Mashing Recipes
+# ManufacturingPowerUI.cs:113 | fuelRemaining.text = $"Max: {Math.Round(maxBurnTime / 3600.0, 1)}h";
+386||Max: {0}h
+# TimeAndDay.cs:178 | 5 => "May",
+387||May
+# ResidentRequirementUI.cs:48 | title = "Medium Apartment";
+388||Medium Apartment
+# PlayerStatsToolTipInfo.cs:92 | title = "Mental health: ";
+389||Mental health: 
+# InputManager.cs:283; ShopBaseUI.cs:1073 | KeyCode.Joystick1Button7 => "Menu",
+390||Menu
+# TaskItem.cs:37 | [Description("Microwave Recipes")]
+391||Microwave Recipes
+# TenementUpgrade.cs:283 | return "Mine";
+392||Mine
+# InteractableItemGiver.cs:411; InteractableRelay.cs:153 | UseText.instance.ChangeUseText(title, "Missing " + BuildMissingItemsString(), showUseText: true, redCol
+393||Missing 
+# UpgradeUI.cs:363 | status.text = "Missing Multiple Requirements";
+394||Missing Multiple Requirements
+# ShopBaseUI.cs:511 | disabledButtonText.text = "Missing Resources";
+395||Missing Resources
+# InteractableItemRemover.cs:140 | UseText.instance.ChangeUseText(title, string.IsNullOrEmpty(cantUseText) ? "Missing required item(s)" : cantUseText, showUseText
+396||Missing required item(s)
+# InteractableItemGiver.cs:411; InteractableRelay.cs:153 | UseText.instance.ChangeUseText(title, "Missing " + BuildMissingItemsString(), showUseText: true, redCol
+397||Missing {0}
+# StoragePanelUI.cs:122 | return text + "<color=#" + ColorUtility.ToHtmlStringRGB(wealthModerate) + ">Moderate";
+398||Moderate
+# StoragePanelUI.cs:118 | return text + "<color=#" + ColorUtility.ToHtmlStringRGB(wealthModest) + ">Modest";
+399||Modest
+# TimeOfDayAzure.cs:635 | 0 => "Monday",
+400||Monday
+# FakeInvoiceReceiver.cs:113; FakeInvoiceReceiver.cs:130 | Notifications.instance.CreateNotification("Money added to bank account!", num2 + " RM");
+401||Money added to bank account!
+# PlayerSubscription.cs:188 | Notifications.instance.CreateNotification("Money added to bank account: " + subscriptionName + "!", (GetCost() * -1f).GetPricestring
+402||Money added to bank account: 
+# PlayerSubscription.cs:188 | Notifications.instance.CreateNotification("Money added to bank account: " + subscriptionName + "!", (GetCost() * -1f).GetPricestring
+403||Money added to bank account: {0}!
+# FakeInvoiceReceiver.cs:102; Money.cs:420; Money.cs:431 | Notifications.instance.CreateNotification("Money added!", num2 + " RM");
+404||Money added!
+# SlotMachineGameplay.cs:276; SlotMachineGameplay.cs:901; SlotMachineGameplay.cs:919 (+1) | cashOutButton.useMessage = $"Money in machine: {_moneyInMachine}";
+405||Money in machine: {0}
+# PlayerSubscription.cs:184 | Notifications.instance.CreateNotification("Money removed from bank account: " + subscriptionName + "!", GetCost().GetPricestring());
+406||Money removed from bank account: 
+# PlayerSubscription.cs:184 | Notifications.instance.CreateNotification("Money removed from bank account: " + subscriptionName + "!", GetCost().GetPricestring());
+407||Money removed from bank account: {0}!
+# Money.cs:472 | Notifications.instance.CreateNotification("Money removed!", FormatMoneyAmount(amount, RM));
+408||Money removed!
+# AmountSliderUI.cs:182; BuildingSystemMenu.cs:517; Tutorial.cs:297 | okButtonText.text = "Move";
+409||Move
+# ApartmentRentUI.cs:61; ApartmentRentUI.cs:69 | cancelEvictButtonText.text = "Moving: ";
+410||Moving: 
+# PlayerStatsToolTipInfo.cs:80 | title = "Mushroom need: ";
+411||Mushroom need: 
+# UpgradeUI.cs:351 | status.text = "Needs Other Upgrades";
+412||Needs Other Upgrades
+# TaskController.cs:319 | Notifications.instance.CreateNotification("New Objective", text);
+413||New Objective
+# TaskController.cs:180; TaskController.cs:275 | Notifications.instance.CreateNotification("New Task", task.title);
+414||New Task
+# NoteController.cs:88 | Notifications.instance.CreateNotification(flag ? "New book" : "New page", page.book.title);
+415||New book
+# BaseHealthCondition.cs:67 | Notifications.instance.CreateNotification("New condition!", conditionName);
+416||New condition!
+# Furniture.cs:516 | Notifications.instance.CreateNotification("New furniture", title);
+417||New furniture
+# FurniturePlaceable.cs:469; SlotController.cs:125; TaskItem.cs:161 (+1) | Notifications.instance.CreateNotification("New item", text);
+418||New item
+# CollectiblePackage.cs:170 | Notifications.instance.CreateNotification("Package collected!", "New items added to your inventory");
+419||New items added to your inventory
+# NoteController.cs:60 | Notifications.instance.CreateNotification("New note", note.title);
+420||New note
+# NoteController.cs:88 | Notifications.instance.CreateNotification(flag ? "New book" : "New page", page.book.title);
+421||New page
+# RecipeController.cs:129 | Notifications.instance.CreateNotification("New recipe", recipe.Name);
+422||New recipe
+# PlayerSkillIncreaseUI.cs:36 | ShowNotification("New skill\n" + skillType.ToString() + "\nlearned!");
+423||New skill¶
+# PlayerSkillIncreaseUI.cs:36 | ShowNotification("New skill\n" + skillType.ToString() + "\nlearned!");
+424||New skill¶{0}¶learned!
+# ToolTip.cs:407 | return "Nicotine: " + Math.Round(consumable.GetNicotine(), 2);
+425||Nicotine: 
+# ToolTip.cs:407 | return "Nicotine: " + Math.Round(consumable.GetNicotine(), 2);
+426||Nicotine: {0}
+# NewGame.cs:47; NewGame.cs:59 | skipIntroText.text = "No";
+427||No
+# MinitrainFuelTank.cs:90 | UseText.instance.ChangeUseText(title, "No " + acceptedFuels[0].Item.Title + " in Inventory", showUseText: true, redColor: true);
+428||No 
+# PajatsoGameplay.cs:97 | UseText.instance.ChangeUseText(title, "No Coins", showUseText: true, redColor: true);
+429||No Coins
+# ShopBaseUI.cs:430; ShopBaseUI.cs:488 | disabledButtonText.text = "No Money";
+430||No Money
+# Keypad.cs:98; TelevisionNoise.cs:254 | UseText.instance.ChangeUseText(title, "No Power", showUseText: true, redColor: true);
+431||No Power
+# LiquidStoragePanelUI.cs:494; LiquidStoragePanelUI.cs:496 | LiquidStorage.Result.Full => "No Space!",
+432||No Space!
+# LiquidStoragePanelUI.cs:362 | StatusTextInput.text = "No Unfill Storage";
+433||No Unfill Storage
+# InteractableDynamiteCone.cs:92 | UseText.instance.ChangeUseText(title, "No dynamite in inventory: " + text, showUseText: true, redColor: true);
+434||No dynamite in inventory: 
+# InteractableDynamiteCone.cs:92 | UseText.instance.ChangeUseText(title, "No dynamite in inventory: " + text, showUseText: true, redColor: true);
+435||No dynamite in inventory: {0}
+# StartSelection.cs:109 | return "No effects";
+436||No effects
+# MinitrainFuelTank.cs:94 | UseText.instance.ChangeUseText(title, "No fuel in Inventory", showUseText: true, redColor: true);
+437||No fuel in Inventory
+# MarketShop.cs:222 | UseText.instance.ChangeUseText(title, "No items to place!", showUseText: true, redColor: true);
+438||No items to place!
+# CharacterPanel.cs:64 | emptyPanelText.text = "No learned skills";
+439||No learned skills
+# ItemInfoPanel.cs:237 | cantUseButtonText.text = "No money";
+440||No money
+# PlayerStats.cs:516 | Notifications.instance.CreateNotification((amount == 1) ? "No new skill learned" : "No new skills learned", (amount == 1) ? name : "You cou
+441||No new skill learned
+# PlayerStats.cs:516 | Notifications.instance.CreateNotification((amount == 1) ? "No new skill learned" : "No new skills learned", (amount == 1) ? name : "You cou
+442||No new skills learned
+# ParcelLocker.cs:191; ParcelLocker.cs:220 | useMessage = "No packages";
+443||No packages
+# Button.cs:448 | noRequiredItemsText = "No required items found";
+444||No required items found
+# LoadMenu.cs:501; LoadMenu.cs:510 | InfoPanelNameText.text = "No slot selected";
+445||No slot selected
+# FuelPump.cs:186 | UseText.instance.ChangeUseText(title, "No target", showUseText: true, redColor: true);
+446||No target
+# BuildingSystem.cs:1321 | BuildingSystemMenu.instance.ShowWarningText("No wallpaper to remove!");
+447||No wallpaper to remove!
+# MinitrainFuelTank.cs:90 | UseText.instance.ChangeUseText(title, "No " + acceptedFuels[0].Item.Title + " in Inventory", showUseText: true, redColor: true);
+448||No {0} in Inventory
+# UpgradeUI.cs:354 | status.text = "Not Enough Money";
+449||Not Enough Money
+# UpgradeUI.cs:360 | status.text = "Not Enough Money/Resources";
+450||Not Enough Money/Resources
+# UpgradeUI.cs:357 | status.text = "Not Enough Resources";
+451||Not Enough Resources
+# LiquidStoragePanelUI.cs:492 | LiquidStorage.Result.Disabled => "Not Possible!",
+452||Not Possible!
+# InteractableFurnitureDisplay.cs:86 | objectName = "Not available";
+453||Not available
+# CraftingUpgrade.cs:201 | UseText.instance.ChangeUseText(title, "Not connected", showUseText: true, redColor: true, greenColor: false, passive: true);
+454||Not connected
+# InteractableMoney.cs:60 | UseText.instance.ChangeUseText(title, "Not enough money - " + text, showUseText: true, redColor: true);
+455||Not enough money - 
+# InteractableMoney.cs:60 | UseText.instance.ChangeUseText(title, "Not enough money - " + text, showUseText: true, redColor: true);
+456||Not enough money - {0}
+# InteractableFurnitureDisplay.cs:115; InteractablePay.cs:51 | UseText.instance.ChangeUseText(objectName, "Not enough money!", showUseText: true, redColor: true);
+457||Not enough money!
+# MarketShop.cs:237 | UseText.instance.ChangeUseText(title, "Not enough money! " + text, showUseText: true, redColor: true);
+458||Not enough money! 
+# MarketShop.cs:237 | UseText.instance.ChangeUseText(title, "Not enough money! " + text, showUseText: true, redColor: true);
+459||Not enough money! {0}
+# ShopBaseUI.cs:435 | disabledButtonText.text = "Not interested";
+460||Not interested
+# ObjectPreview.cs:151 | BuildingSystemMenu.instance.ShowWarningText("Not placeable surface!");
+461||Not placeable surface!
+# ItemConsumable.cs:267; ItemInfoPanel.cs:668; ItemMisc.cs:155 (+1) | cantUseButtonText.text = "Not usable";
+462||Not usable
+# TimeAndDay.cs:184 | 11 => "Nov",
+463||Nov
+# ToolTip.cs:398 | return "Nutrients: " + Math.Round(consumable.GetFood(), 2);
+464||Nutrients: 
+# ToolTip.cs:398 | return "Nutrients: " + Math.Round(consumable.GetFood(), 2);
+465||Nutrients: {0}
+# IntroStart.cs:129 | textLoiste.text = "OBENSEUER";
+466||OBENSEUER
+# BankExchangeRateSign.cs:55; FurnitureShopPanelUI.cs:261 | text.text = (RMtoOC ? "RM " : "OC ") + Math.Round(exchangeValues, rounding);
+467||OC 
+# StatsAfterCreditsUI.cs:90 | statsText.text = string.Format("{0}:{1}{2} hours, {3} minutes, {4} seconds\n", "Playtime", CalculateEmptySpace("Playtime", num, allV
+468||OC money
+# FurnitureShopPanelUI.cs:261 | shopOcMoneyText.text = "OC " + Inventory.instance.storagePanelUI.GetWealthText(money);
+469||OC {0}
+# BankUI.cs:433; BankUI.cs:450; BankUI.cs:481 (+1) | exchangeOc.text = "OC: " + BankPanel.instance.ocWalletMoney;
+470||OC: 
+# BankUI.cs:547 | ocVariableText.text = "OC: 0";
+471||OC: 0
+# BankUI.cs:433; BankUI.cs:450; BankUI.cs:481 (+1) | exchangeOc.text = "OC: " + BankPanel.instance.ocWalletMoney;
+472||OC: {0}
+# TaskController.cs:333 | Notifications.instance.CreateNotification("Objective Complete", objective.objective.GetTitle(objective.optional));
+473||Objective Complete
+# TaskController.cs:339 | Notifications.instance.CreateNotification("Objective Failed", objective.objective.GetTitle(objective.optional));
+474||Objective Failed
+# TaskController.cs:419 | Notifications.instance.CreateNotification("Objective Updated", text);
+475||Objective Updated
+# TimeAndDay.cs:182 | 9 => "Oct",
+476||Oct
+# FurnitureBlueprintController.cs:213 | Notifications.instance.CreateNotification((amount == 1) ? "Old blueprint" : "Old blueprints", (amount == 1) ? name : "Ther
+477||Old blueprint
+# FurnitureBlueprintController.cs:213 | Notifications.instance.CreateNotification((amount == 1) ? "Old blueprint" : "Old blueprints", (amount == 1) ? name : "Ther
+478||Old blueprints
+# RecipeController.cs:107 | Notifications.instance.CreateNotification((amount == 1) ? "Old recipe" : "Old recipes", (amount == 1) ? name : "There was only old rec
+479||Old recipe
+# RecipeController.cs:107 | Notifications.instance.CreateNotification((amount == 1) ? "Old recipe" : "Old recipes", (amount == 1) ? name : "There was only old rec
+480||Old recipes
+# Ristiseiska.cs:236 | .AddList("Can't place a card", "On your first turn, pass", "Otherwise ask the previous player for a card, which ends your turn")
+481||On your first turn, pass
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+482||One card per turn
+# Crime.cs:187 | return "One day";
+483||One day
+# CollectibleCoin.cs:38 | title = "Open Sewer Coins";
+484||Open Sewer Coins
+# ChinaHand.cs:259 | .AddList("Can't place a card", "Pick up the pile, which ends your turn", "Or risk a draw from the deck; if it doesn't fit, you pick it up wit
+485||Or risk a draw from the deck; if it doesn't fit, you pick it up with the pile
+# ChinaHand.cs:258 | .AddList("Order of play", "Hand first, then face-up cards, then face-down cards", "Face-down cards are played blind; if one doesn't fit, you 
+486||Order of play
+# Ristiseiska.cs:236 | .AddList("Can't place a card", "On your first turn, pass", "Otherwise ask the previous player for a card, which ends your turn")
+487||Otherwise ask the previous player for a card, which ends your turn
+# ItemInfoPanel.cs:247 | cantUseButtonText.text = "Out of space";
+488||Out of space
+# VendingMachineItemUI.cs:79 | buttonText.text = "Out of stock";
+489||Out of stock
+# TaskItem.cs:19 | [Description("Oven Recipes")]
+490||Oven Recipes
+# ToolTip.cs:936 | return "Owned - " + text;
+491||Owned - 
+# ToolTip.cs:936 | return "Owned - " + text;
+492||Owned - {0}
+# IntroStart.cs:118 | textLoiste.text = "PRESENTS";
+493||PRESENTS
+# CollectiblePackage.cs:170 | Notifications.instance.CreateNotification("Package collected!", "New items added to your inventory");
+494||Package collected!
+# FurnitureSurface.cs:23 | [Description("Paint")]
+495||Paint
+# Furniture.cs:19 | [Description("Paintings")]
+496||Paintings
+# ParcelLocker.cs:189 | title = "Parcel Locker";
+497||Parcel Locker
+# PhysicCable.cs:302; PhysicCable.cs:307 | return string.Format("{0}_{1}_Conn", "Part", index);
+498||Part
+# CardGameUI.cs:177; CardGameUI.cs:184 | textMeshProUGUI.text = textMeshProUGUI.text + "Pass Turn (" + CardInputHandler.PrimaryText + ")\n";
+499||Pass Turn (
+# WaitingUI.cs:163 | return "Passed out";
+500||Passed out
+# ShopBaseUI.cs:409; ShopBaseUI.cs:410 | disabledButtonText.text = "Pause";
+501||Pause
+# InteractableMoney.cs:56; MarketShop.cs:233 | UseText.instance.ChangeUseText(title, "Pay " + text);
+502||Pay 
+# InteractableMoney.cs:56; MarketShop.cs:233 | UseText.instance.ChangeUseText(title, "Pay " + text);
+503||Pay {0}
+# InteractablePay.cs:47 | UseText.instance.ChangeUseText(title, "Pay: " + price.GetPricestring());
+504||Pay: 
+# InteractablePay.cs:47 | UseText.instance.ChangeUseText(title, "Pay: " + price.GetPricestring());
+505||Pay: {0}
+# Phone.cs:108 | title = "Phone";
+506||Phone
+# ChinaHand.cs:259 | .AddList("Can't place a card", "Pick up the pile, which ends your turn", "Or risk a draw from the deck; if it doesn't fit, you pick it up wit
+507||Pick up the pile, which ends your turn
+# CardGameUI.cs:217 | textMeshProUGUI6.text = textMeshProUGUI6.text + "Pickup Pile (" + CardInputHandler.PrimaryText + ")\n";
+508||Pickup Pile (
+# ChinaHand.cs:257 | .AddList("Placing rules", "Place a card of the same or higher rank than the top card", "Aces are high", "Jack, Queen, King and Ace can only b
+509||Place a card of the same or higher rank than the top card
+# InteractableDynamiteCone.cs:100 | UseText.instance.ChangeUseText(title, dynamitePlaced ? ("Remove dynamite: " + text) : ("Place dynamite: " + text));
+510||Place dynamite: 
+# ChinaHand.cs:257; Ristiseiska.cs:235 | .AddList("Placing rules", "Place a card of the same or higher rank than the top card", "Aces are high", "Jack, Queen, Kin
+511||Placing rules
+# Furniture.cs:39 | [Description("Plants")]
+512||Plants
+# PajatsoGameplay.cs:49; SlotMachineGameplay.cs:142 | title = "Play";
+513||Play
+# TenementResidentTextList.cs:50 | textMeshPro.text = textMeshPro.text + "1     " + DialogueLua.GetVariable("PlayerLastName").AsString;
+514||PlayerLastName
+# WaitingUI.cs:169 | return "Playing";
+515||Playing
+# StatsAfterCreditsUI.cs:90 | statsText.text = string.Format("{0}:{1}{2} hours, {3} minutes, {4} seconds\n", "Playtime", CalculateEmptySpace("Playtime", num, allV
+516||Playtime
+# Furniture.cs:55 | [Description("Posters")]
+517||Posters
+# VariousPrefabsDemoCellView.cs:28 | textComponent.text = $"Prefab type : {_data.Type}";
+518||Prefab type : {0}
+# Button.cs:444; SlotMachineGameplay.cs:146; SlotMachineGameplay.cs:659 (+1) | useMessage = "Press";
+519||Press
+# FuelPump.cs:154 | UseText.instance.ChangeUseText(title, $"Press once to put back {GetPercent()} %");
+520||Press once to put back {0} %
+# AmountSliderUI.cs:206; ItemInfoPanel.cs:238; PutItemSelectionItemUI.cs:59 (+3) | bottomInfoText.text = "Price: " + TradePanel.instance.activeTrade.GetItemPriceS
+521||Price: 
+# PutItemSelectionItemUI.cs:71 | cost.text = "Price: 0 OC";
+522||Price: 0 OC
+# AmountSliderUI.cs:206; ItemInfoPanel.cs:238 | bottomInfoText.text = "Price: " + TradePanel.instance.activeTrade.GetItemPriceString(itemData, currentValue);
+523||Price: {0}
+# PutItemSelectionItemUI.cs:65; VendingMachineItemUI.cs:65 | cost.text = "Price: " + option.cost.OC + " OC";
+524||Price: {0} OC
+# PutItemSelectionItemUI.cs:59; VendingMachineItemUI.cs:58 | cost.text = "Price: " + option.cost.RM + " RM";
+525||Price: {0} RM
+# DoctorPanel.cs:149; DoctorPanel.cs:172 | infoPriceText.text = $"Price: {selection.price} {Money.instance.GetCurrencyShort(selection.currency)}";
+526||Price: {0} {1}
+# DifficultySettingDescriptions.cs:21 | DifficultySetting.Prices => "Prices",
+527||Prices
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+528||Prices: 
+# TaskItem.cs:51 | [Description("Printer and Other Paper Work")]
+529||Printer and Other Paper Work
+# Crime.cs:19 | [Description("Prison Escape")]
+530||Prison Escape
+# ProgressSlot.cs:142 | return "Process";
+531||Process
+# InteractableFurnitureDisplay.cs:111 | UseText.instance.ChangeUseText(objectName, "Purchase");
+532||Purchase
+# FuelPump.cs:169; FuelPump.cs:174 | UseText.instance.ChangeUseText(title, "Put back");
+533||Put back
+# OptionsMenu.cs:1044; OptionsMenu.cs:1076 | speakeModeText.text = "Quad";
+534||Quad
+# ToolTip.cs:566 | return "Quality: Normal";
+535||Quality: Normal
+# Crime.cs:179 | return "Quick visit";
+536||Quick visit
+# InputManager.cs:281 | KeyCode.Joystick1Button5 => "RB",
+537||RB
+# BankExchangeRateSign.cs:55; FurnitureShopPanelUI.cs:266 | text.text = (RMtoOC ? "RM " : "OC ") + Math.Round(exchangeValues, rounding);
+538||RM 
+# FurnitureShopPanelUI.cs:266 | shopRmMoneyText.text = "RM " + Inventory.instance.storagePanelUI.GetWealthText(Money.instance.RmToOcConvert(money));
+539||RM {0}
+# BankUI.cs:434; BankUI.cs:451; BankUI.cs:482 (+1) | exchangeRm.text = "RM: " + BankPanel.instance.rmWalletMoney;
+540||RM: 
+# BankUI.cs:555 | rmVariableText.text = "RM: 0";
+541||RM: 0
+# BankUI.cs:434; BankUI.cs:451; BankUI.cs:482 (+1) | exchangeRm.text = "RM: " + BankPanel.instance.rmWalletMoney;
+542||RM: {0}
+# InputManager.cs:263 | KeyCode.Mouse1 => "RMB",
+543||RMB
+# Radio.cs:104 | title = "Radio";
+544||Radio
+# RatTrap.cs:111 | title = "Rat Trap With Glowing Rat";
+545||Rat Trap With Glowing Rat
+# RatTrap.cs:106 | title = "Rat Trap With Rat";
+546||Rat Trap With Rat
+# CollectibleNote.cs:25 | useMessage = "Read";
+547||Read
+# WaitingUI.cs:167 | return "Reading";
+548||Reading
+# StatsAfterCreditsUI.cs:90 | statsText.text = string.Format("{0}:{1}{2} hours, {3} minutes, {4} seconds\n", "Playtime", CalculateEmptySpace("Playtime", num, allV
+549||Real money
+# RecipeController.cs:196 | return "Recipe";
+550||Recipe
+# CollectibleRecipeBook.cs:80; TaskItem.cs:17 | title = "Recipes";
+551||Recipes
+# TaskbarProgram.cs:36 | title.text = "Recycle Bin";
+552||Recycle Bin
+# WastelandGlow.cs:41 | title = "Red thing";
+553||Red thing
+# SlotMachineGameplay.cs:697 | cashOutButton.useMessage = $"Redeem doubling earnings: {_currentRunEarnings}";
+554||Redeem doubling earnings: {0}
+# SlotMachineGameplay.cs:587 | cashOutButton.useMessage = $"Redeem: {_currentRunEarnings}";
+555||Redeem: {0}
+# Toilet.cs:67 | useMessage = "Relief";
+556||Relief
+# InteractableDynamiteCone.cs:100 | UseText.instance.ChangeUseText(title, dynamitePlaced ? ("Remove dynamite: " + text) : ("Place dynamite: " + text));
+557||Remove dynamite: 
+# DifficultySettingDescriptions.cs:15 | DifficultySetting.RenovationResourceCosts => "Renovation Resource Costs",
+558||Renovation Resource Costs
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+559||Renovation costs: 
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+560||Renovation resources costs: 
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+561||Renovation speeds: 
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+562||Rent income: 
+# TenementController.cs:398 | Notifications.instance.CreateNotification("Rent paid", text);
+563||Rent paid
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+564||Rent payments: 
+# CardGameUI.cs:190 | textMeshProUGUI3.text = textMeshProUGUI3.text + "Request Card (" + CardInputHandler.PrimaryText + ")\n";
+565||Request Card (
+# RecipeInfoUI.cs:165 | componentInChildren.text = "Required modifiers:\n";
+566||Required modifiers:¶
+# ShopBaseUI.cs:505 | disabledButtonText.text = $"Required skill: \n<b>{taskItemBlueprint.skill} {taskItemBlueprint.minimumSkill}</b>";
+567||Required skill: ¶
+# DifficultySettingDescriptions.cs:23 | DifficultySetting.RespawningTime => "Respawn Time",
+568||Respawn Time
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+569||Respawning times: 
+# ManufacturingProcessInfo.cs:85 | infoText.text = "Result";
+570||Result
+# InputManager.cs:273; InventoryNavigationHandler.cs:397 | KeyCode.RightArrow => "Right",
+571||Right
+# InputManager.cs:266 | KeyCode.RightControl => "Right CTRL",
+572||Right CTRL
+# InputManager.cs:268 | KeyCode.RightShift => "Right Shift",
+573||Right Shift
+# InputManager.cs:285 | KeyCode.Joystick1Button9 => "Right Stick",
+574||Right Stick
+# InventoryNavigationHandler.cs:1357 | return Input.GetAxis("RightStickVertical") != 0f;
+575||RightStickVertical
+# CardGameUI.cs:222 | textMeshProUGUI7.text = textMeshProUGUI7.text + "Risk Draw (" + CardInputHandler.SecondaryText + ")\n";
+576||Risk Draw (
+# TenementUpgrade.cs:291; TenementUpgrade.cs:331 | return "Rooftop greenhouse";
+577||Rooftop greenhouse
+# Hotel.cs:231; Hotel.cs:253 | Notifications.instance.CreateNotification("Room rented", rooms[result].roomName);
+578||Room rented
+# Furniture.cs:23 | [Description("Rugs")]
+579||Rugs
+# TimeAndDay.cs:164 | 5 => "SAT",
+580||SAT
+# TimeAndDay.cs:165 | 6 => "SUN",
+581||SUN
+# TimeOfDayAzure.cs:640 | 5 => "Saturday",
+582||Saturday
+# TenementUpgrade.cs:323 | return "Sauna and pier";
+583||Sauna and pier
+# SaveController.cs:1395; SaveController.cs:1414 | Notifications.instance?.CreateNotification("Save data corrupted", playerLevel + " could not be restored and was
+584||Save data corrupted
+# LoadMenu.cs:432 | InfoPanelDateText.text = "Save is corrupted!";
+585||Save is corrupted!
+# LoadMenu.cs:471; LoadMenu.cs:477 | InfoPanelDateText.text = "Save is from older version!";
+586||Save is from older version!
+# Storage.cs:389 | useMessage = "Search";
+587||Search
+# AmountSliderUI.cs:168; ItemInfoPanel.cs:257; ShopBaseUI.cs:439 (+1) | okButtonText.text = "Sell";
+588||Sell
+# TimeAndDay.cs:181; TimeAndDay.cs:183 | 8 => "Sep",
+589||Sep
+# TaskItem.cs:55 | [Description("Sewing Recipes")]
+590||Sewing Recipes
+# Furniture.cs:41 | [Description("Shelves")]
+591||Shelves
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+592||Shittypants
+# BaseShop.cs:112 | useMessage = "Shop";
+593||Shop
+# TenementUpgrade.cs:427; TenementUpgrade.cs:451 | return "Shop balcony";
+594||Shop balcony
+# TenementUpgrade.cs:391 | return "Shop bathroom";
+595||Shop bathroom
+# TenementUpgrade.cs:343 | return "Shop electricity";
+596||Shop electricity
+# TenementUpgrade.cs:375 | return "Shop heating";
+597||Shop heating
+# TenementUpgrade.cs:471 | return "Shop kitchen";
+598||Shop kitchen
+# TenementUpgrade.cs:407 | return "Shop walls";
+599||Shop walls
+# TenementUpgrade.cs:359 | return "Shop water";
+600||Shop water
+# CardGameUI.cs:234 | textMeshProUGUI9.text = textMeshProUGUI9.text + "Show Hints (" + HintOverlay.KeyDisplayText + ")\n";
+601||Show Hints (
+# Furniture.cs:51 | [Description("Signs")]
+602||Signs
+# PlayerStats.cs:425 | Notifications.instance.CreateNotification("Skill decreased!", playerSkill.Type.ToString());
+603||Skill decreased!
+# PlayerStats.cs:421 | Notifications.instance.CreateNotification("Skill increased!", playerSkill.Type.ToString());
+604||Skill increased!
+# RecipeInfoUI.cs:241 | componentInChildren3.text = componentInChildren3.text + "Skill: " + recipe.RelevantSkill;
+605||Skill: 
+# InteractableWaitWork.cs:72 | UseText.instance.ChangeUseText(title, $"Skill: {Skill} is too low!", showUseText: true, redColor: true);
+606||Skill: {0} is too low!
+# RecipeInfoUI.cs:232; RecipeInfoUI.cs:236 | componentInChildren3.text += $"Skill: {recipe.RelevantSkill} {recipe.MinimumSkill}";
+607||Skill: {0} {1}
+# InteractableTalk.cs:126; WaitingUI.cs:185 | UseText.instance.ChangeUseText(HideName() ? "???" : title, "Sleeping", showUseText: true, redColor: true);
+608||Sleeping
+# WaitingUI.cs:183 | return "Slept";
+609||Slept
+# StoragePanelUI.cs:110 | return text + "<color=#" + ColorUtility.ToHtmlStringRGB(wealthSmall) + ">Small";
+610||Small
+# ResidentRequirementUI.cs:51 | title = "Small Apartment";
+611||Small Apartment
+# PlayerStatsToolTipInfo.cs:86 | title = "Smokes need: ";
+612||Smokes need: 
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+613||Smv progression rate speed: 
+# Furniture.cs:35 | [Description("Sofas")]
+614||Sofas
+# CardGameUI.cs:196; CardGameUI.cs:228 | textMeshProUGUI4.text = textMeshProUGUI4.text + "Sort Cards (" + CardInputHandler.SortText + ")\n";
+615||Sort Cards (
+# ProgressSlot.cs:138 | return "Spoiled";
+616||Spoiled
+# ProgressSlot.cs:140 | return "Spoiling";
+617||Spoiling
+# CollectibleNote.cs:61 | UseText.instance.ChangeUseText(title, "Spy", showUseText: true, redColor: true);
+618||Spy
+# DifficultySettingDescriptions.cs:25 | DifficultySetting.StackSize => "Stack Size",
+619||Stack Size
+# DifficultyUI.cs:236 | return string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(string.Concat(strin
+620||Stack sizes: 
+# TenementUpgrade.cs:243 | return "Stairwell";
+621||Stairwell
+# WaitingUI.cs:171 | return "Staring wall";
+622||Staring wall
+# ChinaHand.cs:256; Ristiseiska.cs:235 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting",
+623||Starting
+# DifficultySettingDescriptions.cs:9 | DifficultySetting.StartingAddictions => "Starting Addictions",
+624||Starting Addictions
+# DoctorPanel.cs:152 | infoStatusText.text = "Status: " + status.title;
+625||Status: 
+# DoctorPanel.cs:152 | infoStatusText.text = "Status: " + status.title;
+626||Status: {0}
+# OptionsMenu.cs:1039; OptionsMenu.cs:1070 | speakeModeText.text = "Stereo";
+627||Stereo
+# ToolTip.cs:930 | return "Stolen - " + text;
+628||Stolen - 
+# ToolTip.cs:930 | return "Stolen - " + text;
+629||Stolen - {0}
+# TaskItem.cs:21 | [Description("Stove Recipes")]
+630||Stove Recipes
+# ToolTip.cs:412 | return "Strength: " + Math.Round(consumable.GetAlcohol(), 2);
+631||Strength: 
+# ToolTip.cs:412 | return "Strength: " + Math.Round(consumable.GetAlcohol(), 2);
+632||Strength: {0}
+# WaitingUI.cs:179 | return "Studying";
+633||Studying
+# PlayerSubscription.cs:199; PlayerSubscriptionsController.cs:139 | Notifications.instance.CreateNotification("Subscribed to", subscriptionName);
+634||Subscribed to
+# TimeOfDayAzure.cs:641 | 6 => "Sunday",
+635||Sunday
+# Furniture.cs:71 | [Description("Surfaces")]
+636||Surfaces
+# OptionsMenu.cs:1049; OptionsMenu.cs:1082 | speakeModeText.text = "Surround";
+637||Surround
+# OptionsMenu.cs:1054; OptionsMenu.cs:1088 | speakeModeText.text = "Surround 5.1";
+638||Surround 5.1
+# OptionsMenu.cs:1059; OptionsMenu.cs:1094 | speakeModeText.text = "Surround 7.1";
+639||Surround 7.1
+# InventoryNavigationHandler.cs:395 | return text + KeyCodeInfoToString(text, "MOVE SLIDER", "Switch Tab Left", "Switch Tab Right");
+640||Switch Tab Left
+# InventoryNavigationHandler.cs:395 | return text + KeyCodeInfoToString(text, "MOVE SLIDER", "Switch Tab Left", "Switch Tab Right");
+641||Switch Tab Right
+# TimeAndDay.cs:162 | 3 => "THU",
+642||THU
+# DifficultySettingDescriptions.cs:35 | DifficultySetting.AutosaveMode => "TODO",
+643||TODO
+# TimeAndDay.cs:160 | 1 => "TUE",
+644||TUE
+# Furniture.cs:15 | [Description("Tables")]
+645||Tables
+# Mailbox.cs:81 | useMessage = $"Take {MailController.instance.GetMailAmount()} mail";
+646||Take {0} mail
+# WaitingUI.cs:177 | return "Talking";
+647||Talking
+# Furniture.cs:65; LiquidStorage.cs:366 | [Description("Tank")]
+648||Tank
+# TaskController.cs:300 | Notifications.instance.CreateNotification("Task Abandoned", task.task.title);
+649||Task Abandoned
+# TaskController.cs:295 | Notifications.instance.CreateNotification("Task Failed", task.task.title);
+650||Task Failed
+# TaskController.cs:290 | Notifications.instance.CreateNotification("Task Finished", task.task.title);
+651||Task Finished
+# TaskItem.cs:11 | [Description("Task Items")]
+652||Task Items
+# TelevisionNoise.cs:139 | title = "Television";
+653||Television
+# WeatherManager.cs:341 | return ActiveWeather().FindProperty("Temperature").timelineBasedCurve.Evaluate(TimeOfDayAzure.instance.CurrentTimelineValue) * 40f - 20f
+654||Temperature
+# TenementUpgradeProgress.cs:64 | taskInfo.title = "Tenement " + text;
+655||Tenement 
+# TenementUpgrade.cs:203 | return "Tenement electricity";
+656||Tenement electricity
+# TenementUpgrade.cs:227 | return "Tenement heating room";
+657||Tenement heating room
+# TenementUpgrade.cs:215 | return "Tenement plumbing";
+658||Tenement plumbing
+# TenementUpgradeProgress.cs:64 | taskInfo.title = "Tenement " + text;
+659||Tenement {0}
+# ComputerFile.cs:19 | return "Text Document";
+660||Text Document
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+661||The 7 of Clubs starts the game and must be placed
+# ApartmentInfoUI.cs:271 | notAvailableInfoText.text = "The apartment has not been cleared";
+662||The apartment has not been cleared
+# ApartmentInfoUI.cs:277 | notAvailableInfoText.text = "The apartment has not been examined";
+663||The apartment has not been examined
+# ApartmentRentUI.cs:150 | cantRentButtonText.text = "The apartment needs upgrades!";
+664||The apartment needs upgrades!
+# BuildingSystem.cs:590 | BuildingSystemMenu.instance.ShowWarningTextTimed("The area has not been fully examined!", red: true, dontOverrideLastMessage: true);
+665||The area has not been fully examined!
+# BankUI.cs:526 | warningText.text = "The bank has insufficient funds";
+666||The bank has insufficient funds
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+667||The player with the lowest card (3 or higher) starts
+# ApartmentInfoUI.cs:265 | notAvailableInfoText.text = "The resident prevents upgrading the apartment";
+668||The resident prevents upgrading the apartment
+# ApartmentRentUI.cs:147 | cantRentButtonText.text = "The tenement needs upgrades!";
+669||The tenement needs upgrades!
+# FurnitureBlueprintController.cs:213 | Notifications.instance.CreateNotification((amount == 1) ? "Old blueprint" : "Old blueprints", (amount == 1) ? name : "Ther
+670||There was only old blueprints
+# RecipeController.cs:107 | Notifications.instance.CreateNotification((amount == 1) ? "Old recipe" : "Old recipes", (amount == 1) ? name : "There was only old rec
+671||There was only old recipes
+# PlayerStatsToolTipInfo.cs:56 | title = "Thirst: ";
+672||Thirst: 
+# TimeOfDayAzure.cs:638 | 3 => "Thursday",
+673||Thursday
+# PlayerStatsToolTipInfo.cs:62 | title = "Tiredness: ";
+674||Tiredness: 
+# Toilet.cs:63 | title = "Toilet";
+675||Toilet
+# PlayerStatsTiredness.cs:174 | Reason.Hunger => "Too hungry",
+676||Too hungry
+# PlayerStatsTiredness.cs:173 | Reason.Health => "Too low Health",
+677||Too low Health
+# PlayerStatsTiredness.cs:176 | Reason.MentalHealth => "Too low mental health",
+678||Too low mental health
+# PlayerStatsTiredness.cs:175 | Reason.Thirst => "Too thirsty",
+679||Too thirsty
+# PlayerStatsTiredness.cs:177 | Reason.Tiredness => "Too tired",
+680||Too tired
+# MarketShop.cs:226 | UseText.instance.ChangeUseText(title, "Total: " + text + " (Scanning)", showUseText: true, redColor: true);
+681||Total: 
+# MarketShop.cs:226 | UseText.instance.ChangeUseText(title, "Total: " + text + " (Scanning)", showUseText: true, redColor: true);
+682||Total: {0} (Scanning)
+# WastelandGlow.cs:42 | useMessage = "Touch";
+683||Touch
+# Trade.cs:217 | useMessage = "Trade";
+684||Trade
+# DifficultySettingDescriptions.cs:22 | DifficultySetting.TraderWealth => "Trader Wealth",
+685||Trader Wealth
+# TimeOfDayAzure.cs:636 | 1 => "Tuesday",
+686||Tuesday
+# InteractableShower.cs:166; InteractableShower.cs:179; TelevisionNoise.cs:258 | UseText.instance.ChangeUseText(title, "Turn Off");
+687||Turn Off
+# InteractableShower.cs:170; InteractableShower.cs:183; TelevisionNoise.cs:262 | UseText.instance.ChangeUseText(title, "Turn On");
+688||Turn On
+# ItemInfoPanel.cs:278; ItemInfoPanel.cs:722; ItemInfoPanel.cs:723 | cantUseButtonText.text = "Unequip";
+689||Unequip
+# LiquidStoragePanelUI.cs:499 | LiquidStorage.Result.Unfilling => "Unfilling!",
+690||Unfilling!
+# JsonData.cs:948 | return "Uninitialized JsonData";
+691||Uninitialized JsonData
+# ComputerFile.cs:21 | return "Unkown";
+692||Unkown
+# PlayerSubscription.cs:212 | Notifications.instance.CreateNotification("Unsubscribed from", subscriptionName);
+693||Unsubscribed from
+# InputManager.cs:270 | KeyCode.UpArrow => "Up",
+694||Up
+# FurniturePlaceable.cs:567 | BuildingSystemMenu.instance.ShowWarningText("Uses item: " + text, red: false);
+695||Uses item: 
+# FurniturePlaceable.cs:567 | BuildingSystemMenu.instance.ShowWarningText("Uses item: " + text, red: false);
+696||Uses item: {0}
+# FurniturePlaceable.cs:563 | BuildingSystemMenu.instance.ShowWarningText("Uses items: " + text, red: false);
+697||Uses items: 
+# FurniturePlaceable.cs:563 | BuildingSystemMenu.instance.ShowWarningText("Uses items: " + text, red: false);
+698||Uses items: {0}
+# TenementResidentTextList.cs:28 | text.text = "<align=center>VI</align>\n";
+699||VI
+# ApartmentInfoUI.cs:94 | apartmentValue.text = "Value: " + apartment.GetValue() + " RM";
+700||Value: 
+# ApartmentInfoUI.cs:94 | apartmentValue.text = "Value: " + apartment.GetValue() + " RM";
+701||Value: {0} RM
+# VendingMachine.cs:184 | title = "Vending Machine";
+702||Vending Machine
+# InputManager.cs:282 | KeyCode.Joystick1Button6 => "View",
+703||View
+# TimeAndDay.cs:161 | 2 => "WED",
+704||WED
+# TenementUpgradeProgress.cs:84 | objective.title = $"Wait for the apartment {apartmentNumber} {upgrade.GetName(apartmentNumber, targetName: true, taskInfo: true)
+705||Wait for the apartment {0} {1} upgrade to complete
+# TenementUpgradeProgress.cs:67 | objective.title = "Wait for the tenement " + upgrade.GetName(apartmentNumber, targetName: true, taskInfo: true).ToLower() + " up
+706||Wait for the tenement 
+# TenementUpgradeProgress.cs:67 | objective.title = "Wait for the tenement " + upgrade.GetName(apartmentNumber, targetName: true, taskInfo: true).ToLower() + " up
+707||Wait for the tenement {0} upgrade to complete
+# InteractableTicketMachine.cs:278 | UseText.instance.ChangeUseText(title, "Wait...", showUseText: true, redColor: true);
+708||Wait...
+# WaitingUI.cs:161 | return "Waiting";
+709||Waiting
+# FurnitureSurface.cs:11 | [Description("Wall")]
+710||Wall
+# BuildingSystem.cs:1316 | BuildingSystemMenu.instance.ShowWarningText("Wall already has this wallpaper!");
+711||Wall already has this wallpaper!
+# BankUI.cs:274; BankUI.cs:298; BankUI.cs:321 (+5) | ocWalletText.text = "Wallet: " + BankPanel.instance.ocWalletMoney + " OC";
+712||Wallet: 
+# BankUI.cs:274; BankUI.cs:298; BankUI.cs:321 (+1) | ocWalletText.text = "Wallet: " + BankPanel.instance.ocWalletMoney + " OC";
+713||Wallet: {0} OC
+# BankUI.cs:355; BankUI.cs:379; BankUI.cs:402 (+1) | rmWalletText.text = "Wallet: " + BankPanel.instance.rmWalletMoney + " RM";
+714||Wallet: {0} RM
+# Furniture.cs:69; FurnitureSurface.cs:21 | [Description("Wallpaper")]
+715||Wallpaper
+# WaitingUI.cs:175 | return "Watching television";
+716||Watching television
+# TaskItem.cs:29 | [Description("Water Source Recipes")]
+717||Water Source Recipes
+# TimeOfDayAzure.cs:637 | 2 => "Wednesday",
+718||Wednesday
+# TaskItem.cs:61 | [Description("Woodworking Recipes")]
+719||Woodworking Recipes
+# WaitingUI.cs:159 | return "Working";
+720||Working
+# TenementUpgrade.cs:275 | return "Workshop";
+721||Workshop
+# ApartmentRentUI.cs:144 | cantRentButtonText.text = "Wrong Size!";
+722||Wrong Size!
+# LockpickUI.cs:105 | controls.text = "X)Use";
+723||X)Use
+# NewGame.cs:55 | skipIntroText.text = "Yes";
+724||Yes
+# ChinaHand.cs:257 | .AddList("Placing rules", "Place a card of the same or higher rank than the top card", "Aces are high", "Jack, Queen, King and Ace can only b
+725||You can add more cards of the same rank until the next player plays
+# PlayerStats.cs:516 | Notifications.instance.CreateNotification((amount == 1) ? "No new skill learned" : "No new skills learned", (amount == 1) ? name : "You cou
+726||You couldn't learn a new skills
+# ChinaHand.cs:256 | return new HintContent("Shittypants").AddText("Goal", "Get rid of all your cards before the others.").AddList("Starting", "You get 3 cards in
+727||You get 3 cards in hand, 3 face-up and 3 face-down
+# TreatmentFungalDisease.cs:69 | return $"You have only {num} days lifetime left!";
+728||You have only {0} days lifetime left!
+# Ristiseiska.cs:235 | return new HintContent("Crosseven (Ristiseiska)").AddText("Goal", "Get rid of all your cards first.").AddList("Starting", "The 7 of Clubs s
+729||You must place a card if you can
+# TreatmentFungalDisease.cs:75 | return $"You only have about {num} days left before your condition turns very bad!";
+730||You only have about {0} days left before your condition turns very bad!
+# TreatmentFungalDisease.cs:73 | return $"You will leave this place in {num} days.";
+731||You will leave this place in {0} days.
+# Crime.cs:160 | return "You will rot here";
+732||You will rot here
+# ApartmentRentUI.cs:153 | cantRentButtonText.text = "Your apartment!";
+733||Your apartment!
+# TreatmentFungalDisease.cs:65 | return "Your situation is critical, your chance of seeing tomorrow are very slim!";
+734||Your situation is critical, your chance of seeing tomorrow are very slim!
+# TenementUpgrade.cs:423; TenementUpgrade.cs:447 | return "balcony";
+735||balcony
+# TenementUpgrade.cs:387 | return "bathroom";
+736||bathroom
+# DifficultyInfo.cs:239 | RentPayments.Biweekly => "bw",
+737||bw
+# SaveController.cs:158 | return DateTime.Parse(Date, CultureInfo.InvariantCulture).ToString("dd.MM.yyyy HH\\:mm\\:ss");
+738||dd.MM.yyyy HH\:mm\:ss
+# TenementUpgrade.cs:199; TenementUpgrade.cs:339 | return "electricity";
+739||electricity
+# TenementUpgrade.cs:419; TenementUpgrade.cs:443 | return "extension";
+740||extension
+# TenementUpgrade.cs:371 | return "heating";
+741||heating
+# TenementUpgrade.cs:223 | return "heating room";
+742||heating room
+# TenementUpgrade.cs:467 | return "kitchen";
+743||kitchen
+# Crime.cs:147 | return "now";
+744||now
+# JsonData.cs:954 | return "null";
+745||null
+# Crime.cs:167 | return "one day";
+746||one day
+# TenementUpgrade.cs:211 | return "plumbing";
+747||plumbing
+# Crime.cs:155 | return "soon";
+748||soon
+# Crime.cs:151 | return "very soon";
+749||very soon
+# TenementUpgrade.cs:403 | return "walls";
+750||walls
+# TenementUpgrade.cs:355 | return "water";
+751||water
+# Crime.cs:171 | return $"you only have to be there for about {Mathf.RoundToInt(num)} hours";
+752||you only have to be there for about {0} hours
+# PlayerStatsTiredness.cs:187 | Reason.Hunger => "you're too hungry",
+753||you're too hungry
+# PlayerStatsTiredness.cs:188 | Reason.Thirst => "you're too thirsty",
+754||you're too thirsty
+# PlayerStatsTiredness.cs:190 | Reason.Tiredness => "you're too tired",
+755||you're too tired
+# PlayerStatsTiredness.cs:186 | Reason.Health => "your health is too low",
+756||your health is too low
+# PlayerStatsTiredness.cs:189 | Reason.MentalHealth => "your mental health is too low",
+757||your mental health is too low
+# RecipeIngredientUI.cs:41 | textMeshProUGUI.text = text + text2 + "\nAmount: " + itemAmount;
+758||{0}¶Amount: {1}
+# RecipeIngredientUI.cs:58 | component.itemName.text = (exist ? ("<color=\"" + defaultColor + "\">") : "<#A8211F>") + item.Title + "\nAmount: " + ItemLiquidData.S
+759||{0}¶Amount: {1}L
+# RecipeIngredientUI.cs:48 | component.itemName.text = (exist ? ("<color=\"" + defaultColor + "\">") : "<#A8211F>") + item.Title + "\nAny amount";
+760||{0}¶Any amount
+# RecipeInfoUI.cs:264 | componentInChildren3.text = componentInChildren3.text + "\nFail chance: " + (int)(num * 100f) + "%";
+761||{0}¶Fail chance: {1}%
+# RecipeIngredientUI.cs:54 | component.itemName.text = (exist ? ("<color=\"" + defaultColor + "\">") : "<#A8211F>") + item.Title + "\nFull container";
+762||{0}¶Full container
+# RecipeInfoUI.cs:253 | componentInChildren3.text = componentInChildren3.text + "\nGrow time: " + TimeOfDayAzure.GetCurrentTime((float)itemGrowdata.growtime * 1f 
+763||{0}¶Grow time: {1}
+# RecipeInfoUI.cs:261 | componentInChildren3.text = componentInChildren3.text + "\nProcess time: " + TimeOfDayAzure.GetCurrentTime((float)recipe.GetProcessTime(1f
+764||{0}¶Process time: {1}
+# RecipeInfoUI.cs:268 | componentInChildren3.text = componentInChildren3.text + "\nQuality: " + ToolTip.QualityDataToString(ItemQualityData.GetQuality(num2), qual
+765||{0}¶Quality: {1}
+# PlayerSkillIncreaseUI.cs:41 | ShowNotification($"{skillType.ToString()}\nincreased to\nlevel {amount}!");
+766||{0}¶increased to¶level {1}!
+# BuildingSystemMenu.cs:527 | currentSelectionText.text = slots[newSlot].SlotName() + " (Contains Items!)";
+767||{0} (Contains Items!)
+# LiquidStorage.cs:446; Storage.cs:520 | return title + " (Empty)";
+768||{0} (Empty)
+# TaskObjective.cs:62 | return title + " (Optional)";
+769||{0} (Optional)
+# PajatsoGameplay.cs:101 | UseText.instance.ChangeUseText(title, $"{coinsInMachine} Coin");
+770||{0} Coin
+# PajatsoGameplay.cs:105 | UseText.instance.ChangeUseText(title, $"{coinsInMachine} Coins");
+771||{0} Coins
+# DifficultyUI.cs:189 | difficultyInfoText.text = currentDifficultyInfo.difficultyName.ToUpper() + " DIFFICULTY:";
+772||{0} DIFFICULTY:
+# BankUI.cs:299; BankUI.cs:322; BankUI.cs:591 (+4) | ocVariableText.text = -BankPanel.instance.depositWithdrawOCAmount + " OC";
+773||{0} OC
+# ApartmentInfoUI.cs:127 | textMeshProUGUI.text = textMeshProUGUI.text + " OC/" + DifficultyController.instance.currentDifficultyInfo.GetRentPaymentTimeUnit();
+774||{0} OC/{1}
+# BankUI.cs:380; BankUI.cs:403; BankUI.cs:609 (+9) | rmVariableText.text = -BankPanel.instance.depositWithdrawRMAmount + " RM";
+775||{0} RM
+# ApartmentInfoUI.cs:129 | textMeshProUGUI2.text = textMeshProUGUI2.text + " RM/" + DifficultyController.instance.currentDifficultyInfo.GetRentPaymentTimeUnit();
+776||{0} RM/{1}
+# CharacterPanelSkill.cs:50 | xp.text = $"{Mathf.FloorToInt(skill.Skill * 1000f)} XP";
+777||{0} XP
+# SaveController.cs:1395; SaveController.cs:1414 | Notifications.instance?.CreateNotification("Save data corrupted", playerLevel + " could not be restored and was
+778||{0} could not be restored and was reset
+# OptionsMenu.cs:1101; OptionsMenu.cs:1110; OptionsMenu.cs:1119 (+1) | masterText.text = volume.ToString("F0") + " dB";
+779||{0} dB
+# Crime.cs:169; Crime.cs:189 | return $"{num2} days";
+780||{0} days
+# SlotMachineGameplay.cs:1024; SlotMachineGameplay.cs:1077; SlotMachineGameplay.cs:1105 | lockLeftButton.useMessage = $"{_slots[0].LockStatus} locked";
+781||{0} locked
+# ParticleMenu.cs:39 | navigationDetails.text = currentIndex + 1 + " out of " + particleSystems.Length;
+782||{0} out of {1}
+# ToolTip.cs:687 | return (mailableData.isPackage ? "Package" : "Mail") + " " + mailableData.mailName + " ready to be sent\n";
+783||{0} {1} ready to be sent¶
+# InteractableWaitWork.cs:78 | UseText.instance.ChangeUseText(title, $"{useMessage} {(int)((float)WaitInMinutes / 60f)}h - Minimum: {SalaryPerHour.GetPricestring(
+784||{0} {1}h - Minimum: {2}/h
+# PlayerLockpicking.cs:219 | return text + " — Challenging)";
+785||{0} — Challenging)
+# PlayerLockpicking.cs:223 | return text + " — Difficult)";
+786||{0} — Difficult)
+# PlayerLockpicking.cs:211 | return text + " — Easy)";
+787||{0} — Easy)
+# PlayerLockpicking.cs:207 | return text + " — Effortless)";
+788||{0} — Effortless)
+# PlayerLockpicking.cs:225 | return text + " — Impossible)";
+789||{0} — Impossible)
+# PlayerLockpicking.cs:215 | return text + " — Moderate)";
+790||{0} — Moderate)
+# CraftingUpgrade.cs:180 | UseText.instance.ChangeUseText(title, (Active ? "ON" : "OFF") + ", connected to " + Connected[0].title, showUseText: true, redColor: fa
+791||{0}, connected to {1}
+# CraftingUpgrade.cs:184 | UseText.instance.ChangeUseText(title, string.Format("{0}, connected to {1} workstations", Active ? "ON" : "OFF", Connected.Count), show
+792||{0}, connected to {1} workstations
+# CraftingUpgrade.cs:188 | UseText.instance.ChangeUseText(title, (Active ? "ON" : "OFF") + ", not connected", showUseText: true, redColor: true, greenColor: false
+793||{0}, not connected
+# WorkableResourceSource.cs:376 | UseText.instance.ChangeUseText(title, toolname + ": " + actiontitle + ", Owned", showUseText: true, redColor: true, greenColor: 
+794||{0}: {1}, Owned
+# StatsAfterCreditsUI.cs:90 | statsText.text = string.Format("{0}:{1}{2} hours, {3} minutes, {4} seconds\n", "Playtime", CalculateEmptySpace("Playtime", num, allV
+795||{0}:{1} hours, {2} minutes, {3} seconds¶
+# StatsAfterCreditsUI.cs:90 | statsText.text = string.Format("{0}:{1}{2} hours, {3} minutes, {4} seconds\n", "Playtime", CalculateEmptySpace("Playtime", num, allV
+796||{0}:{1} hours, {2} minutes, {4} seconds¶
+# ToolTip.cs:500 | return text + "Bad";
+797||{0}Bad
+# ToolTip.cs:506 | return text + "Bland";
+798||{0}Bland
+# CardGameUI.cs:207 | textMeshProUGUI5.text = textMeshProUGUI5.text + "Call Ready (" + CardInputHandler.PrimaryText + ")\n";
+799||{0}Call Ready ({1})¶
+# ToolTip.cs:484; ToolTip.cs:514 | return text + "Fantastic";
+800||{0}Fantastic
+# ToolTip.cs:518 | return text + "Fine";
+801||{0}Fine
+# ToolTip.cs:488; ToolTip.cs:522 | return text + "Good";
+802||{0}Good
+# CardGameUI.cs:241 | textMeshProUGUI11.text = textMeshProUGUI11.text + "Hold to Leave (" + CardInputHandler.LeaveText + ")";
+803||{0}Hold to Leave ({1})
+# CardGameUI.cs:239 | textMeshProUGUI10.text = textMeshProUGUI10.text + "Hold to View Table (" + CardInputHandler.OverviewText + ")\n";
+804||{0}Hold to View Table ({1})¶
+# OptionsMenu.cs:676 | refreshRateText.text = $"{currentRefreshRate}Hz";
+805||{0}Hz
+# TreatmentAddictions.cs:226 | return text + "I don't know how it's possible but you don't seem to have any addictions!";
+806||{0}I don't know how it's possible but you don't seem to have any addictions!
+# ToolTip.cs:540 | return text + "None";
+807||{0}None
+# ToolTip.cs:492; ToolTip.cs:526 | return text + "Okay";
+808||{0}Okay
+# CardGameUI.cs:177; CardGameUI.cs:184 | textMeshProUGUI.text = textMeshProUGUI.text + "Pass Turn (" + CardInputHandler.PrimaryText + ")\n";
+809||{0}Pass Turn ({1})¶
+# ToolTip.cs:530 | return text + "Passable";
+810||{0}Passable
+# CardGameUI.cs:217 | textMeshProUGUI6.text = textMeshProUGUI6.text + "Pickup Pile (" + CardInputHandler.PrimaryText + ")\n";
+811||{0}Pickup Pile ({1})¶
+# ToolTip.cs:504; ToolTip.cs:534 | return text + "Poor";
+812||{0}Poor
+# CardGameUI.cs:190 | textMeshProUGUI3.text = textMeshProUGUI3.text + "Request Card (" + CardInputHandler.PrimaryText + ")\n";
+813||{0}Request Card ({1})¶
+# CardGameUI.cs:222 | textMeshProUGUI7.text = textMeshProUGUI7.text + "Risk Draw (" + CardInputHandler.SecondaryText + ")\n";
+814||{0}Risk Draw ({1})¶
+# CardGameUI.cs:234 | textMeshProUGUI9.text = textMeshProUGUI9.text + "Show Hints (" + HintOverlay.KeyDisplayText + ")\n";
+815||{0}Show Hints ({1})¶
+# RecipeInfoUI.cs:241 | componentInChildren3.text = componentInChildren3.text + "Skill: " + recipe.RelevantSkill;
+816||{0}Skill: {1}
+# CardGameUI.cs:196; CardGameUI.cs:228 | textMeshProUGUI4.text = textMeshProUGUI4.text + "Sort Cards (" + CardInputHandler.SortText + ")\n";
+817||{0}Sort Cards ({1})¶
+# ToolTip.cs:496 | return text + "Terrible";
+818||{0}Terrible
+# PhysicCable.cs:302 | return string.Format("{0}_{1}_Conn", "Part", index);
+819||{0}_{1}_Conn
+# PhysicCable.cs:307 | return string.Format("{0}_{1}_Point", "Part", index);
+820||{0}_{1}_Point

@@ -1,0 +1,32 @@
+Obenseuer Typewriter Cyrillic (ObenseuerTypewriterCyrillic.ttf)
+
+Кириллица для русификатора Obenseuer в стиле машинописного шрифта игры.
+Cyrillic letters for the Obenseuer Russian translation, styled after the game's typewriter font.
+
+Основа / Based on:
+  FreeMono Bold из GNU FreeFont 20120503
+  https://ftp.gnu.org/gnu/freefont/freefont-ttf-20120503.zip
+  SHA-256: 7c85baf1bf82a1a1845d1322112bc6ca982221b484e3b3925022e25b5cae89af
+  Copyright 2002, 2003, 2005, 2008, 2009, 2010, 2012 GNU Freefont contributors.
+
+Изменения / Modifications (2026, ObenseuerRUS):
+  оставлены только кириллица (А–я, Ё, ё) и знак №; очко букв сужено и подогнано по высоте,
+  контуры утолщены и сделаны неровными, как оттиск печатной машинки; шрифт переименован.
+  Kept only Cyrillic letters and №, adjusted proportions, thickened and roughened outlines, renamed.
+  Исходник изменений / Source of the modifications: make_cyrillic_font.py (в этой же папке / in this folder).
+  Глифы шрифтов игры не использовались / No glyphs from the game's fonts were used.
+
+Лицензия / License:
+  This font is free software: you can redistribute it and/or modify it under the terms of
+  the GNU General Public License as published by the Free Software Foundation, either
+  version 3 of the License, or (at your option) any later version. See COPYING-FreeFont.txt.
+
+  As a special exception, if you create a document which uses this font, and embed this
+  font or unaltered portions of this font into the document, this font does not by itself
+  cause the resulting document to be covered by the GNU General Public License. This
+  exception does not however invalidate any other reasons why the document might be covered
+  by the GNU General Public License. If you modify this font, you may extend this exception
+  to your version of the font, but you are not obligated to do so. If you do not wish to do
+  so, delete this exception statement from your version.
+
+  Код мода (ObenseuerRUS.dll) лишь загружает этот файл во время игры и под GPL не подпадает.

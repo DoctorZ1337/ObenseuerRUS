@@ -1,0 +1,724 @@
+# conv 202: Mines/Canteen/Anna Markkanen
+1|Anna Markkanen|I think...\, you're\, new here.
+2|Anna Markkanen|Hello!\,\, What can I get for\, you?
+3|Anna Markkanen|Hi there!\,\,\, What can I\, get for you today?
+4|Anna Markkanen|Hi!\,\, Would you like to buy some\, drinks?
+5|P|Could I get a menu, please?
+6|Anna Markkanen|Just to let you know\,\,, you'll need to take your food first\, and then come back here to pay.
+7|P|Does that cat on the bench over there belong to you?
+8|P|Do you have any work?
+9|P|Actually, I don't want anything right now (Leave)
+10|Anna Markkanen|But\, you can order drinks here\,\, and some snacks.
+11|Anna Markkanen|Oh\,\,, you mean Kisu?\,\,\, Yes\,\,, she’s mine.
+12|Anna Markkanen|She’s quite a lazy cat\,\,, though.
+13|Anna Markkanen|Doesn’t do much about the rats in here.
+14|Anna Markkanen|We've been having some trouble with those rats recently\, and\, I...
+15|Anna Markkanen|Maybe you could\,\, help me?
+16|Anna Markkanen|... I\, hate\, rats.
+17|P|Sure, I can help you with those nasty rats
+18|P|What's the reward?
+19|P|Sorry, but I love rats!
+20|P|I have to think about it
+21|Anna Markkanen|Great!
+22|Anna Markkanen|I'll...\,\, come up\, with\, something\,\, when you're done.
+23|Anna Markkanen|I have\, a few rat traps\, if you need them.
+24|P|Thanks!
+25|P|I just grab them by hand
+26|Anna Markkanen|Uh...
+27|Anna Markkanen|Don't be silly.
+28|Anna Markkanen|Just...\,\, take these.
+29|Anna Markkanen|No one can catch those\, dirty\, devils with their\, bare hands.
+30|P|I already have them
+31|Anna Markkanen|Oh...
+32|Anna Markkanen|You seem to be\, prepared for\, everything.
+33|Anna Markkanen|I\, counted that there would be at least\, six rats.
+34|Anna Markkanen|What?
+35|Anna Markkanen|No way!
+36|Anna Markkanen|Well then\, get them out of here\, before someone else comes\, to catch and kill them.
+37|P|Fine, I'll do it
+38|P|But maybe they like living here?
+39|P|Sorry, but I'm not going to help you
+40|Anna Markkanen|Catch them before they\, do more damage here!
+41|Anna Markkanen|I don't want\, rat\, poo getting into\, the customers' food!
+42|Anna Markkanen|Yeah\,, we serve such good food here\, so I'm not surprised!
+43|Anna Markkanen|But\, are you going to help me\, or not?
+44|Anna Markkanen|Fine...
+45|Anna Markkanen|I guess\,\, I'll have to find someone else\, to handle it\,\, if you don't change\, your mind...
+46|Anna Markkanen|Okay...\,\, that's fine.
+47|P|I can help you with those rats
+48|P|I caught those rats
+49|Anna Markkanen|Not really\,\,, but sandwiches have been\, very\, popular lately.
+50|Anna Markkanen|The workers buy\, and take them\, with them every day\, for a snack\, or lunch.
+51|Anna Markkanen|So\,\,, I'd be happy to buy sandwiches from you.
+52|Anna Markkanen|Finally!
+53|Anna Markkanen|Those\, rats have been\, a nightmare.
+54|Anna Markkanen|How about\, a free sandwich\, as a token of my\, gratitude?
+55|Anna Markkanen|So\,\,, can you help me?
+56|P|Yeah, that sounds great!
+57|P|That's all I get?
+58|P|I want money!
+59|P|(Leave)
+60|Anna Markkanen|Here\,\,, a tasty sandwich for you!
+61|Anna Markkanen|Of course not!
+62|Anna Markkanen|Don't worry\, I will give you some money too.
+63|Anna Markkanen|And also some cash for you.
+64|Anna Markkanen|Kisu never hurt\, anyone!\,\,\, Not even\, a rat...\,\, I\, don't want to\, talk to you.
+65|Anna Markkanen|I\, don’t want to\, hear a word from you...
+66|Anna Markkanen|You\, killed my\, little friend...\,\, get out of my sight!
+67|Anna Markkanen|Why\, did you do it...\,\, I’ll\, never forgive you for\, killing my little cat!
+68|Anna Markkanen|A menu? Really? After what you did?
+69|P|It was an accident!
+70|Anna Markkanen|Accident or not\,\,, you\, took\, something precious\, from me.\,\,\, I\, don’t think I\, can ever forgive you.
+71|P|But I'm going to make tasty sausage out of your cat!
+72|Anna Markkanen|You’re sick!
+73|Anna Markkanen|That’s the last thing\, you’ll ever say to me.
+74|Anna Markkanen|I’ll\, make sure of it!
+75|P|You have blonde hair!
+76|Anna Markkanen|Um...\,\, yeah?
+77|P|Do you know anyone named Hietala?
+78|P|Do you know Joel Hietala?
+79|P|You are under arrest, murderer!
+80|Anna Markkanen|Hietala?
+81|Anna Markkanen|Ines\, Hietala...
+82|Anna Markkanen|She\, used to work\, here\, in the canteen with me\,\,, but she left a while back.
+83|Anna Markkanen|Joel\, Hietala?
+84|Anna Markkanen|I don't know\, Joel\,\,, but\, I do know\, Ines Hietala.
+85|Anna Markkanen|I\, don't know\, where she is\, now\,\,, but\, my sister\,, Laura\,, might know.
+86|Anna Markkanen|Laura\, knew Ines\, a bit better than\, I did.\,\,\, You\, could try asking her...\,\, she\, might be at\, the Sauna Club right now.
+87|Anna Markkanen|I'll\, mark it on the map.
+88|Anna Markkanen|W-\,What?
+89|Anna Markkanen|What\, are you\, talking about?!\,\,\, Murderer?\,\,\, Are you\, out of your mind?
+90|P|You have blonde hair and you work in a mine!
+91|Anna Markkanen|B-\,but\, I’m not\, the only one\, with\, blonde hair around here!
+92|Anna Markkanen|I mean...\,\, Ines\, Hietala\, who used to\, work in the canteen...\,\, she\, also has\, blonde hair.
+93|Anna Markkanen|But\, I don't\, think\, she murdered anyone...
+94|Anna Markkanen|And...
+95|P|You murdered Alice, Joel and Pia!
+96|Anna Markkanen|I\, don't even know\, who you're talking about!
+97|Anna Markkanen|Why\, do you think\, I murdered\, them?
+# conv 205: Mines/Canteen/Anna Markkanen Bark
+98|Anna Markkanen|You forgot to pay for your meal!
+99|Anna Markkanen|Excuse me, you need to pay before you can leave.
+100|Anna Markkanen|It looks like you missed the payment.
+101|Anna Markkanen|You need to pay for your meal.
+102|Anna Markkanen|Please return to the counter to complete your payment.
+# conv 204: Mines/Canteen/Kisu
+103|P|Good kitty!
+104|P|I have something for you
+105|P|(Pet)
+106|Kisu|Meow.
+107|Kisu|Mrow.
+108|Kisu|Mew.
+109|Kisu|Mow.
+110|Kisu|Awr.
+111|Kisu|Prrt.
+112|Kisu|Mewr.
+113|Kisu|Praw.
+114|Kisu|Wrao.
+115|Kisu|Grour.
+116|P|I have fish for you (Give)
+117|P|Living chick! (Give)
+118|P|Tasty rat! (Give)
+# conv 203: Mines/Canteen/Veikko Martinsen
+119|Veikko Martinsen|I'm\,\, the newest member\, of\, Einar's\, crew.
+120|Veikko Martinsen|Einar has got us\,\, working\, hard...
+121|Veikko Martinsen|If only\,\, this magazine\, had a section\, on\,\, 'how to\, survive the mines'.
+122|Veikko Martinsen|It's\, so dark\, here in the mines...\,\, and\, dusty.
+123|Veikko Martinsen|It's\, great that\, we have\,\, our own\, apartment.
+124|Veikko Martinsen|It’s\, like we’re a family...\,\, I wonder\, who will be our\, mother.
+125|Veikko Martinsen|Maybe\, it's\, going to be\, me...
+126|Veikko Martinsen|The boys\, look different\, in daylight...\,\, healthier\,\,, maybe even\, happier.
+127|P|Have you seen a corpse with a silver ring?
+128|Veikko Martinsen|No...\,\,\, I don't remember seeing a silver ring.
+# conv 201: Mines/Hotel/Joran Kallio
+129|Joran Kallio|These mines\, have a way of drawing people\, in...
+130|Joran Kallio|Some descend further\,\,, chasing\, shadows\,\, and dreams.\,\,\, Few return...
+131|Joran Kallio|Something\,\, big\, is at the bottom...
+132|Joran Kallio|Don't go too deep...
+133|P|I need a place to sleep
+134|Joran Kallio|Well...\,\, there are no rooms available now.\,\,\, Come back tomorrow.
+135|Joran Kallio|Yeah?
+136|P|How many nights do I have left?
+137|P|What was the number of the room?
+138|Joran Kallio|You still have\,\, [lua(CheckPlayerRoomStatus())] nights.
+139|P|Thank you (Leave)
+140|P|Okay (Leave)
+141|Joran Kallio|It was...\,\,\, [lua(GetPlayerRoomName())].
+142|P|Nothing (Leave)
+143|Joran Kallio|Anyway...\,\,\, welcome to\, The Pickaxe Hotel\,\,, miner.
+144|Joran Kallio|I\, don't remember\, the last time\,\, I saw such\, a pretty\, face here...
+145|Joran Kallio|How\, did a man like you end up here...\,\, way down in the mines?
+146|Joran Kallio|So\,\,, do you perhaps need your own room\,\, or just\, a bed?
+147|Joran Kallio|Or did\,\, you just come to chat\, with me?
+148|Joran Kallio|I miss the sea...
+149|Joran Kallio|I had my own fishing vessel...
+150|Joran Kallio|I\, have six rooms here\,\,, two of which are in\, permanent use.
+151|Joran Kallio|But room\, two has space for\,\, 18 people!\,\,\, Decent room\, if you don't mind\, others sleeping in the same room.
+152|Joran Kallio|There are two toilets downstairs\,\, and\, a shower upstairs.
+153|Joran Kallio|Nope...\,\, sadly\,\, I\, haven't seen\,\, or\, heard anything about\, a silver ring.
+# conv 207: Mines/Management/Tanja Nypan
+154|Tanja Nypan|Mhm.
+155|Tanja Nypan|Uhm.
+156|P|Is this the right place to get a mining permit? 
+157|Tanja Nypan|Yep.
+158|P|What do I need to do to get the permit?
+159|Tanja Nypan|Fill out the form.
+160|P|What form?
+161|Tanja Nypan|Here.
+162|P|Is there printer somewhere?
+163|Tanja Nypan|Also\,\,, you need a printer.
+164|Tanja Nypan|Upstairs.
+165|P|Where can I get the form?
+166|Tanja Nypan|Mining permit form.
+167|P|I filled the mining permit form (Give)
+168|Tanja Nypan|Uhhh...
+169|Tanja Nypan|You\, look\, very\, young.
+170|Tanja Nypan|You look\,\, old\,\,, [lua(Actor["Player"].AgeName)].
+171|Tanja Nypan|Everything seems\, to be\, fine...
+172|Tanja Nypan|Are you\,\, single?
+173|P|I have a family
+174|P|I have a boyfriend
+175|P|I have a girlfriend
+176|P|It's none of your business
+177|P|I have a cat
+178|Tanja Nypan|Ehhhh...
+179|Tanja Nypan|Whatever.
+180|Tanja Nypan|I need your passport.\,\,\, I\, want to check your\, age.
+181|Tanja Nypan|Lucky girl.
+182|Tanja Nypan|Oh...
+183|Tanja Nypan|Really?
+184|Tanja Nypan|Do you have\,\, children?
+185|P|Yeah, I have children
+186|P|No, I don't have children
+187|Tanja Nypan|Great!
+188|Tanja Nypan|I'm not\,\, surprised.
+189|Tanja Nypan|Well\,\,, if you ever find yourself\, single\,\,, you know where to find me.
+190|Tanja Nypan|Anyway...
+191|P|What passport?
+192|P|Here (Show Forged Passport)
+193|P|Here (Show Hand Drawn Passport)
+194|Tanja Nypan|Bazaar passport\, of course.
+195|P|I don't have a passport
+196|P|Where can I get it?
+197|Tanja Nypan|I don't know.
+198|Tanja Nypan|Maybe\,\,, go ask at\, the Bazaar gate.\,\,\, They\, probably know how to get the passport.
+199|Tanja Nypan|What is this?
+200|Tanja Nypan|Is this a joke?
+201|P|Sorry, here’s the real one (Show Forged Passport)
+202|P|No, it's my passport
+203|Tanja Nypan|Seriously?\,\,\, This\, looks like it was\, drawn\,\, by a kid.
+204|Tanja Nypan|You seem to be old enough.
+205|Tanja Nypan|You trying to pull a fast one on me?
+206|P|I'm serious. That's my passport
+207|Tanja Nypan|Whatever...
+208|Tanja Nypan|Then I\, can't give you\, a mining permit.
+209|P|I have no other passport
+210|Tanja Nypan|Are you sure\, that\, you can still\, do mining work?
+211|P|Of course I can!
+212|P|You, my lady, look like a wrinkled potato
+213|P|Maybe I should go to a nursing home...
+214|Tanja Nypan|Well...
+215|Tanja Nypan|If you say so\,\,, [lua(Actor["Player"].AgeName)].
+216|Tanja Nypan|Excuse me\, what?
+217|Tanja Nypan|Well\,\, that's something I\, highly recommend.
+218|P|Yeah, I'm single
+219|Tanja Nypan|I\, found an error in your form\,\,, [lua(Actor["Player"].AgeName)].
+220|Tanja Nypan|You have to go\, and fill out the form again.
+221|Tanja Nypan|And\, come back\, with apologies\, when you've filled it out again.
+222|P|Why does the mining permit exist?
+223|Tanja Nypan|The founders\, of\,\, Obenseuer\, mining decided that\,\, or something.
+224|Tanja Nypan|Next\,\, you have to\, pay\,\, the miner's tax.
+225|Tanja Nypan|It costs\,\, 200 RM.\,\,\, You can pay it here\,\,, and\, then you're all set.
+226|P|Here (200 RM)
+227|P|Miners tax, what for?
+228|P|Here's the mining permit form (Give)
+229|P|Here is my passport (Show Forged Passport)
+230|Tanja Nypan|Um...\,\, would you like\, to...
+231|P|... go for coffee with me sometime?
+232|P|... go drink diesel with me sometime?
+233|P|Yeah, no thanks!
+234|Tanja Nypan|Yes!\,\,\, I'd like that!
+235|Tanja Nypan|I...\,\, um...
+236|Tanja Nypan|... would\, you\, like\, to...
+237|Tanja Nypan|... go for\,\, coffee with\, me sometime?
+238|Tanja Nypan|But...
+239|Tanja Nypan|Neutral
+240|P|Sure, I'd like that
+241|Tanja Nypan|Yeah... 
+242|Tanja Nypan|... I\, mean\,\,, if\, you're not too busy...
+243|Tanja Nypan|I\, don't always want to drink that...\,\,\, boring\, coffee!
+244|Tanja Nypan|Good!
+245|Tanja Nypan|Here's your\,\, mining permit.
+246|Tanja Nypan|Maintaining\, this\,\, mining infrastructure\,\, costs money\,\,, so\, every miner has to\, pay a tax.
+247|P|I'm going to pay later (Leave)
+248|P|How much was the miner's tax?
+249|Tanja Nypan|When are you free?
+250|Tanja Nypan|Actually...
+251|Tanja Nypan|How\, about...\,\,\, now?
+252|P|Yeah, sure!
+253|Tanja Nypan|Anyway\,\,, how long have you been\, in\, Obenseuer?
+254|P|Too long... way too long
+255|P|I don't even know
+256|Tanja Nypan|Yeah\,\,, me\, too...
+257|Tanja Nypan|By the way\,\,, thanks for being patient with\, all the paperwork\,\, and stuff earlier.
+258|P|You made it pretty easy, actually
+259|Tanja Nypan|You’re sweet\,\,, [lua(Actor["Player"].FirstName)].
+260|Tanja Nypan|I’m glad you think so.
+261|P|So, what’s the next step with my permit?
+262|Tanja Nypan|I\, have been here\,\, too long...
+263|P|It's not long since I got here
+264|Tanja Nypan|Well...\,\, um...\,\, congratulations.
+265|Tanja Nypan|You can go to talk to\,\, Reijo\, about selling\, the ore.
+266|Tanja Nypan|Bye!
+267|P|What is this place?
+268|Tanja Nypan|Management offices.
+269|Tanja Nypan|We\, control the entire mine operation\, here.
+270|Tanja Nypan|And\,\, also we take care here\, that the permits\, are in order.
+271|Tanja Nypan|Good
+272|Tanja Nypan|Oh hi\,\,, sweetie.
+273|Tanja Nypan|Hey\,\,, [lua(Actor["Player"].FirstName)]!\,\, How's it going?
+274|Tanja Nypan|Morning\,\,, [lua(Actor["Player"].FirstName)]!\,\, How’s my favorite miner today?
+275|Tanja Nypan|Hi\,\,, [lua(Actor["Player"].FirstName)]!\,\,\, Nice to see you again.
+276|Tanja Nypan [ответ]|diesel
+277|Tanja Nypan [ответ]|coffee
+278|Tanja Nypan|Uh...\,\, so...\,\,\, we\, ended up drinking\, more than\, diesel.
+279|Tanja Nypan|So...\,\, we\, ended up drinking more than\,\, coffee.
+280|P|I need radioactive repository entry permit (Give form)
+281|Tanja Nypan|Oh...\,\, it's you.
+282|Tanja Nypan|Wait...
+283|Tanja Nypan|Here...
+284|P|That’s it?
+285|Tanja Nypan|Yes.
+286|P|I don't need anything else?
+287|Tanja Nypan|No...
+288|Tanja Nypan|Uh...\,\,\, it's\, 200 RM.
+# conv 208: Mines/Monitoring/Mikkel Purola
+289|Mikkel Purola|I\, think you shouldn't be here.
+290|P|What are you doing in here?
+291|Mikkel Purola|Well\,\,, for example I'm monitoring\, the minitrains.
+292|P|I'm leaving now (Leave)
+293|Mikkel Purola|What now?
+294|Mikkel Purola|Yeah?
+295|Mikkel Purola|Is something wrong?
+296|Mikkel Purola|What do you need?
+297|Mikkel Purola|We have speed cameras set up\, along the tracks.
+298|P|What happens if a train is speeding?
+299|Mikkel Purola|If\,\, a train exceeds the speed limit\,\,, it triggers\, an alert here.\,\,\, I then review the footage\, and issue\, a fine\, to the driver.
+300|Mikkel Purola|Wait a minute...
+301|Mikkel Purola|... you look\, familiar.
+302|Mikkel Purola|I\, know you!\,\,\, You have broken\, the speed limit!
+303|Mikkel Purola|But don't worry.
+304|Mikkel Purola|I’m not here to judge.
+305|Mikkel Purola|Just\,\, make sure you keep an eye on your speed\, from now on.\,\,\, Those\, limits are in place for a reason.
+306|P|Yeah, lesson learned
+307|P|Thanks for the reminder
+308|Mikkel Purola|Good\,\,, stay safe out there\, miner.
+309|P|I hate those speed cameras!
+310|Mikkel Purola|Just\, make sure\, you keep an eye on your speed\, from now on.
+311|Mikkel Purola|Those\, limits are in place\, for a reason.
+312|Mikkel Purola|So\,\,, make sure you keep an eye on your\, speed\,, miner.
+313|Mikkel Purola|But anyway...
+314|Mikkel Purola|... I\, have to get on with my work\,\, and you should leave\,, [lua(Actor["Player"].AgeNameFormalShort)].
+315|P|Those speed cameras… they’re kind of a problem for me
+316|Mikkel Purola|Then\, drive slower.\,\,\, Problem solved.
+317|P|Can you make sure my fines don’t get processed
+318|Mikkel Purola|What?
+319|Mikkel Purola|I\,\, can’t\, just\, let people\, speed like maniacs!
+320|P|What if I made it worth your while?
+321|P|Just… look the other way if it’s me
+322|Mikkel Purola|No.\,\,\, Absolutely\, not.
+323|Mikkel Purola|I\,\, don’t take bribes.
+324|P|100 RM?
+325|P|16 pack of Osmo Olut?
+326|P| I’m sure there’s something you want
+327|P|Fine... (Leave)
+328|Mikkel Purola|I said\,\, no.
+329|Mikkel Purola|And\, if you keep pushing\,\,, I’ll\, make sure\, you get double the fines just for\, trying.
+330|P|200 RM?
+331|P|2000 RM?
+332|Mikkel Purola|Look\,\,, I\, don’t like this.
+333|Mikkel Purola|This is the kind of thing\, that comes back to\, bite you.
+334|Mikkel Purola|Hrm…
+335|Mikkel Purola|Well...\,\, now that you\, mention it…
+336|Mikkel Purola|It’s…\,\, uh…\,\,\, my\, minitrain collection.
+337|Mikkel Purola|It’s\, almost\, complete.\,\,\, Just\, missing one piece...\,\, the Osmo Olut\, minitrain miniature.
+338|P|Osmo Olut minitrain?
+339|P|Do you know where I could find one?
+340|Mikkel Purola|Yeah\,\,\,, they made\, a special minitrain\, years ago.
+341|Mikkel Purola|Limited run.\,\,\, Hard to find.
+342|Mikkel Purola|No...\,\,\, I\, have no idea where to find one.
+343|Mikkel Purola|Maybe some\, Osmo Olut\, collector has one\, lying around...
+344|Mikkel Purola|If you\, get me that\, minitrain\,\,, then...\,\, I\, might\, be able\, to help you.
+345|P|You mean this?
+346|Mikkel Purola|How did you\, get that...
+347|Mikkel Purola|It’s...\,\,\, perfect!\,\, The last piece\, of my collection!
+348|Mikkel Purola|Ugh.\,\,\, Osmo Olut?
+349|Mikkel Purola|That stuff tastes like\, rusty nails\, soaked in\, mushroom water.
+350|Mikkel Purola|But...\,\,\, now that you\, mentioned\, Osmo Olut...
+351|P|I have that Osmo Olut minitrain now
+352|Mikkel Purola|Give it to me!
+353|P|Yeah, here (Give)
+354|P|I think I'll keep it to myself
+355|Mikkel Purola|…what?
+356|P|5000 RM?
+357|P|10000 RM?
+358|Mikkel Purola|I...\,\,\, I'll\, make sure you don't get any more fines.
+359|Mikkel Purola|Well\,\,, yeah...\,\,\, I'll\, make sure\, you don't get any more fines.
+360|Mikkel Purola|Didn't I just say that\, I’ll make sure you get\, double the fines...
+361|Mikkel Purola|But\,\, if anyone asks...\,\,\, I\, had nothing to do with this.
+362|Mikkel Purola|Oh damn...\,\, it's\, so\, heavy.
+363|Mikkel Purola|And so\,\, pretty...
+364|Mikkel Purola|I'll\, make sure\, you don't get any more fines.
+365|Mikkel Purola|You can’t be\, serious.
+366|Mikkel Purola|You\, showed it me just\,\, to rub it in my face?
+367|Mikkel Purola|I’ll\, make sure\, you get double the fines!
+# conv 206: Mines/Office/Reijo Rautakaivos
+368|Reijo Rautakaivos|Well\,, well\,, what\, do we\, have 'ere?
+369|Reijo Rautakaivos|You must be\, new 'round here.
+370|Reijo Rautakaivos|I'm\, Reijo\,\,, but folks 'round 'ere\, call me\, Reiska.
+371|Reijo Rautakaivos|Used to be down in the mines\, meself\,\,, but my old ticker said otherwise.
+372|Reijo Rautakaivos|Now\, I'm stuck doin'\, the paperwork.
+373|Reijo Rautakaivos|So\,\,, what can I do for\, ya?
+374|P|Do you buy ore from miners?
+375|Reijo Rautakaivos|Aye\,\,, that I do.
+376|Reijo Rautakaivos|But\, before I can buy anythin'\, from ya\,\,, ya need to get yerself a\, minin'\, permit.
+377|Reijo Rautakaivos|No\, permit\,\,, no deal.\,\, Rules are rules\,, y'know.
+378|P|Where do I get one of those?
+379|Reijo Rautakaivos|You'll\, need to head over to the\, management\, buildin'.
+380|Reijo Rautakaivos|It's\,\, just next door\,\,, got a\, sign\, that says\, "Management" on it.\,\,\, Can't miss it.
+381|Reijo Rautakaivos|Once ya've got that\, permit\,\,, come back\,\, and we'll\, talk business.
+382|P|Thanks, Reiska
+383|P|Anything else I should know before I go?
+384|Reijo Rautakaivos|Well\,\,, management\, folks can be a\, bit...\,\, particular.
+385|Reijo Rautakaivos|Just...\,\,\, make\, sure ya've got all yer details\, straight!
+386|P|Thanks for the heads-up
+387|P|I got the permit
+388|Reijo Rautakaivos|Lemme have a look\, at that...
+389|Reijo Rautakaivos|Aye\,\,, looks in order.\,\,\, Good job!
+390|Reijo Rautakaivos|Now\,\,, about\, sellin' that ore.
+391|Reijo Rautakaivos|Ya got a\, couple of\, options.
+392|Reijo Rautakaivos|You can sell yer ore\,\, right 'ere\, to me...
+393|Reijo Rautakaivos|... or\,\, if ya got a load too big\, for just\, a bag\,\,, you can empty those minitrains\, full of ore straight into the crushers\,\, next to the elevator.
+394|Reijo Rautakaivos|Saves ya the trouble of carryin' it all by\, hand.
+395|P|Crushers? How does that work?
+396|Reijo Rautakaivos|Just\, drive the mini trains over to the crushers\,\,, unload 'em\,\,, and they'll process\, the ore for ya.
+397|P|I have something to sell
+398|P|I come back when I have something to sell (Leave)
+399|P|I have to go now (Leave)
+400|Reijo Rautakaivos|What\, can I do for ya?
+401|Reijo Rautakaivos|Ah\,\,, look who's back!
+402|Reijo Rautakaivos|What've ya\, got for me?
+403|Reijo Rautakaivos|What've ya got for ol' Reiska\, today?
+404|Reijo Rautakaivos|Got that\, permit in hand\,\, and ready to trade\,\,, I hope?
+405|Reijo Rautakaivos|Let's see what treasures\, ya've\, unearthed.
+406|Reijo Rautakaivos|Once ya've got that\, permit\,\,, come back\,\, and we’ll\, get down to business.
+407|Reijo Rautakaivos|And\, remember\,\,, stay safe out there\, in the mines.
+408|P|I already have the permit
+409|P|Can I take the elevator to the surface?
+410|Reijo Rautakaivos|Ah\,\,, the elevator.
+411|Reijo Rautakaivos|Ya\, see\,\,, that’s\, a bit trickier.
+412|Reijo Rautakaivos|You need\, special permission\,\, from the Bazaar to use it.
+413|Reijo Rautakaivos|They’re pretty\, strict about who goes up\, and\, down.
+414|P|How do I get permission from the Bazaar?
+415|P|Thanks, Reijo!
+416|Reijo Rautakaivos|There is a building near\,\, the elevator.
+417|Reijo Rautakaivos|They handle all the permissions\,\, for the elevator.
+418|Reijo Rautakaivos|Tell 'em Reiska sent ya\,\,, might\, smooth things\, over a bit.
+419|Reijo Rautakaivos|Good luck\,\, and stay safe out there.\,\,\, The mines\, can be\, unforgiving.
+420|P|I have receipt to redeem
+421|P|I heard you can help me get a mining permit
+422|Reijo Rautakaivos|Aye\,\,, I can help you with that.
+423|Reijo Rautakaivos|But first...
+424|Reijo Rautakaivos|So\,\,, when you have that permit\,\,, I can buy ore from you.
+# conv 209: Mines/Other/Seamus Liepa
+425|Seamus Liepa|So\,\,, Malone\,\,, that fool\, still sticking his\, nose\, in my\, business?
+426|Seamus Liepa|Well...\,\, as you can see\,\,, I ain't dead.
+427|Seamus Liepa|So\, you can go home now.
+428|P|You two used to grow orange mushrooms together?
+429|Seamus Liepa|Used to\,\,, but\, I don't mess with\, mushrooms no more. 
+430|Seamus Liepa|Potatoes are what I do now\,\,, and I\, do 'em\, alone.
+431|Seamus Liepa|Our gang\,\,, Devil's Angels...
+432|Seamus Liepa|You don't know what Malone did\,\,, do you?
+433|Seamus Liepa|That\, man\,\, almost destroyed\, the whole gang!
+434|Seamus Liepa|We started\, growing orange mushrooms\, under his lead\,\, and it failed\, miserably!
+435|Seamus Liepa|And\, before that\, he\, got a lot of\, good men\, killed...
+436|Seamus Liepa|I hate him almost as much as those\, damn\, Svamppatrullen guys.
+437|Seamus Liepa|Just...
+438|Seamus Liepa|... tell him to stay out of my\, business.
+439|P|Got it. I'll deliver the message
+440|Seamus Liepa|Before you leave...
+441|Seamus Liepa|What's up with\, the gang these days?
+442|Seamus Liepa|I\, assume Malone still leads\, the Devil's Angels.
+443|P|I have seen none but Malone
+444|P|Yeah, he still leads the gang
+445|P|I think everyone else is dead
+446|Seamus Liepa|God damn...
+447|Seamus Liepa|So\,\, Malone’s the only one left\, then?
+448|Seamus Liepa|That\, fucking\, turnip\, brain\, asshole!
+449|Seamus Liepa|They're\, dead\,\,, because of\, him...
+450|Seamus Liepa|I’ll\, give that bastard what he deserves\, right now!
+451|Seamus Liepa|What?
+452|Seamus Liepa|I\, assume they are still staying in that\, old tenement.
+453|Seamus Liepa|Well\,\,, maybe Malone is doing something\, right...\,\, I hope.
+454|Seamus Liepa|Argh...
+455|Seamus Liepa|But if I'm going hear that\, Malone\, has done something stupid again\,\,, he won't be alive much longer.
+456|P|Yeah, I want to get rid of him!
+457|P|I think the whole gang is already gone
+458|P|What gang? I have seen none but Malone
+459|P|You can tell it yourself
+460|Seamus Liepa|Hah!
+461|Seamus Liepa|I don't want to see that\, asshole\, ever again.
+462|Seamus Liepa|But before you leave...
+463|P|Fine, I'll tell Malone that you're dead
+464|Seamus Liepa|Good!
+465|P|Okay, I tell Malone that you grow potatoes nowadays
+466|Seamus Liepa|Remember to tell Malone\, that I don't want to see him\,\, ever.
+467|Seamus Liepa|Anyway...
+468|Seamus Liepa|I\, don't want to hear anything from him\, ever again.
+469|Seamus Liepa|You can buy Obenseuer's\, cheapest\, and best potatoes\, from me.
+470|Seamus Liepa|Would you like to buy some?
+471|P|Yeah, sure
+472|P|Maybe later
+473|P|Yeah, no thanks
+474|Seamus Liepa|You clearly don't understand\, how high quality my potatoes are.
+475|Seamus Liepa|But\, you're Malone's friend anyway\,\, so I'm not\, surprised.
+476|Seamus Liepa|I promise you won't find a place\, where the potatoes\, are as good as mine.
+477|P|I want to talk to him first
+478|Seamus Liepa|Be fast\,\,, because I won't be waiting here\, for long.
+479|Seamus Liepa|Yeah?
+480|Seamus Liepa|Remember that\, honest work pays off.
+481|Seamus Liepa|Do you want to buy potatoes?
+482|Seamus Liepa|The mine is full of dangers...
+483|P|Let's do business
+484|P|I have to go (Leave)
+485|Seamus Liepa|But anyway...
+486|P|I'm not going to participate
+487|Seamus Liepa|Yeah whatever.
+488|Seamus Liepa|I'm leaving now!
+489|Seamus Liepa|I'm going to see that bastard right away!
+490|P|I'm coming with you!
+491|P|What happened to Malone?
+492|Seamus Liepa|He’s…\,\, let’s just say\, he’s not\, coming back.\,\,\, You\, don’t need to know\, more than\, that.
+493|Seamus Liepa|Here\,\,, take the potatoes\, and\, be on your way.
+494|Seamus Liepa|That\, bastard\, probably not gonna buy it\,\, unless\, you show him\, proof.
+495|Seamus Liepa|Without my\, silver ring\,\,, he’ll\, think you’re\, feeding him\, a load of shit.
+496|Seamus Liepa|I\, lost it a while back\,\,, but...\,\, I heard some\, crazy guy\, got his hands on it.
+497|Seamus Liepa|You\, probably have already seen that\, underground lake...\,\, he’s\, living there.
+498|Seamus Liepa|So\,\,, you’re gonna have to get it from that\, lunatic\,\, if you want that\, bastard\, Malone to believe\, I’m dead.
+499|P|Malone got scared and ran away
+500|Seamus Liepa|I would have\, liked to see the look on\, his\, ugly face...
+501|Seamus Liepa|It’s\, about time\, someone made him\, feel like\, the spud he is!
+502|Seamus Liepa|But\, if you still\, see him\, somewhere...\,\, let me know.
+503|P|Where is Malone?
+504|P|Could you help me get rid of a casino owner?
+505|Seamus Liepa|Get rid of\, a casino owner?
+506|Seamus Liepa|I\, ain't doing\, assassinations.\,\,\, You know\, I only grow potatoes now.
+507|Seamus Liepa|My\, Devil's Angels days are\, dead\, and buried…
+508|Seamus Liepa|… then again\,, quality fertilizer\, ain't cheap\,\,, and\, I need to fund my\, next batch of\, potato experiments.
+509|Seamus Liepa|Alright\,\,, fine.\,\,\, I'll take care of him\,\,, but\, it's gonna cost you.\,\, 10000 RM.
+510|P|Deal (10000 RM)
+511|P|I can't afford that right now
+512|Seamus Liepa|Well\,\,, then we don't have a deal.
+513|Seamus Liepa|Mhm…\,\, well\,\,, you think about it.
+514|Seamus Liepa|Good.\,\, Let's go\, have a little chat with that\, casino owner.
+515|Seamus Liepa|I have\, a feeling he hasn't forgotten\, my face...
+516|P|Here. Can you deal with the casino owner now? (10000 RM)
+517|Seamus Liepa|Great.\,\, Let's go have\, a little chat with him.
+# conv 210: Mines/Other/Seamus Liepa Event
+518|Malone Petronis[м]|Cough!\,\,\, S-\,Seamus?
+519|Malone Petronis[м]|I\, thought you were\,\, dead?\,\, Cough\, cough! 
+520|Malone Petronis[м]|Seamus\,\,, listen...
+521|Malone Petronis[м]|Cough!\,\,\, Shortly\, after you\, disappeared\,\,, Harold took\, over.
+522|Seamus Liepa|Harold?\,\,\, You\, mean...\,\,\, that bastard\, Harold\, Rimas?
+523|Seamus Liepa|How the hell\, did you\, get him\, into power?
+524|Malone Petronis[м]|I...\,\, Cough!\, Cough!!\,\, Cough!!!
+525|Seamus Liepa|Maybe\,\, I\, shouldn't be surprised that...\,\,\, you're in that condition\, you old\, bastard.
+526|Seamus Liepa|So\,\, tell me\,\,, how Harold\, relates to the fact\,\, that\, everyone died here?
+527|Seamus Liepa|And\, you\, allowed it to\, happen.
+528|Malone Petronis[м]|I\,\, warned them\,\,, but\, they\, didn’t listen.
+529|Seamus Liepa|You\, expect me\, to believe\, that?
+530|Seamus Liepa|I know you Malone!
+531|Seamus Liepa|It was really your idea\, to\, start growing\, those damn\, green mushrooms\,\, when your other\, mushroom project failed\,\,, right?
+532|Malone Petronis[м]|What?\,\, No!
+533|Malone Petronis[м]|Seamus\,\, listen!
+534|Malone Petronis[м]|I'm\,\, very ill...
+535|Malone Petronis[м]|Because of which\, I\, no longer had the\, strength to lead\, the\, gang.
+536|Malone Petronis[м]|Cough\, cough\, cough!!!
+537|P|Where is Harold now?
+538|Malone Petronis[м]|He...\,\,\, cough cough!\,\,\,\, Oh damn!
+539|Malone Petronis[м]|One day...\,\, cough\, cough...\,\, he was\, missing.
+540|Malone Petronis[м]|A few other gang members\,\, had also probably\, left with him!
+541|Malone Petronis[м]|Cough\, cough!
+542|Seamus Liepa|You expect\, me\, to believe\, that\, bullshit?
+543|Malone Petronis[м]|But\,\, I'm telling the\, truth!
+544|Seamus Liepa|Hmph...
+545|Seamus Liepa|What do\, you think?
+546|P|I want to get rid of him!
+547|Seamus Liepa|Yeah\,\,, I\, can do that!
+548|Malone Petronis[м]|Hey!\,\, Cough\, cough!
+549|Malone Petronis[м]|Don't...
+550|P|Stop...
+551|P|Do it...
+552|P|But...
+553|Seamus Liepa|I\,\, get rid of the\, body.
+554|Seamus Liepa|And\, you...
+555|Seamus Liepa|... don't\, tell anyone\, about\, this.
+556|P|What the hell did you do?
+557|P|What about the neighbors?
+558|P|Yeah, I would also get into trouble
+559|Seamus Liepa|Eh...
+560|Seamus Liepa|Well\,\,, if\, someone calls the\, cops\,\,, tell them...\,\, something.\,\,\, I\, don't know.
+561|Seamus Liepa|I did\, what you\, wanted\, and...\,\, what I\, wanted.
+562|Seamus Liepa|I've\, been wanting to get\, rid of that\, bastard\,\, for a\, long time.
+563|Seamus Liepa|Just...\,\, come up with\, something.
+564|Seamus Liepa|I'll\, get a trash bag\, and...\,\, get the fuck out of here.
+565|Seamus Liepa|Yeah\,\,, you're\, smarter than you look.
+566|P|We should find Harold
+567|Seamus Liepa|No.
+568|Seamus Liepa|I\, know Harold\, well enough\, to know\, we won't find him.
+569|Seamus Liepa|He is\,\, definitely not\, in Stalburg\, anymore.
+570|P|Malone will die soon anyway
+571|P|He is telling the truth
+572|Seamus Liepa|Maybe\,\, we can\, search for him\, one day\, if we get\, out of this damn\, sewer hole.
+573|Seamus Liepa|But\,\, not now.
+574|Seamus Liepa|Well\,\,, probably.
+575|Seamus Liepa|I don't know...
+576|Seamus Liepa|Malone...\,\, if I\, find out\, you’re lying\,\,, you’re\, dead!
+577|Seamus Liepa|But\, it might take\,\, too long.
+578|Seamus Liepa|I'm out of here!
+579|P|You're right, do it!
+580|P|But you might run into trouble
+581|P|He is not worth it
+582|P|Let me take care of him
+583|Seamus Liepa|I\, don't mind getting into\, trouble!
+584|Seamus Liepa|You're right.
+585|Seamus Liepa|Why\, did I even\,\, come to see this\,\, piece of\, shit...
+586|Seamus Liepa|You're lucky\, Malone!
+587|Seamus Liepa|If you\, ever run into me again\, you know\, what will happen!
+588|Seamus Liepa|He's\, mine!
+589|Seamus Liepa|I\, hope you're going to have\, fun\, in...\,\, your little...\,\, orange shroom hell\,\,, Malone.
+590|Malone Petronis[м]|What\, the\, hell\, was that\,\,, huh?
+591|Malone Petronis[м]|You were supposed to\,\, find\, Seamus' body...\,\, cough\, cough...\,\, not have\, a\, damn chat with him!
+592|Malone Petronis[м]|Why did\, you\, come here with\, him?
+593|P|I just wanted to get rid of you!
+594|P|Seamus wanted to talk to you
+595|P|You wanted to find him so I brought him here
+596|Malone Petronis[м]|You wanted to\, get rid of\, me?\,\, Me!?
+597|Malone Petronis[м]|Hahaha...\,\, cough\, cough!\,\, COUGH!
+598|Malone Petronis[м]|Oh\, damn...
+599|Malone Petronis[м]|After everything I\, did?
+600|Malone Petronis[м]|Without me\,\,, you would be\, dead\,\,, you\, damn\, turnip head!
+601|Malone Petronis[м]|You\, think\, you can\,\, just\, admit\, that\, and walk away\, like\, nothing?
+602|P|Be glad you're still breathing...
+603|Malone Petronis[м]|Ha\,ha\,ha!
+604|P|It was nothing personal. I changed my mind
+605|Malone Petronis[м]|I’m supposed to be\, grateful\, for that\,\,, huh?
+606|Malone Petronis[м]|You...\,\, you\, piece\,\, of...\,\, cough\, cough!
+607|Malone Petronis[м]|How can I\, trust you\,\,, after\, you\, just admitted you were gonna\, kill me?
+608|Malone Petronis[м]|You know\, what?\,\,\, I\, don’t care\, why.\,\,\, You\, wanna finish the job?\,\,\, Go ahead.
+609|Malone Petronis[м]|I\, will stay here...\,\, as\, long as I\, live.
+610|Malone Petronis[м]|Just\, leave\, or...\,\, finish the job.
+611|P|I just wanted you out of here
+612|Malone Petronis[м]|You\, idiot!
+613|Malone Petronis[м]|So\, what now?\,\,\, You\, toss me out\, on the street\,\,, let me\, rot there\,, huh?
+614|Malone Petronis[м]|Well\,\,, I\, got news for you\, damn\, rotten\, turnip sack...
+615|Malone Petronis[м]|... I’m\, NOT\, leaving.
+616|Malone Petronis[м]|Not\, as long as\, I’m\, alive.
+617|Malone Petronis[м]|So...\,\, leave me\, alone...
+618|Malone Petronis[м]|Cough\, cough!\,\,\, You\, think you can\, scare me?
+619|Malone Petronis[м]|You\, don’t have\, the guts\, to pull\, the trigger...
+620|Malone Petronis[м]|... and\, you\, don't even have\, a gun.
+621|Malone Petronis[м]|You’re not\, getting rid of me\, that easy.\,\,\, Not\, as\, long as\, I’m still\, breathing!
+622|Malone Petronis[м]|Cough\,\, cough!
+623|Malone Petronis[м]|You\, think that\, maniac wanted to\, talk?
+624|Malone Petronis[м]|He came\, here to\, finish me off!\,\, Cough!
+625|Malone Petronis[м]|I just... really hope he doesn't come back...
+626|Malone Petronis[м]|Cough\, cough\, cough!
+627|Malone Petronis[м]|Just\, leave...
+628|Malone Petronis[м]|Yeah... sure... cough... I really wanted a face-to-face with that psychopath.
+629|Malone Petronis[м]|You fucking turnip sack...
+630|Seamus Liepa|So...\,\,\, can you\, explain\, what the hell\, happened to\, everyone\,\, before I\, beat you to\,\, death?
+631|Malone Petronis[м]|They...\,\, stopped following\, my orders.\,\,\, Started...\,\, cough...\,\, growing\, those\, damn\, green mushrooms!
+# conv 214: Mines/Other/Ivar Pihl
+632|Ivar Pihl|Where's\, Vera?
+633|Ivar Pihl|God damn...
+634|Ivar Pihl|Did\, Vera leave\, the front door unlocked again?
+635|Ivar Pihl|I\, just\, want\, you\, to\, leave\,\,, right now.
+636|Ivar Pihl|But\, you can buy shrooms\, from the vending machine\, next to the\, front door.
+637|P|I'm [lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])]
+638|Ivar Pihl|I don't care who are you\,\,, [lua(Actor["Player"].AgeNameFormalShort)].
+639|P|Yeah, the door wasn't locked
+640|Ivar Pihl|God damn!
+641|Ivar Pihl|If you want to buy mushrooms\,\,, you can do it from the machine\,\, next to the front door.
+642|P|I want to ask something
+643|P|Would you like to buy mushrooms from me?
+644|P|I'll go now (Leave)
+645|Ivar Pihl|Hmph…
+646|Ivar Pihl|Well\,\,, what is it\, you need to\, know?
+647|P|I want to ask about the mines
+648|Ivar Pihl|Well\,\,, I’ve been down\, here\, longer than most.
+649|Ivar Pihl|So\, if it’s info\, you’re after\,\,, you’ve come to the right place.
+650|Ivar Pihl|Just...\,\, don’t go snooping around\,, and\, make it quick.
+651|P|Are there many people living down here in the mines?
+652|P|Are there specific areas I should know about?
+653|P|I want to talk about something else
+654|Ivar Pihl|Yeah?
+655|Ivar Pihl|Nah\,, not many folks live down here.
+656|Ivar Pihl|Used to be\, just me\, and a few others\,\,, but in recent years\,\,, things have\, changed\,\, a bit.
+657|Ivar Pihl|People from the Bazaar started some big mining project\, a while back\,\,, and\,\, certain areas of the mines have gotten\, a lot\, more\, active.
+658|Ivar Pihl|One\, mining company also still digs tunnels here\,\,, but we\, residents of the Open Sewer can't go there.
+659|Ivar Pihl|So\,\,, what\, else do you want to know?
+660|Ivar Pihl|Well\,\,, there are a few places\, that stand out.
+661|Ivar Pihl|Like\, the underground lake\,\, which is deep\,, still\,, and\, cold as death.
+662|Ivar Pihl|And many other\, places...
+663|Ivar Pihl|However\,\,, I must warn you\, not to go\, into the tunnels to\, the west.
+664|Ivar Pihl|Those Bazaar folks broke into that old area\, a few months back.
+665|Ivar Pihl|And it turned out that it was\, a radioactive waste deposit.
+666|Ivar Pihl|That place is\,\, dangerous.
+667|P|What happened to you?
+668|Ivar Pihl|A corpse\,\, with\, a silver ring?
+669|Ivar Pihl|Can’t say I’ve seen anything\, like that.
+670|Ivar Pihl|Whose corpse are you talking about?
+671|P|His name was Seamus Liepa
+672|Ivar Pihl|Seamus?
+673|Ivar Pihl|You must be mistaken\,, [lua(Actor["Player"].AgeNameFormalShort)].
+674|Ivar Pihl| I know him well\,\,, and\, I can assure you\,, he isn’t dead.
+675|Ivar Pihl|I saw him\, just last week\,, grumbling about\, his crops\, like always.
+676|P|Where does he live?
+677|Ivar Pihl|I'll mark it on the map\, for you.
+678|Ivar Pihl|Well\,, I can buy\, green mushrooms from you.
+679|Ivar Pihl|I\, grow orange mushrooms myself\,\,, so\, I don't need those.
+680|Ivar Pihl|And\,\, I can buy\, some other things from you.
+681|Ivar Pihl|Such as\, fertilizer...\,\, and...\, any mushroom alcohol drinks.
+682|Ivar Pihl|But of course I also want to drink them myself.
+683|P|I want to sell you something
+684|Ivar Pihl|You mean my leg?\,\, And arm?\,\, Head?
+685|Ivar Pihl|Well...\,\, it’s\, not\, exactly\, something\, I like to talk about.
+686|Ivar Pihl|But alright...
+687|Ivar Pihl|It happened\, a while back\,\,, when I stumbled upon a cave shaped by nature.
+688|Ivar Pihl|There were these...\,\, blue\, glowing\, mushrooms\,\, and other odd vegetation I’d never seen before.
+689|Ivar Pihl|I know it sounds\, crazy\,\, but...
+690|Ivar Pihl|I must’ve inhaled something\,\, or come into contact with the water there.\,\,\, I don't know...
+691|Ivar Pihl|I felt dizzy\,\,, like the whole cave was spinning.
+692|Ivar Pihl|After that\,\,, it’s all a blur.
+693|Ivar Pihl|Next thing I knew\,\,, I woke up outside the cave\,\,, but…\,\, well\,\,, you can see what it did to me.
+694|Ivar Pihl|It’s\,\, like the place was cursed\, or something.
+695|Ivar Pihl|There are some places down here\, that are\, better left alone.
+696|Ivar Pihl|Yes?
+697|Ivar Pihl|What now?
+698|Ivar Pihl|What do you need now?
+699|P|A friend of a friend of mine
+700|Ivar Pihl|Well\,\,, unfortunately\,\,, I haven't seen a body\, that had a silver ring.
+701|P|Good to know (Leave)
+702|P|He's probably not the same Seamus
+703|Ivar Pihl|Well\,\,, it's a rare name around here\, but whatever.
+704|Ivar Pihl|I\, have many customers who would like to buy mushroom alcohol products.
+705|P|Can you tell me about orange mushrooms?
+706|Ivar Pihl|Hmph…\,\,\, well\,, let me\, warn you...\,\, do\, not\, eat them\, raw.
+707|Ivar Pihl|They’ll\, mess you up\, bad\,\,, but\, I\, sell a\, powder\, made from them\, and\, it's much safer!
+708|Ivar Pihl|You can buy it from\, the vending machine\,\, next to the front door!
+709|Ivar Pihl|That powder makes you\, faster\,, sharper\, and\, maybe even\, smarter!
+710|Ivar Pihl|Some miners\, swear by it.\,\,\, They\, use it to\, speed up their\, work\,\,, gives 'em a\, bit of an edge when\, digging deep.
+711|Ivar Pihl|But...\,\, don't\, overuse it.
+712|Ivar Pihl|You might get really\, hungry\,, thirsty\,, sleepy\,, and…\,\, well\,, you\, might end up\, shit in your\, pants.
+713|Ivar Pihl|That would be\, nasty...

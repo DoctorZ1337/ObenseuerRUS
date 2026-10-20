@@ -1,0 +1,252 @@
+# conv 197: Tenement/Pia/Pia Dead
+1|P|Who did this to you...
+2|P|Time to make a lantern (Use the axe)
+# conv 96: Tenement/Redemption/Fidan Tanner
+3|Fidan Tanner|Preach\,, Prayers\,, and\, Pea soup!
+4|Fidan Tanner|How\,\, can I help you today?\,\,\, Are you here to give a donation\,\, or just looking for\, information?
+5|P|I'm interested in learning about your work
+6|Fidan Tanner|Well\,\,, you've come to the right place!
+7|Fidan Tanner|Our motto is\,\, "Preach\,, Prayers\,, and Pea soup."
+8|Fidan Tanner|We\,\, believe that by spreading the word of the\, Lord\,\, and offering spiritual guidance\,\,, we can provide solace to those in need.
+9|Fidan Tanner|Speaking of which\,\,, we're serving some delicious pea soup\, outside every day.\,\,\, You should try it\, if you haven't already.
+10|Fidan Tanner|Burp!
+11|Fidan Tanner|I must admit\,\,, I\, have a soft spot for\, pea soup.
+12|Fidan Tanner|It's...\,\, quite\, tasty.
+13|P|Sure, I'll give it a try
+14|P|What rumors are you talking about?
+15|Fidan Tanner|Are you considering making a contribution\,\, to our cause?
+16|P|I want to make a donation
+17|P|I'd like to donate (Give 50 OC)
+18|Fidan Tanner|You've probably\, heard rumors\, about what's going on around here.
+19|Fidan Tanner|Anyway...\,\, there's the nourishment of body\, and soul\,\,, exemplified by our beloved\, pea soup.
+20|P|Thank you for the information (Leave)
+21|Fidan Tanner|You will love it...\,\, burp!
+22|P|I'd like to donate (Give 50 RM)
+23|P|Actually I don't have enough money (Leave)
+24|P|I don't want to donate yet (Leave)
+25|Fidan Tanner|Every bit counts\,\,, and your generosity\, is greatly appreciated. 
+26|Fidan Tanner|Your\, donation will go a long way in helping us\, fulfill our mission.
+27|Fidan Tanner|That's fine.\,\, Burp!
+28|Fidan Tanner|Burp!\,\,\, How\, much would you like to contribute\,\, to our cause?
+29|Fidan Tanner|We\,\, are truly thankful for\, your kind-hearted offering.
+30|Fidan Tanner|We\, are deeply grateful for\, your support.
+31|Fidan Tanner|I\,\, want to give you something\,\, because you have been so\, generous.
+32|Fidan Tanner|Here\,\,, my\, secret pea soup recipe.\,\,\, Don't\, tell anyone about it.
+33|Fidan Tanner|Well...\,\,\, a priest\, told me about\,\, it.
+34|Fidan Tanner|He lives in\,\, Deekula B\,\, but I haven't heard from him\, in a long time.
+35|Fidan Tanner|According to him something\,\, strange is going on...\,\,\, he was talking about...\,\, some weird stuff.\,\,\, Burp!
+36|Fidan Tanner|Anyway\,\,, it's\, a good reason now to donate money to us\,\, so we can help those\, in need.
+37|Fidan Tanner|Would you like to make a donation?
+38|P|I want to volunteer
+39|Fidan Tanner|Burp!\,\,\, We always appreciate any extra pair of hands\,\, we can get.
+40|Fidan Tanner|You can start anytime you want\,\,, we're never short of work.\,\, There's a long line of poor souls who need help.
+41|P|I can start right now (Volunteer 6 hours)
+42|P|Could you let me through to the Bazaar?
+43|Fidan Tanner|Burp!\,\, I'm sorry\,, but\, I can't just let anyone in...\,\, that door is\, only for personnel\,, regular volunteers\,, and\,\, generous donators.
+44|Fidan Tanner|Well...\,\, you've been\, pretty helpful around here\,\,, but\, you still need\, a passport...
+45|Fidan Tanner|... and\, you actually have to\, live inside the Bazaar.
+46|P|Yeah, here (Show proof of residency)
+47|Fidan Tanner|Burp...\,\, you actually bought\, a house\, in the Bazaar?
+48|Fidan Tanner|Well...\,\, that changes\, everything.
+49|Fidan Tanner|Let me see\, if I\, still have any\, spare keys...
+50|Fidan Tanner|Here.
+51|Fidan Tanner|And uh...\,\, remember\,, you can't let\, anyone else in\, or out\, through here.
+52|P|I have a passport, but I don't live in the Bazaar
+53|Fidan Tanner|Burp!\,\,\, Sorry...\,\, the deal with\, security is\, strict.
+54|Fidan Tanner|We can only\, let in personnel\,\,, volunteers\,\,, and\, donators\, who actually live in\, the Bazaar.
+55|P|Where do I get a passport?
+56|Fidan Tanner|Burp...\,\, I don't really know.
+57|Fidan Tanner|I heard that\, they aren't issuing\, any right now\,\,, so\, it's\, probably impossible to\, get one at the moment.
+58|P|Ah, okay (Leave)
+59|Fidan Tanner|Burp!\,\, Look\,, I already told you...\,\, I can only let people through\, who have a\, passport\, and\, live in the Bazaar.
+# conv 98: Tenement/Redemption/Kaisa Wirta
+60|Kaisa Wirta|You\,\, shouldn't be here.
+61|Kaisa Wirta|Sigh...\,\,\, Fidan is eating that\, pea soup\, meant for the people in need!
+62|Kaisa Wirta|Why\,\, are you still here?
+# conv 34: Tenement/Shacks/Johan Wider
+63|Johan Wider[м]|You know…\,\, I've been\, getting way\, too many\, uninvited visitors\, lately.
+64|Johan Wider[м]|If you\, steal\, something\,\,, don't expect to\, sleep easy.
+65|Johan Wider[м]|I've gotten\, used to\, rat meat…\,\, but\, if you don't\, leave\,\,, I\, might\, start craving\, something else.
+66|Johan Wider[м]|I\, can already taste\, the rich\,\,, juicy\, flavor\, lingering on\, my\, lips.
+# conv 93: Tenement/Speakeasy/Mr. Blue Duck
+67|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!\,\, Quack?</color>
+68|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?\,\,\, Quack\, quack!</color>
+69|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack\, quack?</color>
+70|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack quack quack?</color>
+71|P [ответ]|Quack?
+72|P [ответ]|Quack!
+73|P|Um, what?
+74|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?\,\,\, Quack\, quack quack!</color>\,\,\, We speak the same language.\,\, <color=#9b8a35>Quack quack!</color>\,\,\, It makes me really <color=#9b8a35>quack!</color>
+75|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack\, quack quack!</color>\,\,\, You\, have a lot to learn\,\,, <color=#9b8a35>quack</color>!
+76|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack</color>\,, maybe you can help me find my\,\, precious little\, <color=#1d54bd>blue quack</color>?
+77|P [ответ]|I already found it
+78|P [ответ]|Sure, why not
+79|P [ответ]|Sorry, but I'm not interested
+80|P [ответ]|I want to ask something first
+81|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>
+82|P [ответ]|Who the hell are you?
+83|P [ответ]|What do I get if I help you?
+84|P [ответ]|Quack quack quack?
+85|P [ответ]|Actually, I don't want to ask anything
+86|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!</color>\,\,\, Watch your\, mouth!\,\, <color=#9b8a35>Quack quack!</color>\,\,\, I'm\,\, Mr. Duck\, who brings joy to this\, depressing part of the city!\,\,\, My <color=#1d54bd>blue quacks</color>\, bring joy to those who need it!
+87|P [ответ]|Have you lived here long?
+88|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack!</color>\,\,\, Obenseuer?\,\, I've lived here for a <color=#9b8a35>quack!\,\, Quack quack quack!</color>\,\,\, I'm from\, Turnip hill\,\,\,, the place where it all started.
+89|P [ответ]|The place where it all started?
+90|Mr. Duck[м] [ответ]|Yeah\, <color=#9b8a35>quack!</color>\,\,\, Fungal disease!\,\,\, <color=#9b8a35>Quack quack quack quack!!</color>
+91|P [ответ]|Can you tell more?
+92|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack quack!</color>\,\, I don't know much...\,\,\, It is said to have been found by mushroom <color=#9b8a35>quack</color> farmers!\,\,\, They\, found green <color=#9b8a35>quack</color> mushrooms\,\, in an abandoned building that were different from the others <color=#9b8a35>quack!</color>\,\,\, That's all I can <color=#9b8a35>quack!</color>
+93|P [ответ]|You mean fungal disease?
+94|P [ответ]|That's all I wanted to know
+95|Mr. Duck[м] [ответ]|So...\,\, <color=#9b8a35>quack?</color>\,\, Can you help me find my lost <color=#1d54bd>blue quack</color>?
+96|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!</color>\,\,\, Don't worry\,\,, the reward will be a big <color=#9b8a35>quack!</color>
+97|P [ответ]|I don't want a big quack! I want money!
+98|P [ответ]|Big quack? Do you mean... I get you?
+99|P [ответ]|The big quack sounds good!
+100|Mr. Duck[м] [ответ]|I...\,\,\, <color=#9b8a35>quack!</color>\,\,\, I'm taken <color=#9b8a35>quack</color>\,\,, but you will get a\, good <color=#9b8a35>quack</color> reward!
+101|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\,\, I can give you money too, you <color=#9b8a35>quack!</color> Don't <color=#9b8a35>quack</color> about it!
+102|Mr. Duck[м] [ответ]|I'm really <color=#9b8a35>quack</color> you like the big <color=#9b8a35>quack!</color>\,\, <color=#9b8a35>Quack quack quack!</color>
+103|P [ответ]|Eh, whatever
+104|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack?</color>
+105|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack quack quack!</color>
+106|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\, You found my little <color=#9b8a35>quack quack?</color>\,\,\, Thank you!\,\,\, <color=#9b8a35>Quack quack quack!</color> Wait...\,\,\, I'm going to get you a big <color=#9b8a35>quack</color>...
+107|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack!</color> Good!\,\, My\,\, little\, <color=#1d54bd>blue quack</color> is probably still in the building near the One stop shop.\,\,\, You will get a big <color=#9b8a35>quack!</color>\,\,\, Big <color=#9b8a35>quack quack quack!</color>
+108|P [ответ]|Good to know. I'm going to check that place
+109|P [ответ]|Um, you already know where it is?
+110|Mr. Duck[м] [ответ]|Good <color=#9b8a35>quacking</color> to you!\,\,\, I'm waiting you here\,\,, so I can give you a big <color=#9b8a35>quack!</color>
+111|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!</color>\,\,\, Of course I know where\, my little <color=#9b8a35>quack</color> is...\,\,\, but I don't know exactly where there\,\, and\, I'm not allowed in.\,\, <color=#9b8a35>Quack.</color>\,\, You can ask him more about it...\,\,\, the one who lives in <color=#9b8a35>quack!</color>
+112|P [ответ]|Yeah, I'm leaving now
+113|P [ответ]|Sounds suspicious
+114|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\,\, <color=#9b8a35>Quack!</color>\,\,\, There is nothing suspicious about the <color=#9b8a35>quacks!</color>\,\,\, They're innocent!
+115|P [ответ]|I can help you find your little rubber duck
+116|P [ответ]|I found your little rubber duck
+117|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\,\, Come back if you want a big <color=#9b8a35>quack!</color>
+118|Mr. Duck[м] [ответ]|Here!\,\,\, <color=#9b8a35>Quack!</color>
+119|P [ответ]|Where is the damn money!
+120|P [ответ]|This is what I always wanted
+121|P [ответ]|That's all I get?
+122|P [ответ]|Um, what is it?
+123|Mr. Duck[м] [ответ]|Here <color=#9b8a35>quack quack quack</color>\,\,\, money!\,\,\, Is it enough?
+124|P [ответ]|Yeah I'm good
+125|P [ответ]|I want double!
+126|Mr. Duck[м] [ответ]|Fine, you greedy <color=#9b8a35>quack</color>!\,\,\, Good now?
+127|Mr. Duck[м] [ответ]|Good!\,\,\, <color=#9b8a35>Quack quack quack!</color> Give me\, the <color=#1d54bd>blue quack</color>\,\, and\, I give you a new one.
+128|P [ответ]|Here... take it
+129|P [ответ]|No, I want to keep this one
+130|P [ответ]|Just take this. I don't want a new one
+131|P [ответ]|I want both!
+132|Mr. Duck[м] [ответ]|It's\, a big <color=#9b8a35>quack</color> of course!\,\,\, I hope it gets along with\, you.\,\,\, <color=#9b8a35>Quack!</color>
+133|Mr. Duck[м] [ответ]|I can't thank you enough <color=#9b8a35>quack</color>!\,\,\, I hope you will have joyful moments with the <color=#1d54bd>blue</color> and big quack!\,\,\, <color=#9b8a35>Quack quack quack quack</color>...
+134|Mr. Duck[м] [ответ]|...that's everything.\,\,\, Now I have to <color=#9b8a35>quack quack quack quack quack quack quack quack quack quack quack quack quack quack quack quack quack quack!</color>
+135|Mr. Duck[м] [ответ]|Fine <color=#9b8a35>quack!</color>!\,\,\, It\, still seems to be doing just fine...\,\,\,\, just give it a new home\, where it can <color=#9b8a35>quack!</color> in\, peace.\,\,\, And now...
+136|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\,\, Are you <color=#9b8a35>quack</color>?\,\,\, It would make you very <color=#9b8a35>quack quack</color> happy <color=#9b8a35>quack!</color> 
+137|Mr. Duck[м] [ответ]|No <color=#9b8a35>quack!</color>\,\, You can't keep both <color=#9b8a35>quacks!</color>\,\,\, Just keep that <color=#9b8a35>quack</color>...\,\,\,\, it seems to be fine so I don't need it now!\,\,\,\, <color=#9b8a35>Quack quack quack quack</color>...
+138|P [ответ]|Yeah, I'm sure
+139|P [ответ]|Actually, give it to me
+140|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!!</color>\,\,\, Okay...
+141|P [ответ]|Quack quack quack!
+142|P [ответ]|I want to ask something
+143|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!</color>
+144|P|I already found it
+145|P|I found your little rubber duck
+146|Mr. Duck[м]|<color=#9b8a35>Quack</color>?\,\, <color=#9b8a35>Quack quack quack</color>!\,\,\, It's broken!
+147|Mr. Duck[м]|That little <color=#9b8a35>quack</color>!\,\,\, He did this!\,\,\, <color=#9b8a35>Quack quack quack</color>!
+148|Mr. Duck[м]|Here!\,\,\, <color=#9b8a35>Quack!</color>
+149|P|I don't want it
+150|Mr. Duck[м]|<color=#9b8a35>Quack quack quack</color>!\,\,\, Did that <color=#9b8a35>quack</color> killer tell you something bad about my little <color=#1d54bd>blue quack</color>?\,\,\, Are you sure that you don't want it?\,\,\, It would make you very <color=#9b8a35>quack quack</color> happy <color=#9b8a35>quack!</color>
+151|Mr. Duck[м]|... I have another precious little\, <color=#1d54bd>blue quack</color>!\,\,\, I give it to you because you found my <color=#1d54bd>blue quack</color>!\,\,\, <color=#9b8a35>Quack quack</color>!
+152|Mr. Duck[м]|But don't worry!\,\,\, <color=#9b8a35>Quack quack quack!</color>\,\,\, Wait...\,\,\, I'm going to get you a big <color=#9b8a35>quack</color>...
+# conv 33: Tenement/Speakeasy/Pentti Penttilä
+153|P|I want to buy a drink (Buy)
+154|P|I heard that you could need help here
+155|Pentti Penttilä[м]|Well\,\,, you heard right.\,\,\, I do most of drinks myself\,\,, but I buy the mash elsewhere...\,\, and I have a...\,\, problem with that.
+156|Pentti Penttilä[м]|I hope that I don't have to start to selling only...\,\, um...\,\, Osmo Olut...\,\, I know some\, customers like it\,\,, but still...\,\, -sigh-...\,\,\, I guess I'll have to find an\, another\, supplier.
+157|P|Prehaps I could help you?
+158|Pentti Penttilä[м]|Oh?\,\, You probably want some reward?\,\, Anyway...\,\,\, I used to get my mash from a guy called...\,\,\, Max Masher.\,\, He makes some damn good mash\,\, and mashing is everything for him\,\,, but I haven't heard anything from him for ages!
+159|P|Where could I find him?
+160|Pentti Penttilä[м]|I tried to ask people where he might live\,\,, but no one wanted to help\, or knew where he lived.
+161|P|Okay, I'll try find him
+162|P|Yes, but I need a drink before I go! (Buy)
+163|Pentti Penttilä[м]|And?\,\,\, What\, did he say?\,\,\, Is he able to make mash?
+164|P|Told me that, beets doesn't grow during winter...
+165|P|Nothing meaningful...
+166|Pentti Penttilä[м]|And then?
+167|P|Told me to fetch some 10 packs of sugar and 5 packs of yeast for mashing.
+168|Pentti Penttilä[м]|Okay good.\,\, Maybe then I can get some mash for my Kilju. 
+169|P|Well, I met max, and his mind is totally mashed.
+170|Pentti Penttilä[м]|So...\,\, um...\, is he able to make me mash?
+171|P|Doesn't look like it. I brought him a lot of stuff and he just keeps chanting there.
+172|Pentti Penttilä[м]|Ow crap!\,\,\, Where do I get my mash now?
+173|P|Uh... maybe I could help you with that.
+174|P|I could, if I knew how to mash.
+175|Pentti Penttilä[м]|Could you try to ask from him? If he is still able to teach you?\,\,\, I mean...\, He is still able to talk\,\,\,
+176|Pentti Penttilä[м]|Yes!\,\, Yes!\,\, I'm going to pay you the market price for every 10 buckets of\,\, sugar mash\, you manage to bring me!
+177|P|Sounds like a deal!
+178|P|I could try...
+179|P|I'm not going to talk with that mash head again!
+180|Pentti Penttilä[м]|Well\,\,, anyway...\,\,\, I'll pay you market price for every 10 buckets of sugar mash you manage to bring.
+181|P|I'm here to sell you some mash!
+182|Pentti Penttilä[м]|Good!\,\, Got 10 buckets of sugar mash for me?
+183|P|Yeah, I do! (Give)
+184|P|Oops! I forgot. (Leave)
+185|Pentti Penttilä[м]|And here's the payment!
+186|P|Also...\,\,\, Here's something for your efforts for solving this mystery...
+187|P|What problem?
+188|P|That's bad, but I have to go now (Leave)
+189|P|Max Masher? Interesting name
+190|Pentti Penttilä[м]|We still don't know who...\,\,\, It was a surprise that he survived...\,\, but now...\,\, well...\,\, he's not the sharpest tool\,\, in the shed.
+191|P|I want to know about the reward
+192|Pentti Penttilä[м]|I...\,\, figure something...\,\, don't worry.\,\,\, Maybe some good drinks\,\, or discount.\,\, We'll see\,\, when you've done it.
+193|P|He just told me to get some stuff for mashing.
+194|P|Nothing special really...
+195|Pentti Penttilä[м]|Well...\,\, I hope he can still make some mash.\,\, Maybe you should talk to him more...\,\, I really need some mash for my Kilju.
+196|P|Yeah of course! He's totally fine! He started to make some mash already.
+197|P|Well, it's your problem. Where is my reward?
+198|P|Nope and I'm not going to waste my time for this. Where is my reward?
+199|Pentti Penttilä[м]|Oh!\,\, That's good to hear!\,\,\, I hope he's able to bring me some mash soon!\,\, Here's\, something for your efforts!\,\, I hope Max is doing fine...
+200|Pentti Penttilä[м]|Here's your reward.
+201|Pentti Penttilä[м]|Oh damn...\,\, well...\,\, here's your reward.\,\, I probably have to start to...\,\,\, makes some fecal kilju now...\,\, my customers are not going to like this at all...\,\, if they still come here...
+202|Pentti Penttilä[м]|I\, haven't seen you here before.\,\,\, Welcome to speakeasy!
+203|Pentti Penttilä[м]|Welcome back!
+204|Pentti Penttilä[м]|What should be today?
+205|Pentti Penttilä[м] [ответ]|What would you like to order?
+206|Pentti Penttilä[м] [ответ]|Would you like a drink or something else?
+207|P [ответ]|Go on...
+208|Pentti Penttilä[м]|I haven't received any mash from him\,\, for a long time.\,\, I have tried to contact him but to no avail.
+209|Pentti Penttilä[м]|Yeah...\,\, he got that name after...\,\, when he was making some mushroom mash.\,\, Someone mashed his head with hammer.
+210|Pentti Penttilä[м]|He lives in an apartment in Deekula B.\,\,\, Unfortunately I don't know the exact address.
+211|P|I talked to Max
+212|P|Doesn't look like it
+213|P|Nope. Where is my reward?
+214|Pentti Penttilä[м]|Oh crap!\,\,\, Where do I get my mash now?
+215|P|Maybe I could help you with that?
+216|Pentti Penttilä[м]|Yes!\,\, Yes!\,\, That\, sounds great!\,\,\, I'm going to pay you the market price for any mash\, you manage to bring me!
+217|Pentti Penttilä[м]|Damn!\,\,\, I probably have to start to...\,\,\, makes some fecal kilju now...\,\, my customers are not going to like it!
+218|P|I could, if I knew how to mash
+219|Pentti Penttilä[м]|Could you try\,\, to ask from him?\,\,\, If he is still\, able to\, teach you?\,\,\, I mean...\,\,\, he's still able to talk\,\,, right?
+220|P|I could try. Maybe I will learn something from him
+221|Pentti Penttilä[м]|Well\,\,, anyway...\,\,\, I'm going to pay you the market price for any mash\, you manage to bring me.
+222|P|Maybe I'll learn by myself
+223|P|I'm here to sell you some mash
+224|Pentti Penttilä[м]|Thank you!
+225|P|He started to make some mash already
+226|Pentti Penttilä[м]|Oh!\,\, That's good to hear!\,\,\, I hope he's able to bring me some mash soon!\,\, Here's\, something for your efforts!\,\, I hope Max is doing fine.
+227|Pentti Penttilä[м]|Well\,\,, anyway...\,\,\, you can use\, my\, little secret\, distillery room\, if you want.
+228|Pentti Penttilä[м]|There is a button on the bar shelf\,\, that opens\, a secret door to the room.
+229|Pentti Penttilä[м]|I'm not sure\, if I can trust Max\, to always be able to bring me mash\, so...\,\,\, I'm going to pay you the market price for any mash\, you manage to bring me.
+230|P|That's great! I need a drink before I go! (Buy)
+231|P|Sounds good to me (Leave)
+232|P|Yeah, whatever (Leave)
+233|Pentti Penttilä[м]|But\,\, I'll be happy to buy\, mash from you\,\, if you can brew it.
+234|P|Are you a member of the moonshining cooperative?
+235|Pentti Penttilä[м]|Sorry\,, but\, I'd rather not say.
+236|Pentti Penttilä[м]|Yes\,, I am.\,\, Why are you\, asking?
+237|P|I'm asking for a recommendation
+238|Pentti Penttilä[м]|Hmm...\,\, I can give you\, mine\, once you have\, sold me enough\, mash.\,\,\, Say\,, to\, the value of\,\, 1000 RM.
+239|P|Just wanted to know (Leave)
+240|P|About that recommendation...
+241|Pentti Penttilä[м]|Let me\, check the tally...\,\,\, a moment\,, please.
+242|Pentti Penttilä[м]|Here's my recommendation.
+243|Pentti Penttilä[м]|You are\, still\, short of the goal.
+244|Pentti Penttilä[м]|So\,\,, keep\, the mash coming.
+245|Pentti Penttilä[м]|Looks like\,\, you have already\, met my goal.
+246|Pentti Penttilä[м]|Hmm...

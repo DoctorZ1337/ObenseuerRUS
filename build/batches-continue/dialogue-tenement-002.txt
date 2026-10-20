@@ -1,0 +1,429 @@
+# conv 98: Tenement/Redemption/Kaisa Wirta
+1|Kaisa Wirta|You\,\, shouldn't be here.
+2|Kaisa Wirta|Sigh...\,\,\, Fidan is eating that\, pea soup\, meant for the people in need!
+3|Kaisa Wirta|Why\,\, are you still here?
+# conv 34: Tenement/Shacks/Johan Wider
+4|Johan Wider[м]|You know…\,\, I've been\, getting way\, too many\, uninvited visitors\, lately.
+5|Johan Wider[м]|If you\, steal\, something\,\,, don't expect to\, sleep easy.
+6|Johan Wider[м]|I've gotten\, used to\, rat meat…\,\, but\, if you don't\, leave\,\,, I\, might\, start craving\, something else.
+7|Johan Wider[м]|I\, can already taste\, the rich\,\,, juicy\, flavor\, lingering on\, my\, lips.
+# conv 93: Tenement/Speakeasy/Mr. Blue Duck
+8|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!\,\, Quack?</color>
+9|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?\,\,\, Quack\, quack!</color>
+10|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack\, quack?</color>
+11|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack quack quack?</color>
+12|P [ответ]|Quack?
+13|P [ответ]|Quack!
+14|P|Um, what?
+15|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?\,\,\, Quack\, quack quack!</color>\,\,\, We speak the same language.\,\, <color=#9b8a35>Quack quack!</color>\,\,\, It makes me really <color=#9b8a35>quack!</color>
+16|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack\, quack quack!</color>\,\,\, You\, have a lot to learn\,\,, <color=#9b8a35>quack</color>!
+17|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack</color>\,, maybe you can help me find my\,\, precious little\, <color=#1d54bd>blue quack</color>?
+18|P [ответ]|I already found it
+19|P [ответ]|Sure, why not
+20|P [ответ]|Sorry, but I'm not interested
+21|P [ответ]|I want to ask something first
+22|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>
+23|P [ответ]|Who the hell are you?
+24|P [ответ]|What do I get if I help you?
+25|P [ответ]|Quack quack quack?
+26|P [ответ]|Actually, I don't want to ask anything
+27|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!</color>\,\,\, Watch your\, mouth!\,\, <color=#9b8a35>Quack quack!</color>\,\,\, I'm\,\, Mr. Duck\, who brings joy to this\, depressing part of the city!\,\,\, My <color=#1d54bd>blue quacks</color>\, bring joy to those who need it!
+28|P [ответ]|Have you lived here long?
+29|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack!</color>\,\,\, Obenseuer?\,\, I've lived here for a <color=#9b8a35>quack!\,\, Quack quack quack!</color>\,\,\, I'm from\, Turnip hill\,\,\,, the place where it all started.
+30|P [ответ]|The place where it all started?
+31|Mr. Duck[м] [ответ]|Yeah\, <color=#9b8a35>quack!</color>\,\,\, Fungal disease!\,\,\, <color=#9b8a35>Quack quack quack quack!!</color>
+32|P [ответ]|Can you tell more?
+33|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack quack!</color>\,\, I don't know much...\,\,\, It is said to have been found by mushroom <color=#9b8a35>quack</color> farmers!\,\,\, They\, found green <color=#9b8a35>quack</color> mushrooms\,\, in an abandoned building that were different from the others <color=#9b8a35>quack!</color>\,\,\, That's all I can <color=#9b8a35>quack!</color>
+34|P [ответ]|You mean fungal disease?
+35|P [ответ]|That's all I wanted to know
+36|Mr. Duck[м] [ответ]|So...\,\, <color=#9b8a35>quack?</color>\,\, Can you help me find my lost <color=#1d54bd>blue quack</color>?
+37|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!</color>\,\,\, Don't worry\,\,, the reward will be a big <color=#9b8a35>quack!</color>
+38|P [ответ]|I don't want a big quack! I want money!
+39|P [ответ]|Big quack? Do you mean... I get you?
+40|P [ответ]|The big quack sounds good!
+41|Mr. Duck[м] [ответ]|I...\,\,\, <color=#9b8a35>quack!</color>\,\,\, I'm taken <color=#9b8a35>quack</color>\,\,, but you will get a\, good <color=#9b8a35>quack</color> reward!
+42|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\,\, I can give you money too, you <color=#9b8a35>quack!</color> Don't <color=#9b8a35>quack</color> about it!
+43|Mr. Duck[м] [ответ]|I'm really <color=#9b8a35>quack</color> you like the big <color=#9b8a35>quack!</color>\,\, <color=#9b8a35>Quack quack quack!</color>
+44|P [ответ]|Eh, whatever
+45|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack?</color>
+46|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack quack quack!</color>
+47|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\, You found my little <color=#9b8a35>quack quack?</color>\,\,\, Thank you!\,\,\, <color=#9b8a35>Quack quack quack!</color> Wait...\,\,\, I'm going to get you a big <color=#9b8a35>quack</color>...
+48|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack quack!</color> Good!\,\, My\,\, little\, <color=#1d54bd>blue quack</color> is probably still in the building near the One stop shop.\,\,\, You will get a big <color=#9b8a35>quack!</color>\,\,\, Big <color=#9b8a35>quack quack quack!</color>
+49|P [ответ]|Good to know. I'm going to check that place
+50|P [ответ]|Um, you already know where it is?
+51|Mr. Duck[м] [ответ]|Good <color=#9b8a35>quacking</color> to you!\,\,\, I'm waiting you here\,\,, so I can give you a big <color=#9b8a35>quack!</color>
+52|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!</color>\,\,\, Of course I know where\, my little <color=#9b8a35>quack</color> is...\,\,\, but I don't know exactly where there\,\, and\, I'm not allowed in.\,\, <color=#9b8a35>Quack.</color>\,\, You can ask him more about it...\,\,\, the one who lives in <color=#9b8a35>quack!</color>
+53|P [ответ]|Yeah, I'm leaving now
+54|P [ответ]|Sounds suspicious
+55|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\,\, <color=#9b8a35>Quack!</color>\,\,\, There is nothing suspicious about the <color=#9b8a35>quacks!</color>\,\,\, They're innocent!
+56|P [ответ]|I can help you find your little rubber duck
+57|P [ответ]|I found your little rubber duck
+58|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\,\, Come back if you want a big <color=#9b8a35>quack!</color>
+59|Mr. Duck[м] [ответ]|Here!\,\,\, <color=#9b8a35>Quack!</color>
+60|P [ответ]|Where is the damn money!
+61|P [ответ]|This is what I always wanted
+62|P [ответ]|That's all I get?
+63|P [ответ]|Um, what is it?
+64|Mr. Duck[м] [ответ]|Here <color=#9b8a35>quack quack quack</color>\,\,\, money!\,\,\, Is it enough?
+65|P [ответ]|Yeah I'm good
+66|P [ответ]|I want double!
+67|Mr. Duck[м] [ответ]|Fine, you greedy <color=#9b8a35>quack</color>!\,\,\, Good now?
+68|Mr. Duck[м] [ответ]|Good!\,\,\, <color=#9b8a35>Quack quack quack!</color> Give me\, the <color=#1d54bd>blue quack</color>\,\, and\, I give you a new one.
+69|P [ответ]|Here... take it
+70|P [ответ]|No, I want to keep this one
+71|P [ответ]|Just take this. I don't want a new one
+72|P [ответ]|I want both!
+73|Mr. Duck[м] [ответ]|It's\, a big <color=#9b8a35>quack</color> of course!\,\,\, I hope it gets along with\, you.\,\,\, <color=#9b8a35>Quack!</color>
+74|Mr. Duck[м] [ответ]|I can't thank you enough <color=#9b8a35>quack</color>!\,\,\, I hope you will have joyful moments with the <color=#1d54bd>blue</color> and big quack!\,\,\, <color=#9b8a35>Quack quack quack quack</color>...
+75|Mr. Duck[м] [ответ]|...that's everything.\,\,\, Now I have to <color=#9b8a35>quack quack quack quack quack quack quack quack quack quack quack quack quack quack quack quack quack quack!</color>
+76|Mr. Duck[м] [ответ]|Fine <color=#9b8a35>quack!</color>!\,\,\, It\, still seems to be doing just fine...\,\,\,\, just give it a new home\, where it can <color=#9b8a35>quack!</color> in\, peace.\,\,\, And now...
+77|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack?</color>\,\,\, Are you <color=#9b8a35>quack</color>?\,\,\, It would make you very <color=#9b8a35>quack quack</color> happy <color=#9b8a35>quack!</color> 
+78|Mr. Duck[м] [ответ]|No <color=#9b8a35>quack!</color>\,\, You can't keep both <color=#9b8a35>quacks!</color>\,\,\, Just keep that <color=#9b8a35>quack</color>...\,\,\,\, it seems to be fine so I don't need it now!\,\,\,\, <color=#9b8a35>Quack quack quack quack</color>...
+79|P [ответ]|Yeah, I'm sure
+80|P [ответ]|Actually, give it to me
+81|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!!</color>\,\,\, Okay...
+82|P [ответ]|Quack quack quack!
+83|P [ответ]|I want to ask something
+84|Mr. Duck[м] [ответ]|<color=#9b8a35>Quack!</color>
+85|P|I already found it
+86|P|I found your little rubber duck
+87|Mr. Duck[м]|<color=#9b8a35>Quack</color>?\,\, <color=#9b8a35>Quack quack quack</color>!\,\,\, It's broken!
+88|Mr. Duck[м]|That little <color=#9b8a35>quack</color>!\,\,\, He did this!\,\,\, <color=#9b8a35>Quack quack quack</color>!
+89|Mr. Duck[м]|Here!\,\,\, <color=#9b8a35>Quack!</color>
+90|P|I don't want it
+91|Mr. Duck[м]|<color=#9b8a35>Quack quack quack</color>!\,\,\, Did that <color=#9b8a35>quack</color> killer tell you something bad about my little <color=#1d54bd>blue quack</color>?\,\,\, Are you sure that you don't want it?\,\,\, It would make you very <color=#9b8a35>quack quack</color> happy <color=#9b8a35>quack!</color>
+92|Mr. Duck[м]|... I have another precious little\, <color=#1d54bd>blue quack</color>!\,\,\, I give it to you because you found my <color=#1d54bd>blue quack</color>!\,\,\, <color=#9b8a35>Quack quack</color>!
+93|Mr. Duck[м]|But don't worry!\,\,\, <color=#9b8a35>Quack quack quack!</color>\,\,\, Wait...\,\,\, I'm going to get you a big <color=#9b8a35>quack</color>...
+# conv 33: Tenement/Speakeasy/Pentti Penttilä
+94|P|I want to buy a drink (Buy)
+95|P|I heard that you could need help here
+96|Pentti Penttilä[м]|Well\,\,, you heard right.\,\,\, I do most of drinks myself\,\,, but I buy the mash elsewhere...\,\, and I have a...\,\, problem with that.
+97|Pentti Penttilä[м]|I hope that I don't have to start to selling only...\,\, um...\,\, Osmo Olut...\,\, I know some\, customers like it\,\,, but still...\,\, -sigh-...\,\,\, I guess I'll have to find an\, another\, supplier.
+98|P|Prehaps I could help you?
+99|Pentti Penttilä[м]|Oh?\,\, You probably want some reward?\,\, Anyway...\,\,\, I used to get my mash from a guy called...\,\,\, Max Masher.\,\, He makes some damn good mash\,\, and mashing is everything for him\,\,, but I haven't heard anything from him for ages!
+100|P|Where could I find him?
+101|Pentti Penttilä[м]|I tried to ask people where he might live\,\,, but no one wanted to help\, or knew where he lived.
+102|P|Okay, I'll try find him
+103|P|Yes, but I need a drink before I go! (Buy)
+104|Pentti Penttilä[м]|And?\,\,\, What\, did he say?\,\,\, Is he able to make mash?
+105|P|Told me that, beets doesn't grow during winter...
+106|P|Nothing meaningful...
+107|Pentti Penttilä[м]|And then?
+108|P|Told me to fetch some 10 packs of sugar and 5 packs of yeast for mashing.
+109|Pentti Penttilä[м]|Okay good.\,\, Maybe then I can get some mash for my Kilju. 
+110|P|Well, I met max, and his mind is totally mashed.
+111|Pentti Penttilä[м]|So...\,\, um...\, is he able to make me mash?
+112|P|Doesn't look like it. I brought him a lot of stuff and he just keeps chanting there.
+113|Pentti Penttilä[м]|Ow crap!\,\,\, Where do I get my mash now?
+114|P|Uh... maybe I could help you with that.
+115|P|I could, if I knew how to mash.
+116|Pentti Penttilä[м]|Could you try to ask from him? If he is still able to teach you?\,\,\, I mean...\, He is still able to talk\,\,\,
+117|Pentti Penttilä[м]|Yes!\,\, Yes!\,\, I'm going to pay you the market price for every 10 buckets of\,\, sugar mash\, you manage to bring me!
+118|P|Sounds like a deal!
+119|P|I could try...
+120|P|I'm not going to talk with that mash head again!
+121|Pentti Penttilä[м]|Well\,\,, anyway...\,\,\, I'll pay you market price for every 10 buckets of sugar mash you manage to bring.
+122|P|I'm here to sell you some mash!
+123|Pentti Penttilä[м]|Good!\,\, Got 10 buckets of sugar mash for me?
+124|P|Yeah, I do! (Give)
+125|P|Oops! I forgot. (Leave)
+126|Pentti Penttilä[м]|And here's the payment!
+127|P|Also...\,\,\, Here's something for your efforts for solving this mystery...
+128|P|What problem?
+129|P|That's bad, but I have to go now (Leave)
+130|P|Max Masher? Interesting name
+131|Pentti Penttilä[м]|We still don't know who...\,\,\, It was a surprise that he survived...\,\, but now...\,\, well...\,\, he's not the sharpest tool\,\, in the shed.
+132|P|I want to know about the reward
+133|Pentti Penttilä[м]|I...\,\, figure something...\,\, don't worry.\,\,\, Maybe some good drinks\,\, or discount.\,\, We'll see\,\, when you've done it.
+134|P|He just told me to get some stuff for mashing.
+135|P|Nothing special really...
+136|Pentti Penttilä[м]|Well...\,\, I hope he can still make some mash.\,\, Maybe you should talk to him more...\,\, I really need some mash for my Kilju.
+137|P|Yeah of course! He's totally fine! He started to make some mash already.
+138|P|Well, it's your problem. Where is my reward?
+139|P|Nope and I'm not going to waste my time for this. Where is my reward?
+140|Pentti Penttilä[м]|Oh!\,\, That's good to hear!\,\,\, I hope he's able to bring me some mash soon!\,\, Here's\, something for your efforts!\,\, I hope Max is doing fine...
+141|Pentti Penttilä[м]|Here's your reward.
+142|Pentti Penttilä[м]|Oh damn...\,\, well...\,\, here's your reward.\,\, I probably have to start to...\,\,\, makes some fecal kilju now...\,\, my customers are not going to like this at all...\,\, if they still come here...
+143|Pentti Penttilä[м]|I\, haven't seen you here before.\,\,\, Welcome to speakeasy!
+144|Pentti Penttilä[м]|Welcome back!
+145|Pentti Penttilä[м]|What should be today?
+146|Pentti Penttilä[м] [ответ]|What would you like to order?
+147|Pentti Penttilä[м] [ответ]|Would you like a drink or something else?
+148|P [ответ]|Go on...
+149|Pentti Penttilä[м]|I haven't received any mash from him\,\, for a long time.\,\, I have tried to contact him but to no avail.
+150|Pentti Penttilä[м]|Yeah...\,\, he got that name after...\,\, when he was making some mushroom mash.\,\, Someone mashed his head with hammer.
+151|Pentti Penttilä[м]|He lives in an apartment in Deekula B.\,\,\, Unfortunately I don't know the exact address.
+152|P|I talked to Max
+153|P|Doesn't look like it
+154|P|Nope. Where is my reward?
+155|Pentti Penttilä[м]|Oh crap!\,\,\, Where do I get my mash now?
+156|P|Maybe I could help you with that?
+157|Pentti Penttilä[м]|Yes!\,\, Yes!\,\, That\, sounds great!\,\,\, I'm going to pay you the market price for any mash\, you manage to bring me!
+158|Pentti Penttilä[м]|Damn!\,\,\, I probably have to start to...\,\,\, makes some fecal kilju now...\,\, my customers are not going to like it!
+159|P|I could, if I knew how to mash
+160|Pentti Penttilä[м]|Could you try\,\, to ask from him?\,\,\, If he is still\, able to\, teach you?\,\,\, I mean...\,\,\, he's still able to talk\,\,, right?
+161|P|I could try. Maybe I will learn something from him
+162|Pentti Penttilä[м]|Well\,\,, anyway...\,\,\, I'm going to pay you the market price for any mash\, you manage to bring me.
+163|P|Maybe I'll learn by myself
+164|P|I'm here to sell you some mash
+165|Pentti Penttilä[м]|Thank you!
+166|P|He started to make some mash already
+167|Pentti Penttilä[м]|Oh!\,\, That's good to hear!\,\,\, I hope he's able to bring me some mash soon!\,\, Here's\, something for your efforts!\,\, I hope Max is doing fine.
+168|Pentti Penttilä[м]|Well\,\,, anyway...\,\,\, you can use\, my\, little secret\, distillery room\, if you want.
+169|Pentti Penttilä[м]|There is a button on the bar shelf\,\, that opens\, a secret door to the room.
+170|Pentti Penttilä[м]|I'm not sure\, if I can trust Max\, to always be able to bring me mash\, so...\,\,\, I'm going to pay you the market price for any mash\, you manage to bring me.
+171|P|That's great! I need a drink before I go! (Buy)
+172|P|Sounds good to me (Leave)
+173|P|Yeah, whatever (Leave)
+174|Pentti Penttilä[м]|But\,\, I'll be happy to buy\, mash from you\,\, if you can brew it.
+175|P|Are you a member of the moonshining cooperative?
+176|Pentti Penttilä[м]|Sorry\,, but\, I'd rather not say.
+177|Pentti Penttilä[м]|Yes\,, I am.\,\, Why are you\, asking?
+178|P|I'm asking for a recommendation
+179|Pentti Penttilä[м]|Hmm...\,\, I can give you\, mine\, once you have\, sold me enough\, mash.\,\,\, Say\,, to\, the value of\,\, 1000 RM.
+180|P|Just wanted to know (Leave)
+181|P|About that recommendation...
+182|Pentti Penttilä[м]|Let me\, check the tally...\,\,\, a moment\,, please.
+183|Pentti Penttilä[м]|Here's my recommendation.
+184|Pentti Penttilä[м]|You are\, still\, short of the goal.
+185|Pentti Penttilä[м]|So\,\,, keep\, the mash coming.
+186|Pentti Penttilä[м]|Looks like\,\, you have already\, met my goal.
+187|Pentti Penttilä[м]|Hmm...
+# conv 95: Tenement/Speakeasy/Speakeasy Door
+188|???|...\,\,\,\,\,\,\, yes?
+189|P|I'm [lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])]
+190|???|...\,\,\, hello.
+191|???|...\,\,\, yeah?
+192|???|...\,\,\, so?
+193|??? [ответ]|Hmph!\,\,\, I don't tell my name to\, strangers.\,\, Bye!
+194|??? [ответ]|I will let you in\, when you have access here\,\,, but before that...\,\,\, bye.
+195|??? [ответ]|And I'm Mr. Door Phone...\,\, hmph.
+196|??? [ответ]|Hmph!\,\,\, Didn't I already tell you that I'm\, Mr. Door Phone.\,\,\, Bye!
+197|P|I'm Malone's assistant
+198|???|I\,\, haven't heard from\, Malone\, for a long time...
+199|???|Come\, inside.
+# conv 185: Tenement/Tenement A/Ayla Green
+200|Ayla Green|My\, husband is the boss of this\,\, factory.
+201|Ayla Green|He is usually working in his\, office room.
+202|Ayla Green|My husband may seem\,\, strict\,\,, but he's really nice\, once you get to\, know him.
+203|Ayla Green|As soon as we have enough money saved\,\, we will move somewhere\, warm.
+204|Ayla Green|I hate this job.
+205|Ayla Green|Alice?
+206|Ayla Green|Sorry\, I don't really know my neighbors.
+207|Ayla Green|Maybe you should ask\, my husband\,\, if he knows something.
+# conv 183: Tenement/Tenement A/Doorphone Lantern
+208|???|Are you coming here to work?
+209|P|Yeah, let me in
+210|P|What kind of work?
+211|???|Mushroom lanterns\, manufacturing.
+212|???|So\,\,, are you interested\, or not?
+213|P|Nope. I'm not interested at all
+214|???|Come on in then.
+215|???|Then\, why are you bothering me?
+216|P|I want to come to work
+217|P|Because I hate you
+218|???|But you just said you're not\, interested.
+219|P|Yeah, I'm not interested
+220|???|Stop this bullshit right now!
+# conv 196: Tenement/Tenement A/Emma-Maija Taylor
+221|Emma-Maija Taylor|You're here to buy a cat?
+222|P|Yes (Trade)
+223|P|Nevermind (Leave)
+224|Emma-Maija Taylor|Alice?
+225|Emma-Maija Taylor|Is she a cat?
+226|P|No, she's human
+227|Emma-Maija Taylor|Sorry\,\,, but I've only seen cats lately.
+# conv 163: Tenement/Tenement A/Fredrik
+228|Fredrik|Oh\,\,, you're finally here.
+229|Fredrik|... I need you to help me to get this\, experiment done.
+230|P|Experiment?
+231|Fredrik|You must be\, wondering\,\, what this place is.
+232|Fredrik|I'll tell you briefly\, what we do...\,\,\, what\, I do here.
+233|Fredrik|All the others\, are\,\, dead...\,\,\, and\,\, I'm\, the only one\, left...
+234|Fredrik|... anyway...
+235|Fredrik|... I'm trying to find a cure\,\, for a fungal disease\,\,, because the government hasn't\,\, done anything for\, years.
+236|Fredrik|And now information\, about red mushrooms has\,\, become public.
+237|Fredrik|Doesn't it sound\,\,\, weird?\,\, Red mushrooms?
+238|Fredrik|There have been\,\, rumors\, about those\, red mushrooms for\, a long time\,\, and now it turned out\, that they really exist.
+239|Fredrik|Maybe\, they're hiding\,\, blue mushrooms somewhere too...
+240|Fredrik|... but\,\, anyway...
+241|P|Government hasn't done anything for years?
+242|Fredrik|Yeah\,\,, the government\,\, or anybody else.
+243|Fredrik|You'd think they'd have found\, a proper cure\,\,, right?
+244|Fredrik|I know something is going on\,\, and the answers to it\, can be found in the underground place\,\, that Hanss found.
+245|P|Yeah, I'm ready
+246|P|Who is hiding blue mushrooms?
+247|Fredrik|Well\,\,, I haven't seen them\,\, myself.
+248|Fredrik|I don't know if Anya warned you\,\,, but we know that\, someone has made sure\, that information about\, the underground place\,\,, Hanss found\,, does not spread\,\, to the public.
+249|Fredrik|But\,\, we know something has changed\,\, and they haven't been seen\,\, lately.
+250|P|Who are you talking about and what is that place?
+251|Fredrik|There was\,\, a person working with us\,\, who went to talk about...\,\, things to outsiders...
+252|Fredrik|... and\,\, he disappeared soon after.
+253|Fredrik|I can tell you more about myself\,\, when the test is\, done.
+254|Fredrik|Experiment\, where we need\,\, the mushrooms you brought.
+255|Fredrik|Excellent.
+256|Fredrik|I want to test it\, in a mixture\,\, that I have been\,\, developing\, for a long time.
+257|Fredrik|I\, have a body\,\, in the next room.\,\,\, Don't worry\,\, she is already\,\, brain dead.
+258|P|Wait a minute. Corpse?
+259|Fredrik|Yes\,\,, a body that has\, a fungal infection.
+260|Fredrik|She was one of my patients\,\, that I tried to\, cure.
+261|Fredrik|She\,\, agreed that\, I can use her body\,\, for experiments\, if she is no longer in\,\, this world.
+262|Fredrik|I want you to go to the room\,\, and follow my instructions.
+263|Fredrik|At the same time\,\,, I follow the procedure from\, my computer.
+264|Fredrik|Understood?
+265|P|Let's do this later
+266|P|I don't want to do this
+267|P|What will I get as a reward?
+268|Fredrik|I can give you\,\, a small monetary reward.
+269|Fredrik|Let's\, say...\,\,\, 1500 RM.
+270|Fredrik|Do you have any other questions\,\, or are you ready to\, start the experiment?
+271|Fredrik|And\,\, I can also sell you some\, medicine\,\, and other items\,\, if you need.
+272|Fredrik|Are you ready?
+273|Fredrik|Let me know when you're ready.
+274|Fredrik|Good!
+275|Fredrik|Oh\,, well...\,\,\, tell me\,\, if you change your mind.
+276|Fredrik|Are you ready now?
+277|Fredrik|What do you want?
+278|Fredrik|Yes?
+279|Fredrik|What now?
+280|Fredrik|What do you want now?
+281|Fredrik|I'll\, unlock the door for you.
+282|Fredrik|I\,\, really didn't expect\, that...
+283|P|What the hell just happened?
+284|Fredrik|Honestly\,\,, I'm not\, entirely sure myself.
+285|Fredrik|She tried\, to...\,\, stand up.
+286|Fredrik|It seemed like she\, became\, a bit more...\,\, aggressive\, and her body couldn't\, take it.
+287|P|What next?
+288|Fredrik|For now\,\,, take that red mushroom extract to\, Anya.
+289|Fredrik|Meanwhile I'll be reporting the details of the test to\, her.
+290|Fredrik|Also\,\,, be careful with that\, extract.
+291|Fredrik|I need you to take that\, red mushroom extract to\, Anya.
+292|Fredrik|I...
+293|P|Why did you make me do that?
+294|Fredrik|Sorry...\,\, I wasn't really sure\, if anything would happen.
+295|Fredrik|Well\,\,, at least not that\, fast.
+296|Fredrik|And...\,\, I could use a little\, help.
+297|P|Sure, what do you need me to do?
+298|Fredrik|I need you to bring\,\, some medicine\,\, to my\, patient.
+299|Fredrik|Her name is\, Pia\,\, who's been able to live with a fungal disease for\, a long time.
+300|Fredrik|Usually her friend\,\,, Alice\,, brings her the medicine\,\, but I haven't seen her for\, a while.
+301|Fredrik|Also\,\,, take these keys and the medicine.
+302|Fredrik|Those keys\, are to her house\,\, which is next to\, Deekula C.
+303|Fredrik|It's\,\, a makeshift two-story house\, with a balcony.
+304|P|Sorry, but I don't have time for that
+305|Fredrik|Oh\,\,, okay.
+306|Fredrik|I'll probably handle it myself then.
+307|Fredrik|Here's a reward.
+308|Fredrik|Oh\,\,, I almost forgot.
+309|Fredrik|Also\,\,, here's a reward\,\, and a little extra too.
+310|Fredrik|I can't believe you lost\,\, the sample...
+311|Fredrik|... I\,\, should have handled this\, myself.
+312|Fredrik|I have to tell Anya what\, happened.
+313|Fredrik|You should also go talk to her.
+314|Fredrik|Meanwhile\, I...\,\, have\, to think about what\, to do next.
+315|Fredrik|Oh well...
+316|Fredrik|Maybe it was\, too much to ask you to\,\, handle this.
+317|Fredrik|You should go talk to Anya now.
+318|Fredrik|I'm going to do the experiment myself in the meantime.
+319|Fredrik|And then\,\, I'm going to report the details of the test to\, her.
+320|P|I have news about Pia
+321|Fredrik|Is she okay?
+322|P|I gave her the red extract
+323|Fredrik|You\, what?
+324|P|She was not at home
+325|P|She's dead
+326|Fredrik|Really?
+327|Fredrik|That's weird...
+328|Fredrik|Maybe she\,\, went somewhere\, with Alice...
+329|Fredrik|Anyway\,\,, I don't want to bother you with this\, any more than\, I have to.
+330|Fredrik|Here's your reward.
+331|Fredrik|Oh...
+332|Fredrik|Well\,\,, I\, expected this to happen\,\, eventually\,\,, but\, it's...
+333|Fredrik|... it's\, sad to hear that it happened so\,\, suddenly.
+334|Fredrik|Is Alice okay?
+335|P|I didn't see her
+336|Fredrik|Yeah...\,\,\, I wonder where she went...
+337|P|I heard that Alice has been here with someone else
+338|Fredrik|Here?
+339|Fredrik|I\, don't know who said that\,\,, but she has always come here\, alone.
+340|P|But I heard that he came to Tenement A with someone
+341|Fredrik|Well\,\,, I'm not the only one who lives here in Tenement A.
+342|Fredrik|So...\,\, maybe\, you should ask someone else.
+343|Fredrik|I\,\, have to continue my work now.
+344|Fredrik|I hope you find Alice.
+345|P|Pia is dead
+346|Fredrik|I\,\, should have guessed this...
+347|Fredrik|She had managed to\, live...\,\, surprisingly long\, with\, the fungal disease.
+348|P|I think she has been murdered
+349|Fredrik|But...\,\, who did it?
+350|Fredrik|Did you call\, the police?
+351|P|Yeah, I called the police
+352|Fredrik|Good.
+353|P|Well, not yet
+354|P|No, I'm not going to call the police
+355|Fredrik|You should call them\, soon.
+356|Fredrik|Let them handle this.
+357|Fredrik|But\, why?
+358|Fredrik|I\, think you should...
+359|Fredrik|If they can...
+360|Fredrik|Where is Alice?
+361|P|I found her dead in their storage building
+362|P|I think I found her body
+363|Fredrik|I\,\, wonder where she is\, righ now...
+364|Fredrik|Have you\, asked Alice's...\,\, friends\,\, if they know\, anything?
+365|P|I don't think she died of fungus
+366|Fredrik|Was\, she...\,\, murdered?
+367|P|Friends?
+368|P|You mean Joel Hietala?
+369|Fredrik|I think\, their last name is...\,\, Hietala.
+370|Fredrik|I just remembered that\,\, I saw Alice\, in the stairwell\,\, talking with them.
+371|P|Joel and who else?
+372|Fredrik|I...\,\, I\, don't know.
+373|Fredrik|Some woman\,\, who lives in\, Hietala's apartment.
+374|Fredrik|I heard\, she works in the mines.
+375|P|I didn't know that there was someone else too
+376|Fredrik|Well\,\,, some woman\,\, lives in\, Hietala's apartment.
+377|Fredrik|So...\,\, maybe you should go there\,\, and check if she is there\,\, or wait for her to come back home.
+378|Fredrik|I don't know her name\,\,, but...\,\, she has\, blonde hair...\,\, and...
+379|Fredrik|... I don't\, really remember\, what she looks like.\,\, I'm sorry.
+380|Fredrik|Anyway\,\,, I have to continue\, working...
+381|P|I knew someone else lives with Joel
+382|Fredrik|Yeah...\,\, I\, think\, that was their\, last name.
+# conv 192: Tenement/Tenement A/Fredrik Operating Room
+383|Fredrik|There is a table where is a device with a small hatch.
+384|Fredrik|Put those red mushrooms inside that device.
+385|Fredrik|What are you doing?
+386|Fredrik|I told you put those red mushrooms inside that device on the table.
+387|Fredrik|Perfect. Now, look for the start button on the device.
+388|Fredrik|It should be right next to the hatch.
+389|Fredrik|Press that start button.
+390|Fredrik|Are you tired or what is the problem?
+391|Fredrik|Great, now we wait for the machine to do its thing.
+392|Fredrik|Grab that extract bottle.
+393|Fredrik|I told you take that extract bottle.
+394|Fredrik|Next, find an empty syringe.
+395|Fredrik|Once that's done, you'll see an IV bag that is attached to the patient.
+396|Fredrik|It’s attached to the patient and filled with blood.
+397|Fredrik|Carefully inject the extract into the IV bag using the syringe.
+398|Fredrik|And now let's see what happens.
+399|Fredrik|We have to talk about this.
+400|Fredrik|BROKEN
+# conv 190: Tenement/Tenement A/Fredrik Operating Room Phone
+401|Fredrik|Yeah?
+402|P|Let me out!
+403|P|I lost the extract
+404|Fredrik|Are you sure?
+405|Fredrik|You will lose your reward.
+406|P|Yeah, let me out now!
+407|P|Fine, I'll do the test
+408|Fredrik|Without it we cannot complete the test
+409|P|Yeah, let me out
+410|P|I was just kidding
+# conv 188: Tenement/Tenement A/Fredrik Recording
+411|Fredrik|It's\, day 146\, since we initiated the experiment.
+412|Fredrik|The fungal infection has\,\, spread\, extensively throughout his body\,\,, causing severe pain\,\, and discomfort. 
+413|Fredrik|The patient continues to cry out in\, agony\,\,, but he is still able to talk to us\, sometimes.
+414|Fredrik|I\,\, still think we've made\,\, a grave mistake.
+415|Fredrik|Dr. Evensen methods are\, unorthodox\,\,, to say the least\,\,, relying on a book\, written by...\,\, whatever the name was.\,\, Holt?\,\, Hall?
+416|Fredrik|The sound\,\, of that...\,\,\, device drives me crazy.
+417|Fredrik|Where did he even get that book.

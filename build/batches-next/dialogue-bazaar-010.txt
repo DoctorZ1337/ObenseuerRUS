@@ -1,0 +1,274 @@
+# conv 384: Bazaar/Murju/Dave Smiker
+1|Dave Smiker|Yo, fam\,\,, the shit I sell is fire!
+# conv 385: Bazaar/Murju/Lykke Tillbehör
+2|Lykke Tillbehör|It's so\, cold in here.\,\,\, The landlady is\, saving on heating again.
+3|Lykke Tillbehör|...\, anyway\,\,, ready to make some\, discoveries?
+4|Lykke Tillbehör|Have something in mind\, you'd like to buy?
+5|Lykke Tillbehör|See anything that\, catches your eye?
+6|Lykke Tillbehör|Want to have a look at\, what I've got?
+# conv 387: Bazaar/Sauna/Timo Löyly Fail
+7|Timo Löyly|Haha! I won! You got your ass off the bench!
+8|Timo Löyly|You lasted longer than I expected, [lua(Actor["Player"].AgeName)].
+9|Timo Löyly|Run along and get some fresh air before you faint!
+10|Timo Löyly|Looks like the heat was just a bit too much for you this time, [lua(Actor["Player"].AgeName)].
+# conv 389: Bazaar/Sauna/Timo Löyly Comment
+11|Timo Löyly|I never leave the sauna.
+12|Timo Löyly|The sauna and I are one!
+13|Timo Löyly|The heat only makes me stronger!
+14|Timo Löyly|You call this hot?
+15|Timo Löyly|I've survived midsummers hotter than this.
+16|Timo Löyly|I'll show you what true men are made of!
+17|Timo Löyly|Years of sauna and cold beer made me unstoppable!
+# conv 390: Bazaar/Sauna/Timo Löyly Dead
+18|P|Are you okay?
+19|P|(Check the pulse)
+20|P|Smells like the meat is ready! (Use the axe)
+21|Timo Löyly|(He's\, dead.)
+# conv 391: Bazaar/Slum/Bror Stjäla
+22|Bror Stjäla|Oi! Gimme all ya money, or I’ll smash ya face in!
+23|P|(Give all)
+24|P|(Lie)
+25|P|(Run)
+26|Bror Stjäla|Ya wot mate?
+27|Bror Stjäla|Been pleasure\, to do biz with ya, mate!
+28|Bror Stjäla|Yer poorer than I thought.
+29|Bror Stjäla|Are ya scammin' me?
+# conv 392: Bazaar/Sauna/Timo Löyly Comment Low
+30|Timo Löyly|Hah... I've endured worse!
+31|Timo Löyly|I refuse to be defeated by hot air!
+32|Timo Löyly|Whew... that's some proper löyly...
+33|Timo Löyly|It's getting a little tropical in here...
+34|Timo Löyly|The bench and I... are brothers...
+35|Timo Löyly|Am I sweating...
+36|Timo Löyly|I can't feel my butt anymore...
+# conv 393: Bazaar/Sauna/Matti Kiehinen Sauna
+37|Matti Kiehinen|I\,\, absolutely\, love the feeling of\, inhaling...\,\, boiling steam.
+38|Matti Kiehinen|I’m\, totally relaxed\, right now...
+39|Matti Kiehinen|I’m not\, shaking...\,\, I\, could sit here\, all day.\,\,\, Literally\,\, all\, day.
+40|Matti Kiehinen|No...\,\, not\, sweating\, from the heat.
+# conv 394: Bazaar/Sauna/Matti Kiehinen Sauna Comment
+41|Matti Kiehinen|This is fine...
+42|Matti Kiehinen|Go ahead, throw another ladle of water...
+43|Matti Kiehinen|I... uh... I think... I'm stuck...
+44|Matti Kiehinen|I keep hearing breathing under the floorboards.
+45|Matti Kiehinen|Did someone just poke me?!
+46|Matti Kiehinen|This heat is destroying my gains...
+47|Matti Kiehinen|Uh... I think my balls just fused to the bench.
+# conv 396: Bazaar/Sauna/Matti Kiehinen Pools
+48|Matti Kiehinen|Don't\, block my\, sightline to\, the hot tub\,\,, bro.
+49|Matti Kiehinen|What\, are you staring at?\,\,\, Wanna\, take\, a picture?
+50|Matti Kiehinen|Did\, you know that\, muscles grow\, when you\, rest?\,\,\, So\,\, technically\,\,, by\, lying\, perfectly still\,\,, I'm lifting.
+51|Matti Kiehinen|What\, now?\,\,\, Do\, I look like\, a lifeguard?
+52|Matti Kiehinen|Well\,, well.\,\, Nice\, to see you.
+53|Matti Kiehinen|If\, anyone bothers\, you out here\,\,, just\, let me\, know.
+54|Matti Kiehinen|Hey\,\,, [lua(Actor["Player"].AgeName)].\,\,\, Want to\, sit down \,and talk\, macros?
+55|Matti Kiehinen|You\, can leave your\, towel by my chair.\,\,\, Nobody's\, going to\, mess with your\, stuff\, while I'm\, sitting here.
+# conv 397: Bazaar/Sauna/Matti Kiehinen Sauna Fail
+56|Matti Kiehinen|Victory is mine! You got off the bench!
+# conv 398: Bazaar/Sauna/Matti Kiehinen Sauna Win
+57|Matti Kiehinen|Okay, okay! You win!
+# conv 399: Bazaar/Sauna/Raimo Stalreg Outside
+58|Raimo Stalreg|Ah\,\,, there\, you are.\,\,\, So\,, there is\,\,, uh...\,\, a\, bit of\, a situation.
+59|Raimo Stalreg|It's\,\, kinda\, cold out here.\,\,\, Maybe\, we all\, should go\, back to the spa.
+60|Raimo Stalreg|Do you\, think\, they sell\, any\, Japanese\, rice lager around here...\,\,\, or\,\, is it\, just\, Osmo Olut.
+61|Raimo Stalreg|Hanging out\, with these\,\, guys\,\, takes\, a lot of\, mental endurance.
+62|Raimo Stalreg|Sometimes\,\,, I\, dream\, about\, cheese...\,\,\, melting\, perfectly\, over\, a steaming bowl of\, spicy\, ramen.
+63|Raimo Stalreg|Yeah...\,\, a fallen\, comrade...
+64|Raimo Stalreg|We\, should\,\, probably\, go check on him\, soon.
+65|Raimo Stalreg|I apologize for the chaos.
+66|Raimo Stalreg|Please, accept this as my personal thanks.
+# conv 400: Bazaar/Slum/Mikael Arnaldur
+67|Mikael Arnaldur|Huh?\,\,\, Do I\, look like\, I'm hosting\, a party?\,\, Get out\,\, or state your\, business.
+68|Mikael Arnaldur|The locks on this\, place are\, officially useless.\,\,\, What do you want?
+69|Mikael Arnaldur|Uh...\,\, ever heard of\, knocking?
+70|Mikael Arnaldur|What\, do you want?
+71|P|Did you burn those last two copies?
+72|Mikael Arnaldur|Huh?
+73|Mikael Arnaldur|... oh.\,\,\, Let me\, guess\,\,, Welhö sent you?
+74|Mikael Arnaldur|Look\,\,, tell the\, "Grand Wizard"\, I burned his\, damn books.\,\,\, Just like\, he wanted.
+75|P|I actually wanted to read that book
+76|Mikael Arnaldur|Oh...\,\, well...\,\, check around\, my hut.\,\,\, There\, should be\, some\, loose pages\, left.
+77|Mikael Arnaldur|The guy\, whose apartment you just\, barged into.
+78|Mikael Arnaldur|So...\,\,\, get out.
+79|P|Can I sell you something?
+80|Mikael Arnaldur|Huh...\,\, so\, merchants just\, barge into\, people's houses nowadays?
+81|Mikael Arnaldur|Bold\,\, strategy...
+82|Mikael Arnaldur|... well\,\,, show me\, what you've got.
+83|Mikael Arnaldur|Huh...\,\, the wandering merchant returns.
+84|Mikael Arnaldur|Fine\,\,, let's see\, what you're selling this time.
+85|Mikael Arnaldur|Huh...\,\, the home-invasion\, merchant returns.
+86|Mikael Arnaldur|Still\, haven't\, learned\, how to\, knock\,, I see.
+87|P|Did you read that book?
+88|Mikael Arnaldur|I just\, glanced at the cover.
+89|Mikael Arnaldur|I've got\, enough headaches\, dealing with that\, old man...
+90|P|I'll go tell Welhö "the jöb" is done
+91|Mikael Arnaldur|Great.\,\, Please\, do.
+92|Mikael Arnaldur|Maybe\,\, if he\, thinks his\, precious\,\, 'forbidden knowledge'\, is gone\,\,, he'll\, finally\,\, leave me alone\, for a week.
+93|P|I found nine pages
+94|Mikael Arnaldur|Nine\, pages\,, huh?
+95|Mikael Arnaldur|Well\,\,, look at you\,, the\, ultimate\, scavenger.
+96|Mikael Arnaldur|Well\,, burn them.
+97|P|Do you know anything about the book?
+98|Mikael Arnaldur|I just\, caught a glimpse of\, the cover\, and uh...
+99|Mikael Arnaldur|... it looked like\, some kind of\, cheap sci-fi\, or fantasy novel.
+100|Mikael Arnaldur|I do remember\, the author's name, though...
+101|Mikael Arnaldur|Silvia\, H.\, Raven.
+102|Mikael Arnaldur|Sounds like\, a total pen name\, if you ask me.
+103|P|Alright, I'll burn the pages
+104|P|I'm going to go talk to Welhö about this
+105|Mikael Arnaldur|Actyally...\,\, you can\, just keep them.
+106|Mikael Arnaldur|Uggh\,\,, fine.
+107|Mikael Arnaldur|Just\, don't tell\, him you found them\, on my floor.
+108|Mikael Arnaldur|Just\, make damn sure\, you don't tell Welhö.
+109|P|What do you know about Welhö?
+110|Mikael Arnaldur|Not much\,\,, honestly.
+111|Mikael Arnaldur|He's\, just...\,\, one of\, the local nutjobs.
+112|Mikael Arnaldur|But...\,\, the guy is\, actually\, a genius\, when it comes to\, making alcohol.\,\,\, His\, moonshine recipes are\,\, legendary.
+113|Mikael Arnaldur|I\, originally became\, his\, 'apprentice'\, because I\, wanted to\, learn how to\, brew his stuff.
+114|Mikael Arnaldur|But\,\, I quickly realized\, what a massive\, hassle it is\, to get even a\, single recipe out of him.
+115|Mikael Arnaldur|He lives\, completely in his own\, fantasy world.
+116|Mikael Arnaldur|Now\,, I just\, play along\, so I don't\, crush his spirit\,\, and make him\, depressed.\,\, But man...\,\, I really just\, wanted to learn\, one recipe...
+117|Mikael Arnaldur|Oh\,, it's you...
+118|Mikael Arnaldur|So...\,\, Welhö just\, came by\, to give me\, a dramatic lecture\, about how\, low I've sunk.
+119|Mikael Arnaldur|So\,\,, Welhö actually dropped by\, and\, gave me\, a bottle of his\, finest stuff\, as a reward.
+120|Mikael Arnaldur|Welhö just\,\, showed up\, out of nowhere\, yelling about how\, I'm stripped of\, my\, title.
+121|Mikael Arnaldur|Guess I can\, kiss those\, moonshine recipes goodbye.\,\,\, All that\, wasted time\, for\, nothing.
+122|Mikael Arnaldur|Apparently\,\,, I need\, 'remedial magical lessons' now.
+123|Mikael Arnaldur|Honestly...\,\, I\, don't know if\, the booze is\, worth playing along\, with his\, delusions anymore.
+124|Mikael Arnaldur|It's\, fantastic\,, sure\,, but...\,\, it doesn't\, really\, help me.\,\, I\, still just\, wanted the recipe.
+125|Mikael Arnaldur|Ah\,\,, trying to\, prove\, you're a real Welho\, so you can\,\, get your\, hands on\, his recipes too?
+126|Mikael Arnaldur|Well\,\,, I'll tell\, you where he\, lives…\,\, but\, I hope you share\, some of\, Welhö's recipes with\, me\, if you\, get your hands on them.
+127|P|Yeah, sure, so where does he live?
+128|Mikael Arnaldur|Let me\, see your map...
+129|Mikael Arnaldur|There...\,\, Murju B\,\,, top floor.\,\,\, He goes by\, the name Erto Lagerfeld.
+130|Mikael Arnaldur|The front doors\, are locked\,\,, so\,\, you'll have to\, use the intercom\, and get\, someone to\, buzz you in.
+131|P|Maybe. So where does he live?
+132|P|I'm not going to share anything with you
+133|Mikael Arnaldur|Oh\,\,, so you\, want to\, keep them all\, to yourself?
+134|Mikael Arnaldur|Fine by me.\,\,\, Good luck\, finding him on your own\,\,, because\, I'm not telling you\, anything.
+# conv 403: Bazaar/Other/Jane Miller
+135|Jane Miller|Would you\, like to earn some\, cash?
+136|P|I could always use some cash
+137|P|What do I need to do?
+138|P|I'll pass (Leave)
+139|Jane Miller|There is\, a certain\, person\,\, living in\, the quarantine area\, to whom I\, need to\, deliver\, critical supplies.
+140|P|So you want me to smuggle myself into the quarantine area?
+141|Jane Miller|No\,\,, nothing like\, that.\,\,\, We're\, using a\, drone.
+142|P|How should I do that?
+143|P|Just give me the stuff and I'll head over there. Easy
+144|Jane Miller|I\, will bring you\, a drone\,\, that you can\, use to\, deliver the supplies
+145|P|Sure, but how do I know where to pilot it
+146|P|I don't know how to pilot a drone
+147|Jane Miller|You\, don't need to.\,\,\, The drone is\, programmed to\, automatically fly to\, the exact location\,\, and\, return to you\, once it\, drops the cargo.
+148|P|Sure, I'll do it. But what's the payment?
+149|P|Sounds easy enough. Why won't you just do it yourself?
+150|Jane Miller|Because\, there's\, heavy electronic\, monitoring\, and\, interference\, all over\, Obenseuer\,\,, especially\, around the\, closed\, quarantine.
+151|Jane Miller|However\,\,, the\, Deekula B\, rooftop might be\, the best place to\, try.
+152|Jane Miller|I\, would do it\, myself\,\,, but\, I don't have\, a passport to\, get there\, and back.
+153|Jane Miller|I\, will pay you\, 500\, RM\, right now\,\,, and\, 2000 RM\, once\, you have made the\, delivery.
+154|Jane Miller|Thank you.\,\, You will\, receive the\, drone in\, a couple of days\, with further instructions.
+155|Jane Miller|They\, easily disable\, any drones\, flying around\, besides their own.
+156|Jane Miller|It's\,\, close to the\, quarantine\,\,, and\, there are\, no guard towers\, or\, posts nearby\, with\, a clear line of\, sight to the\, flight path.
+# conv 404: Bazaar/Doorphone Murju B
+157|Doorphone|Bzzzz!
+158|???|(No Answer)
+159|???|Yes?
+160|Doorphone|Väy väy väy vhräääh!
+161|P|Väy väy vrhäääää!
+162|P|Hey, chill out!
+163|P|Let me in! Let me iiiiiin!
+164|???|Sorry\,\,, but\, I don't know you.
+165|???|I'll\, open the door for you.
+166|???|Tell me your name first.
+167|???|Shut the fuck up!
+168|Doorphone|Shut\, the\, fuck\, up!
+# conv 405: Bazaar/Murju/Erto Lagerfeld
+169|P|You're the Suurwelho?
+170|Erto Lagerfeld|Khm...\,\, Yeah.\,\, That is\, me.
+171|P|So... I need to prove that I'm a real Welho
+172|Erto Lagerfeld|Ah...\,\, khm…\,\, yes.\,\,\, A trial.\,\, You need\, a trial.
+173|Erto Lagerfeld|Khm…\,\, your\, first mission\, is...\,\, uh...\,\, go\, silence the downstairs\, neighbor.
+174|Erto Lagerfeld|Those…\,\, khm...\,\, sounds are\, driving me\, crazy.
+175|P|What sounds?
+176|P|There aren't any sounds coming from down there
+177|Erto Lagerfeld|Ghk…\,\, are your\, ears broken?!
+178|Erto Lagerfeld|Those voices\, echoing through\, the floorboards!\,\, Make\, them\, stop!
+179|P|Of course, I will do that
+180|P|But you're just some drunk
+181|P|Really? Where are your clothes?
+182|P|Sure... (Leave)
+183|Erto Lagerfeld|Ghk…\,\, did you\, come all this\, way just to\, mock me?!
+184|Erto Lagerfeld|If\, you have\, no real\, business here\,\,, then\, leave!
+185|Erto Lagerfeld|Khm!\,\,\, A\, true master does not\, need clothes!
+186|Erto Lagerfeld|I\, wear them only\, when I...\,\, hic...\,\, when\, I am\, conducting official\, Welhö business!
+187|Erto Lagerfeld|Khm...\,\, Yeah.\,\, Good.
+188|Erto Lagerfeld|Come back\, when you\, have handled it.
+189|P|Your TV is just showing static
+190|Erto Lagerfeld|Khm…\,\, what?
+191|P|The TV. It's just showing static noise
+192|Erto Lagerfeld|I\, don't know\, what you are\, talking about.
+193|P|Uh, nothing (Leave)
+194|P|I silenced the neighbor
+195|Erto Lagerfeld|Khm...\,\, good.
+196|Erto Lagerfeld|The next...\,\, hic...\,\, trial is simple.
+197|Erto Lagerfeld|I\, need you\, to get\, something from\, my...\,\, khm...\,\, my\, ground floor\, storage cage.
+198|Erto Lagerfeld|Khm…\,\, just\, find the storage\, that has the\, same number\, as my\, apartment.
+199|Erto Lagerfeld|I'm\, sure you will\, know exactly\, what I need\, when you\,\, see it.
+200|P|Your storage cage is gone, but I brought you something
+201|Erto Lagerfeld|Khm...\,\, what?
+202|P|I said, your storage is completely gone
+203|Erto Lagerfeld|Khm…\,\, yes\,\,, I\, heard that.\,\, I\, meant\,, what did you\, bring me?
+204|P|Here is your new companion (Give the pig)
+205|Erto Lagerfeld|What\, the hell...\,\, hic...\,\, what\, am I\, supposed to\, do with\, a pig?!
+206|Erto Lagerfeld|Well...\,\, put it\, in the corner.\,\,\, If it\, eats my\, snacks\,, I'm turning it\, into bacon.
+207|P|Here. Some beer for you (Give 24 bottles of Osmo Olut)
+208|Erto Lagerfeld|Khm…\,\, a beer?\,\, For...\,\, me?
+209|Erto Lagerfeld|Ah...\,\, the...\,\, uh...\,\, spirits demand\, I drink this...\,\, hic...\,\, immediately.
+210|P|Here, a rubber duck (Give a rubber duck)
+211|Erto Lagerfeld|Khm…\,\, a rubber duck?
+212|Erto Lagerfeld|What\, am I\, supposed to do\, with a\, rubber duck?\,\, I don't\, even have a bathtub!
+213|P|Your glorious hat! (Give the red hat)
+214|Erto Lagerfeld|Khm…\,\, my glorious...\,\, wait.
+215|Erto Lagerfeld|I\, have never\, seen that\, hat in my life.
+216|Erto Lagerfeld|Give it\, to me anyway.\,\,\, My\, head gets cold.
+217|Erto Lagerfeld|Khm…\,\, speaking of\, the cold…
+218|Erto Lagerfeld|Why is it\, so damn cold in here?
+219|Erto Lagerfeld|Your\, next mission is to...\,\, khm…\,\, bring me\, my jacket.
+220|Erto Lagerfeld|Khm...\,\, fine.\,\,\, Give it to me.
+221|Erto Lagerfeld|But\, since you\, failed to bring me\, anything useful\,\,, your real trial is\, to go get me\,\, 24 bottles of\, Osmo Olut!
+222|P|Here. The beer you wanted (Give 24 bottles of Osmo Olut)
+223|Erto Lagerfeld|Khm…\,\, excellent!\,\,\, Just\, what I needed!
+224|Erto Lagerfeld|Ahhh.\,\, Yes.\,\, The...\,\, uh...\,\, spirits are\, very pleased\, with your…\,\, hic…\,\, offering.
+225|Erto Lagerfeld|You have\, done well.
+226|P|I have your jacket
+227|Erto Lagerfeld|Khm…\,\, give it to me.
+228|P|Here (Give the red jacket)
+229|P|Here (Give the brown jacket)
+230|Erto Lagerfeld|Uh...\,\, khm…\,\, that's\, my wife's!\,\, I mean...
+231|Erto Lagerfeld|... that is\, definitely\, not mine!\,\, Bring me\, the brown one!
+232|Erto Lagerfeld|Khm…\,\, finally.
+233|Erto Lagerfeld|You're...\,\, khm…\,\, supposed to\, find me\,\, something.
+234|Erto Lagerfeld|Khm…\,\, uh...\,\, I\, can still hear\, that\, damn\, sound...\,\, ringing in\, my ears...
+235|Erto Lagerfeld|Argh…\,\, whatever.\,\,\, It's\, probably just\, the beer.
+236|Erto Lagerfeld|Khm…\,\, I\, think I\, already gave you\, three missions...
+237|Erto Lagerfeld|Congratulations\,\,, [lua(Actor["Player"].AgeName)].
+238|Erto Lagerfeld|Here...\,\, this is…\,\, khm…\,\, The\, Sacred\, Seal\, of\, Welhous.
+239|Erto Lagerfeld|With that\,, you can\, prove that\, you are\, a true\, Welho...
+240|Erto Lagerfeld|Now\,\,, leave me in\, peace\, so I can\, watch TV.
+241|P|You don't actually believe in any of this Welho stuff?
+242|Erto Lagerfeld|Khm…\,\, I\, believe in\, whatever is\, useful to me!
+243|Erto Lagerfeld|And\,\, with this\, Welho stuff\,\,, I can get\, idiots\, like you\, to do\, my chores for me.
+244|Erto Lagerfeld|For instance\,\,, you fetched\, my jacket.
+245|Erto Lagerfeld|And...\,\, khm…\,\, you gave\, me\, a live pig…\,\, ugh…
+246|Erto Lagerfeld|And...\,\, khm…\,\, you gave me\, a ton of beer!
+247|Erto Lagerfeld|And\, a rather nice rubber duck!
+248|Erto Lagerfeld|And... khm… I got a nice new hat out of it!
+249|Erto Lagerfeld|Also\,\,, you\, actually managed to\, silence my neighbor!
+250|Erto Lagerfeld|Also…\,\, you…\,\, khm…\,\, at least\, tried to\, silence my neighbor.
+251|Erto Lagerfeld|But…\,\, well\,\,, at least\, you silenced\, my neighbor.
+252|Erto Lagerfeld|But…\,\, you…\,\, khm…\, at least\, tried to\, silence my neighbor.
+253|Erto Lagerfeld|Well\,\,, yeah…\,\, looking at that\, pig\,\,, I'm not sure\, if this is\, actually profitable for me...
+254|Erto Lagerfeld|See?\,\,\, This whole\, Welho business\, works out great for me!
+255|Erto Lagerfeld|But\, whatever...\,\, you're done here.\,\, Now\, get out.
+256|Erto Lagerfeld|But\, whatever...\,\, you're done here.
+257|Erto Lagerfeld|Leave me\, alone.

@@ -1,0 +1,122 @@
+# conv 54: Unused/Aava Kauppila
+1|Aava Kauppila|I sell some...\, special coffee.\,\, Do you want to buy?
+2|P|(Buy)
+3|P|(Leave)
+# conv 31: Unused/Doctor
+4|Doctor|What is bothering you?\, Where is the ache?
+5|Doctor|*Sniff* \, *Sniff* \,  Do I smell\,.\,.\,.\, *Sniff* \, TURNIP\, in\, you\,!?\,¶AAAAAAaaaaaaaAAAAAAAaaaaaaAAAAA!!!\,¶Leave!\, Leave!\, Leave now!!!
+6|P|I'm worried about my mental state... (Pay 130 OC)
+7|Doctor|The problem with you is\,.\,.\,.\, Poverty.\,¶Meaning,\,\, you didn't pay me,\, dammit!¶
+8|Doctor|You are fine.\,\,\, There are no signs of any mental issues in you.\,\, You may leave these premises\,\,, so I can serve\, other vermin now.
+9|Doctor|Just some mild depression\,\,, and that sure is\, a rare condition\, in a depressive place like an Open Sewer.\,\,\, Sleep in a comfy bed\,\,, eat a fine meal\,\,, and definitely not turnip\s\,\,, and it'll go away.
+10|Doctor|You have mediocre depression\,\,, that's common around here.\,.\,.\,\,\, Go buy some depression medicine\,\,, and stay away from turnips\,\,, so you'll be fine.
+11|Doctor|You have severe depression!\,\,\, Get some depression meds now.\,\, or I will see you hanging from a street lamp!
+12|P|I'll go fetch some money then.
+13|P|Alright then, you bloodsucker.
+14|P|Okay, thanks! 
+15|P|I will, doctor!
+16|P|Uh...
+17|P|Every part hurts and I'm feeling weak.
+18|Doctor|You got hurt?\,\,\, Also...\,\, that sounds like one of the possible symptoms\, of the fungal disease.
+19|P|Also...
+20|P|Check me for the mushroom illness! (Pay 200 OC)
+21|P|I got hurt or something, please patch me up. (Pay 160 OC)
+22|P|Nothing too bad, just some bandage and painkillers will do. (Pay 100 OC)
+23|P|Changed my mind, I'm fine!
+24|Doctor|So...\,\,\, Where's the money?
+25|Doctor|This\, should do.
+26|P|I thought you were doing charity?
+27|Doctor|You\, spent all of your money on mushrooms\,\,\,, and didn't leave any for me?
+28|P|I don't remember...
+29|Doctor|Oh,\, this is something extraordinary.\,\,\, You are clean.
+30|P|Huh? I was worried for a second. Thank you!
+31|Doctor|Well,\,\,\, I have good news\,\, and bad news...
+32|P|Tell me...
+33|Doctor|Bad news are:\, You have that fungal disease...\,¶And the good news:\, It's not active,\, it's spreading has stopped.
+34|P|Is there something you could do?
+35|Doctor|Depending\, on if you have REAL money...
+36|Doctor|There\, isn't anything I can do...\,\,\, You may leave.
+37|Doctor|Okay\,\,\,, are you ready to hear it?
+38|P|Good to hear! 
+39|P|I'm ready.
+40|Doctor|You\, will leave this place in [lua(Actor["Unused_Doctor"].PlayerSMVLifetimeLeft)] days.
+41|P|What do you mean?
+42|Doctor|You\,\, will die in [lua(Actor["Unused_Doctor"].PlayerSMVLifetimeLeft)] days\,\,\,, stupid...
+43|P|I... I... Accept my fate...
+44|P|Nice.
+45|Doctor|Not now\,\,\,, but once the growth becomes more visible\,\,\,, I could surgigally remove them giving you extra time.\,\,\, For a hefty price...
+46|P|I'll be back then.
+47|Doctor|You\, have.\,.\,.\, [lua(Actor["Unused_Doctor"].PlayerSMVLifetimeLeft)]\, days\, of \,lifetime\, left!
+48|P|I do.
+49|P|Do I look like I do?
+50|Doctor|Then\,\, there is nothing I can do.
+51|Doctor|Good.\,\,\, For 125 real money\,\, I can surgically remove the wort growths\,\,\,, granting you some extra time.
+52|P|I don't have that much...
+53|P|Proceed.
+54|Doctor|Not.\, Without.\, Money.\,
+55|Doctor|Okay\,\,\,, this will hurt!
+56|P|I'm back for the surgery.
+# conv 61: Unused/Emilie Palmer
+57|Emilie Palmer|Hello there!\,\, You\, look something\, I've been looking for!\,\,\, Maybe\, you would be interested about my\, little...\,\, game.\,\, It has a high prize\, if you manage to solve\, this little...\,\, puzzle.\,\, It doesn't cost anything!\,\, It's completely free!
+58|P|I have to go. (Leave)
+59|P|Who are you?
+60|P|Puzzle? Tell me more.
+61|Emilie Palmer|Okay\, okay...\,\, so...\,\, can you\, hear that sound?\,\, Listen carefully.
+62|Emilie Palmer|Me?\,\, Um...\,\, I'm an artist.\, Modern art.\,\, I like to use colors.\,\, Lots of colors...\,\, 
+63|P|Those drunk people?
+64|P|I can hear some breathing.
+65|P|I hear some weird radio sounds.
+66|P|Nope. I can't hear anything unusual.
+67|Emilie Palmer|Exactly!\,\, Yes!\, Take these keys...\,\, that was the easiest part.\,\, Next\, you have to go to the apartment\, which is on the second floor.\,\, There you have to solve\, the puzzle\,\, which I made for\, people like you...\,\, don't steal anything.
+68|P|Okay... then what?
+69|Emilie Palmer|Oh...\,\, so you can't hear that.\,\, I'm\, sorry that\, I wasted your time. 
+70|P|Why are you doing this?
+71|P|I'm not sure about this...
+72|Emilie Palmer|You'll see... there is one door with two question marks. You just have to get it open and inside... well... there is the prize! Remember to follow the instructions! Don't do anything else.
+73|P|What is the prize?
+74|Emilie Palmer|Mike question.
+# conv 50: Unused/Hilla Palo
+75|Hilla Palo[ж]|Turni\,-iiii\,-ps!\,\,\, Po-\,oo\,-tay\,-toe\,-ees!\,\,\, Car-\,roo\,-oots!\,\,\, I sell them! Yes,\, buy them from me\,-ee!\,
+76|P|(leave)
+# conv 18: Unused/Intro bus guy
+77|?|PERKELE\,!\,!\,\, My head!\,\,\, I just\, hate when someone\, hits me...
+78|?|Oh\,\,, I'm so sorry!!!!\, Did I wake you up\,!\,!\,!\,!\,?\,?\,\,\,\,?\,?\,?\,?\,?\,?\,?\,?
+79|?|This is going to be so fun\,!\,\, I know\,!\,!\,\,\, I know\,!\,!\,!\,\,\, You look so\,.\,.\,.
+80|?|So...\,\, grim\,?\,\, What's wrong\,?\,\, You know where we are going to\,?
+81|?|I heard that\, you get the best shrooms\, from there\,!\,\,\, I can't wait\,!\,!
+82|?|So...\,\, you ate shrooms\,?\,?\,\, Is that why you're here\,?\,?\,?
+83|?|I think\, I'm going to get some damn big house!
+84|?|There might be some side effects with those shrooms\,\, but it's normal.\, Heh!!
+85|?|Oh come on\,!\,!\,\,\, You should smile...\,\,\, you damn turnip head\,!
+86|?|I think you did\,!\,\, Haha\,!\,!\,\,\,\, Because you look so healthy\,!\,!
+87|?|Maybe even one tenement that is only for me\,!\,!\,!
+88|?|Turnip\,\, fucker!
+# conv 29: Unused/Kahvi Placeholder
+89|P|COFFEE! (Buy)
+# conv 28: Unused/Marjukka Sieni
+90|Marjukka Sieni[ж]|I have the the best, purest shrooms in the Open Sewer!\, No mushroom disease, guaranteed!
+91|P|Yes, I need some!
+92|P|I doubt that. (Leave)
+93|P|Uh, I'm just looking for the time.
+94|Marjukka Sieni[ж]|[lua(TellTimeResponse(-1))] \,¶And now,\, buy some shrooms!
+95|Marjukka Sieni[ж]|What?\, I don't trade at these hours.
+96|P|Okay then.
+97|Marjukka Sieni[ж]|[lua(TellTimeResponse(-1))] \,¶And now, I need some beer, so leave me to get some!
+# conv 49: Unused/Oliver Berggren
+98|Oliver Berggren[ж]|FRESH MEAT!\,\,\, Get your fresh meat from here!
+99|P|Show me! (Buy)
+100|P|Not now. (Leave)
+# conv 38: Unused/Stein Bergland
+101|Stein Bergland|Hrmm... This damn smell. I can't believe that Krista still didn't do anything! I... I'm sorry about that. It has been so stressful lately. People die here. Everyday someone dies. Suicides, murders, accidents and so on. Sigh... Why are you here? Did someone die?
+102|P|Do you have some problem?
+103|P|I will come later. (Leave)
+# conv 55: Unused/Toni Mayer
+104|Toni Mayer[ж]|If you're as ill as you look,\,\, buy some \,REAL\, medicine,\, not bogus mushroom and herbs mixtures...\,\,\, If you can afford it, of course!\, ...Otherwise you'll have to stick with quackery.
+105|P|Let me see. (Buy)
+106|P|I can survive without (Leave)
+107|Toni Mayer[ж]|Hah! \,\, I have heard that so many times before,\,\, and yet,\, none of them didn't!
+# conv 26: Unused/Yuri Takahashi
+108|Yuri Takahashi[ж]|Leave!
+109|Yuri Takahashi[ж]|Security are looking for you...\, Want to trade?
+110|Yuri Takahashi[ж]|You have stolen goods, wan't to trade?
+111|P|Sure! (Buy)

@@ -1,0 +1,498 @@
+# conv 274: Bazaar/Trader/Jasper Sporefield
+1|Jasper Sporefield|Sorry about our...\,\, noisy customers...
+2|Jasper Sporefield|I’ve seen all kinds of\, people come\, through these doors…\,\, you’ll\, fit right in…
+3|Jasper Sporefield|Pure\,\,, natural\,\,, even magical…\,\, all\, carefully grown\,, of course.
+4|Jasper Sporefield|Every batch has\, its own…\,\, charm.\,\,\,You never know\, what you’ll\, get!
+5|Jasper Sporefield|Welcome, welcome!
+6|P|What are you selling?
+7|P|Bye (Leave)
+8|Jasper Sporefield|... anyway…\,\, welcome to\, Fungi Boutique.\,\,\, We’ve got\, everything\, from cultivation\, substrates\, to mycelium…
+9|Jasper Sporefield|Oh\,\,, everything you see here\, is\, mushroom-related!
+10|Jasper Sporefield|Feel free to\, browse\,\,, take your time!
+11|P|I thought that mushrooms were banned around here?
+12|Jasper Sporefield|Good question!\,\,\, I have special permission\, to sell mushroom related products.
+13|Jasper Sporefield|My mushrooms are quaranteed pure\,\,\,, I grow them in sealed environment from\,\, certified mycelium straight from supplier.
+14|Jasper Sporefield|Did you know that the famous Osmo-Olut uses the same supplier?
+15|Jasper Sporefield|You can purchase the certified mycelium here\,\,, if you wish to grow your own clean mushrooms.\,\,\, But when growing, be sure to only grow straight from mycelium.\,\, When growing from collected spores, you'll risk the mushrooms contracting SMV.
+16|P|I'd like to order something
+17|Jasper Sporefield|Coffee\,, Tea?
+18|Jasper Sporefield|But anyway, can I assist you with something else?
+19|P|Yes (Order)
+20|P|No, thank you (Leave)
+21|P|What does 'SMV' mean?
+22|Jasper Sporefield|Ah\,, right\,, my bad...\,\, it's not\, a term you hear\, every day.
+23|Jasper Sporefield|SMV stands for\, the Stalburg Mushroom Virus...\,\, the\, fungal disease going around.
+24|Jasper Sporefield|It's some kind of\, strain\, that mutates the\, fungi\, and makes\, infected mushrooms\, hostile\, toward people.\,\,\, Most folks think it was\, engineered in a lab\,\,, but\, nobody actually knows\, where the damn thing came from.
+# conv 275: Bazaar/Fungi/Niko Kerava
+25|Niko Kerava|You know…
+26|Niko Kerava|I\, think…
+27|Niko Kerava|Is\, it just me\,, or…
+28|Niko Kerava|Is it\, just me\,, or…
+29|Niko Kerava|... I\, don't even\, know you...
+30|Niko Kerava|… this place\, has so\, much\, better vibes\, than where I\, come from.
+31|Niko Kerava|I mean…\,\, holy shit\,\,, this place has\, a ton\, more to\, offer.
+32|Niko Kerava|… you don’t seem to\, talk much?
+33|Niko Kerava|… what the hell\, is\, Juha doing with us…?
+34|Niko Kerava|… is it\, weird to\, live with\, a friend\, like this?
+35|Niko Kerava|… this place\, is actually\, very nice.
+36|Niko Kerava|I mean…\,\, holy shit\,\,, we can\, actually\, stay here\, now.
+37|Niko Kerava|… you’re\, the landlord\,\,, right?
+38|Niko Kerava|… is our\, neighbor\, weird?
+# conv 276: Bazaar/Fungi/Jappe Järvenpää
+39|Jappe Järvenpää|Yeah?\,\,\, No\,, I’m not\, interested in\, buying shrooms.
+40|Jappe Järvenpää|I\, don’t know you\,\,, and\, I don’t want to\, know\, anyone\, like you.
+41|Jappe Järvenpää|Ugh...\,\, I\, hope we\, actually end up\, somewhere I\, like.
+42|Jappe Järvenpää|Yeah…\,\, you\, look like you\, belong here.
+43|Jappe Järvenpää|Yeah…\,\, so\, this is\, our place now\,\,, huh?
+44|Jappe Järvenpää|I\, don’t know why\, I’m even here...
+45|Jappe Järvenpää|The neighborhood is\, full of\, lunatics.
+46|Jappe Järvenpää|Honestly\,\,, I\, don’t get how\, anyone\, lives around here\, without going nuts.
+# conv 277: Bazaar/Fungi/Harri Hyvinkää
+47|Harri Hyvinkää|Yo\,\,, you\, look like\, a local.
+48|Harri Hyvinkää|We’ve been\, hanging around this\, place\, for a while\,\,, but\,\, man…
+49|Harri Hyvinkää|... it’s\,\, starting to\, get\, a little stale.
+50|Harri Hyvinkää|I mean\,\,, the boutique\, owner\, doesn’t seem to\,\, want us\, hanging around here\, any longer...
+51|Harri Hyvinkää|And\, honestly…\,\, I’ve heard\, there’s way better\,\, stuff\, this place has to offer.
+52|Harri Hyvinkää|And...\,\, thing is\,\,, we’re not\, ready to bail yet...\,\, vibes\, here are\, too\, good.
+53|Harri Hyvinkää|But\,\, we need to\, a find a place\, that is\, big enough for\, the four of us.
+54|Harri Hyvinkää|Every spot\, we find is\, either\, too\, small\,, too\, pricey\,, or\,\,, like…\,\, falling apart.
+55|Harri Hyvinkää|You know anywhere with\, room to\, breathe...
+56|Harri Hyvinkää|... maybe\, a chill landlord\, who doesn’t\, freak out\,\, if you\, play music\, past midnight?
+57|Harri Hyvinkää|…\,\, those vibes\,\,, you know?\,\,\, They’re\, the best vibes\, I’ll get.
+58|Harri Hyvinkää|...\, Juha looks\,\, a bit\, gloomy today…\,\, I\, hope he took his\, pills.
+59|Harri Hyvinkää|…\, uhh…\,\, think I took in\, too strong\, of vibes today…
+60|Harri Hyvinkää|…\, man\,\,, who the fuck is\, Jappe?\,\, I\, swear\, he wasn’t\, here yesterday…
+61|Harri Hyvinkää|This place has\, some\, vibes…\,\, and\, I love it!
+62|Harri Hyvinkää|Don’t worry about\, Jappe…\,\, he’s\, actually\, a really nice guy…\,\, just\, a bit insecure sometimes.
+63|Harri Hyvinkää|Just…\,\, thank you for\, renting this place for us.\,\, Seriously.
+64|Harri Hyvinkää|You know...\,\, good vibes only!
+65|P|I can rent you an apartment
+66|P|Who are you?
+67|Harri Hyvinkää|We?\,\, Oh\,\,, we’re\, just\, a bunch of\, tourists.
+68|Harri Hyvinkää|Me\, and my\, gang…\,\, just\, vibing here.
+69|Harri Hyvinkää|We’ve actually been\, childhood friends.
+70|Harri Hyvinkää|And\, now we’re\, finally here!\,\,\, The\, capital\, of\, mushrooms!\,\, Hell yeah!
+# conv 278: Bazaar/Fungi/Juha Tuusula
+71|Juha Tuusula|Uh...
+72|Juha Tuusula|Um...\,\, you can\, talk to\, Harri.\,\,\, He’s\,\, our boss.
+73|Juha Tuusula|Eh...\,\, it was\, Harri’s idea\, to come visit\, Obenseuer.\,\,\, He just\, loves those\, shrooms.
+74|Juha Tuusula|Yeah...\,\, I think\, this is\, the only place\, where you can\, really get those\, pure shrooms.
+75|Juha Tuusula|Uh…\,\, so\, we’re really going to\, stay here longer?
+76|Juha Tuusula|Um…\,\, Jappe\, and Niko\, were just\, fighting each other…\,\, I\, hope\, it didn’t\, bother\, the neighbours…
+77|Juha Tuusula|At least\, we don’t have to\, stay at\, the Sewerview Inn anymore...
+78|Juha Tuusula|… good\, vibes\,\,, yeah?
+79|Juha Tuusula|People here\,\, feel kinda\, weird\,\,, don’t you think?
+# conv 279: Bazaar/Trader/Tero Verkko
+80|P|I’d like to rent a gaming room
+81|P|I want to buy something
+82|P|What was my computer?
+83|Tero Verkko|[lua(CheckPlayerRoomStatus())] nights at [lua(GetPlayerRoomName())].
+84|Tero Verkko|Hey\, there.\,\, Looking to\, grab some\, snacks\, or hop\, into a\, gaming room?
+85|Tero Verkko|Hey\,, gamer!\,\, What\, can I get you today...\,\, a room\,, snacks\,, or both?
+86|Tero Verkko|Welcome\,, player.
+87|Tero Verkko|Hey!\,\, Room rental or\, just browsing?
+88|P|Do you know Heikki Mailanen?
+89|Tero Verkko|Heikki?\,\,\, That\, name doesn't really\, ring a bell.
+90|Tero Verkko|He's not one of our\, regulars\,\,, so\, sorry\,\,, I\, can't really\, help you\, with that.
+91|P|Can I charge my devices?¶
+92|Tero Verkko|Sure,\, there are chargers in all of the rented rooms.\,\,¶The charger\, there on your left\, is for paying customers,\,\, if you buy some snacks\, I'll switch the power on for you.\,\,
+# conv 280: Bazaar/Sauna/Timo Löyly
+93|Timo Löyly|Lisää\, löylyä\, perkele!
+94|Timo Löyly|These\, benches are finally\, Saunaklonkku proof.
+95|Timo Löyly|More steam!
+96|Timo Löyly|I\, won\, the world cup\, back in 2010.
+97|Timo Löyly|This is\, the best sauna\, in the region.
+98|P|I challenge you to a sauna contest!
+99|Timo Löyly|Sure\,\,, but\, I hope\, you're ready to\, be defeated!
+100|Timo Löyly|Haha!\,\, You\, think you\, can beat\, the legendary\, Sauna Timppa?
+101|Timo Löyly|Also\,\,, no drinks allowed!
+# conv 281: Bazaar/Slum/Ms. Lotina Outside
+102|Ms. Lotina|Hullo?\,\, Buying pizza?
+103|P|Yes, pizza (Buy)
+104|P|Nope (Leave)
+# conv 282: Bazaar/Slum/Ms. Lotina Inside
+105|Ms. Lotina|Came here to sell ingredients?
+106|P|Yes (Trade)
+107|P|No (Leave)
+# conv 283: Bazaar/Trader/Irma Kött
+108|Irma Kött|Would you like\, a bowl of\, sausage soup\, or\, meat sandwich?
+109|P|I want to sell Animals (Trade)
+110|P|I want to buy soup (Trade)
+111|P|Where do you source your meat?
+112|Irma Kött|I buy\, livestock from\, local farmers\, and butcher it myself.
+113|Irma Kött|That's why\, the meat is\, guaranteed fresh!
+114|P|I'm a local farmer. Would you be willing to buy livestock from me?
+115|Irma Kött|Well, if your animals are healthy\,\,, and you're not\,, like\,, trying to sell me rats\,\,, then yes.
+116|Irma Kött|Sorry for\, being so direct\,\,, but people are constantly trying to\, sell me rats...\,\, or\, even worse\,, cats.\,\, Sometimes they even bring me\, unrecognizable meat\,-like\, substances\, scavenged from\, roadkill.
+117|Irma Kött|One deranged guy even bred\,, like\,\,, 10000 rats\,\, and let them\, loose on the streets...\,\, After that\,\,, every local rat catcher was trying to\, sell me rat meat.
+118|Irma Kött|It took days\, for the\, pest control\, companies\, and\, the Fungal Treatment Unit to\, clean up the mess.
+119|Irma Kött|Anyway\,\,, enough about\, local events.\,\, Yes\,\,, I'm willing to buy\, healthy pigs\,\,, chickens\,\,, and\, fish.
+120|P|Akim Azizi sent me to fetch fresh döner
+121|Irma Kött|Oh...?\,\,\, Well\,\,, I do have\, one ready.\,\,\, Do you have\, cash?\,\, It's\, 200 RM.
+122|P|Why don't you just invoice the franchise?
+123|P|Fine. Here (Pay 200 RM)
+124|P|I'll come back later (Leave)
+125|Irma Kött|I'm not\, waiting at least\, three months for them to\, pay their bills.\,\,\, That chain is\, notoriously\, slow\, when it comes to\, paying anything.
+126|Irma Kött|... so\,\,, only\, cash will do.
+127|Irma Kött|Thank you.\,\, Here is the product.
+128|Irma Kött|Looking for\, something fresh today?
+129|Irma Kött|No\, mystery meat here.
+130|Irma Kött|Hungry?\,\, You've come to\, the right place.
+# conv 284: Bazaar/Trader/Muscle Max
+131|Muscle Max|The boxing guys downstairs\, could use a fresh opponent.\,\, I'll pay you some\, cash\, if you're up for it!
+132|P|Sure, I'm ready
+133|P|Yeah, no thanks
+134|Muscle Max|Bruh...
+135|Muscle Max|Welcome to\, Muscle Max's\, 24h Gym\,, bro!
+136|Muscle Max|The only bad\, workout is the one\, you didn't do.
+137|Muscle Max|Remember to eat your\, protein\,, bruh!
+138|Muscle Max|Don't forget to stretch\,, bro!
+139|P|I'm looking for a fight
+140|Muscle Max|Great.\,\, Go down to the ring.\,\, Give my guys\, a good fight\,\,, and\, I'll pay you.
+141|Muscle Max|Perfect.\,\, The guys downstairs need\, a real challenge.\,\, I'll pay you.
+142|Muscle Max|Right on\,, bro!\,\, Head downstairs.\,\, My guys\, need a punching bag\,\,, and\, I'll pay you.
+143|Muscle Max [ответ]|OLD
+144|Muscle Max|You're past your prime\,, [lua(Actor["Player"].AgeName)].\,\, Stick to the treadmills.
+145|Muscle Max|Sorry bro\,, no matches now.\,\, Come between friday\, and sunday after\, 18.
+# conv 286: Bazaar/Trader/Torsten Dvergsson
+146|Torsten Dvergsson|Welcome.\,\, How\, may I\, be of service?
+147|P|Bye (Leave)¶
+148|P|Can I ask you something?
+149|Torsten Dvergsson|Yes?
+150|Torsten Dvergsson|Top-quality\, watches\, and\, exquisite\, jewelry\,\,, for\, ladies\, and gentlemen.
+151|Torsten Dvergsson|Good day\,, [lua(Actor["Player"].AgeName)].\,\, What are we\, looking for today?
+152|Torsten Dvergsson|I offer\, a very fine selection of\, watches\,\,, jewelry\,\,, and\, gold.\,\, Care to\, take a look?
+153|Torsten Dvergsson|Certainly.\,\, What is\, on your mind?
+154|P|How do I know that your gold is legit and not stolen?
+155|P|Do you purchase gold?
+156|Torsten Dvergsson|I assure you\,\,, I source my\, inventory\, exclusively from\, reputable channels.
+157|Torsten Dvergsson|Every piece I\, acquire comes with\, a meticulous paper trail...\,\, tracing its\, origins\, all the way\, from the mines\,, refiners\, and\, smiths.
+158|Torsten Dvergsson|My goldsmith\, who lives next door\, tests the\, purity of\, every item I\, purchase with\, a strict acid test. You can\, rest assured that\, everything I sell is\, 100% what it\, claims to be.
+159|Torsten Dvergsson|I do.\,\,\, However\,\,, Obenseuer is\, full of\, desperate people\, trying to\, peddle fake\, or\, stolen goods.¶
+160|Torsten Dvergsson|This is\, a respectable establishment\,\,, you should\, leave.
+161|Torsten Dvergsson|The documentation verifies\, everything from\, carat purity to\, the smith.\,\, You receive\, a full certificate of\, authenticity\, upon purchase.
+162|Torsten Dvergsson|Therefore\,\,, I\, strictly require\, certificates of\, authenticity\, proving the\, full chain of\, ownership.\,\, If you don't have\, the paperwork\,\,, do not\, waste my time.
+163|P|Actyally, nothing (Leave)
+# conv 288: Bazaar/Trader/Urho Siltanen
+164|Urho Siltanen|Hrhm…
+165|Urho Siltanen|Ah\,, back already…\,\, I guess.
+166|Urho Siltanen|What do\, you need today\,\,, [lua(Actor["Player"].AgeNameFormalShort)]?
+167|Urho Siltanen|Oh…\,\, it’s you\, again\,, [lua(Actor["Player"].AgeNameFormalShort)].
+168|Urho Siltanen|Before you say anything\,, [lua(Actor["Player"].AgeNameFormalShort)]...\,\, let me\, guess.
+169|Urho Siltanen|You’re\, here\, for\, an autograph\,\,, right?
+170|P|Why would I want an autograph?
+171|Urho Siltanen|What?\,\, Really?
+172|Urho Siltanen|I\, know\, I’ve put on\, a little weight\,\,, but…\,\, you\, seriously\, don’t recognize\, me?
+173|Urho Siltanen|It’s me...\,\, the actor\,, Markku Siltanen\,, from\, The Engineer movie!
+174|Urho Siltanen|Uh...\,\, you’re\, probably confused.
+175|Urho Siltanen|Understandable.
+176|Urho Siltanen|Yes\,\,, I\, changed my\, first name.\,\, And…\, no…\, I’m not\, that\, Markku Siltanen.
+177|Urho Siltanen|I mean\,\,, I'm\, Markku Siltanen\,, just…\, not the\, famous one.
+178|Urho Siltanen|I'm the other one...\,\, from\, The Engineer movie\, that\, flopped…
+179|Urho Siltanen|Ugh.
+180|P|I’m still confused
+181|Urho Siltanen|Yeah…\,\, whatever…
+182|Urho Siltanen|Just\, forget it.
+183|Urho Siltanen|Why\, are you here then\,, [lua(Actor["Player"].AgeNameFormalShort)]?
+184|P|So you’re an actor, but not the famous one? Famous who?
+185|Urho Siltanen|Uh…\,\, you don’t know\, that Markku Siltanen?
+186|Urho Siltanen|Right…\,\, I\, guess everyone’s\, already forgotten him.
+187|Urho Siltanen|Just like\, everyone forgot about\, me…
+188|Urho Siltanen|Anyway...
+189|P|No, I’m here to get some renovations for my tenement
+190|Urho Siltanen|Oh…\,\, yeah…\, I heard\, someone actually got\, an entire tenement\,, but\, I figured it was\, just\, people talking.
+191|P|I’m here to get some renovations for my tenement
+192|Urho Siltanen|Didn’t\, believe it\,\,, but\, here\, you\, are\,, [lua(Actor["Player"].AgeNameFormalShort)]!
+193|Urho Siltanen|Is it true\, you’ve also\, got your own\, little workshop?
+194|Urho Siltanen|And\, you grow\, turnips\,, onions\, and…\, uh…\, rats?
+195|Urho Siltanen|I\, mean…\, people were concerned about\, the rats.
+196|P|Yeah, especially the rats
+197|P|Yeah, something like that
+198|P|Yeah, but no rats. Definitely no rats!
+199|P|No workshop. No rats. Not even turnips!
+200|Urho Siltanen|Right...\,\, sure...
+201|Urho Siltanen|Not\, worrying at all…
+202|Urho Siltanen|Right...
+203|Urho Siltanen|... good to\, know.
+204|Urho Siltanen|Mm\,-hmm.
+205|Urho Siltanen|Huh...\, not even\, turnips?
+206|Urho Siltanen|... alright\,, let’s get to\, business.
+207|P|Nothing actually (Leave)
+208|P|Sure, I’m here to get some renovations for my tenement
+209|P|No, what are you selling?
+210|Urho Siltanen|I\, don’t deal in\, ordinary goods…\,\, only in\, engineering solutions.
+211|P|Yeah, I want your autograph
+212|Urho Siltanen|Wait…\, you actually recognize\, me?
+213|Urho Siltanen|… uhh.\,\, Well…\, I guess…\, sure.
+214|Urho Siltanen|Here.
+215|Urho Siltanen|I…\,\, didn’t know I\, still had\, some\, fans…
+216|Urho Siltanen|I mean…\,\, that\, movie…\, well…\, let’s\, just say\, it didn’t\, exactly\, set the world on\, fire.
+217|Urho Siltanen|Damn…\,\, I\, looked younge\,r, slimmer…\, and now\, I’m\, living here in…\,\, Obenseuer.
+218|Urho Siltanen|Do you need anything else?
+219|P|I need to get some renovations for my tenement
+220|P|Do you know where I could get other upgrades?
+221|Urho Siltanen|Ah\,, you mean like\, renovating walls?
+222|Urho Siltanen|Well...\,\, there's\, Rob's place in the\, slums.
+223|P|Where are the slums?
+224|P|Thanks (Leave)
+225|Urho Siltanen|When you head outside\,\,, turn right\, and cross the\, canal bridge on your left.\,\, From there\,, just walk straight\, until you hit the slum gates.
+226|Urho Siltanen|He has...\,\, a yellow windows that says\, 'Rob-In Build & Repair'...\,\, it's hard to miss.
+227|Urho Siltanen|I'll\, mark it on your map.
+228|Urho Siltanen|Just keep in mind that\, the slum gates close at\, night.
+# conv 289: Bazaar/Jail/Warden Morning
+229|Warden|Wake up.
+# conv 290: Bazaar/Jail/Warden Breakfast
+230|Warden|Breakfast is ready. You may roam.
+# conv 291: Bazaar/Jail/Warden Return Cells
+231|Warden|Cells will be closed in 15 minutes.
+# conv 292: Bazaar/Jail/Warden Evening
+232|Warden|Evening recreation. You may leave your cells.
+# conv 293: Bazaar/Trader/Cajsa Mörk
+233|Cajsa Mörk|In need of quick cash\,\,, or looking for treasures?
+234|P|Sure, show your wares
+235|Cajsa Mörk|Sigh\,.\,.\,.
+236|Cajsa Mörk|There's a clock\, right behind you.\,\,\, Look from that.
+237|Cajsa Mörk|Ugh\,\,\,, can't get this solitaire solved!\,\,\, What?\,\, Looking to sell something?
+238|Cajsa Mörk|Looking to pawn something\,\,, or to give unsolicited advice?
+239|Cajsa Mörk|It is what it is.\,\,\,\, Looking for deals?
+# conv 294: Bazaar/Trader/Cajsa Mörk Break Class
+240|Cajsa Mörk|What the hell!
+# conv 296: Bazaar/Trader/Ivan Kapustanov
+241|Ivan Kapustanov|I\, used to work at\, Stalburg Environment Services\,\,, before being\, transferred here...
+242|Ivan Kapustanov|Antiques\,, treasures\,, art\,, furniture\,, goods...\,\, I have everything you need and more!
+243|Ivan Kapustanov|Doctor declared me unfit for work\,\,, but\, the state denied disability pension.
+244|Ivan Kapustanov|Only\, few more years\, until I\, shall\, receive pension.
+245|Ivan Kapustanov|I\, miss the original schlager music TV\,\,, the new one is\, nothing alike!
+246|Ivan Kapustanov|I\, found many treasures\, in my old job!
+247|Ivan Kapustanov|Everything you\, need for\, life is\, vodka\, and cabbages.\,\,\, And\, pension to buy those!
+248|P|What do you sell?
+249|P|I'm interested in furniture
+250|P|Uh, okay (Leave)
+# conv 297: Bazaar/Industrial/Larry Goatbridge
+251|Larry Goatbridge|Huh?
+252|P|Do you have any work?
+253|P|I came to sell you some metal (Trade)
+254|P|I'm ready to start my shift (Work for 7.5h)
+255|Larry Goatbridge|Hmm.\,\,\, I guess\, I could use\, another skilled machinist here.
+256|Larry Goatbridge|Also\,\,, if you happen to have\, metal\, or mechanical\, parts to\, sell\,\,, I'd be happy to\, buy them.
+257|Larry Goatbridge|Sometimes\, I make videos\, where I\, crush things\, with my\, hydraulic press.\,\,\, They're\, somewhat\, popular.
+258|Larry Goatbridge|Can't wait for\, Feeble Screams\, From Factories\, Unknown's\, new album.
+259|Larry Goatbridge|Hrmm...
+260|Larry Goatbridge|I've got\, a big order to\, fulfill.
+261|Larry Goatbridge|Did you know that\, Feeble Screams\, From Factories\, Unknown\, are performing\, at the\, nearby\, Club Bassement?
+262|Larry Goatbridge|I'd pay\, around\, 22 RM per hour\, for machining work.\,\,\, Come here\, before noon\, on weekdays to start.
+263|Larry Goatbridge|Sorry\,\,, but\, you don't seem to be\, skilled enough in\, machining.
+264|Larry Goatbridge|Don't press\, ball bearings\, with the press.
+# conv 298: Bazaar/Industrial/Sirpa Kvenlayson
+265|Sirpa Kvenlayson|Hi...?\,\,\, What are you\, doing here?\,\, Looking for work?
+266|P|I'm ready to start my shift (Work for 8h)
+267|Sirpa Kvenlayson|I think that\, your sewing skill isn't\, sufficient.\,\,\, I have\, neither\, the time\, nor\, the energy\, to train\, rookies.
+268|Sirpa Kvenlayson|Well\,\,, you seem\, skilled enough...\,\,\, I'm willing to\, hire you.\,\,\, The base salary is\, 10 RM\, +\, 100 OC\, per hour\,\,, with\, performance bonuses\,\,, for\, a standard\, 8-hour workday.
+269|Sirpa Kvenlayson|Come between\, 7\, and\, 12\, on weekdays to\, start your workday.
+270|Sirpa Kvenlayson|I could always use\, a new pair of\, hands.\,\,\, Can you\, hold a needle\, and\, operate a sewing machine\, without puncturing your\, fingers?
+271|Sirpa Kvenlayson|Ready to\, kick off the workday?
+272|Sirpa Kvenlayson|Hmm...
+273|P|Yeah, I think so
+274|P|I'll think about it (Leave)
+# conv 301: Bazaar/Outside/Zoya Gubenko
+275|Zoya Gubenko|I\, don’t want to\,\, stay at\, Hotel Korso anymore…\,\, especially\, as long as\, he’s\, still there.
+276|Zoya Gubenko|I’ve\, heard there\, have been\, several cases of\, fungal infections\,\, at that hotel…
+277|Zoya Gubenko|He\, only wanted to\,\, come to\, Obenseuer\,\, because it’s\, supposedly the best\, place to\, get\,\, <i>safe</i>\, mushrooms.
+278|Zoya Gubenko|Now\, I’m\, stuck here…\,\, because of\, him.
+279|P|Can I rent you an apartment?
+280|Zoya Gubenko|This place\, is\,\, okay…\,\, I don’t\, really\, like the view\,, though.
+281|Zoya Gubenko|The stairwell\, smells\, like someone murdered\, a cat.
+282|Zoya Gubenko|The local\, market is so\, dirty…\,\, ugh.
+283|Zoya Gubenko|I\,\, really hate\, noisy neighbors.
+284|Zoya Gubenko|Or\, the neighbors.
+285|Zoya Gubenko|But\,\, at least\, the pharmacy is\, decent.
+# conv 302: Bazaar/Outside/Arto Neulakoski
+286|Arto Neulakoski|Held\, back the weather\,\,, or\, however\, the saying goes?
+287|Arto Neulakoski|There’s\, a nice restaurant\, called…\,\, Scatola\,\,, I think.
+288|Arto Neulakoski|Don’t\, order\, the hot dogs\, from that\, street cart.\,\,\, I’ve heard\, some\, pretty sketchy rumors\,\, about what goes\, in them.
+289|Arto Neulakoski|Yeah?
+290|P|Could you give me directions?
+291|P|Can you tell me about the Bazaar?
+292|P|Why are you here?
+293|Arto Neulakoski|Well\,\,, I’m not\, from around here\,\,, but\, I can\, try.
+294|P|Do you know where Karl Hagen lives?
+295|P|What shops are around here?
+296|P|Do you know a place where I could sleep?
+297|P|Actually, never mind (Leave)
+298|Arto Neulakoski|The King of the Bazaar?
+299|Arto Neulakoski|Well…\,\,\, I\, know he\, works in\, the N-O Company building\,\,, though\, I can’t say for\, certain he\, lives there.
+300|Arto Neulakoski|It’s\, quite\, a beautiful building.
+301|Arto Neulakoski|I’ll\, mark it on your\, map.
+302|Arto Neulakoski|Uh…\,\, there are\, quite a lot...
+303|Arto Neulakoski|Give me\, your map.\,\,\, I’ll\, point out\, a few interesting ones.
+304|Arto Neulakoski|That\, whole\, apartment building\,\, over there\,\, was converted into\, a mall\,\,, so there are\, several places inside.
+305|Arto Neulakoski|The second\, floor has\,\, a cafe\,\,, a fish market\,\,, and\, a stall\, that sells\, fruits\, and\, berries.
+306|Arto Neulakoski|On\, the top floor\,\,, there’s\,\, a tax-free shop\,\,, and\, Aziz’s restaurant.
+307|Arto Neulakoski|And...\,\,\, down that street\,\, you’ll find\, a gold\, and jewelry shop.
+308|Arto Neulakoski|And\,\, on the corner...\,\, Alco.\,\, Hard to miss.
+309|Arto Neulakoski|Just\, head\, straight forward...\,\, there’s\,\, Hotel Korso.
+310|Arto Neulakoski|Though\,\, I’m not\, sure if\, it’s open…\,\, there was\,\, some kind\, of fungal infection\, case recently.
+311|Arto Neulakoski|But\,\, there’s\, also\, the Sewerview Inn\,\, behind Ankea.
+312|Arto Neulakoski|I’ll\, mark it\, on your\, map.
+313|P|That's all (Leave)
+314|Arto Neulakoski|Uh…\,\,\, I\,\, don’t really know\,\, where to\, start.\,\,\, You’re\, new here\,\,, right?
+315|Arto Neulakoski|Well…\,\, the Bazaar is\,\, a pretty tight area\,, I’d say.\,\,\, There are\, tons of\, places\, packed into\, such a small space.
+316|Arto Neulakoski|Shops\,\,, cafes\,\,, restaurants\,\,, a casino\,\,, a gym\,\,, a movie theater…\,\, even\, a sauna\, and spa.
+317|Arto Neulakoski|I’ve\, heard it’s\, even safer\, than\, the central area\,\,, but\, don’t take\, my word for it.
+318|Arto Neulakoski|You should be\, careful\, here…\,\, especially\, if\, you’re a tourist.
+319|Arto Neulakoski|Uh…\,\, and\,, well\,, don’t\, go to that\,\, slum area\,\, by the Sewerview Inn.\,\,\, It’s…\,\, not\, a plac\,e you want to be.
+320|Arto Neulakoski|Oh…\,\, well\,\,, my parents got\, relocated here\,\,, and\, we get\, a visitor pass\, sometimes\,\,, so\, we can\, come in.
+321|Arto Neulakoski|And\,\, don’t ask\, why my\, parents got relocated…\,\,\, it’s\, kind of\, a private matter.
+# conv 303: Bazaar/Outside/Helena Neulakoski
+322|Helena Neulakoski|We're only in\, town because my\, husband's parents were\, relocated here.
+323|Helena Neulakoski|I can't shake the feeling\,\, that the Bazaar was\, built purely as\, a distraction from\, Obenseuer's actual problems.
+324|Helena Neulakoski|It's absurd to me that\, this is\, allowed.\,\, The quarantine zone alone is\, a massive human rights violation.
+325|Helena Neulakoski|I guess\, I see why\, people travel so\, far to see\, the Bazaar.\,\, It's a pretty unique place.
+# conv 304: Bazaar/Outside/Elias Karhu
+326|Elias Karhu|ResidentRented(174) == false
+327|Elias Karhu|Look [lua(Actor["Player"].AgeName)]...\,\, this is\, what twenty\,-two years of\, service\, gets you.
+328|Elias Karhu|They say\, Obenseuer builds\, character...
+329|Elias Karhu|Government trained me\, to spot lies.\,\,\, Obenseuer's\, full of them.
+330|Elias Karhu|You don’t\, dump people\, here\, by accident...
+331|Elias Karhu|My wife...\,\, she\, deserves\, a door\, that locks.\,\,\, That’s\, all I ask.
+332|Elias Karhu|Thank you...\,\, I\, won’t forget\, this.
+333|Elias Karhu|Four walls...
+334|Elias Karhu|They\, put us in tents.\,\,\, You\, put us back indoors.
+335|Elias Karhu|This\, place...\,\, is\, better than\, the tent\,\,, that’s\, for sure.
+336|Elias Karhu|They promised\,\, housing...\,\, medical care...\,\, reintegration.
+337|Elias Karhu|But\,\, they put us\, on\, a bus\, like cargo\, and\, dropped us here\, in Obenseuer.
+338|Elias Karhu|And\,\, my wife\, came with me.\,\,\, She\, didn’t have to.
+339|Elias Karhu|I\, did everything\, right...\,\, and\, still ended up here.
+340|P|Do you know Suurwelho?
+341|Elias Karhu|Suurwelho?\,\, Ah...\,\, you must\, mean that\, lunatic\, playing wizard out in his hut.
+342|Elias Karhu|If you\, mean someone else\,\,, I\, can't help you.
+343|Elias Karhu|I only\, know of one\, idiot\,\, demanding to be\, called\, Welho...\,\, or\, Welhö.
+344|Elias Karhu|Utter\, foolishness...
+345|Elias Karhu|My\, wife might know more\, about this\, nonsense.\,\,\, Ask her.
+# conv 305: Bazaar/Outside/Rita Korjus
+346|Rita Korjus|Are you\, one of those…\,\, I mean\,, the kind\, who visits\, the Fungi Boutique?
+347|Rita Korjus|I’m\, glad Bazaar\, security\, keeps those\, troublemakers…\,\, confined\, to their\, own area.
+348|Rita Korjus|Strange\, people still\, hang around\, the Bazaar streets…\,\, but\, I\, guess that’s\, just Obenseuer.
+349|Rita Korjus|Life\, here isn’t\, that bad…\,\, and\, the risk\, of catching\, a fungal disease\, is low…\,\, if\, you live\, in\, the right part of\,\, Obenseuer.
+# conv 306: Bazaar/Outside/Filippa Pajusalu
+350|Filippa Pajusalu|Do you\,\, read books?\,\, Have you\, read\, The Pineapple?\,\,\, It\, was…\,\, a thrilling read.
+351|Filippa Pajusalu|I’m glad\, so many\, noisy tourists\, don’t visit\, here anymore…\,\, but\, I worry\, it might\, affect\, the Bazaar’s economy.
+352|Filippa Pajusalu|There are\, still so\, many strange\, people\, hanging around\, the Bazaar…
+353|Filippa Pajusalu|Can you\, imagine...\,\, we\, even have\, our own\, gold\, and\, jewelry store?
+# conv 307: Bazaar/Outside/Miko Poltinvuori
+354|Miko Poltinvuori|What\, are you staring at?\,\, Never seen\, a man\, relax on\, a bench before?
+355|Miko Poltinvuori|Are you\, some kind of\, tourist?\,\, Go back\, home...\,\, there’s\, nothing to\, see here.
+356|Miko Poltinvuori|Why do\, people always\, bother me\, when\, I’m trying to\, relax?
+357|Miko Poltinvuori|Seriously…\,\, go buy\, a lousy hot dog\,\, or something\, and\,\, leave me\, alone.
+# conv 308: Bazaar/Outside/Gary Lind
+358|Gary Lind|Don’t\, go to the casino...\,\, you’ll\, just\, lose all your money.
+359|Gary Lind|I\, actually\, had a great time\, here…\,\, except for the casino.
+360|Gary Lind|This place\, isn’t really\, dangerous...
+361|Gary Lind|I've\, heard that\,\, some people\, here even\, eat dog meat.
+362|Gary Lind|I\, mean\,\,, look\, at the name\, and\, that mascot…\,\, it’s so ugly.
+363|Gary Lind|It’s\, kind of\, hard to\, get here these days\,\,, but\, still...
+364|Gary Lind|... it’s\, a unique\, experience.
+365|Gary Lind|... as long as\, you\, don’t\, wander into\, sketchy\, side streets\,\, or\, do\, anything stupid.
+366|Gary Lind|What’s\,\, even crazier is\, that some\, tourists come here\,\, because of it.
+# conv 309: Bazaar/Outside/Ethan Ward
+367|Ethan Ward|I\, applied for\, asylum\,\,, got\, a negative decision\,\,, and\, then they\, transferred me to Obenseuer.
+368|Ethan Ward|I\,\, just want\, out of this country...
+369|Ethan Ward|The\, food here is\, so greasy\, and salty…
+370|Ethan Ward|Things here\, are even worse\, than back home...
+371|Ethan Ward|They didn't\, believe Ethan was\, my real name...
+372|Ethan Ward|A what?\,\,\, I just\, got stuck here\,\,, I don't know\, these people.
+373|Ethan Ward|Go\, ask the guy making\, the greasy food...\,\, Hugo\,\,, at the grill.\,\,\, Maybe he knows.
+# conv 310: Bazaar/Outside/Ahmed Rahman
+374|P|Yes (Buy)
+375|Ahmed Rahman|Hot dogs?
+376|Ahmed Rahman|Real\,\, hot dog\,, yes?
+377|Ahmed Rahman|Hot dog?\,\,\, Real dog meat.
+378|Ahmed Rahman|Hot\, dog?
+379|Ahmed Rahman|Hot dog\, and Moca Cola?\,\, Real Moca Cola.
+# conv 311: Bazaar/Outside/Marko Mainisto
+380|Marko Mainisto|Tick…\,\, tick…\,\, time\, marches on.
+381|Marko Mainisto|You\, don’t look\, well.
+382|Marko Mainisto|Please…\,\, stop\, bothering\, me.
+383|Marko Mainisto|You’ll get\, nothing\, from me.
+# conv 312: Bazaar/Outside/Maria Yrtikäinen
+384|Maria Yrtikäinen|Ugh…\,\, what\, a smell.
+385|Maria Yrtikäinen|Did\, he\, poop\,\, on the street again?
+386|Maria Yrtikäinen|What\, now…
+387|Maria Yrtikäinen|Stop\,\, bothering me.
+# conv 313: Bazaar/Outside/Finlay Bjorkman
+388|Finlay Bjorkman|Hmhm…
+389|Finlay Bjorkman|I\, could share…\,\, secrets…\,\, but\, I need\, Sahti.
+390|Finlay Bjorkman|Uh…\,\,\, think you\, could spare\, Sahti?
+391|Finlay Bjorkman|Hmhm…\,\, bring me Sahti…\,\, I\, have stories.
+392|Finlay Bjorkman|My\, family\,\, moved to this\, area\, when I was\, fourteen.
+393|Finlay Bjorkman|I’ve lived here\, ever since.
+394|Finlay Bjorkman|I\, know\, a lot about\, this\, place…
+395|Finlay Bjorkman|Things\, I probably\, shouldn’t know.
+396|P|What kind of things do you know?
+397|Finlay Bjorkman|... curious\, type\,, eh?
+398|Finlay Bjorkman|Well…\,\, bring me\, some Sahti\,\,, and\, maybe\, I’ll talk.
+399|P|Here. (Give Sahti)
+400|Finlay Bjorkman|Not bad.
+401|Finlay Bjorkman|Alright…\,\,\, listen.
+402|Finlay Bjorkman|Do you\, know\, Karl\,\, Hagen?
+403|Finlay Bjorkman|The one\, some people\, call\,\, the king of the bazaar.
+404|Finlay Bjorkman|He...\,\, he\, had\, a daughter.
+405|Finlay Bjorkman|She\,\, died\, from\, a fungal disease.
+406|Finlay Bjorkman|How do\, I know that?
+407|Finlay Bjorkman|Well…\,\, I\, saw\, her one night.
+408|Finlay Bjorkman|Her skin\, was\,\, glowing.
+409|Finlay Bjorkman|I\, think\,\, she\, wasn’t supposed to\, be outside.
+410|Finlay Bjorkman|Trying to\,\, hide it\, under\, a hood…
+411|Finlay Bjorkman|Like\, no one\, would notice.
+412|Finlay Bjorkman|If you\, bring me more\, Sahti\,\,, I\, can tell you\, more things…
+413|Finlay Bjorkman|Things\, I\, really shouldn’t\, know.
+414|Finlay Bjorkman|Not bad…\,\, not bad…
+415|Finlay Bjorkman|Good\, stuff…
+416|Finlay Bjorkman|So\,\, tasty…
+417|Finlay Bjorkman|You\, know\, how people\, here try to\, live their\, lives\, happily\,\,, like\, everything’s fine\,\,, like nothing bad is\, happening?
+418|Finlay Bjorkman|And…\,\, just\, across that\, canal is\, the quarantine zone...\,\, where\, they\, throw the badly\, infected.
+419|Finlay Bjorkman|I…\,\, I\, helped\, a few people\, smuggle some\, things in there.
+420|Finlay Bjorkman|And\, what we found…\,\,\, it was\,\, shocking.
+421|Finlay Bjorkman|There was\, a pile\, of\, bodies.
+422|Finlay Bjorkman|And\,\, it looked like…\,\,\, like\,\, someone\,\, had been\,\, experimenting\, on them.
+423|Finlay Bjorkman|Limbs\,\, missing…\,\,\, eyes\,\, gone…\,\, skin\,\, torn off…
+424|Finlay Bjorkman|We\, really shouldn’t\, have been\, there…
+425|Finlay Bjorkman|Do you have\,\, more Sahti?
+426|Finlay Bjorkman|So…
+427|Finlay Bjorkman|There was\,\, this\, newly formed\, gang\,\,, called\, The Quarantined.
+428|Finlay Bjorkman|What\,\, a silly name...
+429|Finlay Bjorkman|Anyway…\,\, they were\, just\, young kids\,\,, barely\, a gang yet.
+430|Finlay Bjorkman|One day\,\,, by the\, canal\,\,, I\, saw some\, other gang\, members…
+431|Finlay Bjorkman|Svamppatrullen\,\,, I think.
+432|Finlay Bjorkman|They…\,\, they were\, throwing\, a black sack\, into the canal.
+433|Finlay Bjorkman|I\, could tell…\,\, there was\,\, a body inside.
+434|Finlay Bjorkman|And\,\, I…\,\,\, I\, overheard them\,\, talking about\, The Quarantined…
+435|Finlay Bjorkman|About what\, they deserved.
+436|Finlay Bjorkman|So...\,\, don’t\, mess with them.
+437|Finlay Bjorkman|And uh...\,\, more Sahti…\,\, for more stories.
+438|P|I don't have any
+439|P|I’m not giving you any
+440|Finlay Bjorkman|Hm…\,\, I guess…\,\, nothing to\, tell then.
+441|Finlay Bjorkman|I see…\,\,\, that’s…\,\,\, fine\,, I\, guess.
+442|Finlay Bjorkman|Hm…\,\, if you\, have some\, Sahti…\,\, I\, could tell you\, something.
+443|P|Hmhm, sure
+444|Finlay Bjorkman|You\, don't believe\, me?
+445|Finlay Bjorkman|Bring me\, some\,\, Sahti\, and\, I'll\, tell you\, something\, that you don't know.
+446|Finlay Bjorkman|People here\, might look\, happy\, on the outside…\,\,\, but\,\, they’re hiding\, how they really\, feel.
+447|Finlay Bjorkman|This place\, has\, a bad aura.\,\,\, Like\, something\, terrible is about to\, happen.
+448|Finlay Bjorkman|Beer\, mixed with\, cereal…\,\, don’t try it.
+449|Finlay Bjorkman|I’m just\, lucky\, I’m still\, alive.
+450|Finlay Bjorkman|Alright…\,\, next\, I’ll tell you\, something really\, crazy.
+451|Finlay Bjorkman|I wasn’t\, drunk\,\, or\, anything.
+452|Finlay Bjorkman|I swear.\,\,\, It was\, real…\,\, I’m\, sure of it.
+453|Finlay Bjorkman|It\,\, was night\,\,, and\, I was\, near the canal…
+454|Finlay Bjorkman|And\, then…\,\, I saw\, a red flash\,\,, like\, fire\, dancing over the surface.
+455|Finlay Bjorkman|And\, a man…\,\, just…\,\, appeared out of\, thin air.
+456|Finlay Bjorkman|At\, first\,\,, it looked like\, he couldn’t\, swim…
+457|Finlay Bjorkman|But then…\,\,\, he\, started\, swimming toward me.
+458|Finlay Bjorkman|Straight\, toward\, me.
+459|Finlay Bjorkman|I...\,\, ran.
+460|Finlay Bjorkman|Didn’t\, look\, back.
+461|Finlay Bjorkman|I didn’t\, stop\,\, until I\,\, could hear\, nothing\,\, but my\, own ragged\, breathing…
+462|Finlay Bjorkman|So…\,\, yeah.
+463|Finlay Bjorkman|That’s\, really\, all I\, have to\, tell you.

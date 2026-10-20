@@ -1,0 +1,231 @@
+# conv 352: Bazaar/Industrial/Pertti Korhonen
+1|Pertti Korhonen|Hmph.\,\, This is\, the storage building\, for our\, small maintenance company.\,\, We have\, maintenance contracts with\, Osmo's Brewery\,\,, the Obenseuer Water Treatment Facility\,, and\, a few other\, industrial businesses.
+2|P|Can you smuggle me into the industrial zone?
+3|P|Can you smuggle me to the quarantine zone?
+4|Pertti Korhonen|I can handle that for\, 150\, RM.
+5|P|Deal
+6|P|I'll pass
+7|Pertti Korhonen|Hmph.\,\,\, That is not going to be easy task.
+8|Pertti Korhonen|But for 1000RM I can get you there during water treatment plant's weekly service downtime.\,\,\ Payment upfront.
+9|Pertti Korhonen|Hmph.\,\,\ Hop on my van between 6 and 7 during at sunday, i'll leave with or without you. \,\, Remember that I can only pick you from the quarantine zone between 8 and 16. \,\,\, If you miss the window, you'll spend entire week at the quarantine.
+10|Pertti Korhonen|Hmph.\,\, Hop in my van\, before\, 7 o'clock\, on a weekday.\,\,\, I can bring you back\, before\, 16:00.
+# conv 353: Bazaar/Restaurant/Giacobbe Bolognese
+11|Giacobbe Bolognese|My\, wife changed our last name to\, Bolognese\, for the restaurant...
+12|Giacobbe Bolognese|There is\, no way\, in hell I'm letting our\, kids be named after\, a meat sauce.
+13|Giacobbe Bolognese|I will not\, have a son named\, 'Little Timmy Bolognese'!\,\,\, I will\, not\, do it!
+14|Giacobbe Bolognese|Great for\, business\,\,, sure...
+# conv 354: Bazaar/Restaurant/Meri Hostari
+15|Meri Hostari|Uh...
+16|Meri Hostari|What are you looking at?
+17|Meri Hostari|I'm not feeling well...
+# conv 355: Bazaar/Restaurant/Dolores Bolognese
+18|Dolores Bolognese|Welcome to\, Scatola di Maccheroni.\,\,\, Do you have a reservation?
+19|P|Yes, under the name [lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])]
+20|P|No, I don't have a reservation
+21|Dolores Bolognese|Sorry\,\,, we're\, fully booked for\, today.\,\,\, Please\, come back another day.
+22|P|I'm looking for a job
+23|Dolores Bolognese|Sorry.\,.\,.\, I can't\, find any reservations\, under that name.\,\, Are you sure\, the name\, or\, day is correct?
+24|Dolores Bolognese|Ah\,\,, you must have seen our\, notice.\,\, Yes\,, we're\, currently seeking\, a talented cook\,\,, as well as\, a dishwasher.
+25|P|I can cook
+26|P|I can handle the dishes
+27|Dolores Bolognese|The starting pay is\, 21 RM\, per hour\,\,, and\, a shift lasts\, for 8 hours.
+28|Dolores Bolognese|I'm sorry\,, but\, you don't seem to be\, qualified enough.
+29|P|I'm here to work (Work 8 hours)
+30|Dolores Bolognese|The starting pay is\, 110 OC\, per hour\,\,, and\, a shift lasts for\, 8 hours.
+31|P|Sorry, but I'm not interested
+32|Dolores Bolognese|Great.\,\, Come back here\, when the\, restaurant opens at\, 16:00\, to get started.
+33|Dolores Bolognese|Benvenuto.\,\, Welcome to\, Scatola\, di Maccheroni.\,\,\, Do you have\, a table reserved with us?
+34|Dolores Bolognese|Welcome to\, Scatola\, di Maccheroni.\,\, Reservation?
+35|Dolores Bolognese|Welcome\,, welcome!\,\,\, Are you on\, the reservation list today\,\,, or\, hoping for\, a walk-in?
+# conv 356: Bazaar/Trader/Hygge Svamprad
+36|Hygge Svamprad|Welcome to\, Ankea.\,\, Yeah\,, it is\, what it is.
+37|Hygge Svamprad|Yeah\,\,, it's not\, as big as\, the other stores\,\,, so\, you can't get lost.
+38|Hygge Svamprad|Welcome.\,\, Keep your\, expectations low.
+39|Hygge Svamprad|Make it quick, I'm tired.
+# conv 357: Bazaar/Mentti/Ari Pulsunmäki
+40|Ari Pulsunmäki|Welcome to the auction apartment!
+41|Ari Pulsunmäki|...Where are\, all the customers?
+42|Ari Pulsunmäki|It's been so quiet lately.\,.\,.
+43|Ari Pulsunmäki|I have many\, exciting things\, being auctioned today!
+44|Ari Pulsunmäki|Sorry, but we're closed.\,\, Remember\, to come back to\, check out the new haul next time!
+45|P|Show me what you got (Trade)
+# conv 358: Bazaar/Pontikka/Keke Roinaneva
+46|Keke Roinaneva|What are you\, doing in\, my abode?
+47|P|Is this a shop? I saw the sign
+48|P|Just looking for something to steal
+49|Keke Roinaneva|Then\, leave.
+50|Keke Roinaneva|I stole that\, sign from\, O-Market.\,\,\, But\, yes\,\,, I could\, sell ya\, some stuff.
+51|Keke Roinaneva|You can\, just buy from me then.
+52|Keke Roinaneva|Back again?\,\, What do you want?
+53|Keke Roinaneva|You're\, tracking dirt into\, my abode.\,\, What is it?
+54|Keke Roinaneva|What do you want now?
+55|P|I'd like to trade (Trade)
+# conv 360: Bazaar/Pontikka/Jeppe Rinkmann_Door
+56|Jeppe Rinkmann|State your business\,\,, yo!
+57|P|Hello?
+58|P|Mushrooms
+59|P|Moonshine
+60|P|Nothing
+61|Jeppe Rinkmann|Bitch!
+62|Jeppe Rinkmann|Yo\,\,\,, moonshiners are upstairs.\,\,\,\, Bitch!
+63|Jeppe Rinkmann|Yo\,, bitch!\,\,\, You came to the right place!\,\,\, Wanna buy?
+64|P|Yeah, sure (Trade)
+65|P|No now (Leave)
+66|Jeppe Rinkmann|State your\, business\,, yo!\,\, I\, ain't got\, all day.
+67|Jeppe Rinkmann|Talk quickly\,, man.\,\, I got places to be\,, yo.
+68|Jeppe Rinkmann|Yo\,, you need\, something\,\,, or are you just\, gonna stand there?
+# conv 361: Bazaar/Outside/Irmeli Nakkila
+69|Irmeli Nakkila|What are you\, looking at?
+70|Irmeli Nakkila|Go bum\, cigs from\, someone else.
+71|Irmeli Nakkila|I swear\,\,, the people in\, Obenseuer are getting\, weirder\, and weirder.
+72|Irmeli Nakkila|Can you imagine living next to the slums?
+# conv 362: Bazaar/Pontikka/Aune Kirkastaja
+73|Aune Kirkastaja|Welcome to\, the Garden Bar!
+74|P|I would like to buy a drink (Trade)
+75|Aune Kirkastaja|This is\, the Moonshining\, Cooperative\,\,\,, a\, cooperative of\, Obenseuer's\, most renowned\, moonshiners\,\, and brewers.
+76|Aune Kirkastaja|The\, top three floors\,\, of this\, building\, belong to\, the cooperative.\,\,\, We\, have\, state-of\,-the-art facilities\,\, for brewing and\, distilling.\,\,\, We even\, grow our own\, ingredients.
+77|Aune Kirkastaja|All\, the facilities are\, available\, for our\, members to\, use.\,\, We\, even organize\, courses for\,\, aspiring moonshiners.
+78|P|I would like to join
+79|P|I'm interested in the courses
+80|Aune Kirkastaja|My\, husband\,\,, Arvo\,\,, handles\, all the administration.\,\, You\, should ask\, him.\,\, Just\, ring the\, doorphone in\, the lobby.
+81|Aune Kirkastaja|Welcome!\,\, Let me know\, if you need\, a drink.
+82|Aune Kirkastaja|Good to see you again.
+83|Aune Kirkastaja|Nothing but\, the finest\, Obenseuer\, moonshine here.\,\, What'll it be?
+84|Aune Kirkastaja|Ah\,\,, you mean Erto!
+85|Aune Kirkastaja|No\,, I actually don't know where he\, lives\,\,, but I\, think my\, husband\,, Arvo\,, might know.
+86|Aune Kirkastaja|He\, might be\, in the classroom.\,\, Just ring\, the doorphone in\, the lobby\, to reach him.
+# conv 363: Bazaar/Pontikka/Arvo Kirkastaja_Door
+87|Arvo Kirkastaja|Who's there?
+88|P|It's me, [lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])]
+89|Arvo Kirkastaja|Did\, you lose\, your keycard?\,\, I'll\, open the door.
+90|Arvo Kirkastaja|You\, must have\, the wrong address\,\,, or\, something.
+91|P|Aune told me to talk to you
+92|Arvo Kirkastaja|Ah!\,\, About\, enrolling in\, the moonshining course?
+93|P|I'm more interested in joining the cooperative
+94|P|That's right!
+95|P|Nobody
+96|Arvo Kirkastaja|Well\,\,, nobody\,\,, maybe\, you're\, looking for\, the mushroom vendor downstairs?
+97|Arvo Kirkastaja|Well\,\,, to be\, able to\, join\,\,, you must\, first\, complete our\, moonshining course.
+98|P|Alright, I'm in
+99|P|Uh, I'm not interested (Leave)
+100|Arvo Kirkastaja|So...\,\, our\, moonshining course\, covers everything\, from\, mashing\,\, to brewing\,\, to distilling.\,\,\, Everything\, a respectable\, moonshiner\, must know to\, start their\, career.
+101|Arvo Kirkastaja|The course\, costs\, 100 RM\, and\, consists of\, 5 classes.\,\, The lectures\, are held\, every Tuesday\,\, and\, Thursday\, at\, 14:00.\,\, After\, completing the course\,\,, you will\, receive\, a diploma\, and\, can apply for\, co-op membership.
+102|Arvo Kirkastaja|Are you\, willing to enroll?\,\, I\, need your\, name to\, register you in\, the system.
+103|P|[lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])] (100 RM)
+104|Arvo Kirkastaja|Thank you!\,\, Remember to\, arrive\, before the\, class starts.\,\, I\, won't open the door\, for anyone\, who is late.
+105|Arvo Kirkastaja|Ah!\,\, Welcome!\,\,\, I'll\, open the door.
+106|Arvo Kirkastaja|What?\,\,\, Check\, your calendar.\,\, Classes\, are on\, Tuesdays\, and\, Thursdays\, at\, 14:00.
+107|Arvo Kirkastaja|Aha!\,\, Here for\, the exam?\,\, I'll\, open the door\,\,, talk\, to me inside.
+108|Arvo Kirkastaja|Oh\, hey\,, it's you.\,\, Come inside.
+109|Arvo Kirkastaja|I have\, no\, business with you!
+110|P|I don't have enough money right now
+111|Arvo Kirkastaja|Ah\,, alright.\,\, Just\, gather up\, the rest of\, the funds\,\, and\, come talk to me later.
+112|P|About the moonshining course...
+113|Arvo Kirkastaja|Yes\,, the enrollment fee is\, 100 RM.\,\, Do you\, have the\, money ready?
+114|Arvo Kirkastaja|Ah!\,\,\, Welhö must\, have sent you!\,\, His\, moonshine is\, absolutely legendary.
+115|Arvo Kirkastaja|And\, yeah...\,\, I know\, where\, the Suurwelho lives.
+116|Arvo Kirkastaja|I'm\, pretty sure\, he still lives over in\, Murju B.\,\, It's not\, far from here.
+117|Arvo Kirkastaja|His\, name was…\,\, Lagerfeld. Erto Lagerfeld\,\,, I think.
+118|Arvo Kirkastaja|Erto never really\, appreciated\, a good moonshine\,\,, but\, he is\, a nice guy.
+119|Arvo Kirkastaja|Come to\, think of it\,\,, I\, haven't seen him\, in about\, two years, though...\,\, tell him\, I said hello.
+# conv 364: Bazaar/Office/Johanna Faust
+120|Johanna Faust|Welcome to\, OS Power Company!\,\, How may I\, help you today?
+121|Johanna Faust|Yes?\,\,\, How may\, I help you?
+122|Johanna Faust|Uhm…\,\, yes?\,\,\, Is this\, regarding your\, power bill\,\,, or\, something else?
+123|Johanna Faust|It's\, you again...\,\, what is it now?
+124|Johanna Faust|State your\, business\,, please.
+125|P|You have a big, fancy building right next to the slums.
+126|Johanna Faust|Look...\,\, I just\, handle reception for\, OS Power.
+127|Johanna Faust|So...\,\, go bother someone else.
+# conv 365: Bazaar/Murju/Alfred Schweinstein
+128|Alfred Schweinstein|Röh!\,\, Do\, not\, lay a finger\, on my beauties\, without asking!
+129|Alfred Schweinstein|People\, lie.\,\, People\, cheat.\,\, But a pig?\,\, A pig\, will always be\, honest with you...\,\,\, Röh.
+130|Alfred Schweinstein|Look at that\, mud.\,\, Beautiful\,, glorious\, mud!\,\, Röh!
+131|Alfred Schweinstein|Röh\, röh!
+132|P|Where the hell are the rest of the storage cages?
+133|Alfred Schweinstein|I\, needed room for my\, piggies.\,\, Röh.\,\, And I\, had permission\, from the landlord!
+134|P|What happened to all the stuff that was inside them?
+135|Alfred Schweinstein|Röh.\,\, Eviction letters were sent.
+136|Alfred Schweinstein|Anything\, left behind past\, the deadline\, got dumped\, by the stairs.\,\, Put a "Free to Take" sign on it.\,\, Röh.
+137|Alfred Schweinstein|It was\, gone very quickly.\,\, Röh.
+138|P|Well, Suurwelho's storage was one of them!
+139|Alfred Schweinstein|Röh\, röh.\,\, A friend of\, yours?\,\, Röh.
+140|P|I was supposed to bring Suurwelho something...
+141|Alfred Schweinstein|Röh.\,\, I'm sure\, a real pig\, would make him\, happy instead.\,\, What if\, I sold you\, one very cheaply?
+142|Alfred Schweinstein|Only\, 400 OC.\,\, Röh.
+143|P|That's a great idea (Give 400 OC)
+144|Alfred Schweinstein|Röh\, röh!\,\, Wonderful.\,\, You are\, free to choose\, one of the pigs!
+145|P|Uh, where are the rest of the storage cages?
+146|P|Do you remember what stuff was left?
+147|P|I'm not going to buy a pig from you!
+148|P|I want that hat instead
+149|Alfred Schweinstein|Röh?\,\, Suit yourself.\,\, More company\, for me anyway.
+150|Alfred Schweinstein|Then\, just give him\, something else.\,\, A rubber duck\,, an old\, teddy bear...\,\, whatever.\,\,\, Röh.
+151|P|I was supposed to bring him something...
+152|Alfred Schweinstein|Uh...\,\, röh...\,\, some cheap\, Osmo beer\,\,, a rubber duck...\,\, just\, a bunch of human garbage.\,\, I did\, keep this\, red hat, though.\,\, Röh.
+153|P|That must be the Suurwelho's hat!
+154|Alfred Schweinstein|Röh.\,\, Here\,, take it then.\,\, It makes\, my head itch anyway.
+155|Alfred Schweinstein|If\, the pigs don't\, need it\,\,, I don't\, need it.\,\,\, Röh!
+156|P|Could I buy one of your pigs for him?
+157|Alfred Schweinstein|Röh?\,\, That is\, a great idea.\,\, Just listening to\, a little\, 'röh röh'\, will definitely\, make him\, happy!
+158|P|It must be the beer he wants...
+159|Alfred Schweinstein|Röh röh?\,\, Disgusting stuff.\,\, My\, piggies only\, drink clean water.
+160|Alfred Schweinstein|If he\, wants to\, ruin his liver\,\,, go buy him some.
+161|Alfred Schweinstein|Here\,\,, take some\, coins.\,\, Go fetch\, his drink.\,\, Röh.
+162|P|I'll buy a pig (Give 400 OC)
+163|P|I want to buy a pig (Give 1000 OC)
+164|Alfred Schweinstein|Röh\, röh!\,\, Great.\,\, You are\, free to\, pick whichever pig you like.
+165|P|Can I still buy that pig at a discounted price?
+166|Alfred Schweinstein|Röh?\,\, That was\, a one-time\, opportunity\,\,, [lua(Actor["Player"].AgeName)].\,\,\, It's full price\, or\, nothing now.
+# conv 367: Bazaar/Murju/Anatoli Mustaruoho
+167|Anatoli Mustaruoho|Sit down\,\,, lad\,, and\, you'll hear\, an unbelievably true story.
+168|Anatoli Mustaruoho|So...\,\, first\,, have a sip of my\, moonshine.
+169|P|(Drink)
+170|P|No thanks
+171|Anatoli Mustaruoho|Came here for some\, moonshine?\,\,\, I always\, have some on hand!
+172|P|Yes (Drink)
+173|Anatoli Mustaruoho|That's the spirit\,, lad!\,\,\, Anyway...
+174|Anatoli Mustaruoho|It's good\,\,, isn't it?
+175|Anatoli Mustaruoho|I used to work at the\, Stalburg\, Nuclear Power Plant\,\,, not\, far from here.\,\,\, You've probably heard about\, what happened there\, around\,\, ten years ago\,, lad?
+176|P|Yeah, I remember the news
+177|P|What?
+178|Anatoli Mustaruoho|They\, didn't tell you everything\,, lad.\,\,\, Not\, even\, half of it.
+179|Anatoli Mustaruoho|So\,, lad\,\,, there was\, an accident on\, August 9th\,, 2016.\,\,\, On that\, fateful day...\,\, or\, night\,, in fact...\,\, I was on\, operating duty\, at one of the reactors.
+180|Anatoli Mustaruoho|The day before had been\, very\, eventful in the city.\,\,\, Riots\,, protests\,, and\, all kinds of\, disorder\, during the\, elections.\,\,\, On\, top of that\,, lad\,, the city had been\, ravaged by\, power cuts\, and\, structural failures.
+181|Anatoli Mustaruoho|Because of\, all the disorder\, going on in the city\,\,, our plant was\, severely understaffed...\,\,\, we barely even\, had a\, skeleton crew operating the plant.
+182|Anatoli Mustaruoho|During the\, afternoon\, and\, early evening\,\,, some other\, power plants\, dropped off the grid\,\,, and\, we had to\, rapidly\, increase our production\, to keep the grid stable.\,\,\, Then\,.\,.\,.\, we received\, a phone call.
+183|Anatoli Mustaruoho|Lad\,, you need\, another drink!\,\,\, Have a sip.
+184|Anatoli Mustaruoho|So\,, lad\,\,, we received\, a phone call\, informing us that\, the nearby\, Two Gorges Dam was\, likely to collapse soon.
+185|Anatoli Mustaruoho|If you know\, anything about the\, local geography\,, lad\,\,, you know that the\, SNPP is\, located on\, a small lake\, right downstream from the\, dam.\,\,\, So\, a dam failure would\, affect us.
+186|Anatoli Mustaruoho|The dam had\, already informed us a few hours earlier that\, they were conducting an\, extensive release of water\, to lower the\, water level in\, the Lake Stalburg\, reservoir.\,\,\, Because of that\,\,, the water level\, in our\, lake\, had been rising fast.
+187|Anatoli Mustaruoho|Everything was\, fine\, for a few hours\,\,, but\, then\,\,, we received a\, call from the\, dam\, saying they'd lost one of their\, floodgates\, and\, cracks had started appearing in the\, concrete\, where the gate once stood.
+188|Anatoli Mustaruoho|And\,, lad\,, you know what happened then?\,\,\,\, The big\, boss\, of the entire\, power plant\, decided to\, send almost\, the entire crew home\,\,, leaving only me\,, the operator of the\, other reactor\,, and\, a couple of technicians.
+189|Anatoli Mustaruoho|After sending everyone home\,\,, he\, called some\, engineering company to do\, a quick safety assessment\, of the facility.\,\,\, Seriously\,, lad\,\,\,, what good would some\, engineers taking photos of\, exposed rebar\, and\, writing a report do?
+190|Anatoli Mustaruoho|Some time after that\,\,, we received\, another call\, saying that the\, dam's failure was\, imminent.\,\,\, I was about to\, SCRAM the reactor\,\,, but\, the boss told me not to.\,\,\, Apparently\,, lad\,, the plant was\, supposed to be able to handle\, "a little flood"...\,\,\, have another drink!
+191|P|No thanks.
+192|P|What does "SCRAM" mean?
+193|Anatoli Mustaruoho|"SCRAM" means\, shutting down the reactor.
+194|Anatoli Mustaruoho|After midnight\,\,, the dam finally buckled\,\,, and\, the plant was hit by\, a flood wave\, several meters high.\,\,\, We lost\, all power\,\,, and\, the backup generators failed to\, start automatically.\,\,\, Only the\, unit in the\, administrative building managed to\, start\,\,, giving us\, just enough power for\, the control console.
+195|Anatoli Mustaruoho|I did hit the SCRAM...\,\,\, and.\,.\,.\,\,\, nothing!
+196|Anatoli Mustaruoho|After that\,\,, I tried to\, move the rods individually from the\, console\,\,, but\, that didn't work either.\,\,\, The other\, reactor managed to shut down correctly.
+197|Anatoli Mustaruoho|We started\, investigating why\, the controls weren't responding.\,\,\, Meanwhile\,\,, the reactor was still\, running at full power.\,\,\, With the plant\, having no power\,\,, the coolant pumps\, weren't running\,\,, putting us at\, risk of a meltdown.
+198|Anatoli Mustaruoho|At this point\,\,, the boss started\, getting really nervous.\,\,\, He began\, screaming at us.
+199|Anatoli Mustaruoho|We figured\, we could try manually starting the\, secondary backup\, generators\, located in the basement\, of the containment structure.\,\,\, Those\, should've been\, unaffected by the flood.
+200|Anatoli Mustaruoho|We then tried calling back\, the staff\, we'd sent home\,\,, but\, alas\,\,, they couldn't get back\, because the flood had cut off\, all the roads\, leading here.\,\,\, This\, calls for a drink!
+201|Anatoli Mustaruoho|Oh\, yeah\,\,, lad.\,\, Good stuff\,, innit?
+202|Anatoli Mustaruoho|Where was I?\,\,\, Yes...\,\, at this point\,\,, our\, boss\, really began to\, break down\, and lose it.\,\,\, He started\, acting\, even more irrationally than before.
+203|Anatoli Mustaruoho|Then\, we heard a\, helicopter\, and saw it landing on\, the roof\,\,, with\, three lads disembarking.\,\,\, Two of them\,, a man\, and\, a woman\,, wandered off\, and immediately\, got themselves stuck\, in the coffee room\,\,, while\, an older man made his way into the\, control room\, where we were.
+204|Anatoli Mustaruoho|This\, group of fools was from\, the engineering company\, the boss had called to\, survey our\, plant\, and cover his ass with paperwork.\,\,\, Well\,\,, with the flood\, already hitting us\, and\, the reactor left without cooling\,\,, crawling toward\, a meltdown\,\,, there wasn't\, much for the engineering company to\, do anymore.
+205|Anatoli Mustaruoho|The boss had already\, lost it\, and pretty much\, told the concrete photographers\,\,, he'd summoned\,, to pack up their things\, and go home.
+206|Anatoli Mustaruoho|The older lad\,, their boss\,, disagreed\, and tried to\, persuade my boss to continue.\,\,\, My boss told\, the boat lad to make his way to\, the backup generators\, and start them.
+207|Anatoli Mustaruoho|Lad\,\,, the boat lad was\, absolutely out of his mind.\,\,\, He did some\, hazardous acrobatics through the\, flooded turbine hall to\, reach the backup generators.\,\,\, Just like before\,, the backup generators failed to\, start.\,\, The boss told him to go to\, the basement of the\, containment building\,\,, where the manually operated\, secondary backup generators were.
+208|Anatoli Mustaruoho|That lad did make it there\,\,, and\, soon we saw on the\, control panel that\, the reactor building had power.\,\,\, But\, we still weren't able to\, operate the pumps\, or\, the reactor remotely.\,\,\, The only way was to\, operate them\, manually\,, and\, the reactor had been running for\, hours without cooling.\,\,\, Radiation levels were\, already rising.
+209|Anatoli Mustaruoho|That mad lad agreed to\, enter the reactor hall to\, start the pumps.\,\,\, He\, probably received one hell of\, a dose.\,\, I don't know what happened after\, the boat lad entered the reactor hall\,.\,.\,.\,\, my boss ordered me to leave.\,\, Don't know why.\,\,\, Something\, fishy was going on.
+210|Anatoli Mustaruoho|Some time after that\,\,, I saw the helicopter\, fly over to the reactor roof\,\,, pick up the crazy boat lad\,, and\, fly off.\,\,\, Don't know if he\, succeeded\, or not.
+211|Anatoli Mustaruoho|I read in the reports that\, the power plant was forced to\, vent radioactive steam\, into the atmosphere\, and\, that the reactor suffered\, a great deal of damage\,\,, including\, at least a partial meltdown\, and\, damaged fuel rods.\,\,\, I\, never received\, the full detailed reports\,, since\, the whole incident was\, blamed on me\, and\, I was fired\, before the investigation was fully concluded.
+212|Anatoli Mustaruoho|Emergency units\,, followed by\, military engineers\,, arrived early in the morning\,, once\, the floodwaters had receded\, just enough for the\, roads to be usable.\,\,\, After them\,, more\, and\, more workers began arriving\,\,, and\, I was finally able to\, return home\, on one of their buses.
+213|Anatoli Mustaruoho|My boss managed to\, keep his job\,\,, while\, the whole thing was actually\, his fault.\,\,\, He\, really does have some\, powerful friends...
+214|Anatoli Mustaruoho|Anyway\,, lad\,, thanks for\, listening to the truth.\,\,\, Take this.
+215|Anatoli Mustaruoho|He was\, clearly trying to\, save his ass\, by creating a paper trail to\, prove that\, the plant was up to\, code.
+216|Anatoli Mustaruoho|We called the few\, remaining technicians\,\,, but\, one of them was\, injured\,\,, another was\, cut off by\, flooded passages\,\,, and\, we couldn't\, reach the last one.
+217|Anatoli Mustaruoho|There was\, even a fourth lad\, who arrived by boat.\,\,\, A boat!

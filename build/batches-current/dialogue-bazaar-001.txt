@@ -1,0 +1,403 @@
+# conv 270: Bazaar/Trader/Welho
+1|P|Are you a member of the moonshiners co-op?
+2|Welhö|Ah\,\,, I\, suppose\, the uninitiated call it that...
+3|P|Could you write me a recommendation?
+4|Welhö|A recommendation?\,\, Preposterous!
+5|Welhö|You\, speak of\, the guild of\, alchemists!\,\,\, The domain of\, potions!\,\,\, And...\, emporium of\, elixirs!
+6|Welhö|But\, yes...\,\, I am\, counted among\, their esteemed\, ranks.
+7|Welhö|You are\, but a\, mundane\, peasant.
+8|Welhö|My\, signature\, is\,\, reserved strictly\, for actual\, practitioners of\, the arcane arts...\,\, for true Welhos!
+9|P|I have the seal!
+10|Welhö|Give it to me!\,\,\, I must\, inspect it\, closely.
+11|Welhö|Oh...\,\, it\, really is…\,\, The Sacred\, Seal of\, Welhous.
+12|Welhö|You have\, stood before\, the great\, Suurwelho\, and\, managed to\, beat his\, trials!
+13|P|Who actually is this Suurwelho?
+14|Welhö|Silence!\,\, I will\, not speak\, another word\, of this here...
+15|Welhö|You must\, go to\, my secret lair\,\,, hidden\, within the bookstore.\,\,\, The\, passcode is\, 4027...
+16|Welhö|Go there\,\,, let yourself in\,\,, and\, look\, at the well!
+17|Welhö|... and\, you need these\, keys.
+18|P|Is he really that great?
+19|P|Yeah, I even gave him a live pig
+20|Welhö|A pig?\,\, Why\, on earth\, would the\, great…
+21|Welhö|Silence!\,\, That is\, none of\, our business!\,\,\, You need to\, focus on\, what I'm\, about to\, tell you!
+22|P|I want potent stuff (Trade)
+23|Welhö [ответ]|PLAYED
+24|Welhö|Ah\,\,, a\, fellow Welho\, returns!\,\, What\, do you\, seek today?
+25|Welhö|Welcome to my\, sanctum!\,\, How\, can I\, assist you\, today?
+26|Welhö|Ah\,\,, what can I\, offer a true Welho today?
+27|Welhö|Welcome back to\, the sanctuary\,\,, Welho!
+28|Welhö [ответ]|GAVE UP
+29|Welhö|Ugh\,\,, I\, smelled you\, before you even\, opened the door!\,\, What\, do you want?
+30|Welhö|Oh\,\,, it's\, the quitter.\,\, I hope\, you’ve got\, a good reason\, for being here.
+31|Welhö|Oh\,\,, it's\, the little pussy cat!\,\, Do you\, need some milk?
+32|Welhö|What do you\, want now?
+33|Welhö|Ah\,\,, a\, recommendation…
+34|Welhö|I'm\, sure a\, true Welho\, like you\, will learn about it\, someday...\,\, if\, you haven't already.
+35|Welhö|And\,\, the other side\, is\, one of them…
+36|Welhö|... it is\,\, a realm\, even\, a true Welho\, such as yourself\,\, must never touch.
+37|Welhö|And\,\, as a prize\, for a\, true Welho\, like yourself…
+38|Welhö|Here!\,\, It is\, incredibly\, dangerous\,\,, but\, I'm certain\, you can handle it\, with the\, utmost care!
+39|Welhö|I hope\, a true Welho\, like you\, finds a worthy\, use for it.
+40|Welhö|I\, hope\, you realize\, what dangerous\, secrets that book\, holds!
+41|Welhö|I'm sure\, a true Welho\, like you knows\, what sacred things you\, learned from that\, cursed book.
+42|Welhö|Even though\, you're a\, true Welho\,\,, I don't\, really know\, much about your\, skill in\, brewing elixirs!
+43|Welhö|So\,\,, I can give\, you a recommendation\, only if\, you brew me...\,\, hrmh...\,\, a flask of\, Mycelial Ambrosia!\,\, One liter should do.
+44|P|Uh, what's Mycelial Ambrosia?
+45|P|Do you mean mushroom moonshine?
+46|Welhö|Ah\,\,, yes…\,\,\, common folk call it\, mushroom moonshine.
+47|Welhö|Ah\,\,, yes…\,\, that is\, what the\, common folk call it.
+48|Welhö|Yes!\,\, Bring me\, some of\, at least\, fine quality\,\,, and then\, I shall\, give you my\, recommendation!
+49|P|I have the mushroom moonshine you wanted
+50|Welhö|By the chaos...\,\, this is\, flawless!
+51|Welhö|Y-\,you\, are even better\, at brewing\, elixirs than I am!
+52|Welhö|Here\,\,, take my\, recommendation!
+53|Welhö|And\, please...\,\, you must\, teach me your\, secrets someday!
+54|Welhö|Ah...\,\, yes\,, this is\, highly acceptable!\,\, You really do\, have a\, talent for\, brewing elixirs
+55|Welhö|Here\,\,, you have\, earned my\, recommendation!
+56|Welhö|Now...\,\, do you\, require anything else?
+57|Welhö|No\,, no…\,\, this is\, not\, good enough!
+58|Welhö|A true Welho\, does not\, settle for\, mediocrity!\,\, You need to\, practice more!
+59|Welhö|Is this\, some kind of\, joke?
+60|Welhö|I\,\, asked you for\, an elixir of\, at least fine\, quality\,\,, but this...\,\, this\, smells like\, it was scooped from\, a pussy cat's litter box!
+61|Welhö|I\, cannot give a\, recommendation to\, someone who\, brings me\, literal\, poison!
+62|Welhö|Now\, go practice\, how to brew\, real elixirs\, and come back with\, something that\, is at least\, fine quality!
+63|P|Could you write me a recommendation for the moonshiners co-op?
+64|Welhö|What is it\, you seek\, today?
+65|Welhö [ответ]|SHOWED SEAL
+66|P|Where did you say Mikael lives?
+67|Welhö|I\, already told you...\,\, Arnaldur...\,\, Mikael lives\, right in the\, middle of the slums.\,\, He's got that\, makeshift\, shower\, right next to his\, front door.
+68|Welhö|Hmph...\,\, anything else?
+# conv 289: Bazaar/Jail/Warden Morning
+69|Warden|Wake up.
+# conv 290: Bazaar/Jail/Warden Breakfast
+70|Warden|Breakfast is ready. You may roam.
+# conv 291: Bazaar/Jail/Warden Return Cells
+71|Warden|Cells will be closed in 15 minutes.
+# conv 292: Bazaar/Jail/Warden Evening
+72|Warden|Evening recreation. You may leave your cells.
+# conv 313: Bazaar/Outside/Finlay Bjorkman
+73|P|Hmhm, sure
+74|Finlay Bjorkman|You\, don't believe\, me?
+75|Finlay Bjorkman|Bring me\, some\,\, Sahti\, and\, I'll\, tell you\, something\, that you don't know.
+76|Finlay Bjorkman|People here\, might look\, happy\, on the outside…\,\,\, but\,\, they’re hiding\, how they really\, feel.
+77|Finlay Bjorkman|This place\, has\, a bad aura.\,\,\, Like\, something\, terrible is about to\, happen.
+78|Finlay Bjorkman|Beer\, mixed with\, cereal…\,\, don’t try it.
+79|Finlay Bjorkman|I’m just\, lucky\, I’m still\, alive.
+80|Finlay Bjorkman|Alright…\,\, next\, I’ll tell you\, something really\, crazy.
+81|Finlay Bjorkman|I wasn’t\, drunk\,\, or\, anything.
+82|Finlay Bjorkman|I swear.\,\,\, It was\, real…\,\, I’m\, sure of it.
+83|Finlay Bjorkman|It\,\, was night\,\,, and\, I was\, near the canal…
+84|Finlay Bjorkman|And\, then…\,\, I saw\, a red flash\,\,, like\, fire\, dancing over the surface.
+85|Finlay Bjorkman|And\, a man…\,\, just…\,\, appeared out of\, thin air.
+86|Finlay Bjorkman|At\, first\,\,, it looked like\, he couldn’t\, swim…
+87|Finlay Bjorkman|But then…\,\,\, he\, started\, swimming toward me.
+88|Finlay Bjorkman|Straight\, toward\, me.
+89|Finlay Bjorkman|I...\,\, ran.
+90|Finlay Bjorkman|Didn’t\, look\, back.
+91|Finlay Bjorkman|I didn’t\, stop\,\, until I\,\, could hear\, nothing\,\, but my\, own ragged\, breathing…
+92|Finlay Bjorkman|So…\,\, yeah.
+93|Finlay Bjorkman|That’s\, really\, all I\, have to\, tell you.
+# conv 400: Bazaar/Slum/Mikael Arnaldur
+94|Mikael Arnaldur|Just\, don't tell\, him you found them\, on my floor.
+95|Mikael Arnaldur|Just\, make damn sure\, you don't tell Welhö.
+96|P|What do you know about Welhö?
+97|Mikael Arnaldur|Not much\,\,, honestly.
+98|Mikael Arnaldur|He's\, just...\,\, one of\, the local nutjobs.
+99|Mikael Arnaldur|But...\,\, the guy is\, actually\, a genius\, when it comes to\, making alcohol.\,\,\, His\, moonshine recipes are\,\, legendary.
+100|Mikael Arnaldur|I\, originally became\, his\, 'apprentice'\, because I\, wanted to\, learn how to\, brew his stuff.
+101|Mikael Arnaldur|But\,\, I quickly realized\, what a massive\, hassle it is\, to get even a\, single recipe out of him.
+102|Mikael Arnaldur|He lives\, completely in his own\, fantasy world.
+103|Mikael Arnaldur|Now\,, I just\, play along\, so I don't\, crush his spirit\,\, and make him\, depressed.\,\, But man...\,\, I really just\, wanted to learn\, one recipe...
+104|Mikael Arnaldur|Oh\,, it's you...
+105|Mikael Arnaldur|So...\,\, Welhö just\, came by\, to give me\, a dramatic lecture\, about how\, low I've sunk.
+106|Mikael Arnaldur|So\,\,, Welhö actually dropped by\, and\, gave me\, a bottle of his\, finest stuff\, as a reward.
+107|Mikael Arnaldur|Welhö just\,\, showed up\, out of nowhere\, yelling about how\, I'm stripped of\, my\, title.
+108|Mikael Arnaldur|Guess I can\, kiss those\, moonshine recipes goodbye.\,\,\, All that\, wasted time\, for\, nothing.
+109|Mikael Arnaldur|Apparently\,\,, I need\, 'remedial magical lessons' now.
+110|Mikael Arnaldur|Honestly...\,\, I\, don't know if\, the booze is\, worth playing along\, with his\, delusions anymore.
+111|Mikael Arnaldur|It's\, fantastic\,, sure\,, but...\,\, it doesn't\, really\, help me.\,\, I\, still just\, wanted the recipe.
+112|Mikael Arnaldur|Ah\,\,, trying to\, prove\, you're a real Welho\, so you can\,\, get your\, hands on\, his recipes too?
+113|Mikael Arnaldur|Well\,\,, I'll tell\, you where he\, lives…\,\, but\, I hope you share\, some of\, Welhö's recipes with\, me\, if you\, get your hands on them.
+114|P|Yeah, sure, so where does he live?
+115|Mikael Arnaldur|Let me\, see your map...
+116|Mikael Arnaldur|There...\,\, Murju B\,\,, top floor.\,\,\, He goes by\, the name Erto Lagerfeld.
+117|Mikael Arnaldur|The front doors\, are locked\,\,, so\,\, you'll have to\, use the intercom\, and get\, someone to\, buzz you in.
+118|P|Maybe. So where does he live?
+119|P|I'm not going to share anything with you
+120|Mikael Arnaldur|Oh\,\,, so you\, want to\, keep them all\, to yourself?
+121|Mikael Arnaldur|Fine by me.\,\,\, Good luck\, finding him on your own\,\,, because\, I'm not telling you\, anything.
+# conv 403: Bazaar/Other/Jane Miller
+122|Jane Miller|Would you\, like to earn some\, cash?
+123|P|I could always use some cash
+124|P|What do I need to do?
+125|P|I'll pass (Leave)
+126|Jane Miller|There is\, a certain\, person\,\, living in\, the quarantine area\, to whom I\, need to\, deliver\, critical supplies.
+127|P|So you want me to smuggle myself into the quarantine area?
+128|Jane Miller|No\,\,, nothing like\, that.\,\,\, We're\, using a\, drone.
+129|P|How should I do that?
+130|P|Just give me the stuff and I'll head over there. Easy
+131|Jane Miller|I\, will bring you\, a drone\,\, that you can\, use to\, deliver the supplies
+132|P|Sure, but how do I know where to pilot it
+133|P|I don't know how to pilot a drone
+134|Jane Miller|You\, don't need to.\,\,\, The drone is\, programmed to\, automatically fly to\, the exact location\,\, and\, return to you\, once it\, drops the cargo.
+135|P|Sure, I'll do it. But what's the payment?
+136|P|Sounds easy enough. Why won't you just do it yourself?
+137|Jane Miller|Because\, there's\, heavy electronic\, monitoring\, and\, interference\, all over\, Obenseuer\,\,, especially\, around the\, closed\, quarantine.
+138|Jane Miller|However\,\,, the\, Deekula B\, rooftop might be\, the best place to\, try.
+139|Jane Miller|I\, would do it\, myself\,\,, but\, I don't have\, a passport to\, get there\, and back.
+140|Jane Miller|I\, will pay you\, 500\, RM\, right now\,\,, and\, 2000 RM\, once\, you have made the\, delivery.
+141|Jane Miller|Thank you.\,\, You will\, receive the\, drone in\, a couple of days\, with further instructions.
+142|Jane Miller|They\, easily disable\, any drones\, flying around\, besides their own.
+143|Jane Miller|It's\,\, close to the\, quarantine\,\,, and\, there are\, no guard towers\, or\, posts nearby\, with\, a clear line of\, sight to the\, flight path.
+# conv 404: Bazaar/Doorphone Murju B
+144|Doorphone|Bzzzz!
+145|???|(No Answer)
+146|???|Yes?
+147|Doorphone|Väy väy väy vhräääh!
+148|P|Väy väy vrhäääää!
+149|P|Hey, chill out!
+150|P|Let me in! Let me iiiiiin!
+151|???|Sorry\,\,, but\, I don't know you.
+152|???|I'll\, open the door for you.
+153|???|Tell me your name first.
+154|???|Shut the fuck up!
+155|Doorphone|Shut\, the\, fuck\, up!
+# conv 405: Bazaar/Murju/Erto Lagerfeld
+156|P|You're the Suurwelho?
+157|Erto Lagerfeld|Khm...\,\, Yeah.\,\, That is\, me.
+158|P|So... I need to prove that I'm a real Welho
+159|Erto Lagerfeld|Ah...\,\, khm…\,\, yes.\,\,\, A trial.\,\, You need\, a trial.
+160|Erto Lagerfeld|Khm…\,\, your\, first mission\, is...\,\, uh...\,\, go\, silence the downstairs\, neighbor.
+161|Erto Lagerfeld|Those…\,\, khm...\,\, sounds are\, driving me\, crazy.
+162|P|What sounds?
+163|P|There aren't any sounds coming from down there
+164|Erto Lagerfeld|Ghk…\,\, are your\, ears broken?!
+165|Erto Lagerfeld|Those voices\, echoing through\, the floorboards!\,\, Make\, them\, stop!
+166|P|Of course, I will do that
+167|P|But you're just some drunk
+168|P|Really? Where are your clothes?
+169|P|Sure... (Leave)
+170|Erto Lagerfeld|Ghk…\,\, did you\, come all this\, way just to\, mock me?!
+171|Erto Lagerfeld|If\, you have\, no real\, business here\,\,, then\, leave!
+172|Erto Lagerfeld|Khm!\,\,\, A\, true master does not\, need clothes!
+173|Erto Lagerfeld|I\, wear them only\, when I...\,\, hic...\,\, when\, I am\, conducting official\, Welhö business!
+174|Erto Lagerfeld|Khm...\,\, Yeah.\,\, Good.
+175|Erto Lagerfeld|Come back\, when you\, have handled it.
+176|P|Your TV is just showing static
+177|Erto Lagerfeld|Khm…\,\, what?
+178|P|The TV. It's just showing static noise
+179|Erto Lagerfeld|I\, don't know\, what you are\, talking about.
+180|P|Uh, nothing (Leave)
+181|P|I silenced the neighbor
+182|Erto Lagerfeld|Khm...\,\, good.
+183|Erto Lagerfeld|The next...\,\, hic...\,\, trial is simple.
+184|Erto Lagerfeld|I\, need you\, to get\, something from\, my...\,\, khm...\,\, my\, ground floor\, storage cage.
+185|Erto Lagerfeld|Khm…\,\, just\, find the storage\, that has the\, same number\, as my\, apartment.
+186|Erto Lagerfeld|I'm\, sure you will\, know exactly\, what I need\, when you\,\, see it.
+187|P|Your storage cage is gone, but I brought you something
+188|Erto Lagerfeld|Khm...\,\, what?
+189|P|I said, your storage is completely gone
+190|Erto Lagerfeld|Khm…\,\, yes\,\,, I\, heard that.\,\, I\, meant\,, what did you\, bring me?
+191|P|Here is your new companion (Give the pig)
+192|Erto Lagerfeld|What\, the hell...\,\, hic...\,\, what\, am I\, supposed to\, do with\, a pig?!
+193|Erto Lagerfeld|Well...\,\, put it\, in the corner.\,\,\, If it\, eats my\, snacks\,, I'm turning it\, into bacon.
+194|P|Here. Some beer for you (Give 24 bottles of Osmo Olut)
+195|Erto Lagerfeld|Khm…\,\, a beer?\,\, For...\,\, me?
+196|Erto Lagerfeld|Ah...\,\, the...\,\, uh...\,\, spirits demand\, I drink this...\,\, hic...\,\, immediately.
+197|P|Here, a rubber duck (Give a rubber duck)
+198|Erto Lagerfeld|Khm…\,\, a rubber duck?
+199|Erto Lagerfeld|What\, am I\, supposed to do\, with a\, rubber duck?\,\, I don't\, even have a bathtub!
+200|P|Your glorious hat! (Give the red hat)
+201|Erto Lagerfeld|Khm…\,\, my glorious...\,\, wait.
+202|Erto Lagerfeld|I\, have never\, seen that\, hat in my life.
+203|Erto Lagerfeld|Give it\, to me anyway.\,\,\, My\, head gets cold.
+204|Erto Lagerfeld|Khm…\,\, speaking of\, the cold…
+205|Erto Lagerfeld|Why is it\, so damn cold in here?
+206|Erto Lagerfeld|Your\, next mission is to...\,\, khm…\,\, bring me\, my jacket.
+207|Erto Lagerfeld|Khm...\,\, fine.\,\,\, Give it to me.
+208|Erto Lagerfeld|But\, since you\, failed to bring me\, anything useful\,\,, your real trial is\, to go get me\,\, 24 bottles of\, Osmo Olut!
+209|P|Here. The beer you wanted (Give 24 bottles of Osmo Olut)
+210|Erto Lagerfeld|Khm…\,\, excellent!\,\,\, Just\, what I needed!
+211|Erto Lagerfeld|Ahhh.\,\, Yes.\,\, The...\,\, uh...\,\, spirits are\, very pleased\, with your…\,\, hic…\,\, offering.
+212|Erto Lagerfeld|You have\, done well.
+213|P|I have your jacket
+214|Erto Lagerfeld|Khm…\,\, give it to me.
+215|P|Here (Give the red jacket)
+216|P|Here (Give the brown jacket)
+217|Erto Lagerfeld|Uh...\,\, khm…\,\, that's\, my wife's!\,\, I mean...
+218|Erto Lagerfeld|... that is\, definitely\, not mine!\,\, Bring me\, the brown one!
+219|Erto Lagerfeld|Khm…\,\, finally.
+220|Erto Lagerfeld|You're...\,\, khm…\,\, supposed to\, find me\,\, something.
+221|Erto Lagerfeld|Khm…\,\, uh...\,\, I\, can still hear\, that\, damn\, sound...\,\, ringing in\, my ears...
+222|Erto Lagerfeld|Argh…\,\, whatever.\,\,\, It's\, probably just\, the beer.
+223|Erto Lagerfeld|Khm…\,\, I\, think I\, already gave you\, three missions...
+224|Erto Lagerfeld|Congratulations\,\,, [lua(Actor["Player"].AgeName)].
+225|Erto Lagerfeld|Here...\,\, this is…\,\, khm…\,\, The\, Sacred\, Seal\, of\, Welhous.
+226|Erto Lagerfeld|With that\,, you can\, prove that\, you are\, a true\, Welho...
+227|Erto Lagerfeld|Now\,\,, leave me in\, peace\, so I can\, watch TV.
+228|P|You don't actually believe in any of this Welho stuff?
+229|Erto Lagerfeld|Khm…\,\, I\, believe in\, whatever is\, useful to me!
+230|Erto Lagerfeld|And\,\, with this\, Welho stuff\,\,, I can get\, idiots\, like you\, to do\, my chores for me.
+231|Erto Lagerfeld|For instance\,\,, you fetched\, my jacket.
+232|Erto Lagerfeld|And...\,\, khm…\,\, you gave\, me\, a live pig…\,\, ugh…
+233|Erto Lagerfeld|And...\,\, khm…\,\, you gave me\, a ton of beer!
+234|Erto Lagerfeld|And\, a rather nice rubber duck!
+235|Erto Lagerfeld|And... khm… I got a nice new hat out of it!
+236|Erto Lagerfeld|Also\,\,, you\, actually managed to\, silence my neighbor!
+237|Erto Lagerfeld|Also…\,\, you…\,\, khm…\,\, at least\, tried to\, silence my neighbor.
+238|Erto Lagerfeld|But…\,\, well\,\,, at least\, you silenced\, my neighbor.
+239|Erto Lagerfeld|But…\,\, you…\,\, khm…\, at least\, tried to\, silence my neighbor.
+240|Erto Lagerfeld|Well\,\,, yeah…\,\, looking at that\, pig\,\,, I'm not sure\, if this is\, actually profitable for me...
+241|Erto Lagerfeld|See?\,\,\, This whole\, Welho business\, works out great for me!
+242|Erto Lagerfeld|But\, whatever...\,\, you're done here.\,\, Now\, get out.
+243|Erto Lagerfeld|But\, whatever...\,\, you're done here.
+244|Erto Lagerfeld|Leave me\, alone.
+# conv 427: Bazaar/Casino/Casper Colikke After Break
+245|Casper Colikke|I thought\, I told you to stay\, seated.
+246|Casper Colikke|Anyway...
+247|Casper Colikke|Snooping around my\, office is a bad\, habit.
+248|Casper Colikke|Raimo!\,\, Get in here\, and empty our\, guest's pockets.
+249|Casper Colikke|Sorry for the wait...\,\, my stomach can be\, quite tricky.\,\,\, More often\, than I'd like to\, admit.
+# conv 428: Bazaar/Casino/Casper Colikke Mission
+250|Casper Colikke|I'm keeping this.
+251|Casper Colikke|Consider it\, a convenience fee\, for Raimo's\, hands-on service.
+252|Casper Colikke|Now\, that we've got that\, out of the way\,\,, let's\, get back to business.
+253|Casper Colikke|You\, poor\, bastard...\,\, you don't even\, have money.
+254|Casper Colikke|First\,\,, here's\, half of your reward upfront.
+255|Casper Colikke|But\, if you fail\,\,, I'm sending\, Raimo to collect it\, from your corpse.
+256|Casper Colikke|So\,\,, listen carefully.
+257|Casper Colikke|Mailanen checked out of\, the Korso hotel.\,\, He's\, hiding out in\, the slums now\,\,, somewhere in\, a block called\, Mentti B.
+258|Casper Colikke|I don't have an\, exact room number\,\,, but\, that's the intel\, Raimo managed to gather.
+259|Casper Colikke|I told Raimo to\, drag him to...\,\,\, a some dark room\, and\, tie him to a\, chair\,\,, but he refused...\,\, something about\, 'security etiquette.'
+260|Casper Colikke|I\, trust you won't have\, that problem.
+261|Casper Colikke|Break his\, fingers\,\,, threaten him...\,\, do whatever it takes.
+262|Casper Colikke|Just\, find out\, where he buried the money.
+263|Casper Colikke|Is that\, clear?
+264|P|Yeah, I'm on it. I'll find him
+265|Casper Colikke|Excellent.\,\, Don't keep me waiting.
+266|P|What if he's actually telling the truth about the money?
+267|Casper Colikke|You mean\, what if he\, really doesn't have\, any more money?
+268|P|How much cash are we talking about here?
+269|P|What if the police find him before I do?
+270|Casper Colikke|I don't know...\,\, a million?\,\, Two?\,\, The point is\,\,, he stole significantly more than\, the pocket change\, he used to clear his\, debt.
+271|Casper Colikke|Well\,\,, don't let that happen.
+272|Casper Colikke|Well\,\,, make him\, spit out what happened to it.
+273|Casper Colikke|He cleaned out the\, Bazaar's bank vault\,\,, and\, that bank is loaded.\,\, That kind of cash doesn't just\, evaporate.
+274|Casper Colikke|The more time you spend standing here\,\,, the more\, likely the\, cops will get him.
+275|Casper Colikke|Now\,\, stop wasting my time\, and go\, find his money.
+# conv 429: Bazaar/Casino/Raimo Räyhä Comment
+276|Raimo Räyhä|What the fuck is in this kebab?!
+277|Raimo Räyhä|What the hell is he doing there?!
+278|Raimo Räyhä|Is it just me, or does that kebab taste like cat food?!
+# conv 430: Bazaar/Casino/Raimo Räyhä Comment 2
+279|Raimo Räyhä|What the hell!? Why is there sauce on my overalls!?
+280|Raimo Räyhä|Maybe I should go check...
+281|Raimo Räyhä|Is that smell coming from the vents?
+# conv 431: Bazaar/Mentti/Heikki Mailanen
+282|Heikki Mailanen|Uh?\,\, What do you want?
+283|P|Where is the money?
+284|Heikki Mailanen|Wait...\,\, who are you?\,\,\, Did Casper\, send you?!
+285|P|That's right. So where is the money?
+286|Heikki Mailanen|What?!\,\,\, What happened to that\, meathead guard of his?\,\, He\, already took\, everything I had!
+287|Heikki Mailanen|Look around\,\,, do I look\, rich to you?!\,\,\, I don't even have a single coin left!
+288|Heikki Mailanen|And\, I already confessed\, everything to the\, guard!
+289|Heikki Mailanen|The bank manager took\, almost everything!
+290|Heikki Mailanen|I got like…\,\, 20%\,, I think\,, and most of that\, I spent to pay\, Casper my debt!
+291|P|Wait, why is the bank manager part of this?
+292|Heikki Mailanen|Yeah\,\,, this whole\, heist would have\, failed if\, I didn't make a deal with him!
+293|Heikki Mailanen|I thought he just\, wanted us to rob the place\, so he could pull some\, massive insurance scam.
+294|Heikki Mailanen|I didn't think\, he'd run off with the\, actual cash!
+295|P|Where is the bank manager now?
+296|Heikki Mailanen|I\, don't know!\,\, I swear!
+297|Heikki Mailanen|The last I saw him\,\,, he was going through\, the security check to\, the central area…\,\, but\, he probably just\, wanted to get to the train\, so he could get\, out of Obenseuer.
+298|P|No, I'm the one who was supposed to empty the bank
+299|Heikki Mailanen|Ah...\,\, you're\, Passmore's guy.
+300|Heikki Mailanen|Look\,\,, I just went to\, Passmore and\, I confessed everything to him!
+301|Heikki Mailanen|And\, I already told him tha\,t the bank manager took almost everything!
+302|Heikki Mailanen|I'm sorry!\,\, I was\, an idiot!
+303|P|No, I work for myself
+304|Heikki Mailanen|You work for\, yourself?!
+305|Heikki Mailanen|Oh god\,\,, how many people are\, after me?!
+306|Heikki Mailanen|Look\,\,, it doesn't matter who you are\,\,, I don't even have\, a single coin left!
+307|Heikki Mailanen|Here\,\,, this is\, all I have left.
+308|P|I work for the Devil's Angels
+309|Heikki Mailanen|The\, Devil's Angels?!\,\, You've gotta\, be kidding me!
+310|Heikki Mailanen|Look\,\,, I don't have\, the money!\,\,\, You're too late!
+311|P|I'll go find the bank manager
+312|Heikki Mailanen|Oh\,, great…\,\, well\,, his name is\, Theo Tammi.
+313|Heikki Mailanen|Do you even have\, an ID card\, or anything?\,\, Not to mention\, a negative test\,, because\, without those\,, you can't get into\, the central area.
+314|Heikki Mailanen|And\, even if you do make it inside…\,\, the manager is\, probably long gone by now.
+315|Heikki Mailanen|But...\,\, uh...\,\, maybe…\,\, you could help me\, deal with Casper?
+316|P|What do you mean by 'deal with'?
+317|Heikki Mailanen|I mean\, get rid of him!
+318|Heikki Mailanen|You could tell him\, that Passmore took the money.
+319|Heikki Mailanen|... or\, maybe you could give him\, some\, poisoned\, Socca Junior...
+320|Heikki Mailanen|... or...
+321|Heikki Mailanen|... like\,\,, send your\, neighbor or someone after him!
+322|Heikki Mailanen|... or\, if you know\, like...\,\, the King of the Bazaar or something\,, I don't know!
+323|Heikki Mailanen|But anyway...\,\, if Casper is out of the way\,\,, maybe I could\, step in\, and run the casino.
+324|Heikki Mailanen|And...\,\, if you help me do it\,\,, I'll make sure\, you get a massive reward.
+325|Heikki Mailanen|Well\,\,, I would pay you.\,\, I would\, pay very well.
+326|P|Not my problem. No thanks.
+327|Heikki Mailanen|Are you sure?\,\, I would\, pay well.
+328|P|Fine, what do I have to do?
+329|P|Yeah, I'm sure
+330|Heikki Mailanen|Damn it...\,\, fine.
+331|Heikki Mailanen|Looks like\, I have to find a way to\, smuggle myself out of\, Obenseuer\, before he finds me.
+332|Heikki Mailanen|Well\,\,, good luck\, finding the\, bank manager…
+333|Heikki Mailanen|Get rid of him!
+334|P|It's hard to convince him of anything
+335|Heikki Mailanen|Or\, maybe you could somehow\, prove that\, the bank manager took the money.
+336|Heikki Mailanen|You're right…\,\, but\, you don't necessarily have to\, talk to him…
+337|Heikki Mailanen|But...
+338|Heikki Mailanen|He might believe you\, if you bring him proof.\,\,\, Something that\, shows you got the information\, out of me…\,\, uh...\,\, violently.
+339|P|Yeah. I could chop off one of your fingers
+340|Heikki Mailanen|Wait\,, what!?\,\, No\,, I didn't mean that!
+341|P|Hold still (Use Axe)
+342|Heikki Mailanen|Gah!\,!\,!\,\,\, Y-\,you chopped off way more than one!
+343|P|I told you to hold still
+344|P|Thanks for the contribution. Casper will love this
+345|Heikki Mailanen|You\,\, sick\,\, bastard…\,\, my fingers are gone!\,\,\, Just\,\, leave me alone!
+346|Heikki Mailanen|You're a monster!\,\, Take your bloody\, evidence\, and\, get out of my sight!
+347|P|My bad. The axe is heavier than it looks
+348|Heikki Mailanen|Are you joking right now?!
+349|P|Just kidding
+350|Heikki Mailanen|Yeah...\,\, don't joke about\, things like that!.
+351|P|Then what do you suggest I use for proof?
+352|P|Like what?
+353|Heikki Mailanen|I don't know!\,\, Just find a piece of\, raw meat\, or something!
+354|P|I need something to make him believe me
+355|P|I'll figure something out (Leave)
+356|Heikki Mailanen|I don't know\,\,, maybe\, just find a piece of\, raw meat\, and pass it off as\, mine!\,\, Or...\,\, hey\,\,, maybe you\, already carry a jar of severed fingers around with you?
+357|Heikki Mailanen|Just...\,\, figure something out.
+358|Heikki Mailanen|I mean...\,\, it makes sense\,, right?\,\,\, Wouldn't that just\, solve everything?
+359|Heikki Mailanen|Honestly\,\,, I've always dreamed of\, running my own casino.\,\, Yeah...\,\, I could be\, the new boss.\,\,\, That would be\, amazing...
+360|Heikki Mailanen [ответ]|NO FINGERS
+361|Heikki Mailanen|My\, hand...
+362|Heikki Mailanen|Ugh...\,\, the pain...
+363|Heikki Mailanen|I don't have\, any more fingers to give you...
+364|Heikki Mailanen|It hurts\, so much...
+365|P|Passmore explained everything
+366|Heikki Mailanen|Ah\,, right...\,\, you're with Passmore.
+367|Heikki Mailanen|Well\,\,, I\, told Passmore everything already\,, so\, don't waste your time\, asking questions...
+368|Heikki Mailanen|I got\, maybe\, 20%\,\,, and\, I already gave it to\, Casper to clear my debt.
+369|Heikki Mailanen|But\, his meathead guard\, made it sound like\, Casper still wants more...
+370|Heikki Mailanen [ответ]|HELPING
+371|Heikki Mailanen|NOT HELPING
+372|Heikki Mailanen|I'm going to\, leave soon...
+373|Heikki Mailanen|Do you have\, any news about Casper?
+374|Heikki Mailanen|Oh\,\,, thank you!
+375|Heikki Mailanen|I was\, thinking that...\,\, maybe tou could tell him that\, Passmore took the money.
+376|Heikki Mailanen|Please\, tell me you figured out\, a way to get rid of him...
+377|Heikki Mailanen|Any\, luck at the\, casino yet?
+378|Heikki Mailanen|Is...\,\, Casper out of the picture or not?
+379|P|Casper is handled. The casino is yours
+380|Heikki Mailanen|I knew\, you could do it!
+381|Heikki Mailanen|While you were\, taking care of him\,\,, I\, actually figured out\, a way to put the casino\, entirely in my name!
+382|Heikki Mailanen|Come meet me there!\,\, I have\, a massive reward\, waiting for you!
+383|P|So, I'll just have to go to the central area
+384|P|Yeah, he's probably far away already...
+385|Heikki Mailanen|Yeah...\,\, well\,\,, you could head to\, the central area\,\,, but...
+386|P|Maybe we should just tell the police about Casper
+387|Heikki Mailanen|Tell them what?\,\, That he wants\, the money\, I stole from the bank?
+388|Heikki Mailanen|We'd all end up in prison.\,\, Including\, you.

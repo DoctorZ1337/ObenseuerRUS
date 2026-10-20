@@ -1,0 +1,589 @@
+# conv 81: Deekula/Adam Holmgren
+1|Adam Holmgren|You can take\,\, whatever you want here\,\, as long as you don't touch my stuff\,\, behind the televisions.
+2|P|Where is everybody?
+3|Adam Holmgren|Heck, I don't even know if anyone is allowed to move here yet\,\,\,, but better be early than regret later.
+4|P|I have to go (Leave)
+5|P|What if the old residents come back?
+6|Adam Holmgren|We are all sick here.\,\,\, You and me...\,\, everyone.\,\,\, We are all crazy and\,\, live in delusion.
+7|P|I have noticed it
+8|Adam Holmgren|Good stuff...\,\, good stuff.\,\, What?
+9|Adam Holmgren|Did you know that Osmo Saarinen is from Obenseuer.\,\,\,\, What a legend!
+10|Adam Holmgren|What do you want\,\, [lua(Actor["Player"].AgeName)]?
+11|P|Do you know where Max Masher lives?
+12|Adam Holmgren|Max Masher?\,\,\,\, You probably mean the guy\,\, who's missing a few parts of his\, brain?
+13|P [ответ]|Live in delusion? Not me
+14|Adam Holmgren|Sure\,\,, whatever.
+15|Adam Holmgren|Yeah\,\,, everyone's heads have been destroyed\,\, by...\,\,\, something.\,\,\, Mushroom cigarettes\,\,, contaminated\, water\,\,, Osmo Olut...\,\,\, you name it.
+16|Adam Holmgren|Read the note\, on the front door...\,\, or what was the\, front door before.\,\,\,\, Anyway,\,\, I live here now\,\,\, and no one else has moved here yet.
+17|Adam Holmgren|Did you read that note?\,\,\, They're NOT coming back.\,\,\, They're probably already in the grave or burned or whatever.\,\,\,\, The fungal treatment unit will take care of it.
+18|Adam Holmgren|It's hard to get a reasonable answer from him\,\,\,, so...\,\,\, good luck.
+19|P|Thanks! I'll go find him
+20|Adam Holmgren|It's too late to fix it.
+21|Adam Holmgren|Yeah\,, I know him.\,\,\,\, "Turnip mash\,\,, potato mash!"\,\,\,\, That's\,\, what he says all the time.\,\,\,\, He lives in apartment B 10\,\,\,, top floor.
+22|P|Do you have Osmo Minitrain Miniature?
+23|Adam Holmgren|Damn...\,\,\, everyone's after that\, thing lately...
+24|Adam Holmgren|Listen man...\,\, I’m an\, Osmo Olut collector myself.
+25|Adam Holmgren|... and\, selling something\, rare as that\, minitrain...
+26|Adam Holmgren|... it’s\, not gonna be cheap.
+27|Adam Holmgren|It’s\, gonna cost you...\,\, 2500 OC.
+28|P|Here 2500 OC (Pay)
+29|P|Maybe 2000 OC?
+30|Adam Holmgren|Sorry pal...\,\, I'm not\, going to lower the price.\,\,\, It’s\, 2500 OC.
+31|P|I don't have that much money
+32|P|Yeah, no way I'm going to pay that
+33|Adam Holmgren|It’s\, a collector’s piece\,, pal.
+34|Adam Holmgren|Come back\, when you have money.
+35|Adam Holmgren|Yeah?\,\,\, Good luck finding it\, cheaper.
+36|P|I want to buy that minitrain
+37|Adam Holmgren|It’s\, 2500 OC.
+# conv 63: Deekula/Amanda Korhonen
+38|Amanda Korhonen[ж]|Oh\,\,, hey...\,\,\, this is\, a bit\, of a weird\, question\, but...\,\,\, do you know anyone\, who could rent me\,\, an apartment?
+39|P|Why were you evicted?
+40|P|Can I rent you an apartment?
+41|P|I want to talk about something
+42|Amanda Korhonen[ж]|...\,\, killing my neighbor's cat...\,\, ugh.\,\,\, I bet she did it herself...\,\, she's insane...\,\,\, all those radios and\,\,\, everything.
+43|P|Do you have any evidence?
+44|P|Radios? What do you mean?
+45|Amanda Korhonen[ж]|Yeah?
+46|P|What's the time?
+47|P|Actually I have to go now (Leave)
+48|Amanda Korhonen[ж]|About what?\,\,\, The\, cat?\,\, Well...\,\, no...\,\, but I did find some strange stuff\, from her storage.
+49|Amanda Korhonen[ж]|I bet her apartment is a real mess...\,\, full of all kinds of weird stuff.
+50|P|How can I get in that storage?
+51|Amanda Korhonen[ж]|Here...\,\, it's my storage key.\,\, They forgot to take it.\,\, My storage number is B4.
+52|P|That sucks, but I have to go now (Leave)
+53|Amanda Korhonen[ж]|Um...\,\, [lua(TellTimeResponse(-1))].
+54|Amanda Korhonen[ж]|Hey.
+55|Amanda Korhonen[ж]|Oh\, hi.
+56|Amanda Korhonen[ж]|Hello.
+57|Amanda Korhonen[ж]|Um...\,\, hi.
+58|P|There was some woman in bed under the blanket
+59|P|There's body in the bathroom
+60|Amanda Korhonen[ж]|Um...\,\, under the blanket?\,\, Did you find anything else?
+61|Amanda Korhonen[ж]|Oh damn.\,.\,.\, I knew it that something was wrong!\,\, That finger in that\,\, jar.\,.\,.\, whose body is that?
+62|P|I'm not sure, but I think it's a man
+63|P|We shouldn't tell about this
+64|P|I'm going to tell to the police now (Leave)
+65|P|No, I didn't find anything else
+66|Amanda Korhonen[ж]|What we're going to do now?
+67|Amanda Korhonen[ж]|What are we going to do then?\,\, I really want to know what is going on\,\, and who\, that man is.
+68|P|She was hiding there and mumbling something
+69|Amanda Korhonen[ж]|Did you find anything else?
+70|Amanda Korhonen[ж]|Oh...\,\, well...\,\, I don't know what else we can do then.
+71|P|It's Jacob Cooper
+72|Amanda Korhonen[ж]|I'm trying to find out who is that guy\,\, and...\,\,\, what are you going to do now?
+73|P|That man is Jacob Cooper in her bathroom
+74|P|I'm going figure something out (Leave)
+75|P|I found out that Tea Henderson died in apartment B4
+76|Amanda Korhonen[ж]|Oh...\,\, um...\,\, really?\,\, That's weird...\,\, heh...\,\,\, did he say anything else?
+77|P|Can you tell what happened really?
+78|P|They didn't say anything else
+79|Amanda Korhonen[ж]|Oh...\,\, that's bad!\,\, I really want them to do something to that insane...\, bitch!\,\, What we can do without police?\,\, Maybe\, I'm going to tell about this to the neighbors\,\,, but I'm not sure if they believe me...\,\, damn...
+80|Amanda Korhonen[ж]|She told me\, that I can contact to her with some\, device...\,\, or something...\,\, I can hear her to talking to me\,\,, but she doesn't hear me.
+81|P|That neighbor's cat was Tea or what?
+82|P|You're insane...
+83|Amanda Korhonen[ж]|No!\,\, I'm not!\,\, I have heard that others have experienced this too!\,\, People can talk to them!\,\, Tea is alive!\,\, If you don't really believe me...\,\, well...\,\, that's it?\,\, There's nothing else to do...
+84|Amanda Korhonen[ж]|No...\,\, that cat was found dead in her apartment.\,\, Her door was left open and...\,\, that's it.
+85|P|I'm going now (Leave)
+86|P|I used that device
+87|P|Can I contact to her somehow?
+88|Amanda Korhonen[ж]|Well,\,\, if you find that device?\,\, I think...\,\, I just don't know how to get it really.\,\, Maybe you can find it from somewhere.
+89|Amanda Korhonen[ж]|Really?\,\, Did you see her?\,\, Did you talk to her?\,\, Is she fine?
+90|P|Do you know where her body is?
+91|P|I couldn't find her.
+92|Amanda Korhonen[ж]|... you give that device to me!\,\, Please!\,\, If I find her body\,\,, maybe she can talk to me!\,\, I can pay\,\, 200 RM!\,\, That's best I can do right now...\,\, it's not much\,\,, but I really need to contact to her.
+93|Amanda Korhonen[ж]|Oh...\,\, can you give that device to me?\,\, Please...\,\, I will pay to you...\,\, I can give you...\,\, um...\,\, 200 RM!\,\, It's not much\,\,, but I really need to contact to her.
+94|P|Here take it. (Give)
+95|P|Sorry, I can't do that. I have to go now.
+96|Amanda Korhonen[ж]|Thank you!\,\, Maybe I can help you somehow later.\,\, I...\,\, I'm sure that I can get her to talk somehow...\,\, thank you so much!
+97|P|Whatever (Leave)
+98|P [ответ]|Do you know where Max Masher lives?
+99|Amanda Korhonen[ж] [ответ]|Um...\,\, sorry\,\,, I don't know anyone here very well.\,\,\, Maybe you should ask someone else.
+100|Amanda Korhonen[ж]|I.\,.\,.\,\,\, had a little quarrel with\, my\, neighbor.
+101|Amanda Korhonen[ж]|... there was some jar\,\, filled with\, dirt.\,\, I swear\, I saw a finger in there!\,\, But someone came in\,\, so I had to leave.
+102|Amanda Korhonen[ж] [ответ]|She's not really dead!\,\, Okay...\,\, it's just that...\,\, she's there!\,\, Somewhere...\,\, that woman in bedroom did something to Tea!\,\, She's still alive somehow!
+103|Amanda Korhonen[ж]|Why...
+104|Amanda Korhonen[ж]|Her body?\,\,\, No...\,\,\, I have no idea where her body is\,\,, but I could try to find it myself if...
+105|Amanda Korhonen[ж]|I was\,\, evicted from my\, own apartment.
+106|Amanda Korhonen[ж]|She\, started gossiping about things\,\, that were not true...\,\, like... 
+107|Amanda Korhonen[ж]|Well...\,\, she was\, carrying a bunch of radio receivers\, to her apartment.\,\, I have no idea\, why she would need so many of them.
+108|Amanda Korhonen[ж]|She seems to be\, a painter and\, um...\,\, well...
+109|Amanda Korhonen[ж]|It must be her.
+110|Amanda Korhonen[ж]|That's\,\, weird...\,\, I haven't seen her for\, a while\, and she was fine last time I saw her.
+111|Amanda Korhonen[ж]|I mean...\,\, "fine".\,\,\, She was\, already messed up then\, but that sounds weird.
+112|Amanda Korhonen[ж]|I was sure that there was something wrong with her...\,\, that finger...\,\, I'm trying to find something.
+113|Amanda Korhonen[ж]|So...\,\, yeah...\,\, bye. 
+114|Amanda Korhonen[ж]|W-\,what?\,\, Really?\,\, But...\,\, who?\,\,\, Why?
+115|Amanda Korhonen[ж]|You\, have to report this\, to the police!\,\,\, Maybe\, call\, 112?
+116|Amanda Korhonen[ж]|Oh damn.\,\, I didn't expect this!
+117|Amanda Korhonen[ж]|She probably killed that\, man...\,\, and I have no idea who that could be.\,\, I never saw anyone with\, her.
+118|Amanda Korhonen[ж]|Maybe...\,\, maybe you're\, right.
+119|Amanda Korhonen[ж]|Those cops probably don't care about this.\,\, They're always too busy.
+120|Amanda Korhonen[ж]|They're always too busy.\,\, I have heard that they just carry bodies away\, and they\, don't even investigate what happened.
+121|Amanda Korhonen[ж]|Jacob Cooper?\,\, Really?
+122|Amanda Korhonen[ж]|I\, have heard that name before...\,\, I just don't remember\, where.
+123|P|I told the police about the body
+124|Amanda Korhonen[ж]|Good.
+125|Amanda Korhonen[ж]|But what now?\,\,\, I really want to know what happened there.
+126|P|I can try to help you
+127|P|Sorry but I'm done with this
+128|Amanda Korhonen[ж]|Oh.
+129|Amanda Korhonen[ж]|Well...\,\,\, that's sad to hear.
+130|Amanda Korhonen[ж]|Here's something for your trouble.\,\,\, I hope it's enough.
+131|P|What are you going to do next?
+132|P|Bye (Leave)
+133|Amanda Korhonen[ж]|I'm going to ask if anyone knows anything about Jacob Cooper.\,\,\, I'm sure someone must know him.
+134|Amanda Korhonen[ж]|And...\,\,\, well\,, I think I'm going to ask the police\,\, if they can tell me anything about the body.
+135|P|Good luck! (Leave)
+136|Amanda Korhonen[ж]|I'm\,\, going to ask if anyone\, saw my neighbor with the man and if they know who he is.
+137|Amanda Korhonen[ж]|That's wonderful! 
+138|Amanda Korhonen[ж]|Maybe you should try talking to someone who might know something about this.
+139|Amanda Korhonen[ж]|I'm sure that\,\, the police knows something...\,\,\, maybe you can get some information from them.
+140|Amanda Korhonen[ж]|I'm\, really desperate to know what happened in that apartment...\,\,\, and who\, was that man so...\,\,\, good luck!
+141|Amanda Korhonen[ж]|There\, are some boards that don't look so\, durable.\,\,\, Maybe you can split those\, with an axe\,\, or something...\,\,\, so you can get to her storage.
+142|Amanda Korhonen[ж]|If\, the jar is still there...\,\,\, don't bring it to me.
+143|P|Before that, there was some woman in bed under the blanket
+# conv 71: Deekula/David Lund
+144|David Lund|If\, you've come to\, complain about\, my bridge that\,\, I\,\, built...\,\,\, you can go back to where you came from!
+145|David Lund|Good!
+146|P|I'm interested in buying your bridge
+147|David Lund|And what makes you think I would want to sell it?
+148|P|I know you've been dealing with a lot of complaints
+149|David Lund|I\, think it would be a great investment for both of us.\,\,\, So\,\,, how much would you pay for it?
+150|P|How much money do you want?
+151|David Lund|Hmm...\,\,\, I asked first.
+152|P|I can offer you peace of mind
+153|David Lund|That does sound\, very\, appealing.\,\,\, I'm not going to sell the bridge\,\,, but I can give you that\, free entry every time you\, cross the bridge.
+154|David Lund|So\,\,\,, let's hear your offer.
+155|P|I offer 10 OC
+156|P|I offer 1000 OC
+157|P|I offer 2000 RM
+158|P|I offer 3000 RM
+159|David Lund|If you turn it into real money\,\,\,, then we have a deal!
+160|P|Deal! (1000 RM)
+161|P|Maybe 500 RM?
+162|P|I have to think about it
+163|David Lund|Then go get it\, somewhere.
+164|David Lund|Okay...\,\,\, come back\, when you've\, decided.
+165|David Lund|800 RM.\,\,\, If you don't like that\,, get lost.
+166|P|Fine! (800 RM)
+167|David Lund|The bridge gate should open at no cost to you\, when you go near\, the gate.
+168|David Lund|I don't know if I'm ready to sell yet.\,\,\, It's been my only source of income\,\,, but maybe...
+169|David Lund|...\,\, I\, can give you\,\, free entry every time you\, cross the bridge if you pay.
+170|P|Because I will pay you a good amount of money for it
+171|P|I changed my mind (Leave)
+172|P|(Leave)
+173|P|But I want to buy the whole bridge
+174|David Lund|And I don't want to sell it...\,\,\, yet.\,\,\, I can give you a lifetime pass\,\, and then you can cross the bridge as many times as you want.
+175|David Lund|As long as you pay me.\,\,\, So how much\, would you be willing to pay?
+176|P|No deal (Leave)
+177|P|No bridge, no deal (Leave)
+178|David Lund|That sounds good!\,\,\, Do you pay now\,\, or later?
+179|P|Here (2000 RM)
+180|David Lund|That\, sounds absolutely...\,\,\, amazing!\,\,\, Deal!
+181|P|Here (3000 RM)
+182|David Lund|Do you pay now\,\, or later?
+183|David Lund|Haha...\,\, good joke...\,\, let's try again.\,\,\, How much do you offer?
+184|David Lund|What do you want?
+185|David Lund|Yes!
+186|David Lund|What now?
+187|P|Do you sell passports?
+188|David Lund|Oh\,\, you've heard of me.
+189|David Lund|Yeah\,\,, I sell passports.\,\,\, Made by me.
+190|David Lund|The passport costs only\, 100 RM.\,\, No refund.
+191|P|Here (Give 100 RM)
+192|P|I don't have enough money
+193|P|I don't want to buy it yet
+194|David Lund|Isn't it\, great?\,\, I did it all by myself.
+195|P|What the hell is this?
+196|P|Yeah, it's great
+197|David Lund|Thanks.
+198|David Lund|Remember...\,\, no refund.
+199|P|I want to buy a passport
+200|David Lund|It's hand made passport.
+201|P|I want my money back
+202|David Lund|I said\,\, no refund.
+203|David Lund|Now\, go away.
+204|P|I want to buy your bridge
+# conv 92: Deekula/DR. Pena MD
+205|Dr. Pena MD|Welcome.\,\,\, Please\, give me your\, turn number.
+206|P|Here (Give)
+207|P|I don't have it
+208|Dr. Pena MD|Sorry\,\,, but you must have\, a turn number.\,\,\, Take\, the turn number\,\, and wait for your turn.
+209|Dr. Pena MD|Yes?
+210|P|I still need something
+211|P|I'd like to ask something
+212|P|Could you tell me about fungal disease?
+213|P|Actually, I have to go (Leave)
+214|Dr. Pena MD|Of course.
+# conv 58: Deekula/Hank Möbelmann
+215|Hank Möbelmann|Hello!\,\,\, Do you want to buy furniture...\,\, or\, maybe sell?
+216|P|What do you have for sale?
+217|P|Maybe later. (Leave)
+218|Hank Möbelmann|Hello again!\,\,\, I have some nice\, new furniture for sale!\,\,\, Do you want to see them!
+219|Hank Möbelmann|What\, would you like to buy today?\,\,\, Or maybe\, sell something what you don't need anymore?
+220|Hank Möbelmann|Hello\,\, hello!\,\,\, Do\, you want to buy something new\,\, or old today?
+221|Hank Möbelmann|Me?\,\,\, Passports?\,\,\, What makes you think\, I'm selling passports?
+222|P|I heard that someone sells passports here
+223|P|Sorry I thought you were someone else
+224|Hank Möbelmann|Here?\,\,\, In Deekula C? 
+225|Hank Möbelmann|You're\,\, in the wrong place\, my dear customer\,\,\,, but\, I can help you\,\, get that passport.
+226|Hank Möbelmann|I mean\,\, if you pay about\,\, 100 RM.
+227|P|Here (Give 100RM)
+228|P|How about 50 RM?
+229|P|I don't have money to pay for that
+230|P|I'm not going to pay you
+231|Hank Möbelmann|Thank you!
+232|Hank Möbelmann|So...\,\,\, in the tenement B...\,\, there is a door with\, the surname\,\, Passmore written on it.
+233|Hank Möbelmann|Ring\, the doorbell\,\, and he should ask for\, the password.
+234|Hank Möbelmann|The password\, was...\,\,\, let\, me think about\,\, it.
+235|Hank Möbelmann|It was...\,\,\, Passless.
+236|Hank Möbelmann|Now...\,\,\, do you want to buy anything?
+237|Hank Möbelmann|No...\,\, but maybe\,\,\, 75 RM?
+238|Hank Möbelmann|Well\,\, then come back when you have\,\, 120 RM.
+239|P|Can you tell me where I can get a passport?
+240|Hank Möbelmann|Sure\,\, but it cost 120 RM.
+241|P|Here (Give 120RM)
+242|Hank Möbelmann|Well...\,\,\, if you change\, your mind...\,\,\, come back here and pay\,\, 120 RM.
+243|P|Here (Give 75RM)
+244|P|You mean Passmore?
+245|P|Does it cost?
+246|Hank Möbelmann|Yeah about\,\, 100 RM.
+247|Hank Möbelmann|You know him already?
+248|Hank Möbelmann|But you probably don't have\, the password?
+249|Hank Möbelmann|I can give it if you pay me about\,\, 100 RM.
+250|Hank Möbelmann|So...\,\,\, you know that\, Passmore lives\, behind the O-market\,\, in Tenement B?
+# conv 21: Deekula/Jim Nilsen
+251|Jim Nilsen|Wait...\,\,\, you shouldn't be here.
+252|Jim Nilsen|How did you get in?
+253|P|I'm leaving (Leave)
+254|P|From the door
+255|Jim Nilsen|I'll call the police if you don't leave.
+256|Jim Nilsen|The police will come soon.
+257|Jim Nilsen|The police is here!
+258|Jim Nilsen|But\, it should be locked...\,\,\, whatever.\,\,\, You have to\, leave.
+259|P|You can not be serious
+260|P|Yeah right
+261|P|I have not done anything wrong!
+# conv 149: Deekula/Julius Öberg
+262|Julius Öberg|Remember\,\,\, don't do anything funny.
+263|P|I want to ask something
+264|Julius Öberg|Fine...\,\, I\, will only answer one question.\,\,\, Think carefully\, about what you want to ask.
+265|P|Is there anything interesting here?
+266|P|Where does the boss live?
+267|P|What's up with the boss?
+268|P|Does your mother make good turnip soup?
+269|Julius Öberg|I\,\, said don't...\,\,\, say anything funny.
+270|Julius Öberg|He will be free soon.\,\,\, You know that right?
+271|Julius Öberg|Well...\,\,\, he has his own apartment\, upstairs\,\, where you can't get to.
+272|Julius Öberg|What\, question is that?
+273|Julius Öberg|Don't\,\, disturb me.
+274|Julius Öberg|What the hell do you want\, now?
+275|Julius Öberg|What are you still doing here?
+276|Julius Öberg|No...\,\,\, there is nothing interesting\, for you here.
+277|Julius Öberg|Now...\,\,\, do what you came to do\,\, and fuck off.
+278|Julius Öberg|But\,\, yes\,\, she makes excellent\, turnip soup.
+279|Julius Öberg|We\,\, put a present on his table.\,\,\, Socca Junior...\,\, good stuff.
+# conv 39: Deekula/Keijo Korsonen
+280|Keijo Korsonen [ответ]|Oh...\,\,\, hi Mark.
+281|P|My name is not Mark
+282|P|Yep that's me
+283|Keijo Korsonen|What\, a surprise!\,\,\, I\, haven't seen you\, since we used to go to the Osmo Hill bar together.
+284|Keijo Korsonen|You always have\, weird jokes\, Mark!
+285|Keijo Korsonen|How have you been? 
+286|P|I've been great, what about you? 
+287|Keijo Korsonen|I have retired\,\, and now\, I'm enjoying my\, free time!
+288|Keijo Korsonen|I'm now able to do all the things\, I never had time for before.\,\,\, Like...\,\, watching text TV!
+289|P|Not so great, what about you? 
+290|P|Sounds great!
+291|P|I'm not Mark
+292|Keijo Korsonen|That\,\, joke is getting old Mark...\,\,\, did you know\, that\, I'm\, retired?
+293|P|That's all you do?
+294|P|Mark is not my name
+295|Keijo Korsonen|I\,\, remember when you always told me that same joke!
+296|Keijo Korsonen|Yeah!\,\,\, Although\, it makes me feel...\,\, a little lonely.
+297|Keijo Korsonen|Well.\,.\,.\, no...\,\,\, I also watch\, Iskelmä TV.
+298|Keijo Korsonen|Anyway\,\,, it's nice to see you again\,\, after a long\, time!
+299|Keijo Korsonen|You can come and visit here whenever you want!
+300|Keijo Korsonen|Take these keys!
+301|Keijo Korsonen|Did\, you know that\, Mr. Pölkky is competing in the Iskelmä program this year.
+302|Keijo Korsonen|Osmo Olut tastes weirder\, than before.
+303|Keijo Korsonen|Nothing beats\, a good pantsdrunking.
+304|Keijo Korsonen|I feel like\,\, I'm stuck in time.
+305|Keijo Korsonen|I have been so\, lonely for\, a long time.
+306|Keijo Korsonen|I'm so glad you're here.
+# conv 56: Deekula/Max Masher
+307|Max Masher|Are you here to talk about mashing?
+308|P|[lua(Variable["PlayerFirstName"])], and yes, I'm here to talk about mashing
+309|P|I don't know, maybe?
+310|P|Um, no? (Leave)
+311|Max Masher|No mash\,\,, no talk!
+312|Max Masher|If\,\,\, mash\, is no...\,\,\, then talk is\, no!
+313|P|Okay, teach me to make some damn good mash!
+314|P|Very well... (Leave)
+315|Max Masher|MASH!\,\,\, Malts...\, mash!\, Carrots...\, mash!
+316|P|I see... (Leave)
+317|Max Masher|Turnips...\, mash!\,\, Potatoes...\,\,\, hey!\, Who are you?\,\, Why you're here?\, Mash?
+318|P|About that mashing...
+319|P|Yes! Mashing!
+320|Max Masher|Mash!\,\,\, Mashing!\,\,\, You need...\, one pack of sugar...\,\,\,
+321|P|You already told me that!
+322|P|Continue
+323|Max Masher|One pack of sugar,\, and one pack of yeast,\,\,\, one fantastic...\,\,\, gre-\,green...\,\,\, MUSHROOM!\,\,\, One pack\, of malts\,\, and\, water too!\,\, Mash!\,\,\, Sugar...\, mash!
+324|P|Water, one pack of sugar, mushrooms and malts! Bye! (Leave)
+325|Max Masher|And remember!\, Don't\, put\, them\, on\, the floor!\, MASH!\,\, Won't like that.\,\,\, That is very important!
+326|P|Okay...
+327|P|What were the ingredients again?
+328|Max Masher|When the...\,\, ingredient ratio is\, correct\,\,\,, start the\, mashing\, process.\,\,\, You can put more stuff into...\,\,\, into...\, mashing tun\, to make more\,\,\, MASH!\,\,\, But the ratio has to be\, correct!
+329|P|Is that all?
+330|P|Tell me the ingredients again
+331|Max Masher|When the\,\,\, MASH\,\,\, process is done...\, you can pour the\,\, MASH\, into a plastic\, bucket.\,\,\, Just cram the bucket in there!\, If MASH not come out.
+332|P|Can you give me the recipe on paper?
+333|P|I think we're done here (Leave)
+334|Max Masher|Mash!\,\, Here!\,\, Remember mashing!
+335|Max Masher|Mash!\,\,\, Is life!\,\, Mash is life!\,\, Life!
+336|P|Pentti sent me. Where is his mash?
+337|Max Masher|MASH!\,\,\, Potatoes...\,\, mash!\,\, Malts...\, mash!
+338|P|Ahem!
+339|Max Masher|Turnips...\, mash!\, Sugar...\,\,\, what!?\, What does Max's guest want?
+340|P|I already told you. Where is Pentti's mash?
+341|Max Masher|Mash!\,\, Pentti!\, Yes...\,\, sugar beets and...\,\, my...\,\, green\,\, slimy...\,\,\, mushrooms!\, MASH!\,\, Carrots...\, mash!
+342|P|What are you talking about?
+343|Max Masher|Shit...\, mash!\,\,\, Who\, are\, you?\,\,\, Max's\, guest?
+344|P|I already told. What sugar beets for Pentti?
+345|P|I already told. What mushrooms for Pentti?
+346|Max Masher|Mushrooms!\,\, MASH!\,\, Turnips...\, mash!
+347|Max Masher|Beets\,\, don't like...\,\,\, cold?\,\,\, They don't\,\,\, grow out there.\,\,\, Can't make...\, mash!
+348|P|Pentti pays you, so why don't you buy them then?
+349|Max Masher|MASHING\,\,\, takes\, all of...\,\, Max's\, time.\,\,\, Max can't buy!
+350|P|Fine! If you pay me, I'll bring you what you need
+351|Max Masher|I pay...\,\,\, you very\,\,\, good!\,\,\, Bring me...\,\,\, ten..\, packs of\,\, sugar!\, And...\,\, and...\,\, those...\,\, green...\,\,\, green?
+352|P|And?
+353|P|Mushrooms?
+354|Max Masher|Five packs of...\,\,\, yeast!\,\, For...\, mash!\,\,\, Pentti...\, doesn't like\,\,\, those...\,\, tasty\,\, green...\,\,\, MASH?
+355|P|I'll bring you 10 packs of sugar and 5 packs of yeast
+356|Max Masher|Mushrooms...\,\, MASH!\,\,\, Carrots...\,\, MASH!
+357|P|Ugh!
+358|Max Masher|Mash!\,\, Oh!\,\, Who are you?
+359|P|Pentti. Pays. You. For. Mash! Get. Sugar. For. Mash!
+360|Max Masher|Oh...\,\,\, kay!\, I pay you\,\, good\, then!
+361|P|I'm here for the stuff you need
+362|Max Masher|Mash!\,\, Stuff...\,\,\, Pentti?
+363|P|Yes, what did you need again?
+364|P|Here's the stuff! (Give stuff)
+365|P|Um... not now, sorry! (Leave)
+366|Max Masher|Ten...\,\,\, packs of sugar...\,\,\, and...\,\,\, five packs of yeast.
+367|Max Masher|Thank you!\,\, Thank you!\,\,\, Me...\,\,\, mash!\,\, Now!\,\, Potatoes...\, mash!\,\,\, Carrots...\,\,\, mash!\,\,\, Sugar...\, mash!...\, turnips...\,\, mash!
+368|P|Ahem! Where's my payment?
+369|Max Masher|Oh\,\,\, yeah!\, Here!\,\, Very good payment?\,\,\, Yes?
+370|P|Those materials cost me far more than that!
+371|P|Okay fine, if you don't really have anything else
+372|Max Masher|Uh...\,\, here?\,\, Good payment?
+373|Max Masher|Carrots...\, mash!\,\,\, Potatoes...\,\, mash!
+374|P|Erm...? When do you actually start mashing?
+375|Max Masher|Mash!\,\, Can't you...\, see?\,\, I\, already\, am!
+376|P|Doesn't look like it
+377|P|Oh, I see
+378|Max Masher|Sugar...\,\, mash!\,\, See?
+379|Max Masher|Yes...\,\, am...\,\, MASHING!\,\,\, Go tell Pentti,\,\, that...\, mash,\, is soon coming!
+380|P|Okay... I'll go notify Pentti (Leave)
+381|P|Hey you! Mash head! Teach me to make mash!
+382|P|Is everything okay?
+383|P|My name is [lua(Variable["PlayerFirstName"])]
+384|P|Mashing? What are you talking about?
+385|P|I have no idea what are you talking about
+386|P|Why you're talking like that?
+387|P|I have to go... (Leave)
+388|P|I'm leaving now... (Leave)
+389|P|You really like mashing?
+390|P|Okay? Bye (Leave)
+391|P|Um... Pentti wants his mash
+392|P|Someone really did hit you with hammer?
+393|Max Masher|No with hammer.\,\, Pera\, can't make good\, MASH!
+394|P|This is not going anywhere! (Leave)
+395|P|Damn it! Whatever (Leave)
+396|P|Are you okay? Where is Pentti's mash?
+397|P|Mash Pentti?
+398|P|I'm leaving! Damn! (Leave)
+399|P|Why not make a greenhouse or something?
+400|Max Masher|MASHING\,\,\, takes all of...\, Max's time.\,\,\, Max can't build!
+401|P|I'll bring you what you need
+402|P|I can't stand this! (Leave)
+403|P|Carrots?
+404|P|Oh come on! Stop this!
+405|P|I'm leaving right now!
+406|Max Masher|Carrots...\, MASH!\,\,\, Mushrooms...\,\, MASH!
+407|Max Masher|Malts...\, mash!\,\,\, Potatoes...\,\, mash!
+408|P|Are you going to pay or what?
+409|P|Really? Do you know how much that stuff costs?
+410|P|Can you stop talking that shit and start MASHING!
+411|P|He really did mash your brains out with that hammer
+412|P|What are you doing exactly?
+413|P|Yeah. When I have time (Leave)
+414|Max Masher|Hammer?\,\, Pera\, can't make good mash!\,\, No\, hammer\, for mash!\,\, Go tell Pentti...\,\, that hammer...\,\, mash\,\, is soon coming!
+415|P|That is still not enough!
+416|Max Masher|Good payment now?\,\, Yes?
+417|P|That's everything you have? Fine!
+418|P|I'm just wasting my time with you
+419|P|I'm going to mash your head with hammer if you don't pay more!
+420|Max Masher|Uh?\,\, No hammer good mash!\,\, Good payment!?
+421|P|That's better
+422|Max Masher|Turnips...\, mash!\,\, Potatoes...\, mash!\,\, Sugar...\, mash!\,\, Malts...\,\, huh?
+423|Max Masher|Who are you?
+424|Max Masher|Yes!
+425|Max Masher|Mash?\,\, Hammer no good...\,\, no good Mash!
+426|Max Masher|Pentti...\,\,\, mash!?\,\,\, Sugar...\,\, beets\,\,\,, and those...\,\,\, nice green\,\,\, mushrooms!
+427|P|I'm fucking done with this shit! (Leave)
+428|Max Masher|Watermelon...\, mash!\,\, Potatoes...\, mash!\,\, Mushrooms...\,\, huh?
+429|Max Masher|Pea...\, mash!\,\, Sugar...\,\, huh?
+430|Max Masher|Apple...\, mash!\,\,\, Sugar...\, mash!\,\, Turnips...\,\, huh?
+431|Max Masher|Carrot...\, mash!\,\,\, Malts...\,\, mash!\,\, Potatoes...\,\, huh?
+432|Max Masher|Who?
+433|Max Masher|Max's\, guest?
+434|Max Masher|Huh.\,.\,.\,\, it's\, you!
+435|Max Masher|Are you...\,\,\, who?
+436|Max Masher|Sugar...\, mash!\,\, Malts...\,\, Huh?
+437|Max Masher|Yeah!\,\, I knew you're here to talk about...\,\,\, mash!
+438|Max Masher|For a good...\,\,\, mash!\,\, You'll need like...\,\,\, one pack of sugar,\, one pouch, of delicious\, slimy\,\,\, glowing...\,\,\, green...\, mushrooms!
+439|Max Masher|Then\, pour those ingredients into...\,\,\, mashing tun\, from a small hatch\,\,\, on top of that...\, that\, MASH!\, Barrel!
+440|P|I already have those (Give)
+441|Max Masher [ответ]|Default
+442|Max Masher [ответ]|Hurt
+443|Max Masher|Turnip...\, mash!\,\,\, Banana...\, mash!\,\, Head...\,\, mash!
+444|Max Masher|Max\,\, not\,\, want\,\, head\,\, mash!
+445|Max Masher|Potatoes...\, mash!\,\, Computer...\, mash!\,\, Variable["PlayerFirstName"])]...\,\, mash!
+446|Max Masher|Max\, can't think...\,\,\, mash!
+447|P|I'm here about the moonshine cooperative
+448|Max Masher|Mash?\,\, Moonshine.\,.\,.\, no mash!
+449|P|Moonshine is made from mash
+450|Max Masher|Yes!\,\, Moonshine is mash!\,\,\, Max mash cooperative!\,\, Yes...\, Mash!
+451|P|So you're a member? Can you write me a recommendation?
+452|Max Masher|You mash\,\,, helped Max.\,\, Max mash\,\,, help you!
+453|P|There is a mashers' cooperative too?
+454|Max Masher|Max mash\,\, coop\,\,, mash\,, yes.
+455|P|Can you tell about them?
+456|P|Okay, later then (Leave)
+457|Max Masher|Mash coop\,\,, mashed by Arppe...\,\, A-Rovo?\,\,\, Arvo?
+458|Max Masher|I write you a very...\,\, mash...\,\, good letter!
+459|Max Masher|Mash!\,\, Here!\,\,\, Mashhh.
+460|P|You didn't give me anything?
+461|P|Thank you! (Leave)
+462|Max Masher|Uh...\,\, Sorry.\,\, Here\, a letter...\,\, mash!
+463|P|Umm... This isn't readable
+464|Max Masher|Max try again!\,\,\, Mash very hard!
+465|Max Masher|Here!\,\,\, Good...\,\, mash!
+466|P|This isn't going anywhere
+467|Max Masher|Mash\,\,, sorry.\,\, Max can\, write...\, not.
+468|P|Can you maybe call Arvo?
+469|Max Masher|MASH idea!\,\,\, Max\, call\, right now!
+470|P|Where is your phone?
+471|Max Masher|Phone\,\,, Mash?\,\, Mash\,-phone is\, here...?\,\, ...Somewhere?
+472|P|I'll find your phone and bring it back to you
+473|Max Masher|Max...\,\,\, mash\,\,, meanwhile.
+474|P|Use my phone
+475|Max Masher|Max\,\, no\, re-\,\,mash-\,ber\, Arvo...\,\,\, ma-\,number.\,\,\, Arvo\, in\, Max phone!
+476|Max Masher|Max phone?\,\, Is found?
+477|P|Not yet (Leave)
+478|Max Masher|Very\, good!\,\,\, Max\, call\, mash\,-coop\,\, now!
+479|Arvo Kirkastaja|Hello Max!\,\,\, I haven't heard\, from you\, in a while!
+480|Max Masher|H-\,hello?\,\, Mash!
+481|Max Masher|Why...\,\, Max calling Arvo?
+482|P|To recommend me
+483|P|(Listen)
+484|Max Masher|Max\, remember\,\,, yes!
+485|Arvo Kirkastaja|Max?\,\, You sound\, weird.\,\,\, Is\,\, everything\, alright?
+486|Max Masher|Max\, head got\, hit...\,\, mash\, hard.
+487|Arvo Kirkastaja|Max?\,\, Is\,\, everything alright?
+488|Max Masher|Max\, head...\,\, mash!\,\, Mash\, head hurt.
+489|Arvo Kirkastaja|Ouch...\,\, That sounds\,\, really\, bad!\,\, I\, hope\, you're feeling better soon!
+490|P|Ahem. You called to recommend me
+491|Arvo Kirkastaja|Wait...\,\, Wait...\, Did\, YOU\, hurt\, Max?\,\, Are you\, trying to\, force him to\,\, recommend you?
+492|P|No, I didn't!
+493|P|He was already like this
+494|P|Yes, it was me
+495|Arvo Kirkastaja|.\,.\,.\,You?\,\,\, YOU have\, no business\, joining the\, cooperative.\,\, EVER!
+496|P|No, but I wish I had
+497|Arvo Kirkastaja|Max\, can be\, a pain\, in the ass\, sometimes\,\,, but\, that's\, still\, a very cruel\, thing to say.
+498|Max Masher|Max\, no\, understand?\,\,\, Mash...\,\, mash...\,\, mash...\,\, Mash\, call to\, recommend...\,\, [lua(Variable["PlayerFirstName"])].
+499|Arvo Kirkastaja|Very well...\,\, Max.\,\, Take care!
+500|Max Masher|Max\, head\,\,\,-mash\, still\,\, hurt.
+501|Arvo Kirkastaja|Have you\, seen a doctor yet?
+502|Max Masher|Pera...\,\, Max visit\, Doctor Pera.\,\,\, Pena fix Max mash.
+503|Arvo Kirkastaja|Uh...\,\, good to hear.
+504|Max Masher|Max remember now!
+505|Max Masher|[lua(Variable["PlayerFirstName"])] help Max make mash.\,\,\, Mash...\,\, Good mash!\,\, Mash good?\,\, Max recommend [lua(Variable["PlayerFirstName"])]!
+506|Arvo Kirkastaja|It\, certainly looks like\, you're trying to\, extort\, poor Max!
+507|P|Pentti sent me to check on Max
+508|Arvo Kirkastaja|Ah...\,\, that makes sense.\,\, Sorry for\, accusing you.
+509|P|Max promised to recommend me, but he's... hard to work with
+510|P|No, I promise!
+511|Max Masher|[lua(Variable["PlayerFirstName"])]\, no hurt Max...\,\,\, [lua(Variable["PlayerFirstName"])] help Max!...\,\,\, [lua(Variable["PlayerFirstName"])] very mash!
+512|Arvo Kirkastaja|I see...\,\, he was never the sharpest pen in the pencil case.
+513|Arvo Kirkastaja|However\,\,, I\, need to\, hear it from\, Max.
+514|Arvo Kirkastaja|Max?\,\,\, Is [lua(Variable["PlayerFirstName"])]\, worthy?
+515|Max Masher|[lua(Variable["PlayerFirstName"])] very mash!\,\, [lua(Variable["PlayerFirstName"])] help\, Max!
+516|Arvo Kirkastaja|Hmm...\,\, I'm\, not entirely convinced...\,\, but\, if that's\, what you say\,\,, Max...
+517|Max Masher|You\, no\, mash...\,\, help\, Max!\,\,\, Max\, no\,\, mash...\,\, help\, you.
+# conv 32: Deekula/Max Masher Door
+518|P|(Knock the Door)
+519|P|Hello!?
+520|P|It's the police! Open the door!
+521|???|...\,\,\,\, No\, mash bad!\,\,\, Mash\, has no done bad!\,\,\, Wrong door\, police!
+522|???|...!\,\,\,\, No door mash!\,\,\, No!\,\,\, Shhh...\,\,\, good door is silent door.
+523|P|(Try kick the door open)
+524|P|I just want to talk to you
+525|P|Let me in or I'll kick the door open!
+526|???|Door\, is not bad mash!\,\,\, No mash door!
+527|P|I'm going to do it if you don't let me in!
+528|???|Do mash?\,\,\, Police want mash?\,\,\, Police mash is good mash!\,\,\, Watermelon...\,\, mash!\,\,\, Potato...\, mash!\,\,Turnip...\,\, mash!\,\,\, Poop...\,\, mash?
+529|P|I don't want poop mash! Pentti sent me!
+530|???|Pentti...\,\,\, mash?\,\,\, No police mash?\,\,\, Carrots...\,\, mash!\,\,\, Yeast...\,\, mash.\,\,\, Water...\,\, mash!\,\,\, Sugar...\, mash!\,\,\, Carrot...\,\, mash!
+531|P|Police mash? Are you threatening me?
+532|P|Yes, that is correct! I need mash!
+533|???|Apple...\, mash!\,\,\, Mash!?\,\,\,\, Need...\,\, mash!\,\,\,\, Why didn't you say right away?\,\,\, Max opens the door!
+534|???|Door is open!
+535|???|No no...\,\,\, Max no mash police!\,\,\, Police mash want?
+536|???|Want to talk about mash?\,\,\,\, Malts...\,\, mash!\,\, Yeast...\, mash!\,\,\, Water...\,\, mash!\,\, Sugar...\,\, mash!
+537|P|I don't want mash! Pentti sent me!
+538|???|Pentti mash?\,\,\, What mash?\,\,\, Want mash Pentti?\,\,\, What mash you want?
+# conv 14: Deekula/Max Masher Ground
+539|P|I'm so sorry! Are you okay?
+540|P|Why are you lying on the ground? What happened?
+541|P|Now is not a good time to sleep
+542|Max Masher|Max\,\, not\,\, feeling\,\, well.\,\,\,\, Max\,\, can't\,\, mash\,\, anymore.
+543|P|Sorry, maybe I can start making the mash?
+544|P|You have to start to make mash. Pentti's order.
+545|P|Why you can't make mash?
+546|Max Masher|Max loves mash!\,\,\, Max\,.\,.\,.\,\,\, can't mash!\,\,\,\, Mash is needed\,\, and Max can't mash!
+547|Max Masher|Max\, is\, hurt!\,\,\, Max told already to human\, mash!\,\,\, Human\, mash?\,\,\, Apple\, mash?\,\,\, Potato\, mash?
+548|Max Masher|Pentti's mash?\,\,\, Max's mash?\,\,\, Max can't mash!
+549|Max Masher|Here keys to the mash room!\,\,\,\, You be good masher!
+550|Max Masher|Max has to punish evil door!\,\,\, Maybe...\,\,\, human mash\,\, can punish\, the evil door?
+551|Max Masher|You hurt Max!\,\,\, Max not happy!
+552|P|It was an accident! I'm so sorry
+553|P|It was the door's fault! Bad door!
+554|P|Whatever. I'm going to make mash myself
+555|Max Masher|Max\, not gonna help\, bad mash man!\,\,\, Max has to rest!
+556|P|Yeah whatever (Leave)
+557|Max Masher|Door's fault?\,\,\, Bad door!\,\,\, Max is\, angry to bad door!
+558|Max Masher|Naughty door\,\, is noisy door!\,\,\,\, Evil door is\,\, violent door!
+559|Max Masher|What\, does Max's guest want?\,\,\, Max\,\, is hurt now.\,\,\, Can't make mash.
+560|Max Masher|Max not sure if max believes.\,\,\, Does the human mash\,\, have any proof?
+561|P|You were behind the door when I tried to open it
+562|P|I was just trying to open the door
+563|Max Masher|Max\, not\, stupid\, mash!\,\,\,\, The door\, opened too fast\, and too\,.\,.\,.\,\,\, strong?\,\,\,\, Strong\,\, door?\,\,\, Door\,\, mash?\,\,\, Turnip\,\, mash?
+564|P|Yes! Door was too strong
+565|P|The door was stuck
+566|Max Masher|No door stuck!\,\,\, Mash stuck\, in the door?\,\,\, Max's\, door\, is\, good door!
+567|Max Masher|Turnip mash guest must leave now!\,\,\, Max has to rest!
+568|P|Maybe I could make up for this somehow?
+569|Max Masher|Potato mash?\,\,\, Guest\,\, mash\,\, blames Max?
+570|Max Masher|That makes Max angry mash!
+571|Max Masher|Now\, Max has to\, rest...\,\,\, here.\,\,\, Turnip mash...\,\,\, sugar mash...\,\,\, potato mash...\,\,\, mushroom mash...\,\,\, mash.
+572|Max Masher|Max's head hurt!\,\,\, Head mash?\,\,\, Max\,\, not\,\, want\,\, head\,\, mash!
+573|P|No! You punish the evil door!
+574|P|Yeah sure. I'll do that
+575|Max Masher|Max\, will\, do\, that.\,\,\,\, Max punish\, the evil door\, when Max is\, ready.
+576|Max Masher|Max is happy!\,\,\, Door mash!\,\,\, Tell to door\, that\, he is bad door!
+577|P|Yes! Me punish the evil door!
+578|P|I will refuse

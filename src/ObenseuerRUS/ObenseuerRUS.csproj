@@ -1,0 +1,88 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Основа — Starter/MyFirstMod.csproj фреймворка v0.12.0-beta (framework mod, net472). -->
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>ObenseuerRUS</AssemblyName>
+    <RootNamespace>ObenseuerRUS</RootNamespace>
+    <Version>0.3.0</Version>
+    <Nullable>disable</Nullable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>$(ManagedDir)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(ManagedDir)\UnityEngine.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(ManagedDir)\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(ManagedDir)\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>$(ManagedDir)\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(ManagedDir)\Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Localization">
+      <HintPath>$(ManagedDir)\Unity.Localization.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>$(ManagedDir)\Unity.ResourceManager.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>$(ManagedDir)\Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(ManagedDir)\Newtonsoft.Json.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="ObenseuerCore">
+      <HintPath>$(FrameworkDll)</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <Target Name="CheckObenseuerSetup" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(ManagedDir)\Assembly-CSharp.dll')" Text="Obenseuer не найден в GameDir '$(GameDir)'. Укажите папку игры: -p:GameDir=&lt;папка&gt; или переменная OBENSEUER_GAME_DIR." />
+    <Error Condition="!Exists('$(FrameworkDll)')" Text="Не найден ObenseuerCore.dll ('$(FrameworkDll)'). Установите фреймворк v0.12.0-beta в игру или выполните tools\fetch-deps.ps1." />
+  </Target>
+
+  <!-- Копирование в игру по желанию: dotnet build -c Release -p:DeployToGame=true -->
+  <Target Name="DeployToGame" AfterTargets="Build" Condition="'$(DeployToGame)' == 'true' And Exists('$(GameDir)\BepInEx\plugins')">
+    <ItemGroup>
+      <RusTranslations Include="$(MSBuildThisFileDirectory)..\..\translations\*.json" />
+      <RusFonts Include="$(MSBuildThisFileDirectory)..\..\fonts\*;$(MSBuildThisFileDirectory)..\..\tools\font\make_cyrillic_font.py" />
+    </ItemGroup>
+    <MakeDir Directories="$(GameDir)\BepInEx\plugins\$(AssemblyName)\translations" />
+    <Copy SourceFiles="@(RusFonts)" DestinationFolder="$(GameDir)\BepInEx\plugins\$(AssemblyName)\fonts" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFiles="$(GameDir)\BepInEx\plugins\$(AssemblyName)\$(AssemblyName).dll" />
+    <Copy SourceFiles="@(RusTranslations)" DestinationFolder="$(GameDir)\BepInEx\plugins\$(AssemblyName)\translations" />
+  </Target>
+
+</Project>

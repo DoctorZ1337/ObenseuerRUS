@@ -1,0 +1,104 @@
+# conv 88: Police/Police
+1|Police|Hey, I have a few questions for you.
+2|P|Fine, you got me, I'll pay what I owe ([lua(GetCrimeFineAmount())] RM)
+3|P|(Bribe -  [lua(CalculateBribe())] OC)
+4|P|(Run)¶
+5|P|I'm innocent
+6|Police|It would be best\, if you came with me.
+7|Police|You\, have a crime to report?\,\,\, Otherwise\,\,, leave me alone.
+8|Police|You're all set\,\,, but let this be the last time of committing\, any crime.
+9|Police|That'll do
+10|Police|What do you think\,\,, you're doing?
+11|P|What's the time?
+12|Police|Well...\,\, [lua(TellTimeResponse(-1))].
+13|P|(Leave)
+14|P|I found a dead body!
+15|Police|That happens around here...\,\, where?
+16|P|In Deekula apartment B3
+17|Police|I should have guessed...\,\, call 112\,\,, let the Fungal Treatment Unit deal with this.
+18|Police|Deekula B has had several cases\, where people have died from fungal disease.
+19|P|Yes, I do. I would like to turn myself in
+20|Police|Well\,\,, let's see what we can do about it.
+21|P|Pay fine ([lua(GetCrimeFineAmount())] RM)
+22|P|Go to jail ([lua(GetSentenceLengthPreArrest(0.7))])
+23|P|Nevermind (Leave)
+24|P|I want to report someone
+25|Police|Who?
+26|P|Nobody
+27|P|Passmore
+28|Police|Stop wasting my time!
+29|Police|And what has this Passmore done?
+30|P|He plans to rob a bank
+31|P|Nothing at all
+32|Police|Is this\,\, some kind of joke?
+33|Police|What?
+34|Police|Well...\,\, I think it's time to go to prison\,, buddy.
+35|Police|Are you sure about this?\,\,\, It's\, a serious accusation.
+36|P|I wouldn't lie about something like this
+37|P|I was just kidding
+38|Police|Hah...
+39|Police|Alright\,\,, we'll investigate this matter immediately.
+40|Police|I knew there was something suspicious about that Passmore guy...
+41|Police|In the meantime\,\,, I\, advise you to stay away from Passmore\,\, and not to get involved in\, any illegal activities.
+42|P|In Tenement A apartment A1
+43|Police|Oh damn...\,\, call 112\,\,, let the Fungal Treatment Unit deal with this.
+44|P|But he has been murdered
+45|Police|Really?
+46|Police|Well...\,\,\, we're sending\, a team to investigate it.
+47|P|Nowhere (Leave)
+48|P|In the house next to Deekula C
+49|Police|Well...\,\, you better call\, 112...\,\, so the Fungal Treatment Unit can deal\, with\, that.
+50|P|She has been murdered
+51|Police|Oh...
+52|Police|Um...
+53|Police|I'm sending\, a team to investigate it.
+54|P|There is also a corpse in their storage
+55|Police|How do you know all this?
+56|Police|Actually\,\,, I don't want to get involved any further.
+57|Police|My\, buddies might come\,\, and ask you\, questions\, about the murders later.
+58|Police|So...\,\, please be available.
+59|P|There is also body in Tenement A apartment A1
+60|Police|How many\,\, dead bodies have you found?
+61|Police|Look...
+62|Police|... we'll\,\, put you in jail for a long time\,\, if you're just kidding.
+63|P|There is also body in the house next to Deekula C
+64|Police|Goddammit.
+65|Police|We'll handle that too...
+66|P|In the storage next to Deekula C
+67|Police|If the body has fungal disease\,\,, call 112.
+68|Police|Seems...\,\, that...\,\, you are actually\, telling the truth\, for once.
+# conv 43: Police/Prison guard
+69|Prison guard|Wake up scum!\, Here's your daily portion.
+70|P|Why am I here? What did I do!?
+71|P|LET ME OUT!!! PLEASE!!!
+72|Prison guard|Shut it!
+73|P|How long do I have to stay here?!
+74|Prison guard|You're a lowly criminal.\,\, You can ask the judge for details.
+75|P|When do I receive the next portion?
+76|Prison guard|Daily!\,\,\, So...\, next one will be in\, 24 hours!
+77|Prison guard|For...\,\,\, [lua(AskForSentenceTime())] hours.
+# conv 419: Police/Police Bookstore
+78|Police|Hey\,\,, buddy!\,\,\, Time to\, wake up!
+79|P|Ugh, why are you here?
+80|P|Uh, where is Welhö?
+81|Police|You had\,a psychotic break in\, a bookstore\,\,, that's\, what happened.
+82|Police|The bookstore lady told me\, some\, junkie wandered into\, her staff area\,\,, started\, throwing her\, things at\, the walls\,, and\, wouldn't stop\, screaming about\, 'losing the game'
+83|Police|You were hallucinating\, all by\, yourself\,, buddy.\,\, The bookstore lady\, didn't see\, anyone else\, come back here.
+84|P|Ughhh, I didn't lose the game!
+85|P|Umnh, it was Welhö's fault!
+86|Police|Yeah, yeah…\,\, tell it to your\, lawyer.
+87|Police|Are you sure\,, buddy?\,\,\, Maybe there was\, actually a giant\, green mushroom\, behind\, all this?
+88|P|I just fell, nothing illegal happened (Bribe -  [lua(CalculateBribe())] OC)
+89|P|It was the shrooms!
+90|P|It wasn't my fault! Blame Welhö!
+91|Police|Sure it was.\,\, Let's\, get you to\, a cell to\, calm down.
+92|Police|Sure\,\,, I'll go\, talk to him\, and ask\, if you accidentally\, bought one of his\, moldy soups.\,\,\, But\, right now\,, let's get you\, to a cell to\, calm down.
+93|Police|Yeah\,\,, maybe you're\, right.\,\, Gravity's a real menace\, around here.\,\, I'll\, just confiscate this\, money you\, dropped.
+94|Police|Now\,\, get out of my sight.
+95|Police|Let's\, get you to a cell to\, calm down.
+96|Police|Are you\, seriously trying to\, bribe\, a police officer\, right now?
+97|Police|Get up\,\,, you're\, coming with me.
+# conv 478: Police/Security Guard
+98|P|I didn't do anything!
+99|Police|We\, will\, sort this with\, the police.
+100|Police|That'll do.

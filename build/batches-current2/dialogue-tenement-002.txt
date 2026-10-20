@@ -1,0 +1,264 @@
+# conv 95: Tenement/Speakeasy/Speakeasy Door
+1|???|...\,\,\,\,\,\,\, yes?
+2|P|I'm [lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])]
+3|???|...\,\,\, hello.
+4|???|...\,\,\, yeah?
+5|???|...\,\,\, so?
+6|??? [ответ]|Hmph!\,\,\, I don't tell my name to\, strangers.\,\, Bye!
+7|??? [ответ]|I will let you in\, when you have access here\,\,, but before that...\,\,\, bye.
+8|??? [ответ]|And I'm Mr. Door Phone...\,\, hmph.
+9|??? [ответ]|Hmph!\,\,\, Didn't I already tell you that I'm\, Mr. Door Phone.\,\,\, Bye!
+10|P|I'm Malone's assistant
+11|???|I\,\, haven't heard from\, Malone\, for a long time...
+12|???|Come\, inside.
+# conv 185: Tenement/Tenement A/Ayla Green
+13|Ayla Green|My\, husband is the boss of this\,\, factory.
+14|Ayla Green|He is usually working in his\, office room.
+15|Ayla Green|My husband may seem\,\, strict\,\,, but he's really nice\, once you get to\, know him.
+16|Ayla Green|As soon as we have enough money saved\,\, we will move somewhere\, warm.
+17|Ayla Green|I hate this job.
+18|Ayla Green|Alice?
+19|Ayla Green|Sorry\, I don't really know my neighbors.
+20|Ayla Green|Maybe you should ask\, my husband\,\, if he knows something.
+# conv 183: Tenement/Tenement A/Doorphone Lantern
+21|???|Are you coming here to work?
+22|P|Yeah, let me in
+23|P|What kind of work?
+24|???|Mushroom lanterns\, manufacturing.
+25|???|So\,\,, are you interested\, or not?
+26|P|Nope. I'm not interested at all
+27|???|Come on in then.
+28|???|Then\, why are you bothering me?
+29|P|I want to come to work
+30|P|Because I hate you
+31|???|But you just said you're not\, interested.
+32|P|Yeah, I'm not interested
+33|???|Stop this bullshit right now!
+# conv 196: Tenement/Tenement A/Emma-Maija Taylor
+34|Emma-Maija Taylor|You're here to buy a cat?
+35|P|Yes (Trade)
+36|P|Nevermind (Leave)
+37|Emma-Maija Taylor|Alice?
+38|Emma-Maija Taylor|Is she a cat?
+39|P|No, she's human
+40|Emma-Maija Taylor|Sorry\,\,, but I've only seen cats lately.
+# conv 163: Tenement/Tenement A/Fredrik
+41|Fredrik|Oh\,\,, you're finally here.
+42|Fredrik|... I need you to help me to get this\, experiment done.
+43|P|Experiment?
+44|Fredrik|You must be\, wondering\,\, what this place is.
+45|Fredrik|I'll tell you briefly\, what we do...\,\,\, what\, I do here.
+46|Fredrik|All the others\, are\,\, dead...\,\,\, and\,\, I'm\, the only one\, left...
+47|Fredrik|... anyway...
+48|Fredrik|... I'm trying to find a cure\,\, for a fungal disease\,\,, because the government hasn't\,\, done anything for\, years.
+49|Fredrik|And now information\, about red mushrooms has\,\, become public.
+50|Fredrik|Doesn't it sound\,\,\, weird?\,\, Red mushrooms?
+51|Fredrik|There have been\,\, rumors\, about those\, red mushrooms for\, a long time\,\, and now it turned out\, that they really exist.
+52|Fredrik|Maybe\, they're hiding\,\, blue mushrooms somewhere too...
+53|Fredrik|... but\,\, anyway...
+54|P|Government hasn't done anything for years?
+55|Fredrik|Yeah\,\,, the government\,\, or anybody else.
+56|Fredrik|You'd think they'd have found\, a proper cure\,\,, right?
+57|Fredrik|I know something is going on\,\, and the answers to it\, can be found in the underground place\,\, that Hanss found.
+58|P|Yeah, I'm ready
+59|P|Who is hiding blue mushrooms?
+60|Fredrik|Well\,\,, I haven't seen them\,\, myself.
+61|Fredrik|I don't know if Anya warned you\,\,, but we know that\, someone has made sure\, that information about\, the underground place\,\,, Hanss found\,, does not spread\,\, to the public.
+62|Fredrik|But\,\, we know something has changed\,\, and they haven't been seen\,\, lately.
+63|P|Who are you talking about and what is that place?
+64|Fredrik|There was\,\, a person working with us\,\, who went to talk about...\,\, things to outsiders...
+65|Fredrik|... and\,\, he disappeared soon after.
+66|Fredrik|I can tell you more about myself\,\, when the test is\, done.
+67|Fredrik|Experiment\, where we need\,\, the mushrooms you brought.
+68|Fredrik|Excellent.
+69|Fredrik|I want to test it\, in a mixture\,\, that I have been\,\, developing\, for a long time.
+70|Fredrik|I\, have a body\,\, in the next room.\,\,\, Don't worry\,\, she is already\,\, brain dead.
+71|P|Wait a minute. Corpse?
+72|Fredrik|Yes\,\,, a body that has\, a fungal infection.
+73|Fredrik|She was one of my patients\,\, that I tried to\, cure.
+74|Fredrik|She\,\, agreed that\, I can use her body\,\, for experiments\, if she is no longer in\,\, this world.
+75|Fredrik|I want you to go to the room\,\, and follow my instructions.
+76|Fredrik|At the same time\,\,, I follow the procedure from\, my computer.
+77|Fredrik|Understood?
+78|P|Let's do this later
+79|P|I don't want to do this
+80|P|What will I get as a reward?
+81|Fredrik|I can give you\,\, a small monetary reward.
+82|Fredrik|Let's\, say...\,\,\, 1500 RM.
+83|Fredrik|Do you have any other questions\,\, or are you ready to\, start the experiment?
+84|Fredrik|And\,\, I can also sell you some\, medicine\,\, and other items\,\, if you need.
+85|Fredrik|Are you ready?
+86|Fredrik|Let me know when you're ready.
+87|Fredrik|Good!
+88|Fredrik|Oh\,, well...\,\,\, tell me\,\, if you change your mind.
+89|Fredrik|Are you ready now?
+90|Fredrik|What do you want?
+91|Fredrik|Yes?
+92|Fredrik|What now?
+93|Fredrik|What do you want now?
+94|Fredrik|I'll\, unlock the door for you.
+95|Fredrik|I\,\, really didn't expect\, that...
+96|P|What the hell just happened?
+97|Fredrik|Honestly\,\,, I'm not\, entirely sure myself.
+98|Fredrik|She tried\, to...\,\, stand up.
+99|Fredrik|It seemed like she\, became\, a bit more...\,\, aggressive\, and her body couldn't\, take it.
+100|P|What next?
+101|Fredrik|For now\,\,, take that red mushroom extract to\, Anya.
+102|Fredrik|Meanwhile I'll be reporting the details of the test to\, her.
+103|Fredrik|Also\,\,, be careful with that\, extract.
+104|Fredrik|I need you to take that\, red mushroom extract to\, Anya.
+105|Fredrik|I...
+106|P|Why did you make me do that?
+107|Fredrik|Sorry...\,\, I wasn't really sure\, if anything would happen.
+108|Fredrik|Well\,\,, at least not that\, fast.
+109|Fredrik|And...\,\, I could use a little\, help.
+110|P|Sure, what do you need me to do?
+111|Fredrik|I need you to bring\,\, some medicine\,\, to my\, patient.
+112|Fredrik|Her name is\, Pia\,\, who's been able to live with a fungal disease for\, a long time.
+113|Fredrik|Usually her friend\,\,, Alice\,, brings her the medicine\,\, but I haven't seen her for\, a while.
+114|Fredrik|Also\,\,, take these keys and the medicine.
+115|Fredrik|Those keys\, are to her house\,\, which is next to\, Deekula C.
+116|Fredrik|It's\,\, a makeshift two-story house\, with a balcony.
+117|P|Sorry, but I don't have time for that
+118|Fredrik|Oh\,\,, okay.
+119|Fredrik|I'll probably handle it myself then.
+120|Fredrik|Here's a reward.
+121|Fredrik|Oh\,\,, I almost forgot.
+122|Fredrik|Also\,\,, here's a reward\,\, and a little extra too.
+123|Fredrik|I can't believe you lost\,\, the sample...
+124|Fredrik|... I\,\, should have handled this\, myself.
+125|Fredrik|I have to tell Anya what\, happened.
+126|Fredrik|You should also go talk to her.
+127|Fredrik|Meanwhile\, I...\,\, have\, to think about what\, to do next.
+128|Fredrik|Oh well...
+129|Fredrik|Maybe it was\, too much to ask you to\,\, handle this.
+130|Fredrik|You should go talk to Anya now.
+131|Fredrik|I'm going to do the experiment myself in the meantime.
+132|Fredrik|And then\,\, I'm going to report the details of the test to\, her.
+133|P|I have news about Pia
+134|Fredrik|Is she okay?
+135|P|I gave her the red extract
+136|Fredrik|You\, what?
+137|P|She was not at home
+138|P|She's dead
+139|Fredrik|Really?
+140|Fredrik|That's weird...
+141|Fredrik|Maybe she\,\, went somewhere\, with Alice...
+142|Fredrik|Anyway\,\,, I don't want to bother you with this\, any more than\, I have to.
+143|Fredrik|Here's your reward.
+144|Fredrik|Oh...
+145|Fredrik|Well\,\,, I\, expected this to happen\,\, eventually\,\,, but\, it's...
+146|Fredrik|... it's\, sad to hear that it happened so\,\, suddenly.
+147|Fredrik|Is Alice okay?
+148|P|I didn't see her
+149|Fredrik|Yeah...\,\,\, I wonder where she went...
+150|P|I heard that Alice has been here with someone else
+151|Fredrik|Here?
+152|Fredrik|I\, don't know who said that\,\,, but she has always come here\, alone.
+153|P|But I heard that he came to Tenement A with someone
+154|Fredrik|Well\,\,, I'm not the only one who lives here in Tenement A.
+155|Fredrik|So...\,\, maybe\, you should ask someone else.
+156|Fredrik|I\,\, have to continue my work now.
+157|Fredrik|I hope you find Alice.
+158|P|Pia is dead
+159|Fredrik|I\,\, should have guessed this...
+160|Fredrik|She had managed to\, live...\,\, surprisingly long\, with\, the fungal disease.
+161|P|I think she has been murdered
+162|Fredrik|But...\,\, who did it?
+163|Fredrik|Did you call\, the police?
+164|P|Yeah, I called the police
+165|Fredrik|Good.
+166|P|Well, not yet
+167|P|No, I'm not going to call the police
+168|Fredrik|You should call them\, soon.
+169|Fredrik|Let them handle this.
+170|Fredrik|But\, why?
+171|Fredrik|I\, think you should...
+172|Fredrik|If they can...
+173|Fredrik|Where is Alice?
+174|P|I found her dead in their storage building
+175|P|I think I found her body
+176|Fredrik|I\,\, wonder where she is\, righ now...
+177|Fredrik|Have you\, asked Alice's...\,\, friends\,\, if they know\, anything?
+178|P|I don't think she died of fungus
+179|Fredrik|Was\, she...\,\, murdered?
+180|P|Friends?
+181|P|You mean Joel Hietala?
+182|Fredrik|I think\, their last name is...\,\, Hietala.
+183|Fredrik|I just remembered that\,\, I saw Alice\, in the stairwell\,\, talking with them.
+184|P|Joel and who else?
+185|Fredrik|I...\,\, I\, don't know.
+186|Fredrik|Some woman\,\, who lives in\, Hietala's apartment.
+187|Fredrik|I heard\, she works in the mines.
+188|P|I didn't know that there was someone else too
+189|Fredrik|Well\,\,, some woman\,\, lives in\, Hietala's apartment.
+190|Fredrik|So...\,\, maybe you should go there\,\, and check if she is there\,\, or wait for her to come back home.
+191|Fredrik|I don't know her name\,\,, but...\,\, she has\, blonde hair...\,\, and...
+192|Fredrik|... I don't\, really remember\, what she looks like.\,\, I'm sorry.
+193|Fredrik|Anyway\,\,, I have to continue\, working...
+194|P|I knew someone else lives with Joel
+195|Fredrik|Yeah...\,\, I\, think\, that was their\, last name.
+# conv 192: Tenement/Tenement A/Fredrik Operating Room
+196|Fredrik|There is a table where is a device with a small hatch.
+197|Fredrik|Put those red mushrooms inside that device.
+198|Fredrik|What are you doing?
+199|Fredrik|I told you put those red mushrooms inside that device on the table.
+200|Fredrik|Perfect. Now, look for the start button on the device.
+201|Fredrik|It should be right next to the hatch.
+202|Fredrik|Press that start button.
+203|Fredrik|Are you tired or what is the problem?
+204|Fredrik|Great, now we wait for the machine to do its thing.
+205|Fredrik|Grab that extract bottle.
+206|Fredrik|I told you take that extract bottle.
+207|Fredrik|Next, find an empty syringe.
+208|Fredrik|Once that's done, you'll see an IV bag that is attached to the patient.
+209|Fredrik|It’s attached to the patient and filled with blood.
+210|Fredrik|Carefully inject the extract into the IV bag using the syringe.
+211|Fredrik|And now let's see what happens.
+212|Fredrik|We have to talk about this.
+213|Fredrik|BROKEN
+# conv 190: Tenement/Tenement A/Fredrik Operating Room Phone
+214|Fredrik|Yeah?
+215|P|Let me out!
+216|P|I lost the extract
+217|Fredrik|Are you sure?
+218|Fredrik|You will lose your reward.
+219|P|Yeah, let me out now!
+220|P|Fine, I'll do the test
+221|Fredrik|Without it we cannot complete the test
+222|P|Yeah, let me out
+223|P|I was just kidding
+# conv 188: Tenement/Tenement A/Fredrik Recording
+224|Fredrik|It's\, day 146\, since we initiated the experiment.
+225|Fredrik|The fungal infection has\,\, spread\, extensively throughout his body\,\,, causing severe pain\,\, and discomfort. 
+226|Fredrik|The patient continues to cry out in\, agony\,\,, but he is still able to talk to us\, sometimes.
+227|Fredrik|I\,\, still think we've made\,\, a grave mistake.
+228|Fredrik|Dr. Evensen methods are\, unorthodox\,\,, to say the least\,\,, relying on a book\, written by...\,\, whatever the name was.\,\, Holt?\,\, Hall?
+229|Fredrik|The sound\,\, of that...\,\,\, device drives me crazy.
+230|Fredrik|Where did he even get that book.
+# conv 186: Tenement/Tenement A/Johannes Eskola
+231|Johannes Eskola|Damn Jimi broke down\, the door\,\, and I\, don't know where the heck\, he\, is right now.
+232|Johannes Eskola|I hope you don't work at that\,\, mushroom lantern factory.\,\,\, I don't trust those\, guys\,\, and they make a lot of noise too!
+233|Johannes Eskola|Don't go to\, Jimi's room.\,\,\, It's\, dangerous there.
+234|Johannes Eskola|There is\, a duck vending machine upstairs.\,\,\, Feel free to use it.
+235|Johannes Eskola|Have you ever played darts?\,\,\, I'm\, quite good at it.
+236|Johannes Eskola|Yeah\,\,, I have seen that guy with some\, girl.
+237|Johannes Eskola|He lives on\, the second floor.
+238|Johannes Eskola|Sorry\,\,, but\,\, that doesn't\, ring a bell.
+239|Johannes Eskola|Because\, he had taken my\, remote control.
+240|Johannes Eskola|So\,\, I borrowed the keys\, from the manager of the building.
+241|Johannes Eskola|He will agree to anything\, as long as you give him\, Stollandia vodka.
+242|Johannes Eskola|However...\,\, I\, never found the remote.
+# conv 189: Tenement/Tenement A/Jonne Reis
+243|Jonne Reis|I'm Jonne.\,\,\, Obenseuer's only\, elevator expert.
+244|Jonne Reis|I promise\, the elevators here are in better condition\, than anywhere in\, Stalburg.
+245|Jonne Reis|You'll have to ask\,\, Urho Siltanen about that.\,\,\, I help him install\, the elevators.
+246|Jonne Reis|You shouldn't\, enter other people's homes\, without permission.
+247|Jonne Reis|Did you know that\, kebab is my favorite\, dish.
+248|Jonne Reis|Oh\,\,, hello.
+249|Jonne Reis|I can help\, if you need\, elevator installation\,\, or repair.
+250|Jonne Reis|Do you need\, anything?
+251|Jonne Reis|I like to read\, the Obenseuer magazine.\,\,\, People are so messed up here.
+252|Jonne Reis|His\, engineering workshop is\, located in\, the Bazaar.
+253|Jonne Reis|Let me mark the\, spot on your\, map.
+254|Jonne Reis|No\,\,, I don't know\, anyone named\, Alice.

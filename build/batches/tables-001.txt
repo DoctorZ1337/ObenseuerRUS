@@ -1,0 +1,1448 @@
+# Unity Localization, таблица Menu, ключ Difficulty | fi: Vaikeustaso
+1||Difficulty
+# Unity Localization, таблица Menu, ключ Resume Game | fi: Jatka peliä
+2||Resume Game
+# Unity Localization, таблица Menu, ключ Load Game | fi: Lataa
+3||Load Game
+# Unity Localization, таблица Menu, ключ Save Game | fi: Tallenna
+4||Save Game
+# Unity Localization, таблица Menu, ключ Options | fi: Asetukset
+5||Options
+# Unity Localization, таблица Menu, ключ Quit to Menu | fi: Poistu alkuvalikkoon
+6||Quit to Menu
+# Unity Localization, таблица Menu, ключ Quit to Desktop | fi: Lopeta peli
+7||Quit to Desktop
+# Unity Localization, таблица Menu, ключ Display | fi: Näyttöasetukset
+8||Display
+# Unity Localization, таблица Menu, ключ Quality | fi: Grafiikat
+9||Quality
+# Unity Localization, таблица Menu, ключ Audio | fi: Ääniasetukset
+10||Audio
+# Unity Localization, таблица Menu, ключ Controls | fi: Ohjaimet
+11||Controls
+# Unity Localization, таблица Menu, ключ Key Bindings | fi: Näppäimet
+12||Key Bindings
+# Unity Localization, таблица Menu, ключ Back | fi: Takaisin
+13||Back
+# Unity Localization, таблица Menu, ключ Quit To Main Menu? | fi: Palaa takaisin alkuvalikkoon?
+14||Quit To Main Menu?
+# Unity Localization, таблица Menu, ключ Yeah | fi: Kyllä
+15||Yeah
+# Unity Localization, таблица Menu, ключ Nope | fi: Ei
+16||Nope
+# Unity Localization, таблица Menu, ключ Quit To Desktop? | fi: Sammuta peli?
+17||Quit To Desktop?
+# Unity Localization, таблица Menu, ключ The most balanced difficulty | fi: Tasapainoisin vaikeusaste
+18||The most balanced difficulty
+# Unity Localization, таблица Menu, ключ Default | fi: Vakio
+19||Default
+# Unity Localization, таблица Menu, ключ Apply | fi: Hyväksy
+20||Apply
+# Unity Localization, таблица Menu, ключ Borderless
+21||Borderless
+# Unity Localization, таблица Menu, ключ Windowed
+22||Windowed
+# Unity Localization, таблица Menu, ключ Full Screen
+23||Full Screen
+# Unity Localization, таблица Menu, ключ On
+24||On
+# Unity Localization, таблица Menu, ключ Off
+25||Off
+# Unity Localization, таблица Menu, ключ Enabled | fi: Päällä
+26||Enabled
+# Unity Localization, таблица Menu, ключ Disabled | fi: Pois päältä
+27||Disabled
+# Unity Localization, таблица Menu, ключ Low | fi: Matala
+28||Low
+# Unity Localization, таблица Menu, ключ Medium | fi: Keskitaso
+29||Medium
+# Unity Localization, таблица Menu, ключ High | fi: Korkea
+30||High
+# Unity Localization, таблица Menu, ключ Very High | fi: Todella korkea
+31||Very High
+# Unity Localization, таблица Menu, ключ Turnip (Turnip) | fi: Nauris (Nauris)
+32||Turnip (Turnip)
+# Unity Localization, таблица Menu, ключ Potato (Very Low) | fi: Peruna (Todella matala)
+33||Potato (Very Low)
+# Unity Localization, таблица Menu, ключ Cabbage (Low) | fi: Kaali (Matala)
+34||Cabbage (Low)
+# Unity Localization, таблица Menu, ключ Mudflap (Medium) | fi: Roiskeläppä (Keskitaso)
+35||Mudflap (Medium)
+# Unity Localization, таблица Menu, ключ Lenkki (High) | fi: Lenkki (Korkea)
+36||Lenkki (High)
+# Unity Localization, таблица Menu, ключ Osmo (Very High) | fi: Osmo (Todella korkea)
+37||Osmo (Very High)
+# Unity Localization, таблица Menu, ключ Prkl (Ultra)
+38||Prkl (Ultra)
+# Unity Localization, таблица Menu, ключ User Saves | fi: Tallennukset
+39||User Saves
+# Unity Localization, таблица Menu, ключ Mandatory Start Addictions | fi: Aloitusriippuvuudet
+40||Mandatory Start Addictions
+# Unity Localization, таблица Menu, ключ General Needs Speed | fi: Tarpeiden nopeus
+41||General Needs Speed
+# Unity Localization, таблица Menu, ключ Addiction Needs Speed | fi: Addiktioiden nopeus
+42||Addiction Needs Speed
+# Unity Localization, таблица Menu, ключ Addiction Recovery Speed | fi: Addiktioiden palautumisnopeus
+43||Addiction Recovery Speed
+# Unity Localization, таблица Menu, ключ Mental Health | fi: Mielenterveys
+44||Mental Health
+# Unity Localization, таблица Menu, ключ Renovation Cost | fi: Remontointihinta
+45||Renovation Cost
+# Unity Localization, таблица Menu, ключ Renovation Speed | fi: Remontointinopeus
+46||Renovation Speed
+# Unity Localization, таблица Menu, ключ Rent Income | fi: Vuokratulot
+47||Rent Income
+# Unity Localization, таблица Menu, ключ Rent Payments | fi: Vuokramaksut
+48||Rent Payments
+# Unity Localization, таблица Menu, ключ Selling Prices | fi: Myyntihinnat
+49||Selling Prices
+# Unity Localization, таблица Menu, ключ Respawning Times | fi: Respawn-ajat
+50||Respawning Times
+# Unity Localization, таблица Menu, ключ Sound | fi: Ääni
+51||Sound
+# Unity Localization, таблица Menu, ключ Music | fi: Musiikki
+52||Music
+# Unity Localization, таблица Menu, ключ Urination/Defecation | fi: Virtsaaminen/Ulostaminen
+53||Urination/Defecation
+# Unity Localization, таблица Menu, ключ Mouse Sensitivity | fi: Hiiren herkkyys
+54||Mouse Sensitivity
+# Unity Localization, таблица Menu, ключ Invert Mouse | fi: Käänteinen hiiri
+55||Invert Mouse
+# Unity Localization, таблица Menu, ключ Toggle Sprint | fi: Toggle-juoksu
+56||Toggle Sprint
+# Unity Localization, таблица Menu, ключ Toggle Crouch | fi: Toggle-kyykky
+57||Toggle Crouch
+# Unity Localization, таблица ToolTip, ключ Perishable | fi: Hajoava
+58||Perishable
+# Unity Localization, таблица ToolTip, ключ Cleanliness | fi: Puhtaus
+59||Cleanliness
+# Unity Localization, таблица ToolTip, ключ Fuel | fi: Polttoaine
+60||Fuel
+# Unity Localization, таблица ToolTip, ключ Hydration | fi: Nesteytys
+61||Hydration
+# Unity Localization, таблица ToolTip, ключ Nutrients | fi: Ravintoarvot
+62||Nutrients
+# Unity Localization, таблица ToolTip, ключ Nicotine | fi: Nikotiini
+63||Nicotine
+# Unity Localization, таблица ToolTip, ключ Strength | fi: Vahvuus
+64||Strength
+# Unity Localization, таблица ToolTip, ключ Magic | fi: Taika
+65||Magic
+# Unity Localization, таблица ToolTip, ключ Makes you sleepy | fi: Väsyttää
+66||Makes you sleepy
+# Unity Localization, таблица ToolTip, ключ Negative health effects | fi: Negatiivinen vaikutus terveydelle
+67||Has negative health effects
+# Unity Localization, таблица ToolTip, ключ Positive health effects | fi: Positiivinen vaikutus terveydelle
+68||Has positive health effects
+# Unity Localization, таблица ToolTip, ключ Causes bleeding | fi: Aiheuttaa verenvuotoa
+69||Causes bleeding
+# Unity Localization, таблица ToolTip, ключ Makes clean | fi: Puhdistaa
+70||Makes you clean
+# Unity Localization, таблица ToolTip, ключ Makes dirty | fi: Likaa
+71||Makes you dirty
+# Unity Localization, таблица ToolTip, ключ Food and drinks | fi: Ruoat ja juomat
+72||Food and drinks
+# Unity Localization, таблица ToolTip, ключ Fantastic | fi: Fantastinen
+73||Fantastic
+# Unity Localization, таблица ToolTip, ключ Good | fi: Hyvä
+74||Good
+# Unity Localization, таблица ToolTip, ключ Okay | fi: OK
+75||Okay
+# Unity Localization, таблица ToolTip, ключ Terrible | fi: Kamala
+76||Terrible
+# Unity Localization, таблица ToolTip, ключ Bad | fi: Huono
+77||Bad
+# Unity Localization, таблица ToolTip, ключ Poor | fi: Heikko
+78||Poor
+# Unity Localization, таблица ToolTip, ключ Bland | fi: Mauton
+79||Bland
+# Unity Localization, таблица ToolTip, ключ Medicine | fi: Lääke
+80||Medicine
+# Unity Localization, таблица ToolTip, ключ Fine | fi: Hieno
+81||Fine
+# Unity Localization, таблица ToolTip, ключ Passable | fi: Mukiinmenevä
+82||Passable
+# Unity Localization, таблица ToolTip, ключ None | fi: Ei mitään
+83||None
+# Unity Localization, таблица ToolTip, ключ Efficacy | fi: Tehokkuus
+84||Efficacy
+# Unity Localization, таблица ToolTip, ключ Negative mental health effects | fi: Negatiivinen vaikutus mielenterveydelle
+85||Negative mental health effects
+# Unity Localization, таблица ToolTip, ключ Fuel for | fi: Polttoaine
+86||Fuel for
+# Unity Localization, таблица ToolTip, ключ Empty | fi: Tyhjä
+87||Empty
+# Unity Localization, таблица ToolTip, ключ Contains | fi: Sisältää
+88||Contains
+# Unity Localization, таблица ToolTip, ключ Normal | fi: Tavallinen
+89||Normal
+# Unity Localization, таблица ToolTip, ключ Crap | fi: Paska
+90||Crap
+# Unity Localization, таблица ToolTip, ключ Excellent | fi: Loistava
+91||Excellent
+# Unity Localization, таблица ToolTip, ключ Frozen | fi: Pakastettu
+92||Frozen
+# Unity Localization, таблица ToolTip, ключ Refrigerated | fi: Jäähdytetty
+93||Refrigerated
+# Unity Localization, таблица ToolTip, ключ Should not be refrigerated | fi: Älä jäähdytä tai pakasta
+94||Should not be refrigerated or frozen
+# Unity Localization, таблица ToolTip, ключ Should be frozen | fi: Pakasta
+95||Should be frozen
+# Unity Localization, таблица ToolTip, ключ Should be refrigerated | fi: Pakasta tai jäähdytä
+96||Should be refrigerated or frozen
+# Unity Localization, таблица ToolTip, ключ Not refrigerated | fi: Ei jäähdytetty
+97||Not refrigerated
+# Unity Localization, таблица ToolTip, ключ Age | fi: Ikä
+98||Age
+# Unity Localization, таблица ToolTip, ключ Integrity | fi: Eheys
+99||Integrity
+# Unity Localization, таблица ToolTip, ключ Amount | fi: Määrä
+100||Amount
+# Unity Localization, таблица ToolTip, ключ Charge | fi: Lataus
+101||Charge
+# Unity Localization, таблица ToolTip, ключ Accepts | fi: Hyväksyy
+102||Accepts
+# Unity Localization, таблица ToolTip, ключ Due in | fi: Eräpäivä
+103||Due in
+# Unity Localization, таблица ToolTip, ключ Days | fi: päivässä
+104||days
+# Unity Localization, таблица ToolTip, ключ Mail | fi: Posti
+105||Mail
+# Unity Localization, таблица ToolTip, ключ Package
+106||Package
+# Unity Localization, таблица ToolTip, ключ Ready to be sent | fi: valmis lähetettäväksi
+107||ready to be sent
+# Unity Localization, таблица ToolTip, ключ Growing | fi: Kasvaa
+108||Growing
+# Unity Localization, таблица ToolTip, ключ Is Furniture | fi: Huonekalu
+109||Is Furniture
+# Unity Localization, таблица ToolTip, ключ Estimated value | fi: Arvioitu arvo
+110||Estimated value
+# Unity Localization, таблица ToolTip, ключ Price | fi: Hinta
+111||Price
+# Unity Localization, таблица ToolTip, ключ Stolen | fi: Varastettu
+112||Stolen
+# Unity Localization, таблица ToolTip, ключ Owned | fi: Omistettu
+113||Owned
+# Unity Localization, таблица ToolTip, ключ Required in
+114||Required in
+# Unity Localization, таблица ToolTip, ключ Apartment
+115||Apartment
+# Unity Localization, таблица ToolTip, ключ Contractor
+116||Contractor
+# Unity Localization, таблица ToolTip, ключ Required Amount
+117||Required Amount
+# Unity Localization, таблица ToolTip, ключ upgrades
+118||upgrades
+# Unity Localization, таблица ToolTip, ключ Storage
+119||Storage
+# Unity Localization, таблица ToolTip, ключ Tenement Resource
+120||Tenement Resource
+# Unity Localization, таблица ToolTip, ключ Valuable
+121||Valuable
+# Unity Localization, таблица ToolTip, ключ Container
+122||Container
+# Unity Localization, таблица ToolTip, ключ Equipable
+123||Equipable
+# Unity Localization, таблица ToolTip, ключ Consumable
+124||Consumable
+# Unity Localization, таблица ToolTip, ключ Food
+125||Food
+# Unity Localization, таблица ToolTip, ключ Utility
+126||Utility
+# Unity Localization, таблица ToolTip, ключ Fire Magic
+127||Fire Magic
+# Unity Localization, таблица ToolTip, ключ Helps with bleeding
+128||Helps with bleeding
+# Unity Localization, таблица ToolTip, ключ Taste
+129||Taste
+# Unity Localization, таблица ToolTip, ключ Unredeemed
+130||Unredeemed
+# Unity Localization, таблица ToolTip, ключ TOTAL
+131||TOTAL
+# Unity Localization, таблица ToolTip, ключ Coins
+132||Coins
+# Unity Localization, таблица UseText, ключ Inventory full | fi: Inventory täynnä
+133||Inventory full
+# Unity Localization, таблица UseText, ключ Unlocked | fi: Avattu
+134||Unlocked
+# Unity Localization, таблица UseText, ключ Unlock | fi: Avaa
+135||Unlock
+# Unity Localization, таблица UseText, ключ Cannot be lockpicked | fi: Ei voi tiirikoida
+136||Cannot be lockpicked
+# Unity Localization, таблица UseText, ключ Locked | fi: Lukittu
+137||Locked
+# Unity Localization, таблица UseText, ключ Exhausted | fi: Loppu
+138||Exhausted
+# Unity Localization, таблица UseText, ключ ON
+139||ON
+# Unity Localization, таблица UseText, ключ OFF
+140||OFF
+# Unity Localization, таблица UseText, ключ connected to | fi: yhdistetty
+141||connected to
+# Unity Localization, таблица UseText, ключ workstations | fi: työasemiin
+142||workstations
+# Unity Localization, таблица UseText, ключ not connected | fi: ei yhdistetty
+143||not connected
+# Unity Localization, таблица UseText, ключ Open | fi: Auki
+144||Open
+# Unity Localization, таблица UseText, ключ Close | fi: Sulje
+145||Close
+# Unity Localization, таблица UseText, ключ Hold press to uproot dead plant
+146||Hold press to uproot dead plant
+# Unity Localization, таблица UseText, ключ Hold press to uproot
+147||Hold press to uproot
+# Unity Localization, таблица UseText, ключ Not fully grown | fi: Ei täysikasvuinen
+148||Not fully grown
+# Unity Localization, таблица UseText, ключ Harvest | fi: Korjaa
+149||Harvest
+# Unity Localization, таблица UseText, ключ Use | fi: Käytä
+150||Use
+# Unity Localization, таблица UseText, ключ Rotary Lock | fi: Lukko
+151||Rotary Lock
+# Unity Localization, таблица UseText, ключ Keypad | fi: Numerokoodi
+152||Keypad
+# Unity Localization, таблица UseText, ключ No power | fi: Ei virtaa
+153||No power
+# Unity Localization, таблица UseText, ключ Lock | fi: Lukitse
+154||Lock
+# Unity Localization, таблица UseText, ключ Item missing | fi: Esine puuttuu
+155||Item missing
+# Unity Localization, таблица UseText, ключ Lantern | fi: Lyhty
+156||Lantern
+# Unity Localization, таблица UseText, ключ Lit | fi: Sytytä
+157||Lit
+# Unity Localization, таблица UseText, ключ Extinguish | fi: Sammuta
+158||Extinguish
+# Unity Localization, таблица UseText, ключ Place items | fi: Aseta esineet
+159||Place items
+# Unity Localization, таблица UseText, ключ No items to place | fi: Ei esineitä asetettavaksi
+160||No items to place
+# Unity Localization, таблица UseText, ключ Total | fi: Yhteensä
+161||Total
+# Unity Localization, таблица UseText, ключ Scanning
+162||Scanning
+# Unity Localization, таблица UseText, ключ Pay | fi: Maksa
+163||Pay
+# Unity Localization, таблица UseText, ключ Not enough money | fi: Ei tarpeeksi rahaa
+164||Not enough money
+# Unity Localization, таблица UseText, ключ Call | fi: Soita
+165||Call
+# Unity Localization, таблица UseText, ключ Answer | fi: Vastaa
+166||Answer
+# Unity Localization, таблица UseText, ключ Occupied | fi: Varattu
+167||Occupied
+# Unity Localization, таблица UseText, ключ Sleep | fi: Nuku
+168||Sleep
+# Unity Localization, таблица UseText, ключ Not tired enough | fi: Et ole tarpeeksi väsynyt
+169||Not tired enough to sleep
+# Unity Localization, таблица UseText, ключ Sleeping place | fi: Nukkumapaikka
+170||Sleeping place
+# Unity Localization, таблица UseText, ключ Torturous | fi: Kidutusta
+171||Torturous
+# Unity Localization, таблица UseText, ключ Aching | fi: Kivulias
+172||Aching
+# Unity Localization, таблица UseText, ключ Uncomfortable | fi: Epämukava
+173||Uncomfortable
+# Unity Localization, таблица UseText, ключ Pleasant | fi: Miellyttävä
+174||Pleasant
+# Unity Localization, таблица UseText, ключ Relaxing | fi: Rentouttava
+175||Relaxing
+# Unity Localization, таблица UseText, ключ Comfy | fi: Mukava
+176||Comfy
+# Unity Localization, таблица UseText, ключ Unsafe | fi: Turvaton
+177||Unsafe
+# Unity Localization, таблица UseText, ключ Safeish | fi: Melko turvallinen
+178||Safeish
+# Unity Localization, таблица UseText, ключ Open lid | fi: Avaa ensin kansi
+179||Open lid first
+# Unity Localization, таблица UseText, ключ Stand up | fi: Nouse ylös
+180||Stand up
+# Unity Localization, таблица UseText, ключ Steal | fi: Varasta
+181||Steal
+# Unity Localization, таблица UseText, ключ Take | fi: Ota
+182||Take
+# Unity Localization, таблица UseText, ключ No dynamite in inventory | fi: Ei dynamiittia inventoryssa
+183||No dynamite in inventory
+# Unity Localization, таблица UseText, ключ Remove dynamite | fi: Poista dynamiitti
+184||Remove dynamite
+# Unity Localization, таблица UseText, ключ Place dynamite | fi: Aseta dynamiitti
+185||Place dynamite
+# Unity Localization, таблица UseText, ключ Missing | fi: Puuttuu
+186||Missing
+# Unity Localization, таблица UseText, ключ Turn off | fi: Sammuta
+187||Turn off
+# Unity Localization, таблица UseText, ключ Talk | fi: Puhu
+188||Talk
+# Unity Localization, таблица UseText, ключ Can't talk | fi: Et voi puhua
+189||Can't talk
+# Unity Localization, таблица UseText, ключ Wait | fi: Odota
+190||Wait
+# Unity Localization, таблица UseText, ключ Take the ticket | fi: Ota lippu
+191||Take the ticket
+# Unity Localization, таблица UseText, ключ Take the passport | fi: Ota passi
+192||Take the passport
+# Unity Localization, таблица UseText, ключ Buy a ticket | fi: Osta lippu
+193||Buy a ticket
+# Unity Localization, таблица UseText, ключ Enter passport | fi: Syötä passi
+194||Enter passport
+# Unity Localization, таблица UseText, ключ No passport | fi: Ei passia
+195||No passport
+# Unity Localization, таблица UseText, ключ Can't use now | fi: Et voi käyttää
+196||Can't use now
+# Unity Localization, таблица UseText, ключ Skill | fi: Taito
+197||Skill
+# Unity Localization, таблица UseText, ключ is too low | fi: on liian matala
+198||is too low
+# Unity Localization, таблица UseText, ключ Work | fi: Työskentele
+199||Work
+# Unity Localization, таблица UseText, ключ No mail | fi: Ei postia
+200||No mail
+# Unity Localization, таблица UseText, ключ No mail to drop | fi: Ei postia
+201||No mail to drop
+# Unity Localization, таблица UseText, ключ Drop | fi: Pudota
+202||Drop
+# Unity Localization, таблица UseText, ключ mail | fi: posti
+203||mail
+# Unity Localization, таблица UseText, ключ Turn on | fi: Käynnistä
+204||Turn on
+# Unity Localization, таблица UseText, ключ Change the channel | fi: Vaihda kanavaa
+205||Change the channel
+# Unity Localization, таблица UseText, ключ Fill | fi: Täytä
+206||Fill
+# Unity Localization, таблица UseText, ключ Uncouple | fi: Irrota
+207||Uncouple
+# Unity Localization, таблица UseText, ключ Disable Coupling | fi: Estä kiinnitys
+208||Disable Coupling
+# Unity Localization, таблица UseText, ключ Enable Coupling | fi: Salli kiinnitys
+209||Enable Coupling
+# Unity Localization, таблица UseText, ключ Sit | fi: Istu
+210||Sit
+# Unity Localization, таблица UseText, ключ IBC Container | fi: IBC-säiliö
+211||IBC Container
+# Unity Localization, таблица UseText, ключ Shower | fi: Suihku
+212||Shower
+# Unity Localization, таблица UseText, ключ Bird nest | fi: Linnunpesä
+213||Bird nest
+# Unity Localization, таблица UseText, ключ Alan Bacon Cookbook | fi: Alan Bacon -keittokirja
+214||Alan Bacon Cookbook
+# Unity Localization, таблица UseText, ключ Electronics Station | fi: Elektroniikka-asema
+215||Electronics Station
+# Unity Localization, таблица UseText, ключ Drawing Board | fi: Piirustusteline
+216||Drawing Board
+# Unity Localization, таблица UseText, ключ Draw | fi: Piirrä
+217||Draw
+# Unity Localization, таблица UseText, ключ Table Stove | fi: Pöytäliesi
+218||Table Stove
+# Unity Localization, таблица UseText, ключ Cook | fi: Laita ruokaa
+219||Cook
+# Unity Localization, таблица UseText, ключ Distillery | fi: Tislaamo
+220||Distillery
+# Unity Localization, таблица UseText, ключ Distil | fi: Tislaa
+221||Distil
+# Unity Localization, таблица UseText, ключ Dishwasher | fi: Tiskikone
+222||Dishwasher
+# Unity Localization, таблица UseText, ключ Typewriter | fi: Kirjoituskone
+223||Typewriter
+# Unity Localization, таблица UseText, ключ Locker | fi: Lokero
+224||Locker
+# Unity Localization, таблица UseText, ключ Plant pot | fi: Ruukku
+225||Plant pot
+# Unity Localization, таблица UseText, ключ Grow | fi: Kasvata
+226||Grow
+# Unity Localization, таблица UseText, ключ Jack-O-Turnip
+227||Jack-O-Turnip
+# Unity Localization, таблица UseText, ключ Bed | fi: Sänky
+228||Bed
+# Unity Localization, таблица UseText, ключ Compost | fi: Komposti
+229||Compost
+# Unity Localization, таблица UseText, ключ Fermenting bucket | fi: Käymisämpäri
+230||Fermenting bucket
+# Unity Localization, таблица UseText, ключ Brew | fi: Pane
+231||Brew
+# Unity Localization, таблица UseText, ключ Sink | fi: Tiskiallas
+232||Sink
+# Unity Localization, таблица UseText, ключ Sauna stove | fi: Kiuas
+233||Sauna stove
+# Unity Localization, таблица UseText, ключ Mashing kettle | fi: Mäskikattila
+234||Mashing kettle
+# Unity Localization, таблица UseText, ключ Malter | fi: Mallastin
+235||Malter
+# Unity Localization, таблица UseText, ключ Malt | fi: Mallas
+236||Malt
+# Unity Localization, таблица UseText, ключ Fermentation container | fi: Käymisastia
+237||Fermentation container
+# Unity Localization, таблица UseText, ключ Gift | fi: Lahja
+238||Gift
+# Unity Localization, таблица UseText, ключ Doorphone | fi: Ovipuhelin
+239||Doorphone
+# Unity Localization, таблица UseText, ключ Beer Crate | fi: Olutlaatikko
+240||Beer Crate
+# Unity Localization, таблица ItemTypes, ключ Money
+241||Money
+# Unity Localization, таблица ItemTypes, ключ Burnable
+242||Burnable
+# Unity Localization, таблица ItemTypes, ключ Wine bottle
+243||Wine bottle
+# Unity Localization, таблица ItemTypes, ключ Bottle recycling
+244||Bottle recycling
+# Unity Localization, таблица ItemTypes, ключ Empty bottle
+245||Empty bottle
+# Unity Localization, таблица ItemTypes, ключ Bottle
+246||Bottle
+# Unity Localization, таблица ItemTypes, ключ Liquid Container
+247||Liquid Container
+# Unity Localization, таблица ItemTypes, ключ Glass bottle
+248||Glass bottle
+# Unity Localization, таблица ItemTypes, ключ Plastic bottle
+249||Plastic bottle
+# Unity Localization, таблица ItemTypes, ключ Metal can
+250||Metal can
+# Unity Localization, таблица ItemTypes, ключ Lockpick
+251||Lockpick
+# Unity Localization, таблица ItemTypes, ключ Wieldable Primary
+252||Wieldable Primary
+# Unity Localization, таблица ItemTypes, ключ Alcohol
+253||Alcohol
+# Unity Localization, таблица ItemTypes, ключ Soft drink
+254||Soft drink
+# Unity Localization, таблица ItemTypes, ключ Junk
+255||Junk
+# Unity Localization, таблица ItemTypes, ключ Plant
+256||Plant
+# Unity Localization, таблица ItemTypes, ключ Feces
+257||Feces
+# Unity Localization, таблица ItemTypes, ключ Waste
+258||Waste
+# Unity Localization, таблица ItemTypes, ключ Mushrooms
+259||Mushrooms
+# Unity Localization, таблица ItemTypes, ключ Tableware
+260||Tableware
+# Unity Localization, таблица ItemTypes, ключ Ceramic
+261||Ceramic
+# Unity Localization, таблица ItemTypes, ключ Mash
+262||Mash
+# Unity Localization, таблица ItemTypes, ключ Liquid
+263||Liquid
+# Unity Localization, таблица ItemTypes, ключ Smokes
+264||Smokes
+# Unity Localization, таблица ItemTypes, ключ Cigarette packs
+265||Cigarette packs
+# Unity Localization, таблица ItemTypes, ключ Medical
+266||Medical
+# Unity Localization, таблица ItemTypes, ключ Chemical
+267||Chemical
+# Unity Localization, таблица ItemTypes, ключ Coffee
+268||Coffee
+# Unity Localization, таблица ItemTypes, ключ Meat
+269||Meat
+# Unity Localization, таблица ItemTypes, ключ Pizza
+270||Pizza
+# Unity Localization, таблица ItemTypes, ключ Soups
+271||Soups
+# Unity Localization, таблица ItemTypes, ключ Sandwich
+272||Sandwich
+# Unity Localization, таблица ItemTypes, ключ Hardware
+273||Hardware
+# Unity Localization, таблица ItemTypes, ключ Wood
+274||Wood
+# Unity Localization, таблица ItemTypes, ключ Crafting Material
+275||Crafting Material
+# Unity Localization, таблица ItemTypes, ключ Ore
+276||Ore
+# Unity Localization, таблица ItemTypes, ключ RefinedMaterial
+277||RefinedMaterial
+# Unity Localization, таблица ItemTypes, ключ Dynamite
+278||Dynamite
+# Unity Localization, таблица ItemTypes, ключ QuestItem
+279||QuestItem
+# Unity Localization, таблица ItemTypes, ключ Moon
+280||Moon
+# Unity Localization, таблица ItemTypes, ключ Hats
+281||Hats
+# Unity Localization, таблица ItemTypes, ключ Jackets
+282||Jackets
+# Unity Localization, таблица ItemTypes, ключ Growable_plant
+283||Growable_plant
+# Unity Localization, таблица ItemTypes, ключ Seeds
+284||Seeds
+# Unity Localization, таблица ItemTypes, ключ Animal
+285||Animal
+# Unity Localization, таблица ItemTypes, ключ breedable_animal
+286||breedable_animal
+# Unity Localization, таблица ItemTypes, ключ Fuses
+287||Fuses
+# Unity Localization, таблица ItemTypes, ключ Valves
+288||Valves
+# Unity Localization, таблица ItemTypes, ключ Wieldable Secondary
+289||Wieldable Secondary
+# Unity Localization, таблица ItemTypes, ключ Batteries
+290||Batteries
+# Unity Localization, таблица ItemTypes, ключ Watch
+291||Watch
+# Unity Localization, таблица ItemTypes, ключ Tools
+292||Tools
+# Unity Localization, таблица ItemTypes, ключ Water
+293||Water
+# Unity Localization, таблица ItemTypes, ключ Hygiene
+294||Hygiene
+# Unity Localization, таблица ItemTypes, ключ CannedFood
+295||CannedFood
+# Unity Localization, таблица ItemTypes, ключ Packaged meat
+296||Packaged meat
+# Unity Localization, таблица ItemTypes, ключ Metallurgy
+297||Metallurgy
+# Unity Localization, таблица ItemTypes, ключ Keycard
+298||Keycard
+# Unity Localization, таблица ItemTypes, ключ Pie
+299||Pie
+# Unity Localization, таблица ItemTypes, ключ Fermenter
+300||Fermenter
+# Unity Localization, таблица ItemTypes, ключ ItemGroup
+301||ItemGroup
+# Unity Localization, таблица ItemTypes, ключ Dough
+302||Dough
+# Unity Localization, таблица ItemTypes, ключ Invoice
+303||Invoice
+# Unity Localization, таблица ItemTypes, ключ Meal
+304||Meal
+# Unity Localization, таблица ItemTypes, ключ Forge
+305||Forge
+# Unity Localization, таблица ItemTypes, ключ Special
+306||Special
+# Unity Localization, таблица ItemTypes, ключ Backpack
+307||Backpack
+# Unity Localization, таблица ItemTypes, ключ Candle
+308||Candle
+# Unity Localization, таблица ItemTypes, ключ Tea
+309||Tea
+# Unity Localization, таблица ItemTypes, ключ Face
+310||Face
+# Unity Localization, таблица ItemTypes, ключ Readable
+311||Readable
+# Unity Localization, таблица ItemTypes, ключ Magazine
+312||Magazine
+# Unity Localization, таблица ItemTypes, ключ Diesel
+313||Diesel
+# Unity Localization, таблица ItemTypes, ключ Trap
+314||Trap
+# Unity Localization, таблица ItemTypes, ключ Tool
+315||Tool
+# Unity Localization, таблица ItemTypes, ключ Weapon
+316||Weapon
+# Unity Localization, таблица ItemTypes, ключ Mask
+317||Mask
+# Unity Localization, таблица ItemTypes, ключ Head
+318||Head
+# Unity Localization, таблица ItemTypes, ключ Drink
+319||Drink
+# Unity Localization, таблица ItemTypes, ключ Smoke
+320||Smoke
+# Unity Localization, таблица ItemTypes, ключ Bandage
+321||Bandage
+# Unity Localization, таблица ItemTypes, ключ Slaughter
+322||Slaughter
+# Unity Localization, таблица ObjectName, ключ Integrity:
+323||Integrity:
+# Unity Localization, таблица ObjectName, ключ Quality: Crap
+324||Quality: Crap
+# Unity Localization, таблица ObjectName, ключ Quality: Poor
+325||Quality: Poor
+# Unity Localization, таблица ObjectName, ключ Quality: Okay
+326||Quality: Okay
+# Unity Localization, таблица ObjectName, ключ Quality: Fine
+327||Quality: Fine
+# Unity Localization, таблица ObjectName, ключ Quality: Excellent
+328||Quality: Excellent
+# Unity Localization, таблица ObjectName, ключ Bucket of Paint
+329||Bucket of Paint
+# Unity Localization, таблица Tasks, ключ Abandoned2.title
+330||Abandoned tenement
+# Unity Localization, таблица Tasks, ключ Abandoned2.description
+331||Interviewers told you that you got an abandoned and unfinished tenement that is probably in poor condition. They also gave you a map where the tenement location is marked.¶¶They recommended to examine it first and then decide what to do with it.
+# Unity Localization, таблица Tasks, ключ ExamineApartments5.title
+332||Examine the apartments
+# Unity Localization, таблица Tasks, ключ ExamineStairwell6.title
+333||Examine the stairwell
+# Unity Localization, таблица Tasks, ключ FindTenement7.title
+334||Find the tenement
+# Unity Localization, таблица Tasks, ключ BazaarBank33.title
+335||Bank of Bazaar
+# Unity Localization, таблица Tasks, ключ BazaarBank33.description
+336||Passmore asked you to come back after you got the passport from Eliana. He wants to talk about the Bazaar bank.
+# Unity Localization, таблица Tasks, ключ BankDynamite32.title
+337||Get dynamite for Passmore
+# Unity Localization, таблица Tasks, ключ BankDynamite32.description
+338||Passmore told you that he and his friends are going to rob the Bazaar bank, but he needs four dynamite for that.
+# Unity Localization, таблица Tasks, ключ BankGet33.title
+339||Get to the bank
+# Unity Localization, таблица Tasks, ключ BankGet33.description
+340||The bank drain cover should be open from 23:00 to 03:00.
+# Unity Localization, таблица Tasks, ключ BankVault34.title
+341||Open the vault
+# Unity Localization, таблица Tasks, ключ BankVault34.description
+342||Passmore mentioned that upstairs is the boss's room where you can close the surveillance cameras. 
+# Unity Localization, таблица Tasks, ключ BankFound34.title
+343||Tell Passmore what you found
+# Unity Localization, таблица Tasks, ключ BankFound34.description
+344||It looks like someone robbed the bank before you. 
+# Unity Localization, таблица Tasks, ключ BankPassport12.title
+345||Tell Passmore that you got the passport
+# Unity Localization, таблица Tasks, ключ BankPolice43.title
+346||Tell the police about Passmore
+# Unity Localization, таблица Tasks, ключ Bridge47.title
+347||Buy the toll bridge
+# Unity Localization, таблица Tasks, ключ Bridge47.description
+348||You told him that you want to buy his bridge.
+# Unity Localization, таблица Tasks, ключ BuyingBridge18.title
+349||Buying the toll bridge
+# Unity Localization, таблица Tasks, ключ BuyingBridge18.description
+350||The toll bridge you have to pay to get to your tenement is owned by David Lund.
+# Unity Localization, таблица Tasks, ключ Meet48.title
+351||Meet the owner
+# Unity Localization, таблица Tasks, ключ Meet48.description
+352||You called David and expressed your interest in buying his toll bridge. ¶¶He asked you to come to his apartment Deekula C6 because he wants to talk face to face.
+# Unity Localization, таблица Tasks, ключ DeeplyInsane35.title
+353||The disappearance of Alice
+# Unity Localization, таблица Tasks, ключ DeeplyInsane35.description
+354||I learned from Fredrik that a woman, who works in the mines, lived with Joel. Fredrik didn't know her name but he told you that he¶¶Fredrik suggested that you go to the mines to find her.
+# Unity Localization, таблица Tasks, ключ PiaMines23.title
+355||Go to the mines to find the woman
+# Unity Localization, таблица Tasks, ключ SurfaceElevator99.title
+356||Elevator to surface
+# Unity Localization, таблица Tasks, ключ BazaarPermit44.title
+357||Get permission for lift from Bazaar
+# Unity Localization, таблица Tasks, ключ BazaarPermit44.description
+358||You found out that the mine's big elevator needs a special permit from the surface in the Bazaar.
+# Unity Localization, таблица Tasks, ключ Stickers9.title
+359||Ask about the moon stickers from Pate
+# Unity Localization, таблица Tasks, ключ FindMoon4.title
+360||Find the moon
+# Unity Localization, таблица Tasks, ключ FindMoon4.description
+361||Pate Rantanen near the border inspection asked you to get him the turnip moon, because his pink turnip needs it. He probably meant you to make a turnip moonshine.
+# Unity Localization, таблица Tasks, ключ PateTunipMoon12.title
+362||Give turnip moonshine to Pate
+# Unity Localization, таблица Tasks, ключ FindAxe36.title
+363||Find an axe for Mr. Duck
+# Unity Localization, таблица Tasks, ключ FindAxe36.description
+364||In addition to the five ducks, Mr. Duck wanted an axe
+# Unity Localization, таблица Tasks, ключ FiveDucks15.title
+365||Five little ducklings
+# Unity Localization, таблица Tasks, ключ FiveDucks15.description
+366||Mr. Duck gave the task to find five rubber ducks. You don't really know why he need them.
+# Unity Localization, таблица Tasks, ключ Ducks37.title
+367||Give five rubber ducks to Mr. Duck
+# Unity Localization, таблица Tasks, ключ MedicinePia53.title
+368||Bring the medicine to Pia
+# Unity Localization, таблица Tasks, ключ MedicinePia53.description
+369||Usually Pia's friend, Alice, brings her the medicine but Fredrik hasn't seen her for a while.
+# Unity Localization, таблица Tasks, ключ Patient17.title
+370||Fredrik's patient
+# Unity Localization, таблица Tasks, ключ Patient17.description
+371||Fredrik asked you to take the medicine to his patient named Pia. She lives near Deekula C in a makeshift two-story house with a balcony.
+# Unity Localization, таблица Tasks, ключ FredrikRed34.title
+372||Tell Fredrik what you did
+# Unity Localization, таблица Tasks, ключ FredrikRed34.description
+373||You gave the red mushroom extract to Pia for some reason and she died.
+# Unity Localization, таблица Tasks, ключ Eliana11.title
+374||Ask Eliana to forge a passport
+# Unity Localization, таблица Tasks, ключ Eliana11.description
+375||Passmore's second task is to go to talk to Eliana, the photographer at the Kolhola building, and ask if she could forge a passport for you.
+# Unity Localization, таблица Tasks, ключ PassmoreCorrect24.title
+376||Find Passmore and tell him the password
+# Unity Localization, таблица Tasks, ключ PassmoreCorrect24.description
+377||You found out that Passmore sells passports and you have to tell him password: Passless.
+# Unity Localization, таблица Tasks, ключ Passmore13.title
+378||Tell passmore password "Passed"
+# Unity Localization, таблица Tasks, ключ Passmore13.description
+379||You found out that a guy named Passmore might sell passports. He lives behind the O-market in Tenement B and his password is maybe "Passed".
+# Unity Localization, таблица Tasks, ключ PassportC33.title
+380||Find a passport seller in Deekula C
+# Unity Localization, таблица Tasks, ключ Route12.title
+381||Find a route to the bank
+# Unity Localization, таблица Tasks, ключ Route12.description
+382||Passmore promised to sell the passport for you if you do two tasks for him. His first task is to find the entrance to the Bazaar bank in Bergmann tunnels. The tunnel's door code is 4027. He said the entrance to Bergmann's tunnel is in the same building where he lives.
+# Unity Localization, таблица Tasks, ключ FindPassports14.title
+383||Find someone who sells passports
+# Unity Localization, таблица Tasks, ключ FindPassports14.description
+384||Malone Petronis wanted you to get the Obenseuer passport, because he wants you to be able to go to the Bazaar where there is a place that will help you renovate the tenement.
+# Unity Localization, таблица Tasks, ключ PassmoreGet53.title
+385||Get a passport from Passmore
+# Unity Localization, таблица Tasks, ключ PassmoreGet53.description
+386||You found Passmore, but you need the password before he'll talk.
+# Unity Localization, таблица Tasks, ключ Password15.title
+387||Get a right password for Passmore
+# Unity Localization, таблица Tasks, ключ ElianaGet12.title
+388||Get the passport from Eliana
+# Unity Localization, таблица Tasks, ключ ElianaGet12.description
+389||Eliana wants you to help her before she agrees to forge the passport.
+# Unity Localization, таблица Tasks, ключ GettingPassport5.title
+390||Getting a passport
+# Unity Localization, таблица Tasks, ключ Obstacle16.title
+391||Remove the obstacle
+# Unity Localization, таблица Tasks, ключ PassportMail34.title
+392||Wait for the passport to arrive in the mail
+# Unity Localization, таблица Tasks, ключ PassportMail34.description
+393||Eliana took a picture of you for the passport and now you have to wait a couple of days for the passport to arrive at your doorstep.
+# Unity Localization, таблица Tasks, ключ FindTentant18.title
+394||Find a tenant for one apartment
+# Unity Localization, таблица Tasks, ключ Started6.title
+395||Getting started
+# Unity Localization, таблица Tasks, ключ Started6.description
+396||Malone Petronis wants to help you renovate the tenement. He told you that there should be contract work business owner, Samuel Jonasson, in Deekula building who can help you with it.
+# Unity Localization, таблица Tasks, ключ Kurahaara61.title
+397||Go to Kurahaara brothers' farm
+# Unity Localization, таблица Tasks, ключ Kurahaara61.description
+398||Malone also told you that you need a lot of money so he suggested that you go and ask for a job at Kurahaara brothers' farm.
+# Unity Localization, таблица Tasks, ключ Jonasson19.title
+399||Go to talk Jonasson
+# Unity Localization, таблица Tasks, ключ ReportMalone23.title
+400||Report to Malone
+# Unity Localization, таблица Tasks, ключ ReportMalone23.description
+401||You spoke to Jonasson about the renovation of the tenement. Malone asked you to tell him when you've done it.
+# Unity Localization, таблица Tasks, ключ Renovate5Start21.title
+402||Start five renovations
+# Unity Localization, таблица Tasks, ключ RenovateStart20.title
+403||Start renovation
+# Unity Localization, таблица Tasks, ключ RenovationMalone24.title
+404||Tell Malone about renovation
+# Unity Localization, таблица Tasks, ключ RenovationsMalone25.title
+405||Tell Malone about renovations
+# Unity Localization, таблица Tasks, ключ RentalMalone26.title
+406||Tell Malone about the rental
+# Unity Localization, таблица Tasks, ключ MalonePlace25.title
+407||Visit the place Malone told you about
+# Unity Localization, таблица Tasks, ключ MalonePlace25.description
+408||Malone told about a place where a black bearded guy named Pentti could offer you a job.
+# Unity Localization, таблица Tasks, ключ RedBody23.title
+409||Examine the red mushroom body
+# Unity Localization, таблица Tasks, ключ RedBody23.description
+410||You found a body with red mushrooms growing near the big underground gate.
+# Unity Localization, таблица Tasks, ключ Mines21.title
+411||Find keys to the Obenseuer mines
+# Unity Localization, таблица Tasks, ключ Mines21.description
+412||Anya told you that there should be keys somewhere in Hanss' place.
+# Unity Localization, таблица Tasks, ключ Glowstick7.title
+413||Glowstick trail
+# Unity Localization, таблица Tasks, ключ Glowstick7.description
+414||Anya asked you to find a person named Hanss who went to the Obenseuer mines. She told that Hanss took glowsticks with him and you should try follow them if you see them.
+# Unity Localization, таблица Tasks, ключ WhatFound12.title
+415||Go back and tell Anya what you found
+# Unity Localization, таблица Tasks, ключ WhatFound12.description
+416||You didn't find a route how to get to where Hanss went but you picked red mushrooms from the body. The only thing you can do now is go back to Anya and tell her what you found.
+# Unity Localization, таблица Tasks, ключ LookMines60.title
+417||Look for Hanss in the mines
+# Unity Localization, таблица Tasks, ключ Route76.title
+418||Make sure no other route is found
+# Unity Localization, таблица Tasks, ключ Route76.description
+419||The glow stick trail ended in a collapsed mine, but maybe there's a route nearby to get past it.
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_reward.title
+420||Claim the reward
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_reward.description
+421||It is done! You should get back to Ville Sköldgangster and claim the reward.
+# Unity Localization, таблица Tasks, ключ svamppatrullen1.title
+422||Homecoming celebration
+# Unity Localization, таблица Tasks, ключ svamppatrullen1.description
+423||Ville Sköldganster has a beef with a gang residing on the top floor of Deekula C building, and he wants you to scout out their premises in order to sabotage their operations.
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_1.title
+424||Locate the gang
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_4.title
+425||Poison the bottle and leave
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_4.description
+426||Ville said you should poison a bottle of Socca Junio  and gift it to their boss. He gave you a special recipe for poisoning the bottle. You need access to a chemical lab in order to do so. Then you should switch it with the bottle in the gift and leave the place
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_3.title
+427||Report your findings to Ville
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_2.title
+428||Scout the location
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_2.description
+429||You found the place. You should search the premises to see if you can do anything to sabotage their operation.
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_3b.title
+430||Steal the bottle
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_3b.description
+431||Maybe you should steal the Socca Junior bottle they're planning to give their boss.
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_5.title
+432||Switch the bottles
+# Unity Localization, таблица Tasks, ключ svamppatrullen1_5.description
+433||Now you should replace the bottle in the gift box with the poisoned one.
+# Unity Localization, таблица Tasks, ключ JacobDaughter19.title
+434||Jacob's daughter
+# Unity Localization, таблица Tasks, ключ JacobDaughter19.description
+435||You met Jacob on the other side. He asked you to find his daughter Caroline and help her if you can. ¶¶Jacob also asked you to tell her that he misses her.
+# Unity Localization, таблица Tasks, ключ TelCaroline57.title
+436||Tell Caroline about Jacob if you find her
+# Unity Localization, таблица Tasks, ключ KarlMeeting57.title
+437||Arrange a meeting with Karl Hagen
+# Unity Localization, таблица Tasks, ключ BazaarKing19.title
+438||King of the Bazaar
+# Unity Localization, таблица Tasks, ключ BazaarKing19.description
+439||Anya asked you to go talk to the Bazaar leader, Karl Hagen, and ask him where to find another route to Hanss.
+# Unity Localization, таблица Tasks, ключ FindEmilie22.title
+440||Find Emilie's friend Caroline
+# Unity Localization, таблица Tasks, ключ FindEmilie22.description
+441||Mike mentioned Emilie's friend Caroline, who might know where Emilie is.
+# Unity Localization, таблица Tasks, ключ FindDaughter23.title
+442||Find Mike's daughter Emilie Palmer
+# Unity Localization, таблица Tasks, ключ EmilieLetter8.title
+443||Letter for Emilie Palmer
+# Unity Localization, таблица Tasks, ключ EmilieLetter8.description
+444||You met Mike in the Bergmann tunnels, who asked you to give a letter to his daughter Emilie Palmer. He doesn't know where she is and if she’s even alive.
+# Unity Localization, таблица Tasks, ключ FindMax38.title
+445||Find where Max Masher lives
+# Unity Localization, таблица Tasks, ключ FindMax38.description
+446||Pentti asked you to find out why Max Masher stopped delivering the mash to speakeasy. Max Masher lives somehwere in Deekula B.
+# Unity Localization, таблица Tasks, ключ 10Sugar50.title
+447||Give Max 10 packets of sugar
+# Unity Localization, таблица Tasks, ключ 5Yeast49.title
+448||Give Max 5 packs of yeast
+# Unity Localization, таблица Tasks, ключ MaxApartment39.title
+449||Go to Max Masher's apartment
+# Unity Localization, таблица Tasks, ключ MaxApartment39.description
+450||You found out that Max lives in Deekula apartment B 10, when you asked one of the residents of Deekula.
+# Unity Localization, таблица Tasks, ключ MeMash16.title
+451||Me mash!
+# Unity Localization, таблица Tasks, ключ MeMash16.description
+452||Pentti Penttilä, the owner of the speakeasy, stopped receiving mash from person called Max Masher. According to Pentti, he makes the best mash in Obenseuer, but Pentti has not been able to contact Max anymore.
+# Unity Localization, таблица Tasks, ключ Punish44.title
+453||Punish the evil door
+# Unity Localization, таблица Tasks, ключ TalkMax42.title
+454||Talk to Max Masher
+# Unity Localization, таблица Tasks, ключ TellPenttiCant46.title
+455||Tell Pentti that Max can't mash anymore
+# Unity Localization, таблица Tasks, ключ TellPenttiMaking52.title
+456||Tell Pentti that Max is making mash again
+# Unity Localization, таблица Tasks, ключ TellPenttiMe45.title
+457||Tell Pentti that you will start making mash yourself
+# Unity Localization, таблица Tasks, ключ TryMax51.title
+458||Try to get Max to start making the mash again
+# Unity Localization, таблица Tasks, ключ debitcardquest_00.title
+459||Find a way to contact the bank
+# Unity Localization, таблица Tasks, ключ debitcardquest_00.description
+460||Maybe you should try contacting the bank to cancel and request a new card.
+# Unity Localization, таблица Tasks, ключ debitcardquest_10.title
+461||Call the bank
+# Unity Localization, таблица Tasks, ключ debitcardquest_10.description
+462||You have received the bank's phone number.
+# Unity Localization, таблица Tasks, ключ debitcardquest_20.title
+463||Request the forms
+# Unity Localization, таблица Tasks, ключ debitcardquest_20.description
+464||You have contacted the bank. The representative wasn't very helpful, but you understood that you need to send them a letter to get a form to officially request a new debit card. You need to find a printer or some other way to get the letter done. There is probably also a mailbox near the O-market where you can put the letter.
+# Unity Localization, таблица Tasks, ключ debitcardquest_30A10.title
+465||Obtain passport
+# Unity Localization, таблица Tasks, ключ debitcardquest_30A10.description
+466||Obtain passport, or some other proof that you live in Obenseuer.
+# Unity Localization, таблица Tasks, ключ debitcardquest_30B10.title
+467||Obtaining the form
+# Unity Localization, таблица Tasks, ключ debitcardquest_30B10.description
+468||Forms are not readily available, so you have to write them a letter asking for the correct form.¶
+# Unity Localization, таблица Tasks, ключ debitcardquest_30B20.title
+469||Wait for answer
+# Unity Localization, таблица Tasks, ключ debitcardquest_30B20.description
+470||You have mailed the request. Now all you have to do is wait for their response, which will likely take several days.
+# Unity Localization, таблица Tasks, ключ debitcardquest_30B30.title
+471||Wrong form received!
+# Unity Localization, таблица Tasks, ключ debitcardquest_30B30.description
+472||They have sent you the wrong form, which is for requesting closure of the entire account. You have to request the form again.
+# Unity Localization, таблица Tasks, ключ debitcardquest_30B40.title
+473||Wait for Answer
+# Unity Localization, таблица Tasks, ключ debitcardquest_30B40.description
+474||You have to wait again for them to send the form.
+# Unity Localization, таблица Tasks, ключ debitcardquest_40.title
+475||Fill and send
+# Unity Localization, таблица Tasks, ключ debitcardquest_40.description
+476||Seems that you now have everything you need.
+# Unity Localization, таблица Tasks, ключ debitcardquest_50.title
+477||Waiting for debitcard
+# Unity Localization, таблица Tasks, ключ debitcardquest_50.description
+478||Wait for bank to process your request.
+# Unity Localization, таблица Tasks, ключ debitcardquest_60.title
+479||Time to withdraw
+# Unity Localization, таблица Tasks, ключ debitcardquest_60.description
+480||The bank has accepted your documents and they have mailed you a new bank card. Time to check from ATM how much you have on your account.
+# Unity Localization, таблица Tasks, ключ 0.title
+481||Placeholder Task
+# Unity Localization, таблица Tasks, ключ 0.description
+482||Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder
+# Unity Localization, таблица Tasks, ключ debitcardquest.title
+483||Missing debitcard
+# Unity Localization, таблица Tasks, ключ debitcardquest.description
+484||You tried to withdraw money from a local ATM, but you noticed that your debit card is missing. It must have been confiscated during the border inspection.
+# Unity Localization, таблица Tasks, ключ MissingDock14.title
+485||Missing dock
+# Unity Localization, таблица Tasks, ключ FindDock35.title
+486||Try to find the missing dock
+# Unity Localization, таблица Tasks, ключ FindDock35.description
+487||A hippie you called to told you that some guys had kidnapped his beloved dock. He has no idea where they took her or what they looked like but he told you that they smelled like a sewer full of booze!
+# Unity Localization, таблица Tasks, ключ MyCrazyNeighbor54.title
+488||My Crazy Neighbor
+# Unity Localization, таблица Tasks, ключ MyCrazyNeighbor54.description
+489||Your crazy neighbor has moved into one of your apartments. Maybe you could get him to pay rent or get evicted somehow. Maybe you could talk to the police about him.
+# Unity Localization, таблица Tasks, ключ MyApartment43.title
+490||My cozy apartment
+# Unity Localization, таблица Tasks, ключ MyApartment43.description
+491||Malone told you that you should take the apartment from the first floor.
+# Unity Localization, таблица Tasks, ключ StartEdit12.title
+492||Start editing the apartment
+# Unity Localization, таблица Tasks, ключ Seamus52.title
+493||Find Seamus Liepa
+# Unity Localization, таблица Tasks, ключ Seamus52.description
+494||You reached the old mine tunnels under Obenseuer.
+# Unity Localization, таблица Tasks, ключ FindMines24.title
+495||Find a route to the mines
+# Unity Localization, таблица Tasks, ключ PotatoMine23.title
+496||Find the potato mine
+# Unity Localization, таблица Tasks, ключ PotatoMine23.description
+497||You found out that Seamus might be still alive and he might be living in a potato mine.
+# Unity Localization, таблица Tasks, ключ MaloneApartment33.title
+498||Go to Malone's apartment
+# Unity Localization, таблица Tasks, ключ Orange9.title
+499||Orange Heaven
+# Unity Localization, таблица Tasks, ключ Orange9.description
+500||Malone Petronis wants you to go find his friend's, Seamus Liepa, body. ¶¶He said that there should be access to the mines in basement of Deekula building, but someone may live in the basement which can be problematic.
+# Unity Localization, таблица Tasks, ключ SeamusFound11.title
+501||Tell Malone that you found Seamus
+# Unity Localization, таблица Tasks, ключ SeamusFound11.description
+502||You talked to Seamus who has a potato farm in the mines who didn't seem happy to hear about Malone.
+# Unity Localization, таблица Tasks, ключ Permit75.title
+503||Bring permit to Reiska
+# Unity Localization, таблица Tasks, ключ FillFormAgain33.title
+504||Fill and return the mining permit form again
+# Unity Localization, таблица Tasks, ключ FillFormAgain33.description
+505||Tanja said that she found an error in the form and told you that you need to fill the form again.
+# Unity Localization, таблица Tasks, ключ FillForm42.title
+506||Fill and return the mining permit form
+# Unity Localization, таблица Tasks, ключ FillForm42.description
+507||Tanja said you need to return the form to her in order to get a mining permit.
+# Unity Localization, таблица Tasks, ключ Management25.title
+508||Get permit from management
+# Unity Localization, таблица Tasks, ключ Management25.description
+509||Reijo "Reiska" Rautakaivos said that you need a mining permit from the management building before you can sell him ore. The management building is next to his office and there should be a sign saying "Management".
+# Unity Localization, таблица Tasks, ключ TaxPay41.title
+510||Pay miner's tax
+# Unity Localization, таблица Tasks, ключ Permission32.title
+511||Permission to dig
+# Unity Localization, таблица Tasks, ключ PassportTanja52.title
+512||Show Tanja a valid passport
+# Unity Localization, таблица Tasks, ключ PassportTanja52.description
+513||Tanja wants to see your passport so she can make sure you are old enough.
+# Unity Localization, таблица Tasks, ключ Rautakaivos53.title
+514||Talk to Reiska
+# Unity Localization, таблица Tasks, ключ Rautakaivos53.description
+515||You heard that a man named Reiska would buy ore from you. You can find him in a small office building near the large elevator to the surface.
+# Unity Localization, таблица Tasks, ключ FindPriest26.title
+516||Find out what exactly happened to the priest
+# Unity Localization, таблица Tasks, ключ FindPriest26.description
+517||The priest still lives in the same apartment, but he has been infected with a fungal disease and he cannot speak anymore.
+# Unity Localization, таблица Tasks, ключ PriestApartment26.title
+518||Go to check the priest's apartment B1
+# Unity Localization, таблица Tasks, ключ Investigate27.title
+519||Investigate the priest's apartment
+# Unity Localization, таблица Tasks, ключ Priest10.title
+520||Priest's debt
+# Unity Localization, таблица Tasks, ключ Priest10.description
+521||Eliana promised to forge a passport for you if you collect debts from a priest who lives in the Deekula apartment B1.
+# Unity Localization, таблица Tasks, ключ ElianaTell56.title
+522||Tell to Eliana what you found
+# Unity Localization, таблица Tasks, ключ FindBlue28.title
+523||Find the blue quack
+# Unity Localization, таблица Tasks, ключ FindBlue28.description
+524||You spoke to a weird person named Mr. Duck at speakeasy who wants to find his little blue rubber duck. ¶¶He told you that you probably can find it in the building near the One stop shop and he also promised to give you a big reward.
+# Unity Localization, таблица Tasks, ключ BlueDuck28.title
+525||Find the blue rubber duck
+# Unity Localization, таблица Tasks, ключ BlueDuck28.description
+526||You found a missing poster promising a big reward for whoever finds the blue rubber duck. There was no address where the duck should be returned.
+# Unity Localization, таблица Tasks, ключ GiveBlue28.title
+527||Give the blue rubber duck to Mr. Duck
+# Unity Localization, таблица Tasks, ключ Quack10.title
+528||Quack quack!
+# Unity Localization, таблица Tasks, ключ CheckB329.title
+529||Check the Deekula apartment B3
+# Unity Localization, таблица Tasks, ключ StorageB330.title
+530||Check the Deekula storage B3
+# Unity Localization, таблица Tasks, ключ FindInformation55.title
+531||Find more information
+# Unity Localization, таблица Tasks, ключ FindInformation55.description
+532||You decided you shouldn't tell the police about the body, but Amanda wants to know more about what's going on.
+# Unity Localization, таблица Tasks, ключ FindSomeone54.title
+533||Find someone who knows more about the case
+# Unity Localization, таблица Tasks, ключ FindSomeone54.description
+534||You decided to help Amanda to know more about the case. Amanda suggested that you should try to get some information from the police.
+# Unity Localization, таблица Tasks, ключ Police52.title
+535||Let Amanda know that you told the police about the body
+# Unity Localization, таблица Tasks, ключ Radio11.title
+536||Radio signal
+# Unity Localization, таблица Tasks, ключ Radio11.description
+537||Amanda Korhonen told you that her neighbor from Deekula B3 accused her of killing neighbor's cat and there is something weird going on.¶¶Amanda gave you a key to the Deekula B4 storage. She told you that there is a way to get to the storage B3 from the storage B4.
+# Unity Localization, таблица Tasks, ключ Bathroom31.title
+538||Tell Amanda about the body in the bathroom
+# Unity Localization, таблица Tasks, ключ Bathroom31.description
+539||You found a bathtub with soil and pieces of a body in the apartment B3. 
+# Unity Localization, таблица Tasks, ключ BedWoman32.title
+540||Tell Amanda about the woman in bed
+# Unity Localization, таблица Tasks, ключ BedWoman32.description
+541||You found a woman in bed who didn't seem to be in perfect condition.
+# Unity Localization, таблица Tasks, ключ PoliceBody53.title
+542||Tell the police about the body
+# Unity Localization, таблица Tasks, ключ PoliceBody53.description
+543||You decided that you should tell to the police about the body in the bathtub.
+# Unity Localization, таблица Tasks, ключ CatchRats12.title
+544||Catch the six rats
+# Unity Localization, таблица Tasks, ключ RatProblem74.title
+545||Rat Problem
+# Unity Localization, таблица Tasks, ключ RatProblem74.description
+546||Anna Markkanen asked you to catch the rats in her canteen. She told you that there should be six rats.
+# Unity Localization, таблица Tasks, ключ CaughtRats16.title
+547||Tell Anna you caught the rats
+# Unity Localization, таблица Tasks, ключ talkAnya37.title
+548||Go talk to Anya
+# Unity Localization, таблица Tasks, ключ experiment22.title
+549||Help with the experiment
+# Unity Localization, таблица Tasks, ключ experiment22.description
+550||Fredrik asked you to help him with an experiment using the mushrooms you collected.
+# Unity Localization, таблица Tasks, ключ RedDanger8.title
+551||Red Danger
+# Unity Localization, таблица Tasks, ключ RedDanger8.description
+552||Fredrik wants to find out what red mushrooms are, so he asked to bring them to him.
+# Unity Localization, таблица Tasks, ключ extractAnya87.title
+553||Take the red mushroom extract to Anya
+# Unity Localization, таблица Tasks, ключ extractAnya87.description
+554||Fredrik asked you to take the sample to Anya in the Deekula B basement.
+# Unity Localization, таблица Tasks, ключ FredrikRed11.title
+555||Take the red mushrooms to Fredrik
+# Unity Localization, таблица Tasks, ключ FredrikRed11.description
+556||Fredrik lives in Tenement A 10. He also told you that you have to use the door phone to get in.
+# Unity Localization, таблица Tasks, ключ BottlesOMarket.title
+557||Find and take empty bottles to O-Market
+# Unity Localization, таблица Tasks, ключ GetPeaSoup.title
+558||Get some pea soup
+# Unity Localization, таблица Tasks, ключ GetPeaSoup.description
+559||Tatyana told you that there's a soup kitchen run by some aid organization called Redemption something near the Bazaar gatehouse. You should get some free soup there.
+# Unity Localization, таблица Tasks, ключ SurviveObenseuer.title
+560||Survive in Obenseuer
+# Unity Localization, таблица Tasks, ключ SurviveObenseuer.description
+561||Tatyana advised you to collect the bottles and take them to O-Market's bottle return.
+# Unity Localization, таблица Tasks, ключ AxelAlice12.title
+562||Ask Axel about Alice
+# Unity Localization, таблица Tasks, ключ TatyatanaAlice13.title
+563||Ask Tatyana about Alice
+# Unity Localization, таблица Tasks, ключ PiaPolice88.title
+564||Call the police
+# Unity Localization, таблица Tasks, ключ AliceShack53.title
+565||Check what's in the small storage
+# Unity Localization, таблица Tasks, ключ AliceShack53.description
+566||In Joel's apartment, you found a key to the small storage which is next to Pia and Alice's building.
+# Unity Localization, таблица Tasks, ключ AliceFind24.title
+567||Find Alice
+# Unity Localization, таблица Tasks, ключ Joelive22.title
+568||Find out where Joel lives
+# Unity Localization, таблица Tasks, ключ Joelive22.description
+569||You heard from Tatyana that Alice has a boyfriend named Joel Hietala, but she doesn't know where he lives.
+# Unity Localization, таблица Tasks, ключ PiaBack34.title
+570||Go back to Pia
+# Unity Localization, таблица Tasks, ключ JoeInvestigate44.title
+571||Investigate Joel's apartment
+# Unity Localization, таблица Tasks, ключ AliceTenement34.title
+572||Look for clues in Tenement A
+# Unity Localization, таблица Tasks, ключ AliceTenement34.description
+573||Axel told you that Alice has been spending time with some man and he also saw them heading towards Tenement A a few times.
+# Unity Localization, таблица Tasks, ключ PiaMail64.title
+574||Mail Pia's letter
+# Unity Localization, таблица Tasks, ключ PiaMail64.description
+575||Pia asked you to mail a letter and asked you to return when you have done that.
+# Unity Localization, таблица Tasks, ключ PiaFredrik93.title
+576||Tell Fredrik what happened
+# Unity Localization, таблица Tasks, ключ PiaFredrik93.description
+577||You found Pia dead in Sauna. Maybe you should tell Fredrik about it.
+# Unity Localization, таблица Tasks, ключ TellPiaAlice46.title
+578||Tell Pia what you found
+# Unity Localization, таблица Tasks, ключ TellPiaAlice46.description
+579||In that storage, you found a woman's body. It looked like some ritual had been done to her. She had a picture of Pia in her hand so the body is probably Alice.
+# Unity Localization, таблица Tasks, ключ Alice35.description
+580||Pia asked you to find her friend Alice. She told that Alice mentioned someone named Joel throwing a party.¶¶Pia suggested that you go and ask the neighbors if they have seen Alice.
+# Unity Localization, таблица Tasks, ключ BankGuy35.title
+581||Talk to a bank employee
+# Unity Localization, таблица Tasks, ключ EleGuy34.title
+582||Talk to the electronics store salesperson
+# Unity Localization, таблица Tasks, ключ EleGuy34.description
+583||Passmore suggested that you go and ask the electronics store salesperson or a bank employee if they know anything about Heikki.
+# Unity Localization, таблица Tasks, ключ BankHunt77.title
+584||The hunt for the bank robber
+# Unity Localization, таблица Tasks, ключ BankHunt77.description
+585||Passmore's friend Heikki Mailanen emptied the bank before you and now Passmore wants you to find him.
+# Unity Localization, таблица Tasks, ключ FindB233.title
+586||Find out what's inside the tunnel B2
+# Unity Localization, таблица Tasks, ключ TunnelB212.title
+587||Tunnel B2
+# Unity Localization, таблица Tasks, ключ TunnelB212.description
+588||Mike's body in the Bergmann tunnels had a keys with label "B2".
+# Unity Localization, таблица Tasks, ключ Library34.title
+589||Find bazaar library and ask about Tunnel of water trees book
+# Unity Localization, таблица Tasks, ключ WaterTrees13.title
+590||Tunnel of water trees
+# Unity Localization, таблица Tasks, ключ WaterTrees13.description
+591||Mike in Bergmann tunnels told about book called Tunnel of water trees. He told you that you should ask about it from the bazaar library.
+# Unity Localization, таблица Tasks, ключ Cucumbers1.title
+592||Grow cucumbers for Jomppe
+# Unity Localization, таблица Tasks, ключ Peppers2.title
+593||Grow peppers for Jomppe
+# Unity Localization, таблица Tasks, ключ Potatoes3.title
+594||Grow potatoes for Jomppe
+# Unity Localization, таблица Tasks, ключ Turnips4.title
+595||Grow turnips for Jomppe
+# Unity Localization, таблица Tasks, ключ Farmer1.title
+596||Kurahaara farmer
+# Unity Localization, таблица Tasks, ключ Farmer1.description
+597||Jomppe Kurahaara asked you to help him to grow some vegetables at his farm and give them to him. He promised to pay for it.
+# Unity Localization, таблица Tasks, ключ FindB2Basement58.title
+598||Find out who lives in the B2 basement
+# Unity Localization, таблица Tasks, ключ AccessB2Basement59.title
+599||Gain access to the B2 basement
+# Unity Localization, таблица Tasks, ключ AccessB2Basement59.description
+600||She told you that the password to the Deekula B basement door is Lukas. She said you might find answers there.
+# Unity Localization, таблица Tasks, ключ Eliana23.title
+601||Tell Eliana what you found
+# Unity Localization, таблица Tasks, ключ Eliana23.description
+602||You talked to a person named Anya who wants you to find Hanss who lives in the basement.
+# Unity Localization, таблица Tasks, ключ basement20.title
+603||Who lives in the basement
+# Unity Localization, таблица Tasks, ключ basement20.description
+604||Eliana seems to know more about things than she admits.
+# Unity Localization, таблица Notes, ключ .title
+605||TEST 9
+# Unity Localization, таблица Notes, ключ AliceNote1.title
+606||Letter to Fredrik
+# Unity Localization, таблица Notes, ключ AliceNote1.content
+607||Fredrik,¶¶I can't talk about this face to face so I decided to write a letter for you. I really want to share some concerns that have been weighing heavily on my mind lately.¶¶As you know, Pia has always been close to me, but she has become very dependent on me and I’m beginning to feel overwhelmed by the constant need to be her anchor. My own mental health is suffering, and I'm worried I won't be able to keep taking care of her.¶¶Can we find others to help Pia? I am grateful for your medicine, which has kept Pia in good health and I appreciate any help you can offer.¶¶- Alice
+# Unity Localization, таблица Notes, ключ Happy birthday.title
+608||Happy birthday
+# Unity Localization, таблица Notes, ключ Happy birthday.content
+609||Happy 50th birthday Theo! Can you believe it? You've reached the half-century milestone! How can you still be alive?¶¶Well, anyway. I got you a little something - your favorite drink! I hope it adds to the celebration.¶¶Also, I thought your birthday was on the 16th of November, turns out it's the 16th of December! My bad!¶¶Wishing you all the best on your special day, Theo. ¶¶I hope this is your last birthday!¶¶With warmest wishes,¶¶AH¶
+# Unity Localization, таблица Notes, ключ Installation of lights for security cameras.title
+610||Installation of lights for security cameras
+# Unity Localization, таблица Notes, ключ Installation of lights for security cameras.content
+611||NOTICE!¶¶We installed lights on the cameras (Because boss said so). Last time someone snagged stuff and our cameras couldn't see that because it was too dark. So those lights are there to make sure the cameras can actually do their job.¶¶Also, don't try to come here when the bank is closed! If those cameras see you, you must quickly go to the boss's room and enter the correct code! That gas is no joke!¶¶If you have something to complain about, tell the boss when he comes back from vacation!¶¶-Reiska
+# Unity Localization, таблица Notes, ключ Money curtains.title
+612||Money curtains
+# Unity Localization, таблица Notes, ключ Money curtains.content
+613||Today's been a real pain in the ass!¶¶My mother bought me new curtains covered in paper money patterns and they look awful! To top it off, they match those damn bed sheets she got me last month.¶¶And to add insult to injury, some potato head decided to change the security alarm code to my freakin' birthday.¶¶Well, at least there's coffee. That's one thing keeping me sane in this mess.
+# Unity Localization, таблица Notes, ключ New text document.title
+614||New text document
+# Unity Localization, таблица Notes, ключ New text document.content
+615||g34mvw334mbe23kvdr¶¶10301030¶¶REMEMBERHK2552610
+# Unity Localization, таблица Notes, ключ Vault Safe Code 02.title
+616||Vault Safe Code 02
+# Unity Localization, таблица Notes, ключ Vault Safe Code 02.content
+617||New Vault Safe Code 02 (lower safe): 12 25 11 24
+# Unity Localization, таблица Notes, ключ Confirmation of Your Hotel Korso Reservation.title
+618||Confirmation of Your Hotel Korso Reservation
+# Unity Localization, таблица Notes, ключ Confirmation of Your Hotel Korso Reservation.content
+619||Dear Tammi,¶¶We are delighted to confirm your reservation at Hotel Korso for your upcoming travel dates. Below are the details of your booking:¶¶- Guest Name: Iisakki Tammi¶- Reservation Number: 62496712335¶- Check-in Date: 1.1.1960¶- Check-out Date: 1.1.1960¶- Room Type: The boss's room¶- Number of Guests: 1¶- Total Cost: 1300 RM¶¶Please review the information above to ensure accuracy. Should you have any questions or require further assistance, feel free to contact our reservations team at 010 337 426 or reply to this email.¶¶¶We look forward to welcoming you to Hotel Korso and ensuring your stay is comfortable and enjoyable. Thank you for choosing us for your accommodation needs.¶¶¶Warm regards,¶¶Karl Sheppern¶Managing Director¶Hotel Korso Obenseuer
+# Unity Localization, таблица Notes, ключ Elevate Your Space with Ankea's Money Pattern Collection!.title
+620||Elevate Your Space with Ankea's Money Pattern Collection!
+# Unity Localization, таблица Notes, ключ Muddy Markku Cigars at Unbeatable Prices!.title
+621||Muddy Markku Cigars at Unbeatable Prices!
+# Unity Localization, таблица Notes, ключ Muddy Markku Cigars at Unbeatable Prices!.content
+622||Dear Tammi,¶¶We're having a sale on Muddy Markku Cigars! Now for a limited time only, indulge in mud without breaking the bank!¶¶Whether you're a cigar aficionado or just looking to try something new, now's the time to snag some quality sticks. Don't miss out!¶¶- Sent from MuddyMarkku.ts -¶Merkki Street 52 B, Stalburg, Stolland
+# Unity Localization, таблица Notes, ключ Updated Security Measures.title
+623||Updated Security Measures
+# Unity Localization, таблица Notes, ключ Updated Security Measures.content
+624||Dear Tammi,¶¶I wanted to inform you of recent security updates we've implemented at the bank. We've attached new lights to security cameras and installed doors that automatically close when the alarm is activated. Also, we have changed the vault access code to "8888" as requested.¶¶Feel free to reach out if you need further details.¶¶¶Best regards,¶¶Heikki Mailanen
+# Unity Localization, таблица Notes, ключ Explorer's note about the new tunnel.title
+625||Explorer's note about the new tunnel
+# Unity Localization, таблица Notes, ключ Explorer's note about the new tunnel.content
+626||Hey,¶¶¶I told Hanss about the new tunnel that I managed to clear open. We're gearing up and planning to check it out together today.¶¶¶I warned that the entrance is a bit tight and several caves have collapsed in a short time but there's something about this one that feels different. Hanss sensed it too and he wants to go check it out soon as possible.¶¶¶Maybe this is finally the route to the other side of the gate we've been looking for for a long time? If you're up for it, join us.¶¶¶Stay sharp
+# Unity Localization, таблица Notes, ключ Explorer's note about the pipe.title
+627||Explorer's note about the pipe
+# Unity Localization, таблица Notes, ключ Explorer's note about the pipe.content
+628||There's some noise coming from the area where the pipe goes. It's like an alarm or something.¶¶I tried squeezing through to get a closer look, but no luck. The cave narrows to a point where I would probably just get stuck. I'm not really keen on getting stuck underground like the guy whose body we found recently. It's like my worst nightmare.¶¶Hanss asked me to clear the tunnel that leads to the gate. I warned him that the tunnels have been collapsing more frequently recently. I'm probably going to with him next time he comes here.
+# Unity Localization, таблица Notes, ключ Guards's note.title
+629||Guards's note
+# Unity Localization, таблица Notes, ключ Guards's note.content
+630||Hey,¶¶¶So, I've gotta get something off my chest. Working at this dump has been driving me up the wall lately. You wouldn't believe the crap I have to put up here. I'm so tired of guarding those two cells.¶¶Always the same old faces end up here. Blabbering, yelling and other shit happens all the time. I can't watch TV in peace!¶¶And the stench coming from those cells could knock you out cold! Bucket toilets? Seriously?¶¶I have so many things to complain about! All the nonsense they talk to me, my lunch breaks are a disaster... I could go on and on with this list!¶¶I'm hoping that you could bring some sanity back to this place.¶¶December 25 - August 28.
+# Unity Localization, таблица Notes, ключ Prisoner's note.title
+631||Prisoner's note
+# Unity Localization, таблица Notes, ключ Prisoner's note.content
+632||For the other inmates who have wandered in here.¶¶Caves¶Ahead are caves that lead to an old water tunnel. Unfortunately it's a dead end! There is a floodgate that could perhaps be opened somehow from the other side. I don't know who dug those huge tunnels. Maybe old mines? Anyway, they're gone.¶¶Pipe room¶The door is closed! I couldn't find a way to get out!¶¶I haven't found any way to get out!¶¶- L.H
+# Unity Localization, таблица Notes, ключ Test note.title
+633||Test note
+# Unity Localization, таблица Notes, ключ Test note.content
+634||Test note content¶- Test¶- Test 2¶¶Test
+# Unity Localization, таблица Notes, ключ Test recipe.title
+635||Test recipe
+# Unity Localization, таблица Notes, ключ Test recipe.content
+636||Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2.
+# Unity Localization, таблица Notes, ключ Mr. Bag Error.title
+637||Mr. Bag Error
+# Unity Localization, таблица Notes, ключ Mr. Bag Error.content
+638||If Mr. Bag throws error code 3 24 8 22 please contact me immediately! That code is related to the self-defense mechanism which is only in the experimental stage. It can cause minor injury to someone if he is not treated!¶¶You don't have to worry about error code 10 26 14 2. It's just some small bug with Mr. Bag and it should not affect the system in any way!¶¶In any case, I hope you are happy with him! Isn't he handsome! I think he's absolutely gorgeous!
+# Unity Localization, таблица Notes, ключ Kolhola A17 Note.title
+639||Kolhola A17 Note
+# Unity Localization, таблица Notes, ключ Kolhola A17 Note.content
+640||R5 L10 R 22 L14¶8.5.4.4
+# Unity Localization, таблица Notes, ключ Kolhola A2 Note.title
+641||Kolhola A2 Note
+# Unity Localization, таблица Notes, ключ Kolhola A6 Note.title
+642||Kolhola A6 Note
+# Unity Localization, таблица Notes, ключ Kolhola Rules.title
+643||Kolhola Rules
+# Unity Localization, таблица Notes, ключ Kolhola Rules.content
+644||1. No noise after 18:00, and before 6:00¶2. No loitering¶3. No smoking¶4. Strictly no posession, consumption and growing green mushrooms, and green mushroom derived products. Violators will be evicted immediately!!!¶5. No drinking alcohol except during reserved sauna turns and between 18:00 and 21:00 on fridays and saturdays. Only 2 bottles of beer or equivalent allowed. Alcohol can only be drank in sauna or apartments.¶6. production of alcohol is forbidden.¶7. Defecation and urination forbidden except on toilets.¶¶Regards,¶Kolhola resident committee
+# Unity Localization, таблица Notes, ключ Dumping Tunnel Warning.title
+645||Dumping Tunnel Warning
+# Unity Localization, таблица Notes, ключ Dumping Tunnel Warning.content
+646||One of the spent fuel casks in the dumping tunnel have fallen and its lid has broken open spilling its contents. Now that tunnel is deadly radioactive. Even mere minutes in it are enough for a fatal dose, and you wouldn't feel anything! ¶¶Don't go past the fence, or you will be a dead man walking!
+# Unity Localization, таблица Notes, ключ Dumping Tunnel Blast Door Note.title
+647||Dumping Tunnel Blast Door Note
+# Unity Localization, таблица Notes, ключ Dumping Tunnel Blast Door Note.content
+648||Notice!¶¶This door is wired to radiation measurement devices.¶Door cannot be opened if radiation exceeds 50 millisieverts per hour.
+# Unity Localization, таблица Notes, ключ A quarantine zone will be opened in Obenseuer.title
+649||A quarantine zone will be opened in Obenseuer
+# Unity Localization, таблица Notes, ключ A quarantine zone will be opened in Obenseuer.content
+650||Stalburg Times¶Monday, February 13th 2017¶¶A quarantine zone will be opened in Obenseuer¶¶The government decided to open a quarantine zone in Obenseuer soon after they admitted that the situation is getting worse than they expected. They are accused of causing great public danger by handling the situation very poorly.¶¶72 new cases have been reported last weekend and new infections are expected to grow exponentially over the next few weeks. Scientists still disagree on how the fungal disease spreads, but at the moment it seems spread much easier than the government has told the public.¶¶Mayor of Stalburg, Jean Wallin, asks to avoid movement in areas where many cases have been reported, especially Obenseuer and Uhlu. The mayor did not provide more detailed information about the quarantine area yet, but said that potential healthy residents would be evacuated from the area before the quarantine area would be opened.¶¶However, residents of the area are not excited about quarantining part of Obenseuer. Mirjam Freighter, a local O market shopkeeper, is worried that unrest in the region would increase and that her shop might end up in the quarantine zone.¶¶-Why here? They should move all sick people outside the city. We already have enough problems here. I just hope this does not affect my Sossu subsidies, says unemployed resident David Lund.¶¶The government has also planned to open a new quarantine zone to Whiprock island, but they are still silent about who would be placed there and how fast it would be opened.
+# Unity Localization, таблица Notes, ключ Legend of the Underground city.title
+651||Legend of the Underground city
+# Unity Localization, таблица Notes, ключ Legend of the Underground city.content
+652||Stalburg Times¶Sunday, November 9th 2014¶¶Legend of the Underground City¶¶Stalburg has one of the most extensive underground systems in the World. There’s everything from parking garages and metro tunnels to waterworks and even grain silos. The nether world of the city is also subject to many mysteries.¶¶Extensive old urban networks like the Stalburg’s underground are bound to have countless stories linked to them, whether those stories are actually real or not. One of the biggest urban legends related to Stalburg’s underground infrastructure is the existence of the so called Underground City of Stalburg.¶¶According to the legend, the Underground City is a safe haven for the many homeless people of Stalburg. Many different versions of the story circulate the public. Some say the Underground City is built into a huge cave, others say it’s located in an abandoned mineshaft. Sometimes it’s said to be in a disused metro tunnel.¶¶More often than not, the Underground City is described as the most beautiful place in the world. A place full of waterfalls, brightly colored buildings, friendly people and overall happiness. A place where everything’s well maintained and everyone has their own home.¶¶Then there’s also a darker version of the story. Instead of all the happy things the Underground City is full of dark, wet tunnels and infested with drug users and sick people. Some even say there’s a strange cult present where people worship a savage underground deity.¶¶The wildest theory suggests that the Underground City is actually a secret community run by the aforementioned cult. In this version of the story the place is actually a huge psychoactive mushroom farm, where captured homeless people are forced to work in subhuman conditions.¶¶There’s no real proof that the Underground City of Stalburg actually exists, or if it does, where it’s located. The legend says that only the homeless people can enter the Underground City. Some homeless people we interviewed said the entrance to this place might be located in Obenseuer, others said it’s actually located right under the Stalburg Central Railway Station’s lower platform. One man even suggested that it’s in fact located in the underground holding cell block of the Firplas police station. No definite consensus of the location could be achieved.¶¶All in all, the Underground City of Stalburg remains as one of the biggest mysteries of the city. Maybe the Underground City is just some abandoned mining shaft where a couple of homeless people live, or maybe it’s a beautiful secret bunker built by rich people. No one really seems to know.
+# Unity Localization, таблица Notes, ключ Obenseuer, or More Like Open Sewer.title
+653||Obenseuer, or More Like Open Sewer
+# Unity Localization, таблица Notes, ключ Obenseuer, or More Like Open Sewer.content
+654||Stalburg Times¶Sunday, September 21th 2014¶¶Obenseuer, or More Like Open Sewer¶¶The most infamous place in the Stalburg region is mostly known for its alcoholics, poor social status and bad city planning. But is it really as bad as its reputation suggests?¶¶Nicknamed Open Sewer by Stalburgers because of the often stinking canals crossing the area, Obenseuer was a dying small town in the 1960’s. The town was once home to the successful Obenseuer ore mine which was closed down in 1958 when the lodes ran dry. After the mine was closed, most of the workforce moved to Stalburg and the once busy main street quieted down. The Municipality of Obenseuer was merged to the City of Stalburg in 1973 as the capital city was quickly running out of developable land.¶¶Obenseuer’s new leaf was turned in the late 1970’s when Walter Co. started building tenements on the old mine grounds. These buildings were part of Stalburg’s huge public housing projects as the city was growing rapidly and the new workforce needed cheap housing. Like most of the similar projects of the era, the tenements of Obenseuer were built as cheaply as possible because the original plan was to replace them with new ones in 25 years.¶¶The new beginning for Obenseuer looked bright. The former town square was busy once again and the newly opened extension of the East Port metro line connected Obenseuer directly to the heart of Stalburg. Obenseuer soon succumbed to segregation however, as middle-class families abandoned the neighborhood. In 1981, following the collapse of Stalburg Steel and the companies linked to it, most of the tenants were left unemployed.¶¶Multiple social problems like prostitution and misuse of drugs took over Obenseuer and the crime rate soon went through the roof. Coming to the 1990’s the neighbourhood had turned into an epitome of public housing development gone wrong. On top of all the usual problems, the past mining activity had weakened the bedrock, which culminated in 1993 when one of the tenements collapsed partially. The famous smell of the canals also worsened as ground water contaminated by mining slag started leaking out increasingly. This was caused by the construction work of the new local railway line from Orefell to Cellecter in late 1990’s.¶¶Not all the stories related to Obenseuer are sad however. In 1988 a man named Osmo Saarinen, an Obenseuer local, decided to do something about the crippling unemployment of the neighbourhood and set up a small brewery near the main canal. In just under a decade, the brewery producing Stalburg’s most famous export lager Osmo Olut had grown to be one of biggest successes in Stalburg’s history since Stalburg Steel. Osmo Olut had made Osmo Saarinen one of the richest individuals in Stalburg and blown the city’s alcoholism problem to a whole new level.¶¶Saarinen, who is a member of the municipality council, has said that he wants to make Obenseuer a better place in the future. He has been active on matters touching the neighbourhood and some progress has already been made. City of Stalburg already started a project to clean the canals to get rid of the stink a few years ago. Who knows, maybe one day Obenseuer will once again be more than just an Open Sewer.
+# Unity Localization, таблица Notes, ключ Bridge toll contact info.title
+655||Bridge toll contact info
+# Unity Localization, таблица Notes, ключ Bridge toll contact info.content
+656||Notice!¶¶Due to constant threats, I no longer take the entrance fee myself.¶¶Contact to number 010445264 if you have problems with payment or anything else related to the bridge.¶¶P.S. DON'T contact me if you just want to THREATEN me even if it's related to the bridge!¶¶P.P.S. And DON'T even think about calling me if you just want to sell me air fresheners, slightly used long johns or anything else that I would NEVER want! Go sell your wretched garbage to someone else who might appreciate them! You sly BASTARDS!
+# Unity Localization, таблица Notes, ключ Suspicious customers.title
+657||Suspicious customers
+# Unity Localization, таблица Notes, ключ Suspicious customers.content
+658||Someone wearing a duck mask¶-Bought the usual stuff. Weird mask. Gave us a duck which we put on the shelf¶¶Bleeding woman¶-I called an ambulance! She said she just needs bandages¶¶Lilly Cooper¶-My former classmate! Asked some weird questions from Patrik¶¶Mumbling woman¶-Gave us a recipe for apple pie!?¶¶Weird guy who smelled like an old sock that has been swimming in a bucket of dead fish¶-Bought over 30 packages of condoms!¶¶Priest¶-He bought painkillers and other medicines that help with fungal disease¶¶Tall man¶-Stood quietly and watched the surveillance camera for 10 minutes¶¶Weirdo¶-Asked for a phone number
+# Unity Localization, таблица Notes, ключ Yellow pages.title
+659||Yellow pages
+# Unity Localization, таблица Notes, ключ Yellow pages.content
+660||Emergency Number: 112¶¶Aziz's Kebab and Burger: 062 792 005¶¶Osmo Olut Customer Service: 010 138 2044¶¶Stalburg Bank: 010 242 4096¶¶Swamp Publishing LCC: 010 689 0002
+# Unity Localization, таблица Notes, ключ A page from Joel's diary.title
+661||A page from Joel's diary
+# Unity Localization, таблица Notes, ключ A page from Joel's diary.content
+662||She’s become so deeply religious in such a short time, and it’s consuming her. She doesn't let me in. It's like she is hiding something or someone. I tried to talk her about it but she just said I wouldn't understand.¶¶I need to talk to her before she does something irreversible.
+# Unity Localization, таблица Notes, ключ Joel's list.title
+663||Joel's list
+# Unity Localization, таблица Notes, ключ Joel's list.content
+664||What we know¶-Probably hidden somewhere in small storage¶-Contains also other valuable items¶-Is that place cursed? We have to be careful!¶¶Plan¶-We have to get keys¶-Only take what we are looking for!¶-Crowbar and flashlight¶-Must not be caught!
+# Unity Localization, таблица Notes, ключ Religious letter.title
+665||Religious letter
+# Unity Localization, таблица Notes, ключ Religious letter.content
+666||Dear Brothers and Sisters in Faith,¶¶I write to you today, seeking your understanding, forgiveness, and prayers.¶¶I regret to inform you that I have let my inner evil loose again. In a moment of uncontrollable rage, I took the life of another and now I'm tormented by the guilt of my actions.¶¶I come to you, my spiritual family, to ask atone my sins and to help the victim's shadow reach peace on the other side.¶¶Let us live in peace in the realm of shadows,¶¶Hietala
+# Unity Localization, таблица Notes, ключ Tenement A elevator fuses.title
+667||Tenement A elevator fuses
+# Unity Localization, таблица Notes, ключ Tenement A elevator fuses.content
+668||Notice!¶¶1: Lights¶2: Engine¶3: Controls¶4: Call Buttons¶¶P.S. If you need help you can find me on the top floor.
+# Unity Localization, таблица Notes, ключ Tenement A elevator.title
+669||Tenement A elevator
+# Unity Localization, таблица Notes, ключ Tenement A elevator.content
+670||Notice!¶¶Elevator is out of service, electrician has been dispatched to troubleshoot the issue.
+# Unity Localization, таблица Notes, ключ B2 note.title
+671||B2 note
+# Unity Localization, таблица Notes, ключ B2 note.content
+672||It still breaks sometimes! ¶¶It started to move on its own yesterday and I have no idea why. I feel like it's cursed or something. ¶¶Maybe I use something else than mannequins! Also that hallway is not even long enough. B2 was atleast three times longer. ¶¶Maybe change door password to 4027?¶
+# Unity Localization, таблица Notes, ключ B3 storage.title
+673||B3 storage
+# Unity Localization, таблица Notes, ключ B3 storage.content
+674||I'm hearing breathing in the B3 storage! ¶¶That place must be also cursed! I'm going to make sure that thing is going to stay there so I'm going to brick the door and also take that handwheel from the flood door. Whatever it is even. I still remember what happened in that tunnel near Hammer Valley. I don't want to that same thing happen here in Obenseuer tunnels.¶¶-Robin
+# Unity Localization, таблица Notes, ключ Bergmann tunnel floodgates.title
+675||Bergmann tunnel floodgates
+# Unity Localization, таблица Notes, ключ Bergmann tunnel floodgates.content
+676||Notice!¶¶It seems that Robin fellow changed the flood door settings, because the flood sensors didn't work anymore. So now you have to close the floodgates that are connected to this tunnel and also open main 02. Remember also check those fuses at control room!¶¶-Mike, new Bergmann tunnel worker
+# Unity Localization, таблица Notes, ключ Control room fuses.title
+677||Control room fuses
+# Unity Localization, таблица Notes, ключ Control room fuses.content
+678||Slot 1 (Left): Floodgates control A1¶Slot 2: Floodgates control A2¶Slot 3: Microwave¶Slot 4: B3
+# Unity Localization, таблица Notes, ключ Bergmann tunnels condition.title
+679||Bergmann tunnels condition
+# Unity Localization, таблица Notes, ключ Bergmann tunnels condition.content
+680||They have renovated bergmann tunnels everywhere except here in Obenseuer and things are getting worse every day. I'm probably not going to be able to come here soon, because of that fungal disease. ¶¶Anyway, I still have a lot of things to get fixed here, because that previous Bergmann tunnel worker Robin broke everything! Like that flood door at the bottom! You have to close floodgates that leads to that tunnel and open main 02 to get that flood door open.¶¶-Mike
+# Unity Localization, таблица Notes, ключ Flood door sign.title
+681||Flood door sign
+# Unity Localization, таблица Notes, ключ Flood door sign.content
+682||NOTICE¶¶LIGHTS¶¶If the light is red, the area behind the door may be flooded, or the door may be having technical difficulties. The flood door cannot be opened when the light is red.¶¶If the light is green, the area behind the door is not flooded and is safe for entry. The flood door can ONLY be opened when the light is green.¶¶WARNING¶¶DO NOT BE UNDER THE FLOOD DOOR WHILE IT IS CLOSING. IT MAY CAUSE SERIOUS INJURY OR DEATH.¶¶TWSC¶
+# Unity Localization, таблица Notes, ключ Hiding SMV patients.title
+683||Hiding SMV patients
+# Unity Localization, таблица Notes, ключ Hiding SMV patients.content
+684||Some patients escaped from the quarantine area.
+# Unity Localization, таблица Notes, ключ Deekula A Storage.title
+685||Deekula A Storage
+# Unity Localization, таблица Notes, ключ Deekula A Storage.content
+686||You can take what you want from here, but don't break the boxes or anything!
+# Unity Localization, таблица Notes, ключ Deekula A8 Storage.title
+687||Deekula A8 Storage
+# Unity Localization, таблица Notes, ключ Deekula A8 Storage.content
+688||You were wrong!¶¶My product was not completely clean! Damn!¶¶I don't know how they did it. Maybe your instructions were incorrect? I used the substances that were in your instructions and that's why I'm in trouble! I smoked that stuff myself because I trusted you! ¶¶I'm going to die!
+# Unity Localization, таблица Notes, ключ Hiding fungal disease patients.title
+689||Hiding fungal disease patients
+# Unity Localization, таблица Notes, ключ Hiding fungal disease patients.content
+690||There are rumors that some patients escaped from the quarantine area and they're now hiding with normal people. Some of them cover their faces with masks and and keep a low profile. There are some cases that are well known, but no one is completely sure if they really suffered from fungal disease or if there's some other reasons why they wear a mask.¶¶They can also be patients who have managed to overcome the fungal disease completely, but their faces have suffered some cosmetic damage. They may also have suffered severe brain damage and I recommend to be careful near them because they can behave unpredictably.
+# Unity Localization, таблица Notes, ключ Letter to Krista.title
+691||Letter to Krista
+# Unity Localization, таблица Notes, ключ Letter to Krista.content
+692||Dear Krista,¶¶Unfortunately I have to stay on sick leave. I have read all your messages and I know that you're worried about things that has happened in Stalburg and especially here in Obenseuer. Sadly even I don't have answers to all this.¶¶I have heard about this "other side" and I have to investigate it more, before I can say anything about it. I assure you that everything happens according to the will of God.¶¶We just have to be patient and pray.¶¶- Father Tobias
+# Unity Localization, таблица Notes, ключ Letter to Priest.title
+693||Letter to Priest
+# Unity Localization, таблица Notes, ключ Letter to Priest.content
+694||If you're reading this letter you are probably cured or at least doing better. I'm going to leave this letter here, because I don't know if I'm coming back. I gave you an experimental drug while you were unconscious. I'm sorry I did that without your permission, but it was my only way to try save you. I hope you are not angry with me.¶¶Thank you for taking care of my father in his last moments.¶¶- The girl next door
+# Unity Localization, таблица Notes, ключ Neighbour.title
+695||Neighbour
+# Unity Localization, таблица Notes, ключ Neighbour.content
+696||My neighbour knows what happened to me and she promised to help me. She doesn't want to tell anyone her name, but she revealed to me that she was part of Stalburg Underground group. I have heard bad things about them, but she seems be completely different if those rumors are true. ¶¶I know that I can trust her and I don't really have other choice, because she's my only hope to cure my sickness. I know that it's not going to be easy for her. ¶¶I feel worse day by day. I can't leave from my aparment anymore. If someone would see me in this condition, they would move me to an isolated zone.¶ ¶Only thing I can do is pray and hope that God is merciful to me. This pain inside is making me want to do things I would never think I would do. God forgive me.¶¶- Father Tobias
+# Unity Localization, таблица Notes, ключ Osrat device.title
+697||Osrat device
+# Unity Localization, таблица Notes, ключ Osrat device.content
+698||It looks like that Osrat can't get signals withouth the amulet. It's from the other side so it's probably still connected there on some level. It feels like something is pulling it to the other side. Maybe it's those red stones that causes it.¶¶Best places to get connection is near the dead bodies, but sometimes it doesn't seem to be true. It starts beeping when it has a strong connection and then you can try to travel to the other side. I just haven't been able to find a strong enough signal to get deeper than a state they call a "black noise". I probably need a bigger transmitter or a place that has a very strong connection if I want to get any further.
+# Unity Localization, таблица Notes, ключ Relocation note to Deekula B9 residents.title
+699||Relocation note to Deekula B9 residents
+# Unity Localization, таблица Notes, ключ Relocation note to Deekula B9 residents.content
+700||Dear Deekula B9 residents.¶¶The authorities of the city of Stalburg has decided to relocate all the residents of the apartment B9 to a new location that will be announced when the transfer will take place. ¶¶You have one day to take your main items with you. Please, don't take more items than you can handle and be prepared to show your passports to the authorities. If you do not have the passport, you will be still relocated and the authorities will help you get your passport. The inclusion of all products of mushroom origin is prohibited. Contact the authorities for more information.¶¶The reason for this transfer is due to overpopulation in the area, vacant space on the other side of Obenseuer district and ensuring safe and healthy housing for city residents.¶¶Thank you for your understanding.¶¶- Authorities of the city of Stalburg and fungal disease treatment unit
+# Unity Localization, таблица Notes, ключ Henchman note.title
+701||Henchman note
+# Unity Localization, таблица Notes, ключ Henchman note.content
+702||The boss gonna be released from prison anyday now. Knowing him, he's likely very angry and bonkers when he gets back.¶¶I managed to get bottle of Sukka Junior, that expensive quality wine stuff, what I saw on Zigzag video.¶¶I left nicely wrapped gift in his penthouse.¶¶Make sure to clean the penthouse before the big boss gets back.¶¶Doorcode:¶- Shroom automat¶- Boarded aparment with weird lanterns¶- Storage with Stalburg flag¶- Bricked apartment you can see into
+# Unity Localization, таблица Notes, ключ Letter to Hans.title
+703||Letter to Hans
+# Unity Localization, таблица Notes, ключ Letter to Hans.content
+704||Hanss,¶¶¶That radio message you sent really helped me locate the place. I have reason to believe that he is likely inside, but the gates are closed. It appears that the entire place has been abandoned or, perhaps, sealed off intentionally. Unfortunately, the keypad appears to be without power, rendering me unable to enter the required code. Something is terribly wrong and I don't like it. That radio message doesn't make me feel any better.¶¶¶I think there must be some other way in, probably hidden in those old mine tunnels. The thing is, I don't have a clue where to start looking. I stumbled upon an old map from some guy who used to work at SNW, but it's not shedding any light on where that second entrance might be.¶¶¶This situation is getting pretty complicated, and I share your unease about it. I'm going to keep searching and try to figure out what's going on here, so you can finally get the answers you've been looking for.¶¶¶Be careful.
+# Unity Localization, таблица Notes, ключ Long test placeholder note with long placeholder text.title
+705||Long test placeholder note with long placeholder text
+# Unity Localization, таблица Notes, ключ Long test placeholder note with long placeholder text.content
+706||Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+# Unity Localization, таблица Notes, ключ TEST 1.title
+707||TEST 1
+# Unity Localization, таблица Notes, ключ TEST 1.content
+708||TEST 1¶¶¶Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+# Unity Localization, таблица Notes, ключ TEST 10.title
+709||TEST 10
+# Unity Localization, таблица Notes, ключ TEST 11.title
+710||TEST 11
+# Unity Localization, таблица Notes, ключ TEST 12.title
+711||TEST 12
+# Unity Localization, таблица Notes, ключ TEST 13.title
+712||TEST 13
+# Unity Localization, таблица Notes, ключ TEST 13.content
+713||TEST 13¶¶¶Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+# Unity Localization, таблица Notes, ключ TEST 14.title
+714||TEST 14
+# Unity Localization, таблица Notes, ключ TEST 15.title
+715||TEST 15
+# Unity Localization, таблица Notes, ключ TEST 16.title
+716||TEST 16
+# Unity Localization, таблица Notes, ключ TEST 2.title
+717||TEST 2
+# Unity Localization, таблица Notes, ключ TEST 2.content
+718||TEST 2¶¶¶Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+# Unity Localization, таблица Notes, ключ TEST 3.title
+719||TEST 3
+# Unity Localization, таблица Notes, ключ TEST 4.title
+720||TEST 4
+# Unity Localization, таблица Notes, ключ TEST 5.title
+721||TEST 5
+# Unity Localization, таблица Notes, ключ TEST 6.title
+722||TEST 6
+# Unity Localization, таблица Notes, ключ TEST 7.title
+723||TEST 7
+# Unity Localization, таблица Notes, ключ TEST 8.title
+724||TEST 8

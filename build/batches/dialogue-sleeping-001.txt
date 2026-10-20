@@ -1,0 +1,53 @@
+# conv 172: Sleeping/Beat
+1||Someone beat you\,\, and you don't know who it was.
+2||You were beaten unexpectedly.
+3||While you were out cold\,\,, an unknown opponent managed to beat you.
+# conv 171: Sleeping/Covered With Junk
+4||Random bits of junk have appeared.\,\,\, Where did this clutter came from?
+5||There's some new\,\,, uninvited clutter in your vicinity.
+6||You notice some unexpected junk lying around.
+# conv 177: Sleeping/Crazy Neighbor
+7||You feel as if someone you know\, has visited you\, without you noticing.
+8||A familiar smell floats in the air\, but you can't remember what the smell reminds you of.
+9||You are sure that you heard\, a familiar voice\, while you were sleeping.
+10||You feel like some\, unpleasant person had crept up on you.
+# conv 174: Sleeping/Get Caught
+11||The policemen suspected you of a crime\, and checked your pockets.
+12||You were suspected of a crime\, so the police arrested you\, and checked your pockets.
+13||The police searched your pockets\, and removed any stolen items.
+14||The police came to check if you had stolen goods.
+# conv 168: Sleeping/Infect SMV
+15||You feel strange.\,\,\, It just feels like something is wrong.
+16||You feel sicker than before.
+17||It feels like someone was near you.\,\,\, Maybe a rat?
+18||You feel discomfort.\,\,\, Did something happen while you were not in this world?
+# conv 169: Sleeping/Steal
+19||Something is missing\,\, but you're not sure what.
+20||Someone's been on a scavenger hunt.\,\,\, Something is missing.
+21||You look around\,\,, and stuff is missing.\,\,\, Feels like someone swiped it.
+22||Someone might've borrowed some of your without asking.
+# conv 167: Sleeping/Steal Money
+23||Your money's gone down.\,\,\, Maybe you were robbed?
+24||Your wallet's looking emptier than you remember.
+25||Your wallet feels lighter.\,\,\, Something's fishy.
+26||It seems that someone has taken some of your money.
+# conv 170: Sleeping/Steal Most Valuable Item
+27||Someone has robbed you.\,\,\, Maybe something valuable has been lost?
+28||You feel that\, perhaps\, something valuable has been taken from you.
+# conv 166: Sleeping/Steal OS
+29||You feel like you have less Open Sewer coins than before.\,\,\, Did someone snag them?
+30||It looks like you have less Open Sewer coins than you had before going to sleeping.
+31||Some of your Open Sewer coins are gone.\,\,\, Who might have robbed you?
+32||Your Open Sewer coin situation's off\,\,, like someone played a trick on your wallet.
+# conv 165: Sleeping/Steal Random Items
+33||You feel like something is\, missing.
+34||You feel as\, if someone has robbed you of things.
+35||You notice that something's just not there anymore\,\,, and it feels off.
+36||It hits you that something you had before\, is now missing\,\,, and you can't shake the feeling.
+# conv 173: Sleeping/Wake Up
+37||You wake up in the middle of your sleep\,\,, you're not sure why.
+38||Suddenly\,\,, you find yourself awake with no apparent reason.
+39||You open your eyes\,\,, wondering what brought you out of sleep.
+40||For some unknown reason\,\,, you find yourself waking up.
+# conv 175: Sleeping/Wake Up With Reason
+41||You couldn't sleep anymore because [lua(Variable["WakeUpReason"])].

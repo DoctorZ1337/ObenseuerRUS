@@ -1,0 +1,22 @@
+file	id	source	target	note
+dialogue-bazaar.json	dlg/241/1	Placeholder text here.	Текст-заполнитель.	В исходнике явно стоит «Placeholder text here»; проверить, должна ли эта строка отображаться игроку.
+dialogue-bazaar.json	dlg/270/82	I\,\, assume\, that...\,\, he\, has been\, struck\, by\, the Spore-Blight\, Curse?	Полагаю... \,\,\,\,\,его \,поразило \,\,Проклятие \,споровой \,гнили?	Название проклятия требует проверки по игровому контексту.
+dialogue-bazaar.json	dlg/270/113	Ah...\,\, you mean\, he has been\, struck\, by\, the Spore-Blight Curse?	А... \,\,ты имеешь \,в виду, его \,поразило \,\,Проклятие споровой гнили?	Название проклятия требует проверки по игровому контексту.
+dialogue-bazaar.json	dlg/270/122	He\,\, must have been\, struck\, by\, the Spore-Blight Curse!	Он, \,\,должно быть, \,поражён \,\,Проклятием споровой гнили!	Название проклятия требует проверки по игровому контексту.
+dialogue-bazaar.json	dlg/270/230	And\,\, the other side\, is\, one of them…	And\,\, the other side\, is\, one of them…	Фраза обрывается и остаётся без ясной связи с предыдущей; нужен контекст сцены.
+dialogue-bazaar.json	dlg/284/17/menu	OLD	OLD	Неясно, является ли OLD видимой репликой или служебной меткой; нужен контекст сцены.
+dialogue-bazaar.json	dlg/302/12	Held\, back the weather\,\,, or\, however\, the saying goes?	Held\, back the weather\,\,, or\, however\, the saying goes?	Фраза звучит неидиоматично; точный смысл требует проверки по контексту.
+dialogue-bazaar.json	dlg/304/1	ResidentRented(174) == false	ResidentRented(174) == false	Похоже на внутреннее условие скрипта, а не игровую реплику; нужно проверить источник.
+dialogue-bazaar.json	dlg/338/31/menu	KNOWS PLAYER	KNOWS PLAYER	Похоже на служебную метку варианта; проверить, отображается ли она игроку.
+dialogue-bazaar.json	dlg/348/16/menu	CRAZY	CRAZY	Короткая метка ответа; контекста недостаточно, чтобы определить, отображается ли она игроку.
+dialogue-bazaar.json	dlg/350/26/menu	FIRST	FIRST	Короткая метка ответа; контекста недостаточно, чтобы понять, показывается ли она игроку.
+dialogue-bazaar.json	dlg/351/12/menu	JOB	JOB	Короткая метка варианта; контекста недостаточно, чтобы понять, показывается ли она игроку.
+dialogue-bazaar.json	dlg/440/1	What the wall that sound?	What the wall that sound?	Исходная фраза грамматически повреждена («What the wall that sound?»); нужен контекст, чтобы восстановить смысл.
+dialogue-tenement.json	dlg/16/59	Borlmaro\,\,, ducky strike\,\,, winstead?	Borlmaro\,\,, Ducky Strike\,\,, Winstead?	Названия марок оставлены латиницей; проверить по сцене, что это именно бренды.
+dialogue-unused.json	dlg/31/6	Just some mild depression\,\,, and that sure is\, a rare condition\, in a depressive place like an Open Sewer.\,\,\, Sleep in a comfy bed\,\,, eat a fine meal\,\,, and definitely not turnip\s\,\,, and it'll go away.	Лёгкая депрессия —\,\, редкость в таком унылом\, месте, как\, Открытая Клоака. Спи на удобной кровати,\,\,\, ешь хорошую еду и\, ни\, в коем случае\, не\, ешь репу\s — и пройдёт.\,\,	В исходнике есть неизвестная последовательность \s; она оставлена без изменений.
+dialogue-unused.json	dlg/61/23	Mike question.	Mike question.	Фраза «Mike question» непонятна, вероятно в оригинале опечатка.
+dialogue-unused.json	dlg/55/4	Hah! \,\, I have heard that so many times before,\,\, and yet,\, none of them didn't!	Ха! Я\,\, слышал это уже не раз, но никто из\, них\, так и не\, справился!	В оригинале двойное отрицание «none of them didn’t»; смысл реплики неоднозначен.
+items.json	item/13680/title	Onio0.04n Soup (Disposable Bowl)	Луковый суп (одноразовая миска)	в оригинале опечатка «Onio0.04n»
+tables.json	table/Tasks/MissingDock14.title	Missing dock	Пропавший док	в оригинале «dock», по тексту «her» — возможно, опечатка «duck» (утка); проверить в игре
+tables.json	table/Tasks/FindDock35.title	Try to find the missing dock	Попробовать найти пропавший док	в оригинале «dock» — возможно, опечатка «duck»; проверить в игре
+tables.json	table/Tasks/FindDock35.description	A hippie you called to told you that some guys had kidnapped his beloved dock. He has no idea where they took her or what they looked like but he told you that they smelled like a sewer full of booze!	Хиппи, которому вы позвонили, рассказал, что какие-то парни похитили его любимый док. Он понятия не имеет, куда её увезли и как они выглядели, но сказал, что от них несло, как из канализации, полной выпивки!	в оригинале «dock» и «her» — возможно, опечатка «duck»; проверить в игре

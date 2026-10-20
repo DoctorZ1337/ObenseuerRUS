@@ -1,0 +1,227 @@
+# conv 329: Bazaar/Outside/Pertti Parju
+1|Pertti Parju|Ai\, saatanan\, saatana...
+2|Pertti Parju|Uh…\,\, yeah…\,\,\, he’s…\,\, gone.
+3|Pertti Parju|Heh…\,\, probably\, that thing\,\,, yeah…
+4|Pertti Parju|Tell him…\,\, we’re\, at the usual spot…\,\, and…
+5|Pertti Parju|…that\, Jarkko’s\, sorry for\,\, everything.
+6|Pertti Parju|Maybe\, we could give\, him…\,\, Reino’s...\,\, uh...\,\, pillow…
+7|Pertti Parju|…if\, we\,, uh\,\,, wash it first…
+8|Pertti Parju|You know\, Infected Bloom?\,\, No?\,\, Well…\,\, I’m not\, surprised.\,\,\, It’s\, pretty new.
+9|Pertti Parju|Urgh…\,\, I\, think I’m\, gonna\, throw up…
+10|Pertti Parju|Why\, he took\, that\, pillow\, with him...
+11|Pertti Parju|You know…
+12|Pertti Parju|Actually…
+13|Pertti Parju|I don't know…
+14|Pertti Parju|It's weird…
+15|Pertti Parju|I mean… this…
+16|Pertti Parju|One day…\,\,\, when we\, were drinking\, at the park...\,\,  Erkki found some...\,\, uh...\, anime stuff…
+17|Pertti Parju|... and\, now\, we're here.
+18|Pertti Parju|But\, I’m not\, complaining…\,\, this actually\, seems more\, interesting than\, just\, drinking...
+19|Pertti Parju|Have you\, seen any\, shroom\, girls around here?
+20|Pertti Parju|Yeah\,\,, but\,\,, uh...
+21|Pertti Parju|We\,\, owe you.
+22|Pertti Parju|So\,\,, um...\,\, I\,\, changed\, the cover\, on\, Reino's\, waifu pillow.
+23|Pertti Parju|And...\,\, uh...\,\, you\, can have it.\,\,\, I\,\, assure you\, that\, it's\, totally\, clean now.
+24|P|Sure, thanks.
+25|Pertti Parju|Great...\,\, uh\,\,, just\, take\, good care of\, her.
+26|Pertti Parju|And\,\, maybe\, hide her\, if you\, ever see\, Reino again.
+27|Pertti Parju|Oh...\,\, she's\, not your\, type?
+28|Pertti Parju|Well\,\,, uh...\,\, I\, have\, three bottles of\, Osmo Olut.\,\,\, And\,\, some\, cigarettes.
+29|Pertti Parju|Here...\,\, take these instead.
+30|P|No thanks, I want money
+31|Pertti Parju|Oh...\,\, uh...\,\, the\, capitalist approach.
+32|Pertti Parju|Erkki?\,\,\, Can you\,\, handle\, this?
+# conv 331: Bazaar/Chamber of Commerce/NO Company Doorphone
+33|???|Name\,\,, please?
+34|??? [ответ]|Unlock
+35|???|Hello?\,\, State your business.
+36|P|I'm here to meet Karl Hagen
+37|P|I want to register for mine access
+38|P|Just ringing for fun
+39|???|Don't\, do\, that.
+40|???|Access control related matters are\, handled at the\, main gatehouse.\,\,\, Head toward the\, Clocktower\, and\, turn left.
+41|P|[lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])]
+42|???|Alright\,\,, [lua(Variable["PlayerLastName"])].\,\,\, Come in.\,\,\, The door is\, unlocked.
+43|P|That's none of your business!
+44|???|Sorry\,\,, no name\,\,, no entry.
+45|???|Have a\, nice day.
+46|P|It's [lua(Variable["PlayerFirstName"])] [lua(Variable["PlayerLastName"])], let me in
+# conv 333: Bazaar/Trader/Remontti-Repe
+47|Remontti-Repe|A hammer\, and nails\,.\,.\,. yes?
+48|P|I would like to buy machinery
+49|Remontti-Repe|We don't accept\, O-Cards here...
+50|Remontti-Repe|We've got\, hammers\,\,, we've got\, nails...\,\, everything you need.
+51|Remontti-Repe|We're...\,\, a fair hardware store.
+# conv 335: Bazaar/Outside/Hazmat Guy Korso
+52|???|The\, Fungal Disease Treatment Unit is\, inside.\,\,\, Only\, hotel personnel\,\, and\, quests\, may enter.
+53|???|This is\, not\, a tourist spot.\,\,\, Stay out.
+54|???|No\, one\, enters the hotel\,\, without\, authorization.\,\,\, That’s\, an order.
+55|???|Go on\,\,, move along.
+# conv 336: Bazaar/Outside/Karri Backman
+56|Karri Backman|Hold up. Ticket.
+57|Karri Backman|Lemme guess. No ticket.
+58|Karri Backman|This where you turn around.
+59|Karri Backman|Door's closed without a ticket.
+60|P|Ticket?
+61|Karri Backman|Yeah. Entry ticket.
+62|Karri Backman|The club’s only available through tickets right now.
+63|Karri Backman|And if you don't have one then you don’t go in.
+64|Karri Backman|No exceptions.
+65|P|Where do I get a ticket?
+66|Karri Backman|If you don’t know, you’re not supposed to have one.
+67|P|I don't have a ticket
+68|Karri Backman|Then I can't let you in.
+# conv 337: Bazaar/Trader/Jonas Elström
+69|Jonas Elström|Welcome to the\, best electronics store in\, the district!
+70|Jonas Elström|Bleeding-edge\,\,, retro\,\,, and\, affordable options.
+71|Jonas Elström|Are you ready for\, the unlimited possibilities of\, the internet?
+72|P|I would like to purchase home appliances
+73|P|What's up with all the obsolete tech for sale here?
+74|P|I want to manage my phone plan
+75|Jonas Elström|It's\,\, "retro"\,\,, not "obsolete"!
+76|Jonas Elström|These are\, reliable\,\,, durable\, devices.\,\, Many people\,\,, including me\,\,, are into\, '70s aesthetics\,\, and\, technology.
+77|P|Where do you get them?
+78|P|Sure, anyway...
+79|Jonas Elström|I\, bought the entire\, old Nykiö warehouse stock\, at an auction\, for\, a really...\,\, competitive price.
+80|Jonas Elström|I also\, buy and\, repair old computers myself.
+81|Jonas Elström|The\, ol' durable tech is\, popular in\, this corner of Stalburg.\,\, Those\, Kontudore computers\,\,, especially\,, sell well.
+82|Jonas Elström|Alright.\,\, Unless you have\, a valid national\, ID card\,\,, I can\, only sell you\, a plan for\, the Obenseuer phone\, network.
+83|P|I want to subscribe to a plan
+84|P|I want to cancel my plan for these devices
+85|P|I want to cancel my entire plan
+86|P|Nevermind
+87|Jonas Elström|Okey, okey...\,\,\, it is now cancelled.
+88|Jonas Elström|Okey\,\,, let me just\, grab the SIM cards...\,\,\, Done!
+89|Jonas Elström|Okey.\,\, It will cost\, around\,\, [lua(GetPriceForOSPhone())]\,\,, invoiced every\, two weeks.
+90|P|I'll take it
+91|Jonas Elström|What?\,\,\, You don't have any\, eligible devices.
+92|Jonas Elström|The future is\, here...\,\, and it's connected!
+93|P|Hey, do you know where Heikki is?
+94|Jonas Elström|You mean\, Heikki Mailanen?
+95|Jonas Elström|Man\,\,, I have\, no idea\, where he is\, right now.\,\,\, But\, the last time I\, saw him\,\,, he was\, asking about\, setting up\, a prepaid\, phone subscription.
+96|P|Why would he want a prepaid subscription?
+97|P|How do you know him?
+98|Jonas Elström|How\, should I\, know?\,\, Maybe\, he's dodging\, debt collectors.
+99|Jonas Elström|He's got\, a...\,\, well\,\,, a pretty\, bad\, gambling addiction.
+100|Jonas Elström|And\, he owes\, money to\, the kind of people\, you really shouldn't\, owe\, money to.
+101|Jonas Elström|He came in\, one day\, to buy some\, stuff with this\, really...\,\, unsettling\, friend of his.
+102|Jonas Elström|But\,\, Heikki was\, super into\, retro tech\,\,, just like me.\,\,\, We hit it off\, and\, hung out\, at the internet cafe\, playing Maahis Mättö a few times.
+103|P|Do you know where he lives?
+104|Jonas Elström|Uh\,\,, no.\,\,\, I never\, asked.\,\, We just\, kept things to the cafe.
+105|P|Unsettling friend of his?
+106|P|Thanks
+107|Jonas Elström|Yeah...\,\, I just\, really hope he\, isn't in\, serious trouble...
+108|Jonas Elström|Yeah\,\,, he kept his\, face hidden\,\,, like he was\, terrified\, someone would\, recognize him.
+109|Jonas Elström|And he just\, gave off this\, weird vibe...\,\, like he\, hadn't stepped outside\, his apartment in\, months.
+110|Jonas Elström|It really\, creeped me out.
+# conv 338: Bazaar/Mentti/Penni-Pena_Hatch
+111|Penni-Pena|Greetings.\,\,\, Please...\,\, state your business.
+112|P|I'm looking to apply for a loan
+113|P|I need some cash, now!
+114|P|Nothing (Leave)
+115|Penni-Pena|Hrmm\,.\,.\,.
+116|Penni-Pena|You got\, any income\, or assets to back that up?
+117|P|I own an entire apartment block
+118|P|That is none of your business
+119|P|If I had an income, I wouldn't be asking for a loan!
+120|Penni-Pena|I see\,.\,.\,. Then\, getting a loan\, isn't your business either.
+121|Penni-Pena|Then\, how the heck are you going to pay it back?
+122|P|Alright, fine. I actually own an entire apartment block
+123|P|Fine (Leave)
+124|Penni-Pena|An\, entire block?\,\,\, That...\,\, is quite lucrative!
+125|Penni-Pena|My limit for you\, would be\, [lua(GetLoanDetailsDialogue())].\,\,\, Down payments will be invoiced.
+126|P|(Select Loan Amount)
+127|P|No thank you (Leave)
+128|Penni-Pena|Hello.\,\,\, How are the apartments generating rent?
+129|P|How deep in debt am I right now?
+130|P|I need loan
+131|P|Everything is running smoothly. Bye! (Leave)
+132|P|I want to make a payment
+133|Penni-Pena|I\, would be\, more than happy to\, finance your renovations\,\,, provided you have\, a steady rental income.
+134|Penni-Pena|You do have\, tenants\,\,, yes?
+135|Penni-Pena|Yes?\,\, How is the cash flow?
+136|Penni-Pena|Welcome back.\,\,\, I trust the apartments are\, generating\, a healthy amount of rent?
+137|Penni-Pena|Hello again...\,\,\, I hope your\, tenants are paying on time?
+138|Penni-Pena [ответ]|KNOWS PLAYER
+139|Penni-Pena|Let me check your\, file...
+140|Penni-Pena|Your\, outstanding debt is\, [lua(GetOwedAmountDialogue())].
+141|Penni-Pena|Let's\, see here...
+142|Penni-Pena|You\, currently owe me\, [lua(GetOwedAmountDialogue())].
+143|Penni-Pena|Hrmm...
+144|Penni-Pena|Speaking of which\,\,, I will need\, a name for\, the paperwork.
+145|Penni-Pena|So...\,\, who\, am I speaking with?
+146|Penni-Pena|Thank you\,\,, [lua(Variable["PlayerLastName"])].
+147|Penni-Pena|Hrmm...\,\,\, I'm looking at your\, file\,\,, and\, I'm\, afraid I must\, decline your request.
+148|P|None of your business
+149|Penni-Pena|Do I\, need to know\, the name of the person\, I'm giving\, a money?\,\, Yes\,\,, I\, do.
+150|P|I'm leaving (Leave)
+151|P|Is my name really necessary right now?"
+152|Penni-Pena|Come back\, when you have...\,\, some cash flow.
+153|Penni-Pena|Yes?\,\, Are you ready to\, tell your name?
+154|P|No, I'm leaving (Leave)
+155|Penni-Pena|You actually owe me\, absolutely nothing.
+# conv 339: Bazaar/Trader/Ruth McTrosg
+156|Ruth McTrosg|How are ye doin’?\,\,\, Lookin' for somethin'?
+157|P|Smokes and vodka
+158|P|Hot dog
+159|Ruth McTrosg|Just\, browsin'\,, aye?
+160|Ruth McTrosg|What'll it be\,, then?
+161|Ruth McTrosg|Need anythin'?
+162|P|I want to redeem my winnings
+# conv 340: Bazaar/Industrial/Tor Bergstahl
+163|Tor Bergstahl|This city was\, built on\, steelmaking.
+164|Tor Bergstahl|My father used to work at\, Stalburg Steel.\,\, Metallurgy runs in\, my veins.
+165|Tor Bergstahl|Everything would be better\, if Stalburg Steel\, still existed.
+166|Tor Bergstahl|On a clear day\,\,, you can see the\, Stalburg Steel blast furnace on\, the horizon.
+167|Tor Bergstahl|The\, Obenseuer\, steel factory\, and mine.\,\, We've\, converted the entire building for\, industrial purposes.
+168|Tor Bergstahl|This used to be\, a parking garage\, and\, some technical spaces\,\,, but now\, it houses our\, blast furnace\, and\, converter.
+169|Tor Bergstahl|The upper floors house\, countless\, workshops and\, small factories.
+170|P|Why would anybody convert an apartment building into a mine and factories?
+171|Tor Bergstahl|This building was built on\, top of a\, hastily covered\, SOMC\, mineshaft\, and its\, associated ventilation shaft.
+172|Tor Bergstahl|In fact\,, half of the\, Obenseuer district\, used to be\, active\, mining grounds\, until\, operations were\, halted\, and the area was\, rezoned for\, residential use\, sometime in the\, '70s.
+173|Tor Bergstahl|SOMC left behind\, significant deposits\, despite ceasing all\, activity in the\, area.\,\, They're still\, mining the much\, larger vein\, northeast of here.
+174|Tor Bergstahl|If you've been to the\, mines\,, you've probably seen the\, big chasm.\,\, That\, chasm is\, part of the\, major vein\, being mined by\, SOMC.\,\,\, All the\, smaller side deposits were\, left for us.
+175|Tor Bergstahl|Back to the topic.\,\, This building was never\, fully finished\,\, because it\, failed inspections\, due to\, ground stability issues\, and\, contaminated soil.\,\,\, There are\, many\, unfinished buildings nearby\, that suffered\, the same fate.
+176|Tor Bergstahl|Since the building was never\, approved for\, human habitation\,\,, locals started\, setting up\, businesses\, and workshops inside it.
+177|Tor Bergstahl|When we\, were reinforcing\, the foundations\,\,, we\, discovered the\, old mineshaft\, and mining tunnels.\,\, We decided\, it was worth the cost to\, renovate the shaft\, and set up our\, own mining operation.
+178|Tor Bergstahl|The\, Osmo guys weren't too fond of\, our plans to\, start mining\, right next to their\, brewery\,\,, but\, we managed to\, strike an\, agreement with them.
+179|Tor Bergstahl|Osmo agreed to\, let us proceed on the condition\, that we confine our\, mining operations to the\, existing tunnel network\, and\,\,, most importantly\,, maintain the old tunnels to\, prevent any\, future cave-ins.
+180|P|Do you buy ore?
+181|Tor Bergstahl|Yeah.\,\, Reiska will handle that\, down in the mines.
+182|P|I want to have access to the mines
+183|Tor Bergstahl|You want to work for us down in the mines?
+184|P|I already have the mining permit, but I need the elevator access
+185|P|Yes
+186|Tor Bergstahl|Good!
+187|Tor Bergstahl|I assume you\, already have a passport\, or\, a valid ID card?\,\, For elevator and\, mine access\,\,, you'll need to\, register at the\, Bazaar HQ.
+188|Tor Bergstahl|Since the mines connect to\, areas outside the Bazaar\, and\, there are some\, outsiders\, hanging around down there\,\,, the Bazaar people are\, very keen on\, monitoring who uses the\, elevator.
+189|Tor Bergstahl|Otherwise\,\,, I would've just given you access to\, the elevators\,\,, since you already have the\, Mining Permit.
+190|Tor Bergstahl|So\,\,, they want to\, review everyone themselves\, before granting access.
+191|Tor Bergstahl|Let me\, mark it on your map.
+192|Tor Bergstahl|To work in the mines\,\,, you'll need to obtain\, a Mining Permit.\,\,\, Those are handled in our\, administration building\, down in the mines.
+193|Tor Bergstahl|... but first\,\,, you'll need to have\, access to the mines...
+194|P|I have the registration
+195|Tor Bergstahl|Let me see.\,.\,.
+196|Tor Bergstahl|Seems allright.
+197|Tor Bergstahl|You have the mining permit already?
+198|P|Yeah, here (Show)
+199|P|No, I don't have that
+200|Tor Bergstahl|Very good...\,\, very good.
+201|Tor Bergstahl|Now that you have\, the registration\,\,, I can let you\, down into the mines\, to visit our\, administration.\,\, However\,, for permanent access\,, we require a\, Mining Permit.
+202|Tor Bergstahl|Welcome aboard\,, miner!\,\, Here's the\, permanent\, elevator pass.
+203|P|I now have the Mining Permit (Show)
+204|Tor Bergstahl|Here's a\, one-time pass for\, the elevator.
+205|Tor Bergstahl|Wait a second…
+206|Tor Bergstahl|… you're\, the owner of that\, tenement Toivo was talking about!
+207|Tor Bergstahl|You need to go speak with him\,\, before your\, entire building collapses!
+208|P|Oh, fine. I'll go talk to him.
+209|P|I already told him, it's not my tenement
+210|Tor Bergstahl|Yeah\,, you better get over there\, before it's too late!
+211|Tor Bergstahl|Hmph…\,\, sure.
+212|Tor Bergstahl|There's no\, point lying to us\,, landlord.\,\,\, Go fix things with Toivo\, before someone gets killed.
+213|Tor Bergstahl|But\, anyway...
+214|P|Ah, cool (Leave)
+215|P|(Keep listening)
+216|P|Hmhm. Thanks for the info (Leave)
+217|Tor Bergstahl|The ground around here is\, already like\, Swiss cheese\,\,, and\, old collapsing tunnels had\, fractured some\, foundations long before our\, operations began.
+218|Tor Bergstahl|The Bazaar\, HQ is\, the tall wooden building\,\, with a\, round stone tower\, at the other end of the street.\,\, It has an\, "N-O Company" sign.\,\, It's hard to miss.
