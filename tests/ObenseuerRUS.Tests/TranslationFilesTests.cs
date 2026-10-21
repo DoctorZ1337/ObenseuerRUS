@@ -75,6 +75,21 @@ namespace ObenseuerRUS.Tests
         }
 
         [Fact]
+        public void Real_note_gets_names_on_every_line()
+        {
+            // Записка показывается одним полем TMP: подпись и название отеля — отдельные строки без кириллицы.
+            Catalog catalog = Catalog.LoadDirectory(TranslationsDir());
+            string source = Catalog.ReadFile(Path.Combine(TranslationsDir(), "tables.json")).Entries
+                .Find(e => e.Key == "Confirmation of Your Hotel Korso Reservation.content").Source;
+            var tr = new TextTranslator(catalog) { Names = ProperNames.For(catalog, true, true) };
+            string[] lines = tr.Translate(source).Split('\n');
+            Assert.Equal("Уважаемый Тамми,", lines[0]);
+            Assert.Contains("- Имя гостя: Иисакки Тамми", lines);
+            Assert.Contains("Карл Шепперн", lines);
+            Assert.Equal("Отель Корсо Обенсеуер", lines[lines.Length - 1]);
+        }
+
+        [Fact]
         public void Lua_scope_templates_apply_only_to_lua_values()
         {
             Catalog catalog = Catalog.LoadDirectory(TranslationsDir());
