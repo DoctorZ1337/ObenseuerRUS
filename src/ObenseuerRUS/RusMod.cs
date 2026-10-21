@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.5")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.6")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
@@ -28,7 +28,6 @@ namespace ObenseuerRUS
         private GitHubUpdater.ReleaseInfo pendingUpdate;
         private string updateNotice;
         private GUIStyle updateNoticeStyle;
-        private GUIStyle versionStampStyle;
 
         protected override void OnLoad()
         {
@@ -56,6 +55,7 @@ namespace ObenseuerRUS
             brands.Changed += OnSettingChanged;
             EnsureAll();
             TmpLocalizer.Sweep();
+            if (SceneManager.GetActiveScene().name == VersionStamp.Scene) OnSceneLoaded(VersionStamp.Scene);
         }
 
         // Клавиша переключает General/Enabled; дальше работает тот же OnSettingChanged, что и для меню Mods.
@@ -88,24 +88,6 @@ namespace ObenseuerRUS
 
         private void OnGUI()
         {
-            if (SceneManager.GetActiveScene().name == "Main Menu")
-            {
-                if (versionStampStyle == null)
-                {
-                    versionStampStyle = new GUIStyle(GUI.skin.label)
-                    {
-                        font = FontFallback.TypewriterFont,
-                        fontSize = 18,
-                        alignment = TextAnchor.LowerLeft
-                    };
-                    versionStampStyle.normal.textColor = Color.white;
-                }
-                if (versionStampStyle.font == null) versionStampStyle.font = FontFallback.TypewriterFont;
-                float stampWidth = Mathf.Max(1f, Mathf.Min(440f, Screen.width - 30f));
-                GUI.Label(new Rect(15f, Screen.height - 42f, stampWidth, 26f),
-                    "Версия перевода: " + modVersion, versionStampStyle);
-            }
-
             if (string.IsNullOrEmpty(updateNotice)) return;
             if (updateNoticeStyle == null)
                 updateNoticeStyle = new GUIStyle(GUI.skin.label) { fontSize = 15, wordWrap = true, alignment = TextAnchor.MiddleLeft };
@@ -142,7 +124,7 @@ namespace ObenseuerRUS
         {
             AssemblyInformationalVersionAttribute version = (AssemblyInformationalVersionAttribute)Attribute.GetCustomAttribute(
                 typeof(RusMod).Assembly, typeof(AssemblyInformationalVersionAttribute));
-            modVersion = version == null ? "0.4.5" : version.InformationalVersion.Split('+')[0];
+            modVersion = version == null ? "0.4.6" : version.InformationalVersion.Split('+')[0];
             updater = new GitHubUpdater(folder, modVersion);
             updater.Start();
         }
@@ -192,6 +174,7 @@ namespace ObenseuerRUS
 
         private void OnSceneLoaded(string scene)
         {
+            if (scene == VersionStamp.Scene) Guard("версия в меню", () => VersionStamp.Add("Перевод " + modVersion));
             EnsureAll();
             TmpLocalizer.Sweep();
             FlushMissing();
