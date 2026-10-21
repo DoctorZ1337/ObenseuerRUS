@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using System.Text;
 using ObenseuerCore;
 using ObenseuerRUS.Core;
@@ -8,7 +9,7 @@ using UnityEngine;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.0")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.1")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
@@ -16,11 +17,14 @@ namespace ObenseuerRUS
         private Catalog catalog;
         private TextTranslator translator;
         private ModSetting<bool> isEnabled, dialogue, ui, logMissing;
-        private ModKeybind toggleKey, reloadKey;
+        private ModKeybind toggleKey;
         private readonly HashSet<string> missing = new HashSet<string>(StringComparer.Ordinal);
         private string folder;
         private bool missingDirty;
         private float nextFlush;
+        private GitHubUpdater updater;
+        private string updateNotice;
+        private GUIStyle updateNoticeStyle;
 
         protected override void OnLoad()
         {
@@ -31,10 +35,8 @@ namespace ObenseuerRUS
             dialogue = Config.Bind("General", "TranslateDialogue", true, "Переводить диалоги.");
             logMissing = Config.Bind("Debug", "LogUntranslated", false, "Записывать строки интерфейса, где остался английский текст (целиком или частично), в untranslated.txt в папке мода.");
             toggleKey = Mod.Key("ToggleLanguage", "Русский / английский", KeyCode.F9);
-            // Для переводчиков: перечитать translations\*.json без перезапуска игры. По умолчанию не назначена.
-            reloadKey = Mod.Key("ReloadTranslations", "Перечитать файлы перевода", KeyCode.None);
-
             LoadCatalog();
+            StartUpdater();
             ApplySettings();
 
             if (!TmpLocalizer.Install(Mod)) Log.Warn("перехват TextMeshPro не установлен, интерфейс останется на английском");
@@ -50,6 +52,13 @@ namespace ObenseuerRUS
         // Клавиша переключает General/Enabled; дальше работает тот же OnSettingChanged, что и для меню Mods.
         private void Update()
         {
+            if (updater != null)
+            {
+                string notice;
+                while (updater.TryTakeNotice(out notice)) updateNotice = notice;
+                string error = updater.TakeError();
+                if (!string.IsNullOrEmpty(error)) Log.Warn(error);
+            }
             // Журнал непереведённого пишется и без смены сцены: окна интерфейса открываются в одной сцене.
             if (missingDirty && Time.unscaledTime >= nextFlush)
             {
@@ -57,17 +66,32 @@ namespace ObenseuerRUS
                 FlushMissing();
             }
             if (UiState.IsTyping) return;
-            if (reloadKey != null && reloadKey.Down())
-            {
-                LoadCatalog();
-                TablesLocalizer.Reset();
-                DialogueLocalizer.Reset();
-                OnSettingChanged();
-                return;
-            }
             if (toggleKey == null || !toggleKey.Down()) return;
             isEnabled.Value = !isEnabled.Value;
             Log.Info(isEnabled.Value ? "перевод включён клавишей" : "перевод выключен клавишей");
+        }
+
+        private void OnGUI()
+        {
+            if (string.IsNullOrEmpty(updateNotice)) return;
+            if (updateNoticeStyle == null)
+                updateNoticeStyle = new GUIStyle(GUI.skin.label) { fontSize = 15, wordWrap = true, alignment = TextAnchor.MiddleLeft };
+
+            float width = Mathf.Max(1f, Mathf.Min(660f, Screen.width - 30f));
+            const float height = 76f;
+            var box = new Rect(15f, 15f, width, height);
+            GUI.Box(box, GUIContent.none);
+            GUI.Label(new Rect(box.x + 12f, box.y + 5f, box.width - 54f, box.height - 10f), updateNotice, updateNoticeStyle);
+            if (GUI.Button(new Rect(box.xMax - 38f, box.y + 8f, 30f, 28f), "×")) updateNotice = null;
+        }
+
+        private void StartUpdater()
+        {
+            AssemblyInformationalVersionAttribute version = (AssemblyInformationalVersionAttribute)Attribute.GetCustomAttribute(
+                typeof(RusMod).Assembly, typeof(AssemblyInformationalVersionAttribute));
+            string current = version == null ? "0.4.0" : version.InformationalVersion.Split('+')[0];
+            updater = new GitHubUpdater(folder, current);
+            updater.Start();
         }
 
         private void LoadCatalog()

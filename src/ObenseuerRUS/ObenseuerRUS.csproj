@@ -7,7 +7,7 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>ObenseuerRUS</AssemblyName>
     <RootNamespace>ObenseuerRUS</RootNamespace>
-    <Version>0.4.0</Version>
+    <Version>0.4.1</Version>
     <Nullable>disable</Nullable>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
@@ -28,6 +28,10 @@
     </Reference>
     <Reference Include="UnityEngine.UIModule">
       <HintPath>$(ManagedDir)\UnityEngine.UIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(ManagedDir)\UnityEngine.IMGUIModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
@@ -62,6 +66,7 @@
       <HintPath>$(ManagedDir)\Newtonsoft.Json.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="System.IO.Compression" />
     <Reference Include="ObenseuerCore">
       <HintPath>$(FrameworkDll)</HintPath>
       <Private>false</Private>

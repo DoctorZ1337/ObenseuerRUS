@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <Compile Include="..\..\src\ObenseuerRUS\Core\*.cs" Link="Core\%(Filename)%(Extension)" />
+    <Compile Include="..\..\src\ObenseuerRUS\GitHubUpdater.cs" Link="GitHubUpdater.cs" />
   </ItemGroup>
 
   <ItemGroup>
