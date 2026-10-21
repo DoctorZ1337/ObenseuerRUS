@@ -6,10 +6,11 @@ using System.Text;
 using ObenseuerCore;
 using ObenseuerRUS.Core;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.2")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.4")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
@@ -23,8 +24,11 @@ namespace ObenseuerRUS
         private bool missingDirty;
         private float nextFlush;
         private GitHubUpdater updater;
+        private string modVersion;
+        private GitHubUpdater.ReleaseInfo pendingUpdate;
         private string updateNotice;
         private GUIStyle updateNoticeStyle;
+        private GUIStyle versionStampStyle;
 
         protected override void OnLoad()
         {
@@ -57,6 +61,12 @@ namespace ObenseuerRUS
             {
                 string notice;
                 while (updater.TryTakeNotice(out notice)) updateNotice = notice;
+                GitHubUpdater.ReleaseInfo release;
+                if (pendingUpdate == null && updater.TryTakeAvailableUpdate(out release))
+                {
+                    pendingUpdate = release;
+                    updateNotice = "Доступна версия мода " + release.Version + ". Хотите обновить весь мод?";
+                }
                 string error = updater.TakeError();
                 if (!string.IsNullOrEmpty(error)) Log.Warn(error);
             }
@@ -74,24 +84,62 @@ namespace ObenseuerRUS
 
         private void OnGUI()
         {
+            if (SceneManager.GetActiveScene().name == "Main Menu")
+            {
+                if (versionStampStyle == null)
+                {
+                    versionStampStyle = new GUIStyle(GUI.skin.label)
+                    {
+                        font = FontFallback.TypewriterFont,
+                        fontSize = 18,
+                        alignment = TextAnchor.LowerRight
+                    };
+                    versionStampStyle.normal.textColor = Color.white;
+                }
+                if (versionStampStyle.font == null) versionStampStyle.font = FontFallback.TypewriterFont;
+                float stampWidth = Mathf.Max(1f, Mathf.Min(440f, Screen.width - 30f));
+                GUI.Label(new Rect(Screen.width - stampWidth - 15f, Screen.height - 42f, stampWidth, 26f),
+                    "Версия перевода: " + modVersion, versionStampStyle);
+            }
+
             if (string.IsNullOrEmpty(updateNotice)) return;
             if (updateNoticeStyle == null)
                 updateNoticeStyle = new GUIStyle(GUI.skin.label) { fontSize = 15, wordWrap = true, alignment = TextAnchor.MiddleLeft };
 
             float width = Mathf.Max(1f, Mathf.Min(660f, Screen.width - 30f));
-            const float height = 76f;
+            float height = pendingUpdate == null ? 76f : 112f;
             var box = new Rect(15f, 15f, width, height);
             GUI.Box(box, GUIContent.none);
-            GUI.Label(new Rect(box.x + 12f, box.y + 5f, box.width - 54f, box.height - 10f), updateNotice, updateNoticeStyle);
-            if (GUI.Button(new Rect(box.xMax - 38f, box.y + 8f, 30f, 28f), "×")) updateNotice = null;
+            if (pendingUpdate == null)
+            {
+                GUI.Label(new Rect(box.x + 12f, box.y + 5f, box.width - 54f, box.height - 10f), updateNotice, updateNoticeStyle);
+                if (GUI.Button(new Rect(box.xMax - 38f, box.y + 8f, 30f, 28f), "×")) updateNotice = null;
+                return;
+            }
+
+            GUI.Label(new Rect(box.x + 12f, box.y + 5f, box.width - 54f, 55f), updateNotice, updateNoticeStyle);
+            if (GUI.Button(new Rect(box.xMax - 242f, box.yMax - 42f, 112f, 30f), "Обновить"))
+            {
+                GitHubUpdater.ReleaseInfo release = pendingUpdate;
+                pendingUpdate = null;
+                updateNotice = "Скачиваю полный пакет " + release.Version + "…";
+                updater.DownloadAndStage(release);
+            }
+            bool later = GUI.Button(new Rect(box.xMax - 122f, box.yMax - 42f, 88f, 30f), "Позже");
+            bool close = GUI.Button(new Rect(box.xMax - 34f, box.y + 8f, 26f, 28f), "×");
+            if (later || close)
+            {
+                pendingUpdate = null;
+                updateNotice = null;
+            }
         }
 
         private void StartUpdater()
         {
             AssemblyInformationalVersionAttribute version = (AssemblyInformationalVersionAttribute)Attribute.GetCustomAttribute(
                 typeof(RusMod).Assembly, typeof(AssemblyInformationalVersionAttribute));
-            string current = version == null ? "0.4.0" : version.InformationalVersion.Split('+')[0];
-            updater = new GitHubUpdater(folder, current);
+            modVersion = version == null ? "0.4.4" : version.InformationalVersion.Split('+')[0];
+            updater = new GitHubUpdater(folder, modVersion);
             updater.Start();
         }
 

@@ -73,6 +73,8 @@ Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
         private readonly string pluginFolder;
         private readonly Version currentVersion;
         private readonly ConcurrentQueue<string> notices = new ConcurrentQueue<string>();
+        private readonly ConcurrentQueue<ReleaseInfo> availableUpdates = new ConcurrentQueue<ReleaseInfo>();
+        private int isDownloading;
         private string error;
 
         internal GitHubUpdater(string pluginFolder, string currentVersion)
@@ -83,29 +85,47 @@ Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
 
         internal void Start()
         {
-            ThreadPool.QueueUserWorkItem(_ => Run());
+            ThreadPool.QueueUserWorkItem(_ => CheckForUpdate());
         }
 
         internal bool TryTakeNotice(out string notice) => notices.TryDequeue(out notice);
 
+        internal bool TryTakeAvailableUpdate(out ReleaseInfo release) => availableUpdates.TryDequeue(out release);
+
+        internal void DownloadAndStage(ReleaseInfo release)
+        {
+            if (release == null || release.AssetUrl == null || Interlocked.CompareExchange(ref isDownloading, 1, 0) != 0) return;
+            ThreadPool.QueueUserWorkItem(_ => DownloadAndStageWorker(release));
+        }
+
         internal string TakeError() => Interlocked.Exchange(ref error, null);
 
-        private void Run()
+        private void CheckForUpdate()
         {
-            string stageDirectory = null;
-            string scriptPath = null;
             try
             {
                 ReleaseInfo release = ParseLatestRelease(GetText(ApiUrl), currentVersion);
                 if (release == null) return;
-
                 if (release.AssetUrl == null)
                 {
                     notices.Enqueue("Найдена версия мода " + release.Version + ", но архив ObenseuerRUS-" + release.Version + ".zip ещё не приложен к GitHub-релизу.");
                     return;
                 }
+                availableUpdates.Enqueue(release);
+            }
+            catch (Exception e)
+            {
+                Interlocked.Exchange(ref error, "проверка автообновления мода: " + e.Message);
+                notices.Enqueue("Не удалось проверить обновления мода. Проверьте подключение и журнал игры.");
+            }
+        }
 
-                notices.Enqueue("Найдена версия мода " + release.Version + ". Скачиваю полный пакет…");
+        private void DownloadAndStageWorker(ReleaseInfo release)
+        {
+            string stageDirectory = null;
+            string scriptPath = null;
+            try
+            {
                 byte[] archive = GetBytes(release.AssetUrl, release.Size);
                 VerifySha256(archive, release.Sha256);
                 Dictionary<string, byte[]> files = ReadPackageFiles(archive);
@@ -127,6 +147,10 @@ Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
                 notices.Enqueue("Не удалось подготовить автообновление мода. Проверьте подключение и журнал игры.");
                 DeleteStage(stageDirectory);
                 DeleteFile(scriptPath);
+            }
+            finally
+            {
+                Interlocked.Exchange(ref isDownloading, 0);
             }
         }
 

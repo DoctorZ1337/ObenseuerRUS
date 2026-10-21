@@ -23,6 +23,8 @@ namespace ObenseuerRUS
         private static bool globalDone, typewriterFailed;
         private static TMP_FontAsset typewriter;
 
+        public static Font TypewriterFont => typewriter == null ? null : typewriter.sourceFontFile;
+
         public static void Ensure(string fontsDir)
         {
             TMP_FontAsset[] loaded = Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
