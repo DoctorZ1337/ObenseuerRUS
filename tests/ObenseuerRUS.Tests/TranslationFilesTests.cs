@@ -50,6 +50,9 @@ namespace ObenseuerRUS.Tests
         [InlineData("Malone Petronis wants to help you renovate the tenement. He told you that there should be contract work business owner, Samuel Jonasson, in Deekula building who can help you with it.\n\nMalone also told you that you need a lot of money so he suggested that you go and ask for a job at Kurahaara brothers' farm.",
                     "Malone Petronis хочет помочь вам отремонтировать доходный дом. Он сказал, что в здании Deekula должен быть владелец подрядной фирмы, Samuel Jonasson, который может с этим помочь.\n\nЕщё Malone сказал, что вам понадобится много денег, и предложил спросить работу на ферме братьев Kurahaara.")]
         [InlineData("Bridge toll contact info​", "Контакты по оплате проезда по мосту​")]
+        // Голое "Search" — поле поиска (меню модов, компьютер в игре); у контейнера UseText показывает "(Search)".
+        [InlineData("Search", "Поиск")]
+        [InlineData("(Search)", "(Обыскать)")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));
