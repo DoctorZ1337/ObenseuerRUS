@@ -92,13 +92,13 @@ namespace ObenseuerRUS
                     {
                         font = FontFallback.TypewriterFont,
                         fontSize = 18,
-                        alignment = TextAnchor.LowerRight
+                        alignment = TextAnchor.LowerLeft
                     };
                     versionStampStyle.normal.textColor = Color.white;
                 }
                 if (versionStampStyle.font == null) versionStampStyle.font = FontFallback.TypewriterFont;
                 float stampWidth = Mathf.Max(1f, Mathf.Min(440f, Screen.width - 30f));
-                GUI.Label(new Rect(Screen.width - stampWidth - 15f, Screen.height - 42f, stampWidth, 26f),
+                GUI.Label(new Rect(15f, Screen.height - 42f, stampWidth, 26f),
                     "Версия перевода: " + modVersion, versionStampStyle);
             }
 
