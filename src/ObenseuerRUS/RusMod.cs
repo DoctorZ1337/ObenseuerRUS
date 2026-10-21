@@ -9,7 +9,7 @@ using UnityEngine;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.1")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.2")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
