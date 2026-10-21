@@ -56,6 +56,21 @@ namespace ObenseuerRUS.Tests
             Assert.Equal(expected, tr.Translate(source));
         }
 
+        [Theory]
+        [InlineData("Grow turnips for Jomppe 0/10", "Вырастить репу для Йомппе 0/10")]
+        [InlineData("Arvo Kirkastaja", "Арво Киркастая")]
+        [InlineData("Osmo Olut", "Осмо Олут")]
+        [InlineData("Mr. Duck", "Мистер Дак")]
+        [InlineData("B1 Piggyhill", "B1 Пиггихилл")]
+        public void Real_names_are_written_in_cyrillic_when_enabled(string source, string expected)
+        {
+            Catalog catalog = Catalog.LoadDirectory(TranslationsDir());
+            Assert.NotEmpty(catalog.People);
+            Assert.NotEmpty(catalog.Brands);
+            var tr = new TextTranslator(catalog) { Names = ProperNames.For(catalog, true, true) };
+            Assert.Equal(expected, tr.Translate(source));
+        }
+
         [Fact]
         public void Lua_scope_templates_apply_only_to_lua_values()
         {

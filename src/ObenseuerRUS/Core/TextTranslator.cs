@@ -53,6 +53,9 @@ namespace ObenseuerRUS.Core
         /// <summary>Вызывается для строк, где остался непереведённый английский текст (целиком или частично).</summary>
         public Action<string> Missed;
 
+        /// <summary>Кириллица для имён и названий поверх перевода; null — имена как в игре. После замены нужен ClearCache.</summary>
+        public ProperNames Names;
+
         /// <param name="forLua">true — для значений Lua-вставок диалогов: сначала шаблоны со scope "lua", затем общие.</param>
         public TextTranslator(Catalog catalog, bool forLua = false)
         {
@@ -79,6 +82,7 @@ namespace ObenseuerRUS.Core
                 memo.Clear();
             }
             result = r?.Text ?? text;
+            if (Names != null) result = Names.Apply(result);
             if (cache.Count >= CacheLimit) cache.Clear();
             cache[text] = result;
             if ((r == null || r.Misses > 0) && Missed != null && LatinWord.IsMatch(Tag.Replace(result, " "))) Missed(text);

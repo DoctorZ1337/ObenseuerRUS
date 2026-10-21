@@ -10,7 +10,7 @@ namespace ObenseuerRUS.Core
     public sealed class Entry
     {
         [JsonProperty("id")] public string Id;
-        // text | template | table | dialogue | dialogue-menu
+        // text | template | table | dialogue | dialogue-menu | person | brand
         [JsonProperty("kind")] public string Kind;
         [JsonProperty("source")] public string Source;
         [JsonProperty("target")] public string Target;
@@ -46,7 +46,9 @@ namespace ObenseuerRUS.Core
     public static class Kinds
     {
         public const string Text = "text", Template = "template", Table = "table", Dialogue = "dialogue", DialogueMenu = "dialogue-menu";
-        public static bool IsKnown(string k) => k == Text || k == Template || k == Table || k == Dialogue || k == DialogueMenu;
+        // Необязательная кириллица для имён людей и для брендов, заведений и мест (см. ProperNames).
+        public const string Person = "person", Brand = "brand";
+        public static bool IsKnown(string k) => k == Text || k == Template || k == Table || k == Dialogue || k == DialogueMenu || k == Person || k == Brand;
     }
 
     public sealed class Catalog
@@ -57,6 +59,8 @@ namespace ObenseuerRUS.Core
         public readonly List<Template> LuaTemplates = new List<Template>();
         public readonly Dictionary<long, DialogueLine> Dialogue = new Dictionary<long, DialogueLine>();
         public readonly Dictionary<string, Dictionary<string, string>> Tables = new Dictionary<string, Dictionary<string, string>>(StringComparer.Ordinal);
+        public readonly Dictionary<string, string> People = new Dictionary<string, string>(StringComparer.Ordinal);
+        public readonly Dictionary<string, string> Brands = new Dictionary<string, string>(StringComparer.Ordinal);
         public readonly List<string> Problems = new List<string>();
         public int Used, Pending;
 
@@ -156,6 +160,12 @@ namespace ObenseuerRUS.Core
                         line.MenuSource = e.Source;
                         line.MenuTarget = e.Target;
                     }
+                    break;
+                case Kinds.Person:
+                case Kinds.Brand:
+                    // В Exact не попадают: без включённой настройки имена остаются латиницей.
+                    if (string.IsNullOrEmpty(e.Source)) throw new InvalidDataException("пустой source");
+                    (e.Kind == Kinds.Person ? People : Brands)[e.Source] = e.Target;
                     break;
                 default:
                     throw new InvalidDataException("неизвестный kind " + e.Kind);

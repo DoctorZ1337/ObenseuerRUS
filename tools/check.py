@@ -7,7 +7,7 @@
 Проверяется: формат и UTF-8, пустые и дублирующиеся id, известные kind/status, обязательные поля,
 шаблоны {0}, сохранность разметки (теги, Lua-вставки, коды \\, и т.п., переводы строк),
 кириллица в переводе, смешение латиницы и кириллицы в одном слове, пробел перед знаком препинания,
-расхождения переводов одной строки.
+расхождения переводов одной строки; для имён (person, brand) — один ключ в одной группе и перевод без строчной латиницы.
 """
 import argparse
 import json
@@ -22,7 +22,8 @@ sys.path.insert(0, HERE)
 import markup  # noqa: E402
 
 FORMAT = "obenseuer-rus/1"
-KINDS = {"text", "template", "table", "dialogue", "dialogue-menu"}
+KINDS = {"text", "template", "table", "dialogue", "dialogue-menu", "person", "brand"}
+NAME_KINDS = {"person", "brand"}
 STATUSES = {"translated", "review", "todo"}
 CYR = re.compile(r"[А-Яа-яЁё]")
 LAT = re.compile(r"[A-Za-z]")
@@ -78,6 +79,7 @@ def check(folder):
             errors.append("дублирующийся id: %r (%d раз)" % (i, n))
     by_source = defaultdict(set)
     by_template = defaultdict(set)
+    name_groups = defaultdict(set)
     stats = defaultdict(Counter)
     review, todo = [], []
     for name, e in entries:
@@ -128,6 +130,11 @@ def check(folder):
         tgt_lines = tgt.replace("\r\n", "\n").replace("\r", "\n")
         if src_lines.endswith("\n") != tgt_lines.endswith("\n"):
             warnings.append("%s: перевод строки в конце не совпадает" % where)
+        if kind in NAME_KINDS:
+            name_groups[src].add(kind)
+            # Аббревиатуры (OC, OS, LTD) остаются латиницей, остальное — кириллицей.
+            if re.search(r"[a-zà-ÿ]", tgt) or not CYR.search(tgt):
+                errors.append("%s: название должно быть кириллицей (латиница — только аббревиатуры): %r" % (where, tgt))
         if kind in ("text", "table"):
             by_source[src].add(tgt)
         if kind == "template":
@@ -138,6 +145,9 @@ def check(folder):
     for src, targets in by_source.items():
         if len(targets) > 1:
             warnings.append("разные переводы одной строки %r: %s" % (src[:60], " | ".join(sorted(t[:40] for t in targets))))
+    for src, kinds in name_groups.items():
+        if len(kinds) > 1:
+            errors.append("имя %r сразу в группах %s: замена не знает, какой настройке оно подчиняется" % (src, ", ".join(sorted(kinds))))
     for (scope, src), targets in by_template.items():
         if len(targets) > 1:
             warnings.append("разные переводы одного шаблона %r: %s" % (src[:60], " | ".join(sorted(t[:40] for t in targets))))

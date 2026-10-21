@@ -17,6 +17,19 @@ dialogue-unused.json	dlg/31/6	Just some mild depression\,\,, and that sure is\, 
 dialogue-unused.json	dlg/61/23	Mike question.	Mike question.	Фраза «Mike question» непонятна, вероятно в оригинале опечатка.
 dialogue-unused.json	dlg/55/4	Hah! \,\, I have heard that so many times before,\,\, and yet,\, none of them didn't!	Ха! Я\,\, слышал это уже не раз, но никто из\, них\, так и не\, справился!	В оригинале двойное отрицание «none of them didn’t»; смысл реплики неоднозначен.
 items.json	item/13680/title	Onio0.04n Soup (Disposable Bowl)	Луковый суп (одноразовая миска)	в оригинале опечатка «Onio0.04n»
+names-brands.json	brand/Aziz's	Aziz's	Азиза	одиночное «Aziz's» встречается только в «Доставка от Aziz's»
+names-brands.json	brand/Aziz's Hamburger & Kebab	Aziz's Hamburger & Kebab	Гамбургер и кебаб у Азиза	см. Aziz's Kebab and Burger
+names-brands.json	brand/Aziz's Kebab and Burger	Aziz's Kebab and Burger	Кебаб и бургер у Азиза	притяжательное 's передано по-русски, а не транслитерацией
+names-brands.json	brand/Kauha's Claim	Kauha's Claim	Каухас-Клейм	участок Kauha (claim — горный участок); транслитерация, чтобы название не склонялось
+names-brands.json	brand/Kauha's claim	Kauha's claim	Каухас-Клейм	см. Kauha's Claim
+names-brands.json	brand/Kauha’s Claim	Kauha’s Claim	Каухас-Клейм	см. Kauha's Claim
+names-brands.json	brand/Penni-Pena's Loans	Penni-Pena's Loans	Займы у Пенни-Пены	см. Aziz's Kebab and Burger
+names-brands.json	brand/Sossu	Sossu	Соссу	финский сленг: соцслужба (sosiaalitoimisto)
+names-people.json	person/A-Rovo	A-Rovo	А-Рово	пьяный персонаж коверкает имя Arvo
+names-people.json	person/Arppe	Arppe	Арппе	пьяный персонаж коверкает имя Arvo
+names-people.json	person/Manly Max	Manly Max	Мэнли Макс	прозвище из названия счёта
+names-people.json	person/Mr. Door Phone	Mr. Door Phone	Мистер Домофон	шутка: так представляется домофон; переведено по смыслу
+names-people.json	person/Vult	Vult	Вульт	упоминается один раз («из-за карантина Vult сюда больше…»): возможно, не человек
 tables.json	table/Tasks/MissingDock14.title	Missing dock	Пропавший док	в оригинале «dock», по тексту «her» — возможно, опечатка «duck» (утка); проверить в игре
 tables.json	table/Tasks/FindDock35.title	Try to find the missing dock	Попробовать найти пропавший док	в оригинале «dock» — возможно, опечатка «duck»; проверить в игре
 tables.json	table/Tasks/FindDock35.description	A hippie you called to told you that some guys had kidnapped his beloved dock. He has no idea where they took her or what they looked like but he told you that they smelled like a sewer full of booze!	Хиппи, которому вы позвонили, рассказал, что какие-то парни похитили его любимый док. Он понятия не имеет, куда её увезли и как они выглядели, но сказал, что от них несло, как из канализации, полной выпивки!	в оригинале «dock» и «her» — возможно, опечатка «duck»; проверить в игре

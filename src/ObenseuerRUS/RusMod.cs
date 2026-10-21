@@ -10,14 +10,14 @@ using UnityEngine.SceneManagement;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.4")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.5")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
         internal static RusMod Instance;
         private Catalog catalog;
         private TextTranslator translator;
-        private ModSetting<bool> isEnabled, dialogue, ui, logMissing;
+        private ModSetting<bool> isEnabled, dialogue, ui, people, brands, logMissing;
         private ModKeybind toggleKey;
         private readonly HashSet<string> missing = new HashSet<string>(StringComparer.Ordinal);
         private string folder;
@@ -37,6 +37,8 @@ namespace ObenseuerRUS
             isEnabled = Config.Bind("General", "Enabled", true, "Включить русский перевод.");
             ui = Config.Bind("General", "TranslateInterface", true, "Переводить интерфейс, предметы, задания, записки.");
             dialogue = Config.Bind("General", "TranslateDialogue", true, "Переводить диалоги.");
+            people = Config.Bind("General", "TranslatePeopleNames", false, "Писать кириллицей имена людей (например, Арво Киркастая).");
+            brands = Config.Bind("General", "TranslateBrandNames", false, "Писать кириллицей названия брендов, заведений, организаций и мест (например, Осмо Олут, Сталбург).");
             logMissing = Config.Bind("Debug", "LogUntranslated", false, "Записывать строки интерфейса, где остался английский текст (целиком или частично), в untranslated.txt в папке мода.");
             toggleKey = Mod.Key("ToggleLanguage", "Русский / английский", KeyCode.F9);
             LoadCatalog();
@@ -50,6 +52,8 @@ namespace ObenseuerRUS
             isEnabled.Changed += OnSettingChanged;
             ui.Changed += OnSettingChanged;
             dialogue.Changed += OnSettingChanged;
+            people.Changed += OnSettingChanged;
+            brands.Changed += OnSettingChanged;
             EnsureAll();
             TmpLocalizer.Sweep();
         }
@@ -138,7 +142,7 @@ namespace ObenseuerRUS
         {
             AssemblyInformationalVersionAttribute version = (AssemblyInformationalVersionAttribute)Attribute.GetCustomAttribute(
                 typeof(RusMod).Assembly, typeof(AssemblyInformationalVersionAttribute));
-            modVersion = version == null ? "0.4.4" : version.InformationalVersion.Split('+')[0];
+            modVersion = version == null ? "0.4.5" : version.InformationalVersion.Split('+')[0];
             updater = new GitHubUpdater(folder, modVersion);
             updater.Start();
         }
@@ -164,7 +168,7 @@ namespace ObenseuerRUS
         {
             catalog = Catalog.LoadDirectory(Path.Combine(folder, "translations"));
             foreach (string problem in catalog.Problems) Log.Warn("перевод: " + problem);
-            Log.Info("загружено строк: " + catalog.Used + " (без перевода: " + catalog.Pending + "), точных " + catalog.Exact.Count + ", шаблонов " + catalog.Templates.Count + ", реплик " + catalog.Dialogue.Count);
+            Log.Info("загружено строк: " + catalog.Used + " (без перевода: " + catalog.Pending + "), точных " + catalog.Exact.Count + ", шаблонов " + catalog.Templates.Count + ", реплик " + catalog.Dialogue.Count + ", имён " + catalog.People.Count + ", названий " + catalog.Brands.Count);
             translator = new TextTranslator(catalog);
             translator.Missed = OnMissed;
             RusPreprocessor.Translator = translator;
@@ -174,6 +178,8 @@ namespace ObenseuerRUS
         private void ApplySettings()
         {
             RusPreprocessor.Enabled = isEnabled.Value && ui.Value;
+            // Имена в диалогах меняются там же, где интерфейс: окно диалога — тоже текст TextMeshPro.
+            translator.Names = ProperNames.For(catalog, people.Value, brands.Value);
         }
 
         private void OnSettingChanged()
