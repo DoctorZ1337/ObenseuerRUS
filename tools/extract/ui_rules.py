@@ -12,14 +12,20 @@ VISIBLE_LEAVES = {
     "m_text", "m_Text", "title", "description", "content", "hintText", "statName",
     "m_useMessage", "m_overrideUseMessage", "m_overrideName", "UseMessage", "ManuName",
     "roomName", "marketName", "customTitle", "itemName", "rewardName",
+    # Furniture.Details (окно мебели), TaskItem.itemDetails (предметы заданий), ToolTipInfo, InteractableItemGiver,
+    # названия писем и счетов (заголовок предмета "Mail ...", "Invoice - ...").
+    "details", "itemDetails", "toolTipInfoTitle", "toolTipInfoDetails", "outofItemsMessage", "mailName", "invoiceTitle",
 }
 # Классы, у которых эти поля служебные или содержат имена людей.
 SKIP_CLASSES = {
     "AzureWeatherProfile", "Soundscape", "InteractableTalk", "InteractableRelay", "Character", "NPCInfo",
     "TenementResident", "GUIButton", "logic_state",
 }
-# Отдельные поля вне правила выше.
-EXTRA_FIELDS = {"SelectionButton:Options[].Name", "StartSelection:selections[].title"}
+# Отдельные поля вне правила выше: вопросы при создании персонажа, подсказки InteractableRelay,
+# профессия и семейное положение жильца (ResidentImageUI: "Job: ...", "Relationship: ..."), названия писем-подарков.
+EXTRA_FIELDS = {"SelectionButton:Options[].Name", "StartSelection:selections[].title", "StartSelection:question",
+                "InteractableRelay:m_useMessage", "Character:Job", "Character:Relationship",
+                "Relationship:gifts[].mail[].mailNames[]"}
 PLACEHOLDERS = {"new text", "text", "label", "button", "placeholder", "name", "title", "test", "description", "trigger", "use"}
 GUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
 IDENT = re.compile(r"^[A-Za-z0-9_.\-]+$")

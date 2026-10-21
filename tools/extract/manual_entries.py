@@ -1,7 +1,10 @@
 """
 Строки, которые игра собирает так, что автоматически их не извлечь: "Taste: " + "Good",
-подсказки клавиш карточных игр, значения Lua-вставок (TellTimeResponse и др.).
-Источник — декомпилированный код игры (ToolTip.cs, CardGameUI.cs, TellTime.cs, Crime.cs, Bank.cs).
+подсказки клавиш карточных игр, значения Lua-вставок (TellTimeResponse и др.), модификаторы станков,
+удобство кровати, заголовки счетов, названия навыков (enum.ToString()).
+Источник — декомпилированный код игры (ToolTip.cs, ModifierUI.cs, Sleep.cs, Item.cs, InvoiceController.cs,
+PlayerStats.cs, PlayerSkillIncreaseUI.cs, CardGameUI.cs, TellTime.cs, Crime.cs, Bank.cs), а также названия из объектов,
+которые UnityPy не читает (build/raw_strings.json от tools/extract/scan_raw.py).
 Запуск пересоздаёт translations/manual.json; переводы задаются здесь же.
 """
 import os
@@ -23,6 +26,142 @@ CARD_KEYS = {"Request Card": "Попросить карту", "Sort Cards": "С�
              "Hold to Leave": "Удерживайте, чтобы уйти"}
 DAYS = {"Monday": "Понедельник", "Tuesday": "Вторник", "Wednesday": "Среда", "Thursday": "Четверг",
         "Friday": "Пятница", "Saturday": "Суббота", "Sunday": "Воскресенье"}
+# RecipeCondition — условие станка (ModifierUI: "Modifier: Clean").
+MODIFIERS = {"None": "нет", "Clean": "чистое", "Dirty": "грязное", "Infested": "заражённое", "Makeshift": "самодельное",
+             "Crude": "грубое", "Normal": "обычное", "Upgraded": "улучшенное", "Advanced": "продвинутое",
+             "Industrial": "промышленное", "Special": "особое", "Wasteland": "пустошь", "Water": "вода",
+             "Electricity": "электричество", "Steam": "пар", "Sun": "солнце", "Moist": "влажное", "Large": "большое",
+             "Small": "малое"}
+# Sleep.GetTitle: удобство кровати и безопасность места.
+COMFORT = {"Torturous": "мучительно", "Aching": "всё ломит", "Uncomfortable": "неудобно", "Okay": "сносно",
+           "Pleasant": "приятно", "Relaxing": "расслабляет", "Comfy": "уютно"}
+SAFETY = {"Unsafe": "опасно", "Safeish": "относительно безопасно"}
+SKILLS = {"Lockpicking": "Взлом замков", "Drinking": "Выпивка", "Cooking": "Готовка", "Mashing": "Затирание",
+          "Brewing": "Пивоварение", "Distilling": "Дистилляция", "Farming": "Фермерство", "Malting": "Соложение",
+          "Manufacturing": "Производство", "Paperwork": "Бумажная работа", "Chemistry": "Химия",
+          "Carpentry": "Плотничество", "Machining": "Станочное дело", "Engineering": "Инженерия", "Bribery": "Подкуп",
+          "Cleaning": "Уборка", "Sewing": "Шитьё", "Electronics": "Электроника", "Mining": "Горное дело",
+          "Music": "Музыка", "Smithing": "Кузнечное дело", "Medical": "Медицина", "Computers": "Компьютеры",
+          "Sauna": "Сауна"}
+# Видимые названия из объектов, которые не читает UnityPy (build/raw_strings.json, tools/extract/scan_raw.py).
+RAW_TITLES = {
+    # RandommailSender.randomInvoiceNames — кому выставлен случайный счёт ("Invoice - <имя>: ...").
+    "invoice": {
+        "Chad's Chadlery Service": "Услуги Chadlery от Chad", "Pertti's Suprise Invoice": "Внезапный счёт от Pertti",
+        "Jasmine's Support Fund": "Фонд поддержки Jasmine",
+        "Stalburg Phonebook Service Listing": "Размещение в телефонном справочнике Stalburg",
+        "Orphaned Cats and Dogs Charity": "Фонд помощи бездомным кошкам и собакам", "Davidcorp": "Davidcorp",
+        "Junk Subscription": "Мусорная подписка", "Ellie's Social Media Subscription": "Подписка на соцсети Ellie",
+        "Only Bans": "Only Bans", "Blackmail Letter": "Письмо с шантажом", "Not Taxes": "Не налоги",
+        "Help Me!": "Помогите!", "I want to buy a new car, so here's an invoice.": "Хочу купить новую машину, так что вот счёт.",
+        "Jonne's Beer and Lonkero Fund": "Фонд Jonne на пиво и Lonkero",
+        "Cybersecurity Protection Renewal": "Продление защиты от киберугроз", "Just a Scam": "Просто развод",
+        "Hello, I though you could help me to achieve my dreams.": "Здравствуйте, мне показалось, что вы поможете мне исполнить мечту.",
+        "Suprise Invoice": "Внезапный счёт", "Veeti's OS Energy Drink Fund": "Фонд Veeti на энергетик OS",
+        "People's Manatee": "Народный ламантин", "Lund’s Bridge Maintenance Tax": "Налог Lund на содержание моста",
+        "Tenement Association Membership Fee": "Членский взнос ассоциации доходного дома",
+        "Manly Max’s Manly Support Fee": "Мужской взнос поддержки от Manly Max",
+        "Honey, I need money to get to Obenseuer!": "Солнышко, мне нужны деньги, чтобы добраться до Obenseuer!",
+        "Money! NOW!": "Деньги! НЕМЕДЛЕННО!", "Cryptocurrency Investment": "Инвестиции в криптовалюту",
+    },
+    # RandommailSender.randomMail[].mailNames — название случайного письма; PlayerMailSubscription — журналы.
+    "mail": {"Random junk": "Всякий хлам", "Ads": "Реклама", "Junk mail": "Спам", "Lifehack-Pekka": "Lifehack-Pekka",
+             "OpenSewer Magazine": "Журнал OpenSewer", "Very Good Friend": "Очень хороший друг"},
+    # manufacturing / Generator / Dishwasher / InvoicePaymentMachine / BottleRecyclingPanel — названия станков и автоматов.
+    "station": {"Brick stove": "Кирпичная печь", "Espresso Machine": "Эспрессо-машина", "Field kitchen": "Полевая кухня",
+                "Gas stove": "Газовая плита", "Injection Machine": "Литьевая машина",
+                "Makeshift Pizza Oven": "Самодельная печь для пиццы", "Ore Crusher": "Рудодробилка",
+                "Pizza Oven": "Печь для пиццы", "Basement Sauna": "Сауна в подвале", "Campfire": "Костёр",
+                "Tilestove": "Изразцовая печь", "Dishwashing powder": "Порошок для посудомойки",
+                "Payment machine": "Платёжный автомат", "Apartment 7": "Квартира 7"},
+    # Growing — грядки и растения.
+    "growing": {"Greener mushrooms": "Грибы позеленее", "Greenest Mushrooms": "Самые зелёные грибы",
+                "Leek plant": "Лук-порей (растение)", "Lettuce plant": "Салат (растение)", "Monstera plant": "Монстера",
+                "Onion Plant": "Лук (растение)", "Orange mushrooms": "Оранжевые грибы", "Potato plant": "Картофель (растение)",
+                "Sewer fish grow": "Разведение канализационной рыбы", "Small farm": "Маленькая ферма",
+                "Sugarbeet Plant": "Сахарная свёкла (растение)", "Tire pot": "Горшок из шины",
+                "Tomato plant": "Томат (растение)", "Turnip Plant": "Репа (растение)"},
+    # Trade — торговые точки (имена владельцев и бренды остаются как есть).
+    "shop": {"Henning's shop": "Лавка Henning", "One stop shop": "Всё в одном", "Seamus' potatoes": "Картошка Seamus",
+             "Selmas's Stall": "Прилавок Selma", "Sirkku's Flower Stall": "Цветочный прилавок Sirkku",
+             "Teuvo's alcohol stall": "Алкогольный прилавок Teuvo"},
+    # Storage — полки и холодильники магазинов (название при наведении).
+    "storage": {
+        "Plastic Parts": "Пластиковые детали", "10L Plastic Bottles": "Пластиковые бутыли 10 л",
+        "10L Spring Water Bottles": "Бутыли родниковой воды 10 л", "Alarm Clocks": "Будильники", "Apples": "Яблоки",
+        "Ball Bearings": "Шарикоподшипники", "Bandages": "Бинты", "Big Flashlights": "Большие фонарики",
+        "Bleaches": "Отбеливатели", "Borlmaro cigarette packs": "Пачки сигарет Borlmaro", "Bottles": "Бутылки",
+        "Bricks": "Кирпичи", "Buckets": "Вёдра", "Cabbages": "Капуста", "Cables": "Кабели",
+        "Camera in a Sales Package": "Фотоаппарат в упаковке", "Cameras": "Фотоаппараты", "Can Openers": "Консервные ножи",
+        "Candles": "Свечи", "Canned Pea Soups": "Гороховый суп в банках", "Canned Peaches": "Персики в банках",
+        "Canned Pineapples": "Ананасы в банках", "Canned Tomato Soups": "Томатный суп в банках",
+        "Canned Tuna": "Тунец в банках", "Canned meat": "Мясные консервы", "Canned sardines": "Сардины в банках",
+        "Canned vendaces": "Ряпушка в банках", "Cans of Pea Soup": "Банки горохового супа", "Cans of Peaches": "Банки персиков",
+        "Cans of Tomato Soup": "Банки томатного супа", "Carl Fatler Chocolate Bars": "Шоколадки Carl Fatler",
+        "Carl Fatler chocolate bar": "Шоколадка Carl Fatler", "Carrots": "Морковь", "Chocolate Bars": "Шоколадки",
+        "Cleaning sprays": "Чистящие спреи", "Cola drinks": "Кола", "Cooking oils": "Растительное масло",
+        "Crowbars": "Монтировки", "Cucumbers": "Огурцы", "Cups": "Чашки", "Disinfectants": "Дезинфицирующие средства",
+        "Doughnuts": "Пончики", "Drinks (Left)": "Напитки (слева)", "Drinks (Right)": "Напитки (справа)",
+        "Ducky Strike cigarette packs": "Пачки сигарет Ducky Strike", "Duct Tapes": "Клейкая лента",
+        "Egg Cartons": "Коробки яиц", "Eggs": "Яйца", "El Presidente Coffee bags": "Пачки кофе El Presidente",
+        "Electronic Cigarettes": "Электронные сигареты", "Empty Cups": "Пустые чашки",
+        "Empty Flowerpots": "Пустые цветочные горшки", "Empty Plastic Buckets": "Пустые пластиковые вёдра",
+        "Empty Plastic Containers": "Пустые пластиковые контейнеры", "Envelopes": "Конверты",
+        "Evil Bear Candy Bags": "Пакеты конфет Evil Bear", "Evotan Bottle": "Бутылка Evotan",
+        "Facemask Packs": "Упаковки масок", "Fish Trap": "Рыболовная ловушка", "Flashlights": "Фонарики",
+        "Flowerpots": "Цветочные горшки", "Fuse socket": "Гнездо предохранителя", "Gas Bottles": "Газовые баллоны",
+        "Gas Mask Filters": "Фильтры противогазов", "Gas Masks": "Противогазы", "Glues": "Клей", "Grapes": "Виноград",
+        "Green Mushroom Mycelium Injectors": "Инжекторы мицелия зелёных грибов", "Green orbs": "Зелёные шары",
+        "Grill Coal Bags": "Мешки угля для гриля", "Gritbox": "Ящик с песком", "Hand soaps": "Мыло для рук",
+        "Handheld Console in a Sales Package": "Портативная консоль в упаковке", "Handheld Consoles": "Портативные консоли",
+        "Hardhats": "Каски", "Hop bags": "Мешки хмеля", "Hot Dog Bun Packs": "Упаковки булочек для хот-догов",
+        "Hot Dog Weiner Pack": "Упаковка сосисок для хот-догов", "Hotdog Grill": "Гриль для хот-догов",
+        "Hotdog buns": "Булочки для хот-догов", "Ice tea": "Холодный чай",
+        "Industrial Fuses": "Промышленные предохранители", "Industrial fuse": "Промышленный предохранитель",
+        "Insulation Wool": "Изоляционная вата", "Jars": "Банки", "Jubilee Mocca Coffee bags": "Пачки кофе Jubilee Mocca",
+        "Juice Concentrate": "Концентрат сока", "Kitties Candy Bags": "Пакеты конфет Kitties",
+        "Kitties candy bag": "Пакет конфет Kitties", "Laundry detergents": "Стиральный порошок",
+        "Lies chip bags": "Пакеты чипсов Lies", "Lighters": "Зажигалки", "Macaroni bags": "Пачки макарон",
+        "Malts bags": "Мешки солода", "Market Small Bottle Refigerator": "Маленький холодильник для бутылок",
+        "Mason Jars": "Стеклянные банки", "Matchboxes": "Спичечные коробки", "Matches": "Спички", "Meshes": "Сетки",
+        "Metal Slabs": "Металлические плиты", "Mobile Phone in a Sales Package": "Мобильный телефон в упаковке",
+        "Mobile Phones": "Мобильные телефоны", "Moca Cola Can": "Банка Moca Cola",
+        "Moca Cola Light Can": "Банка Moca Cola Light", "Mugs": "Кружки", "Multigrain breads": "Многозерновой хлеб",
+        "Mushroom Substitute": "Заменитель грибов", "Mättöx Candy Bags": "Пакеты конфет Mättöx",
+        "Mättöx candy bag": "Пакет конфет Mättöx", "Nort cigarette packs": "Пачки сигарет Nort",
+        "Old Mobile Phone in a Sales Package": "Старый мобильный телефон в упаковке",
+        "Old Mobile Phones": "Старые мобильные телефоны", "Onions": "Лук", "Ore Chute": "Рудный жёлоб",
+        "Osmo Olut bottle": "Бутылка Osmo Olut", "Osmo olut (Left)": "Osmo Olut (слева)",
+        "Osmo olut (Right)": "Osmo Olut (справа)", "Osmo-Olut Bottles": "Бутылки Osmo Olut", "Ovencloths": "Прихватки",
+        "Pack of Bolrmaro Cigarettes": "Пачка сигарет Bolrmaro", "Packs of Nort Cigarettes": "Пачки сигарет Nort",
+        "Packs of Winstead Cigarettes": "Пачки сигарет Winstead", "Papers": "Бумага", "Pea soup cans": "Банки горохового супа",
+        "Peach cans": "Банки персиков", "Pekka Coffee bags": "Пачки кофе Pekka", "Peppers": "Перцы",
+        "Pickaxes": "Кирки", "Planks": "Доски", "Plastic Buckets": "Пластиковые вёдра",
+        "Plastic Containers": "Пластиковые контейнеры", "Plates": "Тарелки", "Pluto Candy Bars": "Батончики Pluto",
+        "Pluto candy bar": "Батончик Pluto", "Potatoes": "Картофель", "Rails": "Рельсы", "Rat Traps": "Крысоловки",
+        "Refrigerator (Butterine)": "Холодильник (маргарин)", "Refrigerator (Cheese)": "Холодильник (сыр)",
+        "Refrigerator (Cream)": "Холодильник (сливки)", "Refrigerator (Fish)": "Холодильник (рыба)",
+        "Refrigerator (Meat Products)": "Холодильник (мясные продукты)", "Refrigerator (Meat)": "Холодильник (мясо)",
+        "Refrigerator (Milk)": "Холодильник (молоко)", "Refrigerator (Mämmi)": "Холодильник (Mämmi)",
+        "Refrigerator (Pizza)": "Холодильник (пицца)", "Refrigerator (Prepared Foods)": "Холодильник (готовая еда)",
+        "Refrigerator (Sausages)": "Холодильник (колбасы)", "Refrigerator (Wieners)": "Холодильник (сосиски)",
+        "Refrigerator (Yeast)": "Холодильник (дрожжи)", "Rice bags": "Пачки риса", "Rye breads": "Ржаной хлеб",
+        "Rye flour bags": "Мешки ржаной муки", "SLR Camera": "Зеркальный фотоаппарат",
+        "SLR Camera in a Sales Package": "Зеркальный фотоаппарат в упаковке", "Scrapers": "Скребки",
+        "Scratchcards": "Лотерейные билеты", "Sheet Metals": "Листовой металл", "Sledgehammers": "Кувалды",
+        "Snacks (Left)": "Закуски (слева)", "Snacks (Right)": "Закуски (справа)", "Soft drinks (Left)": "Газировка (слева)",
+        "Soft drinks (Right)": "Газировка (справа)", "Sour herring": "Квашеная сельдь", "Stainless Steel": "Нержавеющая сталь",
+        "Sugar bags": "Пачки сахара", "Sugar beets": "Сахарная свёкла", "Sugar flakes": "Сахарные хлопья",
+        "Tablet in a Sales Package": "Планшет в упаковке", "Tablets": "Планшеты", "Tarps": "Брезент",
+        "Tea boxes": "Коробки чая", "Teddy bear": "Плюшевый мишка", "Teddy bears": "Плюшевые мишки",
+        "Toilet Paper 6 Packs": "Туалетная бумага (6 рулонов)", "Tomato soup cans": "Банки томатного супа",
+        "Tomatoes": "Помидоры", "Turnip chip bags": "Пакеты репных чипсов", "Turnips": "Репа", "Valve": "Вентиль",
+        "Watermelons": "Арбузы", "Wheat flour bags": "Мешки пшеничной муки", "White breads": "Белый хлеб",
+        "Windshield wiper fluids": "Омывающая жидкость", "Wine (Left)": "Вино (слева)", "Wine (Right)": "Вино (справа)",
+        "Wineglasses": "Бокалы", "Winstead cigarette packs": "Пачки сигарет Winstead", "Wood Logs": "Брёвна",
+        "Yarn rolls": "Мотки пряжи", "Zebra cigarette packs": "Пачки сигарет Zebra",
+    },
+}
 
 
 def entries():
@@ -64,6 +203,65 @@ def entries():
     tpl("save/slot", "Slot {0}", "Слот {0}", "LoadMenu: название слота")
     tpl("save/autosave", "Autosave {0}", "Автосохр. {0}", "LoadMenu: название слота автосохранения")
     tpl("save/corrupted", "Corrupted: {0}", "Повреждено: {0}", "LoadMenu: панель сведений о слоте")
+
+    # Подсказка предмета (ToolTip.cs): строки, которые код собирает сам.
+    tpl("tooltip/liquid", "Contains: {0} {1}L/{2}L", "Содержит: {0} {1} л/{2} л", "ToolTip.LiquidDataToString")
+    tpl("tooltip/package-ready", "Package {0} ready to be sent", "Посылка «{0}» готова к отправке", "ToolTip.MailableDataToString")
+    tpl("tooltip/mail-ready", "Mail {0} ready to be sent", "Письмо «{0}» готово к отправке", "ToolTip.MailableDataToString")
+    tpl("tooltip/total-oc", "TOTAL {0} OC", "ИТОГО {0} OC", "ToolTip.ReceiptDataToString")
+    tpl("tooltip/total-rm", "TOTAL {0} RM", "ИТОГО {0} RM", "ToolTip.ReceiptDataToString")
+    tpl("tooltip/certificate", "Certificate for {0}", "Сертификат: {0}", "ToolTip.CertificateDataToString")
+    tpl("tooltip/certificate-value", "Certificate for {0} at nominal value of {1} OC", "Сертификат: {0}, номинал {1} OC",
+        "ToolTip.CertificateDataToString")
+    tpl("tooltip/connectivity", "{0} ,{1}", "{0}, {1}", "ToolTip.ConnectivityDataToString: сети через запятую без пробела")
+    tpl("tooltip/required-skill", "Required skill: <b>{0} {1}</b>", "Нужный навык: <b>{0} {1}</b>", "ToolTip.Activate(TaskItem): чертёж")
+    tpl("tooltip/required-in-apartment", "Required in: Apartment {0} {1}", "Нужно для: квартира {0}, {1}",
+        "TenementController.CreateMarkedItemToolTipText: отмеченное улучшение квартиры")
+    tpl("money/not-enough", "Not enough {0}", "Недостаточно {0}", "MoneySliderPanel")
+    # Модификаторы станков (ModifierUI.cs): значок под окном станка и его подсказка.
+    for k, v in MODIFIERS.items():
+        text("modifier/" + k, "Modifier: " + k, "Модификатор: " + v, "ModifierUI.UpdateModifierInfo (RecipeCondition)")
+    tpl("modifier/efficiency", "Efficiency: {0}%", "Эффективность: {0}%", "ModifierUI.UpdateQualityModifierInfo")
+    text("modifier/efficiency-details", "Affects working speed, output quality and fuel economy",
+         "Влияет на скорость работы, качество продукции и расход топлива", "ModifierUI.UpdateQualityModifierInfo")
+    tpl("modifier/fuel", "Fuel efficiency: {0}%", "Экономия топлива: {0}%", "ModifierUI.UpdateBurnTimeFactorModifierInfo")
+    tpl("modifier/capacity", "Capacity: {0} liters", "Объём: {0} л", "ModifierUI.UpdateCapacityModifierInfo")
+    text("modifier/manual", "Manually operated (Requires player presence)", "Ручное управление (нужно присутствие игрока)",
+         "ModifierUI.UpdateManualModifier")
+    text("modifier/upgrades", "Applied upgrades:", "Установленные улучшения:", "ModifierUI.UpdateUpgradesModifierInfo")
+    # Кровать (Sleep.GetTitle): "<название> — <удобство>[, <безопасность>]". Отдельные шаблоны, чтобы слова
+    # вроде "Okay" не брали перевод из других мест.
+    for k, v in COMFORT.items():
+        tpl("sleep/" + k, "{0} — " + k, "{0} — " + v, "Sleep.GetTitle: удобство кровати")
+        for s, sv in SAFETY.items():
+            tpl("sleep/%s/%s" % (k, s), "{0} — %s, %s" % (k, s), "{0} — %s, %s" % (v, sv), "Sleep.GetTitle: удобство и безопасность")
+    # Счета (Item.GetItemTitle, InvoiceController и др.): кому платить приходит из разных мест и хранится в сохранении.
+    tpl("invoice/title", "Invoice - {0}: {1} {2}", "Счёт — {0}: {1} {2}", "Item.GetItemTitle: счёт")
+    tpl("invoice/expired", "Expired Invoice - {0}", "Просроченный счёт — {0}", "Item.GetItemTitle: просроченный счёт")
+    tpl("invoice/reminder", "REMINDER: {0}", "НАПОМИНАНИЕ: {0}", "InvoiceController.SendReminder")
+    tpl("invoice/collateral", "Rent collateral: {0}", "Залог за аренду: {0}", "TenementController: залог жильца")
+    tpl("invoice/downpayment", "{0}: Debt Downpayment", "{0}: взнос по долгу", "Money: банковский долг")
+    text("invoice/jorma", "Jorma's protection services", "Охранные услуги Jorma", "SleepEventController: счёт за «охрану»")
+    # Навыки (PlayerStats.PlayerSkillType): окно персонажа показывает skill.Type.ToString(), уведомления — тоже.
+    for k, v in SKILLS.items():
+        text("skill/" + k, k, v, "PlayerStats.PlayerSkillType: название навыка")
+    text("skill/none-details", "You couldn't learn a new skills", "Не удалось изучить новые навыки", "PlayerStats.NoNewSkillsNotification")
+    # Сложность (DifficultyController.difficulties[].difficultyName) — род как у «сложность».
+    text("difficulty/casual", "Casual", "Лёгкая", "DifficultyUI: название сложности")
+    # Подсказки взаимодействия (UseText оборачивает подпись в скобки). Отдельно от "Enter"/"Interact" — названий клавиш и действий.
+    text("use/enter", "(Enter)", "(Войти)", "DoorChangelevel: useMessage = \"Enter\"")
+    text("use/interact", "(Interact)", "(Взаимодействовать)", "InteractableTalk: useMessage = \"Interact\"")
+    # Вкладка и кнопка меню модов (их добавляет Obenseuer Modding Framework) и заголовки титров.
+    text("menu/mods", "Mods", "Моды", "ObenseuerCore: вкладка MODS в меню игры и кнопка главного меню")
+    text("credits/loiste", "Loiste Interactive is:", "Loiste Interactive — это:", "Титры (Credits)")
+    text("credits/thanks", "Thanks to the following contributors for participating in the development of this game:",
+         "Спасибо всем, кто участвовал в разработке игры:", "Титры (Credits)")
+
+    # Строки из объектов, у которых UnityPy не читает дерево типов (tools/extract/scan_raw.py). Имён полей там нет,
+    # поэтому сюда отобраны только видимые названия: счета и письма RandommailSender, станки, грядки, полки магазинов.
+    for group, table in RAW_TITLES.items():
+        for k, v in table.items():
+            text("raw/%s/%s" % (group, k), k, v, "scan_raw.py: " + group)
     return out
 
 

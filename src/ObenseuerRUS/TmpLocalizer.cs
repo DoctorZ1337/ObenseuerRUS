@@ -36,6 +36,27 @@ namespace ObenseuerRUS
         }
     }
 
+    /// <summary>
+    /// Текст поля ввода. Окно записок (NotesPanel) показывает заголовок и текст записки в полях ввода,
+    /// закрытых для правки (interactable = false), поэтому их тоже нужно переводить. Пока игрок правит поле
+    /// (свой блокнот), текст не меняется: каретка и выделение считаются по видимому тексту.
+    /// </summary>
+    internal sealed class ReadOnlyFieldPreprocessor : ITextPreprocessor
+    {
+        private readonly TMP_InputField field;
+
+        public ReadOnlyFieldPreprocessor(TMP_InputField field)
+        {
+            this.field = field;
+        }
+
+        public string PreprocessText(string text)
+        {
+            if (field != null && field.interactable && !field.readOnly) return text;
+            return RusPreprocessor.Instance.PreprocessText(text);
+        }
+    }
+
     internal static class TmpLocalizer
     {
         private static readonly Dictionary<int, KeyValuePair<string, string>> legacyOriginals = new Dictionary<int, KeyValuePair<string, string>>();
@@ -56,11 +77,11 @@ namespace ObenseuerRUS
         {
             if (text == null) return;
             if (text.textPreprocessor != null) return;
-            // Текст внутри поля ввода не трогаем: игрок вводит его сам, а каретка считается по видимому тексту.
             TMP_InputField input = text.GetComponentInParent<TMP_InputField>(true);
-            if (input != null && input.textComponent == text) return;
-            text.textPreprocessor = RusPreprocessor.Instance;
+            text.textPreprocessor = input != null && input.textComponent == text ? new ReadOnlyFieldPreprocessor(input) : (ITextPreprocessor)RusPreprocessor.Instance;
         }
+
+        private static bool IsOurs(ITextPreprocessor p) => p == RusPreprocessor.Instance || p is ReadOnlyFieldPreprocessor;
 
         /// <summary>Подключает перевод к уже созданным объектам и просит перерисовать видимые.</summary>
         public static void Sweep()
@@ -69,7 +90,7 @@ namespace ObenseuerRUS
             {
                 if (text == null || !text.gameObject.scene.IsValid()) continue;
                 Attach(text);
-                if (text.isActiveAndEnabled && text.textPreprocessor == RusPreprocessor.Instance)
+                if (text.isActiveAndEnabled && IsOurs(text.textPreprocessor))
                 {
                     text.havePropertiesChanged = true;
                     text.SetVerticesDirty();

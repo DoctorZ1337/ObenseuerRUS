@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.3.1")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.0")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
@@ -16,10 +16,11 @@ namespace ObenseuerRUS
         private Catalog catalog;
         private TextTranslator translator;
         private ModSetting<bool> isEnabled, dialogue, ui, logMissing;
-        private ModKeybind toggleKey;
+        private ModKeybind toggleKey, reloadKey;
         private readonly HashSet<string> missing = new HashSet<string>(StringComparer.Ordinal);
         private string folder;
         private bool missingDirty;
+        private float nextFlush;
 
         protected override void OnLoad()
         {
@@ -28,17 +29,12 @@ namespace ObenseuerRUS
             isEnabled = Config.Bind("General", "Enabled", true, "Включить русский перевод.");
             ui = Config.Bind("General", "TranslateInterface", true, "Переводить интерфейс, предметы, задания, записки.");
             dialogue = Config.Bind("General", "TranslateDialogue", true, "Переводить диалоги.");
-            logMissing = Config.Bind("Debug", "LogUntranslated", false, "Записывать непереведённые строки интерфейса в untranslated.txt в папке мода.");
+            logMissing = Config.Bind("Debug", "LogUntranslated", false, "Записывать строки интерфейса, где остался английский текст (целиком или частично), в untranslated.txt в папке мода.");
             toggleKey = Mod.Key("ToggleLanguage", "Русский / английский", KeyCode.F9);
+            // Для переводчиков: перечитать translations\*.json без перезапуска игры. По умолчанию не назначена.
+            reloadKey = Mod.Key("ReloadTranslations", "Перечитать файлы перевода", KeyCode.None);
 
-            catalog = Catalog.LoadDirectory(Path.Combine(folder, "translations"));
-            foreach (string problem in catalog.Problems) Log.Warn("перевод: " + problem);
-            Log.Info("загружено строк: " + catalog.Used + " (без перевода: " + catalog.Pending + "), точных " + catalog.Exact.Count + ", шаблонов " + catalog.Templates.Count + ", реплик " + catalog.Dialogue.Count);
-
-            translator = new TextTranslator(catalog);
-            translator.Missed = OnMissed;
-            RusPreprocessor.Translator = translator;
-            LuaFunctions.Translator = new TextTranslator(catalog, forLua: true);
+            LoadCatalog();
             ApplySettings();
 
             if (!TmpLocalizer.Install(Mod)) Log.Warn("перехват TextMeshPro не установлен, интерфейс останется на английском");
@@ -54,9 +50,35 @@ namespace ObenseuerRUS
         // Клавиша переключает General/Enabled; дальше работает тот же OnSettingChanged, что и для меню Mods.
         private void Update()
         {
-            if (toggleKey == null || UiState.IsTyping || !toggleKey.Down()) return;
+            // Журнал непереведённого пишется и без смены сцены: окна интерфейса открываются в одной сцене.
+            if (missingDirty && Time.unscaledTime >= nextFlush)
+            {
+                nextFlush = Time.unscaledTime + 5f;
+                FlushMissing();
+            }
+            if (UiState.IsTyping) return;
+            if (reloadKey != null && reloadKey.Down())
+            {
+                LoadCatalog();
+                TablesLocalizer.Reset();
+                DialogueLocalizer.Reset();
+                OnSettingChanged();
+                return;
+            }
+            if (toggleKey == null || !toggleKey.Down()) return;
             isEnabled.Value = !isEnabled.Value;
             Log.Info(isEnabled.Value ? "перевод включён клавишей" : "перевод выключен клавишей");
+        }
+
+        private void LoadCatalog()
+        {
+            catalog = Catalog.LoadDirectory(Path.Combine(folder, "translations"));
+            foreach (string problem in catalog.Problems) Log.Warn("перевод: " + problem);
+            Log.Info("загружено строк: " + catalog.Used + " (без перевода: " + catalog.Pending + "), точных " + catalog.Exact.Count + ", шаблонов " + catalog.Templates.Count + ", реплик " + catalog.Dialogue.Count);
+            translator = new TextTranslator(catalog);
+            translator.Missed = OnMissed;
+            RusPreprocessor.Translator = translator;
+            LuaFunctions.Translator = new TextTranslator(catalog, forLua: true);
         }
 
         private void ApplySettings()

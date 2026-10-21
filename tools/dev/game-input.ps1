@@ -4,9 +4,11 @@
 #   tools\dev\game-input.ps1 -Click 1280,720        (координаты окна игры)
 #   tools\dev\game-input.ps1 -Move 50,500          (только навести курсор)
 #   tools\dev\game-input.ps1 -Turn -300,0          (повернуть камеру: относительное движение мыши)
+#   tools\dev\game-input.ps1 -Text "list_notes" -Keys Return   (набрать текст в поле ввода, например в консоли F1)
 # Ввод уходит только если окно игры на переднем плане, иначе скрипт прерывается.
 # Координаты строкой "x,y": через powershell -File массив int[] не передаётся.
-param([switch]$Restore, [string[]]$Keys = @(), [string]$Click = '', [string]$Move = '', [string]$Turn = '', [int]$HoldMs = 60)
+# Текст отправляется символами Unicode (SendInput, KEYEVENTF_UNICODE), поэтому не зависит от раскладки окна игры.
+param([switch]$Restore, [string]$Text = '', [string[]]$Keys = @(), [string]$Click = '', [string]$Move = '', [string]$Turn = '', [int]$HoldMs = 60)
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type @'
@@ -21,13 +23,29 @@ public static class GameInput {
     [DllImport("user32.dll")] public static extern void mouse_event(uint flags, uint dx, uint dy, uint data, UIntPtr extra);
     [DllImport("user32.dll")] public static extern uint MapVirtualKey(uint code, uint mapType);
     [DllImport("user32.dll", EntryPoint = "mouse_event")] public static extern void mouse_rel(uint flags, int dx, int dy, uint data, UIntPtr extra);
+    [StructLayout(LayoutKind.Sequential)] struct KeyInput { public ushort Vk, Scan; public uint Flags, Time; public IntPtr Extra; public uint Pad1, Pad2; }
+    [StructLayout(LayoutKind.Sequential)] struct Input { public uint Type; public KeyInput Key; }
+    [DllImport("user32.dll", SetLastError = true)] static extern uint SendInput(uint count, Input[] inputs, int size);
+    public static void TypeChar(char c) {
+        var down = new Input { Type = 1, Key = new KeyInput { Scan = c, Flags = 4 } };
+        var up = new Input { Type = 1, Key = new KeyInput { Scan = c, Flags = 4 | 2 } };
+        SendInput(2, new[] { down, up }, Marshal.SizeOf(typeof(Input)));
+    }
 }
 '@
 $window = (Get-Process Obenseuer).MainWindowHandle
 if ($Restore -or [GameInput]::IsIconic($window)) { [GameInput]::ShowWindow($window, 9) | Out-Null }
 [GameInput]::SetForegroundWindow($window) | Out-Null
 Start-Sleep -Milliseconds 300
+if ([GameInput]::GetForegroundWindow() -ne $window) {
+    # Windows не отдаёт фокус фоновому процессу (например, поверх игры всплыло окно Steam);
+    # короткое нажатие Alt снимает этот запрет для следующего SetForegroundWindow.
+    [GameInput]::keybd_event(0x12, 0, 0, [UIntPtr]::Zero); [GameInput]::keybd_event(0x12, 0, 2, [UIntPtr]::Zero)
+    [GameInput]::SetForegroundWindow($window) | Out-Null
+    Start-Sleep -Milliseconds 300
+}
 if ([GameInput]::GetForegroundWindow() -ne $window) { throw 'Окно игры не на переднем плане — ввод не отправлен' }
+foreach ($ch in $Text.ToCharArray()) { [GameInput]::TypeChar($ch); Start-Sleep -Milliseconds 30 }
 foreach ($name in $Keys) {
     $vk = [byte][System.Windows.Forms.Keys]$name
     $scan = [byte][GameInput]::MapVirtualKey($vk, 0)

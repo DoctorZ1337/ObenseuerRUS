@@ -92,6 +92,103 @@ namespace ObenseuerRUS.Tests
         }
 
         [Fact]
+        public void Weak_template_is_not_applied_to_foreign_text()
+        {
+            // 0.3.1: "{0} and {1}" и "{0} in {1}" превращали описание задания в "go) и ask for a job".
+            var tr = Make(Tpl("{0} and {1}", "{0} и {1}"), Tpl("{0} in {1}", "{0} ({1})"), Text("Bread", "Хлеб"), Text("Milk", "Молоко"));
+            string s = "He suggested that you go and ask for a job in the farm.";
+            Assert.Same(s, tr.Translate(s));
+            Assert.Equal("Хлеб и Молоко", tr.Translate("Bread and Milk"));
+        }
+
+        [Fact]
+        public void Template_slots_do_not_cross_lines()
+        {
+            var tr = Make(Tpl("Tenement {0}", "Доходный дом {0}"), Text("Tenement Resource", "Ресурс доходного дома"),
+                          Tpl("Estimated value: {0} OC", "Примерная стоимость: {0} OC"));
+            Assert.Equal("Ресурс доходного дома\nПримерная стоимость: 4 OC\n",
+                         tr.Translate("Tenement Resource\nEstimated value: 4 OC\n"));
+        }
+
+        [Fact]
+        public void Strong_template_keeps_short_names()
+        {
+            var tr = Make(Tpl("Invoice - {0}: {1} {2}", "Счёт — {0}: {1} {2}"), Text("Blackmail Letter", "Письмо с шантажом"),
+                          Tpl("{0} at {1}", "{0}, {1}"));
+            Assert.Equal("Счёт — Письмо с шантажом: 190 OC", tr.Translate("Invoice - Blackmail Letter: 190 OC"));
+            Assert.Equal("Счёт — Only Bans: 50 RM", tr.Translate("Invoice - Only Bans: 50 RM"));
+            // Слабый шаблон с непереведённой частью не применяется.
+            Assert.Equal("Somebody at work", tr.Translate("Somebody at work"));
+        }
+
+        [Fact]
+        public void Template_tries_long_parts_too()
+        {
+            var tr = Make(Tpl("{0} {1}/{2}", "{0} {1}/{2}"), Text("Grow turnips for Jomppe", "Вырастить репу для Jomppe"),
+                          Tpl("{0} (Optional)", "{0} (необязательно)"));
+            Assert.Equal("Вырастить репу для Jomppe 0/10", tr.Translate("Grow turnips for Jomppe 0/10"));
+            Assert.Equal("Вырастить репу для Jomppe 0/10 (необязательно)", tr.Translate("Grow turnips for Jomppe 0/10 (Optional)"));
+        }
+
+        [Fact]
+        public void Template_source_with_newline_matches_trimmed_text()
+        {
+            var catalog = new Catalog();
+            catalog.Add(Tpl("Due in {0} days\n", "Срок через {0} дн.\n"));
+            Assert.Equal("Срок через 6 дн.\n", new TextTranslator(catalog).Translate("Due in 6 days\n"));
+        }
+
+        [Fact]
+        public void Input_field_zero_width_space_is_ignored()
+        {
+            // TMP_InputField дописывает U+200B в конец текста поля (окно записок).
+            var tr = Make(Text("Bridge toll contact info", "Контакты по оплате проезда по мосту"));
+            Assert.Equal("Контакты по оплате проезда по мосту​", tr.Translate("Bridge toll contact info​"));
+        }
+
+        [Fact]
+        public void Edge_spaces_of_source_survive_translation()
+        {
+            var tr = Make(Text("Required skill: ", "Нужный навык:"), Text("Carpentry", "Плотничество"));
+            Assert.Equal("Нужный навык: <b>Плотничество</b>", tr.Translate("Required skill: <b>Carpentry</b>"));
+        }
+
+        [Fact]
+        public void Key_names_in_hints_stay_as_in_game()
+        {
+            var tr = Make(Text("Enter", "Войти"), Text("SEND", "ОТПРАВИТЬ"));
+            Assert.Equal("Enter)ОТПРАВИТЬ", tr.Translate("Enter)SEND"));
+        }
+
+        [Fact]
+        public void First_letter_case_follows_the_game()
+        {
+            var tr = Make(Text("internet connection", "интернет-соединение"));
+            Assert.Equal("Интернет-соединение", tr.Translate("Internet connection"));
+        }
+
+        [Fact]
+        public void Short_lists_are_translated_only_completely()
+        {
+            var tr = Make(Text("Aching", "всё ломит"), Text("Unsafe", "опасно"));
+            Assert.Equal("всё ломит, опасно", tr.Translate("Aching, Unsafe"));
+            Assert.Equal("Aching, Comfy", tr.Translate("Aching, Comfy"));
+        }
+
+        [Fact]
+        public void Partial_results_are_reported_as_missed()
+        {
+            var catalog = new Catalog();
+            catalog.Add(Text("Bread", "Хлеб"));
+            var tr = new TextTranslator(catalog);
+            var missed = new System.Collections.Generic.List<string>();
+            tr.Missed = missed.Add;
+            tr.Translate("Bread\nLeft");
+            tr.Translate("Bread");
+            Assert.Equal(new[] { "Bread\nLeft" }, missed);
+        }
+
+        [Fact]
         public void Template_rejects_unknown_slot_in_target()
         {
             Assert.Throws<System.IO.InvalidDataException>(() => new Template("Buy {0}", "Купить {1}"));

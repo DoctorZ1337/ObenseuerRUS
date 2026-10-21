@@ -127,7 +127,11 @@ namespace ObenseuerRUS.Core
                     AddExact(e.Source, e.Target);
                     break;
                 case Kinds.Template:
-                    (e.Scope == "lua" ? LuaTemplates : Templates).Add(new Template(e.Source, e.Target));
+                    List<Template> list = e.Scope == "lua" ? LuaTemplates : Templates;
+                    list.Add(new Template(e.Source, e.Target));
+                    // Переводчик сравнивает строку без краевых пробелов и переводов строк ("Due in {0} days\n").
+                    string trimmed = e.Source.Trim();
+                    if (trimmed != e.Source && trimmed.Length > 0) list.Add(new Template(trimmed, (e.Target ?? "").Trim()));
                     break;
                 case Kinds.Table:
                     if (string.IsNullOrEmpty(e.Table) || e.Key == null) throw new InvalidDataException("нет table/key");
@@ -161,6 +165,9 @@ namespace ObenseuerRUS.Core
         private void AddExact(string source, string target)
         {
             if (string.IsNullOrEmpty(source)) throw new InvalidDataException("пустой source");
+            // Код склеивает "Required skill: " + навык: пробелы по краям оригинала должны остаться и в переводе.
+            string lead = source.Substring(0, source.Length - source.TrimStart().Length), trail = source.Substring(source.TrimEnd().Length);
+            if (lead.Length + trail.Length > 0 && target.Trim().Length > 0) target = lead + target.Trim() + trail;
             // Первый загруженный перевод побеждает: файлы читаются по алфавиту.
             Put(source, target);
             // Код игры часто склеивает "\nAny amount" или "Account: " + число; переводчик ищет части без краевых

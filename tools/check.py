@@ -77,6 +77,7 @@ def check(folder):
         if n > 1:
             errors.append("дублирующийся id: %r (%d раз)" % (i, n))
     by_source = defaultdict(set)
+    by_template = defaultdict(set)
     stats = defaultdict(Counter)
     review, todo = [], []
     for name, e in entries:
@@ -129,11 +130,17 @@ def check(folder):
             warnings.append("%s: перевод строки в конце не совпадает" % where)
         if kind in ("text", "table"):
             by_source[src].add(tgt)
+        if kind == "template":
+            # Шаблоны с одинаковым оригиналом: в игре сработает первый загруженный, второй перевод не виден.
+            by_template[(e.get("scope", ""), src.strip())].add(tgt.strip())
         if status == "review":
             review.append((name, e))
     for src, targets in by_source.items():
         if len(targets) > 1:
             warnings.append("разные переводы одной строки %r: %s" % (src[:60], " | ".join(sorted(t[:40] for t in targets))))
+    for (scope, src), targets in by_template.items():
+        if len(targets) > 1:
+            warnings.append("разные переводы одного шаблона %r: %s" % (src[:60], " | ".join(sorted(t[:40] for t in targets))))
     return errors, warnings, stats, review, todo
 
 
