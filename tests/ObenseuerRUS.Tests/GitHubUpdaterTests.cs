@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Text;
@@ -12,75 +13,63 @@ namespace ObenseuerRUS.Tests
         [Fact]
         public void DetectsNewReleaseAndRequiresNamedAsset()
         {
-            var release = GitHubUpdater.ParseLatestRelease(ReleaseJson("v0.4.1", "ObenseuerRUS-0.4.1.zip"), new Version(0, 4, 0));
+            var release = GitHubUpdater.ParseLatestRelease(ReleaseJson("v0.4.2", "ObenseuerRUS-0.4.2.zip"), new Version(0, 4, 1));
 
-            Assert.Equal(new Version(0, 4, 1), release.Version);
-            Assert.Equal("https://github.com/DoctorZ1337/ObenseuerRUS/releases/download/v0.4.1/ObenseuerRUS-0.4.1.zip", release.AssetUrl);
+            Assert.Equal(new Version(0, 4, 2), release.Version);
+            Assert.Equal("https://github.com/DoctorZ1337/ObenseuerRUS/releases/download/v0.4.2/ObenseuerRUS-0.4.2.zip", release.AssetUrl);
             Assert.Equal(123, release.Size);
         }
 
         [Fact]
         public void IgnoresCurrentVersionAndReportsMissingAsset()
         {
-            Assert.Null(GitHubUpdater.ParseLatestRelease(ReleaseJson("v0.4.0", "ObenseuerRUS-0.4.0.zip"), new Version(0, 4, 0)));
+            Assert.Null(GitHubUpdater.ParseLatestRelease(ReleaseJson("v0.4.1", "ObenseuerRUS-0.4.1.zip"), new Version(0, 4, 1)));
 
-            var release = GitHubUpdater.ParseLatestRelease(ReleaseJson("v0.4.1", "source.zip"), new Version(0, 4, 0));
+            var release = GitHubUpdater.ParseLatestRelease(ReleaseJson("v0.4.2", "source.zip"), new Version(0, 4, 1));
             Assert.Null(release.AssetUrl);
         }
 
         [Fact]
-        public void RemembersTheTranslationVersionAlreadyApplied()
+        public void AcceptsCompletePackageAndChecksEveryTranslationFormat()
         {
-            string folder = TestFolder();
-            Directory.CreateDirectory(folder);
+            Dictionary<string, byte[]> files = GitHubUpdater.ReadPackageFiles(ValidPackage());
+
+            Assert.Equal(7, files.Count);
+            Assert.Contains("ObenseuerRUS.dll", files.Keys);
+            Assert.Contains("translations/ui.json", files.Keys);
+        }
+
+        [Fact]
+        public void ExtractsTheFullModIntoStaging()
+        {
+            string stage = TestFolder();
             try
             {
-                File.WriteAllText(Path.Combine(folder, ".github-update-version"), "0.4.1", new UTF8Encoding(false));
-                Assert.Equal(new Version(0, 4, 1), GitHubUpdater.GetEffectiveVersion(folder, "0.4.0"));
+                Dictionary<string, byte[]> files = GitHubUpdater.ReadPackageFiles(ValidPackage());
+                GitHubUpdater.ExtractPackage(files, stage);
+
+                Assert.True(File.Exists(Path.Combine(stage, "ObenseuerRUS.dll")));
+                Assert.True(File.Exists(Path.Combine(stage, "fonts", "ObenseuerTypewriterCyrillic.ttf")));
+                Assert.Equal("{\"format\":\"obenseuer-rus/1\"}", File.ReadAllText(Path.Combine(stage, "translations", "ui.json")));
             }
             finally
             {
-                Directory.Delete(folder, recursive: true);
+                if (Directory.Exists(stage)) Directory.Delete(stage, recursive: true);
             }
         }
 
         [Fact]
-        public void AcceptsOnlyValidTranslationFilesFromPackage()
+        public void RejectsTraversalUnknownFilesAndInvalidTranslationFormat()
         {
-            var files = GitHubUpdater.ReadTranslationFiles(Package("translations/ui.json", "{\"format\":\"obenseuer-rus/1\"}"));
+            var traversal = RequiredFiles();
+            traversal.Add(Entry("translations/../escape.json", "{}"));
+            Assert.Throws<InvalidDataException>(() => GitHubUpdater.ReadPackageFiles(Package(traversal.ToArray())));
 
-            Assert.Single(files);
-            Assert.Contains("ui.json", files.Keys);
-        }
+            var unknown = RequiredFiles();
+            unknown.Add(Entry("update.ps1", "Write-Host bad"));
+            Assert.Throws<InvalidDataException>(() => GitHubUpdater.ReadPackageFiles(Package(unknown.ToArray())));
 
-        [Fact]
-        public void InstallsUpdatedFilesAndLeavesUnrelatedFilesAlone()
-        {
-            string folder = TestFolder();
-            string translations = Path.Combine(folder, "translations");
-            Directory.CreateDirectory(translations);
-            File.WriteAllText(Path.Combine(translations, "ui.json"), "old", new UTF8Encoding(false));
-            File.WriteAllText(Path.Combine(translations, "custom.json"), "keep", new UTF8Encoding(false));
-            try
-            {
-                GitHubUpdater.InstallTranslations(
-                    new System.Collections.Generic.Dictionary<string, byte[]> { ["ui.json"] = Encoding.UTF8.GetBytes("new") }, translations);
-
-                Assert.Equal("new", File.ReadAllText(Path.Combine(translations, "ui.json")));
-                Assert.Equal("keep", File.ReadAllText(Path.Combine(translations, "custom.json")));
-                Assert.Empty(Directory.GetFiles(translations, "*.tmp"));
-            }
-            finally
-            {
-                Directory.Delete(folder, recursive: true);
-            }
-        }
-
-        [Fact]
-        public void RejectsTraversalAndUnknownTranslationFormat()
-        {
-            Assert.Throws<InvalidDataException>(() => GitHubUpdater.ReadTranslationFiles(Package("translations/../escape.json", "{}")));
-            Assert.Throws<InvalidDataException>(() => GitHubUpdater.ReadTranslationFiles(Package("translations/ui.json", "{\"format\":\"other\"}")));
+            Assert.Throws<InvalidDataException>(() => GitHubUpdater.ReadPackageFiles(ValidPackage("{\"format\":\"other\"}")));
         }
 
         private static string ReleaseJson(string tag, string assetName)
@@ -88,13 +77,40 @@ namespace ObenseuerRUS.Tests
             return "{\"tag_name\":\"" + tag + "\",\"draft\":false,\"prerelease\":false,\"html_url\":\"https://github.com/DoctorZ1337/ObenseuerRUS/releases/tag/" + tag + "\",\"assets\":[{\"name\":\"" + assetName + "\",\"browser_download_url\":\"https://github.com/DoctorZ1337/ObenseuerRUS/releases/download/" + tag + "/" + assetName + "\",\"digest\":\"sha256:" + new string('a', 64) + "\",\"size\":123}]}";
         }
 
-        private static byte[] Package(string path, string json)
+        private static byte[] ValidPackage(string uiJson = "{\"format\":\"obenseuer-rus/1\"}")
+        {
+            return Package(RequiredFiles(uiJson).ToArray());
+        }
+
+        private static List<KeyValuePair<string, string>> RequiredFiles(string uiJson = "{\"format\":\"obenseuer-rus/1\"}")
+        {
+            return new List<KeyValuePair<string, string>>
+            {
+                Entry("ObenseuerRUS.dll", "dll"),
+                Entry("README.md", "readme"),
+                Entry("translations/ui.json", uiJson),
+                Entry("fonts/ObenseuerTypewriterCyrillic.ttf", "font"),
+                Entry("fonts/COPYING-FreeFont.txt", "license"),
+                Entry("fonts/FONT-NOTICE.txt", "notice"),
+                Entry("fonts/make_cyrillic_font.py", "source")
+            };
+        }
+
+        private static KeyValuePair<string, string> Entry(string path, string content)
+        {
+            return new KeyValuePair<string, string>(path, content);
+        }
+
+        private static byte[] Package(params KeyValuePair<string, string>[] files)
         {
             using (var stream = new MemoryStream())
             {
                 using (var zip = new ZipArchive(stream, ZipArchiveMode.Create, leaveOpen: true))
-                using (var writer = new StreamWriter(zip.CreateEntry("BepInEx/plugins/ObenseuerRUS/" + path).Open(), new UTF8Encoding(false)))
-                    writer.Write(json);
+                {
+                    foreach (KeyValuePair<string, string> file in files)
+                    using (var writer = new StreamWriter(zip.CreateEntry("BepInEx/plugins/ObenseuerRUS/" + file.Key).Open(), new UTF8Encoding(false)))
+                        writer.Write(file.Value);
+                }
                 return stream.ToArray();
             }
         }

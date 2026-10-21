@@ -36,6 +36,7 @@ namespace ObenseuerRUS
             logMissing = Config.Bind("Debug", "LogUntranslated", false, "Записывать строки интерфейса, где остался английский текст (целиком или частично), в untranslated.txt в папке мода.");
             toggleKey = Mod.Key("ToggleLanguage", "Русский / английский", KeyCode.F9);
             LoadCatalog();
+            ShowPreviousUpdateError();
             StartUpdater();
             ApplySettings();
 
@@ -92,6 +93,23 @@ namespace ObenseuerRUS
             string current = version == null ? "0.4.0" : version.InformationalVersion.Split('+')[0];
             updater = new GitHubUpdater(folder, current);
             updater.Start();
+        }
+
+        private void ShowPreviousUpdateError()
+        {
+            string path = Path.Combine(folder, ".github-update-error");
+            if (!File.Exists(path)) return;
+            try
+            {
+                string detail = File.ReadAllText(path, Encoding.UTF8).Trim();
+                updateNotice = "Предыдущее автообновление не установилось. Установите архив вручную или попробуйте позже.";
+                Log.Warn("автообновление мода: помощник установки завершился с ошибкой: " + detail);
+                File.Delete(path);
+            }
+            catch (Exception e)
+            {
+                Log.Warn("не удалось прочитать результат автообновления: " + e.Message);
+            }
         }
 
         private void LoadCatalog()
