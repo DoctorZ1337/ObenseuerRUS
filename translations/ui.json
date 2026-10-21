@@ -21,7 +21,7 @@
     {"id": "ui/fee63c81417f", "kind": "text", "source": "(Refill)", "target": "(Наполнить)", "status": "translated", "context": "Usable:m_overrideUseMessage"},
     {"id": "ui/1849d36ff16a", "kind": "text", "source": "(Relief)", "target": "(Облегчиться)", "status": "translated", "context": "ToiletBucket:m_useMessage; Usable:m_overrideUseMessage"},
     {"id": "ui/7745bd657223", "kind": "text", "source": "(Return Pint)", "target": "(Вернуть кружку)", "status": "translated", "context": "InteractableRelay:m_useMessage"},
-    {"id": "ui/7fce18b0a019", "kind": "text", "source": "(Search)", "target": "(Обыскать)", "status": "translated", "context": "Usable:m_overrideUseMessage"},
+    {"id": "ui/7fce18b0a019", "kind": "text", "source": "(Search)", "target": "(Обыскать)", "status": "translated", "context": "Usable:m_overrideUseMessage", "note": "так UseText показывает и useMessage = \"Search\" у Storage/InteractableRelay; голое \"Search\" (поле поиска) — «Поиск» в code.json"},
     {"id": "ui/41c6d904c023", "kind": "text", "source": "(Sleep)", "target": "(Спать)", "status": "translated", "context": "Usable:m_overrideUseMessage"},
     {"id": "ui/9dd4860d0216", "kind": "text", "source": "(Take)", "target": "(Взять)", "status": "translated", "context": "Usable:m_overrideUseMessage"},
     {"id": "ui/b70cf6a8f628", "kind": "text", "source": "(Throw water)", "target": "(Плеснуть водой)", "status": "translated", "context": "InteractableRelay:m_useMessage"},
