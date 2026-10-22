@@ -79,12 +79,17 @@ namespace ObenseuerRUS
             if (manager != null && !string.IsNullOrEmpty(manager.currentLanguagePlayerPrefsKey)) key = manager.currentLanguagePlayerPrefsKey;
             bool had = PlayerPrefs.HasKey(key);
             string previous = had ? PlayerPrefs.GetString(key) : null;
+            // Посреди разговора SetLanguage заново выводит текущую реплику мимо обработки игры: с кодами пауз "\," и полным
+            // именем актёра ("Start/Interviewer"). Без этого обновления язык сменится со следующей реплики.
+            bool refresh = DialogueManager.updateActiveConversationTextWhenLanguageChanges;
             try
             {
+                DialogueManager.updateActiveConversationTextWhenLanguageChanges = false;
                 DialogueManager.SetLanguage(language);
             }
             finally
             {
+                DialogueManager.updateActiveConversationTextWhenLanguageChanges = refresh;
                 if (had) PlayerPrefs.SetString(key, previous);
                 else PlayerPrefs.DeleteKey(key);
             }

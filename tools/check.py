@@ -95,6 +95,9 @@ def check(folder):
         if not isinstance(src, str) or not src.strip():
             errors.append("%s: пустой source" % where)
             continue
+        scope = e.get("scope")
+        if scope is not None and (kind not in ("text", "template") or not (scope in ("lua", "action") or scope.startswith("object:"))):
+            errors.append("%s: scope %r не поддерживается (lua, action, object:<родитель>/<объект> — только у text и template)" % (where, scope))
         if kind == "table" and (not e.get("table") or e.get("key") is None):
             errors.append("%s: у table нет table/key" % where)
         if kind in ("dialogue", "dialogue-menu") and (not isinstance(e.get("conv"), int) or not isinstance(e.get("entry"), int)):
@@ -111,7 +114,9 @@ def check(folder):
         if not tgt:
             todo.append((name, e))
             continue
-        diff = markup.compare(src, tgt)
+        # Строка одного объекта ("object:...") подгоняется под его место: перенос и пробелы по краям — раскладка, а не текст.
+        layout = (e.get("scope") or "").startswith("object:")
+        diff = markup.compare(src, tgt.replace("\n", " ") if layout else tgt)
         if diff:
             (errors if status == "translated" else warnings).append("%s: разметка не совпадает: %s" % (where, diff))
         vis = visible(tgt)
@@ -124,7 +129,7 @@ def check(folder):
             errors.append("%s: латиница и кириллица в одном слове: %s" % (where, ", ".join(mixed[:5])))
         if SPACE_BEFORE_PUNCT.search(PAUSE_CODES.sub("", tgt)) and not SPACE_BEFORE_PUNCT.search(PAUSE_CODES.sub("", src)):
             warnings.append("%s: пробел перед знаком препинания (после удаления кодов пауз)" % where)
-        if tgt != tgt.strip() and src == src.strip():
+        if tgt != tgt.strip() and src == src.strip() and not layout:
             warnings.append("%s: лишние пробелы по краям перевода" % where)
         src_lines = src.replace("\r\n", "\n").replace("\r", "\n")
         tgt_lines = tgt.replace("\r\n", "\n").replace("\r", "\n")
@@ -136,13 +141,13 @@ def check(folder):
             if re.search(r"[a-zà-ÿ]", tgt) or not CYR.search(tgt):
                 errors.append("%s: название должно быть кириллицей (латиница — только аббревиатуры): %r" % (where, tgt))
         if kind in ("text", "table"):
-            by_source[src].add(tgt)
+            by_source[(e.get("scope"), src)].add(tgt)
         if kind == "template":
             # Шаблоны с одинаковым оригиналом: в игре сработает первый загруженный, второй перевод не виден.
             by_template[(e.get("scope", ""), src.strip())].add(tgt.strip())
         if status == "review":
             review.append((name, e))
-    for src, targets in by_source.items():
+    for (_, src), targets in by_source.items():
         if len(targets) > 1:
             warnings.append("разные переводы одной строки %r: %s" % (src[:60], " | ".join(sorted(t[:40] for t in targets))))
     for src, kinds in name_groups.items():

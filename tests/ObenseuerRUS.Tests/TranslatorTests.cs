@@ -16,6 +16,34 @@ namespace ObenseuerRUS.Tests
         private static Entry Tpl(string s, string t) => new Entry { Id = s, Kind = Kinds.Template, Source = s, Target = t, Status = "translated" };
 
         [Fact]
+        public void Scoped_text_wins_only_in_its_scope()
+        {
+            var tr = Make(Text("Drink", "Напиток"), Text("Smoke", "Курение"), Tpl("Hold - {0}", "Удерживать — {0}"),
+                          new Entry { Id = "a", Kind = Kinds.Text, Scope = "action", Source = "Drink", Target = "Выпить", Status = "translated" });
+            Assert.Equal("Напиток", tr.Translate("Drink"));
+            Assert.Equal("Выпить", tr.Translate("Drink", "action"));
+            Assert.Equal("Удерживать — Выпить", tr.Translate("Hold - Drink", "action"));
+            Assert.Equal("Курение", tr.Translate("Smoke", "action"));
+            Assert.Equal("Напиток", tr.Translate("Drink"));
+        }
+
+        [Fact]
+        public void Lines_of_multiline_entry_are_known_separately()
+        {
+            var tr = Make(Text("Task one.\n\nTask two.", "Задание один.\n\nЗадание два."), Text("Goal done.", "Цель выполнена."));
+            Assert.Equal("Задание один.\n\nЗадание два.\n\nЦель выполнена.", tr.Translate("Task one.\n\nTask two.\n\nGoal done."));
+        }
+
+        [Fact]
+        public void Lowercase_text_prefers_capitalized_entry()
+        {
+            var tr = Make(Text("SUN", "ВС"), Text("Sun", "Солнце"), Text("Crude", "Грубый"));
+            Assert.Equal("солнце", tr.Translate("sun"));
+            Assert.Equal("грубый", tr.Translate("crude"));
+            Assert.Equal("ВС", tr.Translate("SUN"));
+        }
+
+        [Fact]
         public void Exact_and_trimmed()
         {
             var tr = Make(Text("Options", "Параметры"));

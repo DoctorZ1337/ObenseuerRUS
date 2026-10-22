@@ -15,17 +15,32 @@ namespace ObenseuerRUS
     /// </summary>
     internal sealed class RusPreprocessor : ITextPreprocessor
     {
-        public static readonly RusPreprocessor Instance = new RusPreprocessor();
+        public static readonly RusPreprocessor Instance = new RusPreprocessor(null);
+        private static readonly Dictionary<string, RusPreprocessor> byScope = new Dictionary<string, RusPreprocessor>(StringComparer.Ordinal);
         public static TextTranslator Translator;
         public static bool Enabled;
         private static bool failed;
+        private readonly string scope;
+
+        private RusPreprocessor(string scope)
+        {
+            this.scope = scope;
+        }
+
+        /// <summary>Перевод, где сначала ищутся строки этого scope (Entry.Scope), затем общие.</summary>
+        public static RusPreprocessor For(string scope)
+        {
+            RusPreprocessor p;
+            if (!byScope.TryGetValue(scope, out p)) byScope[scope] = p = new RusPreprocessor(scope);
+            return p;
+        }
 
         public string PreprocessText(string text)
         {
             if (!Enabled || Translator == null) return text;
             try
             {
-                return Translator.Translate(text);
+                return Translator.Translate(text, scope);
             }
             catch (Exception e)
             {
@@ -59,12 +74,18 @@ namespace ObenseuerRUS
 
     internal static class TmpLocalizer
     {
+        public const string ActionScope = "action";
         private static readonly Dictionary<int, KeyValuePair<string, string>> legacyOriginals = new Dictionary<int, KeyValuePair<string, string>>();
 
         public static bool Install(CoreMod mod)
         {
             bool ui = mod.Postfix(typeof(TextMeshProUGUI), "Awake", Type.EmptyTypes, typeof(TmpLocalizer), nameof(AfterAwake));
             bool world = mod.Postfix(typeof(TextMeshPro), "Awake", Type.EmptyTypes, typeof(TmpLocalizer), nameof(AfterAwake));
+            // Подписи действий ("Drink", "Smoke") совпадают с типами предметов ("Напиток", "Курение"): у кнопок окна предмета
+            // и у подсказки взаимодействия ("(Hold - Drink)") свой словарь глаголов.
+            bool useText = mod.Postfix(typeof(UseText), "Awake", typeof(TmpLocalizer), nameof(AfterUseTextAwake));
+            bool buttons = mod.Postfix(typeof(ItemInfoPanel), "SetButtonStatusAndText", typeof(TmpLocalizer), nameof(AfterItemButtons));
+            if (!useText || !buttons) RusMod.Instance?.Log.Warn("подписи действий предметов переводятся общим словарём: перехват UseText/ItemInfoPanel не установлен");
             return ui && world;
         }
 
@@ -73,15 +94,53 @@ namespace ObenseuerRUS
             Attach(__instance);
         }
 
+        private static void AfterUseTextAwake(UseText __instance)
+        {
+            UseScope(__instance.useText, ActionScope);
+        }
+
+        private static void AfterItemButtons(TextMeshProUGUI buttonText, TextMeshProUGUI cantUseButtonText)
+        {
+            UseScope(buttonText, ActionScope);
+            UseScope(cantUseButtonText, ActionScope);
+        }
+
+        private static void UseScope(TMP_Text text, string scope)
+        {
+            RusPreprocessor p = RusPreprocessor.For(scope);
+            if (text == null || text.textPreprocessor == p || text.textPreprocessor is ReadOnlyFieldPreprocessor) return;
+            text.textPreprocessor = p;
+            text.havePropertiesChanged = true;
+            text.SetVerticesDirty();
+        }
+
         private static void Attach(TMP_Text text)
         {
             if (text == null) return;
             if (text.textPreprocessor != null) return;
             TMP_InputField input = text.GetComponentInParent<TMP_InputField>(true);
-            text.textPreprocessor = input != null && input.textComponent == text ? new ReadOnlyFieldPreprocessor(input) : (ITextPreprocessor)RusPreprocessor.Instance;
+            if (input != null && input.textComponent == text)
+            {
+                text.textPreprocessor = new ReadOnlyFieldPreprocessor(input);
+                return;
+            }
+            string scope = ObjectScope(text);
+            text.textPreprocessor = scope != null ? RusPreprocessor.For(scope) : RusPreprocessor.Instance;
         }
 
-        private static bool IsOurs(ITextPreprocessor p) => p == RusPreprocessor.Instance || p is ReadOnlyFieldPreprocessor;
+        /// <summary>
+        /// "object:Text Screen/OPEN" — перевод одного объекта, если он задан в каталоге: у такого текста есть двойник с другим смыслом
+        /// (половинка заставки "OPEN SEWER" и вывеска "OPEN") или ему мало места (круглая кнопка "Drop").
+        /// </summary>
+        private static string ObjectScope(TMP_Text text)
+        {
+            if (RusPreprocessor.Translator == null) return null;
+            Transform parent = text.transform.parent;
+            string scope = "object:" + (parent != null ? parent.name + "/" : "") + text.gameObject.name;
+            return RusPreprocessor.Translator.HasScope(scope) ? scope : null;
+        }
+
+        private static bool IsOurs(ITextPreprocessor p) => p is RusPreprocessor || p is ReadOnlyFieldPreprocessor;
 
         /// <summary>Подключает перевод к уже созданным объектам и просит перерисовать видимые.</summary>
         public static void Sweep()

@@ -18,7 +18,9 @@ namespace ObenseuerRUS.Core
         [JsonProperty("status")] public string Status;
         [JsonProperty("context")] public string Context;
         [JsonProperty("note")] public string Note;
-        // Только для template: "lua" — шаблон применяется лишь к значениям Lua-вставок диалогов (функция Tr).
+        // Где действует строка или шаблон (иначе — везде): "lua" — значения Lua-вставок диалогов (функция Tr),
+        // "action" — подписи действий предметов (кнопки окна предмета, подсказка UseText),
+        // "object:<родитель>/<объект>" — текст одного объекта TextMeshPro. Сначала ищется перевод своего scope, затем общий.
         [JsonProperty("scope", NullValueHandling = NullValueHandling.Ignore)] public string Scope;
         [JsonProperty("table", NullValueHandling = NullValueHandling.Ignore)] public string Table;
         [JsonProperty("key", NullValueHandling = NullValueHandling.Ignore)] public string Key;
@@ -55,8 +57,11 @@ namespace ObenseuerRUS.Core
     {
         public readonly Dictionary<string, string> Exact = new Dictionary<string, string>(StringComparer.Ordinal);
         public readonly Dictionary<string, string> ExactIgnoreCase = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+        /// <summary>Отдельные строки многострочных записей; переводчик берёт их, только если не подошёл шаблон.</summary>
+        public readonly Dictionary<string, string> Lines = new Dictionary<string, string>(StringComparer.Ordinal);
         public readonly List<Template> Templates = new List<Template>();
-        public readonly List<Template> LuaTemplates = new List<Template>();
+        public readonly Dictionary<string, List<Template>> ScopedTemplates = new Dictionary<string, List<Template>>(StringComparer.Ordinal);
+        public readonly Dictionary<string, Dictionary<string, string>> ScopedExact = new Dictionary<string, Dictionary<string, string>>(StringComparer.Ordinal);
         public readonly Dictionary<long, DialogueLine> Dialogue = new Dictionary<long, DialogueLine>();
         public readonly Dictionary<string, Dictionary<string, string>> Tables = new Dictionary<string, Dictionary<string, string>>(StringComparer.Ordinal);
         public readonly Dictionary<string, string> People = new Dictionary<string, string>(StringComparer.Ordinal);
@@ -128,10 +133,20 @@ namespace ObenseuerRUS.Core
             switch (e.Kind)
             {
                 case Kinds.Text:
-                    AddExact(e.Source, e.Target);
+                    if (e.Scope == null)
+                    {
+                        AddExact(e.Source, e.Target);
+                        break;
+                    }
+                    if (string.IsNullOrEmpty(e.Source)) throw new InvalidDataException("пустой source");
+                    Dictionary<string, string> scoped;
+                    if (!ScopedExact.TryGetValue(e.Scope, out scoped)) ScopedExact[e.Scope] = scoped = new Dictionary<string, string>(StringComparer.Ordinal);
+                    if (!scoped.ContainsKey(e.Source)) scoped[e.Source] = e.Target;
+                    if (!scoped.ContainsKey(e.Source.Trim())) scoped[e.Source.Trim()] = e.Target.Trim();
                     break;
                 case Kinds.Template:
-                    List<Template> list = e.Scope == "lua" ? LuaTemplates : Templates;
+                    List<Template> list = Templates;
+                    if (e.Scope != null && !ScopedTemplates.TryGetValue(e.Scope, out list)) ScopedTemplates[e.Scope] = list = new List<Template>();
                     list.Add(new Template(e.Source, e.Target));
                     // Переводчик сравнивает строку без краевых пробелов и переводов строк ("Due in {0} days\n").
                     string trimmed = e.Source.Trim();
@@ -185,6 +200,16 @@ namespace ObenseuerRUS.Core
             string s = source.Trim(), t = target.Trim();
             if (s.Length > 0 && s != source) Put(s, t);
             if (s.Length > 1 && s.EndsWith(":", StringComparison.Ordinal) && t.EndsWith(":", StringComparison.Ordinal)) Put(s.TrimEnd(':').TrimEnd(), t.TrimEnd(':').TrimEnd());
+            // TaskPanel склеивает описание задания с описаниями целей через "\n\n", а переводчик делит такой текст по строкам,
+            // поэтому строки многострочной записи нужны и по отдельности (если перевод разбит на строки так же).
+            if (s.IndexOf('\n') < 0) return;
+            string[] sl = s.Split('\n'), tl = t.Split('\n');
+            if (sl.Length != tl.Length) return;
+            for (int i = 0; i < sl.Length; i++)
+            {
+                string ls = sl[i].Trim(), lt = tl[i].Trim();
+                if (ls.Length > 0 && lt.Length > 0 && !Lines.ContainsKey(ls)) Lines[ls] = lt;
+            }
         }
 
         private void Put(string source, string target)
@@ -197,7 +222,7 @@ namespace ObenseuerRUS.Core
         public void SortTemplates()
         {
             Templates.Sort((a, b) => b.LiteralLength.CompareTo(a.LiteralLength));
-            LuaTemplates.Sort((a, b) => b.LiteralLength.CompareTo(a.LiteralLength));
+            foreach (List<Template> list in ScopedTemplates.Values) list.Sort((a, b) => b.LiteralLength.CompareTo(a.LiteralLength));
         }
     }
 }

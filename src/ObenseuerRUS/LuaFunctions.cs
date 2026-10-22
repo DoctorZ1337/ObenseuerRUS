@@ -30,7 +30,7 @@ namespace ObenseuerRUS
         public static string Tr(string text)
         {
             if (string.IsNullOrEmpty(text) || Translator == null) return text ?? string.Empty;
-            return Translator.Translate(text);
+            return Translator.Translate(text, "lua");
         }
 
         private static bool Male => Dialogue.GetVariableString("PlayerGender", "male") != "female";

@@ -53,6 +53,29 @@ namespace ObenseuerRUS.Tests
         // Голое "Search" — поле поиска (меню модов, компьютер в игре); у контейнера UseText показывает "(Search)".
         [InlineData("Search", "Поиск")]
         [InlineData("(Search)", "(Обыскать)")]
+        // Строки со скриншотов 0.4.6.
+        // TaskPanel: описание задания (два абзаца) + "\n\n" + описание выполненной цели.
+        [InlineData("Malone Petronis wants you to go find the body of his friend named Seamus Liepa. Malone believes that his body is somewhere in Obenseuer's old mine.\n\nHe said that there should be access to the mines in basement of Deekula building, but someone may live in the basement which can be problematic.\n\nYou got to the old mining tunnels through Deekula's basement.",
+                    // Второй абзац дословно есть и в таблице Tasks (Orange9.description): берётся её перевод.
+                    "Malone Petronis хочет, чтобы вы нашли тело его друга Seamus Liepa. Malone считает, что тело где-то в старой шахте Obenseuer.\n\nОн сказал, что в подвале здания Deekula должен быть проход в шахты, но в подвале, возможно, кто-то живёт, и с этим могут быть проблемы.\n\nВы попали в старые шахтные туннели через подвал Deekula.")]
+        [InlineData("Apt 1 shabby bathroom", "Кв. 1: ванная — «Убогий»")]
+        [InlineData("Tenement shabby courtyard", "Доходный дом: двор — «Убогий»")]
+        [InlineData("You ordered an apartment 1 shabby bathroom upgrade from Samuel Jonasson", "Вы заказали у Samuel Jonasson улучшение квартиры 1: ванная — «Убогий»")]
+        [InlineData("Wait for the apartment 1 bathroom upgrade to complete", "Дождитесь завершения улучшения «ванная» в квартире 1")]
+        [InlineData("Current upgrade: Shabby", "Текущее улучшение: Убогий")]
+        [InlineData("Cucumber Seeds (5)", "Семена огурца (5)")]
+        [InlineData("Excluded modifiers:\n<color=\"white\">Makeshift<color=\"white\">, <#a8211f>crude<color=\"white\">.", "Исключающие модификаторы:\n<color=\"white\">Самодельный<color=\"white\">, <#a8211f>грубый<color=\"white\">.")]
+        [InlineData("<color=\"white\">Sun<color=\"white\">, <color=\"white\">large<color=\"white\">.", "<color=\"white\">Солнце<color=\"white\">, <color=\"white\">большой<color=\"white\">.")]
+        [InlineData("Owned - Mirjam Freiter", "Собственность — Mirjam Freiter")]
+        [InlineData("Building Menu\n(Not fully examined!)", "Меню строительства\n(Осмотрено не полностью!)")]
+        [InlineData("Interviewers", "Интервьюеры")]
+        // Имя актёра над репликой (часть после "/" в "Start/Interviewer").
+        [InlineData("Interviewer", "Интервьюер")]
+        [InlineData("Alcohol addiction: +10\nMushroom addiction: +10\nFungal disease: +10\n", "Тяга к алкоголю: +10\nТяга к грибам: +10\nГрибковая болезнь: +10\n")]
+        [InlineData("Fried glowing rat", "Жареная светящаяся крыса")]
+        [InlineData("Drink", "Напиток")]
+        // Часы на экране: те же шаблоны, что и у Lua TellTimeResponse.
+        [InlineData("Wednesday 11:33", "Среда, 11:33")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));
@@ -89,11 +112,37 @@ namespace ObenseuerRUS.Tests
             Assert.Equal("Отель Корсо Обенсеуер", lines[lines.Length - 1]);
         }
 
+        [Theory]
+        // Кнопки окна предмета и подсказка UseText: глаголы, а не типы предметов ("Drink" — «Напиток»).
+        [InlineData("action", "Drink", "Выпить")]
+        [InlineData("action", "Eat", "Съесть")]
+        [InlineData("action", "Break", "Разбить")]
+        [InlineData("action", "(Hold - Drink)", "(Удерживать — Выпить)")]
+        [InlineData("action", "(Drop)", "(Спрыгнуть)")]
+        [InlineData("action", "No light", "Нечем прикурить")]
+        [InlineData("action", "Owned", "Собственность")]
+        // Строки одного объекта: половинки заставки интро и круглая кнопка; вывеска "OPEN" остаётся «ОТКРЫТО».
+        [InlineData("object:Text Screen/OPEN", "OPEN", "ОТКРЫТАЯ")]
+        [InlineData("object:Text Screen/SEWER", "SEWER", "      КЛОАКА")]
+        [InlineData("object:Drop button/ButtonText", "Drop", "Бро-\nсить")]
+        [InlineData(null, "OPEN", "ОТКРЫТО")]
+        [InlineData(null, "Drop", "Выбросить")]
+        [InlineData("object:Advanced/Advanced", "Advanced", "Дополнительно")]
+        [InlineData(null, "Advanced", "Продвинутый")]
+        public void Real_catalog_scoped_strings(string scope, string source, string expected)
+        {
+            var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));
+            Assert.Equal(expected, tr.Translate(source, scope));
+            if (scope != null) Assert.True(tr.HasScope(scope));
+        }
+
         [Fact]
         public void Lua_scope_templates_apply_only_to_lua_values()
         {
             Catalog catalog = Catalog.LoadDirectory(TranslationsDir());
-            Assert.Equal("Понедельник, 14", new TextTranslator(catalog, forLua: true).Translate("Monday at 14"));
+            var tr = new TextTranslator(catalog);
+            Assert.True(tr.HasScope("lua"));
+            Assert.Equal("Понедельник, 14", tr.Translate("Monday at 14", "lua"));
         }
 
         [Fact]

@@ -26,12 +26,40 @@ CARD_KEYS = {"Request Card": "Попросить карту", "Sort Cards": "С�
              "Hold to Leave": "Удерживайте, чтобы уйти"}
 DAYS = {"Monday": "Понедельник", "Tuesday": "Вторник", "Wednesday": "Среда", "Thursday": "Четверг",
         "Friday": "Пятница", "Saturday": "Суббота", "Sunday": "Воскресенье"}
-# RecipeCondition — условие станка (ModifierUI: "Modifier: Clean").
-MODIFIERS = {"None": "нет", "Clean": "чистое", "Dirty": "грязное", "Infested": "заражённое", "Makeshift": "самодельное",
-             "Crude": "грубое", "Normal": "обычное", "Upgraded": "улучшенное", "Advanced": "продвинутое",
-             "Industrial": "промышленное", "Special": "особое", "Wasteland": "пустошь", "Water": "вода",
-             "Electricity": "электричество", "Steam": "пар", "Sun": "солнце", "Moist": "влажное", "Large": "большое",
-             "Small": "малое"}
+# RecipeCondition — модификатор станка (ModifierUI: "Modifier: Clean"); мужской род, как у слова «модификатор».
+MODIFIERS = {"None": "нет", "Clean": "чистый", "Dirty": "грязный", "Infested": "заражённый", "Makeshift": "самодельный",
+             "Crude": "грубый", "Normal": "обычный", "Upgraded": "улучшенный", "Advanced": "продвинутый",
+             "Industrial": "промышленный", "Special": "особый", "Wasteland": "пустошь", "Water": "вода",
+             "Electricity": "электричество", "Steam": "пар", "Sun": "солнце", "Moist": "влажный", "Large": "большой",
+             "Small": "маленький"}
+# Те же модификаторы без "Modifier: " — список рецепта (RecipeInfoUI: "Excluded modifiers:\nMakeshift, crude.";
+# со второго слова игра пишет строчными, переводчик сохраняет регистр). Clean, None, Normal, Special, Water,
+# Electricity и Small уже переведены в других местах тем же или близким словом.
+CONDITIONS = {"Dirty": "Грязный", "Infested": "Заражённый", "Makeshift": "Самодельный", "Crude": "Грубый",
+              "Upgraded": "Улучшенный", "Advanced": "Продвинутый", "Industrial": "Промышленный", "Wasteland": "Пустошь",
+              "Steam": "Пар", "Sun": "Солнце", "Moist": "Влажный", "Large": "Большой"}
+# Уровни улучшений доходного дома (UpgradeType.*: TenementUpgrade.GetName возвращает имя значения): мужской род,
+# как у слова «уровень». Строчными игра пишет их в названиях задач ремонта ("Apt 1 shabby bathroom").
+LEVELS = {"None": "Нет", "Bare": "Голый", "Makeshift": "Самодельный", "Shabby": "Убогий", "Decent": "Приличный",
+          "Fine": "Неплохой", "Luxurious": "Роскошный", "Off": "Выкл.", "On": "Вкл.", "Dirty": "Грязный", "Good": "Хороший",
+          "Best": "Лучший", "Shit": "Дерьмо", "Central": "Центральный", "District": "Районный", "Small": "Маленький",
+          "Medium": "Средний", "Large": "Большой", "Huge": "Огромный"}
+# Уже переведены в других местах (таблицы, StoragePanelUI) — отдельные строки не нужны.
+LEVELS_ELSEWHERE = {"None", "Makeshift", "Decent", "Fine", "Off", "On", "Dirty", "Good", "Shit", "Small", "Medium", "Large"}
+# Подписи собеседников, которые не являются именами (имена людей — в names-people.json): заголовки InteractableTalk
+# и имена актёров Dialogue System над репликой (игра показывает часть после последнего "/": "Start/Interviewer").
+TALK_TITLES = {"Hole": "Дыра", "Interviewers": "Интервьюеры", "Max's evil door": "Злая дверь Max", "Newsreader": "Диктор",
+               "Pizza Hatch": "Окошко пиццерии", "Priest": "Священник", "Tape recorder": "Магнитофон",
+               "Warden": "Надзиратель", "Woman in bed": "Женщина в кровати",
+               "Interviewer": "Интервьюер", "Prison guard": "Тюремный охранник", "Automated message": "Автоматическое сообщение",
+               "Emergency services": "Экстренные службы",
+               "Hobbyprof Publishing Customer Service": "Служба поддержки Hobbyprof Publishing",
+               "Osmo Olut customer service": "Служба поддержки Osmo Olut",
+               "Stalburg Bank customer service": "Служба поддержки банка Stalburg",
+               "Swamp Publishing customer service": "Служба поддержки Swamp Publishing",
+               "Hazmat Guy": "Человек в химзащите", "Patient": "Пациент", "Shadow woman": "Женщина-тень",
+               "Shadow Burnt Apartment": "Тень из сгоревшей квартиры", "Shadow Lagerfeld 1": "Тень Lagerfeld 1",
+               "Shadow Lagerfeld 2": "Тень Lagerfeld 2", "Shadow Lagerfeld 3": "Тень Lagerfeld 3"}
 # Sleep.GetTitle: удобство кровати и безопасность места.
 COMFORT = {"Torturous": "мучительно", "Aching": "всё ломит", "Uncomfortable": "неудобно", "Okay": "сносно",
            "Pleasant": "приятно", "Relaxing": "расслабляет", "Comfy": "уютно"}
@@ -176,6 +204,9 @@ def entries():
             e["scope"] = scope
         out.append(e)
 
+    def scoped(i, scope, s, t, ctx):
+        out.append({"id": "manual/" + i, "kind": "text", "scope": scope, "source": s, "target": t, "status": "translated", "context": ctx})
+
     for k, v in TASTE.items():
         text("taste/" + k, "Taste: " + k, "Вкус: " + v, "ToolTip.MentalHealthConsumableDataToString")
     for k, v in EFFICACY.items():
@@ -185,12 +216,14 @@ def entries():
     for k, v in CARD_KEYS.items():
         tpl("cards/" + k, k + " ({0})", v + " ({0})", "CardGameUI: строка подсказки с клавишей")
     for k, v in DAYS.items():
-        tpl("time/at/" + k, k + " at {0}", v + ", {0}", "Lua TellTimeResponse (варианты 0–1)", "lua")
-        tpl("time/day/" + k, k + " {0}", v + ", {0}", "Lua TellTimeResponse (вариант 3)", "lua")
+        # Без scope: так же выглядят часы на экране ("Wednesday 11:33").
+        tpl("time/at/" + k, k + " at {0}", v + ", {0}", "Lua TellTimeResponse (варианты 0–1)")
+        tpl("time/day/" + k, k + " {0}", v + ", {0}", "Lua TellTimeResponse (вариант 3); часы на экране")
         tpl("time/oclock/" + k, "It's {0} o'clock at " + k.lower(), "Сейчас {0} ч, " + v.lower(), "Lua TellTimeResponse (вариант 2)", "lua")
     tpl("time/clock", "Clock is {0}", "На часах {0}", "Lua TellTimeResponse (варианты 4–5)", "lua")
     tpl("time/now", "Now it's {0}", "Сейчас {0}", "Lua TellTimeResponse (варианты 6–7)", "lua")
-    tpl("crime/hours", "{0}h", "{0} ч", "Lua GetSentenceLengthPreArrest", "lua")
+    # Без scope: то же "3h" показывает окно предмета (ItemInfoPanel: время чтения, топливо).
+    tpl("crime/hours", "{0}h", "{0} ч", "Lua GetSentenceLengthPreArrest; ItemInfoPanel")
     tpl("bank/loan", "{0} with a payment time of {1} months and an interest of {2}%",
         "{0} со сроком выплаты {1} мес. и ставкой {2}%", "Lua GetLoanDetailsDialogue", "lua")
     # Заключение врача о зависимостях (TreatmentAddictions.cs) собирается из этих частей; списки — через " and ".
@@ -221,6 +254,42 @@ def entries():
     # Модификаторы станков (ModifierUI.cs): значок под окном станка и его подсказка.
     for k, v in MODIFIERS.items():
         text("modifier/" + k, "Modifier: " + k, "Модификатор: " + v, "ModifierUI.UpdateModifierInfo (RecipeCondition)")
+    for k, v in CONDITIONS.items():
+        text("condition/" + k, k, v, "RecipeInfoUI: список нужных и исключающих модификаторов (RecipeCondition)"
+             + ("; уровень улучшения (UpgradeType)" if k in LEVELS else ""))
+    # "Advanced" в создании персонажа — кнопка «Дополнительно»: строка ui.json со scope этого объекта.
+
+    # Улучшения доходного дома (TenementUpgrade.GetName, TenementUpgradeProgress): имя уровня отдельно
+    # (окно улучшения, "Current upgrade: Shabby") и в названии и описании задачи ремонта, где игра пишет его строчными
+    # между номером квартиры и тем, что улучшается: "Apt 1 shabby bathroom", "Tenement shabby courtyard".
+    for k, v in LEVELS.items():
+        if k not in LEVELS_ELSEWHERE and k not in CONDITIONS:
+            text("upgrade-level/" + k, k, v, "TenementUpgrade.GetName: уровень улучшения (UpgradeType)")
+        low = k.lower()
+        tpl("upgrade-task/tenement/" + k, "Tenement %s {0}" % low, "Доходный дом: {0} — «%s»" % v,
+            "TenementUpgradeProgress.AddGeneral: название задачи ремонта")
+        tpl("upgrade-task/apartment/" + k, "Apt {0} %s {1}" % low, "Кв. {0}: {1} — «%s»" % v,
+            "TenementUpgradeProgress.AddApartment: название задачи ремонта")
+        tpl("upgrade-task/tenement-ordered/" + k, "You ordered a tenement %s {0} upgrade from {1}" % low,
+            "Вы заказали у {1} улучшение доходного дома: {0} — «%s»" % v, "TenementUpgradeProgress.AddGeneral: описание задачи ремонта")
+        tpl("upgrade-task/apartment-ordered/" + k, "You ordered an apartment {0} %s {1} upgrade from {2}" % low,
+            "Вы заказали у {2} улучшение квартиры {0}: {1} — «%s»" % v, "TenementUpgradeProgress.AddApartment: описание задачи ремонта")
+
+    for k, v in TALK_TITLES.items():
+        text("talk/" + k, k, v, "InteractableTalk.title или имя актёра диалога: подпись собеседника, не имя")
+
+    # Строки одного места (scope): общий перевод того же текста здесь не подходит.
+    # Заставка интро: "OPEN SEWER" собрана из двух надписей с центрами под половинками английской фразы.
+    # Русские слова длиннее — вторую половину сдвигают пробелы в начале (подобрано в игре: половинки потом разъезжаются).
+    scoped("object/intro-open", "object:Text Screen/OPEN", "OPEN", "ОТКРЫТАЯ",
+           "Интро (level1, Main/Text Screen/OPEN): левая половина надписи «OPEN SEWER»; вывеска \"OPEN\" — «ОТКРЫТО»")
+    scoped("object/intro-sewer", "object:Text Screen/SEWER", "SEWER", "      КЛОАКА",
+           "Интро (level1, Main/Text Screen/SEWER): правая половина надписи «OPEN SEWER»")
+    # Круглая кнопка в окне предмета вмещает около пяти букв в строке.
+    scoped("object/drop-button", "object:Drop button/ButtonText", "Drop", "Бро-\nсить",
+           "Окно предмета: круглая кнопка Drop (Info Panel/.../Buttons/Drop button)")
+    # Подсказка UseText на лестнице "(Drop)"; у UseText scope action (см. TmpLocalizer).
+    scoped("action/ladder-drop", "action", "Drop", "Спрыгнуть", "InteractableLadder: UseText \"(Drop)\" — слезть с лестницы")
     tpl("modifier/efficiency", "Efficiency: {0}%", "Эффективность: {0}%", "ModifierUI.UpdateQualityModifierInfo")
     text("modifier/efficiency-details", "Affects working speed, output quality and fuel economy",
          "Влияет на скорость работы, качество продукции и расход топлива", "ModifierUI.UpdateQualityModifierInfo")

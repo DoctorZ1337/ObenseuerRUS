@@ -33,7 +33,7 @@ SINKS = [
     re.compile(r"ShowWarningText(?:Timed)?\((?P<e>.+)\);\s*$"),
     re.compile(r"ShowNotification\((?P<e>.+)\);\s*$"),
     re.compile(r"\b(?:useMessage|UseMessage|title|objectName|noRequiredItemsText|cantUseText)\s*=\s*(?P<e>.+);\s*$"),
-    re.compile(r"\b(?:AddText|AddList|HintContent|ShowLine|ShowHint|SetHint)\((?P<e>.+)\)"),
+    re.compile(r"\b(?:AddText|AddList|HintContent|ShowLine|ShowHint|SetHint|ShowTutorialButton)\((?P<e>.+)\)"),
     # Локальные переменные, из которых потом собирается текст окна или подсказки (PlayerStatsToolTipInfo и т.п.).
     re.compile(r"^\s*(?:string\s+)?(?:title|details|description|message|msg|info|label|tooltip|header|"
                r"unlockedMsg|lockedMsg|warning|hint|text\d*)\s*\+?=\s*(?P<e>.+);\s*$"),

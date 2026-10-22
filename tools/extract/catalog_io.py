@@ -3,7 +3,7 @@ import json
 import os
 
 FORMAT = "obenseuer-rus/1"
-FIELD_ORDER = ["id", "kind", "table", "key", "conv", "entry", "source", "target", "status", "context", "note"]
+FIELD_ORDER = ["id", "kind", "scope", "table", "key", "conv", "entry", "source", "target", "status", "context", "note"]
 
 
 def load(path):
@@ -54,6 +54,9 @@ def merge(new_entries, old):
         e["status"] = prev.get("status", "todo")
         if prev.get("note"):
             e["note"] = prev["note"]
+        # scope, заданный вручную (например, перевод одного объекта), переживает повторное извлечение.
+        if prev.get("scope") and not e.get("scope"):
+            e["scope"] = prev["scope"]
         if prev.get("source") != e["source"] and e["target"]:
             e["status"] = "review"
             e["note"] = "оригинал изменился, был: " + prev.get("source", "")

@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.6")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.7")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
@@ -36,8 +36,10 @@ namespace ObenseuerRUS
             isEnabled = Config.Bind("General", "Enabled", true, "Включить русский перевод.");
             ui = Config.Bind("General", "TranslateInterface", true, "Переводить интерфейс, предметы, задания, записки.");
             dialogue = Config.Bind("General", "TranslateDialogue", true, "Переводить диалоги.");
-            people = Config.Bind("General", "TranslatePeopleNames", false, "Писать кириллицей имена людей (например, Арво Киркастая).");
-            brands = Config.Bind("General", "TranslateBrandNames", false, "Писать кириллицей названия брендов, заведений, организаций и мест (например, Осмо Олут, Сталбург).");
+            // Ключи новые (были TranslatePeopleNames/TranslateBrandNames со значением false по умолчанию): у обновившихся
+            // в конфиге записано старое false, которое никто не выбирал, а теперь кириллица включена по умолчанию.
+            people = Config.Bind("General", "CyrillicPeopleNames", true, "Писать кириллицей имена людей (например, Арво Киркастая).");
+            brands = Config.Bind("General", "CyrillicBrandNames", true, "Писать кириллицей названия брендов, заведений, организаций и мест (например, Осмо Олут, Сталбург).");
             logMissing = Config.Bind("Debug", "LogUntranslated", false, "Записывать строки интерфейса, где остался английский текст (целиком или частично), в untranslated.txt в папке мода.");
             toggleKey = Mod.Key("ToggleLanguage", "Русский / английский", KeyCode.F9);
             LoadCatalog();
@@ -124,7 +126,7 @@ namespace ObenseuerRUS
         {
             AssemblyInformationalVersionAttribute version = (AssemblyInformationalVersionAttribute)Attribute.GetCustomAttribute(
                 typeof(RusMod).Assembly, typeof(AssemblyInformationalVersionAttribute));
-            modVersion = version == null ? "0.4.6" : version.InformationalVersion.Split('+')[0];
+            modVersion = version == null ? "0.4.7" : version.InformationalVersion.Split('+')[0];
             updater = new GitHubUpdater(folder, modVersion);
             updater.Start();
         }
@@ -154,7 +156,7 @@ namespace ObenseuerRUS
             translator = new TextTranslator(catalog);
             translator.Missed = OnMissed;
             RusPreprocessor.Translator = translator;
-            LuaFunctions.Translator = new TextTranslator(catalog, forLua: true);
+            LuaFunctions.Translator = translator;
         }
 
         private void ApplySettings()

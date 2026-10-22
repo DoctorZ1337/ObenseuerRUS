@@ -23,8 +23,8 @@ namespace ObenseuerRUS.Core
         // Строка управления: "C)DRAG & DROP   R)DROP   Tab)EXIT" — подсказки разделены несколькими пробелами.
         private static readonly Regex Gap = new Regex("( {2,})", RegexOptions.CultureInvariant);
         private static readonly Regex KeyHint = new Regex(@"^([^()\s]{1,16})\)(\S.*)$", RegexOptions.CultureInvariant);
-        // "Grow turnips for Jomppe 0/10" — ObjectiveUI дописывает счётчик к названию цели.
-        private static readonly Regex Counter = new Regex(@"^(\S.*\S) (\d+/\d+)$", RegexOptions.CultureInvariant);
+        // "Grow turnips for Jomppe 0/10" — ObjectiveUI дописывает счётчик к названию цели; "Cucumber Seeds (5)" — CollectibleItem число предметов.
+        private static readonly Regex Counter = new Regex(@"^(\S.*\S) (\d+/\d+|\(\d+\))$", RegexOptions.CultureInvariant);
         // Для журнала непереведённого: слово из двух и более латинских букв (коды вроде "OC" тоже попадут — журнал отладочный).
         private static readonly Regex LatinWord = new Regex("[A-Za-z]{2,}", RegexOptions.CultureInvariant);
         private const string TrailingPunctuation = "!?.:…";
@@ -45,7 +45,10 @@ namespace ObenseuerRUS.Core
         }
 
         private readonly Catalog catalog;
-        private readonly List<Template> templates;
+        private readonly Dictionary<string, List<Template>> scopeTemplates = new Dictionary<string, List<Template>>(StringComparer.Ordinal);
+        // Scope текущего вызова Translate: свои строки (или null) и шаблоны (свои, затем общие).
+        private Dictionary<string, string> scoped;
+        private List<Template> templates;
         private readonly Dictionary<string, string> cache = new Dictionary<string, string>(StringComparer.Ordinal);
         // Части одной строки переводятся много раз (каждый шаблон пробует свои), поэтому внутри Translate они запоминаются.
         private readonly Dictionary<string, Result> memo = new Dictionary<string, Result>(StringComparer.Ordinal);
@@ -56,22 +59,27 @@ namespace ObenseuerRUS.Core
         /// <summary>Кириллица для имён и названий поверх перевода; null — имена как в игре. После замены нужен ClearCache.</summary>
         public ProperNames Names;
 
-        /// <param name="forLua">true — для значений Lua-вставок диалогов: сначала шаблоны со scope "lua", затем общие.</param>
-        public TextTranslator(Catalog catalog, bool forLua = false)
+        public TextTranslator(Catalog catalog)
         {
             this.catalog = catalog;
             catalog.SortTemplates();
-            templates = forLua ? new List<Template>(catalog.LuaTemplates) : catalog.Templates;
-            if (forLua) templates.AddRange(catalog.Templates);
+            templates = catalog.Templates;
         }
 
         public void ClearCache() => cache.Clear();
 
-        public string Translate(string text)
+        /// <summary>Есть ли в каталоге строки или шаблоны с таким scope.</summary>
+        public bool HasScope(string scope) => catalog.ScopedExact.ContainsKey(scope) || catalog.ScopedTemplates.ContainsKey(scope);
+
+        public string Translate(string text) => Translate(text, null);
+
+        /// <param name="scope">null — общий перевод; иначе сначала строки и шаблоны этого scope (см. Entry.Scope), затем общие.</param>
+        public string Translate(string text, string scope)
         {
             if (string.IsNullOrEmpty(text) || !HasLatinLetter(text)) return text;
-            string result;
-            if (cache.TryGetValue(text, out result)) return result;
+            string result, key = scope == null ? text : scope + "\u0002" + text;
+            if (cache.TryGetValue(key, out result)) return result;
+            UseScope(scope);
             Result r;
             try
             {
@@ -84,9 +92,29 @@ namespace ObenseuerRUS.Core
             result = r?.Text ?? text;
             if (Names != null) result = Names.Apply(result);
             if (cache.Count >= CacheLimit) cache.Clear();
-            cache[text] = result;
+            cache[key] = result;
             if ((r == null || r.Misses > 0) && Missed != null && LatinWord.IsMatch(Tag.Replace(result, " "))) Missed(text);
             return result;
+        }
+
+        private void UseScope(string scope)
+        {
+            scoped = null;
+            templates = catalog.Templates;
+            if (scope == null) return;
+            catalog.ScopedExact.TryGetValue(scope, out scoped);
+            List<Template> own;
+            if (!catalog.ScopedTemplates.TryGetValue(scope, out own)) return;
+            if (!scopeTemplates.TryGetValue(scope, out templates))
+            {
+                scopeTemplates[scope] = templates = new List<Template>(own);
+                templates.AddRange(catalog.Templates);
+            }
+        }
+
+        private bool Lookup(string text, out string translation)
+        {
+            return (scoped != null && scoped.TryGetValue(text, out translation)) || catalog.Exact.TryGetValue(text, out translation);
         }
 
         /// <summary>Перевод или null, если не переведено ничего.</summary>
@@ -105,18 +133,30 @@ namespace ObenseuerRUS.Core
         private Result Whole(string text, int depth)
         {
             string t;
-            if (catalog.Exact.TryGetValue(text, out t)) return new Result(t, 0, 0);
+            if (Lookup(text, out t)) return new Result(t, 0, 0);
             int start = 0, end = text.Length;
             while (start < end && IsEdge(text[start])) start++;
             while (end > start && IsEdge(text[end - 1])) end--;
             if (start == end) return null;
             string core = text.Substring(start, end - start);
             string lead = text.Substring(0, start), trail = text.Substring(end);
-            if (core.Length != text.Length && catalog.Exact.TryGetValue(core, out t)) return new Result(lead + t + trail, 0, 0);
+            if (core.Length != text.Length && Lookup(core, out t)) return new Result(lead + t + trail, 0, 0);
+            // Игра часто делает ToLower() ("shabby", "crude"): сначала то же слово с заглавной буквы, а не любой регистр
+            // (иначе "sun" находит "SUN" — воскресенье в часах).
+            if (char.IsLower(core[0]) && Lookup(char.ToUpperInvariant(core[0]) + core.Substring(1), out t)) return new Result(lead + MatchCase(core, t) + trail, 0, 0);
             if (catalog.ExactIgnoreCase.TryGetValue(core, out t)) return new Result(lead + MatchCase(core, t) + trail, 0, 0);
-            if (depth >= MaxDepth || core.Length > MaxTemplateText) return null;
             // Подходящих шаблонов бывает несколько ("Tenement {0}" и "{0} (Empty)" для "Tenement resources (Empty)").
             // Лучший — без непереведённых частей и с наименьшим числом вложенных шаблонов.
+            Result best = null;
+            if (depth < MaxDepth && core.Length <= MaxTemplateText) best = FromTemplates(core, lead, trail, depth);
+            if (best != null && best.Misses == 0) return best;
+            // Строка многострочной записи — после шаблонов: "Integrity: {0}" важнее строки "Integrity: 100%" из макета окна.
+            if (catalog.Lines.TryGetValue(core, out t)) return new Result(lead + t + trail, 0, 0);
+            return best;
+        }
+
+        private Result FromTemplates(string core, string lead, string trail, int depth)
+        {
             Result best = null;
             foreach (Template template in templates)
             {

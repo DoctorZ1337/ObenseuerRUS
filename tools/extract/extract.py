@@ -107,21 +107,62 @@ def extract_items(game):
     with open(path, encoding="utf-8-sig") as f:
         items = json.load(f)
     out, seen = [], {}
+
+    def add(eid, value, context, scope=None, ref=""):
+        if not LETTERS.search(value):
+            return
+        key = (scope, value)
+        if key in seen:
+            if ref:
+                seen[key]["context"] += "; " + ref
+            return
+        e = {"id": eid, "kind": "text", "source": value, "target": "", "status": "todo", "context": context}
+        if scope:
+            e["scope"] = scope
+        seen[key] = e
+        out.append(e)
+
     for it in items:
         cats = ", ".join(it.get("Categories") or [])
-        for part, value in (("title", it.get("Title") or ""), ("desc", it.get("Description") or "")):
-            value_key = value
-            if not LETTERS.search(value):
-                continue
-            if value_key in seen:
-                seen[value_key]["context"] += "; #%d" % it["ID"]
-                continue
-            e = {"id": "item/%d/%s" % (it["ID"], part), "kind": "text", "source": value, "target": "", "status": "todo",
-                 "context": ("Название предмета #%d" if part == "title" else "Описание предмета #%d") % it["ID"]
-                 + (" (%s)" % cats if cats else "") + (" | название: " + it["Title"] if part == "desc" else "")}
-            seen[value_key] = e
-            out.append(e)
+        ref = "#%d" % it["ID"]
+        add("item/%d/title" % it["ID"], it.get("Title") or "", "Название предмета %s" % ref + (" (%s)" % cats if cats else ""), ref=ref)
+        add("item/%d/desc" % it["ID"], it.get("Description") or "",
+            "Описание предмета %s" % ref + (" (%s)" % cats if cats else "") + " | название: " + (it.get("Title") or ""), ref=ref)
+        # Вариант внешнего вида (обои, флажки): Item.GetItemTitle показывает его вместо названия.
+        for i, skin in enumerate((it.get("Appearance") or {}).get("SkinNames") or []):
+            add("item/%d/skin/%d" % (it["ID"], i), skin, "Вариант внешнего вида предмета %s | название: %s" % (ref, it.get("Title") or ""), ref=ref)
+        for a in it.get("Actions") or []:
+            # Глагол на кнопке окна предмета и в подсказке "(Hold - Drink)"; scope action — "Drink" здесь не тип "Напиток".
+            add("item/action/" + (a.get("Name") or ""), a.get("Name") or "",
+                "Действие предмета: кнопка окна предмета (ItemInfoPanel) и подсказка «(Hold - …)» (CollectibleItem) | " + ref,
+                scope="action", ref=ref)
+            add("item/no-required/" + (a.get("NoRequiredItems") or ""), a.get("NoRequiredItems") or "",
+                "Кнопка окна предмета, когда для действия нет нужного предмета (NoRequiredItems) | " + ref, ref=ref)
+    # "Accepts: Gasmask Filter" (ToolTip.AmmoDataToString) — имя ссылки на предмет, а не его название;
+    # отдельным проходом, чтобы совпадающие с названиями предметов уже были записаны выше.
+    for it in items:
+        for m in it.get("Meta") or []:
+            refs = m.get("ammoItems")
+            refs = refs.get("$content") if isinstance(refs, dict) else refs
+            for r in refs or []:
+                add("item/accepts/" + (r.get("name") or ""), r.get("name") or "",
+                    "Подсказка предмета: «Accepts: …» (ToolTip.AmmoDataToString) | #%d" % it["ID"])
+    # Названия рецептов на кнопках станков (CraftingBase). Совпадающие с названием предмета уже есть выше.
+    path = os.path.join(game, "Obenseuer_Data", "StreamingAssets", "Recipes.json")
+    with open(path, encoding="utf-16") as f:
+        recipes = json.load(f)["Recipes"]
+    titles = {e["source"].strip().lower() for e in out}
+    for r in recipes:
+        name = r.get("Name") or ""
+        if name.strip().lower() in titles:
+            continue
+        add("recipe/" + ui_id(name), name, "Название рецепта (кнопка станка), тип %s, навык %s" % (r.get("Type"), r.get("RelevantSkill")))
     return {"items": out}
+
+
+def ui_id(value):
+    import ui_rules
+    return ui_rules.stable_id(value)
 
 
 def extract_ui(scan_path):
@@ -150,7 +191,7 @@ def dedupe_dir():
         path = os.path.join(OUT, name + ".json")
         if os.path.exists(path):
             for e in catalog_io.load(path).values():
-                if e["kind"] in ("text", "table") and e.get("target"):
+                if e["kind"] in ("text", "table") and e.get("target") and not e.get("scope"):
                     seen.setdefault(e["source"], name)
     for name in PRIORITY:
         path = os.path.join(OUT, name + ".json")
@@ -160,6 +201,10 @@ def dedupe_dir():
             data = json.load(f)
         kept, dropped = [], 0
         for e in data["entries"]:
+            # Строка со scope нужна именно потому, что общий перевод того же текста здесь не подходит.
+            if e.get("scope"):
+                kept.append(e)
+                continue
             if e["kind"] == "text" and e["source"] in seen and not e.get("target"):
                 dropped += 1
                 continue
