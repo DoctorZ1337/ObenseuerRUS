@@ -108,17 +108,6 @@ powershell -ExecutionPolicy Bypass -File tools\build.ps1
 Используется уже установленный `deps\ObenseuerCore\ObenseuerCore.dll`; если его нет, сначала выполните `tools\fetch-deps.ps1`.
 Папку игры можно указать переменной `OBENSEUER_GAME_DIR`; иначе она ищется в стандартных местах Steam.
 
-Публикация на Nexus Mods автоматическая: когда на GitHub публикуется релиз (не пререлиз), `.github/workflows/nexus.yml` скачивает из него `ObenseuerRUS-<версия>.zip` и загружает его новой версией файла на странице мода через официальный [Nexus-Mods/upload-action](https://github.com/Nexus-Mods/upload-action). Описание релиза становится списком изменений этой версии на Nexus, прежняя версия файла уходит в архив. Upload API Nexus пока в бете и умеет только обновлять существующий файл: страницу мода и первый файл на ней создают вручную.
-Один раз задайте в репозитории секрет `NEXUS_API_KEY` (ключ со страницы [API Keys](https://www.nexusmods.com/settings/api-keys) на Nexus), переменную `NEXUS_MOD_URL` (ссылка на страницу мода) и `NEXUS_FILE_ID` (ID файла: вкладка **Files** → **Advanced** у файла мода):
-
-```
-gh secret set NEXUS_API_KEY --repo DoctorZ1337/ObenseuerRUS
-gh variable set NEXUS_MOD_URL --repo DoctorZ1337/ObenseuerRUS --body "https://www.nexusmods.com/<игра>/mods/<номер>"
-gh variable set NEXUS_FILE_ID --repo DoctorZ1337/ObenseuerRUS --body "<ID файла>"
-```
-
-Загрузить уже опубликованный релиз ещё раз (например, если загрузка упала): `gh workflow run nexus.yml --repo DoctorZ1337/ObenseuerRUS -f tag=v<версия>`.
-
 Файлы перевода — `translations\*.json`; словари необязательной кириллицы — `names-people.json` (kind `person`) и `names-brands.json` (kind `brand`). Отчёты проверки — `reports\` (`report.md`, `review.tsv` — строки на проверке, `untranslated.tsv` — непереведённые).
 
 Повторное извлечение строк из игры (только чтение файлов игры): `tools\extract\` — нужны пакеты из `tools\requirements.txt`.
