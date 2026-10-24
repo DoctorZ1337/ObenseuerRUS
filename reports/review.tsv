@@ -17,9 +17,9 @@ dialogue-unused.json	dlg/55/4	Hah! \,\, I have heard that so many times before,\
 names-brands.json	brand/Aziz's	Aziz's	Азиза	одиночное «Aziz's» встречается только в «Доставка от Aziz's»
 names-brands.json	brand/Aziz's Hamburger & Kebab	Aziz's Hamburger & Kebab	Гамбургер и кебаб у Азиза	см. Aziz's Kebab and Burger
 names-brands.json	brand/Aziz's Kebab and Burger	Aziz's Kebab and Burger	Кебаб и бургер у Азиза	притяжательное 's передано по-русски, а не транслитерацией
-names-brands.json	brand/Kauha's Claim	Kauha's Claim	Каухас-Клейм	участок Kauha (claim — горный участок); транслитерация, чтобы название не склонялось
-names-brands.json	brand/Kauha's claim	Kauha's claim	Каухас-Клейм	см. Kauha's Claim
-names-brands.json	brand/Kauha’s Claim	Kauha’s Claim	Каухас-Клейм	см. Kauha's Claim
+names-brands.json	brand/Kauha's Claim	Kauha's Claim	Участок Кауха	русское название (было: Каухас-Клейм)
+names-brands.json	brand/Kauha's claim	Kauha's claim	Участок Кауха	русское название (было: Каухас-Клейм)
+names-brands.json	brand/Kauha’s Claim	Kauha’s Claim	Участок Кауха	русское название (было: Каухас-Клейм)
 names-brands.json	brand/Penni-Pena's Loans	Penni-Pena's Loans	Займы у Пенни-Пены	см. Aziz's Kebab and Burger
 names-brands.json	brand/Sossu	Sossu	Соссу	финский сленг: соцслужба (sosiaalitoimisto)
 names-people.json	person/A-Rovo	A-Rovo	А-Рово	пьяный персонаж коверкает имя Arvo

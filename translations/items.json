@@ -1481,7 +1481,7 @@
     {"id": "item/17360/title", "kind": "text", "source": "Grape Mash", "target": "Виноградная брага", "status": "translated", "context": "Название предмета #17360 (Mash, Liquid)"},
     {"id": "item/17370/title", "kind": "text", "source": "Glowing Grape Mash", "target": "Светящаяся виноградная брага", "status": "translated", "context": "Название предмета #17370 (Mash, Liquid)"},
     {"id": "item/17380/title", "kind": "text", "source": "White Mask", "target": "Белая маска", "status": "translated", "context": "Название предмета #17380 (Face)"},
-    {"id": "item/17380/desc", "kind": "text", "source": "A mask worn by Stalburg Underground cultists", "target": "Маска, которую носят сектанты Stalburg Underground", "status": "translated", "context": "Описание предмета #17380 (Face) | название: White Mask"},
+    {"id": "item/17380/desc", "kind": "text", "source": "A mask worn by Stalburg Underground cultists", "target": "Маска, которую носят сектанты из группы Stalburg Underground", "status": "translated", "context": "Описание предмета #17380 (Face) | название: White Mask"},
     {"id": "item/17390/title", "kind": "text", "source": "Green Orbs", "target": "Зелёные шарики", "status": "translated", "context": "Название предмета #17390 (Food, Candy)"},
     {"id": "item/17390/desc", "kind": "text", "source": "A box of marmalade orbs", "target": "Коробка мармеладных шариков", "status": "translated", "context": "Описание предмета #17390 (Food, Candy) | название: Green Orbs"},
     {"id": "item/17400/title", "kind": "text", "source": "Green Orb Mash", "target": "Брага из зелёных шариков", "status": "translated", "context": "Название предмета #17400 (Mash, Liquid)"},

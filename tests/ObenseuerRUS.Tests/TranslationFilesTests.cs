@@ -102,7 +102,9 @@ namespace ObenseuerRUS.Tests
         [InlineData("SBB debit card delivery handling fee", "Сбор СББ за доставку дебетовой карты")]
         [InlineData("Fungispring LTD service hotline:\n030 892 951", "Горячая линия ООО «Фангиспринг»:\n030 892 951")]
         [InlineData("OC Pot", "КМ Пот")]
-        [InlineData("OS Power Company", "ОС Пауэр Компани")]
+        // Названия со смыслом переведены; родовое слово перед ними — в самой фразе перевода.
+        [InlineData("OS Power Company", "«Клоакэнерго»")]
+        [InlineData("One Stop Shop", "Магазин «Всё в одном»")]
         public void Real_names_are_written_in_cyrillic_when_enabled(string source, string expected)
         {
             Catalog catalog = Catalog.LoadDirectory(TranslationsDir());
