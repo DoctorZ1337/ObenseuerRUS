@@ -35,6 +35,32 @@ namespace ObenseuerRUS.Tests
         }
 
         [Fact]
+        public void Grammar_edits_after_game_update_keep_translation()
+        {
+            var tr = Make(Text("It's a rat meat", "Это крысиное мясо"), Text("Lock door", "Запереть дверь"),
+                          Text("It's a red box", "Это красная коробка"), Text("It's the red box", "Та самая красная коробка"),
+                          Text("Legend\n\nThere's everything in the World.", "Легенда\n\nТам есть всё на свете."));
+            Assert.Equal("Это крысиное мясо", tr.Translate("It's rat meat"));
+            Assert.Equal("It's cat meat", tr.Translate("It's cat meat"));
+            // Короткие подписи — только точно; разные переводы одного ключа — ни один.
+            Assert.Equal("Lock the door", tr.Translate("Lock the door"));
+            Assert.Equal("It's red box", tr.Translate("It's red box"));
+            Assert.Equal("Легенда\n\nТам есть всё на свете.", tr.Translate("Legend\n\nThere’s everything in the world"));
+            Assert.Equal("Легенда\n\nТам есть всё на свете!\n\nA brand new paragraph here.",
+                         tr.Translate("Legend\n\nThere's everything in the world!\n\nA brand new paragraph here."));
+        }
+
+        [Fact]
+        public void Same_text_ignores_only_grammar()
+        {
+            Assert.True(Catalog.SameText("It's a meat in metal can", "It's meat in a metal can."));
+            Assert.True(Catalog.SameText("Hey!\\, We don't serve 'running beers' \\,come back", "Hey!\\, We don't serve 'running beers'!\\, Come back"));
+            Assert.False(Catalog.SameText("A sandwich of mushrooms and sawdust", "A sandwich of meat and sawdust"));
+            Assert.False(Catalog.SameText("Okay.", "Okay!"));
+            Assert.False(Catalog.SameText(null, "Some longer text here"));
+        }
+
+        [Fact]
         public void Lowercase_text_prefers_capitalized_entry()
         {
             var tr = Make(Text("SUN", "ВС"), Text("Sun", "Солнце"), Text("Crude", "Грубый"));

@@ -4,12 +4,15 @@
   python -I tools/batches.py export dialogue-bazaar --words 3500
       -> build/batches/dialogue-bazaar-001.txt (+ .map.json)
   python -I tools/batches.py import build/batches/dialogue-bazaar-001.txt build/batches/dialogue-bazaar-001.ru.txt
+  python -I tools/batches.py export items --changed
+      -> строки, у которых после обновления игры изменился оригинал; под строкой — прежний оригинал и перевод
 
 Формат выгрузки:  N|говорящий|оригинал        (перевод строки в тексте показан как ¶)
 Формат перевода:  N|перевод                    -> status "translated"
                   N?|перевод|причина            -> status "review" с пометкой
                   N!|текст|пояснение            -> status "translated" с пояснением (например, имя без перевода)
                   N|=                           -> оставить как в оригинале (имена, таблички с фамилиями)
+                  N|~                           -> оставить нынешний перевод (правка оригинала смысла не меняет)
 Одинаковые строки одного говорящего внутри файла выгружаются один раз и получают один перевод.
 """
 import argparse
@@ -42,13 +45,22 @@ def speaker_of(e):
     return "P" if sp == "Player" else sp
 
 
-def export(name, words, statuses):
+def flat(text):
+    """Текст в одну строку пакета: \r иначе разрывает строку при чтении; в переводе достаточно \n."""
+    return text.replace("\r\n", "\n").replace("\r", "\n").replace("\n", NL)
+
+
+def is_changed(e):
+    return e.get("status") == "review" and (e.get("note") or "").startswith(catalog_io.CHANGED)
+
+
+def export(name, words, statuses, changed=False):
     path, data = read_catalog(name)
     os.makedirs(OUT, exist_ok=True)
     seen = {}
     batches, cur, cur_words, last_conv = [], [], 0, None
     for e in data["entries"]:
-        if e.get("status", "todo") not in statuses:
+        if not (is_changed(e) if changed else e.get("status", "todo") in statuses):
             continue
         sp = speaker_of(e) if e["kind"].startswith("dialogue") else ""
         key = (e["source"], sp, e["kind"])
@@ -80,8 +92,10 @@ def export(name, words, statuses):
             label = item["sp"] or ""
             if e["kind"] == "dialogue-menu":
                 label += " [ответ]"
-            # \r иначе разрывает строку пакета при чтении; в переводе достаточно \n.
-            lines.append("%d|%s|%s" % (n, label, e["source"].replace("\r\n", "\n").replace("\r", "\n").replace("\n", NL)))
+            lines.append("%d|%s|%s" % (n, label, flat(e["source"])))
+            if is_changed(e):
+                lines.append("#   было: " + flat(e["note"][len(catalog_io.CHANGED):]))
+                lines.append("#   перевод: " + flat(e["target"]))
             mapping[str(n)] = item["ids"]
         with open(base + ".txt", "w", encoding="utf-8", newline="\n") as f:
             f.write("\n".join(lines) + "\n")
@@ -126,6 +140,8 @@ def do_import(batch, translation):
         src = by_id[ids[0]]["source"]
         if target == "=":
             target = src
+        elif target == "~":
+            target = by_id[ids[0]]["target"]
         diff = markup.compare(src, target)
         if diff:
             problems.append("%s: разметка не совпадает: %s" % (num, diff))
@@ -159,12 +175,13 @@ def main():
     e.add_argument("catalog")
     e.add_argument("--words", type=int, default=3500)
     e.add_argument("--status", default="todo")
+    e.add_argument("--changed", action="store_true", help="строки, у которых изменился оригинал (вместо --status)")
     i = sub.add_parser("import")
     i.add_argument("batch")
     i.add_argument("translation")
     args = ap.parse_args()
     if args.cmd == "export":
-        export(args.catalog, args.words, set(args.status.split(",")))
+        export(args.catalog, args.words, set(args.status.split(",")), args.changed)
     else:
         sys.exit(0 if do_import(args.batch, args.translation) else 1)
 

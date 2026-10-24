@@ -228,7 +228,7 @@ def main():
                         "source": text, "target": "", "status": "todo",
                         "context": "; ".join(where[:3]) + (" (+%d)" % (len(where) - 3) if len(where) > 3 else "") + " | " + info["code"]})
     path = os.path.join(ROOT, "translations", "code.json")
-    stats = catalog_io.merge(entries, catalog_io.load(path))
+    stats = catalog_io.merge(entries, catalog_io.load(path), catalog_io.Pool(catalog_io.load_dir(os.path.dirname(path)).values()))
     catalog_io.write(path, "code", entries, "25969064")
     print("code.json: %d строк (сохранено %d, изменилось %d, новых %d)" % (len(entries), stats["kept"], stats["changed"], stats["new"]))
 

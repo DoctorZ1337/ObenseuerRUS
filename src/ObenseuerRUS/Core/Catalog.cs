@@ -59,6 +59,11 @@ namespace ObenseuerRUS.Core
         public readonly Dictionary<string, string> ExactIgnoreCase = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
         /// <summary>Отдельные строки многострочных записей; переводчик берёт их, только если не подошёл шаблон.</summary>
         public readonly Dictionary<string, string> Lines = new Dictionary<string, string>(StringComparer.Ordinal);
+        /// <summary>
+        /// Переводы по LooseKey — для строк, где игра поправила только грамматику: артикли, регистр, дефисы, знаки
+        /// ("It's a rat meat" -> "It's rat meat"). null — у ключа несколько разных переводов, такой ключ не используется.
+        /// </summary>
+        public readonly Dictionary<string, string> Loose = new Dictionary<string, string>(StringComparer.Ordinal);
         public readonly List<Template> Templates = new List<Template>();
         public readonly Dictionary<string, List<Template>> ScopedTemplates = new Dictionary<string, List<Template>>(StringComparer.Ordinal);
         public readonly Dictionary<string, Dictionary<string, string>> ScopedExact = new Dictionary<string, Dictionary<string, string>>(StringComparer.Ordinal);
@@ -70,6 +75,40 @@ namespace ObenseuerRUS.Core
         public int Used, Pending;
 
         public static long DialogueKey(int conv, int entry) => ((long)conv << 32) | (uint)entry;
+
+        /// <summary>
+        /// Слова текста в нижнем регистре без артиклей a/an/the, через пробел. null — меньше трёх слов:
+        /// короткие подписи сравниваются только точно, у них правка буквы может менять смысл.
+        /// </summary>
+        public static string LooseKey(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return null;
+            var sb = new StringBuilder(text.Length);
+            int words = 0, i = 0;
+            while (i < text.Length)
+            {
+                if (!char.IsLetterOrDigit(text[i]))
+                {
+                    i++;
+                    continue;
+                }
+                int start = i;
+                while (i < text.Length && char.IsLetterOrDigit(text[i])) i++;
+                string word = text.Substring(start, i - start).ToLowerInvariant();
+                if (word == "a" || word == "an" || word == "the") continue;
+                if (words++ > 0) sb.Append(' ');
+                sb.Append(word);
+            }
+            return words >= 3 ? sb.ToString() : null;
+        }
+
+        /// <summary>Тот же текст или тот же с правками только грамматики (см. LooseKey).</summary>
+        public static bool SameText(string a, string b)
+        {
+            if (a == b) return true;
+            string key = LooseKey(a);
+            return key != null && key == LooseKey(b);
+        }
 
         /// <summary>Перевод пригоден к применению: есть текст и статус не "todo".</summary>
         public static bool IsUsable(Entry e) => e != null && !string.IsNullOrEmpty(e.Target) && e.Status != "todo";
@@ -200,6 +239,7 @@ namespace ObenseuerRUS.Core
             string s = source.Trim(), t = target.Trim();
             if (s.Length > 0 && s != source) Put(s, t);
             if (s.Length > 1 && s.EndsWith(":", StringComparison.Ordinal) && t.EndsWith(":", StringComparison.Ordinal)) Put(s.TrimEnd(':').TrimEnd(), t.TrimEnd(':').TrimEnd());
+            PutLoose(s, t);
             // TaskPanel склеивает описание задания с описаниями целей через "\n\n", а переводчик делит такой текст по строкам,
             // поэтому строки многострочной записи нужны и по отдельности (если перевод разбит на строки так же).
             if (s.IndexOf('\n') < 0) return;
@@ -208,8 +248,19 @@ namespace ObenseuerRUS.Core
             for (int i = 0; i < sl.Length; i++)
             {
                 string ls = sl[i].Trim(), lt = tl[i].Trim();
-                if (ls.Length > 0 && lt.Length > 0 && !Lines.ContainsKey(ls)) Lines[ls] = lt;
+                if (ls.Length == 0 || lt.Length == 0) continue;
+                if (!Lines.ContainsKey(ls)) Lines[ls] = lt;
+                PutLoose(ls, lt);
             }
+        }
+
+        private void PutLoose(string source, string target)
+        {
+            string key = LooseKey(source);
+            if (key == null) return;
+            string known;
+            if (!Loose.TryGetValue(key, out known)) Loose[key] = target;
+            else if (known != null && known != target) Loose[key] = null;
         }
 
         private void Put(string source, string target)

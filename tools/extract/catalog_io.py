@@ -1,8 +1,12 @@
 """Чтение и запись translations/*.json (формат obenseuer-rus/1) с сохранением уже сделанных переводов."""
+import difflib
 import json
 import os
+import re
 
 FORMAT = "obenseuer-rus/1"
+# Пометка записи, у которой после обновления игры изменился оригинал (статус review): дальше идёт прежний оригинал.
+CHANGED = "оригинал изменился, был: "
 FIELD_ORDER = ["id", "kind", "scope", "table", "key", "conv", "entry", "source", "target", "status", "context", "note"]
 
 
@@ -42,11 +46,65 @@ def write(path, category, entries, game_build):
         f.write("\n".join(lines) + "\n")
 
 
-def merge(new_entries, old):
-    """Переносит target/status/note из старых записей. Если оригинал поменялся — статус review."""
+def norm(text):
+    """Текст без регистра, артиклей, дефисов и знаков: так выглядят правки грамматики в игре ("It's a rat meat" -> "It's rat meat")."""
+    s = re.sub(r"\b(a|an|the)\b", " ", (text or "").lower().replace("’", "'"))
+    return " ".join(re.sub(r"[\W_]+", " ", s).split())
+
+
+def same_meaning(a, b):
+    """Правка без смены слов, вопроса или восклицания: перевод остаётся верным."""
+    return norm(a) == norm(b) and sorted(re.findall(r"[!?]", a)) == sorted(re.findall(r"[!?]", b))
+
+
+def _group(kind):
+    return "template" if kind == "template" else "text"
+
+
+class Pool:
+    """
+    Переведённые строки интерфейса без scope — для новых записей, у которых нет старой записи с тем же id:
+    у ui/ и code/ id зависит от текста, поэтому правка текста в игре даёт новый id. Берётся строка с тем же текстом
+    без учёта грамматики, иначе самая похожая (от 90%).
+    """
+
+    def __init__(self, entries):
+        self.by_norm, self.items, self.sources = {}, [], set()
+        for e in entries:
+            if e.get("target") and e.get("status") != "todo" and not e.get("scope") and e.get("kind") in ("text", "table", "template"):
+                self.by_norm.setdefault((_group(e["kind"]), norm(e["source"])), e)
+                self.items.append(e)
+                self.sources.add(e["source"])
+
+    def find(self, e):
+        # Строка, уже переведённая слово в слово в другом файле, остаётся без перевода: её уберёт extract.dedupe_dir.
+        if e.get("kind") not in ("text", "template") or e.get("scope") or e["source"] in self.sources:
+            return None
+        hit = self.by_norm.get((_group(e["kind"]), norm(e["source"])))
+        if hit:
+            return hit
+        src, best, score = e["source"], None, 0.9
+        for c in self.items:
+            if _group(c["kind"]) != _group(e["kind"]) or abs(len(c["source"]) - len(src)) > len(src) // 5 + 5:
+                continue
+            m = difflib.SequenceMatcher(None, c["source"], src, autojunk=False)
+            if m.real_quick_ratio() >= score and m.quick_ratio() >= score and m.ratio() >= score:
+                best, score = c, m.ratio()
+        return best
+
+
+def merge(new_entries, old, pool=None):
+    """
+    Переносит target/status/note из старых записей (по id, иначе из pool по тексту).
+    Если оригинал поменялся — статус review; правка только грамматики (same_meaning) статус не меняет.
+    """
     stats = {"kept": 0, "changed": 0, "new": 0}
     for e in new_entries:
         prev = old.get(e["id"])
+        if prev is None and pool is not None:
+            prev = pool.find(e)
+            if prev is not None:
+                prev = {k: v for k, v in prev.items() if k != "scope"}
         if prev is None:
             stats["new"] += 1
             continue
@@ -57,9 +115,9 @@ def merge(new_entries, old):
         # scope, заданный вручную (например, перевод одного объекта), переживает повторное извлечение.
         if prev.get("scope") and not e.get("scope"):
             e["scope"] = prev["scope"]
-        if prev.get("source") != e["source"] and e["target"]:
+        if prev.get("source") != e["source"] and e["target"] and not same_meaning(prev.get("source"), e["source"]):
             e["status"] = "review"
-            e["note"] = "оригинал изменился, был: " + prev.get("source", "")
+            e["note"] = CHANGED + prev.get("source", "")
             stats["changed"] += 1
         else:
             stats["kept"] += 1

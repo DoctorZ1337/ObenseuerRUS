@@ -237,9 +237,10 @@ def main():
     if "ui" in parts and os.path.exists(args.scan):
         files.update(extract_ui(args.scan))
     os.makedirs(OUT, exist_ok=True)
+    pool = catalog_io.Pool(catalog_io.load_dir(OUT).values())
     for name, entries in sorted(files.items()):
         path = os.path.join(OUT, name + ".json")
-        stats = catalog_io.merge(entries, catalog_io.load(path))
+        stats = catalog_io.merge(entries, catalog_io.load(path), pool)
         catalog_io.write(path, name, entries, build)
         print("%-28s %6d строк  (сохранено переводов %d, изменилось %d, новых %d)" % (name, len(entries), stats["kept"], stats["changed"], stats["new"]))
     dedupe_dir()

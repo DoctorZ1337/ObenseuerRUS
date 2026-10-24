@@ -3,7 +3,7 @@
   "category": "tables",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "25969064",
+  "gameBuild": "26179069",
   "entries": [
     {"id": "table/Menu/Difficulty", "kind": "table", "table": "Menu", "key": "Difficulty", "source": "Difficulty", "target": "Сложность", "status": "translated", "context": "Unity Localization, таблица Menu, ключ Difficulty | fi: Vaikeustaso"},
     {"id": "table/Menu/Resume Game", "kind": "table", "table": "Menu", "key": "Resume Game", "source": "Resume Game", "target": "Продолжить", "status": "translated", "context": "Unity Localization, таблица Menu, ключ Resume Game | fi: Jatka peliä", "note": "сокращено: кнопка фиксированной ширины"},

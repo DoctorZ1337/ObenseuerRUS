@@ -8,7 +8,7 @@ namespace ObenseuerRUS.Core
     /// <summary>
     /// Переводит готовую строку интерфейса. Порядок: точное совпадение, совпадение без пробелов по краям,
     /// без учёта регистра, шаблоны, затем по частям (строки, участки между rich-text тегами, подсказки клавиш,
-    /// "(подпись)", "Имя: текст", счётчик "3/10", перечисление через запятую).
+    /// "(подпись)", "Имя: текст", счётчик "3/10", перечисление через запятую), последним — без учёта правок грамматики (Catalog.Loose).
     /// Шаблон принимается, только если все его части переведены; шаблону с английским началом ("Invoice - {0}")
     /// можно оставить короткие имена и названия как есть. Так шаблон "{0} and {1}" не превращает
     /// чужой абзац в смесь английского и русского.
@@ -28,6 +28,7 @@ namespace ObenseuerRUS.Core
         // Для журнала непереведённого: слово из двух и более латинских букв (коды вроде "OC" тоже попадут — журнал отладочный).
         private static readonly Regex LatinWord = new Regex("[A-Za-z]{2,}", RegexOptions.CultureInvariant);
         private const string TrailingPunctuation = "!?.:…";
+        private static readonly char[] TrailingChars = TrailingPunctuation.ToCharArray();
         private static readonly string[] ListSeparator = { ", " };
 
         /// <summary>Перевод части строки: Misses — сколько кусков с латиницей осталось без перевода, Uses — сколько применено шаблонов.</summary>
@@ -125,6 +126,7 @@ namespace ObenseuerRUS.Core
             if (memo.TryGetValue(key, out r)) return r;
             r = Whole(text, depth);
             if ((r == null || r.Misses > 0) && depth < MaxDepth) r = Better(r, Split(text, depth));
+            if (r == null || r.Misses > 0) r = Loose(text) ?? r;
             memo[key] = r;
             return r;
         }
@@ -153,6 +155,20 @@ namespace ObenseuerRUS.Core
             // Строка многострочной записи — после шаблонов: "Integrity: {0}" важнее строки "Integrity: 100%" из макета окна.
             if (catalog.Lines.TryGetValue(core, out t)) return new Result(lead + t + trail, 0, 0);
             return best;
+        }
+
+        /// <summary>
+        /// Та же строка с правками грамматики после обновления игры ("It's a rat meat" -> "It's rat meat").
+        /// Последний вариант: ключ не видит знаков, поэтому скобки, счётчики и "Имя: текст" сначала разбирает Split.
+        /// </summary>
+        private Result Loose(string text)
+        {
+            int start = 0, end = text.Length;
+            while (start < end && IsEdge(text[start])) start++;
+            while (end > start && IsEdge(text[end - 1])) end--;
+            string key = Catalog.LooseKey(text.Substring(start, end - start)), t;
+            if (key == null || !catalog.Loose.TryGetValue(key, out t) || t == null) return null;
+            return new Result(text.Substring(0, start) + t + text.Substring(end), 0, 0);
         }
 
         private Result FromTemplates(string core, string lead, string trail, int depth)
@@ -222,7 +238,10 @@ namespace ObenseuerRUS.Core
             while (stem > 0 && TrailingPunctuation.IndexOf(text[stem - 1]) >= 0) stem--;
             if (stem > 0 && stem < text.Length)
             {
-                if (Take(ref best, Wrap("", Core(text.Substring(0, stem), depth + 1), text.Substring(stem)))) return best;
+                // Знак игры заменяет знак в конце перевода, а не добавляется к нему: "...in the world!" -> "...на свете!", а не "свете.!".
+                Result inner = Core(text.Substring(0, stem), depth + 1);
+                if (inner != null) inner = new Result(inner.Text.TrimEnd(TrailingChars), inner.Misses, inner.Uses);
+                if (Take(ref best, Wrap("", inner, text.Substring(stem)))) return best;
             }
             Match counter = Counter.Match(text);
             if (counter.Success)

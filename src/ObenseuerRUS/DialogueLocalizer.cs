@@ -96,9 +96,10 @@ namespace ObenseuerRUS
                 {
                     DialogueLine line;
                     if (!catalog.Dialogue.TryGetValue(Catalog.DialogueKey(conversation.id, entry.id), out line)) continue;
+                    // Правка только грамматики в игре (артикли, регистр, знаки) перевод не отменяет: см. Catalog.SameText.
                     if (line.TextTarget != null)
                     {
-                        if (Field.LookupValue(entry.fields, "Dialogue Text") == line.TextSource)
+                        if (Catalog.SameText(Field.LookupValue(entry.fields, "Dialogue Text"), line.TextSource))
                         {
                             Field.SetValue(entry.fields, Language, line.TextTarget);
                             applied++;
@@ -107,7 +108,7 @@ namespace ObenseuerRUS
                     }
                     if (line.MenuTarget != null)
                     {
-                        if (Field.LookupValue(entry.fields, "Menu Text") == line.MenuSource)
+                        if (Catalog.SameText(Field.LookupValue(entry.fields, "Menu Text"), line.MenuSource))
                         {
                             Field.SetValue(entry.fields, "Menu Text " + Language, line.MenuTarget);
                             applied++;

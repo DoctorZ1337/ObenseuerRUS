@@ -123,7 +123,7 @@ RAW_TITLES = {
         "Camera in a Sales Package": "Фотоаппарат в упаковке", "Cameras": "Фотоаппараты", "Can Openers": "Консервные ножи",
         "Candles": "Свечи", "Canned Pea Soups": "Гороховый суп в банках", "Canned Peaches": "Персики в банках",
         "Canned Pineapples": "Ананасы в банках", "Canned Tomato Soups": "Томатный суп в банках",
-        "Canned Tuna": "Тунец в банках", "Canned meat": "Мясные консервы", "Canned sardines": "Сардины в банках",
+        "Canned Tuna": "Консервированный тунец", "Canned meat": "Мясные консервы", "Canned sardines": "Сардины в банках",
         "Canned vendaces": "Ряпушка в банках", "Cans of Pea Soup": "Банки горохового супа", "Cans of Peaches": "Банки персиков",
         "Cans of Tomato Soup": "Банки томатного супа", "Carl Fatler Chocolate Bars": "Шоколадки Carl Fatler",
         "Carl Fatler chocolate bar": "Шоколадка Carl Fatler", "Carrots": "Морковь", "Chocolate Bars": "Шоколадки",
@@ -146,7 +146,7 @@ RAW_TITLES = {
         "Hot Dog Weiner Pack": "Упаковка сосисок для хот-догов", "Hotdog Grill": "Гриль для хот-догов",
         "Hotdog buns": "Булочки для хот-догов", "Ice tea": "Холодный чай",
         "Industrial Fuses": "Промышленные предохранители", "Industrial fuse": "Промышленный предохранитель",
-        "Insulation Wool": "Изоляционная вата", "Jars": "Банки", "Jubilee Mocca Coffee bags": "Пачки кофе Jubilee Mocca",
+        "Insulation Wool": "Утеплитель", "Jars": "Банки", "Jubilee Mocca Coffee bags": "Пачки кофе Jubilee Mocca",
         "Juice Concentrate": "Концентрат сока", "Kitties Candy Bags": "Пакеты конфет Kitties",
         "Kitties candy bag": "Пакет конфет Kitties", "Laundry detergents": "Стиральный порошок",
         "Lies chip bags": "Пакеты чипсов Lies", "Lighters": "Зажигалки", "Macaroni bags": "Пачки макарон",
@@ -220,6 +220,14 @@ def entries():
         tpl("time/at/" + k, k + " at {0}", v + ", {0}", "Lua TellTimeResponse (варианты 0–1)")
         tpl("time/day/" + k, k + " {0}", v + ", {0}", "Lua TellTimeResponse (вариант 3); часы на экране")
         tpl("time/oclock/" + k, "It's {0} o'clock at " + k.lower(), "Сейчас {0} ч, " + v.lower(), "Lua TellTimeResponse (вариант 2)", "lua")
+    # ShowTime.DayOfWeek: часы без дня недели ("Time: 12:25" в углу экрана).
+    tpl("time/hud", "Time: {0}", "Время: {0}", "ShowTime: часы на экране без дня недели")
+    # QuickSlotBar (0.5.13): подсказка под панелью выбора (семена при посадке): "(E to plant)", "(Scroll to change)".
+    for k, v in (("plant", "посадить"), ("select", "выбрать")):
+        tpl("quickslot/" + k, "({0} to " + k + ")", "({0} — " + v + ")", "QuickSlotBar: клавиша и действие")
+    text("quickslot/scroll", "(Scroll to change)", "(Колесо мыши — сменить)", "QuickSlotBar: смена варианта")
+    text("quickslot/dpad", "(D-Pad to change)", "(Крестовина — сменить)", "QuickSlotBar: смена варианта на геймпаде")
+    tpl("quickslot/skill", "(Skill: {0} {1})", "(Навык: {0} {1})", "QuickSlotBar: для семян нужен навык (Growing)")
     tpl("time/clock", "Clock is {0}", "На часах {0}", "Lua TellTimeResponse (варианты 4–5)", "lua")
     tpl("time/now", "Now it's {0}", "Сейчас {0}", "Lua TellTimeResponse (варианты 6–7)", "lua")
     # Без scope: то же "3h" показывает окно предмета (ItemInfoPanel: время чтения, топливо).
