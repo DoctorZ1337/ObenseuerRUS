@@ -290,6 +290,13 @@ def entries():
            "Окно предмета: круглая кнопка Drop (Info Panel/.../Buttons/Drop button)")
     # Подсказка UseText на лестнице "(Drop)"; у UseText scope action (см. TmpLocalizer).
     scoped("action/ladder-drop", "action", "Drop", "Спрыгнуть", "InteractableLadder: UseText \"(Drop)\" — слезть с лестницы")
+    # Игровой автомат: кнопки фиксации барабана (заголовок "Lock") подписаны именем SlotMachineHelper.LockStatuses;
+    # в общем словаре "Left"/"Right" — направления управления («Влево»).
+    for k, v in {"Left": "Левый барабан", "Center": "Центральный барабан", "Right": "Правый барабан"}.items():
+        scoped("action/slot-lock/" + k, "action", k, v, "SlotMachineGameplay: подсказка кнопки фиксации барабана")
+        scoped("action/slot-locked/" + k, "action", k + " locked", v + " зафиксирован", "SlotMachineGameplay: барабан зафиксирован")
+    # Заголовок этих кнопок — "Lock"; в общем словаре это глагол для дверей «Запереть». У заголовка UseText scope usetitle.
+    scoped("usetitle/slot-lock", "usetitle", "Lock", "Фиксация", "SlotMachineGameplay: заголовок кнопки фиксации барабана (UseText)")
     tpl("modifier/efficiency", "Efficiency: {0}%", "Эффективность: {0}%", "ModifierUI.UpdateQualityModifierInfo")
     text("modifier/efficiency-details", "Affects working speed, output quality and fuel economy",
          "Влияет на скорость работы, качество продукции и расход топлива", "ModifierUI.UpdateQualityModifierInfo")

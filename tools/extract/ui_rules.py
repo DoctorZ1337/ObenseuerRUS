@@ -15,6 +15,8 @@ VISIBLE_LEAVES = {
     # Furniture.Details (окно мебели), TaskItem.itemDetails (предметы заданий), ToolTipInfo, InteractableItemGiver,
     # названия писем и счетов (заголовок предмета "Mail ...", "Invoice - ...").
     "details", "itemDetails", "toolTipInfoTitle", "toolTipInfoDetails", "outofItemsMessage", "mailName", "invoiceTitle",
+    # Button: подсказка нажатой и отжатой кнопки, сообщение без нужного предмета.
+    "pressMessage", "unpressMessage", "noRequiredItemsText",
 }
 # Классы, у которых эти поля служебные или содержат имена людей.
 SKIP_CLASSES = {

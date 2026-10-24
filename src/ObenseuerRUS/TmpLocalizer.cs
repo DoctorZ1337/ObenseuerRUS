@@ -75,6 +75,8 @@ namespace ObenseuerRUS
     internal static class TmpLocalizer
     {
         public const string ActionScope = "action";
+        // Заголовок объекта в подсказке взаимодействия: "Lock" у кнопки автомата — «Фиксация», а не глагол «Запереть».
+        public const string UseTitleScope = "usetitle";
         private static readonly Dictionary<int, KeyValuePair<string, string>> legacyOriginals = new Dictionary<int, KeyValuePair<string, string>>();
 
         public static bool Install(CoreMod mod)
@@ -94,9 +96,10 @@ namespace ObenseuerRUS
             Attach(__instance);
         }
 
-        private static void AfterUseTextAwake(UseText __instance)
+        private static void AfterUseTextAwake(UseText __instance, TextMeshProUGUI ___objectName)
         {
             UseScope(__instance.useText, ActionScope);
+            UseScope(___objectName, UseTitleScope);
         }
 
         private static void AfterItemButtons(TextMeshProUGUI buttonText, TextMeshProUGUI cantUseButtonText)

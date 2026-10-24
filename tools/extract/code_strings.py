@@ -32,7 +32,8 @@ SINKS = [
     re.compile(r"CreateNotification\((?P<e>.+)\);\s*$"),
     re.compile(r"ShowWarningText(?:Timed)?\((?P<e>.+)\);\s*$"),
     re.compile(r"ShowNotification\((?P<e>.+)\);\s*$"),
-    re.compile(r"\b(?:useMessage|UseMessage|title|objectName|noRequiredItemsText|cantUseText)\s*=\s*(?P<e>.+);\s*$"),
+    # Поля с префиксом тоже: _winningLineUseMessage = "selected 1: center" (SlotMachineGameplay).
+    re.compile(r"\b(?:\w*[uU]seMessage|title|objectName|noRequiredItemsText|cantUseText)\s*=\s*(?P<e>.+);\s*$"),
     re.compile(r"\b(?:AddText|AddList|HintContent|ShowLine|ShowHint|SetHint|ShowTutorialButton)\((?P<e>.+)\)"),
     # Локальные переменные, из которых потом собирается текст окна или подсказки (PlayerStatsToolTipInfo и т.п.).
     re.compile(r"^\s*(?:string\s+)?(?:title|details|description|message|msg|info|label|tooltip|header|"

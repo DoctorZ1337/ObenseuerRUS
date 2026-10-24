@@ -19,7 +19,7 @@ namespace ObenseuerRUS.Core
         [JsonProperty("context")] public string Context;
         [JsonProperty("note")] public string Note;
         // Где действует строка или шаблон (иначе — везде): "lua" — значения Lua-вставок диалогов (функция Tr),
-        // "action" — подписи действий предметов (кнопки окна предмета, подсказка UseText),
+        // "action" — подписи действий предметов (кнопки окна предмета, подсказка UseText), "usetitle" — заголовок объекта в UseText,
         // "object:<родитель>/<объект>" — текст одного объекта TextMeshPro. Сначала ищется перевод своего scope, затем общий.
         [JsonProperty("scope", NullValueHandling = NullValueHandling.Ignore)] public string Scope;
         [JsonProperty("table", NullValueHandling = NullValueHandling.Ignore)] public string Table;

@@ -96,8 +96,8 @@ def check(folder):
             errors.append("%s: пустой source" % where)
             continue
         scope = e.get("scope")
-        if scope is not None and (kind not in ("text", "template") or not (scope in ("lua", "action") or scope.startswith("object:"))):
-            errors.append("%s: scope %r не поддерживается (lua, action, object:<родитель>/<объект> — только у text и template)" % (where, scope))
+        if scope is not None and (kind not in ("text", "template") or not (scope in ("lua", "action", "usetitle") or scope.startswith("object:"))):
+            errors.append("%s: scope %r не поддерживается (lua, action, usetitle, object:<родитель>/<объект> — только у text и template)" % (where, scope))
         if kind == "table" and (not e.get("table") or e.get("key") is None):
             errors.append("%s: у table нет table/key" % where)
         if kind in ("dialogue", "dialogue-menu") and (not isinstance(e.get("conv"), int) or not isinstance(e.get("entry"), int)):

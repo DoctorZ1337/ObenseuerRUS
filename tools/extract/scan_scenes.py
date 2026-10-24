@@ -131,7 +131,8 @@ def scan_files(reader, files, out):
                             cn, asm = shared.get((os.path.basename(s.externals[fid - 1].path).lower(), spid), ("?", "?"))
                     except Exception:
                         continue
-                    if cn in SKIP_CLASSES or asm not in GAME_ASM:
+                    # Игровой Button (кнопки автомата, лифтов) — Interactable с подписями, а не одноимённая кнопка UnityEngine.UI.
+                    if (cn in SKIP_CLASSES and (cn, asm) != ("Button", "Assembly-CSharp")) or asm not in GAME_ASM:
                         continue
                     try:
                         tree = o.read_typetree()

@@ -121,6 +121,14 @@ namespace ObenseuerRUS.Tests
         [InlineData("action", "(Drop)", "(Спрыгнуть)")]
         [InlineData("action", "No light", "Нечем прикурить")]
         [InlineData("action", "Owned", "Собственность")]
+        // Игровой автомат: подсказки кнопок фиксации барабана и выигрышной линии.
+        [InlineData("action", "(Center)", "(Центральный барабан)")]
+        [InlineData("action", "(Left locked)", "(Левый барабан зафиксирован)")]
+        [InlineData("action", "(selected 1: center)", "(выбрана 1: центр)")]
+        [InlineData("action", "(Money in machine: 120)", "(Денег в автомате: 120)")]
+        [InlineData("usetitle", "Lock", "Фиксация")]
+        [InlineData("usetitle", "Winning Line: Center", "Выигрышная линия: центр")]
+        [InlineData(null, "Lock", "Запереть")]
         // Строки одного объекта: половинки заставки интро и круглая кнопка; вывеска "OPEN" остаётся «ОТКРЫТО».
         [InlineData("object:Text Screen/OPEN", "OPEN", "ОТКРЫТАЯ")]
         [InlineData("object:Text Screen/SEWER", "SEWER", "      КЛОАКА")]
