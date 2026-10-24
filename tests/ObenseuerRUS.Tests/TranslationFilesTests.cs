@@ -119,6 +119,8 @@ namespace ObenseuerRUS.Tests
         [InlineData("action", "Break", "Разбить")]
         [InlineData("action", "(Hold - Drink)", "(Удерживать — Выпить)")]
         [InlineData("action", "(Drop)", "(Спрыгнуть)")]
+        [InlineData("action", "(Get off)", "(Слезть)")]
+        [InlineData("action", "(Get off (Level 2))", "(Слезть (уровень 2))")]
         [InlineData("action", "No light", "Нечем прикурить")]
         [InlineData("action", "Owned", "Собственность")]
         // Игровой автомат: подсказки кнопок фиксации барабана и выигрышной линии.

@@ -37,7 +37,7 @@ SINKS = [
     re.compile(r"\b(?:AddText|AddList|HintContent|ShowLine|ShowHint|SetHint|ShowTutorialButton)\((?P<e>.+)\)"),
     # Локальные переменные, из которых потом собирается текст окна или подсказки (PlayerStatsToolTipInfo и т.п.).
     re.compile(r"^\s*(?:string\s+)?(?:title|details|description|message|msg|info|label|tooltip|header|"
-               r"unlockedMsg|lockedMsg|warning|hint|text\d*)\s*\+?=\s*(?P<e>.+);\s*$"),
+               r"unlockedMsg|lockedMsg|warning|hint|useText|text\d*)\s*\+?=\s*(?P<e>.+);\s*$"),
     # Подписи строки управления: KeyCodeInfoToString(text, "DRAG & DROP", ...).
     re.compile(r"KeyCodeInfoToString\(\s*\w+\s*,\s*(?P<e>\"[^\"]*\")"),
 ]
