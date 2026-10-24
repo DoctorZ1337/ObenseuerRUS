@@ -85,7 +85,7 @@
 Lockpicking — Взлом замков, Drinking — Выпивка, Cooking — Готовка, Mashing — Затирание, Brewing — Пивоварение,
 Distilling — Дистилляция, Farming — Фермерство, Malting — Соложение, Manufacturing — Производство,
 Paperwork — Бумажная работа, Chemistry — Химия, Carpentry — Плотничество, Machining — Станочное дело,
-Engineering — Инженерия, Bribery — Подкуп, Cleaning — Уборка, Sewing — Шитьё, Electronics — Электроника,
+Engineering — Инженерия, Bribery — Подкуп, Cleaning — Чистка, Sewing — Шитьё, Electronics — Электроника,
 Mining — Горное дело, Music — Музыка, Smithing — Кузнечное дело, Medical — Медицина, Computers — Компьютеры, Sauna — Сауна.
 Уведомление о повышении: «Навык «…» повышен до уровня N!» — название навыка в кавычках, чтобы не согласовывать род.
 

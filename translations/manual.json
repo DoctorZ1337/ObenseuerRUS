@@ -271,7 +271,7 @@
     {"id": "manual/skill/Machining", "kind": "text", "source": "Machining", "target": "Станочное дело", "status": "translated", "context": "PlayerStats.PlayerSkillType: название навыка"},
     {"id": "manual/skill/Engineering", "kind": "text", "source": "Engineering", "target": "Инженерия", "status": "translated", "context": "PlayerStats.PlayerSkillType: название навыка"},
     {"id": "manual/skill/Bribery", "kind": "text", "source": "Bribery", "target": "Подкуп", "status": "translated", "context": "PlayerStats.PlayerSkillType: название навыка"},
-    {"id": "manual/skill/Cleaning", "kind": "text", "source": "Cleaning", "target": "Уборка", "status": "translated", "context": "PlayerStats.PlayerSkillType: название навыка"},
+    {"id": "manual/skill/Cleaning", "kind": "text", "source": "Cleaning", "target": "Чистка", "status": "translated", "context": "PlayerStats.PlayerSkillType: название навыка"},
     {"id": "manual/skill/Sewing", "kind": "text", "source": "Sewing", "target": "Шитьё", "status": "translated", "context": "PlayerStats.PlayerSkillType: название навыка"},
     {"id": "manual/skill/Electronics", "kind": "text", "source": "Electronics", "target": "Электроника", "status": "translated", "context": "PlayerStats.PlayerSkillType: название навыка"},
     {"id": "manual/skill/Mining", "kind": "text", "source": "Mining", "target": "Горное дело", "status": "translated", "context": "PlayerStats.PlayerSkillType: название навыка"},

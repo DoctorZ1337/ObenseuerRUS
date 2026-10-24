@@ -1267,7 +1267,7 @@
     {"id": "item/15950/title", "kind": "text", "source": "Odd Teddy Bear", "target": "Странный плюшевый мишка", "status": "translated", "context": "Название предмета #15950 (Junk, Burnable, Special, Toy)"},
     {"id": "item/15950/desc", "kind": "text", "source": "Not quite ordinary teddy bear", "target": "Не совсем обычный плюшевый мишка", "status": "translated", "context": "Описание предмета #15950 (Junk, Burnable, Special, Toy) | название: Odd Teddy Bear"},
     {"id": "item/15960/title", "kind": "text", "source": "Plastic Recycle", "target": "Переработка пластика", "status": "translated", "context": "Название предмета #15960 (ItemGroup)"},
-    {"id": "item/15970/title", "kind": "text", "source": "Pure Water", "target": "Чистая вода", "status": "translated", "context": "Название предмета #15970 (Liquid, Water)"},
+    {"id": "item/15970/title", "kind": "text", "source": "Pure Water", "target": "Глубоко очищенная вода", "status": "translated", "context": "Название предмета #15970 (Liquid, Water)"},
     {"id": "item/15980/title", "kind": "text", "source": "Heavy Water", "target": "Тяжёлая вода", "status": "translated", "context": "Название предмета #15980 (Liquid, Water, SNW)"},
     {"id": "item/15990/title", "kind": "text", "source": "Crude Blueprint", "target": "Грубый чертёж", "status": "translated", "context": "Название предмета #15990 (Readable, Burnable)"},
     {"id": "item/15990/desc", "kind": "text", "source": "Crude drawing of a furniture", "target": "Грубый чертёж мебели", "status": "translated", "context": "Описание предмета #15990 (Readable, Burnable) | название: Crude Blueprint"},

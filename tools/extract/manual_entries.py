@@ -68,7 +68,7 @@ SKILLS = {"Lockpicking": "Взлом замков", "Drinking": "Выпивка"
           "Brewing": "Пивоварение", "Distilling": "Дистилляция", "Farming": "Фермерство", "Malting": "Соложение",
           "Manufacturing": "Производство", "Paperwork": "Бумажная работа", "Chemistry": "Химия",
           "Carpentry": "Плотничество", "Machining": "Станочное дело", "Engineering": "Инженерия", "Bribery": "Подкуп",
-          "Cleaning": "Уборка", "Sewing": "Шитьё", "Electronics": "Электроника", "Mining": "Горное дело",
+          "Cleaning": "Чистка", "Sewing": "Шитьё", "Electronics": "Электроника", "Mining": "Горное дело",
           "Music": "Музыка", "Smithing": "Кузнечное дело", "Medical": "Медицина", "Computers": "Компьютеры",
           "Sauna": "Сауна"}
 # Видимые названия из объектов, которые не читает UnityPy (build/raw_strings.json, tools/extract/scan_raw.py).
