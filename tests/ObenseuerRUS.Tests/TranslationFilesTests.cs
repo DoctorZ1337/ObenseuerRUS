@@ -25,7 +25,7 @@ namespace ObenseuerRUS.Tests
 
         [Theory]
         [InlineData("Taste: Good", "Вкус: хороший")]
-        [InlineData("Account: 250 OC", "Счёт: 250 OC")]
+        [InlineData("Account: 250 OC", "Счёт: 250 КМ")]
         [InlineData("BRICK", "КИРПИЧ")]
         [InlineData("Pod 18", "Капсула 18")]
         [InlineData("Tenement resources (Empty)", "Ресурсы доходного дома (пусто)")]
@@ -34,9 +34,9 @@ namespace ObenseuerRUS.Tests
         [InlineData("C)DRAG & DROP   R)DROP   Q)SWITCH TAB   X)USE ITEM   Tab)EXIT", "C)ПЕРЕТАЩИТЬ   R)ВЫБРОСИТЬ   Q)СМЕНИТЬ ВКЛАДКУ   X)ИСПОЛЬЗОВАТЬ   Tab)ВЫХОД")]
         [InlineData("You're very addicted to alcohol and nicotine.", "Сильная зависимость: алкоголь и никотин.")]
         // Строки со скриншотов 0.3.1, где перевод был частичным или отсутствовал.
-        [InlineData("Tenement Resource\nA sawed piece of wood\nEstimated value: 4 OC\n\nFuel for: 1h\n", "Ресурс доходного дома\nA sawed piece of wood\nПримерная стоимость: 4 OC\n\nТопливо на: 1 ч\n")]
+        [InlineData("Tenement Resource\nA sawed piece of wood\nEstimated value: 4 OC\n\nFuel for: 1h\n", "Ресурс доходного дома\nA sawed piece of wood\nПримерная стоимость: 4 КМ\n\nТопливо на: 1 ч\n")]
         [InlineData("Due in 6 days\n", "Срок через 6 дн.\n")]
-        [InlineData("Invoice - Blackmail Letter: 190 OC", "Счёт — Письмо с шантажом: 190 OC")]
+        [InlineData("Invoice - Blackmail Letter: 190 OC", "Счёт — Письмо с шантажом: 190 КМ")]
         [InlineData("Efficiency: 75%", "Эффективность: 75%")]
         [InlineData("Affects working speed, output quality and fuel economy", "Влияет на скорость работы, качество продукции и расход топлива")]
         [InlineData("Mattress — Aching, Unsafe", "Матрас — всё ломит, опасно")]
@@ -74,6 +74,16 @@ namespace ObenseuerRUS.Tests
         [InlineData("Alcohol addiction: +10\nMushroom addiction: +10\nFungal disease: +10\n", "Тяга к алкоголю: +10\nТяга к грибам: +10\nГрибковая болезнь: +10\n")]
         [InlineData("Fried glowing rat", "Жареная светящаяся крыса")]
         [InlineData("Drink", "Напиток")]
+        // Валюты: OC — КМ (клоачные монеты), RM — РД (реальные деньги); «OC Pot» — бренд, кириллицей он «КМ Пот» (словарь названий).
+        [InlineData("OC", "КМ")]
+        [InlineData("1 RM = 10 OC", "1 РД = 10 КМ")]
+        [InlineData("Invoice - Only Bans: 50 RM", "Счёт — Only Bans: 50 РД")]
+        [InlineData("OC Pot", "OC Pot")]
+        // Окно улучшения: узкое поле взноса и срок из кусочков (TenementUpgrade.GetTimeString).
+        [InlineData("First: 300 OC", "Аванс: 300 КМ")]
+        [InlineData("12 hours ", "12 ч ")]
+        [InlineData("2d 5h ", "2 дн. 5 ч ")]
+        [InlineData("Skip two hours", "Пропустить два часа")]
         // Часы на экране: те же шаблоны, что и у Lua TellTimeResponse.
         [InlineData("Wednesday 11:33", "Среда, 11:33")]
         public void Real_catalog_translates_game_strings(string source, string expected)
@@ -88,6 +98,11 @@ namespace ObenseuerRUS.Tests
         [InlineData("Osmo Olut", "Осмо Олут")]
         [InlineData("Mr. Duck", "Мистер Дак")]
         [InlineData("B1 Piggyhill", "B1 Пиггихилл")]
+        // Сокращения компаний — в словаре названий.
+        [InlineData("SBB debit card delivery handling fee", "Сбор СББ за доставку дебетовой карты")]
+        [InlineData("Fungispring LTD service hotline:\n030 892 951", "Горячая линия ООО «Фангиспринг»:\n030 892 951")]
+        [InlineData("OC Pot", "КМ Пот")]
+        [InlineData("OS Power Company", "ОС Пауэр Компани")]
         public void Real_names_are_written_in_cyrillic_when_enabled(string source, string expected)
         {
             Catalog catalog = Catalog.LoadDirectory(TranslationsDir());

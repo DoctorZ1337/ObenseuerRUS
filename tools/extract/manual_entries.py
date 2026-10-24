@@ -241,10 +241,10 @@ def entries():
     tpl("tooltip/liquid", "Contains: {0} {1}L/{2}L", "Содержит: {0} {1} л/{2} л", "ToolTip.LiquidDataToString")
     tpl("tooltip/package-ready", "Package {0} ready to be sent", "Посылка «{0}» готова к отправке", "ToolTip.MailableDataToString")
     tpl("tooltip/mail-ready", "Mail {0} ready to be sent", "Письмо «{0}» готово к отправке", "ToolTip.MailableDataToString")
-    tpl("tooltip/total-oc", "TOTAL {0} OC", "ИТОГО {0} OC", "ToolTip.ReceiptDataToString")
-    tpl("tooltip/total-rm", "TOTAL {0} RM", "ИТОГО {0} RM", "ToolTip.ReceiptDataToString")
+    tpl("tooltip/total-oc", "TOTAL {0} OC", "ИТОГО {0} КМ", "ToolTip.ReceiptDataToString")
+    tpl("tooltip/total-rm", "TOTAL {0} RM", "ИТОГО {0} РД", "ToolTip.ReceiptDataToString")
     tpl("tooltip/certificate", "Certificate for {0}", "Сертификат: {0}", "ToolTip.CertificateDataToString")
-    tpl("tooltip/certificate-value", "Certificate for {0} at nominal value of {1} OC", "Сертификат: {0}, номинал {1} OC",
+    tpl("tooltip/certificate-value", "Certificate for {0} at nominal value of {1} OC", "Сертификат: {0}, номинал {1} КМ",
         "ToolTip.CertificateDataToString")
     tpl("tooltip/connectivity", "{0} ,{1}", "{0}, {1}", "ToolTip.ConnectivityDataToString: сети через запятую без пробела")
     tpl("tooltip/required-skill", "Required skill: <b>{0} {1}</b>", "Нужный навык: <b>{0} {1}</b>", "ToolTip.Activate(TaskItem): чертёж")
@@ -274,6 +274,12 @@ def entries():
             "Вы заказали у {1} улучшение доходного дома: {0} — «%s»" % v, "TenementUpgradeProgress.AddGeneral: описание задачи ремонта")
         tpl("upgrade-task/apartment-ordered/" + k, "You ordered an apartment {0} %s {1} upgrade from {2}" % low,
             "Вы заказали у {2} улучшение квартиры {0}: {1} — «%s»" % v, "TenementUpgradeProgress.AddApartment: описание задачи ремонта")
+
+    # Срок улучшения (TenementUpgrade.GetTimeString, окно улучшения): "2 days ", "1 day ", "12 hours ", "2d 5h ".
+    # "{0} days" — общий шаблон из code.json; строки вида "Almost every day" переведены целиком и до шаблонов не доходят.
+    tpl("upgrade-time/hours", "{0} hours", "{0} ч", "TenementUpgrade.GetTimeString: срок улучшения")
+    tpl("upgrade-time/day", "{0} day", "{0} дн.", "TenementUpgrade.GetTimeString: срок улучшения")
+    tpl("upgrade-time/days-hours", "{0}d {1}h", "{0} дн. {1} ч", "TenementUpgrade.GetTimeString: срок улучшения")
 
     for k, v in TALK_TITLES.items():
         text("talk/" + k, k, v, "InteractableTalk.title или имя актёра диалога: подпись собеседника, не имя")

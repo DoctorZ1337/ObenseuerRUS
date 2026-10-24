@@ -45,7 +45,8 @@ SINKS = [
 KEY_LABEL = re.compile(r'"\)([A-Z][A-Za-z0-9 /&:.+\-]*?)\s*"')
 DESCRIPTION = re.compile(r'\[Description\("(?P<s>(?:[^"\\]|\\.)*)"\)\]')
 METHOD = re.compile(r"^\s*(?:public|private|protected|internal)\s+(?:static\s+|override\s+|virtual\s+)*string\s+(?P<n>\w+)\s*\(")
-UI_METHOD = re.compile(r"(Text|Title|Name|Message|Description|String|Label|Info|Status|Reason|Response|Tooltip|ToolTip|Hint|Unit)", re.I)
+# Locked: UpgradePanel.IsLocked возвращает причину ("Inferior upgrade", "Pay the final payment").
+UI_METHOD = re.compile(r"(Text|Title|Name|Message|Description|String|Label|Info|Status|Reason|Response|Tooltip|ToolTip|Hint|Unit|Locked)", re.I)
 RETURN = re.compile(r"^\s*return\s+(?P<e>.+);\s*$")
 CASE_RETURN = re.compile(r"=>\s*(?P<e>\$?\"(?:[^\"\\]|\\.)*\")\s*,?\s*$")
 STRING = re.compile(r'\$?@?"(?:[^"\\]|\\.)*"')

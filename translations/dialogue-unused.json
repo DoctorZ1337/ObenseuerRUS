@@ -61,7 +61,7 @@
       "conv": 31,
       "entry": 3,
       "source": "I'm worried about my mental state... (Pay 130 OC)",
-      "target": "Я беспокоюсь о своём психическом состоянии... (Заплатить 130 OC)",
+      "target": "Я беспокоюсь о своём психическом состоянии... (Заплатить 130 КМ)",
       "status": "translated",
       "context": "Unused/Doctor | Player"
     },
@@ -202,7 +202,7 @@
       "conv": 31,
       "entry": 17,
       "source": "Check me for the mushroom illness! (Pay 200 OC)",
-      "target": "Проверьте, не заболел ли я грибковой болезнью! (Заплатить 200 OC)",
+      "target": "Проверьте, не заболел ли я грибковой болезнью! (Заплатить 200 КМ)",
       "status": "translated",
       "context": "Unused/Doctor | Player"
     },
@@ -212,7 +212,7 @@
       "conv": 31,
       "entry": 18,
       "source": "I got hurt or something, please patch me up. (Pay 160 OC)",
-      "target": "Кажется, я ушибся. Перевяжите меня, пожалуйста. (Заплатить 160 OC)",
+      "target": "Кажется, я ушибся. Перевяжите меня, пожалуйста. (Заплатить 160 КМ)",
       "status": "translated",
       "context": "Unused/Doctor | Player"
     },
@@ -222,7 +222,7 @@
       "conv": 31,
       "entry": 19,
       "source": "Nothing too bad, just some bandage and painkillers will do. (Pay 100 OC)",
-      "target": "Ничего серьёзного, хватит бинта и обезболивающего. (Заплатить 100 OC)",
+      "target": "Ничего серьёзного, хватит бинта и обезболивающего. (Заплатить 100 КМ)",
       "status": "translated",
       "context": "Unused/Doctor | Player"
     },

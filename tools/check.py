@@ -137,7 +137,7 @@ def check(folder):
             warnings.append("%s: перевод строки в конце не совпадает" % where)
         if kind in NAME_KINDS:
             name_groups[src].add(kind)
-            # Аббревиатуры (OC, OS, LTD) остаются латиницей, остальное — кириллицей.
+            # Латиница допустима только заглавными буквами (технические сокращения, римские цифры), остальное — кириллицей.
             if re.search(r"[a-zà-ÿ]", tgt) or not CYR.search(tgt):
                 errors.append("%s: название должно быть кириллицей (латиница — только аббревиатуры): %r" % (where, tgt))
         if kind in ("text", "table"):
