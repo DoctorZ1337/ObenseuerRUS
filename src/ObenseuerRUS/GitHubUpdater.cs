@@ -14,20 +14,24 @@ using ObenseuerRUS.Core;
 
 namespace ObenseuerRUS
 {
-    /// <summary>Загружает и целиком устанавливает опубликованный пакет мода после выхода из игры.</summary>
+    /// <summary>Загружает и целиком устанавливает опубликованный пакет перевода после выхода из игры.</summary>
     internal sealed class GitHubUpdater
     {
         private const string ApiUrl = "https://api.github.com/repos/DoctorZ1337/ObenseuerRUS/releases/latest";
         private const string DownloadPrefix = "https://github.com/DoctorZ1337/ObenseuerRUS/releases/download/";
         private const string ReleasePrefix = "https://github.com/DoctorZ1337/ObenseuerRUS/releases/";
         private const string AssetPrefix = "BepInEx/plugins/ObenseuerRUS/";
+        private const string StagePrefix = "ObenseuerRUS-update-";
         private const int MaxArchiveBytes = 64 * 1024 * 1024;
-        private const string InstallerScript = @"
+        // Помощник установки: ждёт выхода из игры, копирует пакет с резервной копией заменяемых файлов,
+        // удаляет переводы, которых больше нет в пакете (иначе их загрузит Catalog), при ошибке всё возвращает.
+        internal const string InstallerScript = @"
 param([int]$GamePid, [string]$SourceDir, [string]$DestinationDir, [string]$BackupDir)
 $ErrorActionPreference = 'Stop'
 $errorFile = Join-Path $DestinationDir '.github-update-error'
 $created = @()
 $previous = @{}
+$failed = $false
 try {
     while (Get-Process -Id $GamePid -ErrorAction SilentlyContinue) { Start-Sleep -Seconds 2 }
     $sourceRoot = [IO.Path]::GetFullPath($SourceDir).TrimEnd('\') + '\'
@@ -41,33 +45,39 @@ try {
     foreach ($required in @('ObenseuerRUS.dll', 'README.md', 'translations/ui.json', 'fonts/ObenseuerTypewriterCyrillic.ttf', 'fonts/COPYING-FreeFont.txt', 'fonts/FONT-NOTICE.txt', 'fonts/make_cyrillic_font.py')) {
         if ($relativePaths -notcontains $required) { throw ""Не найден обязательный файл $required."" }
     }
+    $obsolete = @()
+    $translationsDir = Join-Path $DestinationDir 'translations'
+    if (Test-Path -LiteralPath $translationsDir) {
+        $obsolete = @(Get-ChildItem -LiteralPath $translationsDir -Filter '*.json' -File | Where-Object { $relativePaths -notcontains ('translations/' + $_.Name) })
+    }
     New-Item -ItemType Directory -Force -Path $BackupDir | Out-Null
-    foreach ($file in $files) {
-        $relative = $file.FullName.Substring($sourceRoot.Length).Replace('\', '/')
-        $target = Join-Path $DestinationDir ($relative.Replace('/', '\'))
+    $targets = @($files | ForEach-Object { Join-Path $DestinationDir $_.FullName.Substring($sourceRoot.Length) }) + @($obsolete | ForEach-Object { $_.FullName })
+    foreach ($target in $targets) {
         if (Test-Path -LiteralPath $target -PathType Leaf) {
-            $backup = Join-Path $BackupDir ($relative.Replace('/', '\'))
+            $backup = Join-Path $BackupDir ([IO.Path]::GetFullPath($target).Substring([IO.Path]::GetFullPath($DestinationDir).TrimEnd('\').Length + 1))
             New-Item -ItemType Directory -Force -Path (Split-Path -Parent $backup) | Out-Null
             Copy-Item -LiteralPath $target -Destination $backup -Force
             $previous[$target] = $backup
         } else { $created += $target }
     }
     foreach ($file in $files) {
-        $relative = $file.FullName.Substring($sourceRoot.Length).Replace('\', '/')
-        $target = Join-Path $DestinationDir ($relative.Replace('/', '\'))
+        $target = Join-Path $DestinationDir $file.FullName.Substring($sourceRoot.Length)
         New-Item -ItemType Directory -Force -Path (Split-Path -Parent $target) | Out-Null
         Copy-Item -LiteralPath $file.FullName -Destination $target -Force
     }
+    foreach ($file in $obsolete) { Remove-Item -LiteralPath $file.FullName -Force }
 } catch {
+    $failed = $true
     foreach ($target in $previous.Keys) { try { Copy-Item -LiteralPath $previous[$target] -Destination $target -Force } catch {} }
     foreach ($target in $created) { try { Remove-Item -LiteralPath $target -Force -ErrorAction SilentlyContinue } catch {} }
     try { Set-Content -LiteralPath $errorFile -Value $_.Exception.Message -Encoding UTF8 } catch {}
-    exit 1
 }
-Remove-Item -LiteralPath $BackupDir -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item -LiteralPath $SourceDir -Recurse -Force -ErrorAction SilentlyContinue
-Remove-Item -LiteralPath $errorFile -Force -ErrorAction SilentlyContinue
 Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
+if ($failed) { exit 1 }
+# Резервная копия нужна только при неудаче: если вернуть файлы не удалось, она остаётся во временной папке.
+Remove-Item -LiteralPath $BackupDir -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item -LiteralPath $errorFile -Force -ErrorAction SilentlyContinue
 ";
 
         private readonly string pluginFolder;
@@ -100,6 +110,7 @@ Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
 
         internal string TakeError() => Interlocked.Exchange(ref error, null);
 
+        // Сбой проверки (нет сети, лимит GitHub) и релиз без архива окно не показывают: игрок ничего не может с этим сделать.
         private void CheckForUpdate()
         {
             try
@@ -108,15 +119,14 @@ Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
                 if (release == null) return;
                 if (release.AssetUrl == null)
                 {
-                    notices.Enqueue("Найдена версия мода " + release.Version + ", но архив ObenseuerRUS-" + release.Version + ".zip ещё не приложен к GitHub-релизу.");
+                    Interlocked.Exchange(ref error, "автообновление перевода: у релиза " + release.Version + " нет архива ObenseuerRUS-" + release.Version + ".zip");
                     return;
                 }
                 availableUpdates.Enqueue(release);
             }
             catch (Exception e)
             {
-                Interlocked.Exchange(ref error, "проверка автообновления мода: " + e.Message);
-                notices.Enqueue("Не удалось проверить обновления мода. Проверьте подключение и журнал игры.");
+                Interlocked.Exchange(ref error, "проверка обновлений перевода: " + e.Message);
             }
         }
 
@@ -130,27 +140,42 @@ Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
                 VerifySha256(archive, release.Sha256);
                 Dictionary<string, byte[]> files = ReadPackageFiles(archive);
 
-                string pluginsDirectory = Directory.GetParent(pluginFolder).FullName;
-                string token = Guid.NewGuid().ToString("N");
-                stageDirectory = Path.Combine(pluginsDirectory, ".ObenseuerRUS-update-" + token);
-                scriptPath = Path.Combine(pluginsDirectory, ".ObenseuerRUS-update-" + token + ".ps1");
+                // Пакет и резервная копия — во временной папке: фреймворк загружает моды из всех DLL под BepInEx\plugins,
+                // и копия ObenseuerRUS.dll, оставшаяся там после сбоя, загрузилась бы вместо настоящей.
+                stageDirectory = Path.Combine(Path.GetTempPath(), StagePrefix + Guid.NewGuid().ToString("N"));
+                scriptPath = stageDirectory + ".ps1";
                 ExtractPackage(files, stageDirectory);
                 File.WriteAllText(scriptPath, InstallerScript, new UTF8Encoding(true));
                 StartInstaller(scriptPath, stageDirectory, pluginFolder);
-                stageDirectory = null; // Помощник установит и удалит staging после закрытия игры.
+                stageDirectory = null; // Помощник установит и удалит пакет после выхода из игры.
                 scriptPath = null;
-                notices.Enqueue("Полный мод " + release.Version + " скачан. Он установится после закрытия игры; затем запустите игру снова.");
+                notices.Enqueue("Перевод " + release.Version + " скачан и установится, когда вы выйдете из игры.");
             }
             catch (Exception e)
             {
-                Interlocked.Exchange(ref error, "автообновление мода: " + e.Message);
-                notices.Enqueue("Не удалось подготовить автообновление мода. Проверьте подключение и журнал игры.");
+                Interlocked.Exchange(ref error, "автообновление перевода: " + e.Message);
+                notices.Enqueue("Не удалось скачать перевод " + release.Version + ". Подробности — в журнале BepInEx.");
                 DeleteStage(stageDirectory);
                 DeleteFile(scriptPath);
             }
             finally
             {
                 Interlocked.Exchange(ref isDownloading, 0);
+            }
+        }
+
+        /// <summary>
+        /// Остатки обновлений до 0.4.9: пакет и резервная копия лежали в BepInEx\plugins\.ObenseuerRUS-update-*.
+        /// После сбоя установки фреймворк нашёл бы там вторую ObenseuerRUS.dll.
+        /// </summary>
+        internal static void DeleteLegacyStaging(string pluginFolder)
+        {
+            DirectoryInfo plugins = Directory.GetParent(pluginFolder);
+            if (plugins == null || !plugins.Exists) return;
+            foreach (FileSystemInfo item in plugins.GetFileSystemInfos("." + StagePrefix + "*"))
+            {
+                if (item is DirectoryInfo) DeleteStage(item.FullName);
+                else DeleteFile(item.FullName);
             }
         }
 
@@ -238,6 +263,26 @@ Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
             return files;
         }
 
+        /// <summary>Запускает помощник установки (для теста — ждёт процесс gamePid, а не игру).</summary>
+        internal static Process RunInstaller(string scriptPath, int gamePid, string stageDirectory, string destinationDirectory)
+        {
+            var start = new ProcessStartInfo
+            {
+                FileName = "powershell.exe",
+                Arguments = "-NoProfile -NonInteractive -ExecutionPolicy Bypass -WindowStyle Hidden -File " + QuoteArgument(scriptPath)
+                    + " -GamePid " + gamePid
+                    + " -SourceDir " + QuoteArgument(stageDirectory)
+                    + " -DestinationDir " + QuoteArgument(destinationDirectory)
+                    + " -BackupDir " + QuoteArgument(stageDirectory + ".backup"),
+                UseShellExecute = false,
+                CreateNoWindow = true,
+                WindowStyle = ProcessWindowStyle.Hidden
+            };
+            Process process = Process.Start(start);
+            if (process == null) throw new InvalidOperationException("Windows не запустила помощник установки.");
+            return process;
+        }
+
         internal static void ExtractPackage(Dictionary<string, byte[]> files, string stageDirectory)
         {
             Directory.CreateDirectory(stageDirectory);
@@ -251,25 +296,9 @@ Remove-Item -LiteralPath $PSCommandPath -Force -ErrorAction SilentlyContinue
             }
         }
 
-        private void StartInstaller(string scriptPath, string stageDirectory, string destinationDirectory)
+        private static void StartInstaller(string scriptPath, string stageDirectory, string destinationDirectory)
         {
-            string backupDirectory = stageDirectory + ".backup";
-            var start = new ProcessStartInfo
-            {
-                FileName = "powershell.exe",
-                Arguments = "-NoProfile -NonInteractive -ExecutionPolicy Bypass -WindowStyle Hidden -File " + QuoteArgument(scriptPath)
-                    + " -GamePid " + Process.GetCurrentProcess().Id
-                    + " -SourceDir " + QuoteArgument(stageDirectory)
-                    + " -DestinationDir " + QuoteArgument(destinationDirectory)
-                    + " -BackupDir " + QuoteArgument(backupDirectory),
-                UseShellExecute = false,
-                CreateNoWindow = true,
-                WindowStyle = ProcessWindowStyle.Hidden
-            };
-            using (Process process = Process.Start(start))
-            {
-                if (process == null) throw new InvalidOperationException("Windows не запустила помощник установки.");
-            }
+            using (RunInstaller(scriptPath, Process.GetCurrentProcess().Id, stageDirectory, destinationDirectory)) { }
         }
 
         private static bool IsAllowedPackagePath(string path)

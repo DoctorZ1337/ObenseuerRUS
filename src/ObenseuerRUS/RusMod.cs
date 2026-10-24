@@ -10,14 +10,14 @@ using UnityEngine.SceneManagement;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.8")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.4.9")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
         internal static RusMod Instance;
         private Catalog catalog;
         private TextTranslator translator;
-        private ModSetting<bool> isEnabled, dialogue, ui, people, brands, logMissing;
+        private ModSetting<bool> isEnabled, dialogue, ui, people, brands, logMissing, checkUpdates;
         private ModKeybind toggleKey;
         private readonly HashSet<string> missing = new HashSet<string>(StringComparer.Ordinal);
         private string folder;
@@ -41,6 +41,7 @@ namespace ObenseuerRUS
             people = Config.Bind("General", "CyrillicPeopleNames", true, "Писать кириллицей имена людей (например, Арво Киркастая).");
             brands = Config.Bind("General", "CyrillicBrandNames", true, "Писать кириллицей названия брендов, заведений, организаций и мест (например, Осмо Олут, Сталбург).");
             logMissing = Config.Bind("Debug", "LogUntranslated", false, "Записывать строки интерфейса, где остался английский текст (целиком или частично), в untranslated.txt в папке мода.");
+            checkUpdates = Config.Bind("Updates", "CheckForUpdates", true, "При запуске проверять, вышла ли новая версия перевода, и предлагать её установить.");
             toggleKey = Mod.Key("ToggleLanguage", "Русский / английский", KeyCode.F9);
             LoadCatalog();
             ShowPreviousUpdateError();
@@ -71,7 +72,7 @@ namespace ObenseuerRUS
                 if (pendingUpdate == null && updater.TryTakeAvailableUpdate(out release))
                 {
                     pendingUpdate = release;
-                    updateNotice = "Доступна версия мода " + release.Version + ". Хотите обновить весь мод?";
+                    updateNotice = "Вышла новая версия перевода — " + release.Version + ".";
                 }
                 string error = updater.TakeError();
                 if (!string.IsNullOrEmpty(error)) Log.Warn(error);
@@ -94,31 +95,35 @@ namespace ObenseuerRUS
             if (updateNoticeStyle == null)
                 updateNoticeStyle = new GUIStyle(GUI.skin.label) { fontSize = 15, wordWrap = true, alignment = TextAnchor.MiddleLeft };
 
-            float width = Mathf.Max(1f, Mathf.Min(660f, Screen.width - 30f));
-            float height = pendingUpdate == null ? 76f : 112f;
-            var box = new Rect(15f, 15f, width, height);
+            float width = Mathf.Max(1f, Mathf.Min(560f, Screen.width - 30f));
+            var box = new Rect(15f, 15f, width, pendingUpdate == null ? 50f : 86f);
             GUI.Box(box, GUIContent.none);
             if (pendingUpdate == null)
             {
                 GUI.Label(new Rect(box.x + 12f, box.y + 5f, box.width - 54f, box.height - 10f), updateNotice, updateNoticeStyle);
-                if (GUI.Button(new Rect(box.xMax - 38f, box.y + 8f, 30f, 28f), "×")) updateNotice = null;
+                if (GUI.Button(new Rect(box.xMax - 38f, box.y + 10f, 30f, 28f), "×")) updateNotice = null;
                 return;
             }
 
-            GUI.Label(new Rect(box.x + 12f, box.y + 5f, box.width - 54f, 55f), updateNotice, updateNoticeStyle);
-            if (GUI.Button(new Rect(box.xMax - 242f, box.yMax - 42f, 112f, 30f), "Обновить"))
+            GUI.Label(new Rect(box.x + 12f, box.y + 5f, box.width - 24f, 34f), updateNotice, updateNoticeStyle);
+            float y = box.yMax - 40f;
+            if (GUI.Button(new Rect(box.x + 12f, y, 110f, 30f), "Обновить"))
             {
                 GitHubUpdater.ReleaseInfo release = pendingUpdate;
                 pendingUpdate = null;
-                updateNotice = "Скачиваю полный пакет " + release.Version + "…";
+                updateNotice = "Скачиваю перевод " + release.Version + "…";
                 updater.DownloadAndStage(release);
             }
-            bool later = GUI.Button(new Rect(box.xMax - 122f, box.yMax - 42f, 88f, 30f), "Позже");
-            bool close = GUI.Button(new Rect(box.xMax - 34f, box.y + 8f, 26f, 28f), "×");
-            if (later || close)
+            else if (GUI.Button(new Rect(box.x + 130f, y, 90f, 30f), "Позже"))
             {
                 pendingUpdate = null;
                 updateNotice = null;
+            }
+            else if (GUI.Button(new Rect(box.x + 228f, y, 190f, 30f), "Больше не спрашивать"))
+            {
+                pendingUpdate = null;
+                checkUpdates.Value = false;
+                updateNotice = "Проверка обновлений выключена. Вернуть: «Моды» → Updates → CheckForUpdates.";
             }
         }
 
@@ -126,9 +131,10 @@ namespace ObenseuerRUS
         {
             AssemblyInformationalVersionAttribute version = (AssemblyInformationalVersionAttribute)Attribute.GetCustomAttribute(
                 typeof(RusMod).Assembly, typeof(AssemblyInformationalVersionAttribute));
-            modVersion = version == null ? "0.4.8" : version.InformationalVersion.Split('+')[0];
+            modVersion = version == null ? typeof(RusMod).Assembly.GetName().Version.ToString(3) : version.InformationalVersion.Split('+')[0];
+            GitHubUpdater.DeleteLegacyStaging(folder);
             updater = new GitHubUpdater(folder, modVersion);
-            updater.Start();
+            if (checkUpdates.Value) updater.Start();
         }
 
         private void ShowPreviousUpdateError()
@@ -138,8 +144,8 @@ namespace ObenseuerRUS
             try
             {
                 string detail = File.ReadAllText(path, Encoding.UTF8).Trim();
-                updateNotice = "Предыдущее автообновление не установилось. Установите архив вручную или попробуйте позже.";
-                Log.Warn("автообновление мода: помощник установки завершился с ошибкой: " + detail);
+                updateNotice = "Обновление перевода не установилось. Скачайте архив вручную на GitHub.";
+                Log.Warn("автообновление перевода: помощник установки завершился с ошибкой: " + detail);
                 File.Delete(path);
             }
             catch (Exception e)

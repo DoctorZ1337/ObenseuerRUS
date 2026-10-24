@@ -72,6 +72,109 @@ namespace ObenseuerRUS.Tests
             Assert.Throws<InvalidDataException>(() => GitHubUpdater.ReadPackageFiles(ValidPackage("{\"format\":\"other\"}")));
         }
 
+        [Fact]
+        public void DeletesLegacyStagingFromPluginsFolder()
+        {
+            string plugins = TestFolder();
+            try
+            {
+                string mod = Path.Combine(plugins, "ObenseuerRUS");
+                Directory.CreateDirectory(mod);
+                Directory.CreateDirectory(Path.Combine(plugins, ".ObenseuerRUS-update-abc"));
+                File.WriteAllText(Path.Combine(plugins, ".ObenseuerRUS-update-abc", "ObenseuerRUS.dll"), "old");
+                Directory.CreateDirectory(Path.Combine(plugins, ".ObenseuerRUS-update-abc.backup"));
+                File.WriteAllText(Path.Combine(plugins, ".ObenseuerRUS-update-abc.ps1"), "script");
+                Directory.CreateDirectory(Path.Combine(plugins, "OtherMod"));
+
+                GitHubUpdater.DeleteLegacyStaging(mod);
+
+                Assert.Equal(new[] { "ObenseuerRUS", "OtherMod" }, SortedNames(plugins));
+            }
+            finally
+            {
+                if (Directory.Exists(plugins)) Directory.Delete(plugins, recursive: true);
+            }
+        }
+
+        [Fact]
+        public void InstallerReplacesFilesAndRemovesObsoleteTranslations()
+        {
+            if (!OperatingSystem.IsWindows()) return;
+            string root = TestFolder();
+            try
+            {
+                string dest = Path.Combine(root, "ObenseuerRUS"), stage = Path.Combine(root, "stage"), script = stage + ".ps1";
+                Directory.CreateDirectory(Path.Combine(dest, "translations"));
+                File.WriteAllText(Path.Combine(dest, "ObenseuerRUS.dll"), "old dll");
+                File.WriteAllText(Path.Combine(dest, "translations", "ui.json"), "old ui");
+                File.WriteAllText(Path.Combine(dest, "translations", "removed.json"), "obsolete");
+                File.WriteAllText(Path.Combine(dest, "untranslated.txt"), "player log");
+                GitHubUpdater.ExtractPackage(GitHubUpdater.ReadPackageFiles(ValidPackage()), stage);
+
+                Assert.Equal(0, RunInstaller(script, stage, dest));
+
+                Assert.Equal("dll", File.ReadAllText(Path.Combine(dest, "ObenseuerRUS.dll")));
+                Assert.Equal(new[] { "ui.json" }, SortedNames(Path.Combine(dest, "translations")));
+                Assert.True(File.Exists(Path.Combine(dest, "untranslated.txt")));
+                Assert.False(File.Exists(Path.Combine(dest, ".github-update-error")));
+                Assert.Equal(new[] { "ObenseuerRUS" }, SortedNames(root));
+            }
+            finally
+            {
+                if (Directory.Exists(root)) Directory.Delete(root, recursive: true);
+            }
+        }
+
+        [Fact]
+        public void InstallerKeepsOldFilesAndReportsFailure()
+        {
+            if (!OperatingSystem.IsWindows()) return;
+            string root = TestFolder();
+            try
+            {
+                string dest = Path.Combine(root, "ObenseuerRUS"), stage = Path.Combine(root, "stage"), script = stage + ".ps1";
+                Directory.CreateDirectory(Path.Combine(dest, "translations"));
+                File.WriteAllText(Path.Combine(dest, "ObenseuerRUS.dll"), "old dll");
+                File.WriteAllText(Path.Combine(dest, "translations", "removed.json"), "obsolete");
+                GitHubUpdater.ExtractPackage(GitHubUpdater.ReadPackageFiles(ValidPackage()), stage);
+                File.WriteAllText(Path.Combine(stage, "evil.ps1"), "not allowed");
+
+                Assert.Equal(1, RunInstaller(script, stage, dest));
+
+                Assert.Equal("old dll", File.ReadAllText(Path.Combine(dest, "ObenseuerRUS.dll")));
+                Assert.True(File.Exists(Path.Combine(dest, "translations", "removed.json")));
+                Assert.True(File.Exists(Path.Combine(dest, ".github-update-error")));
+                Assert.False(Directory.Exists(stage));
+            }
+            finally
+            {
+                if (Directory.Exists(root)) Directory.Delete(root, recursive: true);
+            }
+        }
+
+        private static int RunInstaller(string script, string stage, string dest)
+        {
+            File.WriteAllText(script, GitHubUpdater.InstallerScript, new UTF8Encoding(true));
+            int finishedPid;
+            using (var game = System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo("cmd.exe", "/c exit") { CreateNoWindow = true, UseShellExecute = false }))
+            {
+                game.WaitForExit();
+                finishedPid = game.Id;
+            }
+            using (var installer = GitHubUpdater.RunInstaller(script, finishedPid, stage, dest))
+            {
+                Assert.True(installer.WaitForExit(60000));
+                return installer.ExitCode;
+            }
+        }
+
+        private static string[] SortedNames(string folder)
+        {
+            string[] names = Array.ConvertAll(Directory.GetFileSystemEntries(folder), Path.GetFileName);
+            Array.Sort(names, StringComparer.Ordinal);
+            return names;
+        }
+
         private static string ReleaseJson(string tag, string assetName)
         {
             return "{\"tag_name\":\"" + tag + "\",\"draft\":false,\"prerelease\":false,\"html_url\":\"https://github.com/DoctorZ1337/ObenseuerRUS/releases/tag/" + tag + "\",\"assets\":[{\"name\":\"" + assetName + "\",\"browser_download_url\":\"https://github.com/DoctorZ1337/ObenseuerRUS/releases/download/" + tag + "/" + assetName + "\",\"digest\":\"sha256:" + new string('a', 64) + "\",\"size\":123}]}";
