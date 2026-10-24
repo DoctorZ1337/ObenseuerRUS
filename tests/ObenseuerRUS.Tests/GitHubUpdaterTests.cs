@@ -97,6 +97,30 @@ namespace ObenseuerRUS.Tests
         }
 
         [Fact]
+        public void KeepsLegacyStagingTheModRunsFrom()
+        {
+            string plugins = TestFolder();
+            try
+            {
+                // Прошлая установка сорвалась, и фреймворк загрузил перевод из оставшейся папки пакета.
+                string running = Path.Combine(plugins, ".ObenseuerRUS-update-run");
+                Directory.CreateDirectory(Path.Combine(running, "translations"));
+                File.WriteAllText(Path.Combine(running, "translations", "ui.json"), "{}");
+                Directory.CreateDirectory(Path.Combine(plugins, ".ObenseuerRUS-update-run.backup"));
+                Directory.CreateDirectory(Path.Combine(plugins, "ObenseuerRUS"));
+
+                GitHubUpdater.DeleteLegacyStaging(running);
+
+                Assert.Equal(new[] { ".ObenseuerRUS-update-run", "ObenseuerRUS" }, SortedNames(plugins));
+                Assert.True(File.Exists(Path.Combine(running, "translations", "ui.json")));
+            }
+            finally
+            {
+                if (Directory.Exists(plugins)) Directory.Delete(plugins, recursive: true);
+            }
+        }
+
+        [Fact]
         public void InstallerReplacesFilesAndRemovesObsoleteTranslations()
         {
             if (!OperatingSystem.IsWindows()) return;

@@ -167,13 +167,17 @@ Remove-Item -LiteralPath $errorFile -Force -ErrorAction SilentlyContinue
         /// <summary>
         /// Остатки обновлений до 0.4.9: пакет и резервная копия лежали в BepInEx\plugins\.ObenseuerRUS-update-*.
         /// После сбоя установки фреймворк нашёл бы там вторую ObenseuerRUS.dll.
+        /// Если он уже загрузил перевод из такой папки (она идёт раньше ObenseuerRUS), её не трогаем:
+        /// занятая DLL осталась бы, а переводы удалились, и следующий запуск прошёл бы без перевода.
         /// </summary>
         internal static void DeleteLegacyStaging(string pluginFolder)
         {
             DirectoryInfo plugins = Directory.GetParent(pluginFolder);
             if (plugins == null || !plugins.Exists) return;
+            string running = Path.GetFullPath(pluginFolder).TrimEnd(Path.DirectorySeparatorChar);
             foreach (FileSystemInfo item in plugins.GetFileSystemInfos("." + StagePrefix + "*"))
             {
+                if (string.Equals(Path.GetFullPath(item.FullName).TrimEnd(Path.DirectorySeparatorChar), running, StringComparison.OrdinalIgnoreCase)) continue;
                 if (item is DirectoryInfo) DeleteStage(item.FullName);
                 else DeleteFile(item.FullName);
             }
