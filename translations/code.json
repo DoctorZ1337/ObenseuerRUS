@@ -503,7 +503,7 @@
     {"id": "code/Manufacturing-0471386e", "kind": "text", "source": "Manufacturing", "target": "Производство", "status": "translated", "context": "Furniture.cs:43 | [Description(\"Manufacturing\")]"},
     {"id": "code/Maps-80071cd7", "kind": "text", "source": "Maps", "target": "Карты", "status": "translated", "context": "TaskItem.cs:47 | [Description(\"Maps\")]"},
     {"id": "code/Mar-c4ba0822", "kind": "text", "source": "Mar", "target": "мар.", "status": "translated", "context": "TimeAndDay.cs:181 | 3 => \"Mar\","},
-    {"id": "code/Mashing-Recipes-bec577c3", "kind": "text", "source": "Mashing Recipes", "target": "Рецепты затирания", "status": "translated", "context": "TaskItem.cs:23 | [Description(\"Mashing Recipes\")]"},
+    {"id": "code/Mashing-Recipes-bec577c3", "kind": "text", "source": "Mashing Recipes", "target": "Рецепты браги", "status": "translated", "context": "TaskItem.cs:23 | [Description(\"Mashing Recipes\")]"},
     {"id": "code/t/Max-0-h-ca2e65a2", "kind": "template", "source": "Max: {0}h", "target": "Макс.: {0} ч", "status": "translated", "context": "ManufacturingPowerUI.cs:133 | fuelRemaining.text = $\"Max: {Math.Round(maxBurnTime / 3600.0, 1)}h\";"},
     {"id": "code/May-c94f4798", "kind": "text", "source": "May", "target": "мая", "status": "translated", "context": "TimeAndDay.cs:183 | 5 => \"May\","},
     {"id": "code/Medium-Apartment-cf74d003", "kind": "text", "source": "Medium Apartment", "target": "Средняя квартира", "status": "translated", "context": "ResidentRequirementUI.cs:48 | title = \"Medium Apartment\";"},

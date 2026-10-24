@@ -86,6 +86,15 @@ namespace ObenseuerRUS.Tests
         [InlineData("Skip two hours", "Пропустить два часа")]
         // Часы на экране: те же шаблоны, что и у Lua TellTimeResponse.
         [InlineData("Wednesday 11:33", "Среда, 11:33")]
+        // Рецепт, лежащий как предмет: название рецепта + " Recipe" (CollectibleRecipe).
+        [InlineData("Wiring Components Recipe", "Рецепт: Электромонтажные детали")]
+        [InlineData("Time: 12:25", "Время: 12:25")]
+        // Врач: кнопки с ценой и заключения, которые код склеивает из готовых фраз (DoctorPanel, Treatment*).
+        [InlineData("Mental health (180 OC)", "Психическое здоровье (180 КМ)")]
+        [InlineData("You are very unwell now and you have severe mental health problems! I recommend prescription medicine! You also seem to have an addiction to ducks, maybe that affects your mood.",
+                    "Сейчас вам очень плохо, и у вас серьёзные проблемы с психическим здоровьем! Рекомендую рецептурные лекарства! Похоже, у вас ещё и зависимость от уток — может, это влияет на настроение.")]
+        [InlineData("It's really high. It's 640 millisieverts.", "Очень высокий. 640 миллизиверт.")]
+        [InlineData("Mashing", "Браговарение")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

@@ -64,7 +64,21 @@ TALK_TITLES = {"Hole": "Дыра", "Interviewers": "Интервьюеры", "Ma
 COMFORT = {"Torturous": "мучительно", "Aching": "всё ломит", "Uncomfortable": "неудобно", "Okay": "сносно",
            "Pleasant": "приятно", "Relaxing": "расслабляет", "Comfy": "уютно"}
 SAFETY = {"Unsafe": "опасно", "Safeish": "относительно безопасно"}
-SKILLS = {"Lockpicking": "Взлом замков", "Drinking": "Выпивка", "Cooking": "Готовка", "Mashing": "Затирание",
+# Врач: состояние психического здоровья (TreatmentMentalHealth.Status*.description) и фразы, которые код дописывает
+# к заключению через пробел (утиная зависимость, кровотечение). Переводы — те же, что у самих фраз в ui.json.
+DOCTOR_MENTAL = {
+    "You are fine now": "Сейчас вы в порядке",
+    "Just some mild mental health problems right now": "Сейчас лишь лёгкие проблемы с психическим здоровьем",
+    "You're not feeling very well now": "Сейчас вы чувствуете себя не очень хорошо",
+    "You are very unwell now": "Сейчас вам очень плохо",
+}
+DOCTOR_APPEND = {
+    "You also seem to have an addiction to ducks, maybe that affects your mood.":
+        "Похоже, у вас ещё и зависимость от уток — может, это влияет на настроение.",
+    "You're bleeding. Apply get bandages to stop the bleeding.": "У вас кровотечение. Наложите повязку, чтобы остановить кровь.",
+    "You're bleeding a little. Adhesive bandages should do the trick.": "У вас небольшое кровотечение. Пластыри должны помочь.",
+}
+SKILLS = {"Lockpicking": "Взлом замков", "Drinking": "Выпивка", "Cooking": "Готовка", "Mashing": "Браговарение",
           "Brewing": "Пивоварение", "Distilling": "Дистилляция", "Farming": "Фермерство", "Malting": "Соложение",
           "Manufacturing": "Производство", "Paperwork": "Бумажная работа", "Chemistry": "Химия",
           "Carpentry": "Плотничество", "Machining": "Станочное дело", "Engineering": "Инженерия", "Bribery": "Подкуп",
@@ -228,6 +242,9 @@ def entries():
     text("quickslot/scroll", "(Scroll to change)", "(Колесо мыши — сменить)", "QuickSlotBar: смена варианта")
     text("quickslot/dpad", "(D-Pad to change)", "(Крестовина — сменить)", "QuickSlotBar: смена варианта на геймпаде")
     tpl("quickslot/skill", "(Skill: {0} {1})", "(Навык: {0} {1})", "QuickSlotBar: для семян нужен навык (Growing)")
+    # Рецепт, лежащий как предмет, и книга рецептов: название рецепта + RecipeController.GetRecipeEndName.
+    tpl("recipe/item", "{0} Recipe", "Рецепт: {0}", "CollectibleRecipe, CollectibleRecipeBook: название рецепта")
+    tpl("recipe/3d-model", "{0} 3D Printer Model", "Модель для 3D-принтера: {0}", "CollectibleRecipe: рецепт 3D-принтера")
     tpl("time/clock", "Clock is {0}", "На часах {0}", "Lua TellTimeResponse (варианты 4–5)", "lua")
     tpl("time/now", "Now it's {0}", "Сейчас {0}", "Lua TellTimeResponse (варианты 6–7)", "lua")
     # Без scope: то же "3h" показывает окно предмета (ItemInfoPanel: время чтения, топливо).
@@ -240,6 +257,17 @@ def entries():
     tpl("addiction/moderate", "You have a moderate {0} addiction", "Умеренная зависимость: {0}", "TreatmentAddictions")
     tpl("addiction/normal", "You have {0}", "У вас {0}", "TreatmentAddictions")
     tpl("list/and", "{0} and {1}", "{0} и {1}", "перечисление из двух частей (TreatmentAddictions и др.)")
+    # Врач (DoctorPanel): кнопки "название (цена валюта)" и заключения, которые код склеивает из готовых фраз.
+    tpl("doctor/price-oc", "{0} ({1} OC)", "{0} ({1} КМ)", "DoctorPanelSelectionButton: обследование или лечение с ценой")
+    tpl("doctor/price-rm", "{0} ({1} RM)", "{0} ({1} РД)", "DoctorPanelSelectionButton: обследование или лечение с ценой")
+    for en, ru in DOCTOR_MENTAL.items():
+        # TreatmentMentalHealth.GetStatus: состояние + " and "/" but " + рекомендация (она начинается со строчной).
+        tpl("doctor/mental/and/" + en, en + " and {0}", ru + ", и {0}", "TreatmentMentalHealth: состояние и рекомендация")
+        tpl("doctor/mental/but/" + en, en + " but {0}", ru + ", но {0}", "TreatmentMentalHealth: состояние и рекомендация")
+    for en, ru in DOCTOR_APPEND.items():
+        tpl("doctor/append/" + en[:40], "{0} " + en, "{0} " + ru, "DoctorPanel: фраза, которую код дописывает через пробел к заключению")
+    tpl("doctor/dose-msv", "{0} It's {1} millisieverts.", "{0} {1} миллизиверт.", "TreatmentRadiation: заключение и доза")
+    tpl("doctor/dose-sv", "{0} It's {1} sieverts.", "{0} {1} зиверт.", "TreatmentRadiation: заключение и доза")
     # Слоты сохранений (LoadMenu.GetSlotDisplayName): между словом и номером неразрывный пробел, как в игре.
     tpl("save/slot", "Slot {0}", "Слот {0}", "LoadMenu: название слота")
     tpl("save/autosave", "Autosave {0}", "Автосохр. {0}", "LoadMenu: название слота автосохранения")

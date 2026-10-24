@@ -20,7 +20,8 @@
 | Metro | Метро | |
 | Tenement | доходный дом | здание игрока; в разговорной речи можно «дом» |
 | Chamber of Commerce | Торговая палата | |
-| militia | милиция | |
+| militia | милиция | местные стражи порядка; Redemption Militia — ополчение «Искупление» (благотворительная организация) |
+| Passed / Passless | «Паспортный» / «Беспаспортный» | пароли Passmore (игра слов на фамилию, он продаёт паспорта); неверные догадки игрока — тоже на «пас-»: пассия, пассивный, Пасха, пассажир, пасьянс |
 | Stalburg Bank | банк Stalburg | |
 | Osmo Olut, Pontikka и др. финские названия | без изменений | |
 
@@ -92,7 +93,7 @@
 
 ## Навыки
 
-Lockpicking — Взлом замков, Drinking — Выпивка, Cooking — Готовка, Mashing — Затирание, Brewing — Пивоварение,
+Lockpicking — Взлом замков, Drinking — Выпивка, Cooking — Готовка, Mashing — Браговарение (брага для kilju и самогона, не пивоваренное «затирание»), Brewing — Пивоварение,
 Distilling — Дистилляция, Farming — Фермерство, Malting — Соложение, Manufacturing — Производство,
 Paperwork — Бумажная работа, Chemistry — Химия, Carpentry — Плотничество, Machining — Станочное дело,
 Engineering — Инженерия, Bribery — Подкуп, Cleaning — Чистка, Sewing — Шитьё, Electronics — Электроника,
