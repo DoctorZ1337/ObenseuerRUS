@@ -95,6 +95,10 @@ namespace ObenseuerRUS.Tests
                     "Сейчас вам очень плохо, и у вас серьёзные проблемы с психическим здоровьем! Рекомендую рецептурные лекарства! Похоже, у вас ещё и зависимость от уток — может, это влияет на настроение.")]
         [InlineData("It's really high. It's 640 millisieverts.", "Очень высокий. 640 миллизиверт.")]
         [InlineData("Mashing", "Браговарение")]
+        [InlineData("Pod 20: 46 OC per night", "Капсула 20: 46 КМ за ночь")]
+        [InlineData("Room: 12 RM per night", "Номер: 12 РД за ночь")]
+        [InlineData("Apartment Bathroom\nMinimum requirement: Makeshift", "Ванная квартиры\nМинимальное требование: Самодельный")]
+        [InlineData("Preferred size\nSmall apartment", "Желаемый размер\nМаленькая квартира")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));
@@ -165,6 +169,8 @@ namespace ObenseuerRUS.Tests
         [InlineData(null, "Drop", "Выбросить")]
         [InlineData("object:Advanced/Advanced", "Advanced", "Дополнительно")]
         [InlineData(null, "Advanced", "Продвинутый")]
+        // Почтовый ящик: фраза в скобках целиком, а не «Нет почты — спрыгнуть» (Drop у лестницы).
+        [InlineData("action", "(No mail to drop)", "(Нечего отправить)")]
         public void Real_catalog_scoped_strings(string scope, string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

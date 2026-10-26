@@ -61,6 +61,15 @@ namespace ObenseuerRUS.Tests
         }
 
         [Fact]
+        public void Whole_phrase_in_parentheses_beats_template()
+        {
+            var tr = Make(Text("No mail to drop", "Нечего отправить"), Tpl("({0} to {1})", "({0} — {1})"),
+                          Text("No mail", "Нет почты"), Text("Drop", "Спрыгнуть"), Text("LMB", "ЛКМ"));
+            Assert.Equal("(Нечего отправить)", tr.Translate("(No mail to drop)"));
+            Assert.Equal("(ЛКМ — спрыгнуть)", tr.Translate("(LMB to drop)"));
+        }
+
+        [Fact]
         public void Lowercase_text_prefers_capitalized_entry()
         {
             var tr = Make(Text("SUN", "ВС"), Text("Sun", "Солнце"), Text("Crude", "Грубый"));

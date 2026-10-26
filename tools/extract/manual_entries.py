@@ -242,6 +242,12 @@ def entries():
     text("quickslot/scroll", "(Scroll to change)", "(Колесо мыши — сменить)", "QuickSlotBar: смена варианта")
     text("quickslot/dpad", "(D-Pad to change)", "(Крестовина — сменить)", "QuickSlotBar: смена варианта на геймпаде")
     tpl("quickslot/skill", "(Skill: {0} {1})", "(Навык: {0} {1})", "QuickSlotBar: для семян нужен навык (Growing)")
+    # Гостиница (Hotel.cs): кнопка номера — "<номер>: <цена> per night" или "Room: <цена> per night".
+    tpl("hotel/per-night", "{0} per night", "{0} за ночь", "Hotel: цена номера")
+    tpl("hotel/room", "Room: {0} per night", "Номер: {0} за ночь", "Hotel: цена номера без названия")
+    # Окно жильца (TenementResidentRentUI): подсказки к требованиям.
+    text("tenant/preferred-size", "Preferred size", "Желаемый размер", "TenementResidentRentUI: требование к размеру квартиры")
+    tpl("tenant/minimum", "Minimum requirement: {0}", "Минимальное требование: {0}", "TenementResidentRentUI: требование к удобствам")
     # Рецепт, лежащий как предмет, и книга рецептов: название рецепта + RecipeController.GetRecipeEndName.
     tpl("recipe/item", "{0} Recipe", "Рецепт: {0}", "CollectibleRecipe, CollectibleRecipeBook: название рецепта")
     tpl("recipe/3d-model", "{0} 3D Printer Model", "Модель для 3D-принтера: {0}", "CollectibleRecipe: рецепт 3D-принтера")

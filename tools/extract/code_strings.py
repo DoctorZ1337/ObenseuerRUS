@@ -23,6 +23,9 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 import catalog_io  # noqa: E402
 
+# Шаблоны из кода, которые совпадают с чужими строками и портят их перевод (см. main).
+TOO_GENERIC = {"({0} to {1})"}
+
 SKIP_DIRS = ("BehaviorDesigner", "Pathfinding", "ECM", "Beautify", "DG.", "Steamworks", "CrazyMinnow", "Unity.",
              "UnityStandardAssets", "AmplifyShader", "TMPro", "FullSerializer", "SFB", "Properties")
 SKIP_FILES = re.compile(r"^(Debug|DeveloperConsole|Achievements|Export|Import|Azure|Hx|BasicSample|Canvas|StandaloneFileBrowser|Lutify|Test)")
@@ -222,6 +225,10 @@ def main():
         # "{0}Bad" (text + "Bad") и "{0}_{1}_Conn" — склейки без разделителя: как шаблоны они слишком общие,
         # такие строки описаны вручную целиком в translations/manual.json.
         if kind == "template" and re.search(r"\{\d\}[A-Z]|_\{\d\}|\{\d\}_", text):
+            continue
+        # "({0} to {1})" (QuickSlotBar) подходит любой фразе в скобках вида "(X to Y)": "(No mail to drop)" разбирался
+        # на «Нет почты» и «спрыгнуть». Действия панели заданы целиком в manual.json (quickslot/*).
+        if text in TOO_GENERIC:
             continue
         where = sorted(info["where"])
         entries.append({"id": "code/" + ("t/" if kind == "template" else "") + catalog_io_id(text), "kind": kind,

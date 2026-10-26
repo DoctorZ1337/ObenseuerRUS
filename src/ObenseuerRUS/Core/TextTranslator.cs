@@ -147,6 +147,9 @@ namespace ObenseuerRUS.Core
             // (иначе "sun" находит "SUN" — воскресенье в часах).
             if (char.IsLower(core[0]) && Lookup(char.ToUpperInvariant(core[0]) + core.Substring(1), out t)) return new Result(lead + MatchCase(core, t) + trail, 0, 0);
             if (catalog.ExactIgnoreCase.TryGetValue(core, out t)) return new Result(lead + MatchCase(core, t) + trail, 0, 0);
+            // "(No mail to drop)" — UseText сам ставит скобки: фраза из каталога целиком важнее разбора по шаблону "({0} to {1})".
+            if (core.Length > 2 && core[0] == '(' && core[core.Length - 1] == ')' && Lookup(core.Substring(1, core.Length - 2), out t))
+                return new Result(lead + "(" + t + ")" + trail, 0, 0);
             // Подходящих шаблонов бывает несколько ("Tenement {0}" и "{0} (Empty)" для "Tenement resources (Empty)").
             // Лучший — без непереведённых частей и с наименьшим числом вложенных шаблонов.
             Result best = null;
