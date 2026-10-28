@@ -99,6 +99,15 @@ namespace ObenseuerRUS.Tests
         [InlineData("Room: 12 RM per night", "Номер: 12 РД за ночь")]
         [InlineData("Apartment Bathroom\nMinimum requirement: Makeshift", "Ванная квартиры\nМинимальное требование: Самодельный")]
         [InlineData("Preferred size\nSmall apartment", "Желаемый размер\nМаленькая квартира")]
+        [InlineData("1 night: 42 OC", "1 ночь: 42 КМ")]
+        [InlineData("3 nights: 126 OC", "3 ночи: 126 КМ")]
+        [InlineData("7 nights: 294 OC", "7 ночей: 294 КМ")]
+        // Окно станка: кнопка, объём, остаток времени и топлива.
+        [InlineData("Abort", "Прервать")]
+        [InlineData("5L", "5 л")]
+        [InlineData("52m", "52 мин")]
+        [InlineData("7,2h/12h", "7,2 ч/12 ч")]
+        [InlineData("Room", "Room")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

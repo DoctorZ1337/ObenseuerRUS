@@ -322,6 +322,20 @@ def entries():
     tpl("upgrade-time/hours", "{0} hours", "{0} ч", "TenementUpgrade.GetTimeString: срок улучшения")
     tpl("upgrade-time/day", "{0} day", "{0} дн.", "TenementUpgrade.GetTimeString: срок улучшения")
     tpl("upgrade-time/days-hours", "{0}d {1}h", "{0} дн. {1} ч", "TenementUpgrade.GetTimeString: срок улучшения")
+    # Остаток времени процесса (TimeOfDayAzure.GetCurrentTime): "2d", "5h", "52m", полная форма "1d 2h 5m".
+    tpl("time-left/days", "{0}d", "{0} дн.", "TimeOfDayAzure.GetCurrentTime: остаток времени")
+    tpl("time-left/minutes", "{0}m", "{0} мин", "TimeOfDayAzure.GetCurrentTime: остаток времени")
+    tpl("time-left/hours-minutes", "{0}h {1}m", "{0} ч {1} мин", "TimeOfDayAzure.GetCurrentTime: остаток времени")
+    tpl("time-left/full", "{0}d {1}h {2}m", "{0} дн. {1} ч {2} мин", "TimeOfDayAzure.GetCurrentTime: остаток времени")
+    # Окно станка (ManufacturingProcessInfo, ManufacturingPowerUI): объём "5L", топливо "7,2h/12h", кнопка остановки.
+    tpl("manufacturing/liters", "{0}L", "{0} л", "ManufacturingProcessInfo: количество жидкости")
+    tpl("manufacturing/fuel", "{0}h/{1}h", "{0} ч/{1} ч", "ManufacturingPowerUI: остаток топлива")
+    text("manufacturing/abort", "Abort", "Прервать", "ManufacturingProcessPanel: кнопка остановки процесса")
+    # Гостиница (Hotel.cs): срок аренды "1 night: 42 OC" … "7 nights: 294 OC".
+    tpl("hotel/night-1", "1 night: {0}", "1 ночь: {0}", "Hotel: срок и цена номера")
+    for n in range(2, 8):
+        word = "ночи" if n < 5 else "ночей"
+        tpl("hotel/nights-%d" % n, "%d nights: {0}" % n, "%d %s: {0}" % (n, word), "Hotel: срок и цена номера")
 
     for k, v in TALK_TITLES.items():
         text("talk/" + k, k, v, "InteractableTalk.title или имя актёра диалога: подпись собеседника, не имя")
