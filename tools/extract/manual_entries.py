@@ -115,7 +115,9 @@ RAW_TITLES = {
                 "Makeshift Pizza Oven": "Самодельная печь для пиццы", "Ore Crusher": "Рудодробилка",
                 "Pizza Oven": "Печь для пиццы", "Basement Sauna": "Сауна в подвале", "Campfire": "Костёр",
                 "Tilestove": "Изразцовая печь", "Dishwashing powder": "Порошок для посудомойки",
-                "Payment machine": "Платёжный автомат", "Apartment 7": "Квартира 7"},
+                "Payment machine": "Платёжный автомат", "Apartment 7": "Квартира 7",
+                # Generator.ManuName в 0.5.13 — с двумя пробелами; вариант с одним — на случай, если опечатку исправят.
+                "Mobile  generator": "Передвижной генератор", "Mobile generator": "Передвижной генератор"},
     # Growing — грядки и растения.
     "growing": {"Greener mushrooms": "Грибы позеленее", "Greenest Mushrooms": "Самые зелёные грибы",
                 "Leek plant": "Лук-порей (растение)", "Lettuce plant": "Салат (растение)", "Monstera plant": "Монстера",
@@ -243,6 +245,13 @@ def entries():
     text("quickslot/dpad", "(D-Pad to change)", "(Крестовина — сменить)", "QuickSlotBar: смена варианта на геймпаде")
     tpl("quickslot/skill", "(Skill: {0} {1})", "(Навык: {0} {1})", "QuickSlotBar: для семян нужен навык (Growing)")
     # Гостиница (Hotel.cs): кнопка номера — "<номер>: <цена> per night" или "Room: <цена> per night".
+    # Строка управления в режиме перемещения предметов (BuildingSystemMenu.GetButtonInfo): "клавиша)ПОДПИСЬ" через три пробела;
+    # обозначение клавиши остаётся как в игре, переводится подпись. "FREE" — только в этой строке (общее "Free" — «Бесплатно»).
+    for k, v in (("USE SLOT", "ИСПОЛЬЗОВАТЬ СЛОТ"), ("CHANGE SLOT", "СМЕНИТЬ СЛОТ"),
+                 ("HOLD AND MOVE TO ROTATE", "УДЕРЖИВАТЬ И ДВИГАТЬ ДЛЯ ПОВОРОТА"), ("ROTATE OBJECT", "ПОВЕРНУТЬ ОБЪЕКТ"),
+                 ("REMOVE OBJECT", "УБРАТЬ ОБЪЕКТ"), ("ROTATION MODE:FREE", "РЕЖИМ ПОВОРОТА:СВОБОДНЫЙ")):
+        text("building-hint/" + k, k, v, "BuildingSystemMenu: строка управления в режиме перемещения")
+    tpl("building-hint/rotation-mode", "ROTATION MODE:{0}", "РЕЖИМ ПОВОРОТА:{0}", "BuildingSystemMenu: шаг поворота в градусах")
     tpl("hotel/per-night", "{0} per night", "{0} за ночь", "Hotel: цена номера")
     tpl("hotel/room", "Room: {0} per night", "Номер: {0} за ночь", "Hotel: цена номера без названия")
     # Окно жильца (TenementResidentRentUI): подсказки к требованиям.

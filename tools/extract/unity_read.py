@@ -8,6 +8,11 @@ from UnityPy.helpers.TypeTreeGenerator import TypeTreeGenerator
 UNITY_VERSION = "6000.0.77f1"
 
 
+def part_is_fresh(part, source):
+    """Сохранённый результат по файлу игры годится, только если он новее самого файла: после обновления игры — заново."""
+    return os.path.exists(part) and os.path.getmtime(part) >= os.path.getmtime(source)
+
+
 def game_dir(arg=None):
     candidates = [arg, os.environ.get("OBENSEUER_GAME_DIR"), os.environ.get("OBENSEUER_DIR"),
                   r"C:\Program Files (x86)\Steam\steamapps\common\Obenseuer"]

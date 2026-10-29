@@ -20,7 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 
 import UnityPy  # noqa: E402
-from unity_read import Reader, game_dir  # noqa: E402
+from unity_read import Reader, game_dir, part_is_fresh  # noqa: E402
 
 GAME_ASM = {"Assembly-CSharp", "Assembly-CSharp-firstpass", "Unity.TextMeshPro", "UnityEngine.UI"}
 SKIP_CLASSES = {"Image", "Outline", "Button", "ContentSizeFitter", "Mask", "GraphicRaycaster", "LayoutElement",
@@ -85,7 +85,7 @@ def main():
     merged = defaultdict(lambda: defaultdict(set))
     for f in files:
         part = os.path.join(parts, os.path.basename(f) + ".json")
-        if not os.path.exists(part):
+        if not part_is_fresh(part, f if os.path.isabs(f) else os.path.join(data, f)):
             cmd = [sys.executable, "-I", os.path.abspath(__file__), "--worker", f, "--out", part] + (["--game", args.game] if args.game else [])
             subprocess.run(cmd, check=True)
         with open(part, encoding="utf-8") as fh:

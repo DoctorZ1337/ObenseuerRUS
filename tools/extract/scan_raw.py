@@ -89,7 +89,7 @@ def scan_file(reader, path):
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
-    from unity_read import Reader, game_dir
+    from unity_read import Reader, game_dir, part_is_fresh
     ap = argparse.ArgumentParser()
     ap.add_argument("--game")
     ap.add_argument("--out", default=os.path.join(ROOT, "build", "raw_strings.json"))
@@ -112,7 +112,7 @@ def main():
     os.makedirs(parts, exist_ok=True)
     # UnityPy не отпускает память между файлами, поэтому каждый файл — отдельный процесс.
     running, merged = [], defaultdict(lambda: defaultdict(set))
-    pending = [f for f in files if not os.path.exists(os.path.join(parts, os.path.basename(f) + ".json"))]
+    pending = [f for f in files if not part_is_fresh(os.path.join(parts, os.path.basename(f) + ".json"), f if os.path.isabs(f) else os.path.join(data, f))]
     while pending or running:
         while pending and len(running) < args.jobs:
             f = pending.pop(0)

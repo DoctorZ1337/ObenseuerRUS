@@ -108,6 +108,12 @@ namespace ObenseuerRUS.Tests
         [InlineData("52m", "52 мин")]
         [InlineData("7,2h/12h", "7,2 ч/12 ч")]
         [InlineData("Room", "Room")]
+        // Generator.ManuName в 0.5.13 — с двумя пробелами (объект не читается UnityPy, строка из scan_raw.py).
+        [InlineData("Mobile  generator", "Передвижной генератор")]
+        // Строка управления в режиме перемещения предметов (BuildingSystemMenu): клавиши как в игре, подписи по-русски.
+        [InlineData("LMB)USE SLOT   Q/E)CHANGE SLOT   RMB)HOLD AND MOVE TO ROTATE   V)ROTATION MODE:FREE   Tab)EXIT",
+                    "LMB)ИСПОЛЬЗОВАТЬ СЛОТ   Q/E)СМЕНИТЬ СЛОТ   RMB)УДЕРЖИВАТЬ И ДВИГАТЬ ДЛЯ ПОВОРОТА   V)РЕЖИМ ПОВОРОТА:СВОБОДНЫЙ   Tab)ВЫХОД")]
+        [InlineData("V)ROTATION MODE:45°", "V)РЕЖИМ ПОВОРОТА:45°")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));
