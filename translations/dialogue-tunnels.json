@@ -3,7 +3,7 @@
   "category": "dialogue-tunnels",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/77/1", "kind": "dialogue", "conv": 77, "entry": 1, "source": "[lua(Variable[\"PlayerFirstName\"])] [lua(Variable[\"PlayerLastName\"])]...\\,\\,\\,\\, why are you here?", "target": "[lua(Variable[\"PlayerFirstName\"])] [lua(Variable[\"PlayerLastName\"])]...\\,\\,\\,\\, зачем ты здесь?", "status": "translated", "context": "Tunnels/Anya: Computer room | ???"},
     {"id": "dlg/77/2", "kind": "dialogue", "conv": 77, "entry": 2, "source": "Do you know me?", "target": "Ты меня знаешь?", "status": "translated", "context": "Tunnels/Anya: Computer room | Player"},

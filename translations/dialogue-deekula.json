@@ -3,7 +3,7 @@
   "category": "dialogue-deekula",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/81/1", "kind": "dialogue", "conv": 81, "entry": 1, "source": "You can take\\,\\, whatever you want here\\,\\, as long as you don't touch my stuff\\,\\, behind the televisions.", "target": "Можешь брать\\,\\, что хочешь\\,\\, только не трогай мои вещи\\,\\, за телевизорами.", "status": "translated", "context": "Deekula/Adam Holmgren | Adam Holmgren"},
     {"id": "dlg/81/2", "kind": "dialogue", "conv": 81, "entry": 2, "source": "Where is everybody?", "target": "Где все?", "status": "translated", "context": "Deekula/Adam Holmgren | Player"},

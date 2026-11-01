@@ -3,7 +3,7 @@
   "category": "dialogue-weird",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/243/1", "kind": "dialogue", "conv": 243, "entry": 1, "source": "You're not going to answer?", "target": "Не собираешься отвечать?", "status": "translated", "context": "Weird/Kasa Bark | ???"},
     {"id": "dlg/244/1", "kind": "dialogue", "conv": 244, "entry": 1, "source": "Answer the phone!", "target": "Ответь на звонок!", "status": "translated", "context": "Weird/Kasa | ???"},

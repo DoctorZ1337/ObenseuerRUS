@@ -114,6 +114,18 @@ namespace ObenseuerRUS.Tests
         [InlineData("LMB)USE SLOT   Q/E)CHANGE SLOT   RMB)HOLD AND MOVE TO ROTATE   V)ROTATION MODE:FREE   Tab)EXIT",
                     "LMB)ИСПОЛЬЗОВАТЬ СЛОТ   Q/E)СМЕНИТЬ СЛОТ   RMB)УДЕРЖИВАТЬ И ДВИГАТЬ ДЛЯ ПОВОРОТА   V)РЕЖИМ ПОВОРОТА:СВОБОДНЫЙ   Tab)ВЫХОД")]
         [InlineData("V)ROTATION MODE:45°", "V)РЕЖИМ ПОВОРОТА:45°")]
+        // Сборка 26349752 (0.5.17): взлом с длинным тире, модификаторы Variant, уведомления ремонта, крипто-кошелёк.
+        [InlineData("(Lockpick — Effortless)", "(Взлом — Пустяк)")]
+        [InlineData("(Lockpick — Difficult)", "(Взлом — Сложно)")]
+        [InlineData("Modifier: Variant2", "Модификатор: вариант 2")]
+        [InlineData("Minimum required upgrade", "Минимальное требуемое улучшение")]
+        [InlineData("Furniture moved to your furniture inventory to make way for the walls renovation in apartment 1.",
+                    "Мебель перенесена в инвентарь мебели, чтобы освободить место для ремонта стен в квартире 1.")]
+        [InlineData("3 items were packed to make way for the heating room renovation.",
+                    "Упаковано предметов: 3, чтобы освободить место для ремонта котельной.")]
+        [InlineData("Contains 29.74717 OS Coins", "Монет Obenseuer внутри: 29.74717")]
+        [InlineData("(LMB to plant) (Hold - Keep planting)", "(LMB — посадить) (удерживать — сажать дальше)")]
+        [InlineData("Cat Climbing Tree (Empty)", "Домик-когтеточка (пусто)")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

@@ -3,7 +3,7 @@
   "category": "dialogue-sleeping",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/172/1", "kind": "dialogue", "conv": 172, "entry": 1, "source": "Someone beat you\\,\\, and you don't know who it was.", "target": "Кто-то тебя избил\\,\\,, и непонятно, кто это был.", "status": "translated", "context": "Sleeping/Beat | "},
     {"id": "dlg/172/2", "kind": "dialogue", "conv": 172, "entry": 2, "source": "You were beaten unexpectedly.", "target": "Тебя внезапно избили.", "status": "translated", "context": "Sleeping/Beat | "},

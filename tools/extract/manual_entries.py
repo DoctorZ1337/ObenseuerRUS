@@ -31,13 +31,15 @@ MODIFIERS = {"None": "нет", "Clean": "чистый", "Dirty": "грязный
              "Crude": "грубый", "Normal": "обычный", "Upgraded": "улучшенный", "Advanced": "продвинутый",
              "Industrial": "промышленный", "Special": "особый", "Wasteland": "пустошь", "Water": "вода",
              "Electricity": "электричество", "Steam": "пар", "Sun": "солнце", "Moist": "влажный", "Large": "большой",
-             "Small": "маленький"}
+             "Small": "маленький", "Variant1": "вариант 1", "Variant2": "вариант 2", "Variant3": "вариант 3",
+             "Variant4": "вариант 4"}
 # Те же модификаторы без "Modifier: " — список рецепта (RecipeInfoUI: "Excluded modifiers:\nMakeshift, crude.";
 # со второго слова игра пишет строчными, переводчик сохраняет регистр). Clean, None, Normal, Special, Water,
 # Electricity и Small уже переведены в других местах тем же или близким словом.
 CONDITIONS = {"Dirty": "Грязный", "Infested": "Заражённый", "Makeshift": "Самодельный", "Crude": "Грубый",
               "Upgraded": "Улучшенный", "Advanced": "Продвинутый", "Industrial": "Промышленный", "Wasteland": "Пустошь",
-              "Steam": "Пар", "Sun": "Солнце", "Moist": "Влажный", "Large": "Большой"}
+              "Steam": "Пар", "Sun": "Солнце", "Moist": "Влажный", "Large": "Большой", "Variant1": "Вариант 1",
+              "Variant2": "Вариант 2", "Variant3": "Вариант 3", "Variant4": "Вариант 4"}
 # Уровни улучшений доходного дома (UpgradeType.*: TenementUpgrade.GetName возвращает имя значения): мужской род,
 # как у слова «уровень». Строчными игра пишет их в названиях задач ремонта ("Apt 1 shabby bathroom").
 LEVELS = {"None": "Нет", "Bare": "Голый", "Makeshift": "Самодельный", "Shabby": "Убогий", "Decent": "Приличный",
@@ -64,6 +66,17 @@ TALK_TITLES = {"Hole": "Дыра", "Interviewers": "Интервьюеры", "Ma
 COMFORT = {"Torturous": "мучительно", "Aching": "всё ломит", "Uncomfortable": "неудобно", "Okay": "сносно",
            "Pleasant": "приятно", "Relaxing": "расслабляет", "Comfy": "уютно"}
 SAFETY = {"Unsafe": "опасно", "Safeish": "относительно безопасно"}
+# Названия улучшений в уведомлении об уборке перед ремонтом (TenementController.GetApartmentUpgradeName,
+# GetGeneralUpgradeName: имя категории строчными или особое название) — в родительном падеже после «ремонта».
+# Каждое — внутри своей фразы "the <имя> renovation…": отдельные "water", "mine" перевели бы и чужие строки.
+RENOVATIONS = {
+    "electricity": "электрики", "water": "водопровода", "plumbing": "водопровода", "heating": "отопления",
+    "bathroom": "ванной", "walls": "стен", "kitchen": "кухни", "balcony": "балкона", "extension": "пристройки",
+    "heating room": "котельной", "stairwell": "лестничной клетки", "elevator": "лифта", "facade": "фасада",
+    "basement": "подвала", "basement sauna": "сауны в подвале", "basement mushroom farm": "грибной фермы в подвале",
+    "rooftop greenhouse": "теплицы на крыше", "sauna and pier": "сауны и причала", "workshop": "мастерской",
+    "mine": "шахты", "courtyard": "двора", "fence": "забора",
+}
 # Врач: состояние психического здоровья (TreatmentMentalHealth.Status*.description) и фразы, которые код дописывает
 # к заключению через пробел (утиная зависимость, кровотечение). Переводы — те же, что у самих фраз в ui.json.
 DOCTOR_MENTAL = {
@@ -244,6 +257,9 @@ def entries():
     text("quickslot/scroll", "(Scroll to change)", "(Колесо мыши — сменить)", "QuickSlotBar: смена варианта")
     text("quickslot/dpad", "(D-Pad to change)", "(Крестовина — сменить)", "QuickSlotBar: смена варианта на геймпаде")
     tpl("quickslot/skill", "(Skill: {0} {1})", "(Навык: {0} {1})", "QuickSlotBar: для семян нужен навык (Growing)")
+    # Повтор действия при удержании (QuickSlotBar: "(LMB to plant) (Hold - Keep planting)"); имя повтора — аргумент
+    # QuickSlotBar.Show в Growing.cs. Строчными: стоит после «удерживать —» в шаблоне "{0} (Hold - {1})" из code.json.
+    text("quickslot/keep-planting", "Keep planting", "сажать дальше", "QuickSlotBar: повтор посадки при удержании")
     # Гостиница (Hotel.cs): кнопка номера — "<номер>: <цена> per night" или "Room: <цена> per night".
     # Строка управления в режиме перемещения предметов (BuildingSystemMenu.GetButtonInfo): "клавиша)ПОДПИСЬ" через три пробела;
     # обозначение клавиши остаётся как в игре, переводится подпись. "FREE" — только в этой строке (общее "Free" — «Бесплатно»).
@@ -252,6 +268,28 @@ def entries():
                  ("REMOVE OBJECT", "УБРАТЬ ОБЪЕКТ"), ("ROTATION MODE:FREE", "РЕЖИМ ПОВОРОТА:СВОБОДНЫЙ")):
         text("building-hint/" + k, k, v, "BuildingSystemMenu: строка управления в режиме перемещения")
     tpl("building-hint/rotation-mode", "ROTATION MODE:{0}", "РЕЖИМ ПОВОРОТА:{0}", "BuildingSystemMenu: шаг поворота в градусах")
+    # Взлом замка (PlayerLockpicking.ConstructLockpickMessage): шесть готовых подсказок; с 26349752 между словами
+    # длинное тире. Целиком: иначе фраза собирается из обрывков кода (" — Easy)" и т. п.) по-разному.
+    for k, v in (("Effortless", "Пустяк"), ("Easy", "Легко"), ("Moderate", "Средне"), ("Challenging", "Непросто"),
+                 ("Difficult", "Сложно"), ("Impossible", "Невозможно")):
+        text("lockpick/" + k, "(Lockpick — %s)" % k, "(Взлом — %s)" % v, "PlayerLockpicking: подсказка у запертой двери")
+    tpl("lockpick/chance", "(Lockpick — {0})", "(Взлом — {0})", "PlayerLockpicking: на случай нового уровня сложности")
+    # Подсказка к требованию улучшения (UpgradeRequirementUI): заголовок, ниже "Подвал: Самодельный".
+    text("upgrade/required", "Minimum required upgrade", "Минимальное требуемое улучшение", "UpgradeRequirementUI: подсказка")
+    # Уведомления ремонта (TenementUpgradeCleanupArea.ReportCleanup, TenementController): ремонт склеивается из
+    # "the <улучшение> renovation[ in apartment N]", название улучшения игра пишет строчными.
+    text("renovation/cleanup", "Renovation cleanup", "Уборка перед ремонтом", "Notifications: заголовок")
+    for k, v in RENOVATIONS.items():
+        tpl("renovation/apartment/" + k, "the %s renovation in apartment {0}" % k, "ремонта %s в квартире {0}" % v,
+            "TenementUpgradeCleanupArea.GetRenovationText")
+        text("renovation/general/" + k, "the %s renovation" % k, "ремонта %s" % v, "TenementUpgradeCleanupArea.GetRenovationText")
+    tpl("renovation/furniture", "Furniture moved to your furniture inventory to make way for {0}.",
+        "Мебель перенесена в инвентарь мебели, чтобы освободить место для {0}.", "TenementUpgradeCleanupArea")
+    tpl("renovation/item", "1 item was packed to make way for {0}.", "1 предмет упакован, чтобы освободить место для {0}.",
+        "TenementUpgradeCleanupArea")
+    tpl("renovation/items", "{0} items were packed to make way for {1}.", "Упаковано предметов: {0}, чтобы освободить место для {1}.",
+        "TenementUpgradeCleanupArea")
+    text("tenement/resident-moved", "Resident moved", "Жилец переехал", "TenementController: уведомление, ниже имя жильца")
     tpl("hotel/per-night", "{0} per night", "{0} за ночь", "Hotel: цена номера")
     tpl("hotel/room", "Room: {0} per night", "Номер: {0} за ночь", "Hotel: цена номера без названия")
     # Окно жильца (TenementResidentRentUI): подсказки к требованиям.

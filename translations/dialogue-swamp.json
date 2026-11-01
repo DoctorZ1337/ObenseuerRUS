@@ -3,7 +3,7 @@
   "category": "dialogue-swamp",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/36/1", "kind": "dialogue", "conv": 36, "entry": 1, "source": "So many new people.\\,\\,\\, We're\\, running out of space\\,\\, and so many of them\\, are going to\\,\\, die.\\,\\,\\, Someone has to help them\\,\\,, but no one is listening to them.\\,\\,\\, It's getting worse\\, day by day\\,\\, and soon it will be too late.\\,\\, They should move us out of the city...\\,\\, out of Stalburg.", "target": "Столько новых людей.\\,\\,\\, У нас\\, заканчивается место\\,\\,, и очень многие из них\\, скоро\\,\\, умрут.\\,\\,\\, Кто-то должен им помочь\\,\\,, но никто их не слушает.\\,\\,\\, С каждым\\, днём всё хуже\\,\\,, и скоро будет слишком поздно.\\,\\, Нас должны вывезти из города...\\,\\, из Stalburg.", "status": "translated", "context": "Swamp/Krista Annina | Krista Annina"},
     {"id": "dlg/36/2", "kind": "dialogue", "conv": 36, "entry": 2, "source": "Who needs help exactly?", "target": "Кому именно нужна помощь?", "status": "translated", "context": "Swamp/Krista Annina | Player"},

@@ -3,7 +3,7 @@
   "category": "dialogue-tenement",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/156/1", "kind": "dialogue", "conv": 156, "entry": 1, "source": "My dear neighbor!\\,\\,\\, You shouldn't be here.", "target": "Мой дорогой соседушка!\\,\\,\\, Тебе здесь не место.", "status": "translated", "context": "Tenement/Crazy Neighbor/Crazy Neighbor | Crazy Neighbor"},
     {"id": "dlg/156/2", "kind": "dialogue", "conv": 156, "entry": 2, "source": "Get out of here\\,\\, or I'll\\, do something you don't like.", "target": "Уходи отсюда\\,\\,, или я\\, сделаю то, что тебе не понравится.", "status": "translated", "context": "Tenement/Crazy Neighbor/Crazy Neighbor | Crazy Neighbor"},
@@ -429,7 +429,7 @@
     {"id": "dlg/124/15", "kind": "dialogue", "conv": 124, "entry": 15, "source": "Cut it out!\\,\\,\\, Don't make a habit of bothering me like this\\,\\,, or you'll regret it.", "target": "Хватит!\\,\\,\\, Не смей так меня дёргать\\,\\,, а то пожалеешь.", "status": "translated", "context": "Tenement/Gatehouse/Guard Call | Guard"},
     {"id": "dlg/124/16", "kind": "dialogue", "conv": 124, "entry": 16, "source": "You\\, think this is\\,\\, funny?\\,\\,\\,\\, Stop wasting\\, my\\, time\\,\\, before I decide to teach you a lesson\\, you won't forget.", "target": "Ты\\, думаешь, это\\,\\, смешно?\\,\\,\\,\\, Хватит тратить\\, моё\\, время\\,\\,, пока я не решил преподать тебе урок\\,, который ты не забудешь.", "status": "translated", "context": "Tenement/Gatehouse/Guard Call | Guard"},
     {"id": "dlg/124/17", "kind": "dialogue", "conv": 124, "entry": 17, "source": "Alright\\,\\,\\,, you've asked for it.", "target": "Ну всё\\,\\,\\,, получай.", "status": "translated", "context": "Tenement/Gatehouse/Guard Call | Guard"},
-    {"id": "dlg/124/19", "kind": "dialogue", "conv": 124, "entry": 19, "source": "Of\\, course...\\,\\,\\, it's\\,\\, [lua(GetCrimeFineAmount())] RM.", "target": "Само\\, собой...\\,\\,\\, это\\,\\, [lua(GetCrimeFineAmount())] РД.", "status": "translated", "context": "Tenement/Gatehouse/Guard Call | Guard"},
+    {"id": "dlg/124/19", "kind": "dialogue", "conv": 124, "entry": 19, "source": "Of\\, course...\\,\\,\\, it's\\,\\, [lua(GetCrimeFineAmount())] OC.", "target": "Само\\, собой...\\,\\,\\, это\\,\\, [lua(GetCrimeFineAmount())] КМ.", "status": "translated", "context": "Tenement/Gatehouse/Guard Call | Guard"},
     {"id": "dlg/124/20", "kind": "dialogue", "conv": 124, "entry": 20, "source": "No.", "target": "Нет.", "status": "translated", "context": "Tenement/Gatehouse/Guard Call | Guard"},
     {"id": "dlg/124/21", "kind": "dialogue", "conv": 124, "entry": 21, "source": "Okay (Leave)", "target": "Ладно (Уйти)", "status": "translated", "context": "Tenement/Gatehouse/Guard Call | Player"},
     {"id": "dlg/124/22", "kind": "dialogue", "conv": 124, "entry": 22, "source": "I can pay it (Pay)", "target": "Могу заплатить (Заплатить)", "status": "translated", "context": "Tenement/Gatehouse/Guard Call | Player"},

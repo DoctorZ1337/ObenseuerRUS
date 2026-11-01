@@ -3,7 +3,7 @@
   "category": "dialogue-generic",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/116/1", "kind": "dialogue", "conv": 116, "entry": 1, "source": "Hands... off!", "target": "Руки.. прочь!", "status": "translated", "context": "Generic/Crime | ???"},
     {"id": "dlg/116/2", "kind": "dialogue", "conv": 116, "entry": 2, "source": "Hey!", "target": "Эй!", "status": "translated", "context": "Generic/Crime | ???"},
@@ -202,6 +202,14 @@
     {"id": "dlg/483/9", "kind": "dialogue", "conv": 483, "entry": 9, "source": "Couldn't hold it, huh?", "target": "Не утерпеть было, да?", "status": "translated", "context": "Generic/Soiled Pants | ???"},
     {"id": "dlg/483/10", "kind": "dialogue", "conv": 483, "entry": 10, "source": "Ah, another average day in Obenseuer...", "target": "Ах, очередной обычный день в Obenseuer...", "status": "translated", "context": "Generic/Soiled Pants | ???"},
     {"id": "dlg/483/11", "kind": "dialogue", "conv": 483, "entry": 11, "source": "Unbelievable...", "target": "Невероятно...", "status": "translated", "context": "Generic/Soiled Pants | ???"},
-    {"id": "dlg/483/12", "kind": "dialogue", "conv": 483, "entry": 12, "source": "Is that... smell...?", "target": "Это что... за запах...?", "status": "translated", "context": "Generic/Soiled Pants | ???"}
+    {"id": "dlg/483/12", "kind": "dialogue", "conv": 483, "entry": 12, "source": "Is that... smell...?", "target": "Это что... за запах...?", "status": "translated", "context": "Generic/Soiled Pants | ???"},
+    {"id": "dlg/488/1", "kind": "dialogue", "conv": 488, "entry": 1, "source": "Alright\\,\\,, that covers the\\, final payment...", "target": "Итак\\,\\,, это\\, последний платёж...", "status": "translated", "context": "Generic/Upgrades/Electricity | "},
+    {"id": "dlg/488/2", "kind": "dialogue", "conv": 488, "entry": 2, "source": "... your tenement is\\, hooked up to the grid.", "target": "... ваш доходный дом\\, подключён к сети.", "status": "translated", "context": "Generic/Upgrades/Electricity | "},
+    {"id": "dlg/488/3", "kind": "dialogue", "conv": 488, "entry": 3, "source": "But\\,\\, you'll need to\\, get an\\, electricity contract\\,\\, if you haven't already.", "target": "Но\\,\\, вам нужно\\, заключить\\, договор на электричество\\,\\, если вы ещё этого не сделали.", "status": "translated", "context": "Generic/Upgrades/Electricity | "},
+    {"id": "dlg/488/4", "kind": "dialogue", "conv": 488, "entry": 4, "source": "I recommend\\, going to OS Power Company\\, next to the slums\\, and setting up\\, an electricity contract with them.", "target": "Рекомендую\\, сходить в компанию OS Power Company\\, возле трущоб\\, и заключить\\, договор с ними.", "status": "translated", "context": "Generic/Upgrades/Electricity | "},
+    {"id": "dlg/488/5", "kind": "dialogue", "conv": 488, "entry": 5, "source": "Where exactly is OS Power Company?", "target": "Где именно находится OS Power Company?", "status": "translated", "context": "Generic/Upgrades/Electricity | Player"},
+    {"id": "dlg/488/6", "kind": "dialogue", "conv": 488, "entry": 6, "source": "Okay (Leave)", "target": "Ладно (Уйти)", "status": "translated", "context": "Generic/Upgrades/Electricity | Player"},
+    {"id": "dlg/488/7", "kind": "dialogue", "conv": 488, "entry": 7, "source": "Well\\,\\,, it's next to the slums.\\,\\, They've got\\, a big sign on their roof\\,, and\\, there's\\, a pawn shop right next to\\, their building.", "target": "Ну\\,\\,, возле трущоб.\\,\\, У них\\, большая вывеска на крыше\\,, а\\, рядом\\, с их зданием\\, ломбард.", "status": "translated", "context": "Generic/Upgrades/Electricity | "},
+    {"id": "dlg/488/8", "kind": "dialogue", "conv": 488, "entry": 8, "source": "I'll\\, mark it on your map.", "target": "Я\\, отмечу это на вашей карте.", "status": "translated", "context": "Generic/Upgrades/Electricity | "}
   ]
 }

@@ -3,7 +3,7 @@
   "category": "dialogue-metro",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/182/2", "kind": "dialogue", "conv": 182, "entry": 2, "source": "Why are you sitting here?", "target": "Почему ты тут сидишь?", "status": "translated", "context": "Metro/Mason Jokinen | Player"},
     {"id": "dlg/182/3", "kind": "dialogue", "conv": 182, "entry": 3, "source": "Just\\, chilling.", "target": "Просто\\, отдыхаю.", "status": "translated", "context": "Metro/Mason Jokinen | Mason Jokinen"},

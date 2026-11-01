@@ -3,7 +3,7 @@
   "category": "dialogue-mines",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/202/2", "kind": "dialogue", "conv": 202, "entry": 2, "source": "I think...\\, you're\\, new here.", "target": "Кажется...\\, ты\\, здесь недавно.", "status": "translated", "context": "Mines/Canteen/Anna Markkanen | Anna Markkanen"},
     {"id": "dlg/202/4", "kind": "dialogue", "conv": 202, "entry": 4, "source": "Hello!\\,\\, What can I get for\\, you?", "target": "Привет!\\,\\, Что тебе\\, предложить?", "status": "translated", "context": "Mines/Canteen/Anna Markkanen | Anna Markkanen"},

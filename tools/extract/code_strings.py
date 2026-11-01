@@ -39,8 +39,9 @@ SINKS = [
     re.compile(r"\b(?:\w*[uU]seMessage|title|objectName|noRequiredItemsText|cantUseText)\s*=\s*(?P<e>.+);\s*$"),
     re.compile(r"\b(?:AddText|AddList|HintContent|ShowLine|ShowHint|SetHint|ShowTutorialButton)\((?P<e>.+)\)"),
     # Локальные переменные, из которых потом собирается текст окна или подсказки (PlayerStatsToolTipInfo и т.п.).
-    re.compile(r"^\s*(?:string\s+)?(?:title|details|description|message|msg|info|label|tooltip|header|"
-               r"unlockedMsg|lockedMsg|warning|hint|useText|text\d*)\s*\+?=\s*(?P<e>.+);\s*$"),
+    # По окончанию имени, а не списком: в 26349752 text6 = "Hold - " + … стало holdText = …, и шаблон пропал.
+    re.compile(r"^\s*(?:string\s+)?(?:details|description|msg|info|label|tooltip|header|unlockedMsg|lockedMsg|warning|hint|"
+               r"\w*[tT]ext\d*|\w*[tT]itle|\w*[mM]essage)\s*\+?=\s*(?P<e>.+);\s*$"),
     # Подписи строки управления: KeyCodeInfoToString(text, "DRAG & DROP", ...).
     re.compile(r"KeyCodeInfoToString\(\s*\w+\s*,\s*(?P<e>\"[^\"]*\")"),
 ]

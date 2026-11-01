@@ -3,7 +3,7 @@
   "category": "dialogue-resident",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26179069",
+  "gameBuild": "26349752",
   "entries": [
     {"id": "dlg/70/1", "kind": "dialogue", "conv": 70, "entry": 1, "source": "Why don't men know how to go to the bathroom\\,\\, without making\\, a mess all over the place...", "target": "Почему мужики не умеют ходить в туалет\\,\\,, не устраивая\\, бардак повсюду...", "status": "translated", "context": "Resident/Agnes Takala | Agnes Takala"},
     {"id": "dlg/70/2", "kind": "dialogue", "conv": 70, "entry": 2, "source": "Can I rent you an apartment?", "target": "Могу сдать тебе квартиру", "status": "translated", "context": "Resident/Agnes Takala | Player"},
