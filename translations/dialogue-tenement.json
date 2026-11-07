@@ -3,7 +3,7 @@
   "category": "dialogue-tenement",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/156/1", "kind": "dialogue", "conv": 156, "entry": 1, "source": "My dear neighbor!\\,\\,\\, You shouldn't be here.", "target": "Мой дорогой соседушка!\\,\\,\\, Тебе здесь не место.", "status": "translated", "context": "Tenement/Crazy Neighbor/Crazy Neighbor | Crazy Neighbor"},
     {"id": "dlg/156/2", "kind": "dialogue", "conv": 156, "entry": 2, "source": "Get out of here\\,\\, or I'll\\, do something you don't like.", "target": "Уходи отсюда\\,\\,, или я\\, сделаю то, что тебе не понравится.", "status": "translated", "context": "Tenement/Crazy Neighbor/Crazy Neighbor | Crazy Neighbor"},

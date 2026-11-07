@@ -19,7 +19,8 @@ TASTE = {"Fantastic": "фантастический", "Good": "хороший", 
          "Bad": "плохой", "Poor": "слабый", "Bland": "пресный"}
 EFFICACY = {"Fantastic": "фантастическая", "Fine": "отличная", "Good": "хорошая", "Okay": "нормальная",
             "Passable": "сносная", "Poor": "слабая", "None": "нет"}
-QUALITY = {"Bad": "плохое", "Good": "хорошее"}
+# Остальные качества ("Quality: Crap" и т.д.) — в таблице ObjectName; Perfect (0.5.17+) в таблицах нет.
+QUALITY = {"Bad": "плохое", "Good": "хорошее", "Perfect": "идеальное"}
 CARD_KEYS = {"Request Card": "Попросить карту", "Sort Cards": "Сортировать карты", "Call Ready": "Объявить готовность",
              "Pickup Pile": "Забрать стопку", "Risk Draw": "Рискнуть взять карту", "Pass Turn": "Пасовать",
              "Show Hints": "Показать подсказки", "Hold to View Table": "Удерживайте, чтобы осмотреть стол",
@@ -62,6 +63,14 @@ TALK_TITLES = {"Hole": "Дыра", "Interviewers": "Интервьюеры", "Ma
                "Hazmat Guy": "Человек в химзащите", "Patient": "Пациент", "Shadow woman": "Женщина-тень",
                "Shadow Burnt Apartment": "Тень из сгоревшей квартиры", "Shadow Lagerfeld 1": "Тень Lagerfeld 1",
                "Shadow Lagerfeld 2": "Тень Lagerfeld 2", "Shadow Lagerfeld 3": "Тень Lagerfeld 3"}
+# Владельцы вещей, которые не являются людьми с именами (Character.FullName в подсказке "Stolen - <владелец>",
+# "Owned - <владелец>"; ui_rules пропускает класс Character, потому что в нём имена людей).
+OWNER_NAMES = {"Bazaar Police": "Полиция Базара", "Bazaar Bank": "Банк Базара",
+               "Gold Store Police": "Полиция ювелирного магазина", "Slum Police": "Полиция трущоб",
+               "Tenement Backyard Police": "Полиция двора доходного дома",
+               "Tenement Market Square Police": "Полиция рыночной площади доходного дома",
+               "Hostel Placeholder guy": "Парень из хостела", "Junk trader": "Старьёвщик", "Tenant": "Жилец",
+               "The doctor": "Доктор", "Private Lötjönen": "Рядовой Lötjönen"}
 # Sleep.GetTitle: удобство кровати и безопасность места.
 COMFORT = {"Torturous": "мучительно", "Aching": "всё ломит", "Uncomfortable": "неудобно", "Okay": "сносно",
            "Pleasant": "приятно", "Relaxing": "расслабляет", "Comfy": "уютно"}
@@ -138,6 +147,26 @@ RAW_TITLES = {
                 "Sewer fish grow": "Разведение канализационной рыбы", "Small farm": "Маленькая ферма",
                 "Sugarbeet Plant": "Сахарная свёкла (растение)", "Tire pot": "Горшок из шины",
                 "Tomato plant": "Томат (растение)", "Turnip Plant": "Репа (растение)"},
+    # DamageType.deathMessages — причина смерти под надписью «МЁРТВ» (PlayerStatsUI.ShowDeathEffect).
+    # Глагольные — деепричастием, чтобы подходили и мужскому, и женскому персонажу.
+    "death": {
+        "Open Sewer claims an another victim": "Открытая Клоака забрала ещё одну жертву", "drown": "утонув",
+        "due to exposure to a deadly fluid": "от контакта со смертельной жидкостью", "forgot to eat": "забыв поесть",
+        "from an explosion": "от взрыва", "of SMV": "от СГВ", "of a deadly liquid": "от смертельной жидкости",
+        "of a fatal liquid": "от гибельной жидкости", "of a lethal fluid": "от смертоносной жидкости",
+        "of addiction": "от зависимости", "of beating": "от побоев", "of becoming a mushroom": "превратившись в гриб",
+        "of bleeding": "от кровопотери", "of burn": "от ожогов", "of crash": "разбившись",
+        "of dehydration": "от обезвоживания", "of desperation": "от отчаяния", "of electricity": "от удара током",
+        "of fall": "от падения", "of gas": "от газа", "of high-velocity projectile": "от скоростной пули",
+        "of hunger": "от голода", "of ignoring geigercounter": "не послушав счётчик Гейгера", "of impact": "от удара",
+        "of lack of fat": "от нехватки жира", "of lack of intoxicant": "от нехватки дурмана",
+        "of lack of turnips": "от нехватки репы", "of mushrooms": "от грибов", "of poison": "от яда",
+        "of projectile": "от пули", "of radiation": "от радиации", "of self BBQ": "от самоподжарки",
+        "of self removal": "от самоустранения", "of shit seizure": "от сраных судорог", "of starvation": "от истощения",
+        "of suicide": "от самоубийства", "of terminal velocity": "от предельной скорости", "of thirst": "от жажды",
+        "of toxins": "от токсинов", "of unspecified reason": "по неизвестной причине", "of violence": "от насилия",
+        "of withdrawal symptons": "от ломки",
+    },
     # Trade — торговые точки (имена владельцев и бренды остаются как есть).
     "shop": {"Henning's shop": "Лавка Henning", "One stop shop": "Всё в одном", "Seamus' potatoes": "Картошка Seamus",
              "Selmas's Stall": "Прилавок Selma", "Sirkku's Flower Stall": "Цветочный прилавок Sirkku",
@@ -242,6 +271,8 @@ def entries():
         text("efficacy/" + k, "Efficacy: " + k, "Эффективность: " + v, "ToolTip.MentalHealthMedicineDataToString")
     for k, v in QUALITY.items():
         text("quality/" + k, "Quality: " + k, "Качество: " + v, "ToolTip.QualityDataToString")
+    # Без "Quality: " (RecipeInfoUI, qualityOnly) — мужской род, как остальные в таблице ToolTip ("Excellent" — «Отличный»).
+    text("quality-only/Perfect", "Perfect", "Идеальный", "ToolTip.QualityDataToString(qualityOnly: true)")
     for k, v in CARD_KEYS.items():
         tpl("cards/" + k, k + " ({0})", v + " ({0})", "CardGameUI: строка подсказки с клавишей")
     for k, v in DAYS.items():
@@ -386,6 +417,8 @@ def entries():
 
     for k, v in TALK_TITLES.items():
         text("talk/" + k, k, v, "InteractableTalk.title или имя актёра диалога: подпись собеседника, не имя")
+    for k, v in OWNER_NAMES.items():
+        text("owner/" + k, k, v, "Character.FullName владельца в подсказке предмета: \"Stolen - <владелец>\", не имя человека")
 
     # Строки одного места (scope): общий перевод того же текста здесь не подходит.
     # Заставка интро: "OPEN SEWER" собрана из двух надписей с центрами под половинками английской фразы.
@@ -443,7 +476,8 @@ def entries():
          "Спасибо всем, кто участвовал в разработке игры:", "Титры (Credits)")
 
     # Строки из объектов, у которых UnityPy не читает дерево типов (tools/extract/scan_raw.py). Имён полей там нет,
-    # поэтому сюда отобраны только видимые названия: счета и письма RandommailSender, станки, грядки, полки магазинов.
+    # поэтому сюда отобраны только видимые названия: счета и письма RandommailSender, станки, грядки, полки магазинов,
+    # причины смерти DamageType.
     for group, table in RAW_TITLES.items():
         for k, v in table.items():
             text("raw/%s/%s" % (group, k), k, v, "scan_raw.py: " + group)

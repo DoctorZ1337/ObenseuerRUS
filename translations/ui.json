@@ -3,7 +3,7 @@
   "category": "ui",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "ui/d91a7693a9d5", "kind": "text", "source": "\nSPECIAL THANKS\n\nPam Davols\n\nAntero Ganto\n\nJimmy Hammer\n\nRanpo Kovaleuka\n\nBob Marmers\n\nBob Newmum\n\nYrjö Perämuta\n\nOsmo Rantuvaara\n\nOrnald Schwarzenjärvi\n\nTim Urslålund\n\nMarlun Östurs\n\r\nThe City of Stalburg", "target": "\nОСОБАЯ БЛАГОДАРНОСТЬ\n\nPam Davols\n\nAntero Ganto\n\nJimmy Hammer\n\nRanpo Kovaleuka\n\nBob Marmers\n\nBob Newmum\n\nYrjö Perämuta\n\nOsmo Rantuvaara\n\nOrnald Schwarzenjärvi\n\nTim Urslålund\n\nMarlun Östurs\n\nГород Stalburg", "status": "translated", "context": "TextMeshProUGUI:m_text"},
     {"id": "ui/f47401427644", "kind": "text", "source": " Player Name", "target": " Имя игрока", "status": "translated", "context": "TextMeshProUGUI:m_text"},
@@ -2319,7 +2319,7 @@
     {"id": "ui/a8087d99ccfa", "kind": "text", "source": "Skeida Pharmacy", "target": "Аптека Skeida", "status": "translated", "context": "DoorChangelevel:title"},
     {"id": "ui/a34aec244359", "kind": "text", "source": "Skeida Trade Road", "target": "Skeida на Trade Road", "status": "translated", "context": "MarketShop:marketName"},
     {"id": "ui/4e3bbd572a02", "kind": "text", "source": "Skill: Manufacturing", "target": "Навык: производство", "status": "translated", "context": "TextMeshProUGUI:m_text"},
-    {"id": "ui/b40c8293f4b4", "kind": "text", "source": "Skill: Skill Name\nProcess time: 10 h\nFail change: 100%\nQuality chance: ++", "target": "Навык: название навыка\nВремя обработки: 10 ч\nШанс неудачи: 100%\nШанс качества: ++", "status": "translated", "context": "TextMeshProUGUI:m_text"},
+    {"id": "ui/ceecb3be284a", "kind": "text", "source": "Skill: Skill Name\nProcess time: 10 h\nPower: 10 kW\nFail change: 100%\nQuality chance: ++", "target": "Навык: название навыка\nВремя обработки: 10 ч\nМощность: 10 кВт\nШанс неудачи: 100%\nШанс качества: ++", "status": "translated", "context": "TextMeshProUGUI:m_text"},
     {"id": "ui/1fd63d64906b", "kind": "text", "source": "Skills: Quality", "target": "Навыки: качество", "status": "translated", "context": "LoadingScreen:hintList[].title"},
     {"id": "ui/8f57bd613278", "kind": "text", "source": "Skin", "target": "Кожа", "status": "translated", "context": "TextMeshProUGUI:m_text"},
     {"id": "ui/8789f6ce1549", "kind": "text", "source": "Skip Intro", "target": "Пропустить заставку", "status": "translated", "context": "TextMeshProUGUI:m_text"},

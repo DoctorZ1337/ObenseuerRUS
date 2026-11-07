@@ -3,7 +3,7 @@
   "category": "dialogue-center",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/66/1", "kind": "dialogue", "conv": 66, "entry": 1, "source": "Select floor.", "target": "Выберите этаж.", "status": "translated", "context": "Center/Doorphone: Osmo | Doorphone"},
     {"id": "dlg/66/3", "kind": "dialogue", "conv": 66, "entry": 3, "source": "Floor 1", "target": "Этаж 1", "status": "translated", "context": "Center/Doorphone: Osmo | Player"},

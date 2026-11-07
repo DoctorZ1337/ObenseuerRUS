@@ -3,7 +3,7 @@
   "category": "dialogue-resident-relatives",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/60/1", "kind": "dialogue", "conv": 60, "entry": 1, "source": "I'm not allowed to talk to strangers...", "target": "Мне нельзя разговаривать с незнакомыми...", "status": "translated", "context": "Resident Relatives/Daniel Nilsson | Daniel Nilsson[м]"},
     {"id": "dlg/136/2", "kind": "dialogue", "conv": 136, "entry": 2, "source": "Yrnghrr.", "target": "Ырнгхрр.", "status": "translated", "context": "Resident Relatives/Hall Kääbus | Hall Kääbus"},

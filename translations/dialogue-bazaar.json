@@ -3,7 +3,7 @@
   "category": "dialogue-bazaar",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/57/17", "kind": "dialogue", "conv": 57, "entry": 17, "source": "Please\\,\\,, have a\\, seat.\\,\\,\\, We're\\, about to begin.", "target": "Пожалуйста, \\,\\,\\,присаживайтесь. \\,\\,\\,\\,Мы скоро начнём.", "status": "translated", "context": "Bazaar/Pontikka/Arvo Kirkastaja | Arvo Kirkastaja"},
     {"id": "dlg/57/18", "kind": "dialogue", "conv": 57, "entry": 18, "source": "Congratulations\\,\\,, you\\, now know\\, the basics\\, of the\\, art of\\, moonshining.\\,\\,\\, Here\\,\\,, take this\\, diploma.", "target": "Поздравляю, \\,\\,\\,теперь ты \\,знаешь \\,основы \\,\\,самогоноварения. \\,\\,\\,Вот, \\,\\,держи \\,диплом.", "status": "translated", "context": "Bazaar/Pontikka/Arvo Kirkastaja | Arvo Kirkastaja"},

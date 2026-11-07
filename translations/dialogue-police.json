@@ -3,7 +3,7 @@
   "category": "dialogue-police",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/88/1", "kind": "dialogue", "conv": 88, "entry": 1, "source": "Hey, I have a few questions for you.", "target": "Эй, у меня к тебе пара вопросов.", "status": "translated", "context": "Police/Police | Police"},
     {"id": "dlg/88/2", "kind": "dialogue", "conv": 88, "entry": 2, "source": "Fine, you got me, I'll pay what I owe ([lua(GetCrimeFineAmount())] RM)", "target": "Ладно, попались. Заплачу, сколько с меня причитается ([lua(GetCrimeFineAmount())] РД)", "status": "translated", "context": "Police/Police | Player"},

@@ -3,7 +3,7 @@
   "category": "dialogue-wasteland",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/160/1", "kind": "dialogue", "conv": 160, "entry": 1, "source": "THE  CONNECTION  SEVEN  NINE  ZERO  FIVE  IS  OPEN", "target": "СОЕДИНЕНИЕ  СЕМЬ  ДЕВЯТЬ  НОЛЬ  ПЯТЬ  ОТКРЫТО", "status": "translated", "context": "Wasteland/City Gates Enity | ???"},
     {"id": "dlg/160/3", "kind": "dialogue", "conv": 160, "entry": 3, "source": "THE  FOLLOWING  IS  A  WARNING  TO  THE  ENTITY", "target": "ДАЛЕЕ  СЛЕДУЕТ  ПРЕДУПРЕЖДЕНИЕ  ДЛЯ  СУЩНОСТИ", "status": "translated", "context": "Wasteland/City Gates Enity | ???"},

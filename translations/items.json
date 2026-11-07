@@ -3,7 +3,7 @@
   "category": "items",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "item/0/title", "kind": "text", "source": "Open Sewer Coin", "target": "Клоачная монета", "status": "translated", "context": "Название предмета #0 (Money)"},
     {"id": "item/0/desc", "kind": "text", "source": "It's a local coin", "target": "Местная монета", "status": "translated", "context": "Описание предмета #0 (Money) | название: Open Sewer Coin"},
@@ -2043,7 +2043,6 @@
     {"id": "recipe/1387919da882", "kind": "text", "source": "Small Glass Bottles", "target": "Маленькие стеклянные бутылки", "status": "translated", "context": "Название рецепта (кнопка станка), тип Furnace, навык Manufacturing"},
     {"id": "recipe/4ad062769ab4", "kind": "text", "source": "Petridishes", "target": "Чашки Петри", "status": "translated", "context": "Название рецепта (кнопка станка), тип Furnace, навык Manufacturing"},
     {"id": "recipe/07b14fecfb85", "kind": "text", "source": "Pints", "target": "Пинты", "status": "translated", "context": "Название рецепта (кнопка станка), тип Furnace, навык Manufacturing"},
-    {"id": "recipe/7534d7d47d18", "kind": "text", "source": "Wine Bottles Copy", "target": "Винные бутылки", "status": "translated", "context": "Название рецепта (кнопка станка), тип Furnace, навык Manufacturing"},
     {"id": "recipe/96b434ab5e5e", "kind": "text", "source": "Clean Green mushrooms", "target": "Очищенные зелёные грибы", "status": "translated", "context": "Название рецепта (кнопка станка), тип GrowMushrooms, навык Farming"},
     {"id": "recipe/36f5ad35d401", "kind": "text", "source": "Mason Jars", "target": "Стеклянные банки", "status": "translated", "context": "Название рецепта (кнопка станка), тип Furnace, навык Manufacturing"},
     {"id": "recipe/f7faac57efcb", "kind": "text", "source": "Gutter Oil", "target": "Сточное масло", "status": "translated", "context": "Название рецепта (кнопка станка), тип ChemicalLab, навык Chemistry"},

@@ -23,8 +23,9 @@ namespace ObenseuerRUS.Core
         // Строка управления: "C)DRAG & DROP   R)DROP   Tab)EXIT" — подсказки разделены несколькими пробелами.
         private static readonly Regex Gap = new Regex("( {2,})", RegexOptions.CultureInvariant);
         private static readonly Regex KeyHint = new Regex(@"^([^()\s]{1,16})\)(\S.*)$", RegexOptions.CultureInvariant);
-        // "Grow turnips for Jomppe 0/10" — ObjectiveUI дописывает счётчик к названию цели; "Cucumber Seeds (5)" — CollectibleItem число предметов.
-        private static readonly Regex Counter = new Regex(@"^(\S.*\S) (\d+/\d+|\(\d+\))$", RegexOptions.CultureInvariant);
+        // "Grow turnips for Jomppe 0/10" — ObjectiveUI дописывает счётчик к названию цели; "Cucumber Seeds (5)" — CollectibleItem число предметов;
+        // "Water cooler (85%)" — LiquidStorage заполненность.
+        private static readonly Regex Counter = new Regex(@"^(\S.*\S) (\d+/\d+|\(\d+%?\))$", RegexOptions.CultureInvariant);
         // Для журнала непереведённого: слово из двух и более латинских букв (коды вроде "OC" тоже попадут — журнал отладочный).
         private static readonly Regex LatinWord = new Regex("[A-Za-z]{2,}", RegexOptions.CultureInvariant);
         private const string TrailingPunctuation = "!?.:…";

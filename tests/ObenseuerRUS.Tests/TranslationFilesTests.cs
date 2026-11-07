@@ -126,6 +126,10 @@ namespace ObenseuerRUS.Tests
         [InlineData("Contains 29.74717 OS Coins", "Монет Obenseuer внутри: 29.74717")]
         [InlineData("(LMB to plant) (Hold - Keep planting)", "(LMB — посадить) (удерживать — сажать дальше)")]
         [InlineData("Cat Climbing Tree (Empty)", "Домик-когтеточка (пусто)")]
+        [InlineData("Water cooler (85%)", "Кулер для воды (85%)")]
+        [InlineData("of poison", "от яда")]
+        [InlineData("Stolen - Hostel Placeholder guy", "Краденое — Парень из хостела")]
+        [InlineData("Owned - Bazaar Police", "Собственность — Полиция Базара")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

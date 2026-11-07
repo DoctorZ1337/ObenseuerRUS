@@ -3,7 +3,7 @@
   "category": "dialogue-cutscenes",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/84/1", "kind": "dialogue", "conv": 84, "entry": 1, "source": "Another victim...\\,\\,\\,\\, it doesn't seem to react\\,\\, to anything.\\,\\,\\,\\, What do we do with it?\\,\\,\\, We can't save it\\,\\,\\,, but there is something weird about this one.\\,\\,\\, I need to\\,\\, examine it more closely.", "target": "Ещё одна жертва...\\,\\,\\,\\, похоже, оно не реагирует\\,\\, ни на что.\\,\\,\\,\\, Что нам с ним делать?\\,\\,\\, Спасти его мы не можем\\,\\,\\,, но с этим что-то не так.\\,\\,\\, Мне нужно\\,\\, осмотреть его повнимательнее.", "status": "translated", "context": "CutScenes/Ending/SMV Ending | ???"},
     {"id": "dlg/84/2", "kind": "dialogue", "conv": 84, "entry": 2, "source": "Help...", "target": "Помогите...", "status": "translated", "context": "CutScenes/Ending/SMV Ending | Player"},

@@ -3,7 +3,7 @@
   "category": "dialogue-generic",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/116/1", "kind": "dialogue", "conv": 116, "entry": 1, "source": "Hands... off!", "target": "Руки.. прочь!", "status": "translated", "context": "Generic/Crime | ???"},
     {"id": "dlg/116/2", "kind": "dialogue", "conv": 116, "entry": 2, "source": "Hey!", "target": "Эй!", "status": "translated", "context": "Generic/Crime | ???"},

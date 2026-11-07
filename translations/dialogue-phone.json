@@ -3,7 +3,7 @@
   "category": "dialogue-phone",
   "sourceLanguage": "en",
   "targetLanguage": "ru",
-  "gameBuild": "26349752",
+  "gameBuild": "26404221",
   "entries": [
     {"id": "dlg/194/1", "kind": "dialogue", "conv": 194, "entry": 1, "source": "Hello?", "target": "Алло?", "status": "translated", "context": "Phone/Event/Tenement A Phone | Player"},
     {"id": "dlg/194/3", "kind": "dialogue", "conv": 194, "entry": 3, "source": "(End the call)", "target": "(Завершить звонок)", "status": "translated", "context": "Phone/Event/Tenement A Phone | Player"},
