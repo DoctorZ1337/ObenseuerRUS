@@ -26,6 +26,8 @@ namespace ObenseuerRUS.Core
         // "Grow turnips for Jomppe 0/10" — ObjectiveUI дописывает счётчик к названию цели; "Cucumber Seeds (5)" — CollectibleItem число предметов;
         // "Water cooler (85%)" — LiquidStorage заполненность.
         private static readonly Regex Counter = new Regex(@"^(\S.*\S) (\d+/\d+|\(\d+%?\))$", RegexOptions.CultureInvariant);
+        // "Package (Pipes)" — CollectiblePackage, "Pet Carrier (Contains Items!)" — BuildingSystemMenu: пояснение в скобках после названия.
+        private static readonly Regex Qualifier = new Regex(@"^([^()]*[^()\s]) \(([^()]+)\)$", RegexOptions.CultureInvariant);
         // Для журнала непереведённого: слово из двух и более латинских букв (коды вроде "OC" тоже попадут — журнал отладочный).
         private static readonly Regex LatinWord = new Regex("[A-Za-z]{2,}", RegexOptions.CultureInvariant);
         private const string TrailingPunctuation = "!?.:…";
@@ -251,6 +253,13 @@ namespace ObenseuerRUS.Core
             if (counter.Success)
             {
                 if (Take(ref best, Wrap("", Core(counter.Groups[1].Value, depth + 1), " " + counter.Groups[2].Value))) return best;
+            }
+            Match qualifier = Qualifier.Match(text);
+            if (qualifier.Success)
+            {
+                Result th = Core(qualifier.Groups[1].Value, depth + 1), ti = Core(qualifier.Groups[2].Value, depth + 1);
+                if (th != null && ti != null &&
+                    Take(ref best, new Result(th.Text + " (" + ti.Text + ")", th.Misses + ti.Misses, th.Uses + ti.Uses))) return best;
             }
             int colon = text.IndexOf(": ", StringComparison.Ordinal);
             if (colon > 0 && colon <= 48)

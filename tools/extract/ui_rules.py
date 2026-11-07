@@ -24,10 +24,14 @@ SKIP_CLASSES = {
     "TenementResident", "GUIButton", "logic_state",
 }
 # Отдельные поля вне правила выше: вопросы при создании персонажа, подсказки InteractableRelay,
-# профессия и семейное положение жильца (ResidentImageUI: "Job: ...", "Relationship: ..."), названия писем-подарков.
+# профессия и семейное положение жильца (ResidentImageUI: "Job: ...", "Relationship: ..."), названия писем-подарков,
+# вывеска закрытого магазина.
 EXTRA_FIELDS = {"SelectionButton:Options[].Name", "StartSelection:selections[].title", "StartSelection:question",
                 "InteractableRelay:m_useMessage", "Character:Job", "Character:Relationship",
-                "Relationship:gifts[].mail[].mailNames[]"}
+                "Relationship:gifts[].mail[].mailNames[]",
+                # DoorSchedule: название и подсказка двери магазина вне часов работы ("(Open mon-sat 06-23)").
+                "DoorSchedule:UsableClosedMessage", "DoorSchedule:UsableClosedUse",
+                "DoorSchedule:UsableStandardMsg", "DoorSchedule:UsableStandardUse"}
 PLACEHOLDERS = {"new text", "text", "label", "button", "placeholder", "name", "title", "test", "description", "trigger", "use"}
 GUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
 IDENT = re.compile(r"^[A-Za-z0-9_.\-]+$")

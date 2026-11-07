@@ -130,6 +130,9 @@ namespace ObenseuerRUS.Tests
         [InlineData("of poison", "от яда")]
         [InlineData("Stolen - Hostel Placeholder guy", "Краденое — Парень из хостела")]
         [InlineData("Owned - Bazaar Police", "Собственность — Полиция Базара")]
+        [InlineData("Package (Pipes)", "Посылка (Трубы)")]
+        [InlineData("Package (3 items)", "Посылка (предметов: 3)")]
+        [InlineData("Pet Carrier (Contains Items!)", "Переноска для животных (Внутри есть предметы!)")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

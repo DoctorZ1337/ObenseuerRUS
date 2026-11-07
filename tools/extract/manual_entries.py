@@ -414,6 +414,8 @@ def entries():
     for n in range(2, 8):
         word = "ночи" if n < 5 else "ночей"
         tpl("hotel/nights-%d" % n, "%d nights: {0}" % n, "%d %s: {0}" % (n, word), "Hotel: срок и цена номера")
+    # CollectiblePackage.UpdateTitle: название посылки и число предметов в ней ("Package (3 items)").
+    tpl("package/items", "{0} ({1} items)", "{0} (предметов: {1})", "CollectiblePackage: посылка из нескольких предметов")
 
     for k, v in TALK_TITLES.items():
         text("talk/" + k, k, v, "InteractableTalk.title или имя актёра диалога: подпись собеседника, не имя")

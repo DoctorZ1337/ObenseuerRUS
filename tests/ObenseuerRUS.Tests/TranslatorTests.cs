@@ -259,6 +259,15 @@ namespace ObenseuerRUS.Tests
         }
 
         [Fact]
+        public void Slot_glued_to_letter_takes_only_numbers()
+        {
+            var days = new Template("{0}d", "{0} дн.");
+            Assert.Equal("5 дн.", days.TryApply("5d", null));
+            Assert.Null(days.TryApply("Closed", null));
+            Assert.Equal("Накоплено: 5 kW·ч", new Template("Cumulative: {0}h", "Накоплено: {0}·ч").TryApply("Cumulative: 5 kWh", null));
+        }
+
+        [Fact]
         public void Todo_entries_are_not_used()
         {
             var catalog = new Catalog();

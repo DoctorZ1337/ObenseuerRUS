@@ -43,8 +43,12 @@ namespace ObenseuerRUS.Core
                 greedyPattern.Append(Regex.Escape(literal));
                 int n = m.Groups[1].Value[0] - '0';
                 if (!seen.Add(n)) throw new InvalidDataException("повтор {" + n + "} в шаблоне");
-                lazyPattern.Append("(?<s").Append(n).Append(">[^\\n]+?)");
-                greedyPattern.Append("(?<s").Append(n).Append(">[^\\n]+)");
+                // Часть вплотную к букве ("{0}d", "{1}h") — число с единицей ("5d", "5 kWh"), а не кусок слова:
+                // без цифры "{0}d" делило "Closed" на «Закрыть» + «дн.».
+                int after = m.Index + m.Length;
+                bool glued = (literal.Length > 0 && IsLatin(literal[literal.Length - 1])) || (after < source.Length && IsLatin(source[after]));
+                lazyPattern.Append("(?<s").Append(n).Append(glued ? ">[^\\n]*?\\d[^\\n]*?)" : ">[^\\n]+?)");
+                greedyPattern.Append("(?<s").Append(n).Append(glued ? ">[^\\n]*\\d[^\\n]*)" : ">[^\\n]+)");
                 at = m.Index + m.Length;
             }
             string tail = source.Substring(at);
@@ -116,9 +120,11 @@ namespace ObenseuerRUS.Core
             int n = 0;
             foreach (char c in s)
             {
-                if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z')) n++;
+                if (IsLatin(c)) n++;
             }
             return n;
         }
+
+        private static bool IsLatin(char c) => (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');
     }
 }
