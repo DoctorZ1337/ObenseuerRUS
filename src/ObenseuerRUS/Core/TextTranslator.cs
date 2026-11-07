@@ -223,21 +223,22 @@ namespace ObenseuerRUS.Core
             {
                 return Wrap(text.Substring(0, start), Core(text.Substring(start, end - start), depth + 1), text.Substring(end));
             }
-            if (text.IndexOf("  ", StringComparison.Ordinal) > 0) return Join(Gap.Split(text), "", depth);
             // Дальше правила могут пересекаться ("Job: KEBAB MASTER!" — и знак в конце, и "Имя: текст"):
             // пробуются все, первый полный перевод побеждает, иначе — лучший частичный.
             Result best = null;
+            // "(Steal)" — UseText сам добавляет скобки вокруг подписи из таблицы. До деления по пробелам:
+            // "(Current: 0 W  -  Cumulative: ...)" целиком подходит шаблону PowerMeter, а по кускам — нет.
+            if (text.Length > 2 && text[0] == '(' && text[text.Length - 1] == ')')
+            {
+                if (Take(ref best, Wrap("(", Core(text.Substring(1, text.Length - 2), depth + 1), ")"))) return best;
+            }
+            if (text.IndexOf("  ", StringComparison.Ordinal) > 0) return Better(best, Join(Gap.Split(text), "", depth));
             Match key = KeyHint.Match(text);
             if (key.Success)
             {
                 // Обозначение клавиши ("Tab", "Enter", "LMB") остаётся как в игре: это название кнопки, а не текст.
                 Result label = Core(key.Groups[2].Value, depth + 1);
                 if (label != null && Take(ref best, new Result(key.Groups[1].Value + ")" + label.Text, label.Misses, label.Uses))) return best;
-            }
-            // "(Steal)" — UseText сам добавляет скобки вокруг подписи из таблицы.
-            if (text.Length > 2 && text[0] == '(' && text[text.Length - 1] == ')')
-            {
-                if (Take(ref best, Wrap("(", Core(text.Substring(1, text.Length - 2), depth + 1), ")"))) return best;
             }
             // "Thirst!" — PlayerStatUI дописывает знак к названию показателя.
             int stem = text.Length;

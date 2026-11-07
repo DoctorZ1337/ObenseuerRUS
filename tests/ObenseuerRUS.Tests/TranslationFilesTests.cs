@@ -133,6 +133,9 @@ namespace ObenseuerRUS.Tests
         [InlineData("Package (Pipes)", "Посылка (Трубы)")]
         [InlineData("Package (3 items)", "Посылка (предметов: 3)")]
         [InlineData("Pet Carrier (Contains Items!)", "Переноска для животных (Внутри есть предметы!)")]
+        [InlineData("(Current: 0 W  -  Cumulative: 16 Wh  -  Max: 8 kW  -  Used: 0%)",
+                    "(Сейчас: 0 Вт  -  Накоплено: 16 Вт·ч  -  Макс.: 8 кВт  -  Загрузка: 0%)")]
+        [InlineData("External clean water source", "Внешний источник: чистая вода")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

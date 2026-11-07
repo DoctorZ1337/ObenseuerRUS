@@ -416,6 +416,12 @@ def entries():
         tpl("hotel/nights-%d" % n, "%d nights: {0}" % n, "%d %s: {0}" % (n, word), "Hotel: срок и цена номера")
     # CollectiblePackage.UpdateTitle: название посылки и число предметов в ней ("Package (3 items)").
     tpl("package/items", "{0} ({1} items)", "{0} (предметов: {1})", "CollectiblePackage: посылка из нескольких предметов")
+    # ManufacturingPowerUI.GetUnitString: text + power + " W" (знак "+" и число — одна склейка, code_strings её пропускает);
+    # "{0} kW" — в code.json.
+    tpl("power/W", "{0} W", "{0} Вт", "ManufacturingPowerUI.GetUnitString")
+    tpl("power/MW", "{0} MW", "{0} МВт", "ManufacturingPowerUI.GetUnitString")
+    # LiquidStoragePanelUI.UpdateFill: "External " + название жидкости строчными + " source" — без падежа, через двоеточие.
+    tpl("liquid/external-source", "External {0} source", "Внешний источник: {0}", "LiquidStoragePanelUI: внешний источник жидкости")
 
     for k, v in TALK_TITLES.items():
         text("talk/" + k, k, v, "InteractableTalk.title или имя актёра диалога: подпись собеседника, не имя")
