@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.Text.RegularExpressions;
 using ObenseuerCore;
 using ObenseuerRUS.Core;
 using TMPro;
@@ -48,6 +50,81 @@ namespace ObenseuerRUS
                 failed = true;
                 return text;
             }
+        }
+    }
+
+    /// <summary>
+    /// Надпись в мире (вывеска, табличка): табличка нарисована под английский текст, а рамка TextMeshPro у вывесок
+    /// условная (100×100 при кегле 2), поэтому перенос строк не спасает. Если перевод шире оригинала,
+    /// он уменьшается тегом size до ширины оригинала. Автоподбор размера игры (таблички с фамилиями) делает это сам.
+    /// </summary>
+    internal sealed class SignPreprocessor : ITextPreprocessor
+    {
+        private const float MinScale = 0.55f;
+        private static readonly Regex Tag = new Regex("<[^<>]*>", RegexOptions.CultureInvariant);
+        private readonly TMP_Text text;
+        private readonly RusPreprocessor inner;
+
+        public SignPreprocessor(TMP_Text text, RusPreprocessor inner)
+        {
+            this.text = text;
+            this.inner = inner;
+        }
+
+        public string PreprocessText(string source)
+        {
+            string shown = inner.PreprocessText(source);
+            if (shown == source || text == null || text.enableAutoSizing || text.font == null) return shown;
+            try
+            {
+                float before = Width(source), after = Width(shown);
+                if (before <= 0f || after <= before * 1.02f) return shown;
+                // Оригинал не помещается в рамку и переносится (подписи над NPC): это текстовое поле, а не вывеска.
+                float box = text.rectTransform.rect.width - text.margin.x - text.margin.z;
+                float unit = text.fontSize * (text.isOrthographic ? 1f : 0.1f);
+                if (text.textWrappingMode != TextWrappingModes.NoWrap && before * unit > box) return shown;
+                float scale = Mathf.Max(MinScale, before / after);
+                return "<size=" + Mathf.FloorToInt(scale * 100f).ToString(CultureInfo.InvariantCulture) + "%>" + shown;
+            }
+            catch (Exception)
+            {
+                return shown;
+            }
+        }
+
+        /// <summary>Ширина самой длинной строки в долях кегля — так же, как её считает TextMeshPro (без тегов).</summary>
+        private float Width(string s)
+        {
+            s = Tag.Replace(s, "");
+            FontStyles style = text.fontStyle;
+            if ((style & (FontStyles.UpperCase | FontStyles.SmallCaps)) != 0) s = s.ToUpperInvariant();
+            else if ((style & FontStyles.LowerCase) != 0) s = s.ToLowerInvariant();
+            float spacing = text.characterSpacing * 0.01f, max = 0f, line = 0f;
+            foreach (char c in s)
+            {
+                if (c == '\n')
+                {
+                    max = Mathf.Max(max, line);
+                    line = 0f;
+                    continue;
+                }
+                line += Advance(c) + spacing;
+            }
+            return Mathf.Max(max, line);
+        }
+
+        private float Advance(char c)
+        {
+            bool alternative;
+            TMP_FontAsset font = text.font;
+            TMP_Character ch = TMP_FontAssetUtilities.GetCharacterFromFontAsset(c, font, true, FontStyles.Normal, FontWeight.Regular, out alternative);
+            if (ch == null && TMP_Settings.fallbackFontAssets != null)
+            {
+                ch = TMP_FontAssetUtilities.GetCharacterFromFontAssets(c, font, TMP_Settings.fallbackFontAssets, true, FontStyles.Normal, FontWeight.Regular, out alternative);
+            }
+            if (ch == null || ch.glyph == null) return 0f;
+            TMP_FontAsset owner = ch.textAsset as TMP_FontAsset ?? font;
+            return ch.glyph.metrics.horizontalAdvance * ch.scale * owner.faceInfo.scale / owner.faceInfo.pointSize;
         }
     }
 
@@ -128,7 +205,8 @@ namespace ObenseuerRUS
                 return;
             }
             string scope = ObjectScope(text);
-            text.textPreprocessor = scope != null ? RusPreprocessor.For(scope) : RusPreprocessor.Instance;
+            RusPreprocessor p = scope != null ? RusPreprocessor.For(scope) : RusPreprocessor.Instance;
+            text.textPreprocessor = text is TextMeshPro ? new SignPreprocessor(text, p) : (ITextPreprocessor)p;
         }
 
         /// <summary>
@@ -143,7 +221,7 @@ namespace ObenseuerRUS
             return RusPreprocessor.Translator.HasScope(scope) ? scope : null;
         }
 
-        private static bool IsOurs(ITextPreprocessor p) => p is RusPreprocessor || p is ReadOnlyFieldPreprocessor;
+        private static bool IsOurs(ITextPreprocessor p) => p is RusPreprocessor || p is ReadOnlyFieldPreprocessor || p is SignPreprocessor;
 
         /// <summary>Подключает перевод к уже созданным объектам и просит перерисовать видимые.</summary>
         public static void Sweep()

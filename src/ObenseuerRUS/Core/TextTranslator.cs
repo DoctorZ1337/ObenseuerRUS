@@ -22,7 +22,11 @@ namespace ObenseuerRUS.Core
         private static readonly Regex Tag = new Regex(@"<[^<>\n]{1,96}>", RegexOptions.CultureInvariant);
         // Строка управления: "C)DRAG & DROP   R)DROP   Tab)EXIT" — подсказки разделены несколькими пробелами.
         private static readonly Regex Gap = new Regex("( {2,})", RegexOptions.CultureInvariant);
-        private static readonly Regex KeyHint = new Regex(@"^([^()\s]{1,16})\)(\S.*)$", RegexOptions.CultureInvariant);
+        // Клавиша может состоять из двух слов: "Left CTRL)NEUTRAL" (Minitrain).
+        private static readonly Regex KeyHint = new Regex(@"^([^()\s](?:[^()]{0,14}[^()\s])?)\)(\S.*)$", RegexOptions.CultureInvariant);
+        // "Кажется, было... 27 OC за литр." — в русскую реплику игра подставила сумму (Money.FormatMoneyAmount: "27 OC", "12.50 RM").
+        private static readonly Regex Currency = new Regex(@"(?<=\d) (OC|RM)(?![A-Za-z])", RegexOptions.CultureInvariant);
+        private static readonly Regex Cyrillic = new Regex("[А-Яа-яЁё]", RegexOptions.CultureInvariant);
         // "Grow turnips for Jomppe 0/10" — ObjectiveUI дописывает счётчик к названию цели; "Cucumber Seeds (5)" — CollectibleItem число предметов;
         // "Water cooler (85%)" — LiquidStorage заполненность.
         private static readonly Regex Counter = new Regex(@"^(\S.*\S) (\d+/\d+|\(\d+%?\))$", RegexOptions.CultureInvariant);
@@ -94,6 +98,12 @@ namespace ObenseuerRUS.Core
                 memo.Clear();
             }
             result = r?.Text ?? text;
+            // "OC" — код (IsCode), а не промах, поэтому проверяется любая строка с кириллицей.
+            if (Cyrillic.IsMatch(result))
+            {
+                string code;
+                result = Currency.Replace(result, m => Lookup(m.Groups[1].Value, out code) ? " " + code : m.Value);
+            }
             if (Names != null) result = Names.Apply(result);
             if (cache.Count >= CacheLimit) cache.Clear();
             cache[key] = result;

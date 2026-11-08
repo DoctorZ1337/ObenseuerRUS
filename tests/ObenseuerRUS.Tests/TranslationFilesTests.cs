@@ -136,6 +136,12 @@ namespace ObenseuerRUS.Tests
         [InlineData("(Current: 0 W  -  Cumulative: 16 Wh  -  Max: 8 kW  -  Used: 0%)",
                     "(Сейчас: 0 Вт  -  Накоплено: 16 Вт·ч  -  Макс.: 8 кВт  -  Загрузка: 0%)")]
         [InlineData("External clean water source", "Внешний источник: чистая вода")]
+        [InlineData("MANAGEMENT", "УПРАВЛЕНИЕ")]
+        [InlineData("W)MOVE FORWARD   S)MOVE BACKWARDS   Left CTRL)NEUTRAL   Space)BRAKE   E)EXIT",
+                    "W)ВПЕРЁД   S)НАЗАД   Left CTRL)НЕЙТРАЛЬ   Space)ТОРМОЗ   E)ВЫХОД")]
+        // Русская реплика с суммой, которую подставила игра (Lua-поле Price = "27 OC").
+        [InlineData("Кажется, было... 27 OC за литр.", "Кажется, было... 27 КМ за литр.")]
+        [InlineData("No Ammo", "Нечем зарядить")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

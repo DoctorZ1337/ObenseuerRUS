@@ -416,6 +416,9 @@ def entries():
         tpl("hotel/nights-%d" % n, "%d nights: {0}" % n, "%d %s: {0}" % (n, word), "Hotel: срок и цена номера")
     # CollectiblePackage.UpdateTitle: название посылки и число предметов в ней ("Package (3 items)").
     tpl("package/items", "{0} ({1} items)", "{0} (предметов: {1})", "CollectiblePackage: посылка из нескольких предметов")
+    # Minitrain.GetControlsText: "W)MOVE FORWARD   S)MOVE BACKWARDS   Left CTRL)NEUTRAL   Space)BRAKE   E)EXIT" (EXIT — в таблицах).
+    for k, v in {"MOVE FORWARD": "ВПЕРЁД", "MOVE BACKWARDS": "НАЗАД", "NEUTRAL": "НЕЙТРАЛЬ", "BRAKE": "ТОРМОЗ"}.items():
+        text("minitrain/" + k, k, v, "Minitrain: строка управления вагонеткой")
     # ManufacturingPowerUI.GetUnitString: text + power + " W" (знак "+" и число — одна склейка, code_strings её пропускает);
     # "{0} kW" — в code.json.
     tpl("power/W", "{0} W", "{0} Вт", "ManufacturingPowerUI.GetUnitString")
@@ -436,6 +439,9 @@ def entries():
     scoped("object/intro-sewer", "object:Text Screen/SEWER", "SEWER", "      КЛОАКА",
            "Интро (level1, Main/Text Screen/SEWER): правая половина надписи «OPEN SEWER»")
     # Круглая кнопка в окне предмета вмещает около пяти букв в строке.
+    # Табличка "Private" на двери (level77, меловой шрифт): общий перевод «Личное» — от звания Private Lötjönen.
+    scoped("object/private-sign", "object:apartment_sign_001_custom_text/text", "Private", "Не входить",
+           "Табличка на двери (apartment_sign_001_custom_text)")
     scoped("object/drop-button", "object:Drop button/ButtonText", "Drop", "Бро-\nсить",
            "Окно предмета: круглая кнопка Drop (Info Panel/.../Buttons/Drop button)")
     # Подсказка UseText на лестнице "(Drop)"; у UseText scope action (см. TmpLocalizer).

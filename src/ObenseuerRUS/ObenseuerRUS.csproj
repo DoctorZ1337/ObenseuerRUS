@@ -7,7 +7,7 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>ObenseuerRUS</AssemblyName>
     <RootNamespace>ObenseuerRUS</RootNamespace>
-    <Version>0.5.10</Version>
+    <Version>0.5.11</Version>
     <Nullable>disable</Nullable>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
@@ -71,6 +71,11 @@
       <HintPath>$(FrameworkDll)</HintPath>
       <Private>false</Private>
     </Reference>
+  </ItemGroup>
+
+  <!-- Кириллица Roboto для вывесок — внутри DLL: помощник обновления версий до 0.5.10 не пропускает новые файлы в fonts/. -->
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\RobotoCyrillic-Regular.ttf" LogicalName="RobotoCyrillic-Regular.ttf" />
   </ItemGroup>
 
   <Target Name="CheckObenseuerSetup" BeforeTargets="PrepareForBuild">
