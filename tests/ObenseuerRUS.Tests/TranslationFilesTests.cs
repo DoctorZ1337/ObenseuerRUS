@@ -142,6 +142,10 @@ namespace ObenseuerRUS.Tests
         // Русская реплика с суммой, которую подставила игра (Lua-поле Price = "27 OC").
         [InlineData("Кажется, было... 27 OC за литр.", "Кажется, было... 27 КМ за литр.")]
         [InlineData("No Ammo", "Нечем зарядить")]
+        [InlineData("Violence +100", "Насилие +100")]
+        [InlineData("Animal Cruelty +25", "Жестокое обращение с животными +25")]
+        [InlineData("Money added to bank account: Unemployment Benefits!", "Деньги зачислены на банковский счёт: Пособие по безработице!")]
+        [InlineData("Editing. Press 'Tab' to finish", "Редактирование. Нажмите «Tab», чтобы закончить")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));
@@ -196,6 +200,8 @@ namespace ObenseuerRUS.Tests
         [InlineData("action", "(Get off (Level 2))", "(Слезть (уровень 2))")]
         [InlineData("action", "No light", "Нечем прикурить")]
         [InlineData("action", "Owned", "Собственность")]
+        [InlineData("action", "(Axe: Chop)", "(Топор: Рубить)")]
+        [InlineData("action", "(Pickaxe: Mine)", "(Кирка: Добывать)")]
         // Игровой автомат: подсказки кнопок фиксации барабана и выигрышной линии.
         [InlineData("action", "(Center)", "(Центральный барабан)")]
         [InlineData("action", "(Left locked)", "(Левый барабан зафиксирован)")]

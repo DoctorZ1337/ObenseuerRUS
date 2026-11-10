@@ -417,6 +417,16 @@ def entries():
     # CollectiblePackage.UpdateTitle: название посылки и число предметов в ней ("Package (3 items)").
     tpl("package/items", "{0} ({1} items)", "{0} (предметов: {1})", "CollectiblePackage: посылка из нескольких предметов")
     # Minitrain.GetControlsText: "W)MOVE FORWARD   S)MOVE BACKWARDS   Left CTRL)NEUTRAL   Space)BRAKE   E)EXIT" (EXIT — в таблицах).
+    # EditableSign: UseText "(Editing. Press '<клавиша>' to finish)" — правка надписи на табличке.
+    tpl("sign/editing", "Editing. Press '{0}' to finish", "Редактирование. Нажмите «{0}», чтобы закончить",
+        "EditableSign: подсказка во время правки надписи")
+    # Crime.CreateNotifications: "Crime committed:" + "<вид> +<очки>"; вид — имя Crime.CrimeType или его [Description].
+    # Шаблон на каждый вид: общий "{0} +{1}" подошёл бы любой строке с плюсом.
+    for k, v in {"Unspecified": "Прочее", "Theft": "Кража", "Violence": "Насилие", "Fraud": "Мошенничество",
+                 "Prison Escape": "Побег из тюрьмы", "Administrative": "Административное", "Animal Cruelty": "Жестокое обращение с животными",
+                 "Trespassing": "Незаконное проникновение", "Burglary": "Кража со взломом", "Harassment": "Приставания",
+                 "Vandalism": "Вандализм", "Terrorism": "Терроризм"}.items():
+        tpl("crime/" + k, k + " +{0}", v + " +{0}", "Crime: уведомление о преступлении")
     for k, v in {"MOVE FORWARD": "ВПЕРЁД", "MOVE BACKWARDS": "НАЗАД", "NEUTRAL": "НЕЙТРАЛЬ", "BRAKE": "ТОРМОЗ"}.items():
         text("minitrain/" + k, k, v, "Minitrain: строка управления вагонеткой")
     # ManufacturingPowerUI.GetUnitString: text + power + " W" (знак "+" и число — одна склейка, code_strings её пропускает);
@@ -445,6 +455,9 @@ def entries():
     scoped("object/drop-button", "object:Drop button/ButtonText", "Drop", "Бро-\nсить",
            "Окно предмета: круглая кнопка Drop (Info Panel/.../Buttons/Drop button)")
     # Подсказка UseText на лестнице "(Drop)"; у UseText scope action (см. TmpLocalizer).
+    # WorkableResourceSource.actiontitle: "(Топор: Chop)" — действие инструмента; общее "Mine" — существительное «Шахта».
+    scoped("action/resource-chop", "action", "Chop", "Рубить", "WorkableResourceSource: действие инструмента")
+    scoped("action/resource-mine", "action", "Mine", "Добывать", "WorkableResourceSource: действие инструмента")
     scoped("action/ladder-drop", "action", "Drop", "Спрыгнуть", "InteractableLadder: UseText \"(Drop)\" — слезть с лестницы")
     # Игровой автомат: кнопки фиксации барабана (заголовок "Lock") подписаны именем SlotMachineHelper.LockStatuses;
     # в общем словаре "Left"/"Right" — направления управления («Влево»).

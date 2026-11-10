@@ -10,7 +10,7 @@ using UnityEngine.SceneManagement;
 
 namespace ObenseuerRUS
 {
-    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.5.11")]
+    [ModInfo("obenseuerrus", "Русификатор Obenseuer", "0.5.12")]
     [ModDependency("obenseuer.moddingframework", "0.12.0")]
     public sealed class RusMod : FrameworkMod
     {
