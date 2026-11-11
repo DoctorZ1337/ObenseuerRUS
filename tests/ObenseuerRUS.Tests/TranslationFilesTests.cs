@@ -146,6 +146,10 @@ namespace ObenseuerRUS.Tests
         [InlineData("Animal Cruelty +25", "Жестокое обращение с животными +25")]
         [InlineData("Money added to bank account: Unemployment Benefits!", "Деньги зачислены на банковский счёт: Пособие по безработице!")]
         [InlineData("Editing. Press 'Tab' to finish", "Редактирование. Нажмите «Tab», чтобы закончить")]
+        [InlineData("Required skill: \n<b>Carpentry 4</b>", "Нужный навык:\n<b>Плотничество 4</b>")]
+        [InlineData("Mail ScamInvoice ready to be sent\n", "Письмо «Мошеннический счёт» готово к отправке\n")]
+        [InlineData("Interesting", "Интересно")]
+        [InlineData("Time to read: 1.5h", "Время чтения: 1.5 ч")]
         public void Real_catalog_translates_game_strings(string source, string expected)
         {
             var tr = new TextTranslator(Catalog.LoadDirectory(TranslationsDir()));

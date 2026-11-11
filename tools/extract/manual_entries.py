@@ -367,7 +367,21 @@ def entries():
     tpl("tooltip/certificate-value", "Certificate for {0} at nominal value of {1} OC", "Сертификат: {0}, номинал {1} КМ",
         "ToolTip.CertificateDataToString")
     tpl("tooltip/connectivity", "{0} ,{1}", "{0}, {1}", "ToolTip.ConnectivityDataToString: сети через запятую без пробела")
+    # ToolTip.MailableDataToString подставляет ItemMailableData.mailName — внутреннее имя письма из Items.json
+    # ("Mail StalburgBankRequestLetter ready to be sent"). Названия короче названий предметов: «Письмо «Запрос…»».
+    for k, v in {"StalburgBankRequestLetter": "Запрос в Stalburg Bank", "StalburgBankRequestForm": "Заполненный бланк Stalburg Bank",
+                 "ScamInvoice": "Мошеннический счёт"}.items():
+        text("mail-name/" + k, k, v, "Items.json: ItemMailableData.mailName")
+    # ItemInfoPanel: значки читаемого предмета (интерес, время чтения, рецепты); ItemReadable.Name во всех предметах — "Read".
+    for k, v in {"Fascinating": "Захватывающе", "Interesting": "Интересно", "Mildly interesting": "Довольно интересно",
+                 "Depressive": "Удручающе", "Boring": "Скучно"}.items():
+        text("readable/" + k, k, v, "ItemInfoPanel: подсказка значка интереса у читаемого предмета")
+    tpl("readable/time", "Time to read: {0}", "Время чтения: {0}", "ItemInfoPanel: \"Time to \" + ItemReadable.Name + \": 1.5h\"")
+    tpl("readable/recipes", "Contains ~{0} recipes", "Рецептов внутри: ~{0}", "ItemInfoPanel: число рецептов в книге")
     tpl("tooltip/required-skill", "Required skill: <b>{0} {1}</b>", "Нужный навык: <b>{0} {1}</b>", "ToolTip.Activate(TaskItem): чертёж")
+    # Кнопка окна строительства (ShopBaseUI): то же с переводом строки после двоеточия.
+    tpl("shop/required-skill", "Required skill: \n<b>{0} {1}</b>", "Нужный навык:\n<b>{0} {1}</b>",
+        "ShopBaseUI: кнопка чертежа без нужного навыка")
     tpl("tooltip/required-in-apartment", "Required in: Apartment {0} {1}", "Нужно для: квартира {0}, {1}",
         "TenementController.CreateMarkedItemToolTipText: отмеченное улучшение квартиры")
     tpl("money/not-enough", "Not enough {0}", "Недостаточно {0}", "MoneySliderPanel")
